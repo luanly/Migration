@@ -1,0 +1,584 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<!--<Nullable>enable</Nullable>-->
+	</PropertyGroup>
+	
+	<PropertyGroup>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DefineConstants>DEBUG</DefineConstants>
+		<NoWarn>1701;1702</NoWarn>
+		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+		<WarningsAsErrors>NU1605;CS4014;NU1701</WarningsAsErrors>
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+	  <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+	  <WarningsAsErrors>NU1605;CS4014;NU1701</WarningsAsErrors>
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="Resources\EmailButtonTemplate.html" />
+		<Content Include="Resources\EmailPlainTextTemplate.txt" />
+		<Content Include="Resources\EmailWithoutButtonTemplate.html" />
+		<Content Include="Shibboleth\Anleitung.txt" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="Properties\Resources.Designer.cs">
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		  <DependentUpon>Resources.resx</DependentUpon>
+		</Compile>
+		<Compile Update="Query\FetchXml\EmailExists.cs">
+		  <DependentUpon>EmailExists.tt</DependentUpon>
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\CampusContractIntersecQuery.cs">
+			<DependentUpon>CampusContractIntersecQuery.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetCampusContractByKey.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>GetCampusContractByKey.tt</DependentUpon>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetCampusContractLastLogins.cs">
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		  <DependentUpon>GetCampusContractLastLogins.tt</DependentUpon>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetCampusContractLicenses.cs">
+		  <DependentUpon>GetCampusContractLicenses.tt</DependentUpon>
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetCampusContractLicenses.cs">
+			<DependentUpon>GetCampusContractLicenses.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetCampusContractLicensesByOrgaName.cs">
+			<DependentUpon>GetCampusContractLicensesByOrgaName.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetCampusContracts.cs">
+			<DependentUpon>GetCampusContracts.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetCampusContractUserStatistic.cs">
+		  <DependentUpon>GetCampusContractUserStatistic.tt</DependentUpon>
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetCampusContractStatisticByDate.cs">
+			<DependentUpon>GetCampusContractStatisticByDate.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetCampusContractUserStatistic.cs">
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		  <DependentUpon>GetCampusContractUserStatistic.tt</DependentUpon>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetCleverbridgeProducts.cs">
+			<DependentUpon>GetCleverbridgeProducts.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetContactByContactProperty.cs">
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		  <DependentUpon>GetContactByContactProperty.tt</DependentUpon>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetContactByLinkedAccount.cs">
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		  <DependentUpon>GetContactByLinkedAccount.tt</DependentUpon>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetLicensesFromContractByState - Kopieren.cs">
+		  <DependentUpon>GetLicensesFromContractByState.tt</DependentUpon>
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetLinkedAccountStatistics.cs">
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		  <DependentUpon>GetLinkedAccountStatistics.tt</DependentUpon>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetMergedContactByKey.cs">
+		  <DependentUpon>GetMergedContactByKey.tt</DependentUpon>
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetExpiredLicenses.cs">
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		  <DependentUpon>GetExpiredLicenses.tt</DependentUpon>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetMergedContactByKey.cs">
+			<DependentUpon>GetMergedContactByKey.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetContactByLicenseVerificationKey.cs">
+			<DependentUpon>GetContactByLicenseVerificationKey.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetContactByLinkedEmailAccount.cs">
+			<DependentUpon>GetContactByLinkedEmailAccount.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetCrm4Contact.cs">
+			<DependentUpon>GetCrm4Contact.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetEmailDomains.cs">
+			<DependentUpon>GetEmailDomains.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetEmailDomainUsers.cs">
+			<DependentUpon>GetEmailDomainUsers.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetIPRanges.cs">
+			<DependentUpon>GetIPRanges.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetTrialLicensesWithoutExpiryDate.cs">
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		  <DependentUpon>GetTrialLicensesWithoutExpiryDate.tt</DependentUpon>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetOrderProcess.cs">
+			<DependentUpon>GetOrderProcess.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetOrganizationSetting.cs">
+			<DependentUpon>GetOrganizationSetting.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetPendingDeleteProjects.cs">
+			<DependentUpon>GetPendingDeleteProjects.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetProjectMembers.cs">
+		  <DependentUpon>GetProjectMembers.tt</DependentUpon>
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetProjectMembers.cs">
+			<DependentUpon>GetProjectMembers.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetProjectOwner.cs">
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		  <DependentUpon>GetProjectOwner.tt</DependentUpon>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetProjectRole.cs">
+			<DependentUpon>GetProjectRole.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetProjectRoleByConfirmationKey.cs">
+			<DependentUpon>GetProjectRoleByConfirmationKey.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetProjectRoleByKey.cs">
+			<DependentUpon>GetProjectRoleByKey.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetResellerByExclusiveCountries.cs">
+			<DependentUpon>GetResellerByExclusiveCountries.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetUserCitaviSpace.cs">
+			<DependentUpon>GetUserCitaviSpace.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetUserFullName.cs">
+			<DependentUpon>GetUserFullName.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetUserImage.cs">
+			<DependentUpon>GetUserImage.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetUserLicenses.cs">
+			<DependentUpon>GetUserLicenses.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetUserLinkedAccounts.cs">
+			<DependentUpon>GetUserLinkedAccounts.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetUserLinkedEmailAccounts.cs">
+			<DependentUpon>GetUserLinkedEmailAccounts.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetUserOrganizationSettings.cs">
+			<DependentUpon>GetUserOrganizationSettings.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetUserProjectRoles.cs">
+		  <DependentUpon>GetUserProjectRoles.tt</DependentUpon>
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetDeletedProjectByContactKey.cs">
+			<DependentUpon>GetDeletedProjectByContactKey.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetUserSubscriptions.cs">
+			<DependentUpon>GetUserSubscriptions.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetUserVoucherBlocks.cs">
+			<DependentUpon>GetUserVoucherBlocks.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetVoucher.cs">
+			<DependentUpon>GetVoucher.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\GetVoucherStatus.cs">
+			<DependentUpon>GetVoucherStatus.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Query\FetchXml\IPRangeExists.cs">
+			<DependentUpon>IPRangeExists.tt</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="Query\FetchXml\CampusContractIntersecQuery.tt">
+		  <LastGenOutput>CampusContractIntersecQuery.cs</LastGenOutput>
+		  <Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\EmailExists.tt">
+			<LastGenOutput>EmailExists.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetCampusContractByKey.tt">
+			<LastGenOutput>GetCampusContractByKey.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetCampusContractLastLogins.tt">
+		  <LastGenOutput>GetCampusContractLastLogins.cs</LastGenOutput>
+		  <Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetCampusContractLicenses.tt">
+			<LastGenOutput>GetCampusContractLicenses.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetCampusContractLicensesByOrgaName.tt">
+			<LastGenOutput>GetCampusContractLicensesByOrgaName.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetCampusContracts.tt">
+			<LastGenOutput>GetCampusContracts.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetCampusContractStatisticByDate.tt">
+		  <LastGenOutput>GetCampusContractStatisticByDate.cs</LastGenOutput>
+		  <Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetCampusContractUserStatistic.tt">
+			<LastGenOutput>GetCampusContractUserStatistic.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetCleverbridgeProducts.tt">
+			<LastGenOutput>GetCleverbridgeProducts.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetLinkedAccountStatistics.tt">
+		  <LastGenOutput>GetLinkedAccountStatistics.cs</LastGenOutput>
+		  <Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetTrialLicensesWithoutExpiryDate.tt">
+		  <LastGenOutput>GetTrialLicensesWithoutExpiryDate.cs</LastGenOutput>
+		  <Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetMergedContactByKey.tt">
+		  <LastGenOutput>GetMergedContactByKey.cs</LastGenOutput>
+		  <Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetContactByContactProperty.tt">
+			<LastGenOutput>GetContactByContactProperty.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetContactByLicenseVerificationKey.tt">
+			<LastGenOutput>GetContactByLicenseVerificationKey.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetContactByLinkedAccount.tt">
+			<LastGenOutput>GetContactByLinkedAccount.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetContactByLinkedEmailAccount.tt">
+			<LastGenOutput>GetContactByLinkedEmailAccount.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetCrm4Contact.tt">
+			<LastGenOutput>GetCrm4Contact.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetEmailDomains.tt">
+			<LastGenOutput>GetEmailDomains.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetEmailDomainUsers.tt">
+			<LastGenOutput>GetEmailDomainUsers.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetIPRanges.tt">
+			<LastGenOutput>GetIPRanges.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetLicensesFromContractByState.tt">
+			<LastGenOutput>GetTrialLicenses.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetOrderProcess.tt">
+			<LastGenOutput>GetOrderProcess.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetOrganizationSetting.tt">
+			<LastGenOutput>GetOrganizationSetting.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetPendingDeleteProjects.tt">
+			<LastGenOutput>GetPendingDeleteProjects.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetProjectOwner.tt">
+		  <LastGenOutput>GetProjectOwner.cs</LastGenOutput>
+		  <Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetProjectMembers.tt">
+			<LastGenOutput>GetProjectMembers.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetProjectRole.tt">
+			<LastGenOutput>GetProjectRole.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetProjectRoleByConfirmationKey.tt">
+			<LastGenOutput>GetProjectRoleByConfirmationKey.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetProjectRoleByKey.tt">
+			<LastGenOutput>GetProjectRoleByKey.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetResellerByExclusiveCountries.tt">
+			<LastGenOutput>GetResellerByExclusiveCountries.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetExpiredLicenses.tt">
+		  <LastGenOutput>GetExpiredLicenses.cs</LastGenOutput>
+		  <Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetUserCitaviSpace.tt">
+			<LastGenOutput>GetUserCitaviSpace.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetUserFullName.tt">
+			<LastGenOutput>GetUserFullName.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetUserImage.tt">
+			<LastGenOutput>GetUserImage.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetUserLicenses.tt">
+			<LastGenOutput>GetUserLicenses.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetUserLinkedAccounts.tt">
+			<LastGenOutput>GetUserLinkedAccounts.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetUserLinkedEmailAccounts.tt">
+			<LastGenOutput>GetUserLinkedEmailAccounts.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetUserOrganizationSettings.tt">
+			<LastGenOutput>GetUserOrganizationSettings.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetDeletedProjectByContactKey.tt">
+		  <LastGenOutput>GetDeletedProjectByContactKey.cs</LastGenOutput>
+		  <Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetUserProjectRoles.tt">
+			<LastGenOutput>GetUserProjectRoles.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetUserSubscriptions.tt">
+			<LastGenOutput>GetUserSubscriptions.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetUserVoucherBlocks.tt">
+			<LastGenOutput>GetUserVoucherBlocks.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetVoucher.tt">
+			<LastGenOutput>GetVoucher.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\GetVoucherStatus.tt">
+			<LastGenOutput>GetVoucherStatus.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+		<None Update="Query\FetchXml\IPRangeExists.tt">
+			<LastGenOutput>IPRangeExists.cs</LastGenOutput>
+			<Generator>TextTemplatingFilePreprocessor</Generator>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="IdentityServer4" Version="4.1.1" />
+		<PackageReference Include="IdentityServer4.Storage" Version="4.1.1" />
+		<PackageReference Include="Microsoft.AspNet.WebApi.Client">
+			<Version>5.2.7</Version>
+		</PackageReference>
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies">
+			<Version>2.2.0</Version>
+		</PackageReference>
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" Version="3.1.9" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="3.1.9" />
+		<PackageReference Include="Microsoft.AspNetCore.Authorization">
+			<Version>3.1.9</Version>
+		</PackageReference>
+		<PackageReference Include="Microsoft.AspNetCore.Cors">
+			<Version>2.2.0</Version>
+		</PackageReference>
+		<PackageReference Include="Microsoft.AspNetCore.Diagnostics.HealthChecks">
+			<Version>2.2.0</Version>
+		</PackageReference>
+		<PackageReference Include="Microsoft.AspNetCore.Http">
+			<Version>2.2.2</Version>
+		</PackageReference>
+		<PackageReference Include="Microsoft.Azure.Cosmos.Table" Version="1.0.8" />
+		<PackageReference Include="Microsoft.Azure.KeyVault" Version="3.0.5" />
+		<PackageReference Include="Microsoft.Azure.KeyVault.Core">
+			<Version>3.0.5</Version>
+		</PackageReference>
+		<PackageReference Include="Microsoft.Azure.Services.AppAuthentication" Version="1.6.0" />
+		<PackageReference Include="Microsoft.Azure.Storage.Blob" Version="11.2.2" />
+		<PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.3.1">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+
+		<PackageReference Include="Microsoft.Extensions.Caching.Memory">
+			<Version>3.1.9</Version>
+		</PackageReference>
+		<PackageReference Include="Microsoft.Extensions.Configuration.Binder">
+			<Version>3.1.9</Version>
+		</PackageReference>
+		<PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks">
+			<Version>3.1.9</Version>
+		</PackageReference>
+		<PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions">
+			<Version>3.1.9</Version>
+		</PackageReference>
+		<PackageReference Include="Microsoft.Graph" Version="3.35.0" />
+		<PackageReference Include="Microsoft.Graph.Auth" Version="1.0.0-preview.7" />
+		<PackageReference Include="Microsoft.Identity.Client" Version="4.34.0" />
+		<PackageReference Include="Microsoft.IdentityModel.Protocols.OpenIdConnect">
+			<Version>6.8.0</Version>
+		</PackageReference>
+		<PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.8.0" />
+		<PackageReference Include="Microsoft.IdentityModel.Tokens.Saml">
+			<Version>6.8.0</Version>
+		</PackageReference>
+		
+		<PackageReference Include="Microsoft.Rest.ClientRuntime.Azure">
+			<Version>3.3.19</Version>
+		</PackageReference>
+		<PackageReference Include="Newtonsoft.Json">
+			<Version>12.0.3</Version>
+		</PackageReference>
+		<PackageReference Include="Sendgrid">
+			<Version>9.21.1</Version>
+		</PackageReference>
+		<PackageReference Include="sib_api_v3_sdk">
+			<Version>3.0.0</Version>
+		</PackageReference>
+		<PackageReference Include="Sustainsys.Saml2.AspNetCore2">
+			<Version>2.8.0</Version>
+		</PackageReference>
+		<PackageReference Include="System.CodeDom" Version="4.7.0" />
+		<PackageReference Include="System.Configuration.ConfigurationManager">
+			<Version>4.7.0</Version>
+		</PackageReference>
+		<PackageReference Include="System.Net.NameResolution" Version="4.3.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\SwissAcademic.AI\SwissAcademic.AI.csproj" />
+		<ProjectReference Include="..\SwissAcademic.Authorization\SwissAcademic.Authorization.csproj" />
+		<ProjectReference Include="..\SwissAcademic.Azure.Shared\SwissAcademic.Azure.Shared.csproj" />
+		<ProjectReference Include="..\SwissAcademic.KeyVaultUtils\SwissAcademic.KeyVaultUtils.csproj" />
+		<ProjectReference Include="..\SwissAcademic.SecurityUtility\SwissAcademic.SecurityUtility.csproj" />
+		<ProjectReference Include="..\SwissAcademic\SwissAcademic.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="Aspose.Words">
+	    <HintPath>..\Dlls\Aspose.Words.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Update="Properties\Resources.resx">
+	    <Generator>ResXFileCodeGenerator</Generator>
+	    <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	</ItemGroup>
+
+</Project>

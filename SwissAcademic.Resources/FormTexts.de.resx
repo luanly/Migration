@@ -1,0 +1,663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AssignCategoriesForm" xml:space="preserve">
+    <value>Kategorien zuweisen</value>
+  </data>
+  <data name="ApplyKeywordsForm" xml:space="preserve">
+    <value>Schlagwörter zuweisen</value>
+  </data>
+  <data name="BatchAssignOrRemoveCategoriesDialog_Assign" xml:space="preserve">
+    <value>Kategorien mehrfach zuweisen</value>
+  </data>
+  <data name="BatchApplyOrRemoveKeywordsDialog_Apply" xml:space="preserve">
+    <value>Schlagwörter mehrfach zuweisen</value>
+  </data>
+  <data name="BatchAddTasksDialog" xml:space="preserve">
+    <value>Aufgaben mehrfach zuweisen</value>
+  </data>
+  <data name="BibTeXExport_1" xml:space="preserve">
+    <value>BibTeX-Datei exportieren</value>
+  </data>
+  <data name="BibTeXExport_2" xml:space="preserve">
+    <value>BibTeX-Export anpassen: {0}</value>
+  </data>
+  <data name="BibTeXExport_2_Copy" xml:space="preserve">
+    <value>BibTeX Export anpassen: {0} (Kopie)</value>
+  </data>
+  <data name="BookOrderForm" xml:space="preserve">
+    <value>Online-Buchhandlungen</value>
+  </data>
+  <data name="BookStoreFavoritesDialog" xml:space="preserve">
+    <value>Online-Buchhandlungen</value>
+  </data>
+  <data name="CitationStyleEditorInitialDialog" xml:space="preserve">
+    <value>Zitationsstil bearbeiten</value>
+  </data>
+  <data name="CitationStyleForm" xml:space="preserve">
+    <value>Zitationsstil wechseln</value>
+  </data>
+  <data name="CitationStyleListDialog" xml:space="preserve">
+    <value>Zitationsstile auf www.citavi.com</value>
+  </data>
+  <data name="ColumnInformationDialog" xml:space="preserve">
+    <value>Spalten-Information</value>
+  </data>
+  <data name="CopyOrMoveToProjectWizard" xml:space="preserve">
+    <value>In ein Citavi-Projekt kopieren/verschieben</value>
+  </data>
+  <data name="CorrectPathsDialog" xml:space="preserve">
+    <value>Pfade korrigieren</value>
+  </data>
+  <data name="CreateBibliographyDialog" xml:space="preserve">
+    <value>Literaturliste mit zusätzlichen Angaben</value>
+    <comment>urgh</comment>
+  </data>
+  <data name="CreateBibliographyOptionsDialog" xml:space="preserve">
+    <value>Optionen für die Zwischenüberschriften</value>
+  </data>
+  <data name="CreateCompilationDialog" xml:space="preserve">
+    <value>Skript</value>
+  </data>
+  <data name="CreateTaskListDialog" xml:space="preserve">
+    <value>Aufgabenliste</value>
+  </data>
+  <data name="CustomFieldDialog" xml:space="preserve">
+    <value>Freitext</value>
+  </data>
+  <data name="DeleteUnusedItemsDialog" xml:space="preserve">
+    <value>Unbenutzte Einträge löschen</value>
+  </data>
+  <data name="EquivalentCharactersListDialog" xml:space="preserve">
+    <value>Zeichenäquivalenz</value>
+  </data>
+  <data name="EquivalentCharactersPairDialog" xml:space="preserve">
+    <value>Zeichenäquivalenz</value>
+  </data>
+  <data name="ExportAdminSettingsDialog" xml:space="preserve">
+    <value>Assistent für administrative Vorgaben</value>
+  </data>
+  <data name="ExtendedSearchForm" xml:space="preserve">
+    <value>Erweiterte Suche</value>
+  </data>
+  <data name="FilterDialog" xml:space="preserve">
+    <value>Auswählen nach Feldinhalten</value>
+  </data>
+  <data name="FormTextReadOnly" xml:space="preserve">
+    <value>{0} - {1} (Schreibgeschützt) - {2}</value>
+  </data>
+  <data name="FormTextSimpleReadOnly" xml:space="preserve">
+    <value>{0} - {1} (Schreibgeschützt)</value>
+  </data>
+  <data name="ImageForm" xml:space="preserve">
+    <value>Cover</value>
+  </data>
+  <data name="ImportForm" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="PeriodicalForm" xml:space="preserve">
+    <value>Zeitschrift/Zeitung</value>
+  </data>
+  <data name="PeriodicalList" xml:space="preserve">
+    <value>Liste der Zeitschriften und Zeitungen</value>
+  </data>
+  <data name="KeyConfigurationDialog" xml:space="preserve">
+    <value>BibTeX Key Einstellungen</value>
+  </data>
+  <data name="KeyConfiguration_BibTeXKey" xml:space="preserve">
+    <value>BibTeX-Key-Vorlage anpassen</value>
+  </data>
+  <data name="KeyConfiguration_CitationKey" xml:space="preserve">
+    <value>Kurzbeleg-Vorlage anpassen</value>
+  </data>
+  <data name="KeywordForm" xml:space="preserve">
+    <value>Schlagwort</value>
+  </data>
+  <data name="KeywordList" xml:space="preserve">
+    <value>Liste der Schlagwörter</value>
+  </data>
+  <data name="LibraryForm" xml:space="preserve">
+    <value>Bibliothek</value>
+  </data>
+  <data name="LibraryList" xml:space="preserve">
+    <value>Liste der Bibliotheken</value>
+  </data>
+  <data name="LicenseDialog" xml:space="preserve">
+    <value>Lizenz</value>
+  </data>
+  <data name="LocationForm" xml:space="preserve">
+    <value>Standort</value>
+  </data>
+  <data name="LookupLocationsDialog" xml:space="preserve">
+    <value>Bibliotheksstandorte finden</value>
+  </data>
+  <data name="MainForm_KnowledgeOrganizer" xml:space="preserve">
+    <value>Wissensorganisation</value>
+  </data>
+  <data name="MassIsbnDownloadDialog" xml:space="preserve">
+    <value>ISBN-Liste auswerten</value>
+  </data>
+  <data name="MathEditorForm" xml:space="preserve">
+    <value>Formel-Editor</value>
+  </data>
+  <data name="OnlineSearchDialogEx" xml:space="preserve">
+    <value>Online-Recherche</value>
+  </data>
+  <data name="OptionsDialog" xml:space="preserve">
+    <value>Optionen</value>
+  </data>
+  <data name="OptionsImportExportDialog" xml:space="preserve">
+    <value>Optionen importieren/exportieren</value>
+  </data>
+  <data name="PersonForm" xml:space="preserve">
+    <value>Person/Institution</value>
+  </data>
+  <data name="PersonList" xml:space="preserve">
+    <value>Liste der Personen und Institutionen</value>
+  </data>
+  <data name="PersonsDialog" xml:space="preserve">
+    <value>Person/Institution</value>
+  </data>
+  <data name="ProjectPropertiesDialog" xml:space="preserve">
+    <value>Projekteigenschaften</value>
+  </data>
+  <data name="PublicationAssistant" xml:space="preserve">
+    <value>LaTeX-Assistent</value>
+  </data>
+  <data name="PublisherForm" xml:space="preserve">
+    <value>Verlag</value>
+  </data>
+  <data name="PublisherList" xml:space="preserve">
+    <value>Liste der Verlage</value>
+  </data>
+  <data name="ReferenceGridColumnsForm" xml:space="preserve">
+    <value>Spalten der Titeltabelle</value>
+  </data>
+  <data name="ReferenceGridForm" xml:space="preserve">
+    <value>Tabellenansicht</value>
+  </data>
+  <data name="ReferenceGridGroupsForm" xml:space="preserve">
+    <value>Titel gruppieren - Tabellenansicht</value>
+  </data>
+  <data name="BatchAssignOrRemoveCategoriesDialog_Remove" xml:space="preserve">
+    <value>Kategorien mehrfach entfernen</value>
+  </data>
+  <data name="BatchApplyOrRemoveKeywordsDialog_Remove" xml:space="preserve">
+    <value>Schlagwörter mehrfach entfernen</value>
+  </data>
+  <data name="RetrievalDefinitionFavoritesDialog" xml:space="preserve">
+    <value>Online-Verbindungen</value>
+    <comment>999</comment>
+  </data>
+  <data name="SearchDetailForm" xml:space="preserve">
+    <value>Suche definieren</value>
+  </data>
+  <data name="SearchForm" xml:space="preserve">
+    <value>Suchen</value>
+  </data>
+  <data name="ChooseReferenceDialog" xml:space="preserve">
+    <value>Titel wählen</value>
+  </data>
+  <data name="SeriesTitleForm" xml:space="preserve">
+    <value>Reihe</value>
+  </data>
+  <data name="SeriesTitleList" xml:space="preserve">
+    <value>Liste der Reihen</value>
+  </data>
+  <data name="ShortTitleDialog" xml:space="preserve">
+    <value>Kurztitel</value>
+  </data>
+  <data name="ShowReferenceTypeSelectionDialog" xml:space="preserve">
+    <value>Dokumententypen</value>
+  </data>
+  <data name="TagDefinitionFavoritesDialog" xml:space="preserve">
+    <value>Textimport-Definitionen</value>
+  </data>
+  <data name="TaskItemForm" xml:space="preserve">
+    <value>Aufgabe</value>
+  </data>
+  <data name="TeXPublicationForm" xml:space="preserve">
+    <value>Automatischer BibTeX-Export</value>
+  </data>
+  <data name="TextBasedFilterDialog" xml:space="preserve">
+    <value>Textbasierte Auswahl</value>
+  </data>
+  <data name="TextExportForm" xml:space="preserve">
+    <value>Textausgabe</value>
+  </data>
+  <data name="BibTeXKeyDialog" xml:space="preserve">
+    <value>BibTeX-Key anpassen</value>
+  </data>
+  <data name="NumberingTypeDialog" xml:space="preserve">
+    <value>Zahlenformat</value>
+  </data>
+  <data name="BackupFolderPathDialog" xml:space="preserve">
+    <value>Ordner für Sicherungskopien</value>
+  </data>
+  <data name="CharacterFormatDialog" xml:space="preserve">
+    <value>Format Zeichen</value>
+  </data>
+  <data name="DateTimeFormatDialog" xml:space="preserve">
+    <value>Benutzerdefinierte Datumsformatierung</value>
+  </data>
+  <data name="DirectImportDialog" xml:space="preserve">
+    <value>Direkter Import</value>
+  </data>
+  <data name="HelpInformationForm" xml:space="preserve">
+    <value>Information zu diesem Hilfetext</value>
+  </data>
+  <data name="InsertTableDialog" xml:space="preserve">
+    <value>Tabelle einfügen</value>
+  </data>
+  <data name="KeyReplacementInputDialog" xml:space="preserve">
+    <value>Zeichen hinzufügen</value>
+    <comment>I18N</comment>
+  </data>
+  <data name="LiveUpdateDialog" xml:space="preserve">
+    <value>Citavi Update</value>
+  </data>
+  <data name="OnlineSearchCredentialDialog" xml:space="preserve">
+    <value>Anmeldung erforderlich: {0}</value>
+  </data>
+  <data name="OpenUrlSelectionDialog" xml:space="preserve">
+    <value>OpenURL-Auswahl</value>
+  </data>
+  <data name="PageSetupDialog" xml:space="preserve">
+    <value>Seitenränder</value>
+  </data>
+  <data name="ParagraphFormatDialog" xml:space="preserve">
+    <value>Absatz</value>
+  </data>
+  <data name="PrintForm" xml:space="preserve">
+    <value>Drucken</value>
+  </data>
+  <data name="ProgressDialog" xml:space="preserve">
+    <value>Bitte warten…</value>
+    <comment>Is this used anywhere other than the Subscription Autodetect?</comment>
+  </data>
+  <data name="ProxyConfigurationDialog" xml:space="preserve">
+    <value>Proxy-Einstellungen</value>
+  </data>
+  <data name="TabStopDialog" xml:space="preserve">
+    <value>Tabstopps</value>
+  </data>
+  <data name="CitationKeyDialog" xml:space="preserve">
+    <value>Kurzbeleg</value>
+  </data>
+  <data name="MergeItemsDialog" xml:space="preserve">
+    <value>Zusammenführen</value>
+  </data>
+  <data name="UserDataFolderPathDialog" xml:space="preserve">
+    <value>Citavi-Ordner für Benutzerdateien</value>
+  </data>
+  <data name="ZoomForm" xml:space="preserve">
+    <value>Zoom Fenster</value>
+  </data>
+  <data name="CitaviTextMessageBox" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="ReferenceDeletionDialog" xml:space="preserve">
+    <value>Titel löschen</value>
+  </data>
+  <data name="ReferenceIdentifierDownloadOptionsDialog_Isbn" xml:space="preserve">
+    <value>ISBN Download</value>
+  </data>
+  <data name="ReplacementListDialog" xml:space="preserve">
+    <value>Ersetzungen</value>
+  </data>
+  <data name="SampleProjectsDialog" xml:space="preserve">
+    <value>Beispielprojekte</value>
+  </data>
+  <data name="SortTasksCustomDialog" xml:space="preserve">
+    <value>Aufgaben sortieren</value>
+  </data>
+  <data name="SortReferencesCustomDialog" xml:space="preserve">
+    <value>Titel sortieren</value>
+  </data>
+  <data name="PlaceholderEntryPageNumbersDialog" xml:space="preserve">
+    <value>Seitenzahlen</value>
+  </data>
+  <data name="MacroEditorExternalReferencesDialog" xml:space="preserve">
+    <value>Verweise</value>
+  </data>
+  <data name="MacroEditorForm" xml:space="preserve">
+    <value>Makro-Editor</value>
+  </data>
+  <data name="DataExchangePropertyConfigurationDialog_Export" xml:space="preserve">
+    <value>Gespeicherte Exporte verwalten</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="DataExchangePropertyConfigurationDialog_OnlineImport" xml:space="preserve">
+    <value>Gespeicherte Suchabfragen verwalten</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="ExportWizardDialog" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="ImportWizardDialog" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="CitationStyleFavoriteDialog" xml:space="preserve">
+    <value>Zitationsstil hinzufügen</value>
+    <comment>Review</comment>
+  </data>
+  <data name="ProofingToolsDialog" xml:space="preserve">
+    <value>Rechtschreibung</value>
+  </data>
+  <data name="CreateProjectDialogEx" xml:space="preserve">
+    <value>Neues Projekt</value>
+  </data>
+  <data name="BibliographyCompositionEditorForm" xml:space="preserve">
+    <value>Übersicht anpassen</value>
+  </data>
+  <data name="LocalFileMoreOptionsDialog" xml:space="preserve">
+    <value>Weitere Optionen</value>
+  </data>
+  <data name="AdditionalFieldsForm" xml:space="preserve">
+    <value>Weitere Felder</value>
+  </data>
+  <data name="ConvertProjectsDialog" xml:space="preserve">
+    <value>Projekt konvertieren</value>
+  </data>
+  <data name="EntityLinkForm" xml:space="preserve">
+    <value>Verweis</value>
+  </data>
+  <data name="TaskItemForm_ProjectTask" xml:space="preserve">
+    <value>Projektaufgabe</value>
+  </data>
+  <data name="KnowledgeItemTextForm" xml:space="preserve">
+    <value>Zitat</value>
+  </data>
+  <data name="KnowledgeItemTextForm_Thought" xml:space="preserve">
+    <value>Gedanke</value>
+  </data>
+  <data name="KnowledgeItemFileForm" xml:space="preserve">
+    <value>Zitat</value>
+  </data>
+  <data name="KnowledgeItemFileForm_Thought" xml:space="preserve">
+    <value>Gedanke</value>
+  </data>
+  <data name="MainForm_TaskPlanner" xml:space="preserve">
+    <value>Aufgabenplanung</value>
+  </data>
+  <data name="QuitCitaviDialog" xml:space="preserve">
+    <value>Citavi beenden</value>
+  </data>
+  <data name="RtfForm" xml:space="preserve">
+    <value>Editor</value>
+  </data>
+  <data name="OrderedListDialog" xml:space="preserve">
+    <value>Nummerierung</value>
+  </data>
+  <data name="ReplacementDialog" xml:space="preserve">
+    <value>Ersetzen</value>
+  </data>
+  <data name="UnorderedListDialog" xml:space="preserve">
+    <value>Aufzählungszeichen</value>
+  </data>
+  <data name="LookupFullTextDialog" xml:space="preserve">
+    <value>Volltexte finden</value>
+  </data>
+  <data name="CategoryList" xml:space="preserve">
+    <value>Liste der Kategorien</value>
+  </data>
+  <data name="ReferenceIdentifierDownloadOptionsDialog_Doi" xml:space="preserve">
+    <value>DOI Download</value>
+  </data>
+  <data name="ReferenceIdentifierDownloadOptionsDialog_PubMedId" xml:space="preserve">
+    <value>PubMed-ID Download</value>
+  </data>
+  <data name="FindLicensedDatabasesDialog" xml:space="preserve">
+    <value>Lizenzierte Datenbanken hinzufügen</value>
+    <comment>review: Lizenzierte Datenbanken hinzufügen</comment>
+  </data>
+  <data name="OnlineSearchCredentialConfigurationDialog" xml:space="preserve">
+    <value>Zugangsdaten ändern</value>
+    <comment>review: Zugangsdaten ändern</comment>
+  </data>
+  <data name="MainForm_ReferenceEditor" xml:space="preserve">
+    <value>Literaturverwaltung</value>
+    <comment>Review</comment>
+  </data>
+  <data name="LookupReferenceIdentifierDialog" xml:space="preserve">
+    <value>Titel abrufen per ID</value>
+    <comment>Review</comment>
+  </data>
+  <data name="StartFormInfoDialog" xml:space="preserve">
+    <value>Beispiele und Infos</value>
+    <comment>Review</comment>
+  </data>
+  <data name="AboutDialog" xml:space="preserve">
+    <value>Über Citavi</value>
+  </data>
+  <data name="StartForm" xml:space="preserve">
+    <value>Citavi 6 Startfenster</value>
+    <comment>review</comment>
+  </data>
+  <data name="CreateGroupedBibliographyDialog" xml:space="preserve">
+    <value>Gruppierte Literaturliste</value>
+  </data>
+  <data name="LoginDialog" xml:space="preserve">
+    <value>Anmelden</value>
+  </data>
+  <data name="PlaceholderEntryPrefixSuffixDialog" xml:space="preserve">
+    <value>Präfix und Suffix </value>
+  </data>
+  <data name="MorePersonNameOptionsDialog" xml:space="preserve">
+    <value>Weitere Namensoptionen</value>
+  </data>
+  <data name="TemplateConditionDialog" xml:space="preserve">
+    <value>Vorlagen-Bedingungen</value>
+  </data>
+  <data name="MainFormLayoutInputBox_Load" xml:space="preserve">
+    <value>Hauptformular-Layout laden</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="MainFormLayoutInputBox_Save" xml:space="preserve">
+    <value>Hauptformular-Layout speichern</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="SearchReplaceForm" xml:space="preserve">
+    <value>Suchen und ersetzen</value>
+  </data>
+  <data name="SortKnowledgeItemsForm" xml:space="preserve">
+    <value>Wissenselemente sortieren</value>
+  </data>
+  <data name="ComponentPartEditorForm" xml:space="preserve">
+    <value>Komponente bearbeiten</value>
+  </data>
+  <data name="CategoryForm" xml:space="preserve">
+    <value>Kategorie</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="SupportInformationDialog" xml:space="preserve">
+    <value>Support-Informationen</value>
+  </data>
+  <data name="SaveProjectAsNewDesktopLocalProjectDialog" xml:space="preserve">
+    <value>Kopie speichern als neues lokales Projekt</value>
+  </data>
+  <data name="CustomizeReferenceQuotationsTBMDialog" xml:space="preserve">
+    <value>Wählen Sie die wichtigsten Zitat-Typen aus</value>
+  </data>
+  <data name="FolderForm" xml:space="preserve">
+    <value>Ordner</value>
+  </data>
+  <data name="GroupForm" xml:space="preserve">
+    <value>Gruppe</value>
+  </data>
+  <data name="GroupList" xml:space="preserve">
+    <value>Gruppen</value>
+  </data>
+  <data name="BatchApplyOrRemoveGroupsDialog_Apply" xml:space="preserve">
+    <value>Gruppen mehrfach zuweisen</value>
+  </data>
+  <data name="BatchApplyOrRemoveGroupsDialog_Remove" xml:space="preserve">
+    <value>Gruppen mehrfach entfernen</value>
+  </data>
+  <data name="CitationStyleSettingsDialog" xml:space="preserve">
+    <value>Eigenschaften des Zitationsstils</value>
+  </data>
+  <data name="BibliographyGroupingForm" xml:space="preserve">
+    <value>Gruppierungs-Abschnitt</value>
+  </data>
+  <data name="BibliographyGroupingSetsForm" xml:space="preserve">
+    <value>Literaturverzeichnis gruppieren</value>
+  </data>
+  <data name="UngroupedReferencesSettingsForm" xml:space="preserve">
+    <value>Titel ohne Abschnitt</value>
+  </data>
+  <data name="GenericProgressDialog_RepairProject" xml:space="preserve">
+    <value>Defekte Datenbank wird repariert…</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="OrganizationSettingsExportDialog" xml:space="preserve">
+    <value>Einstellungen exportieren</value>
+  </data>
+  <data name="OrganizationSettingsImportDialog" xml:space="preserve">
+    <value>Einstellungen importieren</value>
+  </data>
+  <data name="OrganizationSettingsAdminDialog" xml:space="preserve">
+    <value>Organisations-Einstellungen verwalten</value>
+  </data>
+  <data name="CreatedByModifiedByForm" xml:space="preserve">
+    <value>Erstellt von / Geändert von</value>
+  </data>
+  <data name="CloudChangeProjectRoleDialog" xml:space="preserve">
+    <value>Projektrolle ändern</value>
+  </data>
+  <data name="CloudProjectMembersDialog" xml:space="preserve">
+    <value>Projekt teilen</value>
+  </data>
+  <data name="OpenProjectDialog" xml:space="preserve">
+    <value>Projekt öffnen</value>
+  </data>
+  <data name="BackgroundTaskErrorDialog" xml:space="preserve">
+    <value>Hintergrundaufgaben-Fehler</value>
+  </data>
+  <data name="AddOnsForm" xml:space="preserve">
+    <value>Citavi Add-ons</value>
+  </data>
+  <data name="BackOfficeCitationStyleElementsDialog_BibliographyGroupingSet" xml:space="preserve">
+    <value>Gruppierungsdefinitionen vom Citavi-Server</value>
+    <comment>JS - review</comment>
+  </data>
+  <data name="RecycleBinDialog" xml:space="preserve">
+    <value>Papierkorb</value>
+  </data>
+</root>

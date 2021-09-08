@@ -1,0 +1,34 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" linePragmas="false" #>
+<fetch distinct="true" no-lock="true" mapping="logical">
+  <entity name="new_citavilicense">
+    <attribute name="new_citavilicenseid" />
+    <attribute name="new_key" />
+	<attribute name="new_isverified" />
+	<attribute name="createdon" />
+	<attribute name="new_ordercategory" />
+	<attribute name="new_campusgroup" />
+    <filter type="and">
+		<condition attribute="new_key" operator="eq" value="<#Write(CampusContractKey);#>" entityname="<#= FetchXmlConstants.LicenseCampusContractAliasName #>" />
+        <condition attribute="statuscode" operator="eq" value="1" />
+    </filter>
+    <link-entity name="contact" to="new_enduserid" from="contactid" link-type="outer" alias="<#= FetchXmlConstants.ContactLicenseEndUserAliasName #>">
+      <attribute name="contactid" />
+	  <attribute name="new_key" />
+	  <attribute name="new_softbouncecounter" />
+	  <attribute name="emailaddress1" />
+	  <attribute name="new_lastlogin" />
+    </link-entity>
+    <link-entity name="new_citaviproduct" to="new_citaviproductid" from="new_citaviproductid" link-type="outer" alias="<#= FetchXmlConstants.ProductLicenseAliasName #>">
+      <attribute name="new_key" />
+    </link-entity>
+	<link-entity name="new_pricing" to="new_pricingid" from="new_pricingid" link-type="outer" alias="<#= FetchXmlConstants.PricingLicenseAliasName #>">
+      <attribute name="new_key" />
+    </link-entity>
+	<link-entity name="new_licensetyp" to="new_licensetypid" from="new_licensetypid" link-type="outer" alias="<#= FetchXmlConstants.LicenseTypeLicenseAliasName #>">
+      <attribute name="new_key" />
+    </link-entity>
+	<link-entity name="new_campuscontract" to="new_campuscontractid" from="new_campuscontractid" link-type="outer" alias="<#= FetchXmlConstants.LicenseCampusContractAliasName #>">
+      <attribute name="new_key" />
+    </link-entity>
+  </entity>
+</fetch>

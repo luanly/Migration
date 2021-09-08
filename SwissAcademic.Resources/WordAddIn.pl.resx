@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppName" xml:space="preserve">
+    <value>Dodatek Citavi do Worda</value>
+  </data>
+  <data name="ConvertCitationsProgress" xml:space="preserve">
+    <value>Konwertowanie pól…</value>
+  </data>
+  <data name="ConvertCitaviPlaceholder_QuestionBeforeConvertStart" xml:space="preserve">
+    <value>Upewnij się czy bieżący projekt "{0}" zawiera tytuły dla symboli zastępczych w dokumencie. 
+Czy chcesz kontynuować?
+</value>
+  </data>
+  <data name="ConvertEndNotePlaceholder_QuestionBeforeConvertStart" xml:space="preserve">
+    <value>Pola EndNote mogą być konwertowane z lub bez wcześniejszego importu bazy danych EndNote. Jeśli pola są konwertowane bez importu bazy danych, importowane są tylko podstawowe informacje przechowywane w dokumencie Word.
+
+Pola Reference Manager lub RefWorks mogą być konwertowane tylko wtedy, gdy oryginalna baza danych została już zaimportowana do Citavi i odpowiedni projekt Citavi jest teraz otwarty.
+
+Przekonwertować pola teraz i zapisać je w nowym dokumencie Word?</value>
+  </data>
+  <data name="ConvertTaggedPlaceholderMsg" xml:space="preserve">
+    <value>Znalezione symbole zastępcze: {0}
+Przekonwertowane: {1}
+Brak w projekcie: {2}</value>
+  </data>
+  <data name="NotImplementedInfo" xml:space="preserve">
+    <value>Opcja nie jest dostępna</value>
+  </data>
+  <data name="OpenProject_ProjectNotFound" xml:space="preserve">
+    <value>Nie można znaleźć projektu "{0}". 
+Cz chcesz uruchomić Citavi i zlokalizować projekt?</value>
+  </data>
+  <data name="OptionsDialog_AboutWordAddIn" xml:space="preserve">
+    <value>O Dodatku Citavi do Worda</value>
+  </data>
+  <data name="InsertKnowledgeItemLayout_TextAndCitation" xml:space="preserve">
+    <value>Tekst i cytowanie</value>
+  </data>
+  <data name="InsertKnowledgeItemLayout_CitationOnly" xml:space="preserve">
+    <value>Tylko cytowanie</value>
+  </data>
+  <data name="InsertPlaceholderLocation_Default" xml:space="preserve">
+    <value>Domyślnie</value>
+  </data>
+  <data name="InsertPlaceholderLocation_Footnote" xml:space="preserve">
+    <value>Przypis</value>
+  </data>
+  <data name="InsertPlaceholderLocation_InText" xml:space="preserve">
+    <value>W tekście</value>
+  </data>
+  <data name="PlaceholderParams_BibCit" xml:space="preserve">
+    <value>Formatuj używając zestawu reguł "Bibliografia"</value>
+  </data>
+  <data name="PlaceholderParams_BibOnly" xml:space="preserve">
+    <value>Dodaj tylko do bibliografii</value>
+  </data>
+  <data name="PlaceholderParams_FootCit" xml:space="preserve">
+    <value>Formatuj używając zestawu reguł "Przypis dolny"</value>
+  </data>
+  <data name="PlaceholderParams_NoBib" xml:space="preserve">
+    <value>Nie dodawaj do bibliografii</value>
+  </data>
+  <data name="PlaceholderParams_NoPar" xml:space="preserve">
+    <value>Bez nawiasów</value>
+  </data>
+  <data name="PlaceholderParams_NumberingTypeMenu" xml:space="preserve">
+    <value>Typ numeracji:</value>
+  </data>
+  <data name="PlaceholderParams_NumeralSystemMenu" xml:space="preserve">
+    <value>System liczbowy</value>
+  </data>
+  <data name="PlaceholderParams_PageRange" xml:space="preserve">
+    <value>Zakres stron:</value>
+  </data>
+  <data name="PlaceholderParams_PersonOnly" xml:space="preserve">
+    <value>Tylko osoba</value>
+  </data>
+  <data name="PlaceholderParams_PersonOnly_Sample" xml:space="preserve">
+    <value>(Osoba)</value>
+  </data>
+  <data name="PlaceholderParams_PersonOnlyYearOnly" xml:space="preserve">
+    <value>Osoba (Rok)</value>
+  </data>
+  <data name="PlaceholderParams_TextCit" xml:space="preserve">
+    <value>Formatuj używając zestawu reguł "Cytowanie w tekście"</value>
+  </data>
+  <data name="PlaceholderParams_YearOnly" xml:space="preserve">
+    <value>Tylko rok</value>
+  </data>
+  <data name="PlaceholderParams_YearOnly_Sample" xml:space="preserve">
+    <value>(Rok)</value>
+  </data>
+  <data name="PublicationPane_BibOnlyPlaceholder" xml:space="preserve">
+    <value>Nie pokazono ponieważ zaznaczono "Dodaj tylko do bibliografii"</value>
+  </data>
+  <data name="PublicationPane_ChapterItem_KnowledgeItems" xml:space="preserve">
+    <value>Elementy wiedzy</value>
+  </data>
+  <data name="PublicationPane_ChapterItem_References" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="PublicationPane_ConfirmDeletePlaceholderEntryMsg" xml:space="preserve">
+    <value>Czy na pewno chcesz usunąć tytuł z cytowania?</value>
+  </data>
+  <data name="PublicationPane_ContextMenu_ArrangeByCategories" xml:space="preserve">
+    <value>Według kategorii</value>
+  </data>
+  <data name="PublicationPane_ContextMenu_ArrangeByKeywords" xml:space="preserve">
+    <value>Według słów kluczowych</value>
+  </data>
+  <data name="PublicationPane_EntityLink_Active" xml:space="preserve">
+    <value>Ten tytuł jest odniesieniem.</value>
+  </data>
+  <data name="PublicationPane_EntityLink_Passive" xml:space="preserve">
+    <value>Ten tytuł jest odniesieniem.</value>
+  </data>
+  <data name="PublicationPane_FilterTextBox_KnowledgeItems" xml:space="preserve">
+    <value>Wyszukaj elementy wiedzy… (tabulator+F8)</value>
+  </data>
+  <data name="PublicationPane_FilterTextBox_References" xml:space="preserve">
+    <value>Wyszukaj tytuły... (F8)</value>
+  </data>
+  <data name="PublicationPane_InfoControl_CitaviIsRunningNoProjectsOpen" xml:space="preserve">
+    <value>Citavi jest uruchomione, ale żaden projekt nie jest otwarty. Otwórz projekt, aby wstawić cytaty i cytowania do dokumentu.</value>
+  </data>
+  <data name="PublicationPane_InfoControl_CitaviIsRunningPublicationProjectFileNotFound" xml:space="preserve">
+    <value>Projekt "{0}" z którego korzysta dokument nie może być znaleziony.</value>
+  </data>
+  <data name="PublicationPane_InfoControl_CitaviIsRunningPublicationProjectNotOpen" xml:space="preserve">
+    <value>Projekt "{0}" wykorzystywany przez dokument nie jest otwarty w Citavi.</value>
+  </data>
+  <data name="PublicationPane_InfoControl_CitaviIsRunningWorkingProjectNoReferences" xml:space="preserve">
+    <value>Obecny projekt Citavi nie zawiera żadnych tytułów.</value>
+  </data>
+  <data name="PublicationPane_InfoControl_CitaviNotRunningNoPublicationProject" xml:space="preserve">
+    <value>Citavi nie jest uruchomiony. Uruchom Citavi i otwórz projekt, aby wstawić cytaty i cytowania do dokumentu.</value>
+  </data>
+  <data name="PublicationPane_InfoControl_OpenProject" xml:space="preserve">
+    <value>Otwórz projekt...</value>
+  </data>
+  <data name="PublicationPane_InfoControl_OpenProject_Progress" xml:space="preserve">
+    <value>Otwieranie {0}...</value>
+  </data>
+  <data name="PublicationPane_InTextCitationSortOrderInfo" xml:space="preserve">
+    <value>Wielocytowanie jest sortowane wewnętrznie według "{0}" zgodnie z definicją stylu cytowania. Ustawiony tutaj porządek zostanie użyty tylko gdy używany jest styl cytowania, który sortuje wielocytaty "W porządku cytowania".</value>
+  </data>
+  <data name="PublicationPane_MenuItem_EditKnowledgeItem" xml:space="preserve">
+    <value>Edytuj w Citavi</value>
+  </data>
+  <data name="PublicationPane_MenuItem_EditReference" xml:space="preserve">
+    <value>Edytuj w Citavi</value>
+  </data>
+  <data name="PublicationPane_MenuItem_InsertKeyword" xml:space="preserve">
+    <value>Wstaw słowo kluczowe</value>
+  </data>
+  <data name="PublicationPane_MenuItem_InsertKnowledgeItem" xml:space="preserve">
+    <value>Wstaw element wiedzy</value>
+  </data>
+  <data name="PublicationPane_MenuItem_InsertPlaceholderLocation" xml:space="preserve">
+    <value>Położenie</value>
+  </data>
+  <data name="PublicationPane_MenuItem_InsertReference" xml:space="preserve">
+    <value>Wstaw</value>
+  </data>
+  <data name="PublicationPane_MenuItem_InsertReferenceWithOptions" xml:space="preserve">
+    <value>Szybkie wstawianie</value>
+  </data>
+  <data name="PublicationPane_MenuItem_InsertWithOptions" xml:space="preserve">
+    <value>Wstaw zaawansowane</value>
+  </data>
+  <data name="PublicationPane_MultipleEntryPlaceholder" xml:space="preserve">
+    <value>Wielocytowanie</value>
+  </data>
+  <data name="PublicationPane_NoCategoryAssigned" xml:space="preserve">
+    <value>Brak kategorii</value>
+  </data>
+  <data name="PublicationPane_NoKeywordAssigned" xml:space="preserve">
+    <value>Brak słów kluczowych</value>
+  </data>
+  <data name="PublicationPane_NoKnowledgeItems" xml:space="preserve">
+    <value>Bieżący projekt nie zawiera żadnych elementów wiedzy.</value>
+  </data>
+  <data name="PublicationPane_NoReferencesInProject" xml:space="preserve">
+    <value>Obecny projekt Citavi nie zawiera żadnych tytułów.</value>
+  </data>
+  <data name="PublicationPane_RuleSet" xml:space="preserve">
+    <value>Zestaw reguł</value>
+  </data>
+  <data name="PublicationPane_TabPage_Citations" xml:space="preserve">
+    <value>Cytowania</value>
+  </data>
+  <data name="PublicationPane_TabPage_KnowlegeItems" xml:space="preserve">
+    <value>Wiedza</value>
+  </data>
+  <data name="PublicationPane_TabPage_Live" xml:space="preserve">
+    <value>Rozdziały</value>
+  </data>
+  <data name="PublicationPane_TabPage_References" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="PublicationPane_ToolStrip_AddTask" xml:space="preserve">
+    <value>Dodaj zadanie do tytułu: {0}</value>
+  </data>
+  <data name="PublicationPane_ToolStrip_FilterNone_KnowledgeItems" xml:space="preserve">
+    <value>Wszystkie elementy wiedzy</value>
+  </data>
+  <data name="PublicationPane_ToolStrip_FilterNone_References" xml:space="preserve">
+    <value>Wszystkie tytuły</value>
+  </data>
+  <data name="PublicationPane_ToolStrip_FilterNotQuotet_KnowledgeItems" xml:space="preserve">
+    <value>Żaden element wiedzy nie był cytowany.</value>
+  </data>
+  <data name="PublicationPane_ToolStrip_FilterNotQuotet_References" xml:space="preserve">
+    <value>Nie cytowano żadnego tytułu</value>
+  </data>
+  <data name="PublicationPane_ToolStrip_FilterQuotet_KnowledgeItems" xml:space="preserve">
+    <value>Cytowane elementy wiedzy</value>
+  </data>
+  <data name="PublicationPane_ToolStrip_FilterQuotet_References" xml:space="preserve">
+    <value>Cytowane tytuły</value>
+  </data>
+  <data name="UndoActionName_FormatPublication" xml:space="preserve">
+    <value>Formatuj publikację</value>
+  </data>
+  <data name="UndoActionName_InsertCategory" xml:space="preserve">
+    <value>Wstaw jako nagłówek</value>
+  </data>
+  <data name="UndoActionName_InsertKeyword" xml:space="preserve">
+    <value>Wstaw słowo kluczowe</value>
+  </data>
+  <data name="UndoActionName_InsertKnowledgeItem" xml:space="preserve">
+    <value>Wstaw element wiedzy</value>
+  </data>
+  <data name="UndoActionName_InsertPlaceholder" xml:space="preserve">
+    <value>Wstaw cytowanie</value>
+  </data>
+  <data name="PublicationPane_ToolStrip_ReloadProject" xml:space="preserve">
+    <value>Przeładuj projekt</value>
+  </data>
+  <data name="PublicationPane_ToolStrip_ShowEntityLinks" xml:space="preserve">
+    <value>Pokaż odniesienia</value>
+  </data>
+  <data name="PlaceholderParams_OtherOptions" xml:space="preserve">
+    <value>Zaawansowane</value>
+  </data>
+  <data name="PublicationPane_UnlinkPlaceholder" xml:space="preserve">
+    <value>Konwertuj do indywidualnych cytowań</value>
+  </data>
+  <data name="ExceptionDialog_CitaviIsNotRunning" xml:space="preserve">
+    <value>Citavi nie jest uruchomione.</value>
+  </data>
+  <data name="PublicationPane_AssignReference" xml:space="preserve">
+    <value>Przypisz tytuł</value>
+  </data>
+  <data name="ContextMenu_RefreshKnowledgeItem" xml:space="preserve">
+    <value>Odśwież element wiedzy</value>
+  </data>
+  <data name="ContextMenu_ChangeCitationStyle" xml:space="preserve">
+    <value>Zmień styl cytowania...</value>
+  </data>
+  <data name="OptionsDialog_commentStyleLabel" xml:space="preserve">
+    <value>Komentarz:</value>
+  </data>
+  <data name="OptionsDialog_defaultInsertLocationLabel" xml:space="preserve">
+    <value>Domyślne umieszczenie odniesieniat:</value>
+  </data>
+  <data name="OptionsDialog_directQuotationSytleLabel" xml:space="preserve">
+    <value>Cytat bezpośredni:</value>
+  </data>
+  <data name="OptionsDialog_exportProjectButton" xml:space="preserve">
+    <value>Eksportuj projekt...</value>
+  </data>
+  <data name="OptionsDialog_generalTitleLabel" xml:space="preserve">
+    <value>Ogólne</value>
+  </data>
+  <data name="OptionsDialog_indirectQuotationLabel" xml:space="preserve">
+    <value>Cytat pośredni:</value>
+  </data>
+  <data name="OptionsDialog_keywordStyleLabel" xml:space="preserve">
+    <value>Słowa kluczowe:</value>
+  </data>
+  <data name="OptionsDialog_knowledgeItemsImageLinkToFileCheckBox" xml:space="preserve">
+    <value>Zalinkuj plik obrazu</value>
+  </data>
+  <data name="OptionsDialog_publicationTitleLabel" xml:space="preserve">
+    <value>Opcje wstawiania</value>
+  </data>
+  <data name="OptionsDialog_stylesTabPage" xml:space="preserve">
+    <value>Formatowanie</value>
+  </data>
+  <data name="OptionsDialog_stylesTitleLabel" xml:space="preserve">
+    <value>Automatycznie zastosuj styl</value>
+  </data>
+  <data name="OptionsDialog_subheadingStyleLabel" xml:space="preserve">
+    <value>Podtytuł:</value>
+  </data>
+  <data name="OptionsDialog_summaryStyleLabel" xml:space="preserve">
+    <value>Podsumowanie:</value>
+  </data>
+  <data name="PublicationPane_NoSelection_Chapter" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\sa200\sl276\slmult1\lang9\f0\fs22 Dodatek Citavi potrafi wykryć, nad którym rozdziałem twojego dokumentu pracujesz i automatycznie dopasowuje tytuły i cytowania w odpowiednim projecie Citavi. \par
+ Aby zacząć, wprowadź kategorie z Citavi do twojego dokumentu jako nagłówki: 
+na karcie \b Tytuły\b0  lub \b Wiedza\b0 po prostu kliknij dwukrotnie żeby je wprowadzić.\par
+}</value>
+  </data>
+  <data name="PublicationPane_NoSelection_KnowledgeItem" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\sa200\sl276\slmult1\lang9\f0\fs22 Ta karta pokazuje cytaty i myśli w bieżącym projekcie. Kliknij menu \b Widok\b0 , aby pogrupować kategorie lub słowa kluczowe.\par
+ Kliknij dwukrotnie, aby je wprowadzić.\par
+}</value>
+  </data>
+  <data name="PublicationPane_NoSelection_Reference" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\sa200\sl276\slmult1\lang9\f0\fs22 Ta karta pokazuje tytuły w obecnym projekcie. Kliknij menu \b Widok\b0 , aby zmienić opcje widoku. Dwukrotne kliknięcie wprowadza tytuł.\par
+Aby wprowadzić wielocytowanie, dodaj pierwsze cytowanie, potem umieść kursor w cytowaniu i kliknij dwukrotnie, aby wprowadzić drugi tytuł.\par
+}</value>
+  </data>
+  <data name="PublicationPane_NoSelection_Placeholder" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\sa200\sl276\slmult1\lang9\f0\fs22 Ta karta pokazuje tytuły i elementy wiedzy, które wstawiłeś do dokumentu. \par
+Wygląd jest odpowiedni do wybranego stylu cytowania. Możesz zmienić niektóre aspekty wyglądu tutaj.\par
+}</value>
+  </data>
+  <data name="CopyReferencesToCitaviProjectMsg_Add_Plural" xml:space="preserve">
+    <value>{0:{0} tytuły zostały skopiowane|{0} tytułów zostało skopiowanych} do projektu.</value>
+  </data>
+  <data name="CopyReferencesToCitaviProjectMsg_Add_Singular" xml:space="preserve">
+    <value>1 tytuł został skopiowany do projektu.</value>
+  </data>
+  <data name="CopyReferencesToCitaviProjectMsg_AllExists" xml:space="preserve">
+    <value>Żaden tytuł nie został skopiowany do projektu.</value>
+  </data>
+  <data name="CopyReferencesToCitaviProjectMsg_Exist_Plural" xml:space="preserve">
+    <value>{0:{0} tytuły są|{0} tytułów jest} już w projekcie.</value>
+  </data>
+  <data name="CopyReferencesToCitaviProjectMsg_Exist_Singular" xml:space="preserve">
+    <value>1 tytuł jest już w projekcie.</value>
+  </data>
+  <data name="OptionsDialog_categoryStylesLabel" xml:space="preserve">
+    <value>Rozpocznij nagłówki kategorii od:</value>
+  </data>
+  <data name="PublicationPane_ContextMenu_ArrangeBy" xml:space="preserve">
+    <value>Pokaż</value>
+  </data>
+  <data name="PublicationPane_ContextMenu_GoToPlaceholder" xml:space="preserve">
+    <value>Pokaż w dokumencie</value>
+  </data>
+  <data name="ProjectListControl_OpenProjectsLabel" xml:space="preserve">
+    <value>Otwórz projekty:</value>
+  </data>
+  <data name="ProjectListControl_RecentProjectsLabel" xml:space="preserve">
+    <value>Ostatnie projekty:</value>
+  </data>
+  <data name="ProjectListControl_OpenOtherProjectLabel" xml:space="preserve">
+    <value>Otwórz inny...</value>
+  </data>
+  <data name="PublicationPane_InfoControl_ChangePublicationProjectLabel" xml:space="preserve">
+    <value>Przypisz inne...</value>
+  </data>
+  <data name="PublicationPane_InfoControl_OpenPublicationProjectLabel" xml:space="preserve">
+    <value>Otwórz {0}</value>
+  </data>
+  <data name="PublicationPane_InfoControl_AssignProjectTitleLabel" xml:space="preserve">
+    <value>Przypisz projekt do dokumentu</value>
+  </data>
+  <data name="ProjectListControl_AssignedProjectLabel" xml:space="preserve">
+    <value>Przypisane:</value>
+  </data>
+  <data name="ProjectListControl_AssignOtherProjectLabel" xml:space="preserve">
+    <value>Przypisz inne...</value>
+  </data>
+  <data name="ProjectListControl_OpenProjectLabel" xml:space="preserve">
+    <value>Otwórz "{0}"</value>
+  </data>
+  <data name="ProjectListControl_AssignedProjectInfoLabel" xml:space="preserve">
+    <value>Ten dokument korzysta z projektu "{0}".</value>
+  </data>
+  <data name="PublicationPane_InfoControl_OpenAssignedProjectTitleLabel" xml:space="preserve">
+    <value>Otwórz przypisany projekt</value>
+  </data>
+  <data name="PlaceholderEntryError_NoReferenceAssigned" xml:space="preserve">
+    <value>Nie znaleziono przypisanego tytułu</value>
+  </data>
+  <data name="PublicationPane_InfoControl_CancelAssignProjectLabel" xml:space="preserve">
+    <value>Anuluj</value>
+  </data>
+  <data name="PublicationPane_MenuItem_EditCategory" xml:space="preserve">
+    <value>Edytuj w Citavi</value>
+  </data>
+  <data name="PublicationPane_MenuItem_EditKeyword" xml:space="preserve">
+    <value>Edytuj w Citavi</value>
+  </data>
+  <data name="PublicationPane_NoResults" xml:space="preserve">
+    <value>Brak wyników dla wyszukiwanego terminu "{0}".</value>
+  </data>
+  <data name="PublicationPaneName" xml:space="preserve">
+    <value>Citavi</value>
+  </data>
+  <data name="Ribbon_About" xml:space="preserve">
+    <value>O programie</value>
+  </data>
+  <data name="Ribbon_ChangeCitationStyle" xml:space="preserve">
+    <value>Dodaj styl cytowania</value>
+  </data>
+  <data name="Ribbon_CitationsSaveAsPlainText" xml:space="preserve">
+    <value>Zapisz kopię jako statyczny tekst...</value>
+  </data>
+  <data name="Ribbon_CitationStyleDropDown" xml:space="preserve">
+    <value>Styl cytowania:</value>
+  </data>
+  <data name="Ribbon_ConvertCitaviTaggedCitations" xml:space="preserve">
+    <value>Konwertuj symbole zastępcze Citavi do pól</value>
+  </data>
+  <data name="Ribbon_ConvertEndNoteCitations" xml:space="preserve">
+    <value>Konwertuj pola EndNote, RefMan lub RefWorks na pola Citavi</value>
+  </data>
+  <data name="Ribbon_ConvertMenu" xml:space="preserve">
+    <value>Konwertuj</value>
+  </data>
+  <data name="Ribbon_CopyReferencesToCitaviProject" xml:space="preserve">
+    <value>Kopiuj tytuły z dokumentu do projektu Citavi</value>
+  </data>
+  <data name="Ribbon_DocumentGroup" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="Ribbon_HelpGroup" xml:space="preserve">
+    <value>Pomoc</value>
+  </data>
+  <data name="Ribbon_Manual" xml:space="preserve">
+    <value>Podręcznik</value>
+  </data>
+  <data name="Ribbon_OpenAndChangeProject" xml:space="preserve">
+    <value>Przypisz inne...</value>
+  </data>
+  <data name="Ribbon_ProjectList" xml:space="preserve">
+    <value>Projekt:</value>
+  </data>
+  <data name="Ribbon_PublicationPaneButton" xml:space="preserve">
+    <value>Panel Citavi</value>
+  </data>
+  <data name="Ribbon_RefreshPublication" xml:space="preserve">
+    <value>Odśwież</value>
+  </data>
+  <data name="Ribbon_ShowGroup" xml:space="preserve">
+    <value>Pokaż</value>
+  </data>
+  <data name="Ribbon_Support" xml:space="preserve">
+    <value>Wsparcie techniczne</value>
+  </data>
+  <data name="Ribbon_DocumentGroupDialogBoxLauncher" xml:space="preserve">
+    <value>Opcje</value>
+  </data>
+  <data name="DocumentOptionsDialog_Text" xml:space="preserve">
+    <value>Opcje dokumentu: {0}</value>
+  </data>
+  <data name="WordStyle_None" xml:space="preserve">
+    <value>(Scal formatowanie)</value>
+  </data>
+  <data name="PlaceholderParams_Prefix" xml:space="preserve">
+    <value>Przedrostek:</value>
+  </data>
+  <data name="PlaceholderParams_Suffix" xml:space="preserve">
+    <value>Przyrostek:</value>
+  </data>
+  <data name="PublicationPane_ContextMenu_QuickInsert" xml:space="preserve">
+    <value>Szybkie wstawianie</value>
+  </data>
+  <data name="PublicationPane_MenuItem_Insert" xml:space="preserve">
+    <value>Wstaw</value>
+  </data>
+  <data name="PublicationPane_ToolStrip_CollapseAllCategories" xml:space="preserve">
+    <value>Zwiń wszystko</value>
+  </data>
+  <data name="PublicationPane_ToolStrip_ExpandAllCategories" xml:space="preserve">
+    <value>Rozwiń wszystko</value>
+  </data>
+  <data name="PublicationPane_ToolStrip_CollapseAllKeywords" xml:space="preserve">
+    <value>Zwiń wszystko</value>
+  </data>
+  <data name="PublicationPane_ToolStrip_ExpandAllKeywords" xml:space="preserve">
+    <value>Rozwiń wszystko</value>
+  </data>
+  <data name="PublicationPane_ToolStrip_InsertButtonTooltip_Category" xml:space="preserve">
+    <value>Wstaw wybraną kategorię do dokumentu. Możesz także wstawić kategorię dwukrotnym kliknięciem.</value>
+  </data>
+  <data name="PublicationPane_ToolStrip_InsertButtonTooltip_Keyword" xml:space="preserve">
+    <value>Wstaw wybrane słowo kluczowe do dokumentu. Możesz także wstawić słowo kluczowe dwukrotnym kliknięciem.</value>
+  </data>
+  <data name="PublicationPane_ToolStrip_InsertButtonTooltip_KnowledgeItem" xml:space="preserve">
+    <value>Wstaw wybrany element wiedzy do dokumentu. Element wiedzy można wprowadzić także dwukrotnym kliknięciem.</value>
+  </data>
+  <data name="PublicationPane_ToolStrip_InsertButtonTooltip_Reference" xml:space="preserve">
+    <value>Wstaw wybrany tytuł do dokumentu. Podwójne kliknięcie także wstawi tytuł.</value>
+  </data>
+  <data name="PublicationStatisticForm_charsCountLabel" xml:space="preserve">
+    <value>Znaki (bez spacji)</value>
+  </data>
+  <data name="PublicationStatisticForm_charsCountWithSpacesLabel" xml:space="preserve">
+    <value>Znaki (ze spacjami)</value>
+  </data>
+  <data name="PublicationStatisticForm_includePublicationRangesCheckBox" xml:space="preserve">
+    <value>Zawiera cytowania i bibliografię</value>
+  </data>
+  <data name="PublicationStatisticForm_quotedReferencesLabel" xml:space="preserve">
+    <value>Tytuły cytowane</value>
+  </data>
+  <data name="PublicationStatisticForm_titleLabel" xml:space="preserve">
+    <value>Statystyka dokumentu</value>
+  </data>
+  <data name="PublicationStatisticForm_wordsCountlabel" xml:space="preserve">
+    <value>Słowa</value>
+  </data>
+  <data name="DocumentOptionsDialog_showDocumentStatisticLabel" xml:space="preserve">
+    <value>Pokaż statystykę dokumentu...</value>
+  </data>
+  <data name="PreviewWarningMessage" xml:space="preserve">
+    <value>To jest próbna wersja Dodatka Citavi do Worda. Ta wersja powinna być używana jedynie do testowania. 
+
+Nieznane błędy lub zmiany programu mogą spowodować wstawienie przypadkowych cytowań lub edytowanie istniejących już w dokumencie.</value>
+  </data>
+  <data name="PublicationPanePreview_knowledgeItemFileIsNotAnUri" xml:space="preserve">
+    <value>Adres "{0}" nie jest prawidłową ścieżką lub adresem internetowym.</value>
+  </data>
+  <data name="PublicationPanePreview_knowledgeItemHasNoFile" xml:space="preserve">
+    <value>Żadne pliki nie są powiązane z elementem wiedzy "{0}".</value>
+  </data>
+  <data name="PublicationPanePreview_noValidBitmap" xml:space="preserve">
+    <value>Plik "{0}" nie może być wyświetlony w podglądzie Dodatku do Worda.</value>
+  </data>
+  <data name="PublicationPanePreview_remoteUri" xml:space="preserve">
+    <value>Adres "{0}" nie może być wyświetlony w podglądzie Dodatku do Worda.</value>
+  </data>
+  <data name="CommandBar_ConvertToPlainText" xml:space="preserve">
+    <value>Konwertuj cytowanie do statycznego tekstu</value>
+  </data>
+  <data name="CommandBar_HidePublicationPane" xml:space="preserve">
+    <value>Ukryj panel zadań Citavi</value>
+  </data>
+  <data name="CommandBar_ShowPublicationPane" xml:space="preserve">
+    <value>Pokaż terminarz zadań Citavi</value>
+  </data>
+  <data name="PublicationPane_ContextMenu_InsertLocation" xml:space="preserve">
+    <value>Wstaw jako:</value>
+  </data>
+  <data name="PublicationPane_ChapterWithNoChildren" xml:space="preserve">
+    <value>(Ta kategoria nie jest przypisana do żadnego tytułu lub elementu wiedzy.)</value>
+  </data>
+  <data name="CopyToProjectDialog_allReferencesRadionButton" xml:space="preserve">
+    <value>Wszystkie tytuły w tym dokumencie, których nie ma w projekcie</value>
+  </data>
+  <data name="CopyToProjectDialog_questionLabel" xml:space="preserve">
+    <value>Wybierz tytuł, który chcesz skopiować do projektu.</value>
+  </data>
+  <data name="CopyToProjectDialog_selectedReferenceRadionButton" xml:space="preserve">
+    <value>Zaznaczony tytuł</value>
+  </data>
+  <data name="CopyToProjectDialog_titleLabel" xml:space="preserve">
+    <value>Tego tytułu nie ma w bieżącym projekcie. Jest prawdopodobnie w innym. 
+Skopiuj tytuł do bieżącego projektu, aby go edytować.</value>
+  </data>
+  <data name="EditKnowledgeItem_NotInProject" xml:space="preserve">
+    <value>Elementu wiedzy nie ma w bieżącym projekcie.</value>
+  </data>
+  <data name="InsertKnowledgeItemLayout_CoreStatementAndTextAndCitation" xml:space="preserve">
+    <value>Myśl główna, element wiedzy i cytowanie</value>
+  </data>
+  <data name="PublicationPane_ContextMenu_CopyKnowledgeItemsLayout" xml:space="preserve">
+    <value>Dołącz:</value>
+  </data>
+  <data name="InsertKnowledgeItemLayout_Thougth_CoreStatemantAndText" xml:space="preserve">
+    <value>Główna myśl i myśl</value>
+  </data>
+  <data name="InsertKnowledgeItemLayout_Thougth_Text" xml:space="preserve">
+    <value>Tylko myśli</value>
+  </data>
+  <data name="PublicationPane_InfoControl_OpenAssignedProject" xml:space="preserve">
+    <value>Kliknij tutaj, aby uruchomić Citavi.</value>
+  </data>
+  <data name="Ribbon_CitationsSaveAsPlainTextWithPlaceholder" xml:space="preserve">
+    <value>Zapisz kopię z symbolami zastępczymi Citavi</value>
+  </data>
+  <data name="NoPerson" xml:space="preserve">
+    <value>Bez osoby</value>
+  </data>
+  <data name="PublicationPane_ContextMenu_ArrangeByPersons" xml:space="preserve">
+    <value>Według osoby</value>
+  </data>
+  <data name="PublicationPane_ContextMenu_ArrangeByPlaceholder" xml:space="preserve">
+    <value>Według cytowań</value>
+  </data>
+  <data name="PublicationPane_ContextMenu_ArrangeBySeries" xml:space="preserve">
+    <value>Według czasopism lub serii</value>
+  </data>
+  <data name="NoSeries" xml:space="preserve">
+    <value>Brak czasopism lub serii</value>
+  </data>
+  <data name="PlaceholderLockedBy" xml:space="preserve">
+    <value>Zablokowano przez {0}</value>
+  </data>
+  <data name="PublicationPane_Statusbar_NumberOfCitations_Plural" xml:space="preserve">
+    <value>Ten tytuł był cytowany {0:{0} razy|{0} razy}.</value>
+  </data>
+  <data name="PublicationPane_Statusbar_NumberOfCitations_Singular" xml:space="preserve">
+    <value>Ten tytuł był cytowany {0} raz.</value>
+  </data>
+  <data name="PublicationPane_ContextMenu_ArrangeByReference" xml:space="preserve">
+    <value>Według tytułów</value>
+  </data>
+  <data name="PublicationPane_AssignReferenceTitleLabel" xml:space="preserve">
+    <value>Wyszukaj tytuły w bieżącym projekcie:</value>
+  </data>
+  <data name="ConvertCitationsProgress_SavePlaceholderFields" xml:space="preserve">
+    <value>Zapisuje pola...</value>
+  </data>
+  <data name="QuotationFile" xml:space="preserve">
+    <value>Cytat w obrazie</value>
+  </data>
+  <data name="ThoughtFile" xml:space="preserve">
+    <value>Myśl (obraz lub plik)</value>
+  </data>
+  <data name="Ribbon_ShowDocumentOptionsDialog" xml:space="preserve">
+    <value>Opcje</value>
+  </data>
+  <data name="PublicationPane_MenuItem_EditPerson" xml:space="preserve">
+    <value>Edytuj w Citavi</value>
+  </data>
+  <data name="PublicationPane_ToolStrip_CollapseAllPersons" xml:space="preserve">
+    <value>Zwiń wszystko</value>
+  </data>
+  <data name="PublicationPane_ToolStrip_ExpandAllPersons" xml:space="preserve">
+    <value>Rozwiń wszystko</value>
+  </data>
+  <data name="PlaceholderParams_NoBib_BibOnlyMenu" xml:space="preserve">
+    <value>Wpis bibliograficzny:</value>
+  </data>
+  <data name="PlaceholderParams_RuleSetMenu" xml:space="preserve">
+    <value>Zestaw reguł:</value>
+  </data>
+  <data name="InsertAllProjectCategories" xml:space="preserve">
+    <value>Czy chcesz użyć całego systemu kategorii jako konspektu?</value>
+  </data>
+  <data name="PlaceholderParams_QuotationType" xml:space="preserve">
+    <value>Typ cytatu</value>
+  </data>
+  <data name="PlaceholderParams_UsePrefixSuffixCitationStyle" xml:space="preserve">
+    <value>Formatuj zgodnie ze stylem cytowania</value>
+  </data>
+  <data name="PlaceholderParams_UsePrefixSuffixCustom" xml:space="preserve">
+    <value>Formatuj następująco:</value>
+  </data>
+  <data name="PublicationPane_ContextMenu_FormatOption" xml:space="preserve">
+    <value>Opcje formatu:</value>
+  </data>
+  <data name="InsertAllProjectCategories_Progress" xml:space="preserve">
+    <value>Wstawianie systemu kategorii...</value>
+  </data>
+  <data name="Progress_FormatBibliography" xml:space="preserve">
+    <value>Aktualizowanie bibliografii…</value>
+  </data>
+  <data name="Progress_FormatPlaceholder" xml:space="preserve">
+    <value>Aktualizowanie cytowań…</value>
+  </data>
+  <data name="Progress_SavePublication" xml:space="preserve">
+    <value>Zapisuje publikację.</value>
+  </data>
+  <data name="WordAddInActivedRestartWord" xml:space="preserve">
+    <value>Musisz zrestartować Word, aby zmiany przyniosły efekt</value>
+  </data>
+  <data name="UndoActionName_ChangeCitationStyle" xml:space="preserve">
+    <value>Przeglądaj style cytowania</value>
+  </data>
+  <data name="PublicationPane_StatusBar_copyReferenceToProjectToolStripSplitButton" xml:space="preserve">
+    <value>Nie znaleziono tytułu w projekcie</value>
+  </data>
+  <data name="PublicationPane_MenuItem_InsertCategoryWithOptions" xml:space="preserve">
+    <value>Wprowadź kategorie i elementy wiedzy</value>
+  </data>
+  <data name="PublicationPane_MenuItem_InsertCategory_CategoryAndSubcategories" xml:space="preserve">
+    <value>Tylko obecna kategoria i jej podkategorie</value>
+  </data>
+  <data name="PublicationPane_MenuItem_InsertCategory_Subcategories" xml:space="preserve">
+    <value>Tylko podkategorie z aktualnej kategorii</value>
+  </data>
+  <data name="PublicationPane_MenuItem_InsertCategory_AllCategories" xml:space="preserve">
+    <value>Wszystkie kategorie</value>
+  </data>
+  <data name="PublicationPane_MenuItem_InsertCategory_Category" xml:space="preserve">
+    <value>Tylko obecna kategoria</value>
+  </data>
+  <data name="PublicationPane_MenuItem_InsertCategory_IncludeCoreStatement" xml:space="preserve">
+    <value>Dołącz główne myśli</value>
+  </data>
+  <data name="PublicationPane_MenuItem_InsertCategory_ExcludeEmptyCategories" xml:space="preserve">
+    <value>Wyłącz kategorie bez elementó wiedzy</value>
+  </data>
+  <data name="PublicationPane_MenuItem_InsertCategory_IncludeKnowledgeItems" xml:space="preserve">
+    <value>Dołącz elementy wiedzy</value>
+  </data>
+  <data name="PublicationPane_MenuItem_InsertCategory_OptionsLabel" xml:space="preserve">
+    <value>Opcje</value>
+  </data>
+  <data name="PublicationPane_MenuItem_InsertCategory" xml:space="preserve">
+    <value>Wstaw jako nagłówek</value>
+  </data>
+  <data name="OptionsDialog_instantFormattingCheckBox" xml:space="preserve">
+    <value>Zastosuj automatycznie formatowanie stylu cytowania</value>
+  </data>
+  <data name="WordTemplateProtectedError" xml:space="preserve">
+    <value>Citavi nie może wykonać żądanej akcji ponieważ edycja jest ograniczona. Aby usunąć to ograniczenie, należy przejść do zakładki "Podgląd", a następnie kliknąć "Ograniczona edycja". Wyczyść pole "Ogranicz formatowanie do wybranych stylów" . 
+Przejdź do karty Citavi i kliknij przycisk "Odśwież".</value>
+  </data>
+  <data name="DocumentOptionsDialog_Repair" xml:space="preserve">
+    <value>Napraw</value>
+  </data>
+  <data name="DocumentHasConflicts" xml:space="preserve">
+    <value>Word uniemożliwił edycję w związku z otwartymi konfliktami. Klinknij zakładę Konflikty, aby zaakceptować lub odrzucić zmiany.</value>
+  </data>
+  <data name="OptionsDialog_loadCustomStylesCheckBox" xml:space="preserve">
+    <value>Pokaż własne style</value>
+  </data>
+  <data name="InsertKnowledgeItemLayout_CoreStatementAndCitation" xml:space="preserve">
+    <value>Główna myśl oraz cytowanie</value>
+  </data>
+  <data name="WrongCitaviVersion" xml:space="preserve">
+    <value>Wersja Dodatku do Worda różni się od wersji Citavi. Tutaj opisano jak rozwiązać problem: 
+http://www.citavi.com/wai-differs</value>
+  </data>
+  <data name="PlaceholderPageCountPlausibility" xml:space="preserve">
+    <value>Wprowadzono zakres stron "{0}", który nie jest zgodny z liczbą stron ("{1}") źródła. 
+Czy zakres stron jest prawidłowy?
+
+</value>
+  </data>
+  <data name="PlaceholderPageRangePlausibility" xml:space="preserve">
+    <value>Wprowadzono zakres stron "{0}", który nie jest zgodny z liczbą stron ("{1}") źródła. 
+Czy zakres stron jest prawidłowy?
+
+</value>
+  </data>
+  <data name="PublicationPane_MenuItem_ShowKnowledgeItemInPdf" xml:space="preserve">
+    <value>Pokaż w PDF</value>
+  </data>
+  <data name="PublicationPane_MenuItem_GoToKnowledgeItem" xml:space="preserve">
+    <value>Pokaż element wiedzy w dokumencie</value>
+  </data>
+  <data name="OptionsDialog_bibliographyAutoHeadingRadioButton" xml:space="preserve">
+    <value>Jak określono w stylu cytowania</value>
+  </data>
+  <data name="OptionsDialog_bibliographyCustomHeadingRadioButton" xml:space="preserve">
+    <value>Nowy nagłówek:</value>
+  </data>
+  <data name="OptionsDialog_bibliographyHeadingTitleLabel" xml:space="preserve">
+    <value>Nagłówek:</value>
+  </data>
+  <data name="OptionsDialog_bibliographyNoCheckBox" xml:space="preserve">
+    <value>Bez bibliografii</value>
+  </data>
+  <data name="OptionsDialog_bibliographyNoHeadingRadioButton" xml:space="preserve">
+    <value>Bez nagłówka</value>
+  </data>
+  <data name="OptionsDialog_bibliographyTitleLabel" xml:space="preserve">
+    <value>Utwórz bibliografię</value>
+  </data>
+  <data name="OptionsDialog_bibliographyWithHyperlinksCheckBox" xml:space="preserve">
+    <value>Połącz cytowania w tekście z tytułami w bibliografii</value>
+  </data>
+  <data name="Ribbon_CitationsSaveAsPlainTextWithHyperlinks" xml:space="preserve">
+    <value>Zapisz kopię ja statyczny tekst (z hiperłaczami)</value>
+  </data>
+  <data name="Ribbon_BibliographyGroupingSetsDropDown" xml:space="preserve">
+    <value>Pogrupowanie:</value>
+  </data>
+  <data name="OptionsDialog_travelingLibraryCheckBox" xml:space="preserve">
+    <value>Zapisz tytuły w dokumencie</value>
+  </data>
+  <data name="KnowledgeItemPlaceholderTitle" xml:space="preserve">
+    <value>Element wiedzy Citavi</value>
+  </data>
+  <data name="KnowledgeItemListInfo" xml:space="preserve">
+    <value>Kliknij w pole na górze &lt;i&gt;Szukaj elementów wiedzy&lt;/i&gt;, aby pobrać odpowiedni element wiedzy.</value>
+  </data>
+  <data name="ReferencesListInfo" xml:space="preserve">
+    <value>Kliknij w pole na górze &lt;i&gt;Szukaj tytułów&lt;/i&gt;, aby pobrać odpowiedni tytuł.</value>
+  </data>
+  <data name="Ribbon_ConvertCitaviPlaceholderFields" xml:space="preserve">
+    <value>Konwertuj cytowania z wcześniejszych wersji Citavi</value>
+  </data>
+  <data name="Ribbon_ConvertPlaceholderLocationMenu" xml:space="preserve">
+    <value>Zmień pozycję cytowania</value>
+  </data>
+  <data name="Ribbon_ConvertPlaceholderLocation_Footnote" xml:space="preserve">
+    <value>Konwertuj cytowanie w tekście na cytowanie w przypisie</value>
+  </data>
+  <data name="Ribbon_ConvertPlaceholderLocation_InText" xml:space="preserve">
+    <value>Konwertuj cytowanie w przypisie na cytowanie w tekście</value>
+  </data>
+  <data name="ConvertCitaviFieldsPlaceholder" xml:space="preserve">
+    <value>Ten dokument zawiera cytowania zapisane we wcześniejszej wersji Citavi. Aby dalej pracować z aktualnym dodatkiem Citavi do Worda, należy skonwertować cytowania na aktualny format. 
+
+Czy chcesz skonwertować cytowania teraz?</value>
+  </data>
+  <data name="DocumentFromNewerWAIVersion" xml:space="preserve">
+    <value>Ten dokument został utworzony za pomocą nowszej wersji programu Citavi i nie może być edytowany za pomocą tej wersji.</value>
+  </data>
+  <data name="OptionsDialog_copyKnowledgeItemsLayoutLabel" xml:space="preserve">
+    <value>Cytuj elementy wiedzy jako:</value>
+  </data>
+  <data name="OpenLegacyProjectWarning" xml:space="preserve">
+    <value>Niniejszy dokument utworzono przy użyciu starszej wersji programu Citavi. Czy chcesz teraz uruchomić Citavi 6, aby przekonwertować potwierdzenia do nowego formatu?</value>
+  </data>
+  <data name="FieldShading" xml:space="preserve">
+    <value>Cieniowanie pola:</value>
+  </data>
+  <data name="WdFieldShading_Always" xml:space="preserve">
+    <value>Zawsze</value>
+  </data>
+  <data name="WdFieldShading_Never" xml:space="preserve">
+    <value>Nigdy</value>
+  </data>
+  <data name="WdFieldShading_Selected" xml:space="preserve">
+    <value>Tylko zaznaczone</value>
+  </data>
+  <data name="AddSectionBibliography" xml:space="preserve">
+    <value>Dodaj bibliografię dla sekcji</value>
+  </data>
+  <data name="EditSectionBibliography" xml:space="preserve">
+    <value>Edytuj bibliografię sekcji</value>
+  </data>
+  <data name="SectionBibliographyDialog_text" xml:space="preserve">
+    <value>Bibliografie sekcji</value>
+  </data>
+  <data name="SectionBibliographyDialog_titleLabel" xml:space="preserve">
+    <value>Od którego miejsca zacząć gromadzić tytuły do tej bibliografii?</value>
+  </data>
+  <data name="SectionBibliographyType_Bookmark" xml:space="preserve">
+    <value>Zakładka</value>
+  </data>
+  <data name="SectionBibliographyType_Heading" xml:space="preserve">
+    <value>Nagłówek</value>
+  </data>
+  <data name="SectionBibliography_CrossRefDeletedMsg" xml:space="preserve">
+    <value>Błąd! Punkt początkowy bibliografii sekcji Citavi nie został określony.</value>
+  </data>
+  <data name="SectionBibliography_CrossRefInvalidRangeMsg" xml:space="preserve">
+    <value>Błąd! Punkt początkowy zakładki jest nieaktualny.</value>
+  </data>
+  <data name="SectionBibliographyDialog_sectionTypeLabel" xml:space="preserve">
+    <value>Typ linku:</value>
+  </data>
+  <data name="DeleteSectionBibliography" xml:space="preserve">
+    <value>Usuń bibliografię sekcji</value>
+  </data>
+  <data name="DeletePlaceholder" xml:space="preserve">
+    <value>Usuń cytowanie</value>
+  </data>
+  <data name="RepairDocumentMsgBoxText" xml:space="preserve">
+    <value>Bieżący dokument zostanie teraz zapisany i zamknięty</value>
+  </data>
+</root>

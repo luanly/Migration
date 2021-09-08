@@ -1,0 +1,4232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CategoriesExportMenu" xml:space="preserve">
+    <value>Kategoriensystem exportieren</value>
+  </data>
+  <data name="CategoriesImportMenu" xml:space="preserve">
+    <value>Kategoriensystem importieren</value>
+  </data>
+  <data name="MoveCategoryDown" xml:space="preserve">
+    <value>Nach unten</value>
+  </data>
+  <data name="MoveCategoryUp" xml:space="preserve">
+    <value>Nach oben</value>
+  </data>
+  <data name="NewCategory" xml:space="preserve">
+    <value>Neue Kategorie</value>
+  </data>
+  <data name="NewSubcategory" xml:space="preserve">
+    <value>Neue Subkategorie</value>
+  </data>
+  <data name="RenameCategory" xml:space="preserve">
+    <value>Umbenennen</value>
+  </data>
+  <data name="PromoteCategory" xml:space="preserve">
+    <value>Höherstufen</value>
+  </data>
+  <data name="ExportToConceptDraw" xml:space="preserve">
+    <value>Nach ConceptDraw…</value>
+  </data>
+  <data name="ExportToFreeMind" xml:space="preserve">
+    <value>Nach FreeMind…</value>
+  </data>
+  <data name="ExportToMindManager" xml:space="preserve">
+    <value>Nach MindManager…</value>
+  </data>
+  <data name="ExportToWord" xml:space="preserve">
+    <value>Nach Word…</value>
+  </data>
+  <data name="ExportToWriter" xml:space="preserve">
+    <value>Nach Writer…</value>
+  </data>
+  <data name="Categories_ImportFromCitaviProject" xml:space="preserve">
+    <value>Aus einem Citavi-Projekt…</value>
+  </data>
+  <data name="ImportFromConceptDraw" xml:space="preserve">
+    <value>Aus einem ConceptDraw-Dokument…</value>
+  </data>
+  <data name="ImportFromFreeMind" xml:space="preserve">
+    <value>Aus einem FreeMind-Dokument…</value>
+  </data>
+  <data name="ImportFromMindManager" xml:space="preserve">
+    <value>Aus einem MindManager-Dokument…</value>
+  </data>
+  <data name="ImportFromWordDocument" xml:space="preserve">
+    <value>Aus einem Word-Dokument…</value>
+  </data>
+  <data name="ImportFromWriter" xml:space="preserve">
+    <value>Aus einem Writer-Dokument…</value>
+  </data>
+  <data name="CollapseAllCategories" xml:space="preserve">
+    <value>Nur die Hauptkategorien anzeigen</value>
+  </data>
+  <data name="ExpandAllCategories" xml:space="preserve">
+    <value>Alle Kategorien anzeigen</value>
+  </data>
+  <data name="ApplyKeywordsForm_MoveKeywordDown" xml:space="preserve">
+    <value>Nach unten</value>
+  </data>
+  <data name="ApplyKeywordsForm_MoveKeywordUp" xml:space="preserve">
+    <value>Nach oben</value>
+  </data>
+  <data name="ApplyKeywordsForm_SortKeywords" xml:space="preserve">
+    <value>Alphabetisch sortieren</value>
+  </data>
+  <data name="BatchAssignCategoriesDialog_FileOk" xml:space="preserve">
+    <value>Markierte Kategorien zuweisen</value>
+    <comment>???</comment>
+  </data>
+  <data name="BibTeXKeyEditorContextMenu" xml:space="preserve">
+    <value>Kontextmenü für das BibTeX Key-Feld</value>
+    <comment>999</comment>
+  </data>
+  <data name="DemoteCategory" xml:space="preserve">
+    <value>Tieferstufen</value>
+  </data>
+  <data name="CategoriesEditorContextMenu" xml:space="preserve">
+    <value>Kontextmenü für Kategorien</value>
+    <comment>999</comment>
+  </data>
+  <data name="ChildReferenceContextMenu" xml:space="preserve">
+    <value>Kontextmenü für Beiträge</value>
+    <comment>999</comment>
+  </data>
+  <data name="Citation" xml:space="preserve">
+    <value>Zitation</value>
+  </data>
+  <data name="ShowTeXPublicationFormWithFileSelector" xml:space="preserve">
+    <value>Automatischer BibTeX-Export</value>
+  </data>
+  <data name="ShowTeXPublicationForm" xml:space="preserve">
+    <value>Dokumente auswählen…</value>
+  </data>
+  <data name="ShowTeXPublicationFormWithItemFromMruList" xml:space="preserve">
+    <value>Liste der zuletzt formatierten Dokumente</value>
+  </data>
+  <data name="ShowCitationStyleList" xml:space="preserve">
+    <value>Zitationsstile</value>
+  </data>
+  <data name="CitationMenu" xml:space="preserve">
+    <value>Zitation</value>
+  </data>
+  <data name="CopyPlaceholder" xml:space="preserve">
+    <value>In die Zwischenablage kopieren</value>
+  </data>
+  <data name="CitationPlaceholderMenu" xml:space="preserve">
+    <value>Zitieren</value>
+  </data>
+  <data name="ShowPublicationAssistant" xml:space="preserve">
+    <value>LaTeX-Assistent…</value>
+  </data>
+  <data name="CitaviHelpBox_ContextMenu" xml:space="preserve">
+    <value>Kontextmenü</value>
+    <comment>999</comment>
+  </data>
+  <data name="CitaviHelpBox_Edit" xml:space="preserve">
+    <value>Überarbeiten…</value>
+  </data>
+  <data name="CitaviHelpBox_Info" xml:space="preserve">
+    <value>Information…</value>
+  </data>
+  <data name="CitaviHelpBox_Reload" xml:space="preserve">
+    <value>Aktualisieren</value>
+  </data>
+  <data name="DateFieldContextMenu" xml:space="preserve">
+    <value>Kontextmenü für Datumsfelder</value>
+    <comment>999</comment>
+  </data>
+  <data name="DeselectAll" xml:space="preserve">
+    <value>Alle abwählen</value>
+  </data>
+  <data name="ChildReferencesList" xml:space="preserve">
+    <value>Liste der Beiträge</value>
+  </data>
+  <data name="ClearFilter" xml:space="preserve">
+    <value>Auswahl aufheben</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="Label1Menu" xml:space="preserve">
+    <value>Blaue Marke</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>Ausschneiden</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="EditFind" xml:space="preserve">
+    <value>Suchen</value>
+  </data>
+  <data name="EditMenu" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="OpenActiveLinkFile" xml:space="preserve">
+    <value>Datei öffnen…</value>
+  </data>
+  <data name="OpenActiveLinkFolder" xml:space="preserve">
+    <value>Ordner öffnen…</value>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="PasteRtf" xml:space="preserve">
+    <value>Einfügen mit Formatierung</value>
+  </data>
+  <data name="Redo" xml:space="preserve">
+    <value>Wiederherstellen</value>
+  </data>
+  <data name="RemoveAllLabels1" xml:space="preserve">
+    <value>Alle blauen Marken entfernen</value>
+  </data>
+  <data name="RemoveAllLabels2" xml:space="preserve">
+    <value>Alle roten Marken entfernen</value>
+  </data>
+  <data name="RemoveLabel1" xml:space="preserve">
+    <value>Bei markierten Titeln entfernen</value>
+  </data>
+  <data name="RemoveLabel2" xml:space="preserve">
+    <value>Bei markierten Titeln entfernen</value>
+  </data>
+  <data name="EditReplace" xml:space="preserve">
+    <value>Ersetzen…</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Alles markieren</value>
+  </data>
+  <data name="SelectUnused" xml:space="preserve">
+    <value>Unbenutzte markieren</value>
+  </data>
+  <data name="SetLabel1" xml:space="preserve">
+    <value>Bei markierten Titeln setzen</value>
+  </data>
+  <data name="SetLabel2" xml:space="preserve">
+    <value>Bei markierten Titeln setzen</value>
+  </data>
+  <data name="SiblingReferencesList" xml:space="preserve">
+    <value>Liste der Beiträge</value>
+  </data>
+  <data name="Label2Menu" xml:space="preserve">
+    <value>Rote Marke</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Rückgängig</value>
+  </data>
+  <data name="FileCancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="CreateBibliography" xml:space="preserve">
+    <value>Literaturliste…</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Importieren…</value>
+  </data>
+  <data name="FileMenu" xml:space="preserve">
+    <value>Datei</value>
+  </data>
+  <data name="OpenRecentProject" xml:space="preserve">
+    <value>Liste der zuletzt geöffneten Projekte</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Drucken…</value>
+  </data>
+  <data name="FormatAllCaps" xml:space="preserve">
+    <value>Großbuchstaben</value>
+  </data>
+  <data name="FormatBold" xml:space="preserve">
+    <value>Fett</value>
+  </data>
+  <data name="FormatBullets" xml:space="preserve">
+    <value>Aufzählungszeichen</value>
+  </data>
+  <data name="FormatBulletsAndNumbering" xml:space="preserve">
+    <value>Nummerierung und Aufzählungszeichen…</value>
+  </data>
+  <data name="FormatChangeTextCase" xml:space="preserve">
+    <value>Groß-/Kleinschreibung</value>
+    <comment>999</comment>
+  </data>
+  <data name="FormatChangeTextCaseInitialUppercase" xml:space="preserve">
+    <value>Großbuchstaben am Wortanfang</value>
+    <comment>999</comment>
+  </data>
+  <data name="FormatChangeTextCaseLowercase" xml:space="preserve">
+    <value>Kleinbuchstaben</value>
+  </data>
+  <data name="FormatChangeTextCaseUppercase" xml:space="preserve">
+    <value>Großbuchstaben</value>
+  </data>
+  <data name="FormatCharacter" xml:space="preserve">
+    <value>Zeichen…</value>
+  </data>
+  <data name="FormatDoubleUnderline" xml:space="preserve">
+    <value>Doppelt unterstrichen</value>
+  </data>
+  <data name="FormatFontName" xml:space="preserve">
+    <value>Schrift</value>
+  </data>
+  <data name="FormatFontSize" xml:space="preserve">
+    <value>Schriftgröße</value>
+  </data>
+  <data name="FormatHidden" xml:space="preserve">
+    <value>Verborgen</value>
+  </data>
+  <data name="FormatIndentDecreaseLevel" xml:space="preserve">
+    <value>Einzug verkleinern</value>
+  </data>
+  <data name="FormatIndentIncreaseLevel" xml:space="preserve">
+    <value>Einzug vergrößern</value>
+  </data>
+  <data name="FormatItalic" xml:space="preserve">
+    <value>Kursiv</value>
+  </data>
+  <data name="FormatMenu" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="FormatNumbering" xml:space="preserve">
+    <value>Nummerierung</value>
+  </data>
+  <data name="FormatParagraph" xml:space="preserve">
+    <value>Absatz…</value>
+  </data>
+  <data name="FormatParagraphAlignmentCenter" xml:space="preserve">
+    <value>Zentriert</value>
+  </data>
+  <data name="FormatParagraphAlignmentJustify" xml:space="preserve">
+    <value>Blocksatz</value>
+  </data>
+  <data name="FormatParagraphAlignmentLeft" xml:space="preserve">
+    <value>Linksbündig</value>
+  </data>
+  <data name="FormatParagraphAlignmentRight" xml:space="preserve">
+    <value>Rechtsbündig</value>
+  </data>
+  <data name="FormatParagraphFlow" xml:space="preserve">
+    <value>Schreibrichtung</value>
+    <comment>999</comment>
+  </data>
+  <data name="FormatParagraphFlowDefault" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="FormatParagraphFlowLeftToRight" xml:space="preserve">
+    <value>Links-rechts</value>
+  </data>
+  <data name="FormatParagraphFlowRightToLeft" xml:space="preserve">
+    <value>Rechts-links</value>
+  </data>
+  <data name="FormatRemoveReturnsAndTabs" xml:space="preserve">
+    <value>Absätze und Tabulatoren entfernen</value>
+    <comment>999</comment>
+  </data>
+  <data name="FormatResetAll" xml:space="preserve">
+    <value>Alles zurücksetzen</value>
+  </data>
+  <data name="FormatSmallCaps" xml:space="preserve">
+    <value>Kapitälchen</value>
+  </data>
+  <data name="FormatTabStop" xml:space="preserve">
+    <value>Tabstopp…</value>
+  </data>
+  <data name="FormatTextColor" xml:space="preserve">
+    <value>Textfarbe</value>
+  </data>
+  <data name="FormatTextColorBlack" xml:space="preserve">
+    <value>Schwarz</value>
+  </data>
+  <data name="FormatTextColorBlue" xml:space="preserve">
+    <value>Blau</value>
+  </data>
+  <data name="FormatTextColorDarkBlue" xml:space="preserve">
+    <value>Dunkelblau</value>
+  </data>
+  <data name="FormatTextColorDarkRed" xml:space="preserve">
+    <value>Dunkelrot</value>
+  </data>
+  <data name="FormatTextColorGreen" xml:space="preserve">
+    <value>Grün</value>
+  </data>
+  <data name="FormatTextColorLightBlue" xml:space="preserve">
+    <value>Hellblau</value>
+  </data>
+  <data name="FormatTextColorLightGreen" xml:space="preserve">
+    <value>Hellgrün</value>
+  </data>
+  <data name="FormatTextColorOrange" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="FormatTextColorPurple" xml:space="preserve">
+    <value>Violett</value>
+  </data>
+  <data name="FormatTextColorRed" xml:space="preserve">
+    <value>Rot</value>
+  </data>
+  <data name="FormatTextColorYellow" xml:space="preserve">
+    <value>Gelb</value>
+  </data>
+  <data name="FormatUnderline" xml:space="preserve">
+    <value>Unterstrichen</value>
+  </data>
+  <data name="GoToCategoryReferencesMenu" xml:space="preserve">
+    <value>Gehe zu anderen Titeln in der Kategorie "{0}"</value>
+  </data>
+  <data name="GoToPeriodicalReferencesMenu" xml:space="preserve">
+    <value>Gehe zu anderen Titeln in der Zeitschrift/Zeitung "{0}"</value>
+  </data>
+  <data name="GoToKeywordReferencesMenu" xml:space="preserve">
+    <value>Gehe zu anderen Titeln mit dem Schlagwort "{0}"</value>
+  </data>
+  <data name="GoToPersonReferencesMenu" xml:space="preserve">
+    <value>Gehe zu anderen Titeln der Person/Institution "{0}"</value>
+  </data>
+  <data name="GoToPublisherReferencesMenu" xml:space="preserve">
+    <value>Gehe zu anderen Titeln aus dem Verlag "{0}"</value>
+  </data>
+  <data name="GoToSeriesTitleReferencesMenu" xml:space="preserve">
+    <value>Gehe zu anderen Titeln in der Reihe "{0}"</value>
+  </data>
+  <data name="HelpCitaviManual" xml:space="preserve">
+    <value>Handbuch</value>
+  </data>
+  <data name="HelpCitaviOnline" xml:space="preserve">
+    <value>Citavi Homepage…</value>
+  </data>
+  <data name="HelpCitaviOnlineFAQ" xml:space="preserve">
+    <value>Häufig gestellte Fragen (FAQ)…</value>
+  </data>
+  <data name="HelpCitaviOnlineFeedback" xml:space="preserve">
+    <value>Kritisieren, Loben, Verbessern</value>
+  </data>
+  <data name="HelpCitaviOnlineSupport" xml:space="preserve">
+    <value>Service und Support</value>
+  </data>
+  <data name="HelpInfo" xml:space="preserve">
+    <value>Über Citavi</value>
+  </data>
+  <data name="HelpLicense" xml:space="preserve">
+    <value>Lizenzdaten</value>
+  </data>
+  <data name="HelpLiveUpdate" xml:space="preserve">
+    <value>Nach Updates suchen</value>
+  </data>
+  <data name="HelpMenu" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="ReferencesExportToCalc" xml:space="preserve">
+    <value>Nach OpenOffice.org Calc exportieren…</value>
+  </data>
+  <data name="ReferencesExportToExcel" xml:space="preserve">
+    <value>Nach Microsoft Excel exportieren…</value>
+  </data>
+  <data name="InsertMenu" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="IdentifierEditorContextMenu" xml:space="preserve">
+    <value>Kontextmenü für das Identifikationsnummern-Feld</value>
+    <comment>999</comment>
+  </data>
+  <data name="PeriodicalEditorContextMenu" xml:space="preserve">
+    <value>Kontextmenü für das Zeitschriften/Zeitungen-Feld</value>
+    <comment>999</comment>
+  </data>
+  <data name="PeriodicalForm_DeletePeriodical" xml:space="preserve">
+    <value>Diese Zeitschrift/Zeitung löschen…</value>
+  </data>
+  <data name="Merge" xml:space="preserve">
+    <value>Zusammenführen…</value>
+  </data>
+  <data name="PeriodicalList_PeriodicalsMenu" xml:space="preserve">
+    <value>Zeitschriften/Zeitungen</value>
+  </data>
+  <data name="KeyConfigurationDialog_Export" xml:space="preserve">
+    <value>Exportieren…</value>
+  </data>
+  <data name="KeyConfigurationDialog_ToolsMenu" xml:space="preserve">
+    <value>Optionen</value>
+  </data>
+  <data name="KeyConfigurationDialog_ToolsKeysNormalize" xml:space="preserve">
+    <value>Keys normalisieren</value>
+    <comment>???</comment>
+  </data>
+  <data name="KeyConfigurationDialog_ToolsRemoveChars" xml:space="preserve">
+    <value>Zeichen unterdrücken…</value>
+  </data>
+  <data name="KeyConfigurationDialog_ToolsReset" xml:space="preserve">
+    <value>Standard wiederherstellen…</value>
+  </data>
+  <data name="KeywordForm_DeleteKeyword" xml:space="preserve">
+    <value>Dieses Schlagwort löschen…</value>
+  </data>
+  <data name="KeywordList_KeywordsMenu" xml:space="preserve">
+    <value>Schlagwörter</value>
+  </data>
+  <data name="KeywordsEditorContextMenu" xml:space="preserve">
+    <value>Kontextmenü für Schlagwörter</value>
+    <comment>999</comment>
+  </data>
+  <data name="LibraryList_LibrariesMenu" xml:space="preserve">
+    <value>Bibliotheken</value>
+  </data>
+  <data name="LibraryList_Demote" xml:space="preserve">
+    <value>Priorität tieferstufen</value>
+  </data>
+  <data name="LibraryList_Promote" xml:space="preserve">
+    <value>Priorität höherstufen</value>
+  </data>
+  <data name="ImportFromCitaviProject" xml:space="preserve">
+    <value>Importieren aus einem Citavi-Projekt…</value>
+  </data>
+  <data name="RefreshSortOrder" xml:space="preserve">
+    <value>Sortierung aktualisieren</value>
+  </data>
+  <data name="ShowPeriodicalList" xml:space="preserve">
+    <value>Zeitschriften und Zeitungen</value>
+  </data>
+  <data name="ShowKeywordList" xml:space="preserve">
+    <value>Schlagwörter</value>
+  </data>
+  <data name="ShowLibraryList" xml:space="preserve">
+    <value>Bibliotheken</value>
+  </data>
+  <data name="ListsMenu" xml:space="preserve">
+    <value>Listen</value>
+  </data>
+  <data name="ShowPersonList" xml:space="preserve">
+    <value>Personen und Institutionen</value>
+  </data>
+  <data name="ShowPublisherList" xml:space="preserve">
+    <value>Verlage</value>
+  </data>
+  <data name="ShowReferenceTable" xml:space="preserve">
+    <value>Tabelle</value>
+  </data>
+  <data name="ShowSeriesTitleList" xml:space="preserve">
+    <value>Reihen</value>
+  </data>
+  <data name="LocationListContextMenu" xml:space="preserve">
+    <value>Kontextmenü für die Standorteliste</value>
+    <comment>999</comment>
+  </data>
+  <data name="MainForm_CategoriesExportMenu" xml:space="preserve">
+    <value>Kategoriensystem exportieren</value>
+  </data>
+  <data name="MainForm_ExportCategoriesToConceptDraw" xml:space="preserve">
+    <value>Nach ConceptDraw…</value>
+  </data>
+  <data name="MainForm_ExportCategoriesToFreeMind" xml:space="preserve">
+    <value>Nach FreeMind…</value>
+  </data>
+  <data name="MainForm_ExportCategoriesToMindManager" xml:space="preserve">
+    <value>Nach MindManager…</value>
+  </data>
+  <data name="MainForm_ExportCategoriesToWord" xml:space="preserve">
+    <value>Nach Word…</value>
+  </data>
+  <data name="MainForm_ExportCategoriesToWriter" xml:space="preserve">
+    <value>Nach Writer…</value>
+  </data>
+  <data name="MainForm_ImportCategoriesFromCitaviProject" xml:space="preserve">
+    <value>Aus einem Citavi-Projekt…</value>
+  </data>
+  <data name="MainForm_ImportCategoriesFromConceptDrawDocument" xml:space="preserve">
+    <value>Aus einem ConceptDraw-Dokument…</value>
+  </data>
+  <data name="MainForm_ImportCategoriesFromFreeMindDocument" xml:space="preserve">
+    <value>Aus einem FreeMind-Dokument…</value>
+  </data>
+  <data name="MainForm_ImportCategoriesFromMindManagerDocument" xml:space="preserve">
+    <value>Aus einem MindManager-Dokument…</value>
+  </data>
+  <data name="MainForm_ImportCategoriesFromWordDocument" xml:space="preserve">
+    <value>Aus einem Word-Dokument…</value>
+  </data>
+  <data name="MainForm_ImportCategoriesFromWriterDocument" xml:space="preserve">
+    <value>Aus einem Writer-Dokument…</value>
+  </data>
+  <data name="MainForm_CategoriesImportMenu" xml:space="preserve">
+    <value>Kategoriensystem importieren</value>
+  </data>
+  <data name="MainForm_RenameCategory" xml:space="preserve">
+    <value>Umbenennen</value>
+  </data>
+  <data name="MainForm_CitationMenu" xml:space="preserve">
+    <value>Zitation</value>
+  </data>
+  <data name="MainForm_CitationCitationStyleWizard" xml:space="preserve">
+    <value>Zitationsstile…</value>
+  </data>
+  <data name="MainForm_ShowPublicationAssistant" xml:space="preserve">
+    <value>LaTeX-Assistent…</value>
+  </data>
+  <data name="AssignCategories" xml:space="preserve">
+    <value>Kategorien zuweisen</value>
+  </data>
+  <data name="MainForm_CopyCitation" xml:space="preserve">
+    <value>Titel formatiert kopieren</value>
+  </data>
+  <data name="MainForm_GoToChildReferenceLabel" xml:space="preserve">
+    <value>Gehe zu einem Beitrag dieses Titels:</value>
+  </data>
+  <data name="MainForm_GoToFirst" xml:space="preserve">
+    <value>Zum ersten Titel</value>
+  </data>
+  <data name="MainForm_GoToLast" xml:space="preserve">
+    <value>Zum letzten Titel</value>
+  </data>
+  <data name="MainForm_GoToMenu" xml:space="preserve">
+    <value>Gehe zu…</value>
+  </data>
+  <data name="MainForm_GoToMenu2" xml:space="preserve">
+    <value>Gehe zu</value>
+    <comment>Go</comment>
+  </data>
+  <data name="MainForm_GoToNext" xml:space="preserve">
+    <value>Zum nächsten Titel</value>
+  </data>
+  <data name="MainForm_GoToPrevious" xml:space="preserve">
+    <value>Zum vorherigen Titel</value>
+  </data>
+  <data name="MainForm_GoToRecordNumber" xml:space="preserve">
+    <value>Zu Datensatz…</value>
+  </data>
+  <data name="MainForm_GoToReference" xml:space="preserve">
+    <value>Zu Titel…</value>
+  </data>
+  <data name="MainForm_MoveBackInHistory" xml:space="preserve">
+    <value>Zurück in der History</value>
+  </data>
+  <data name="MainForm_MoveForwardInHistory" xml:space="preserve">
+    <value>Vorwärts in der History</value>
+  </data>
+  <data name="BatchRemoveCategories" xml:space="preserve">
+    <value>Kategorien entfernen…</value>
+  </data>
+  <data name="MainForm_CloseProject" xml:space="preserve">
+    <value>Projekt schließen</value>
+  </data>
+  <data name="MainForm_CreateBackup" xml:space="preserve">
+    <value>Sicherungskopie erstellen</value>
+  </data>
+  <data name="MainForm_CreateCompilation" xml:space="preserve">
+    <value>Skript…</value>
+  </data>
+  <data name="MainForm_CreateTaskList" xml:space="preserve">
+    <value>Aufgabenliste…</value>
+  </data>
+  <data name="MainForm_NewProject" xml:space="preserve">
+    <value>Neues Projekt…</value>
+  </data>
+  <data name="MainForm_OpenProject" xml:space="preserve">
+    <value>Projekt auswählen…</value>
+  </data>
+  <data name="MainForm_OpenProjectMenu" xml:space="preserve">
+    <value>Projekt öffnen</value>
+  </data>
+  <data name="MainForm_ShowProjectProperties" xml:space="preserve">
+    <value>Eigenschaften…</value>
+  </data>
+  <data name="MainForm_QuitCitavi" xml:space="preserve">
+    <value>Citavi beenden</value>
+  </data>
+  <data name="MainForm_DeleteLocation" xml:space="preserve">
+    <value>Standort löschen</value>
+  </data>
+  <data name="MainForm_EditLocation" xml:space="preserve">
+    <value>Standort bearbeiten…</value>
+  </data>
+  <data name="MainForm_ReferenceManagement_PeriodicalEditorContextMenu_ShowPeriodicalList_InstanceCaption" xml:space="preserve">
+    <value>Liste der Zeitschriften und Zeitungen…</value>
+  </data>
+  <data name="ShowKeywordList_Long" xml:space="preserve">
+    <value>Schlagwörter-Liste öffnen</value>
+  </data>
+  <data name="MainForm_ReferenceManagement_LocationListContextMenu_Delete_InstanceCaption" xml:space="preserve">
+    <value>Standort löschen</value>
+  </data>
+  <data name="MainForm_ReferenceManagement_NewLocation_InstanceCaption" xml:space="preserve">
+    <value>Standort…</value>
+  </data>
+  <data name="MainForm_ReferenceManagement_PersonsEditorContextMenu_ShowPersonList_InstanceCaption" xml:space="preserve">
+    <value>Liste der Personen und Institutionen…</value>
+  </data>
+  <data name="MainForm_ReferenceManagement_PublishersEditorContextMenu_ShowPublisherList_InstanceCaption" xml:space="preserve">
+    <value>Liste der Verlage…</value>
+  </data>
+  <data name="MainForm_ReferenceManagement_QuotationListContextMenu_Delete_InstanceCaption" xml:space="preserve">
+    <value>Zitat löschen</value>
+  </data>
+  <data name="MainForm_ReferenceManagement_SeriesTitleEditorContextMenu_ShowSeriesTitleList_InstanceCaption" xml:space="preserve">
+    <value>Liste der Reihen…</value>
+  </data>
+  <data name="MainForm_ReferenceManagement_TaskListContextMenu_Delete_InstanceCaption" xml:space="preserve">
+    <value>Aufgabe löschen</value>
+  </data>
+  <data name="MainForm_ReferenceManagement_NewProjectTask_InstanceCaption" xml:space="preserve">
+    <value>Projektaufgabe…</value>
+  </data>
+  <data name="MainForm_ReferenceManagement_NewReferenceTask_InstanceCaption" xml:space="preserve">
+    <value>Aufgabe zum aktuellen Titel…</value>
+  </data>
+  <data name="MainForm_ReferenceManagement_NewQuotationTextMenu_InstanceCaption" xml:space="preserve">
+    <value>Zitat…</value>
+  </data>
+  <data name="BatchAddPrivateCollectionLocation" xml:space="preserve">
+    <value>Standort in privater Sammlung zuweisen…</value>
+  </data>
+  <data name="BatchAddTask" xml:space="preserve">
+    <value>Aufgabe zuweisen…</value>
+  </data>
+  <data name="MainForm_CopyOrMoveReferencesToProject" xml:space="preserve">
+    <value>In ein Citavi-Projekt kopieren/verschieben…</value>
+  </data>
+  <data name="MainForm_DownloadCoverWithIsbn" xml:space="preserve">
+    <value>Anhand der ISBN herunterladen</value>
+  </data>
+  <data name="MainForm_LoadCoverFromFile" xml:space="preserve">
+    <value>Aus Datei einfügen…</value>
+  </data>
+  <data name="MainForm_PasteCover" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="MainForm_RemoveCover" xml:space="preserve">
+    <value>Entfernen</value>
+  </data>
+  <data name="MainForm_SaveCover" xml:space="preserve">
+    <value>Speichern unter…</value>
+  </data>
+  <data name="MainForm_ShowCover" xml:space="preserve">
+    <value>Anzeigen…</value>
+  </data>
+  <data name="FilterBySelectedReferences" xml:space="preserve">
+    <value>Markierte Titel als Auswahl übernehmen</value>
+    <comment>review, nonsensical to the uninitiated; JHP: shortened from Apply selcted references as selection, see Work item 4072</comment>
+  </data>
+  <data name="DeleteReference" xml:space="preserve">
+    <value>Titel löschen</value>
+  </data>
+  <data name="MainForm_Duplicate" xml:space="preserve">
+    <value>Duplizieren</value>
+  </data>
+  <data name="MainForm_FilterDuplicates" xml:space="preserve">
+    <value>Dubletten anzeigen</value>
+  </data>
+  <data name="ReferencesDuplicatesMenu" xml:space="preserve">
+    <value>Dubletten</value>
+  </data>
+  <data name="MainForm_ShowDuplicateSettingsDialog" xml:space="preserve">
+    <value>Einstellungen…</value>
+  </data>
+  <data name="MainForm_ReferencesFilterMenu" xml:space="preserve">
+    <value>Auswählen</value>
+  </data>
+  <data name="MainForm_InvertFilter" xml:space="preserve">
+    <value>Auswahl umkehren</value>
+  </data>
+  <data name="MainForm_LookupLocations" xml:space="preserve">
+    <value>Bibliotheksstandorte finden…</value>
+  </data>
+  <data name="MainForm_NewReference" xml:space="preserve">
+    <value>Titel per Hand eingeben</value>
+    <comment>
+
+used in menu bar &gt;Reference </comment>
+  </data>
+  <data name="MainForm_NewReferenceBookEdited" xml:space="preserve">
+    <value>Buch (Sammelwerk)</value>
+  </data>
+  <data name="MainForm_NewReferenceContribution" xml:space="preserve">
+    <value>Beitrag in…</value>
+  </data>
+  <data name="MainForm_NewReferenceInternetDocument" xml:space="preserve">
+    <value>Internetdokument</value>
+  </data>
+  <data name="MainForm_NewReferenceJournalArticle" xml:space="preserve">
+    <value>Zeitschriftenaufsatz</value>
+  </data>
+  <data name="MainForm_NewReferenceMenu" xml:space="preserve">
+    <value>Titel</value>
+    <comment>used in toolbar button</comment>
+  </data>
+  <data name="MainForm_NewReferenceBook" xml:space="preserve">
+    <value>Buch (Monographie)</value>
+  </data>
+  <data name="MainForm_OpenUrlLink" xml:space="preserve">
+    <value>Verfügbarkeit prüfen per Link-Resolver Ihrer Bibliothek…</value>
+  </data>
+  <data name="QuickSearch" xml:space="preserve">
+    <value>Schnellsuche…</value>
+  </data>
+  <data name="MainForm_ShowReferenceTypeSelectionDialog" xml:space="preserve">
+    <value>Dokumententyp ändern…</value>
+  </data>
+  <data name="BatchRemoveKeywords" xml:space="preserve">
+    <value>Schlagwörter entfernen…</value>
+  </data>
+  <data name="SearchOnline" xml:space="preserve">
+    <value>Online recherchieren</value>
+  </data>
+  <data name="MainForm_FilterByLabel1" xml:space="preserve">
+    <value>Nach blauer Marke</value>
+  </data>
+  <data name="MainForm_FilterByLabel2" xml:space="preserve">
+    <value>Nach roter Marke</value>
+  </data>
+  <data name="ReferencesSortMenu" xml:space="preserve">
+    <value>Sortieren</value>
+  </data>
+  <data name="MainForm_ConfigureOrders" xml:space="preserve">
+    <value>Bestellungen einrichten…</value>
+  </data>
+  <data name="MainForm_DeleteTask" xml:space="preserve">
+    <value>Aufgabe löschen</value>
+  </data>
+  <data name="MainForm_TasksMenu" xml:space="preserve">
+    <value>Aufgaben</value>
+  </data>
+  <data name="MainForm_NewProjectTask" xml:space="preserve">
+    <value>Neue Projektaufgabe</value>
+  </data>
+  <data name="MainForm_NewReferenceTask" xml:space="preserve">
+    <value>Neue Titelaufgabe…</value>
+  </data>
+  <data name="MainForm_GoThroughBibliography" xml:space="preserve">
+    <value>Literaturverzeichnis auswerten</value>
+  </data>
+  <data name="MainForm_NewReferenceTaskReturn" xml:space="preserve">
+    <value>Zurückbringen</value>
+  </data>
+  <data name="MainForm_NewReferenceTaskBuyOrOrder" xml:space="preserve">
+    <value>Kaufen / bestellen</value>
+  </data>
+  <data name="MainForm_NewReferenceTaskPhotocopy" xml:space="preserve">
+    <value>Kopieren / scannen</value>
+  </data>
+  <data name="MainForm_NewReferenceTaskExcerptQuotations" xml:space="preserve">
+    <value>Zitate etc. notieren</value>
+  </data>
+  <data name="MainForm_NewReferenceTaskMenu" xml:space="preserve">
+    <value>Aufgabe schnell einfügen</value>
+  </data>
+  <data name="MainForm_NewReferenceTaskExamineAndAssess" xml:space="preserve">
+    <value>Prüfen</value>
+  </data>
+  <data name="MainForm_NewReferenceTaskRead" xml:space="preserve">
+    <value>Lesen</value>
+  </data>
+  <data name="MainForm_NewReferenceTaskBorrow" xml:space="preserve">
+    <value>Entleihen</value>
+  </data>
+  <data name="MainForm_NewReferenceTaskVerifyBibliographicInformation" xml:space="preserve">
+    <value>Titelangaben überprüfen</value>
+  </data>
+  <data name="MainForm_TasksOrder" xml:space="preserve">
+    <value>Bestellen</value>
+  </data>
+  <data name="MainForm_OrderByEMail" xml:space="preserve">
+    <value>Buchbestellung per E-Mail…</value>
+  </data>
+  <data name="MainForm_OrderByOtherEMail" xml:space="preserve">
+    <value>Sonstige Bestellung per E-Mail…</value>
+  </data>
+  <data name="MainForm_OrderOnline" xml:space="preserve">
+    <value>Buchbestellung online…</value>
+  </data>
+  <data name="MainForm_SetTaskStateAdvanced" xml:space="preserve">
+    <value>Fortgeschritten</value>
+  </data>
+  <data name="MainForm_SetTaskStateDone" xml:space="preserve">
+    <value>Abgeschlossen</value>
+  </data>
+  <data name="MainForm_ChangeTaskStateMenu" xml:space="preserve">
+    <value>Arbeitsstand ändern</value>
+  </data>
+  <data name="MainForm_SetTaskStateNotStarted" xml:space="preserve">
+    <value>Nicht begonnen</value>
+  </data>
+  <data name="MainForm_SetTaskStateStarted" xml:space="preserve">
+    <value>Begonnen</value>
+  </data>
+  <data name="MainForm_DeleteQuotation" xml:space="preserve">
+    <value>Zitat löschen</value>
+  </data>
+  <data name="MainForm_EditQuotation" xml:space="preserve">
+    <value>Zitat bearbeiten…</value>
+  </data>
+  <data name="MainForm_OpenAssignedReference" xml:space="preserve">
+    <value>Zugeordneten Titel öffnen</value>
+  </data>
+  <data name="MainForm_KnowledgeItemsMenu" xml:space="preserve">
+    <value>Wissenselemente</value>
+  </data>
+  <data name="MainForm_KnowledgeItemsNewMenu" xml:space="preserve">
+    <value>Neu</value>
+    <comment>apparently unused</comment>
+  </data>
+  <data name="MainForm_NewKnowledgeItemMenu" xml:space="preserve">
+    <value>Neues Wissenselement</value>
+  </data>
+  <data name="MainForm_SortKnowledgeItems" xml:space="preserve">
+    <value>Sortieren…</value>
+  </data>
+  <data name="MainForm_ToolsChangeCitationStyle" xml:space="preserve">
+    <value>Zitationsstil wechseln…</value>
+  </data>
+  <data name="MainForm_ToolsLanguage" xml:space="preserve">
+    <value>Sprache wechseln</value>
+  </data>
+  <data name="MainForm_ListsMenu" xml:space="preserve">
+    <value>Listen</value>
+  </data>
+  <data name="MainForm_ShowReferenceTypeStructureForm" xml:space="preserve">
+    <value>Dokumententyp-Struktur…</value>
+    <comment>999</comment>
+  </data>
+  <data name="MainForm_ShowKnowledgeOrganizer" xml:space="preserve">
+    <value>Wissensorganisation</value>
+  </data>
+  <data name="MainForm_ShowReferenceEditor" xml:space="preserve">
+    <value>Literaturverwaltung</value>
+  </data>
+  <data name="MainForm_ShowTaskPlanner" xml:space="preserve">
+    <value>Aufgabenplanung</value>
+  </data>
+  <data name="MainForm_ViewReferences" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="MainForm_ShowDoneTasks" xml:space="preserve">
+    <value>Abgeschlossene Aufgaben anzeigen</value>
+  </data>
+  <data name="MainForm_ShowCountOfReferenceAndKnowledgeItems" xml:space="preserve">
+    <value>Anzahl der Titel anzeigen</value>
+  </data>
+  <data name="MainForm_ViewThoughts" xml:space="preserve">
+    <value>Wissenselemente</value>
+  </data>
+  <data name="MainForm_WindowNewWindow" xml:space="preserve">
+    <value>Das aktuelle Projekt in einem neuen Fenster öffnen</value>
+  </data>
+  <data name="MassReferenceIdentifierDownloadDialog_Edit" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="MassReferenceIdentifierDownloadDialog_FileExit" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="MassReferenceIdentifierDownloadDialog_Reference" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="MassReferenceIdentifierDownloadDialog_ReferenceDelete" xml:space="preserve">
+    <value>Entfernen</value>
+  </data>
+  <data name="MassReferenceIdentifierDownloadDialog_ReferenceDeleteAll" xml:space="preserve">
+    <value>Alle entfernen</value>
+  </data>
+  <data name="MassReferenceIdentifierDownloadDialog_ReferenceExportCalc" xml:space="preserve">
+    <value>Nach OpenOffice.org Calc exportieren…</value>
+  </data>
+  <data name="MassReferenceIdentifierDownloadDialog_ReferenceLookUp" xml:space="preserve">
+    <value>Markierte Standardnummer im Web nachschlagen</value>
+  </data>
+  <data name="OriginalCheckedByEditorContextMenu" xml:space="preserve">
+    <value>Kontextmenü für das Am-Original-Geprüft-Feld</value>
+    <comment>999</comment>
+  </data>
+  <data name="ParentReferenceContextMenu" xml:space="preserve">
+    <value>Kontextmenü für übergeordnete Titel</value>
+    <comment>999</comment>
+  </data>
+  <data name="ParentReferenceEditorContextMenu" xml:space="preserve">
+    <value>Kontextmenü für das Feld "Übergeordneter Titel"</value>
+    <comment>999</comment>
+  </data>
+  <data name="PersonForm_DeletePerson" xml:space="preserve">
+    <value>Diese Person löschen…</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="PersonList_PersonsMenu" xml:space="preserve">
+    <value>Personen</value>
+  </data>
+  <data name="PersonsEditorContextMenu" xml:space="preserve">
+    <value>Kontextmenü für Personenfelder</value>
+    <comment>999</comment>
+  </data>
+  <data name="PrintForm_Export" xml:space="preserve">
+    <value>In eine neue Datei exportieren…</value>
+  </data>
+  <data name="PrintForm_PageMargins" xml:space="preserve">
+    <value>Seitenränder…</value>
+  </data>
+  <data name="PrintForm_PageSetup" xml:space="preserve">
+    <value>Seite einrichten…</value>
+  </data>
+  <data name="PrintForm_InsertDate" xml:space="preserve">
+    <value>Datum einfügen</value>
+  </data>
+  <data name="PrintForm_InsertPageBreak" xml:space="preserve">
+    <value>Seitenumbruch</value>
+  </data>
+  <data name="PrintForm_InsertPageNumber" xml:space="preserve">
+    <value>Seitenzahlen</value>
+  </data>
+  <data name="PrintForm_InsertTime" xml:space="preserve">
+    <value>Uhrzeit einfügen</value>
+  </data>
+  <data name="PrintForm_ViewCloseHeaderFooterToolbar" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="PrintForm_ViewHeadersAndFooters" xml:space="preserve">
+    <value>Kopf- und Fußzeile</value>
+  </data>
+  <data name="PrintForm_ViewSwitchBetweenHeaderAndFooter" xml:space="preserve">
+    <value>Zwischen Kopf- und Fußzeile wechseln</value>
+  </data>
+  <data name="PrintForm_ShowZoomWindow100" xml:space="preserve">
+    <value>100%</value>
+  </data>
+  <data name="PrintForm_ShowZoomWindow150" xml:space="preserve">
+    <value>150%</value>
+  </data>
+  <data name="PrintForm_ShowZoomWindow200" xml:space="preserve">
+    <value>200%</value>
+  </data>
+  <data name="PrintForm_ShowZoomWindow25" xml:space="preserve">
+    <value>25%</value>
+  </data>
+  <data name="PrintForm_ShowZoomWindow300" xml:space="preserve">
+    <value>300%</value>
+  </data>
+  <data name="PrintForm_ShowZoomWindow50" xml:space="preserve">
+    <value>50%</value>
+  </data>
+  <data name="PrintForm_ShowZoomWindow75" xml:space="preserve">
+    <value>75%</value>
+  </data>
+  <data name="PublicationAssistant_ArrangeByCoreStatement" xml:space="preserve">
+    <value>Nach Kerngedanken</value>
+  </data>
+  <data name="PublicationAssistant_ArrangeByCategories" xml:space="preserve">
+    <value>Nach Kategorien</value>
+  </data>
+  <data name="PublicationAssistant_ArrangeByKeywords" xml:space="preserve">
+    <value>Nach Schlagwörtern</value>
+  </data>
+  <data name="PublicationAssistant_ArrangeByShortTitles" xml:space="preserve">
+    <value>Nach Kurztiteln</value>
+  </data>
+  <data name="PublicationAssistant_ArrangeByTitles" xml:space="preserve">
+    <value>Nach Titeln</value>
+  </data>
+  <data name="PublicationAssistant_KnowledgeItemMenu" xml:space="preserve">
+    <value>Wissenselemente</value>
+  </data>
+  <data name="PublicationAssistant_Placeholder" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="PublicationAssistant_PlaceholderAssignCategories" xml:space="preserve">
+    <value>Kategorien zuweisen…</value>
+  </data>
+  <data name="PublicationAssistant_PlaceholderApplyKeywords" xml:space="preserve">
+    <value>Schlagwörter zuweisen…</value>
+  </data>
+  <data name="PublicationAssistant_PlaceholderCopy" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="PublicationAssistant_PlaceholderFilterText" xml:space="preserve">
+    <value>Auswählen:</value>
+  </data>
+  <data name="PublicationAssistant_PlaceholderInsert" xml:space="preserve">
+    <value>In Word einfügen</value>
+  </data>
+  <data name="PublicationAssistant_ShowReference" xml:space="preserve">
+    <value>Titel anzeigen</value>
+  </data>
+  <data name="PublicationAssistant_KnowledgeItemAssignCategories" xml:space="preserve">
+    <value>Kategorien zuweisen…</value>
+  </data>
+  <data name="PublicationAssistant_KnowledgeItemCopy" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="PublicationAssistant_KnowledgeItemFilterText" xml:space="preserve">
+    <value>Auswählen:</value>
+  </data>
+  <data name="PublicationAssistant_KnowledgeItemIncludeCoreStatement" xml:space="preserve">
+    <value>Kernaussage einschließen</value>
+  </data>
+  <data name="PublicationAssistant_KnowledgeItemInsertPlaceholderOnly" xml:space="preserve">
+    <value>Nur Titelplatzhalter</value>
+  </data>
+  <data name="PublicationAssistant_ShowQuotationReference" xml:space="preserve">
+    <value>Zugeordneten Titel bearbeiten</value>
+  </data>
+  <data name="PublicationAssistant_ShowKnowledgeItem" xml:space="preserve">
+    <value>Wissenselement bearbeiten…</value>
+  </data>
+  <data name="PublicationAssistant_ViewKeepWindowInForeground" xml:space="preserve">
+    <value>Dieses Fenster im Vordergrund, andere Citavi-Fenster ausblenden</value>
+  </data>
+  <data name="PublicationAssistant_ViewMiniaturize" xml:space="preserve">
+    <value>Klein</value>
+  </data>
+  <data name="PublicationAssistant_ViewPreviewPanel" xml:space="preserve">
+    <value>Vorschaufeld</value>
+  </data>
+  <data name="PublisherForm_DeletePublisher" xml:space="preserve">
+    <value>Diesen Verlag löschen…</value>
+  </data>
+  <data name="PublisherList_PublishersMenu" xml:space="preserve">
+    <value>Verlage</value>
+  </data>
+  <data name="PublishersEditorContextMenu" xml:space="preserve">
+    <value>Kontextmenü für Verlage</value>
+    <comment>999</comment>
+  </data>
+  <data name="RecordNavigationContextMenu" xml:space="preserve">
+    <value>Kontextmenü für die Datensatz-Navigation</value>
+    <comment>999</comment>
+  </data>
+  <data name="BatchAssignCategories" xml:space="preserve">
+    <value>Kategorien zuweisen…</value>
+  </data>
+  <data name="BatchApplyKeywords" xml:space="preserve">
+    <value>Schlagwörter zuweisen…</value>
+  </data>
+  <data name="ReferenceGridForm_CopyOrMoveReferencesToProject" xml:space="preserve">
+    <value>In ein Citavi-Projekt verschieben/kopieren…</value>
+  </data>
+  <data name="ReferenceGridForm_CreateFilter" xml:space="preserve">
+    <value>Auswählen…</value>
+  </data>
+  <data name="ReferenceGridForm_DeleteReference" xml:space="preserve">
+    <value>Titel löschen</value>
+  </data>
+  <data name="ReferenceGridForm_Duplicate" xml:space="preserve">
+    <value>Duplizieren</value>
+  </data>
+  <data name="ReferenceGridForm_FilterDuplicates" xml:space="preserve">
+    <value>Nur Dubletten anzeigen</value>
+  </data>
+  <data name="ReferenceGridForm_ReferencesDuplicatesMark" xml:space="preserve">
+    <value>Markieren</value>
+  </data>
+  <data name="ReferenceGridForm_ReferencesDuplicatesMenu" xml:space="preserve">
+    <value>Dubletten</value>
+  </data>
+  <data name="ReferenceGridForm_ShowDuplicateSettingsDialog" xml:space="preserve">
+    <value>Einstellungen…</value>
+  </data>
+  <data name="ReferenceGridForm_ReferencesDuplicatesUnMark" xml:space="preserve">
+    <value>Markierung aufheben</value>
+  </data>
+  <data name="ReferenceGridForm_ReferencesExportToCalc" xml:space="preserve">
+    <value>Nach OpenOffice.org Calc exportieren…</value>
+  </data>
+  <data name="ReferenceGridForm_ReferencesFilterMenu" xml:space="preserve">
+    <value>Auswählen</value>
+  </data>
+  <data name="ReferenceGridForm_InvertFilter" xml:space="preserve">
+    <value>Auswahl umkehren</value>
+  </data>
+  <data name="ReferenceGridForm_OpenUrlLink" xml:space="preserve">
+    <value>Verfügbarkeit überprüfen</value>
+  </data>
+  <data name="ReferenceGridForm_QuickSearch" xml:space="preserve">
+    <value>Schnellsuche…</value>
+  </data>
+  <data name="ReferenceGridForm_ShowReferenceTypeSelectionDialog" xml:space="preserve">
+    <value>Dokumententyp ändern…</value>
+  </data>
+  <data name="RemoveSelectedReferencesFromFilter" xml:space="preserve">
+    <value>Markierte Titel aus der Auswahl ausschließen</value>
+  </data>
+  <data name="ReferenceGridForm_FilterByLabel1" xml:space="preserve">
+    <value>Schnellauswahl nach blauen Marken</value>
+  </data>
+  <data name="ReferenceGridForm_FilterByLabel2" xml:space="preserve">
+    <value>Schnellauswahl nach roten Marken</value>
+  </data>
+  <data name="ReferenceGridForm_ReferencesSort" xml:space="preserve">
+    <value>Sortieren</value>
+  </data>
+  <data name="ReferenceGridForm_ViewGroupByBox" xml:space="preserve">
+    <value>Gruppierfeld anzeigen</value>
+  </data>
+  <data name="ViewGroups" xml:space="preserve">
+    <value>Gruppieren…</value>
+  </data>
+  <data name="ReferenceGridForm_ViewGroupsCollapseAll" xml:space="preserve">
+    <value>Alle Gruppen einklappen</value>
+  </data>
+  <data name="ReferenceGridForm_ViewGroupsExpandAll" xml:space="preserve">
+    <value>Alle Gruppen aufklappen</value>
+  </data>
+  <data name="ReferenceGridForm_ViewRefresh" xml:space="preserve">
+    <value>Aktualisieren</value>
+  </data>
+  <data name="DownloadWithIsbn" xml:space="preserve">
+    <value>ISBN Download…</value>
+  </data>
+  <data name="EditBibTeXKey" xml:space="preserve">
+    <value>BibTeX Key anpassen oder neu erstellen…</value>
+  </data>
+  <data name="EditPageCountNumeralSystem" xml:space="preserve">
+    <value>Zahlensystem für Anzahl Seiten…</value>
+  </data>
+  <data name="EditPageRangeNumeralSystem" xml:space="preserve">
+    <value>Zahlensystem für Seiten von–bis…</value>
+  </data>
+  <data name="ReferencesList" xml:space="preserve">
+    <value>Titelliste</value>
+  </data>
+  <data name="ReferencesMenu" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="ReferenceTypeStructureForm_ExportToExcel" xml:space="preserve">
+    <value>Nach Excel exportieren</value>
+    <comment>999</comment>
+  </data>
+  <data name="BatchRemoveCategoriesDialog_FileOk" xml:space="preserve">
+    <value>Markierte Kategorien entfernen</value>
+  </data>
+  <data name="RtfEditorContextMenu" xml:space="preserve">
+    <value>Kontextmenü für RTF-Textfelder</value>
+    <comment>999</comment>
+  </data>
+  <data name="RtfForm_Export" xml:space="preserve">
+    <value>In eine neue Datei exportieren…</value>
+  </data>
+  <data name="SearchForm_GoToNextHit" xml:space="preserve">
+    <value>Zum nächsten Treffer</value>
+  </data>
+  <data name="SearchForm_GoToPreviousHit" xml:space="preserve">
+    <value>Zum vorherigen Treffer</value>
+  </data>
+  <data name="SearchForm_EditItem" xml:space="preserve">
+    <value>Bearbeiten…</value>
+  </data>
+  <data name="SearchForm_SelectAll" xml:space="preserve">
+    <value>Alles markieren</value>
+  </data>
+  <data name="SeriesTitleEditorContextMenu" xml:space="preserve">
+    <value>Kontextmenü für das Reihen-Feld</value>
+    <comment>999</comment>
+  </data>
+  <data name="SeriesTitleList_SeriesTitlesMenu" xml:space="preserve">
+    <value>Reihen</value>
+  </data>
+  <data name="ShortTitleEditorContextMenu" xml:space="preserve">
+    <value>Kontextmenü für das Kurztitelfeld</value>
+    <comment>999</comment>
+  </data>
+  <data name="SpecialChars" xml:space="preserve">
+    <value>Sonderzeichen</value>
+  </data>
+  <data name="SpecialCharsBrackets" xml:space="preserve">
+    <value>Eckige Klammern</value>
+  </data>
+  <data name="SpecialCharsBracketsWithEllipsis" xml:space="preserve">
+    <value>Auslassungspunkte in eckigen Klammern</value>
+  </data>
+  <data name="SpecialCharsConvertTextToUnicodeCharacter" xml:space="preserve">
+    <value>Text zu Unicode-Zeichen</value>
+  </data>
+  <data name="SpecialCharsDash" xml:space="preserve">
+    <value>Gedankenstrich</value>
+  </data>
+  <data name="SpecialCharsGuillemets" xml:space="preserve">
+    <value>Guillemets "nach außen"</value>
+  </data>
+  <data name="SpecialCharsGuillemetsGerman" xml:space="preserve">
+    <value>Guillemets "nach innen"</value>
+  </data>
+  <data name="SpecialCharsGuillemetsSingle" xml:space="preserve">
+    <value>Einfache Guillemets "nach außen"</value>
+  </data>
+  <data name="SpecialCharsGuillemetsSingleGerman" xml:space="preserve">
+    <value>Einfache Guillemets "nach innen"</value>
+  </data>
+  <data name="SpecialCharsHalf" xml:space="preserve">
+    <value>Ein Zweitel</value>
+  </data>
+  <data name="SpecialCharsLowerUpperQuotes" xml:space="preserve">
+    <value>Tief-/hochgestellte Anführungszeichen</value>
+  </data>
+  <data name="SpecialCharsLowerUpperQuotesSingle" xml:space="preserve">
+    <value>Einfache tief-/hochgestellte Anführungszeichen</value>
+  </data>
+  <data name="SpecialCharsNonBreakingHyphen" xml:space="preserve">
+    <value>Geschützter Trennstrich</value>
+  </data>
+  <data name="SpecialCharsNonBreakingSpace" xml:space="preserve">
+    <value>Geschütztes Leerzeichen</value>
+  </data>
+  <data name="SpecialCharsOneThird" xml:space="preserve">
+    <value>Ein Drittel</value>
+  </data>
+  <data name="SpecialCharsParentheses" xml:space="preserve">
+    <value>Runde Klammern</value>
+  </data>
+  <data name="SpecialCharsParenthesesWithEllipsis" xml:space="preserve">
+    <value>Auslassungspunkte in runden Klammern</value>
+  </data>
+  <data name="SpecialCharsOneQuarter" xml:space="preserve">
+    <value>Ein Viertel</value>
+  </data>
+  <data name="SpecialCharsEllipsis" xml:space="preserve">
+    <value>Auslassungspunkte</value>
+  </data>
+  <data name="SpecialCharsUpperQuotes" xml:space="preserve">
+    <value>Hochgestellte Anführungszeichen</value>
+  </data>
+  <data name="SpecialCharsUpperQuotesSingle" xml:space="preserve">
+    <value>Einfache hochgestellte Anführungszeichen</value>
+  </data>
+  <data name="TableDeleteColumn" xml:space="preserve">
+    <value>Spalte</value>
+  </data>
+  <data name="TableDeleteMenu" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="TableDeleteRow" xml:space="preserve">
+    <value>Zeile</value>
+  </data>
+  <data name="TableDeleteTable" xml:space="preserve">
+    <value>Tabelle</value>
+  </data>
+  <data name="TableGridLines" xml:space="preserve">
+    <value>Gitternetzlinien</value>
+  </data>
+  <data name="TableInsertColumnToTheLeft" xml:space="preserve">
+    <value>Spalte nach links</value>
+  </data>
+  <data name="TableInsertColumnToTheRight" xml:space="preserve">
+    <value>Spalte ganz rechts</value>
+    <comment>Kann man diese Funktion Word-mässig auf einfach "Spalte nach rechts" umarbeiten?</comment>
+  </data>
+  <data name="TableInsertMenu" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="TableInsertRowAbove" xml:space="preserve">
+    <value>Zeile oberhalb</value>
+  </data>
+  <data name="TableInsertRowBelow" xml:space="preserve">
+    <value>Zeile zuunterst</value>
+  </data>
+  <data name="TableInsertTable" xml:space="preserve">
+    <value>Tabelle…</value>
+  </data>
+  <data name="TableMenu" xml:space="preserve">
+    <value>Tabelle</value>
+  </data>
+  <data name="TableMergeCells" xml:space="preserve">
+    <value>Zellen verbinden</value>
+  </data>
+  <data name="TableProperties" xml:space="preserve">
+    <value>Eigenschaften…</value>
+  </data>
+  <data name="TableSelectColumn" xml:space="preserve">
+    <value>Spalte</value>
+  </data>
+  <data name="TableSelectMenu" xml:space="preserve">
+    <value>Auswählen</value>
+  </data>
+  <data name="TableSelectRow" xml:space="preserve">
+    <value>Zeile</value>
+  </data>
+  <data name="TableSelectTable" xml:space="preserve">
+    <value>Tabelle</value>
+  </data>
+  <data name="TableSplitAbove" xml:space="preserve">
+    <value>Oberhalb</value>
+    <comment>where does this appear?</comment>
+  </data>
+  <data name="TableSplitBelow" xml:space="preserve">
+    <value>Unterhalb</value>
+  </data>
+  <data name="TableSplitCells" xml:space="preserve">
+    <value>Zellen teilen</value>
+  </data>
+  <data name="TableSplitMenu" xml:space="preserve">
+    <value>Teilen</value>
+  </data>
+  <data name="TaskListContextMenu" xml:space="preserve">
+    <value>Kontextmenü für die Aufgabenliste</value>
+    <comment>999</comment>
+  </data>
+  <data name="TaskNewReferenceTaskMenu" xml:space="preserve">
+    <value>Schnell einfügen</value>
+    <comment>exists, but not used</comment>
+  </data>
+  <data name="TeXPublicationForm_Edit" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="TeXPublicationForm_FileAdd" xml:space="preserve">
+    <value>Dokument öffen…</value>
+  </data>
+  <data name="TeXPublicationForm_FileCustomizeExport" xml:space="preserve">
+    <value>BibTeX-Export anpassen…</value>
+  </data>
+  <data name="TeXPublicationForm_FileRescanDocument" xml:space="preserve">
+    <value>Erneut scannen</value>
+  </data>
+  <data name="TeXPublicationForm_Window" xml:space="preserve">
+    <value>Fenster</value>
+  </data>
+  <data name="TextEditorContextMenu" xml:space="preserve">
+    <value>Kontextmenü für Textfelder</value>
+    <comment>999</comment>
+  </data>
+  <data name="KnowledgeItemTextForm_Export" xml:space="preserve">
+    <value>In eine neue Datei exportieren…</value>
+  </data>
+  <data name="ThoughtListContextMenu" xml:space="preserve">
+    <value>Kontextmenü für die Zitateliste</value>
+    <comment>999</comment>
+  </data>
+  <data name="CitationKeyEditorContextMenu" xml:space="preserve">
+    <value>Kontextmenü für das Kurzbelegfeld</value>
+    <comment>999</comment>
+  </data>
+  <data name="InsertInPrintPlaceholder" xml:space="preserve">
+    <value>Publikation ist noch im Druck</value>
+  </data>
+  <data name="InsertOriginalCheckedNow" xml:space="preserve">
+    <value>Jetzt am Original geprüft</value>
+  </data>
+  <data name="InsertTodaysDate" xml:space="preserve">
+    <value>Aktuelles Datum einfügen</value>
+  </data>
+  <data name="ToolsLanguage" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="ToolsLanguageMenu" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="ToolsMenu" xml:space="preserve">
+    <value>Extras</value>
+  </data>
+  <data name="ShowOptions" xml:space="preserve">
+    <value>Optionen…</value>
+  </data>
+  <data name="SetColorSchemeBrown" xml:space="preserve">
+    <value>Lila</value>
+  </data>
+  <data name="SetColorSchemeBlue" xml:space="preserve">
+    <value>Blau</value>
+  </data>
+  <data name="SetColorSchemeGray" xml:space="preserve">
+    <value>Grau</value>
+  </data>
+  <data name="SetColorSchemeRed" xml:space="preserve">
+    <value>Rot</value>
+  </data>
+  <data name="SetColorSchemeGreen" xml:space="preserve">
+    <value>Grün</value>
+  </data>
+  <data name="SetColorSchemeYellow" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="ChangeProjectColor" xml:space="preserve">
+    <value>Projektfarben</value>
+  </data>
+  <data name="ToolsPublicationAssistant" xml:space="preserve">
+    <value>LaTeX-Assistent…</value>
+  </data>
+  <data name="SetDateTimeFormat" xml:space="preserve">
+    <value>Formatierung des Datums festlegen…</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Ansicht</value>
+  </data>
+  <data name="ViewMenu" xml:space="preserve">
+    <value>Ansicht</value>
+  </data>
+  <data name="ViewRuler" xml:space="preserve">
+    <value>Lineal</value>
+  </data>
+  <data name="ViewShowHiddenText" xml:space="preserve">
+    <value>Ausgeblendeten Text anzeigen</value>
+  </data>
+  <data name="ViewShowParagraphMarker" xml:space="preserve">
+    <value>Steuerzeichen</value>
+  </data>
+  <data name="ShowZoomWindow" xml:space="preserve">
+    <value>Zoomfenster…</value>
+  </data>
+  <data name="WindowAutoUpdateMode" xml:space="preserve">
+    <value>Im Vordergrund, automatisch aktualisiert</value>
+    <comment>999</comment>
+  </data>
+  <data name="WindowCharmap" xml:space="preserve">
+    <value>Windows-Zeichentabelle…</value>
+  </data>
+  <data name="WindowMenu" xml:space="preserve">
+    <value>Fenster</value>
+  </data>
+  <data name="WindowShowStartForm" xml:space="preserve">
+    <value>Startfenster</value>
+  </data>
+  <data name="WindowList" xml:space="preserve">
+    <value>Aufzählung der aktuellen Fenster</value>
+  </data>
+  <data name="MainForm_GoToParentReference" xml:space="preserve">
+    <value>Zum übergeordneten Titel</value>
+  </data>
+  <data name="SpecialCharsCharMap" xml:space="preserve">
+    <value>Windows-Zeichentabelle…</value>
+  </data>
+  <data name="StyleEditorForm_ComponentPartMenu" xml:space="preserve">
+    <value>Komponente</value>
+  </data>
+  <data name="StyleEditorForm_DuplicateComponentPart" xml:space="preserve">
+    <value>Duplizieren</value>
+  </data>
+  <data name="StyleEditorForm_EditComponentPart" xml:space="preserve">
+    <value>Bearbeiten…</value>
+  </data>
+  <data name="StyleEditorForm_NewComponentPart" xml:space="preserve">
+    <value>Neu…</value>
+  </data>
+  <data name="StyleEditorForm_SetTemplateUseCaseEditStateMenu" xml:space="preserve">
+    <value>Bearbeitungsstand aller Anwendungsfälle setzen auf</value>
+  </data>
+  <data name="StyleEditorForm_SetTemplateUseCaseEditStateCompleted" xml:space="preserve">
+    <value>Abgeschlossen</value>
+  </data>
+  <data name="StyleEditorForm_SetTemplateUseCaseEditStateNeedsReview" xml:space="preserve">
+    <value>Fertig zur Prüfung</value>
+  </data>
+  <data name="StyleEditorForm_SetTemplateUseCaseEditStateNone" xml:space="preserve">
+    <value>Unbestimmt</value>
+  </data>
+  <data name="StyleEditorForm_SetTemplateUseCaseEditStateNotNeeded" xml:space="preserve">
+    <value>Nicht nötig</value>
+  </data>
+  <data name="StyleEditorForm_SetTemplateUseCaseEditStateUnderConstruction" xml:space="preserve">
+    <value>In Arbeit</value>
+  </data>
+  <data name="StyleEditorForm_CitationStyleProperties" xml:space="preserve">
+    <value>Eigenschaften des Zitationsstils…</value>
+  </data>
+  <data name="StyleEditorForm_GoTo" xml:space="preserve">
+    <value>Wechsle zu Dokumententyp</value>
+  </data>
+  <data name="StyleEditorForm_TemplateMenu" xml:space="preserve">
+    <value>Vorlage</value>
+  </data>
+  <data name="StyleEditorForm_EditTemplate" xml:space="preserve">
+    <value>Bearbeiten…</value>
+  </data>
+  <data name="StyleEditorForm_MoveTemplateDown" xml:space="preserve">
+    <value>Nach unten</value>
+  </data>
+  <data name="StyleEditorForm_MoveTemplateUp" xml:space="preserve">
+    <value>Nach oben</value>
+  </data>
+  <data name="StyleEditorForm_NewTemplate" xml:space="preserve">
+    <value>Neu…</value>
+  </data>
+  <data name="StyleEditorForm_New" xml:space="preserve">
+    <value>Neuer Zitationsstil…</value>
+  </data>
+  <data name="StyleEditorForm_Open" xml:space="preserve">
+    <value>Öffnen…</value>
+  </data>
+  <data name="SaveAs" xml:space="preserve">
+    <value>Speichern unter…</value>
+  </data>
+  <data name="StyleEditorForm_UseCaseInheritFromNone" xml:space="preserve">
+    <value>Basiert auf keiner Vorlage</value>
+  </data>
+  <data name="StyleEditorForm_UseCaseInhertFromListPopup" xml:space="preserve">
+    <value>Basiert auf</value>
+  </data>
+  <data name="StyleEditorForm_UseCaseInheritFromGoTo" xml:space="preserve">
+    <value>Gehe zu "{0}"</value>
+  </data>
+  <data name="HelpCitationStyleEditorManual" xml:space="preserve">
+    <value>Handbuch zum Citavi Zitationsstil-Editor</value>
+  </data>
+  <data name="MainForm_UpdateMultiUserChanges" xml:space="preserve">
+    <value>Team-Änderungen jetzt aktualisieren</value>
+  </data>
+  <data name="MainForm_GoToSiblingReferencesLabel" xml:space="preserve">
+    <value>Zu anderen Beiträgen des übergeordneten Titels:</value>
+  </data>
+  <data name="PublicationAssistant_PlaceholderInsertAsFootnote" xml:space="preserve">
+    <value>In Word einfügen als Fußnote</value>
+  </data>
+  <data name="PublicationAssistant_PlaceholderInsertMenu" xml:space="preserve">
+    <value>In Word einfügen</value>
+  </data>
+  <data name="MainForm_ReferencesDelete" xml:space="preserve">
+    <value>Titel löschen</value>
+  </data>
+  <data name="MainForm_DeleteKnowledgeItem" xml:space="preserve">
+    <value>Löschen…</value>
+  </data>
+  <data name="MainForm_CopyCover" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="MainForm_CutCover" xml:space="preserve">
+    <value>Ausschneiden</value>
+  </data>
+  <data name="MainForm_ReferencesPreviewToolbarsManager_BibliographicOverviewHelp" xml:space="preserve">
+    <value>Hilfe zum Vorschaubereich</value>
+  </data>
+  <data name="MathEditorForm_FileExit" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="RtfForm_TableInsertMenu" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="SortReferencesAscending" xml:space="preserve">
+    <value>Von A bis Z</value>
+  </data>
+  <data name="SortReferencesByLocation" xml:space="preserve">
+    <value>Nach Standort</value>
+  </data>
+  <data name="SortReferencesByYearAscending" xml:space="preserve">
+    <value>Nach Jahr (Älteste Titel am Anfang)</value>
+  </data>
+  <data name="SortReferencesByYearDescending" xml:space="preserve">
+    <value>Nach Jahr (Neueste Titel am Anfang)</value>
+  </data>
+  <data name="SortReferencesCustom" xml:space="preserve">
+    <value>Benutzerdefiniert…</value>
+  </data>
+  <data name="SortReferencesDescending" xml:space="preserve">
+    <value>Von Z bis A</value>
+  </data>
+  <data name="DeleteCategory" xml:space="preserve">
+    <value>Löschen…</value>
+  </data>
+  <data name="MainForm_ClearCategoryTreeFilter" xml:space="preserve">
+    <value>Auswahl aufheben</value>
+  </data>
+  <data name="MainForm_DeleteCategory" xml:space="preserve">
+    <value>Löschen…</value>
+  </data>
+  <data name="MainForm_FilterCategoryTree" xml:space="preserve">
+    <value>Auswählen:</value>
+  </data>
+  <data name="SortKnowledgeItemsDialog_ShowAll" xml:space="preserve">
+    <value>Alles</value>
+  </data>
+  <data name="SortKnowledgeItemsDialog_ShowCoreStatementAndContent" xml:space="preserve">
+    <value>Kernaussage und Inhalt</value>
+  </data>
+  <data name="SortKnowledgeItemsDialog_ShowCoreStatementOnly" xml:space="preserve">
+    <value>Nur Kernaussage</value>
+  </data>
+  <data name="HelpCitaviForum_Short" xml:space="preserve">
+    <value>Forum</value>
+  </data>
+  <data name="HelpCitaviManualShort" xml:space="preserve">
+    <value>Handbuch</value>
+  </data>
+  <data name="HelpCitaviOnlineFAQShort" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="ShowReferenceNavigationListWithFullTitle" xml:space="preserve">
+    <value>Volltitel</value>
+  </data>
+  <data name="ShowReferenceNavigationListWithShortTitle" xml:space="preserve">
+    <value>Kurztitel</value>
+  </data>
+  <data name="MainForm_InsertForProjectLabel" xml:space="preserve">
+    <value>Für das Projekt:</value>
+    <comment>999</comment>
+  </data>
+  <data name="MainForm_InsertForReferenceLabel" xml:space="preserve">
+    <value>Für den aktuellen Titel:</value>
+    <comment>999</comment>
+  </data>
+  <data name="MathEditorForm_acceptButton" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Suchen</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="LibraryForm_DeleteLibrary" xml:space="preserve">
+    <value>Diese Bibliothek löschen…</value>
+  </data>
+  <data name="SeriesTitleForm_DeleteSeriesTitle" xml:space="preserve">
+    <value>Diese Reihe löschen…</value>
+  </data>
+  <data name="CopyWithOptions" xml:space="preserve">
+    <value>Mit Optionen kopieren…</value>
+  </data>
+  <data name="BatchAssignCategoriesDialog_EditFilter" xml:space="preserve">
+    <value> Auswählen:</value>
+    <comment>mit Leerzeichen voran!</comment>
+  </data>
+  <data name="MainForm_NewReferenceTaskGoThroughBibliography" xml:space="preserve">
+    <value>Literaturverzeichnis auswerten</value>
+  </data>
+  <data name="PublicationAssistant_KnowledgeItemInsert" xml:space="preserve">
+    <value>In den Text</value>
+  </data>
+  <data name="PublicationAssistant_KnowledgeItemInsertAsFootnote" xml:space="preserve">
+    <value>Als Fußnote</value>
+  </data>
+  <data name="PublicationAssistant_KnowledgeItemInsertMenu" xml:space="preserve">
+    <value>In die Textverarbeitung einfügen</value>
+  </data>
+  <data name="MainForm_NewLocationLibrary" xml:space="preserve">
+    <value>Bibliothekstandort hinzufügen…</value>
+  </data>
+  <data name="NewLocationLocalFolderUri" xml:space="preserve">
+    <value>Lokalen Ordner hinzufügen…</value>
+  </data>
+  <data name="MainForm_NewLocationPrivateCollection" xml:space="preserve">
+    <value>Privaten Sammlungseintrag hinzufügen…</value>
+  </data>
+  <data name="NewLocationRemoteUri" xml:space="preserve">
+    <value>Internetadresse hinzufügen…</value>
+  </data>
+  <data name="ReferenceSmartRepeaterQuickEditForm_NewLocationLibrary" xml:space="preserve">
+    <value>In Bibliothek…</value>
+  </data>
+  <data name="ReferenceSmartRepeaterQuickEditForm_NewLocationLocalFileUri" xml:space="preserve">
+    <value>Lokale Datei…</value>
+  </data>
+  <data name="ReferenceSmartRepeaterQuickEditForm_NewLocationLocalFolderUri" xml:space="preserve">
+    <value>Lokaler Ordner…</value>
+  </data>
+  <data name="ReferenceSmartRepeaterQuickEditForm_NewLocationPrivateCollection" xml:space="preserve">
+    <value>In privater Sammlung…</value>
+  </data>
+  <data name="ReferenceSmartRepeaterQuickEditForm_NewLocationRemoteUri" xml:space="preserve">
+    <value>Internetadresse…</value>
+  </data>
+  <data name="MainForm_CustomizeOverview" xml:space="preserve">
+    <value>Karteikarte "Übersicht" anpassen…</value>
+  </data>
+  <data name="MainForm_CollapseLeftPane" xml:space="preserve">
+    <value>Bereich minimieren</value>
+  </data>
+  <data name="MainForm_NavigationGoBack" xml:space="preserve">
+    <value>Zurück in der Titelliste</value>
+  </data>
+  <data name="MainForm_NavigationGoBackInHistory" xml:space="preserve">
+    <value>Zurück in der History</value>
+  </data>
+  <data name="MainForm_NavigationGoForward" xml:space="preserve">
+    <value>Vorwärts in der Titelliste</value>
+  </data>
+  <data name="MainForm_NavigationSettings" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="QuickEditForm_AddLocation_ToolTipTextFormatted" xml:space="preserve">
+    <value>Öffnet ein neues Bearbeitungsfenster für lokale Dateien, Internetadressen oder Standorte.</value>
+  </data>
+  <data name="QuickEditForm_AddLocation_ToolTipTitle" xml:space="preserve">
+    <value>Lokale Datei, Internetadresse oder Standort hinzufügen</value>
+  </data>
+  <data name="QuickEditForm_AddQuotation_ToolTipTextFormatted" xml:space="preserve">
+    <value>Öffnet ein neues Bearbeitungsfenster für Zitate.</value>
+  </data>
+  <data name="QuickEditForm_AddQuotation_ToolTipTitle" xml:space="preserve">
+    <value>Zitat hinzufügen…</value>
+  </data>
+  <data name="QuickEditForm_AddTaskItem_ToolTipTextFormatted" xml:space="preserve">
+    <value>Öffnet ein neues Bearbeitungsfenster für Aufgaben.</value>
+  </data>
+  <data name="QuickEditForm_AddTaskItem_ToolTipTitle" xml:space="preserve">
+    <value>Aufgabe hinzufügen…</value>
+  </data>
+  <data name="QuickEditForm_EditAbstract_ToolTipTextFormatted" xml:space="preserve">
+    <value>Öffnet diesen Abstract im Bearbeitungsfenster.</value>
+  </data>
+  <data name="QuickEditForm_EditAbstract_ToolTipTitle" xml:space="preserve">
+    <value>Abstract bearbeiten</value>
+  </data>
+  <data name="QuickEditForm_EditCategories_ToolTipTextFormatted" xml:space="preserve">
+    <value>Öffnet das Bearbeitungsfenster für Kategorien.</value>
+  </data>
+  <data name="QuickEditForm_EditCategories_ToolTipTitle" xml:space="preserve">
+    <value>Kategorien bearbeiten</value>
+  </data>
+  <data name="QuickEditForm_EditKeywords_ToolTipTextFormatted" xml:space="preserve">
+    <value>Öffnet das Bearbeitungsfenster für Schlagwörter.</value>
+  </data>
+  <data name="QuickEditForm_EditKeywords_ToolTipTitle" xml:space="preserve">
+    <value>Schlagwörter bearbeiten</value>
+  </data>
+  <data name="QuickEditForm_EditLocationLibrary_ToolTipTitle" xml:space="preserve">
+    <value>Bibliotheksstandort bearbeiten</value>
+  </data>
+  <data name="QuickEditForm_EditLocationLocalFileUri_ToolTipTitle" xml:space="preserve">
+    <value>Lokale Datei bearbeiten</value>
+  </data>
+  <data name="QuickEditForm_EditLocationLocalFolderUri_ToolTipTitle" xml:space="preserve">
+    <value>Lokalen Ordner bearbeiten</value>
+  </data>
+  <data name="QuickEditForm_EditLocationPrivateCollection_ToolTipTitle" xml:space="preserve">
+    <value>Privaten Sammlungseintrag bearbeiten</value>
+  </data>
+  <data name="QuickEditForm_EditLocationRemoteUri_ToolTipTitle" xml:space="preserve">
+    <value>Internetadresse bearbeiten</value>
+  </data>
+  <data name="QuickEditForm_EditQuotation_ToolTipTitle" xml:space="preserve">
+    <value>Zitat bearbeiten</value>
+  </data>
+  <data name="QuickEditForm_EditEvaluation_ToolTipTextFormatted" xml:space="preserve">
+    <value>Öffnet diese Bewertung im Bearbeitungsfenster.</value>
+  </data>
+  <data name="QuickEditForm_EditEvaluation_ToolTipTitle" xml:space="preserve">
+    <value>Bewertung bearbeiten</value>
+  </data>
+  <data name="QuickEditForm_EditReference_ToolTipTextFormatted" xml:space="preserve">
+    <value>Wechselt zur Karteikarte &lt;i&gt;Titel&lt;/i&gt;.</value>
+  </data>
+  <data name="QuickEditForm_EditReference_ToolTipTitle" xml:space="preserve">
+    <value>Titel bearbeiten</value>
+  </data>
+  <data name="QuickEditForm_EditTableOfContents_ToolTipTextFormatted" xml:space="preserve">
+    <value>Öffnet dieses Inhaltsverzeichnis im Bearbeitungsfenster.</value>
+  </data>
+  <data name="QuickEditForm_EditTableOfContents_ToolTipTitle" xml:space="preserve">
+    <value>Inhaltsverzeichnis bearbeiten</value>
+  </data>
+  <data name="QuickEditForm_EditTaskItem_ToolTipTitle" xml:space="preserve">
+    <value>Aufgabe bearbeiten</value>
+  </data>
+  <data name="QuickEditForm_Edit_ToolTipTextFormatted" xml:space="preserve">
+    <value>Öffnet &lt;i&gt;{0}&lt;/i&gt; im Bearbeitungsfenster.</value>
+  </data>
+  <data name="QuickEditForm_OpenLocation_ToolTipTextFormatted" xml:space="preserve">
+    <value>Öffnet &lt;i&gt;{0}&lt;/i&gt; in {1}.</value>
+  </data>
+  <data name="QuickEditForm_OpenLocationLocalFileUri_ToolTipTitle" xml:space="preserve">
+    <value>Lokale Datei öffnen…</value>
+  </data>
+  <data name="QuickEditForm_OpenLocationRemoteUri_ToolTipTitle" xml:space="preserve">
+    <value>Internetadresse öffnen</value>
+  </data>
+  <data name="QuickEditForm_PreviewAbstract_ToolTipTextFormatted" xml:space="preserve">
+    <value>Zeigt diesen Abstract im Vorschaubereich an.</value>
+  </data>
+  <data name="QuickEditForm_PreviewAbstract_ToolTipTitle" xml:space="preserve">
+    <value>Vorschau auf Abstract</value>
+  </data>
+  <data name="QuickEditForm_PreviewLocationLocalFileUri_ToolTipTitle" xml:space="preserve">
+    <value>Vorschau auf lokale Datei</value>
+  </data>
+  <data name="QuickEditForm_PreviewLocationLocalFolderUri_ToolTipTitle" xml:space="preserve">
+    <value>Vorschau auf lokalen Ordner</value>
+  </data>
+  <data name="QuickEditForm_PreviewLocationRemoteUri_ToolTipTitle" xml:space="preserve">
+    <value>Vorschau auf Internetadresse</value>
+  </data>
+  <data name="QuickEditForm_PreviewQuotation_ToolTipTitle" xml:space="preserve">
+    <value>Vorschau auf Zitat</value>
+  </data>
+  <data name="QuickEditForm_PreviewTableOfContents_ToolTipTextFormatted" xml:space="preserve">
+    <value>Zeigt dieses Inhaltsverzeichnis im Vorschaubereich an.</value>
+  </data>
+  <data name="QuickEditForm_PreviewTableOfContents_ToolTipTitle" xml:space="preserve">
+    <value>Vorschau auf Inhaltsverzeichnis</value>
+  </data>
+  <data name="QuickEditForm_Preview_ToolTipTextFormatted" xml:space="preserve">
+    <value>Zeigt &lt;i&gt;{0}&lt;/i&gt; im Vorschaubereich an.</value>
+  </data>
+  <data name="ReferenceSmartRepeaterQuickEditForm_NewQuotationComment" xml:space="preserve">
+    <value>Kommentar…</value>
+  </data>
+  <data name="ReferenceSmartRepeaterQuickEditForm_NewQuotationDirect" xml:space="preserve">
+    <value>Direktes Zitat…</value>
+  </data>
+  <data name="ReferenceSmartRepeaterQuickEditForm_NewQuotationFile" xml:space="preserve">
+    <value>Dateizitat…</value>
+  </data>
+  <data name="ReferenceSmartRepeaterQuickEditForm_NewQuotationIndirect" xml:space="preserve">
+    <value>Indirektes Zitat…</value>
+    <comment>duplicate: see also 
+MainForm_NewQuotationIndirect¨
+KnowledgeItemTextForm_NewQuotationIndirect
+KnowledgeItemFileForm_NewQuotationIndirect
+ReferenceSmartRepeaterQuickEditForm_NewQuotationIndirect
+
+If we can share the same label in all of the cases above, we should merge all 4 into just NewQuotationIndirect and define this as an exception from the syntax "FormName_ToolKey".</comment>
+  </data>
+  <data name="ReferenceSmartRepeaterQuickEditForm_NewQuotationSummary" xml:space="preserve">
+    <value>Zusammenfassung…</value>
+    <comment>duplicate: see also 
+MainForm_NewQuotationSummary
+KnowledgeItemTextForm_NewQuotationSummary
+KnowledgeItemFileForm_NewQuotationSummary
+ReferenceSmartRepeaterQuickEditForm_NewQuotationSummary
+
+If we can share the same label in all of the cases above, we should merge all 4 into just NewQuotationSummary and define this as an exception from the syntax "FormName_ToolKey".</comment>
+  </data>
+  <data name="NewLocationLibrary_ToolbarInstance" xml:space="preserve">
+    <value>Bibliothek</value>
+  </data>
+  <data name="NewLocationLocalFileUri_ToolbarInstance" xml:space="preserve">
+    <value>Lokale Datei</value>
+  </data>
+  <data name="NewLocationLocalFolderUri_ToolbarInstance" xml:space="preserve">
+    <value>Lokaler Ordner</value>
+  </data>
+  <data name="NewLocationPrivateCollection_ToolbarInstance" xml:space="preserve">
+    <value>Private Sammlung</value>
+  </data>
+  <data name="NewLocationRemoteUri_ToolbarInstance" xml:space="preserve">
+    <value>Internetadresse</value>
+  </data>
+  <data name="MainForm_NewReferenceTask_OnScreen" xml:space="preserve">
+    <value>Aufgabe</value>
+  </data>
+  <data name="MainForm_PreviewShowContent" xml:space="preserve">
+    <value>Inhalt</value>
+  </data>
+  <data name="MainForm_PreviewShowQuotations" xml:space="preserve">
+    <value>Zitate</value>
+  </data>
+  <data name="MainForm_ShowPreview" xml:space="preserve">
+    <value>Vorschau</value>
+  </data>
+  <data name="MainForm_ShowQuickHelp" xml:space="preserve">
+    <value>Schnellhilfe</value>
+  </data>
+  <data name="PreviewControl_Back" xml:space="preserve">
+    <value>Zurück</value>
+  </data>
+  <data name="PreviewControl_Open" xml:space="preserve">
+    <value>Öffnen</value>
+  </data>
+  <data name="PreviewControl_PageSetup" xml:space="preserve">
+    <value>Seite einrichten…</value>
+  </data>
+  <data name="PreviewControl_Print" xml:space="preserve">
+    <value>Drucken…</value>
+  </data>
+  <data name="PreviewControl_PrintPreview" xml:space="preserve">
+    <value>Druckvorschau…</value>
+  </data>
+  <data name="PreviewControl_Properties" xml:space="preserve">
+    <value>Eigenschaften…</value>
+  </data>
+  <data name="PreviewControl_NewQuotationDirect" xml:space="preserve">
+    <value>Wörtliches Zitat</value>
+  </data>
+  <data name="PreviewControl_QuoteAbstract" xml:space="preserve">
+    <value>Abstract</value>
+  </data>
+  <data name="PreviewControl_QuoteTableOfContents" xml:space="preserve">
+    <value>Inhaltsverzeichnis</value>
+  </data>
+  <data name="PreviewControl_Refresh" xml:space="preserve">
+    <value>Aktualisieren</value>
+  </data>
+  <data name="PreviewControl_SaveAs" xml:space="preserve">
+    <value>Speichern unter…</value>
+  </data>
+  <data name="PreviewControl_Stop" xml:space="preserve">
+    <value>Anhalten</value>
+  </data>
+  <data name="PreviewControl_FitHeight" xml:space="preserve">
+    <value>Ganze Seite</value>
+  </data>
+  <data name="PreviewControl_FitWidth" xml:space="preserve">
+    <value>Seitenbreite</value>
+  </data>
+  <data name="ReplacementListDialog_AddReplacement" xml:space="preserve">
+    <value>Hinzufügen…</value>
+  </data>
+  <data name="ReplacementListDialog_EditReplacement" xml:space="preserve">
+    <value>Bearbeiten…</value>
+  </data>
+  <data name="ReplacementListDialog_MoveReplacementDown" xml:space="preserve">
+    <value>Nach unten</value>
+  </data>
+  <data name="ReplacementListDialog_MoveReplacementUp" xml:space="preserve">
+    <value>Nach oben</value>
+  </data>
+  <data name="ReplacementListDialog_RemoveReplacement" xml:space="preserve">
+    <value>Entfernen</value>
+  </data>
+  <data name="CitationStyleListDialogEx_CitationStyleAddLocalFile" xml:space="preserve">
+    <value>CCS-Datei öffnen</value>
+  </data>
+  <data name="CitationStyleListDialogEx_CitationStyleAdd" xml:space="preserve">
+    <value>Stil suchen</value>
+  </data>
+  <data name="CitationStyleListDialogEx_CitationStyleEdit" xml:space="preserve">
+    <value>Stil überarbeiten</value>
+  </data>
+  <data name="CitationStyleListDialogEx_CitationStyleEditMenu" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="CitationStyleListDialogEx_CitationStyleMoveDown" xml:space="preserve">
+    <value>Nach unten</value>
+  </data>
+  <data name="CitationStyleListDialogEx_CitationStyleMoveUp" xml:space="preserve">
+    <value>Nach oben</value>
+  </data>
+  <data name="CitationStyleListDialogEx_CitationStyleNew" xml:space="preserve">
+    <value>Neuen Stil entwickeln</value>
+  </data>
+  <data name="CitationStyleListDialogEx_CitationStyleRemove" xml:space="preserve">
+    <value>Entfernen</value>
+  </data>
+  <data name="CitationStyleListDialogEx_CitationStyleSortAsc" xml:space="preserve">
+    <value>Sortieren von A-Z</value>
+  </data>
+  <data name="CitationStyleListDialogEx_CitationStyleSortDesc" xml:space="preserve">
+    <value>Sortieren von Z-A</value>
+  </data>
+  <data name="CitationStyleListDialogEx_CitationStyleEditBuiltIn" xml:space="preserve">
+    <value>Stil überarbeiten</value>
+  </data>
+  <data name="ChangeCitationStyle" xml:space="preserve">
+    <value>Zitationsstil wechseln…</value>
+  </data>
+  <data name="OnlineSearchDialogEx_OpenSearchTerm" xml:space="preserve">
+    <value>Suchabfrage öffnen…</value>
+  </data>
+  <data name="OnlineSearchDialogEx_SaveSearchTerm" xml:space="preserve">
+    <value>Suchabfrage speichern</value>
+  </data>
+  <data name="CustomizeSavedExportDataExchangeProperties" xml:space="preserve">
+    <value>Gespeicherte Exporte verwalten…</value>
+  </data>
+  <data name="CustomizeSavedOnlineImportDataExchangeProperties" xml:space="preserve">
+    <value>Gespeicherte Suchabfragen verwalten…</value>
+  </data>
+  <data name="MainForm_LookupFullText" xml:space="preserve">
+    <value>Volltexte finden…</value>
+  </data>
+  <data name="SpellCheckMenu" xml:space="preserve">
+    <value>Rechtschreibung</value>
+  </data>
+  <data name="NoSpellCheckForSelection" xml:space="preserve">
+    <value>Nicht korrigieren</value>
+  </data>
+  <data name="SpellSuggestions2Menu" xml:space="preserve">
+    <value>Weitere Korrekturvorschläge</value>
+  </data>
+  <data name="QuickEditForm_PreviewEvaluation_ToolTipTextFormatted" xml:space="preserve">
+    <value>Zeigt diese Bewertung im Vorschaubereich an.</value>
+  </data>
+  <data name="QuickEditForm_PreviewEvaluation_ToolTipTitle" xml:space="preserve">
+    <value>Vorschau auf Bewertung</value>
+  </data>
+  <data name="RatingOneStar" xml:space="preserve">
+    <value>1 Stern</value>
+  </data>
+  <data name="RatingTwoStars" xml:space="preserve">
+    <value>2 Sterne</value>
+  </data>
+  <data name="RatingThreeStars" xml:space="preserve">
+    <value>3 Sterne</value>
+  </data>
+  <data name="RatingFourStars" xml:space="preserve">
+    <value>4 Sterne</value>
+  </data>
+  <data name="RatingFiveStars" xml:space="preserve">
+    <value>5 Sterne</value>
+  </data>
+  <data name="Unrated" xml:space="preserve">
+    <value>Keine Bewertung</value>
+  </data>
+  <data name="BibliographyImportControl_DeselectAll" xml:space="preserve">
+    <value>Alle abwählen</value>
+  </data>
+  <data name="BibliographyImportControl_SelectAll" xml:space="preserve">
+    <value>Alle auswählen</value>
+  </data>
+  <data name="EditCitationStyles" xml:space="preserve">
+    <value>Zitationsstil bearbeiten…</value>
+  </data>
+  <data name="MoveDown" xml:space="preserve">
+    <value>Nach unten</value>
+  </data>
+  <data name="MoveUp" xml:space="preserve">
+    <value>Nach oben</value>
+  </data>
+  <data name="OnlineSearchDialogEx_ShowTransformerInformation" xml:space="preserve">
+    <value>Informationen zu den Datenquellen</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Entfernen</value>
+  </data>
+  <data name="SortAsc" xml:space="preserve">
+    <value>Von A bis Z</value>
+  </data>
+  <data name="SortDesc" xml:space="preserve">
+    <value>Von Z bis A</value>
+  </data>
+  <data name="TransformerListControl_TransformerFindAuto" xml:space="preserve">
+    <value>Lizenzierte Datenbanken suchen</value>
+  </data>
+  <data name="ImportForm_CollapseAllImportSessions" xml:space="preserve">
+    <value>Alle Importe zusammenklappen</value>
+  </data>
+  <data name="ImportForm_ExpandAllImportSessions" xml:space="preserve">
+    <value>Alle Importe aufklappen</value>
+  </data>
+  <data name="ViewAllDetails" xml:space="preserve">
+    <value>Alle Details</value>
+  </data>
+  <data name="ViewDetails" xml:space="preserve">
+    <value>Weitere Details…</value>
+  </data>
+  <data name="ViewNoDetails" xml:space="preserve">
+    <value>Keine Details</value>
+  </data>
+  <data name="LocationForm_DeleteLocation" xml:space="preserve">
+    <value>Diesen Eintrag löschen…</value>
+  </data>
+  <data name="TeXPublicationForm_EditCreateFilterWithCitedReferences" xml:space="preserve">
+    <value>Zitierte Titel als Auswahl übernehmen</value>
+  </data>
+  <data name="TeXPublicationForm_EditShowReference" xml:space="preserve">
+    <value>Titel anzeigen</value>
+  </data>
+  <data name="TeXPublicationForm_FileOpenOriginalDocument" xml:space="preserve">
+    <value>Originaldokument öffnen…</value>
+  </data>
+  <data name="ReferenceTypeSelectionDialog_Black" xml:space="preserve">
+    <value>Schwarz</value>
+  </data>
+  <data name="ReferenceTypeSelectionDialog_Blue" xml:space="preserve">
+    <value>Blau</value>
+  </data>
+  <data name="ReferenceTypeSelectionDialog_Gold" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="ReferenceTypeSelectionDialog_Gray" xml:space="preserve">
+    <value>Grau</value>
+  </data>
+  <data name="ReferenceTypeSelectionDialog_Green" xml:space="preserve">
+    <value>Grün</value>
+  </data>
+  <data name="ReferenceTypeSelectionDialog_Red" xml:space="preserve">
+    <value>Rot</value>
+  </data>
+  <data name="MainForm_NewReferenceAuto" xml:space="preserve">
+    <value>Titel abrufen per ID…</value>
+  </data>
+  <data name="MainForm_NewReferenceAuto_ToolbarInstance" xml:space="preserve">
+    <value>ISBN, DOI, andere ID</value>
+  </data>
+  <data name="MainForm_NewReference_ToolbarInstance" xml:space="preserve">
+    <value>Neuer Titel</value>
+  </data>
+  <data name="MainForm_NewReferenceAuto_ToolTipText" xml:space="preserve">
+    <value>ISBN, DOI, PubMed-, PMC- oder arXiv-ID eingeben, und schon erscheinen die Titeldaten.</value>
+  </data>
+  <data name="MainForm_NewReferenceAuto_ToolTipTitle" xml:space="preserve">
+    <value>Titel abrufen per ISBN, DOI oder anderer ID</value>
+  </data>
+  <data name="MainForm_NewReference_ToolTipText" xml:space="preserve">
+    <value>Tipp: Hat Ihr Buch eine ISBN? Hat Ihr Aufsatz eine DOI oder eine andere ID? Wenn ja, wählen Sie "ISBN, DOI, andere ID".</value>
+  </data>
+  <data name="MainForm_NewReference_ToolTipTitle" xml:space="preserve">
+    <value>Neuen Titel per Hand eingeben</value>
+  </data>
+  <data name="MainForm_SearchOnline_ToolTipText" xml:space="preserve">
+    <value>Recherchieren Sie weltweit in über 4000 Datenbanken und Bibliothekskatalogen.</value>
+  </data>
+  <data name="MainForm_SearchOnline_ToolTipTitle" xml:space="preserve">
+    <value>Online recherchieren</value>
+  </data>
+  <data name="MainForm_PrintBibliography_ToolTipText" xml:space="preserve">
+    <value>Druckt oder speichert eine Liste der aktuell ausgewählten Titel nach Ihren Vorgaben.</value>
+  </data>
+  <data name="MainForm_PrintBibliography_ToolTipTitle" xml:space="preserve">
+    <value>Literaturliste drucken oder speichern</value>
+  </data>
+  <data name="MainForm_NewThoughtMenu_ToolTipText" xml:space="preserve">
+    <value>Hier schnell notieren!</value>
+  </data>
+  <data name="MainForm_NewThoughtMenu_ToolTipTitle" xml:space="preserve">
+    <value>Eine gute Idee?</value>
+  </data>
+  <data name="MainForm_ShowReferenceTable_ToolTipText" xml:space="preserve">
+    <value>Zeigt die aktuell ausgewählten Titel in Tabellenform an.</value>
+  </data>
+  <data name="MainForm_ShowReferenceTable_ToolTipTitle" xml:space="preserve">
+    <value>Tabelle</value>
+  </data>
+  <data name="OnlineSearchDialogEx_Tools" xml:space="preserve">
+    <value>Extras</value>
+  </data>
+  <data name="PreviewControl_CreateStickyNote" xml:space="preserve">
+    <value>Notiz hinzufügen</value>
+  </data>
+  <data name="PreviewControl_Highlight" xml:space="preserve">
+    <value>Hervorheben</value>
+  </data>
+  <data name="PreviewControl_Pan" xml:space="preserve">
+    <value>Seite verschieben</value>
+  </data>
+  <data name="PreviewControl_RectangularTextSelection" xml:space="preserve">
+    <value>Rechteckige Textauswahl</value>
+  </data>
+  <data name="PreviewControl_SearchBibliography" xml:space="preserve">
+    <value>Literaturverzeichnis nachrecherchieren</value>
+  </data>
+  <data name="PreviewControl_StructuredTextSelection" xml:space="preserve">
+    <value>Textauswahl</value>
+  </data>
+  <data name="CitationStyleListDialogEx_CitationStyleAddMenu" xml:space="preserve">
+    <value>Hinzufügen…</value>
+  </data>
+  <data name="ProofingTools" xml:space="preserve">
+    <value>Einstellungen und weitere Sprachen…</value>
+  </data>
+  <data name="ProofingToolsDialog_AddLanguage" xml:space="preserve">
+    <value>Weitere Wörterbücher herunterladen…</value>
+  </data>
+  <data name="TurnOnSpellCheck" xml:space="preserve">
+    <value>Rechtschreibekorrektur einschalten</value>
+  </data>
+  <data name="TurnOffSpellCheck" xml:space="preserve">
+    <value>Rechtschreibekorrektur ausschalten</value>
+  </data>
+  <data name="MainForm_ProofingTools" xml:space="preserve">
+    <value>Rechtschreibung…</value>
+  </data>
+  <data name="QuickEditForm_PreviewCover_ToolTipTextFormatted" xml:space="preserve">
+    <value>Zeigt dieses Cover im Vorschaubereich an.</value>
+  </data>
+  <data name="QuickEditForm_PreviewCover_ToolTipTitle" xml:space="preserve">
+    <value>Vorschau auf Cover</value>
+  </data>
+  <data name="ReferenceSmartRepeaterQuickEditForm_AddCoverFromFile" xml:space="preserve">
+    <value>Cover aus Datei hinzufügen…</value>
+  </data>
+  <data name="ReferenceSmartRepeaterQuickEditForm_AddCoverFromIsbnDownload" xml:space="preserve">
+    <value>Cover anhand der ISBN herunterladen</value>
+  </data>
+  <data name="ReferenceSmartRepeaterQuickEditForm_PasteCover" xml:space="preserve">
+    <value>Cover aus der Zwischenablage einfügen</value>
+  </data>
+  <data name="ReferenceSmartRepeaterQuickEditForm_AddCoverFromPreviewScreenshot" xml:space="preserve">
+    <value>Cover aus Screenshot der Vorschau erstellen</value>
+  </data>
+  <data name="MainForm_PreviewShowCover" xml:space="preserve">
+    <value>Cover</value>
+  </data>
+  <data name="CustomizeOverviewForm_Reset" xml:space="preserve">
+    <value>Standard wiederherstellen</value>
+  </data>
+  <data name="MathEditorForm_Accents" xml:space="preserve">
+    <value>Akzente</value>
+  </data>
+  <data name="MathEditorForm_EditAutoComplete" xml:space="preserve">
+    <value>Eingabehilfe einblenden</value>
+  </data>
+  <data name="MainForm_ShowUpdateInfo" xml:space="preserve">
+    <value>Es ist ein Update verfügbar</value>
+  </data>
+  <data name="TaskItemForm_DeleteTaskItem" xml:space="preserve">
+    <value>Diese Aufgabe löschen…</value>
+  </data>
+  <data name="MainForm_UpdateInstall" xml:space="preserve">
+    <value>Update installieren</value>
+  </data>
+  <data name="MainForm_UpdateDownloadProgress" xml:space="preserve">
+    <value>Citavi Update wird heruntergeladen…</value>
+  </data>
+  <data name="PreviewControl_SkipPreviewEntryPage" xml:space="preserve">
+    <value>Diesen Standortnachweis immer direkt in der Vorschau anzeigen</value>
+  </data>
+  <data name="PreviewControl_CopyToProject" xml:space="preserve">
+    <value>In das Citavi-Projekt kopieren</value>
+  </data>
+  <data name="PreviewControl_MoveToProject" xml:space="preserve">
+    <value>In das Citavi-Projekt verschieben</value>
+  </data>
+  <data name="LookupReferenceIdentifierDialog_ReferenceExportCalc" xml:space="preserve">
+    <value>Nach Calc exportieren</value>
+  </data>
+  <data name="LookupReferenceIdentifierDialog_ReferenceExportExcel" xml:space="preserve">
+    <value>Nach Excel exportieren</value>
+  </data>
+  <data name="LookupReferenceIdentifierDialog_ReferenceDelete" xml:space="preserve">
+    <value>Titel löschen</value>
+  </data>
+  <data name="PreviewControl_SaveCopyAs" xml:space="preserve">
+    <value>Kopie speichern unter…</value>
+  </data>
+  <data name="MainForm_CopyFileToProject" xml:space="preserve">
+    <value>Dateien in das Citavi-Projekt kopieren…</value>
+  </data>
+  <data name="MainForm_MoveFileToProject" xml:space="preserve">
+    <value>Dateien in das Citavi-Projekt verschieben…</value>
+  </data>
+  <data name="MainForm_RenameFile" xml:space="preserve">
+    <value>Dateien mit dem Citavi-Kurztitel umbenennen…</value>
+  </data>
+  <data name="MainForm_SaveFileAs" xml:space="preserve">
+    <value>Dateien speichern unter…</value>
+  </data>
+  <data name="LocationForm_CopyFileToProject" xml:space="preserve">
+    <value>Dateien in das Citavi-Projekt kopieren…</value>
+  </data>
+  <data name="LocationForm_MoveFileToProject" xml:space="preserve">
+    <value>Dateien in das Citavi-Projekt verschieben…</value>
+  </data>
+  <data name="LocationForm_RenameFile" xml:space="preserve">
+    <value>Dateien mit dem Citavi-Kurztitel umbenennen…</value>
+  </data>
+  <data name="LocationForm_SaveFileAs" xml:space="preserve">
+    <value>Dateien speichern unter…</value>
+  </data>
+  <data name="MainForm_DeleteSourceEntityLink" xml:space="preserve">
+    <value>Verweis löschen</value>
+  </data>
+  <data name="MainForm_DeleteTargetEntityLink" xml:space="preserve">
+    <value>Verweis löschen</value>
+  </data>
+  <data name="MainForm_NewSourceEntityLink" xml:space="preserve">
+    <value>Neuer Verweis…</value>
+  </data>
+  <data name="MainForm_NewTargetEntityLink" xml:space="preserve">
+    <value>Neuer Verweis…</value>
+  </data>
+  <data name="GoToSourceEntityLink" xml:space="preserve">
+    <value>Gehe zu</value>
+  </data>
+  <data name="GoToTargetEntityLink" xml:space="preserve">
+    <value>Gehe zu</value>
+  </data>
+  <data name="MacroEditorForm_BuildMenu" xml:space="preserve">
+    <value>Erstellen</value>
+  </data>
+  <data name="MacroEditorForm_Compile" xml:space="preserve">
+    <value>Kompilieren</value>
+  </data>
+  <data name="MacroEditorForm_ExternalReferences" xml:space="preserve">
+    <value>Verweise…</value>
+  </data>
+  <data name="MacroEditorForm_Run" xml:space="preserve">
+    <value>Ausführen</value>
+  </data>
+  <data name="HelpCitaviOnlineSupportShort" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="MainForm_HelpCitaviManualShort" xml:space="preserve">
+    <value>Handbuch</value>
+  </data>
+  <data name="MainForm_HelpCitaviOnlineFAQShort" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="MainForm_HelpCitaviOnlineSupportShort" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="ApplyKeywordsForm_EditKeyword" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="QuickEditForm_EditStandardReferenceProperty_ToolTipTextFormatted" xml:space="preserve">
+    <value>Wechselt zur Karteikarte &lt;i&gt;Titel&lt;/i&gt;.</value>
+  </data>
+  <data name="QuickEditForm_EditStandardReferenceProperty_ToolTipTextFormatted_AdditionalFieldsForm" xml:space="preserve">
+    <value>Öffnet das Fenster &lt;i&gt;Weitere Felder&lt;/i&gt;.</value>
+  </data>
+  <data name="QuickEditForm_EditStandardReferenceProperty_ToolTipTitle" xml:space="preserve">
+    <value>{0} bearbeiten</value>
+  </data>
+  <data name="MainForm_Comment_ToolTipText" xml:space="preserve">
+    <value>Eigene Stellungnahme zu Textstellen, Abschnitten oder Kapiteln</value>
+  </data>
+  <data name="MainForm_Comment_ToolTipTitle" xml:space="preserve">
+    <value>Kommentar</value>
+  </data>
+  <data name="MainForm_DirectQuotation_ToolTipText" xml:space="preserve">
+    <value>Unveränderte Übernahme einer Textstelle</value>
+  </data>
+  <data name="MainForm_DirectQuotation_ToolTipTitle" xml:space="preserve">
+    <value>Wörtliches Zitat</value>
+  </data>
+  <data name="MainForm_FileQuotation_ToolTipText" xml:space="preserve">
+    <value>Grafik-, AV- oder Textdatei mit einem Ausschnitt aus dem zitierten Werk</value>
+  </data>
+  <data name="MainForm_FileQuotation_ToolTipTitle" xml:space="preserve">
+    <value>Bild- oder Dateizitat</value>
+  </data>
+  <data name="MainForm_IndirectQuotation_ToolTipTitle" xml:space="preserve">
+    <value>Indirektes Zitat</value>
+  </data>
+  <data name="MainForm_IndirectQuotation_ToolTipText" xml:space="preserve">
+    <value>Sinngemäße Wiedergabe einer Textstelle in eigenen Worten</value>
+  </data>
+  <data name="MainForm_Summary_ToolTipText" xml:space="preserve">
+    <value>Verkürzte Wiedergabe eines Abschnitts/Kapitels in eigenen Worten</value>
+  </data>
+  <data name="MainForm_Summary_ToolTipTitle" xml:space="preserve">
+    <value>Zusammenfassung</value>
+  </data>
+  <data name="MainForm_SwitchQuotationDisplay_CoreStatementOnly" xml:space="preserve">
+    <value>Nur Kernaussage anzeigen</value>
+  </data>
+  <data name="MainForm_SwitchQuotationDisplay_CoreStatementAndText" xml:space="preserve">
+    <value>Kernaussage und Text anzeigen</value>
+  </data>
+  <data name="MainForm_PreviewShowQuotations_ToolTipText" xml:space="preserve">
+    <value>Klicken Sie &lt;i&gt;mit gedrückter Strg-Taste und der rechten Maustaste&lt;/i&gt; auf ein Zitat, um es sofort in der Vorschau anzuzeigen.</value>
+  </data>
+  <data name="MainForm_PreviewShowQuotations_ToolTipTitle" xml:space="preserve">
+    <value>In der Vorschau anzeigen</value>
+  </data>
+  <data name="TaskItemForm_High" xml:space="preserve">
+    <value>Wichtigkeit: Hoch</value>
+  </data>
+  <data name="TaskItemForm_Low" xml:space="preserve">
+    <value>Wichtigkeit: Gering</value>
+  </data>
+  <data name="TaskItemForm_Middle" xml:space="preserve">
+    <value>Wichtigkeit: Mittel</value>
+  </data>
+  <data name="MainForm_NewLocationMenu" xml:space="preserve">
+    <value>Standortnachweis</value>
+  </data>
+  <data name="ReferenceGridColumnsForm_MoveColumnDown" xml:space="preserve">
+    <value>Nach unten</value>
+  </data>
+  <data name="ReferenceGridColumnsForm_MoveColumnUp" xml:space="preserve">
+    <value>Nach oben</value>
+  </data>
+  <data name="ReferenceGridGroupsForm_MoveColumnDown" xml:space="preserve">
+    <value>Nach unten</value>
+  </data>
+  <data name="ReferenceGridGroupsForm_MoveColumnUp" xml:space="preserve">
+    <value>Nach oben</value>
+  </data>
+  <data name="QuickEditForm_EditShortTitle_ToolTipTextFormatted" xml:space="preserve">
+    <value>Öffnet das Bearbeitungsfenster für diesen Kurztitel.</value>
+  </data>
+  <data name="QuickEditForm_EditShortTitle_ToolTipTitle" xml:space="preserve">
+    <value>Kurztitel bearbeiten</value>
+  </data>
+  <data name="TransformerListControl_TransformerEdit" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="ProjectMruListEmpty" xml:space="preserve">
+    <value>(Die Liste der zuletzt geöffneten Projekte ist leer.)</value>
+  </data>
+  <data name="ShowCategoryList" xml:space="preserve">
+    <value>Kategorien</value>
+  </data>
+  <data name="MainForm_Label1" xml:space="preserve">
+    <value>Blaue Marke</value>
+  </data>
+  <data name="MainForm_Label2" xml:space="preserve">
+    <value>Rote Marke</value>
+  </data>
+  <data name="MainForm_SwitchCenterPaneVisibility_Off" xml:space="preserve">
+    <value>Mittleren Bereich ausblenden</value>
+  </data>
+  <data name="MainForm_SwitchCenterPaneVisibility_On" xml:space="preserve">
+    <value>Mittleren Bereich einblenden</value>
+  </data>
+  <data name="MainForm_SwitchLeftPaneVisibility_Off" xml:space="preserve">
+    <value>Linken Bereich ausblenden</value>
+  </data>
+  <data name="MainForm_SwitchLeftPaneVisibility_On" xml:space="preserve">
+    <value>Linken Bereich einblenden</value>
+  </data>
+  <data name="MainForm_EditShortTitle" xml:space="preserve">
+    <value>Kurztitel ändern…</value>
+  </data>
+  <data name="MainForm_ShowMoreFields" xml:space="preserve">
+    <value>Karteikarte "Titel" um weitere Felder ergänzen…</value>
+  </data>
+  <data name="MainForm_HighContrastMode" xml:space="preserve">
+    <value>Projektionsmodus</value>
+  </data>
+  <data name="PublicationAssistant_ShowOptions" xml:space="preserve">
+    <value>Einstellungen…</value>
+  </data>
+  <data name="ExportReferences" xml:space="preserve">
+    <value>Exportieren…</value>
+  </data>
+  <data name="ExportReferencesMenu" xml:space="preserve">
+    <value>Exportieren</value>
+  </data>
+  <data name="NoSavedExportDataExchangeProperties" xml:space="preserve">
+    <value>(Keine gespeicherten Exporte)</value>
+  </data>
+  <data name="BibTeXAutoExportMruListEmpty" xml:space="preserve">
+    <value>(Die Liste der zuletzt geöffneten Dateien ist leer.)</value>
+  </data>
+  <data name="CreateLibrary" xml:space="preserve">
+    <value>Neue Bibliothek "{0}" anlegen…</value>
+  </data>
+  <data name="KnowledgeItemForm_FileDelete" xml:space="preserve">
+    <value>Dieses Wissenselement löschen…</value>
+  </data>
+  <data name="EditLibrary" xml:space="preserve">
+    <value>Bibliothek "{0}" bearbeiten…</value>
+  </data>
+  <data name="GoToParentReference" xml:space="preserve">
+    <value>Zum übergeordneten Titel "{0}"</value>
+  </data>
+  <data name="GoToParentReferenceDisabled" xml:space="preserve">
+    <value>Zum übergeordneten Titel</value>
+  </data>
+  <data name="InsertKnowledgeItem" xml:space="preserve">
+    <value>In {0} einfügen</value>
+    <comment>No default word processor defined: "In &lt;Ihre Textverarbeitung&gt; einfügen"; e.g. with Word as default text processor: "In &lt;Word&gt; einfügen"</comment>
+  </data>
+  <data name="InsertKnowledgeItemAsFootnote" xml:space="preserve">
+    <value>Als Fußnote in {0} einfügen</value>
+    <comment>No default word processor defined: "Als Fußnote in &lt;Ihre Textverarbeitung&gt; einfügen"; e.g. with Word as default text processor: "Als Fußnote in &lt;Word&gt; einfügen"</comment>
+  </data>
+  <data name="InsertPlaceholder" xml:space="preserve">
+    <value>In {0} einfügen</value>
+    <comment>No default word processor defined: "In &lt;Ihre Textverarbeitung&gt; einfügen"; e.g. with Word as default text processor: "In &lt;Word&gt; einfügen"</comment>
+  </data>
+  <data name="InsertPlaceholderAsFootnote" xml:space="preserve">
+    <value>Als Fußnote in {0} einfügen</value>
+    <comment>No default word processor defined: "Als Fußnote in &lt;Ihre Textverarbeitung&gt; einfügen"; e.g. with Word as default text processor: "Als Fußnote in &lt;Word&gt; einfügen"</comment>
+  </data>
+  <data name="InsertPlaceholderMenu" xml:space="preserve">
+    <value>In {0} einfügen</value>
+    <comment>No default word processor defined: "In &lt;Ihre Textverarbeitung&gt; einfügen"; e.g. with Word as default text processor: "In &lt;Word&gt; einfügen"</comment>
+  </data>
+  <data name="NoOtherContributions" xml:space="preserve">
+    <value>(Keine anderen Beiträge)</value>
+  </data>
+  <data name="NoReferences" xml:space="preserve">
+    <value>(Keine Titel)</value>
+  </data>
+  <data name="NoSavedOnlineSearchTerms" xml:space="preserve">
+    <value>(Keine gespeicherten Suchabfragen)</value>
+  </data>
+  <data name="PublicationAssistant_Restore" xml:space="preserve">
+    <value>Größer</value>
+  </data>
+  <data name="PublicationAssistant_Small" xml:space="preserve">
+    <value>Klein</value>
+  </data>
+  <data name="PublicationAssistant_Topmost_Instance" xml:space="preserve">
+    <value>Vorne</value>
+  </data>
+  <data name="SearchForm_KnowledgeItemsContextMenu_AssignedReferencesMenu_AddReferencesToProjectShell_Instance" xml:space="preserve">
+    <value>Zur Auswahl hinzufügen</value>
+  </data>
+  <data name="SearchForm_KnowledgeItemsContextMenu_AssignedReferencesMenu_RemoveReferencesFromProjectShell_Instance" xml:space="preserve">
+    <value>Aus der Auswahl ausschließen</value>
+  </data>
+  <data name="SearchForm_KnowledgeItemsContextMenu_AssignedReferencesMenu_SetReferencesAsProjectShell_Instance" xml:space="preserve">
+    <value>Als Auswahl übernehmen</value>
+  </data>
+  <data name="TemplateUseCaseInheritFromGoToToolCaption" xml:space="preserve">
+    <value>Gehe zu "{0}"</value>
+  </data>
+  <data name="TemplateUseCaseInheritFromGoToToolCaptionEmpty" xml:space="preserve">
+    <value>Gehe zu …</value>
+  </data>
+  <data name="Lists_SwitchLayoutShowAll" xml:space="preserve">
+    <value>Alles anzeigen</value>
+  </data>
+  <data name="Lists_SwitchLayoutShowHeader" xml:space="preserve">
+    <value>Kurzform anzeigen</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Neu</value>
+    <comment>used in keyword selector dialog</comment>
+  </data>
+  <data name="RecentReferencesListIsEmpty" xml:space="preserve">
+    <value>(Die Liste der zuletzt angezeigten Titel ist leer)</value>
+  </data>
+  <data name="HelpSetupChange" xml:space="preserve">
+    <value>Citavi Picker installieren/deinstallieren</value>
+  </data>
+  <data name="HelpSetupRepair" xml:space="preserve">
+    <value>Citavi-Installation reparieren</value>
+  </data>
+  <data name="HelpSetupUSBInstallation" xml:space="preserve">
+    <value>Citavi auf USB-Stick installieren</value>
+  </data>
+  <data name="HelpBuyCitavi" xml:space="preserve">
+    <value>Citavi kaufen</value>
+  </data>
+  <data name="MainForm_PreviewShowNotes" xml:space="preserve">
+    <value>Notiz</value>
+  </data>
+  <data name="QuickEditForm_EditNotes_ToolTipTextFormatted" xml:space="preserve">
+    <value>Öffnet die Notiz zur Bearbeitung im Vorschaubereich.</value>
+  </data>
+  <data name="QuickEditForm_EditNotes_ToolTipTitle" xml:space="preserve">
+    <value>Notiz bearbeiten</value>
+  </data>
+  <data name="ShowActiveReferenceInCitationStyle_Hide" xml:space="preserve">
+    <value>Aktuellen Titel im Zitationsstil ausblenden</value>
+  </data>
+  <data name="ShowActiveReferenceInCitationStyle_Show" xml:space="preserve">
+    <value>Aktuellen Titel im Zitationsstil anzeigen</value>
+  </data>
+  <data name="MainForm_ShowAdvancedTaskPlanningSelectionTools" xml:space="preserve">
+    <value>Erweiterte Auswahl</value>
+    <comment>review (dt. Erweiterte Auswahl)</comment>
+  </data>
+  <data name="MainForm_ShowQuickTaskPlanningSelectionTools" xml:space="preserve">
+    <value>Schnellauswahl</value>
+  </data>
+  <data name="ReferenceGridForm_HideColumn" xml:space="preserve">
+    <value>Diese Spalte ausblenden</value>
+  </data>
+  <data name="ReferenceGridForm_HideColumn_Disabled" xml:space="preserve">
+    <value>Diese Spalte kann nicht ausgeblendet werden</value>
+  </data>
+  <data name="ReferenceGridForm_HideColumnSpecified" xml:space="preserve">
+    <value>Spalte {0} ausblenden</value>
+  </data>
+  <data name="ReferenceGridForm_ShowHideCommonColumns" xml:space="preserve">
+    <value>Oft gebrauchte Spalten:</value>
+  </data>
+  <data name="ReferenceGridForm_ShowHideOtherColumns" xml:space="preserve">
+    <value>Weitere Spalten…</value>
+  </data>
+  <data name="ViewColumns" xml:space="preserve">
+    <value>Spalten auswählen…</value>
+    <comment>review (dt. Spalten auswählen…)</comment>
+  </data>
+  <data name="MainForm_PrintTaskList" xml:space="preserve">
+    <value>Alle angezeigten Aufgaben drucken…</value>
+  </data>
+  <data name="MainForm_RenameSavedTaskPlannerFilter" xml:space="preserve">
+    <value>Gespeicherte Abfrage umbenennen…</value>
+    <comment>TEMP C3P3</comment>
+  </data>
+  <data name="MainForm_Rename" xml:space="preserve">
+    <value>Umbenennen</value>
+  </data>
+  <data name="EditPlaceholderCopy" xml:space="preserve">
+    <value>In Zwischenablage kopieren</value>
+  </data>
+  <data name="EditPlaceholderInsert" xml:space="preserve">
+    <value>In Word einfügen</value>
+  </data>
+  <data name="EditPlaceholderInsertAsFootnote" xml:space="preserve">
+    <value>In Word als Fußnote einfügen</value>
+  </data>
+  <data name="ReferenceGridForm_ViewColumns_ColumnHeaderPopup" xml:space="preserve">
+    <value>Weitere Spalten…</value>
+  </data>
+  <data name="ChooseColumns_Short" xml:space="preserve">
+    <value>Spalten…</value>
+  </data>
+  <data name="MainForm_NewProjectTask_ToolTipText" xml:space="preserve">
+    <value>Öffnet ein Fenster zur Eingabe einer Projektaufgabe. Projektaufgaben sind allgemeine Aufgaben,  
+Zwischenschritte, besondere Ereignisse oder Fixpunkte („Meilensteine“) auf dem Weg zum Projektziel.
+Sie beziehen sich nicht auf einzelne Titel wie die Titelaufgaben.</value>
+  </data>
+  <data name="MainForm_NewProjectTask_ToolTipTitle" xml:space="preserve">
+    <value>Neue Projektaufgabe</value>
+  </data>
+  <data name="MainForm_PrintTaskList_ToolTipText" xml:space="preserve">
+    <value>Druckt oder speichert eine Liste mit allen angezeigten Aufgaben.
+Blenden Sie Tabellenspalten ein oder aus um zu steuern, welche Felder in der Aufgabenliste gedruckt werden.</value>
+  </data>
+  <data name="MainForm_PrintTaskList_ToolTipTitle" xml:space="preserve">
+    <value>Aufgabenliste drucken oder speichern</value>
+  </data>
+  <data name="ViewColumns_ToolTipText" xml:space="preserve">
+    <value>Öffnet ein Fenster, in dem Sie Spalten auswählen, abwählen und in neuer Reihenfolge anordnen können.</value>
+  </data>
+  <data name="ViewColumns_ToolTipTitle" xml:space="preserve">
+    <value>Spalten auswählen und neu anordnen</value>
+  </data>
+  <data name="MainForm_ShowPreview_ToolTipText" xml:space="preserve">
+    <value>Vorschau</value>
+  </data>
+  <data name="PublicationAssistant_PlaceholderMenu" xml:space="preserve">
+    <value>Titel</value>
+    <comment>Review: "Titel"</comment>
+  </data>
+  <data name="MainForm_PrintTable" xml:space="preserve">
+    <value>Tabelle drucken…</value>
+  </data>
+  <data name="ReferenceGridForm_PrintTable" xml:space="preserve">
+    <value>Tabelle drucken…</value>
+  </data>
+  <data name="QuickEditForm_AddCoverMenu_ToolTipTextFormatted" xml:space="preserve">
+    <value>Fügt Cover aus Datei oder Zwischenablage, per Screenshot oder Download hinzu.</value>
+  </data>
+  <data name="QuickEditForm_AddCoverMenu_ToolTipTitle" xml:space="preserve">
+    <value>Cover hinzufügen</value>
+  </data>
+  <data name="MainForm_DeleteSavedTaskPlannerFilter" xml:space="preserve">
+    <value>Gespeicherte Abfrage löschen</value>
+  </data>
+  <data name="PublicationAssistant_KnowledgeItemAssignKeywords" xml:space="preserve">
+    <value>Schlagwörter zuweisen…</value>
+  </data>
+  <data name="Delete_ToolTipText" xml:space="preserve">
+    <value>Löscht das aktive Element. In wichtigen Fällen erfolgt eine Rückfrage.</value>
+  </data>
+  <data name="Delete_ToolTipTitle" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="MainForm_SaveTaskList" xml:space="preserve">
+    <value>Alle angezeigten Aufgaben speichern…</value>
+  </data>
+  <data name="BatchModifyMenu" xml:space="preserve">
+    <value>Mehrfach zuweisen/entfernen</value>
+  </data>
+  <data name="SearchForm_AddReferencesToProjectShell" xml:space="preserve">
+    <value>Markierte Titel zur Auswahl hinzufügen</value>
+  </data>
+  <data name="SearchForm_RemoveReferencesFromProjectShell" xml:space="preserve">
+    <value>Markierte Titel aus der Auswahl ausschließen</value>
+  </data>
+  <data name="SearchForm_SetReferencesAsProjectShell" xml:space="preserve">
+    <value>Markierte Titel als Auswahl übernehmen</value>
+  </data>
+  <data name="SearchForm_ReferencesLabel1Menu" xml:space="preserve">
+    <value>Blaue Marke</value>
+  </data>
+  <data name="SearchForm_ReferencesLabel2Menu" xml:space="preserve">
+    <value>Rote Marke</value>
+  </data>
+  <data name="MainForm_DeleteTasks" xml:space="preserve">
+    <value>Aufgaben löschen</value>
+  </data>
+  <data name="MainForm_EditMenuTaskPlanner_SelectAll" xml:space="preserve">
+    <value>Alle Aufgaben markieren</value>
+  </data>
+  <data name="MainForm_PrintSelectedTask_Smart" xml:space="preserve">
+    <value>Die {0:markierte Aufgabe|{0} markierten Aufgaben} drucken…</value>
+  </data>
+  <data name="MainForm_PrintTaskListMenu_ToolbarInstance" xml:space="preserve">
+    <value>Aufgabenliste</value>
+  </data>
+  <data name="MainForm_SaveSelectedTask_Smart" xml:space="preserve">
+    <value>Die {0:markierte Aufgabe|{0} markierten Aufgaben} speichern…</value>
+  </data>
+  <data name="MainForm_SaveTaskListMenu" xml:space="preserve">
+    <value>Aufgabenliste speichern</value>
+  </data>
+  <data name="MainForm_PrintTaskListMenu" xml:space="preserve">
+    <value>Aufgabenliste drucken oder speichern</value>
+  </data>
+  <data name="MainForm_OpenAssignedReferenceInNewWindow" xml:space="preserve">
+    <value>Zugeordneten Titel in neuem Fenster öffnen</value>
+  </data>
+  <data name="MainForm_ChangeTaskImportanceMenu" xml:space="preserve">
+    <value>Wichtigkeit ändern</value>
+  </data>
+  <data name="MainForm_SetTaskImportanceHigh" xml:space="preserve">
+    <value>Hoch</value>
+  </data>
+  <data name="MainForm_SetTaskImportanceLow" xml:space="preserve">
+    <value>Gering</value>
+  </data>
+  <data name="MainForm_SetTaskImportanceMiddle" xml:space="preserve">
+    <value>Mittel</value>
+  </data>
+  <data name="LocationForm_ToolsOptions" xml:space="preserve">
+    <value>Optionen…</value>
+  </data>
+  <data name="CiteMenu" xml:space="preserve">
+    <value>Zitieren…</value>
+  </data>
+  <data name="MainForm_SelectAllKnowledgeItems" xml:space="preserve">
+    <value>Alle Wissenselemente markieren</value>
+  </data>
+  <data name="MainForm_PrintCompilation" xml:space="preserve">
+    <value>Drucken…</value>
+  </data>
+  <data name="MainForm_SaveCompilationByKeyword" xml:space="preserve">
+    <value>Speichern…</value>
+  </data>
+  <data name="MainForm_SaveCompilation" xml:space="preserve">
+    <value>Speichern…</value>
+  </data>
+  <data name="MainForm_PrintCompilation_ToolbarInstance" xml:space="preserve">
+    <value>Skript</value>
+  </data>
+  <data name="MainForm_PrintCompilationByKeyword" xml:space="preserve">
+    <value>Drucken…</value>
+  </data>
+  <data name="MainForm_PrintCompilationByKeyword_ToolbarInstance" xml:space="preserve">
+    <value>Liste</value>
+  </data>
+  <data name="MainForm_SelectAllPreviewItems" xml:space="preserve">
+    <value>Alle Einträge der Vorschau markieren</value>
+  </data>
+  <data name="EditItem_ToolTipText" xml:space="preserve">
+    <value>Öffnet ein Fenster zur Bearbeitung des markierten Eintrags.</value>
+  </data>
+  <data name="EditItem_ToolTipTitle" xml:space="preserve">
+    <value>Eintrag bearbeiten</value>
+  </data>
+  <data name="MainForm_KnowledgeOrganizer_CitationPlaceholderMenu_ToolTipText" xml:space="preserve">
+    <value>Fügt markierte Wissenselemente in Ihre Textverarbeitung ein.</value>
+  </data>
+  <data name="MainForm_KnowledgeOrganizer_CitationPlaceholderMenu_ToolTipTitle" xml:space="preserve">
+    <value>Zitieren</value>
+  </data>
+  <data name="MainForm_NewCommentOnQuotation_ToolTipText" xml:space="preserve">
+    <value>Öffnet ein Fenster, in dem Sie schnell und einfach ein vorhandenes Zitat kommentieren können.</value>
+  </data>
+  <data name="MainForm_NewCommentOnQuotation_ToolTipTitle" xml:space="preserve">
+    <value>Neuer Kommentar zum markierten Wissenselement</value>
+  </data>
+  <data name="MainForm_PrintCompilation_ToolTipText" xml:space="preserve">
+    <value>Druckt oder speichert ein Skript mit Wissenselementen.
+Form und Inhalt des Skripts bestimmen Sie.</value>
+  </data>
+  <data name="MainForm_PrintCompilation_ToolTipTitle" xml:space="preserve">
+    <value>Skript drucken oder speichern</value>
+  </data>
+  <data name="MainForm_PrintCompilationByKeyword_ToolTipText" xml:space="preserve">
+    <value>Druckt oder speichert eine Liste mit Wissenselementen.
+Form und Inhalt der Liste bestimmen Sie.</value>
+  </data>
+  <data name="MainForm_PrintCompilationByKeyword_ToolTipTitle" xml:space="preserve">
+    <value>Liste drucken oder speichern</value>
+  </data>
+  <data name="MainForm_ReferenceEditor_CitationPlaceholderMenu_ToolTipText" xml:space="preserve">
+    <value>Fügt markierte Titel oder Wissenselemente in Ihre Textverarbeitung ein.</value>
+  </data>
+  <data name="MainForm_ReferenceEditor_CitationPlaceholderMenu_ToolTipTitle" xml:space="preserve">
+    <value>Zitieren</value>
+  </data>
+  <data name="CitationPlaceholderMenu_ToolbarInstance" xml:space="preserve">
+    <value>Zitieren</value>
+  </data>
+  <data name="MainForm_NewSubheading" xml:space="preserve">
+    <value>Zwischentitel</value>
+  </data>
+  <data name="MainForm_SplitterLayoutHideCenterPane" xml:space="preserve">
+    <value>Mittleren Bereich ausblenden</value>
+  </data>
+  <data name="MainForm_SplitterLayoutHideLeftPane" xml:space="preserve">
+    <value>Linken Bereich ausblenden</value>
+  </data>
+  <data name="MainForm_SplitterLayoutHideRightPane" xml:space="preserve">
+    <value>Rechten Bereich ausblenden</value>
+  </data>
+  <data name="MainForm_SplitterLayoutShowAllPanes" xml:space="preserve">
+    <value>Alle Bereiche anzeigen</value>
+  </data>
+  <data name="MainForm_SplitterLayoutShowCenterPaneOnly" xml:space="preserve">
+    <value>Nur mittleren Bereich anzeigen</value>
+  </data>
+  <data name="MainForm_SplitterLayoutShowLeftPaneOnly" xml:space="preserve">
+    <value>Nur linken Bereich anzeigen</value>
+  </data>
+  <data name="MainForm_SplitterLayoutShowRightPaneOnly" xml:space="preserve">
+    <value>Nur rechten Bereich anzeigen</value>
+  </data>
+  <data name="MainForm_SwitchRightPaneVisibility_Off" xml:space="preserve">
+    <value>Rechten Bereich ausblenden</value>
+  </data>
+  <data name="MainForm_SwitchRightPaneVisibility_On" xml:space="preserve">
+    <value>Rechten Bereich einblenden</value>
+  </data>
+  <data name="MainForm_KnowledgeOrganizerGridGoBack" xml:space="preserve">
+    <value>Zurück in der Liste der Wissenselemente</value>
+  </data>
+  <data name="MainForm_KnowledgeOrganizerGridGoForward" xml:space="preserve">
+    <value>Vorwärts in der Liste der Wissenselemente</value>
+  </data>
+  <data name="MoveCategory_ToolTipText" xml:space="preserve">
+    <value>Sie können Kategorien auch mit Drag &amp; Drop verschieben.</value>
+  </data>
+  <data name="MainForm_MoveKnowledgeItems_ToolTipText" xml:space="preserve">
+    <value>Sie können Wissenselemente auch mit Drag &amp; Drop verschieben.</value>
+  </data>
+  <data name="MainForm_NewKeyword" xml:space="preserve">
+    <value>Neues Schlagwort…</value>
+  </data>
+  <data name="NewCategoryMenu" xml:space="preserve">
+    <value>Neue Kategorie oder Subkategorie</value>
+  </data>
+  <data name="NewSubcategory_ToolbarsInstance" xml:space="preserve">
+    <value>Subkategorie</value>
+  </data>
+  <data name="ShowCategoryList_Long" xml:space="preserve">
+    <value>Kategorien-Liste öffnen</value>
+  </data>
+  <data name="ShowClassification_Long_Off" xml:space="preserve">
+    <value>Gliederungsziffern der Kategorien ausblenden</value>
+  </data>
+  <data name="ShowClassification_Long_On" xml:space="preserve">
+    <value>Gliederungsziffern der Kategorien einblenden</value>
+  </data>
+  <data name="ShowClassification_Short_Off" xml:space="preserve">
+    <value>Gliederungsziffern ausblenden</value>
+  </data>
+  <data name="ShowClassification_Short_On" xml:space="preserve">
+    <value>Gliederungsziffern einblenden</value>
+  </data>
+  <data name="MainForm_NewSubheading_ToolTipText" xml:space="preserve">
+    <value>Fügt einen Zwischentitel direkt über der zuletzt markierten Zeile ein.</value>
+  </data>
+  <data name="MainForm_NewSubheading_ToolTipTitle" xml:space="preserve">
+    <value>Zwischentitel einfügen</value>
+  </data>
+  <data name="MainForm_PreviewShowAllKnowledgeItemFields" xml:space="preserve">
+    <value>Alle Felder anzeigen</value>
+  </data>
+  <data name="MainForm_PreviewShowHideCategories_Hide" xml:space="preserve">
+    <value>Kategorien ausblenden</value>
+  </data>
+  <data name="MainForm_PreviewShowHideCategories_Show" xml:space="preserve">
+    <value>Kategorien anzeigen</value>
+  </data>
+  <data name="MainForm_PreviewShowHideImageDescription_Hide" xml:space="preserve">
+    <value>Beschreibung der Bild-/Dateizitate ausblenden</value>
+    <comment>review ("... of the image or file quotation")</comment>
+  </data>
+  <data name="MainForm_PreviewShowHideImageDescription_Show" xml:space="preserve">
+    <value>Beschreibung der Bild-/Dateizitate anzeigen</value>
+  </data>
+  <data name="MainForm_PreviewShowHideKeywords_Hide" xml:space="preserve">
+    <value>Schlagwörter ausblenden</value>
+  </data>
+  <data name="MainForm_PreviewShowHideKeywords_Show" xml:space="preserve">
+    <value>Schlagwörter anzeigen</value>
+  </data>
+  <data name="MainForm_PreviewShowHideModificationText_Hide" xml:space="preserve">
+    <value>"Geändert" ausblenden</value>
+  </data>
+  <data name="MainForm_PreviewShowHideModificationText_Show" xml:space="preserve">
+    <value>"Geändert" anzeigen</value>
+  </data>
+  <data name="MainForm_PreviewShowMinimumKnowledgeItemFields" xml:space="preserve">
+    <value>Minimum anzeigen</value>
+  </data>
+  <data name="MainForm_PreviewSwitchShortTitleFullReference_FullReference" xml:space="preserve">
+    <value>Vollen Titel anzeigen</value>
+  </data>
+  <data name="MainForm_PreviewSwitchShortTitleFullReference_ShortTitle" xml:space="preserve">
+    <value>Kurztitel anzeigen</value>
+  </data>
+  <data name="AssignedReferencesMenu" xml:space="preserve">
+    <value>Zugeordnete Titel</value>
+    <comment>review: ask TS to separate context menu version </comment>
+  </data>
+  <data name="OpenAssignedReference" xml:space="preserve">
+    <value>Zugeordneten Titel bearbeiten</value>
+    <comment>review New (SearchForm ContextMenu on KnowledgeItems)</comment>
+  </data>
+  <data name="ReferencesBatchAssignCategories" xml:space="preserve">
+    <value>Kategorien zuweisen…</value>
+  </data>
+  <data name="ReferencesBatchRemoveCategories" xml:space="preserve">
+    <value>Kategorien entfernen…</value>
+  </data>
+  <data name="OpenAssignedReferenceInNewWindow" xml:space="preserve">
+    <value>Zugeordneten Titel in neuem Fenster bearbeiten</value>
+  </data>
+  <data name="MainForm_FilterBarDescriptionLabel" xml:space="preserve">
+    <value>Auswahl:</value>
+  </data>
+  <data name="MainForm_FilterInFilterLabel" xml:space="preserve">
+    <value>Auswahl in der Auswahl</value>
+  </data>
+  <data name="MainForm_FilterByCategory" xml:space="preserve">
+    <value>Nach Kategorie</value>
+  </data>
+  <data name="MainForm_FilterByCategory_ToolbarInstance" xml:space="preserve">
+    <value>Titel nach Kategorie auswählen</value>
+  </data>
+  <data name="MainForm_FilterByKeyword" xml:space="preserve">
+    <value>Nach Schlagwort</value>
+  </data>
+  <data name="MainForm_FilterByKeyword_ToolbarInstance" xml:space="preserve">
+    <value>Titel nach Schlagwort auswählen</value>
+  </data>
+  <data name="MainForm_FilterByLabel1_ToolbarInstance" xml:space="preserve">
+    <value>Titel mit blauer Marke auswählen</value>
+  </data>
+  <data name="MainForm_FilterByLabel2_ToolbarInstance" xml:space="preserve">
+    <value>Titel mit roter Marke auswählen</value>
+  </data>
+  <data name="MainForm_FilterByMore" xml:space="preserve">
+    <value>Weitere Auswahlmöglichkeiten</value>
+  </data>
+  <data name="MainForm_FilterByMore_ProjectShell" xml:space="preserve">
+    <value>Weitere Auswahlmöglichkeiten in der bestehenden Auswahl</value>
+  </data>
+  <data name="MainForm_FilterByPerson" xml:space="preserve">
+    <value>Nach Person</value>
+  </data>
+  <data name="MainForm_FilterByReferenceType" xml:space="preserve">
+    <value>Nach Dokumententyp</value>
+  </data>
+  <data name="MainForm_FilterByYear" xml:space="preserve">
+    <value>Nach Erscheinungsjahr</value>
+  </data>
+  <data name="MainForm_FilterByYearCustom" xml:space="preserve">
+    <value>Ab:</value>
+  </data>
+  <data name="FilterByYearCustom_PlaceholderText" xml:space="preserve">
+    <value>Jahr eingeben</value>
+  </data>
+  <data name="KnowledgeItemTextForm_NewCommentOnQuotation" xml:space="preserve">
+    <value>Neuer Kommentar zu diesem Wissenselement</value>
+  </data>
+  <data name="NewQuotationComment" xml:space="preserve">
+    <value>Kommentar</value>
+    <comment>for variant with ellipsis see: NewQuotationComment_ChooseReference</comment>
+  </data>
+  <data name="NewQuotationComment_ChooseReference" xml:space="preserve">
+    <value>Kommentar…</value>
+  </data>
+  <data name="NewQuotationDirect" xml:space="preserve">
+    <value>Wörtliches Zitat</value>
+    <comment>for variant with ellipsis see: NewQuotationDirect_ChooseReference</comment>
+  </data>
+  <data name="NewQuotationDirect_ChooseReference" xml:space="preserve">
+    <value>Wörtliches Zitat…</value>
+  </data>
+  <data name="NewQuotationFile" xml:space="preserve">
+    <value>Bild- oder Dateizitat</value>
+    <comment>for variant with ellipsis see: NewQuotationFile_ChooseReference</comment>
+  </data>
+  <data name="NewQuotationFile_ChooseReference" xml:space="preserve">
+    <value>Bild- oder Dateizitat…</value>
+  </data>
+  <data name="NewQuotationIndirect" xml:space="preserve">
+    <value>Indirektes Zitat</value>
+    <comment>for variant with ellipsis see: NewQuotationIndirect_ChooseReference</comment>
+  </data>
+  <data name="NewQuotationIndirect_ChooseReference" xml:space="preserve">
+    <value>Indirektes Zitat…</value>
+  </data>
+  <data name="NewKnowledgeItemMenu" xml:space="preserve">
+    <value>Neues Wissenselement</value>
+  </data>
+  <data name="NewQuotationSummary" xml:space="preserve">
+    <value>Zusammenfassung</value>
+    <comment>for variant with ellipsis see: NewQuotationSummary_ChooseReference</comment>
+  </data>
+  <data name="NewQuotationSummary_ChooseReference" xml:space="preserve">
+    <value>Zusammenfassung…</value>
+  </data>
+  <data name="NewThoughtFile" xml:space="preserve">
+    <value>Gedanke (Bild oder Datei)</value>
+  </data>
+  <data name="NewThoughtText" xml:space="preserve">
+    <value>Gedanke (Text)</value>
+  </data>
+  <data name="MainForm_NewSubheading_ToolbarInstance" xml:space="preserve">
+    <value>Zwischentitel</value>
+  </data>
+  <data name="MainForm_NewKnowledgeItemMenu_ToolbarInstance" xml:space="preserve">
+    <value>Wissenselement</value>
+  </data>
+  <data name="KnowledgeItemFileForm_NewCommentOnQuotation" xml:space="preserve">
+    <value>Neuer Kommentar zu diesem Wissenselement</value>
+  </data>
+  <data name="MainForm_NewCommentOnQuotation" xml:space="preserve">
+    <value>Neuer Kommentar zum markierten Wissenselement</value>
+  </data>
+  <data name="MainForm_NewCommentOnQuotation_ToolbarsInstance" xml:space="preserve">
+    <value>Zitat kommentieren</value>
+  </data>
+  <data name="KnowledgeItemFileForm_NewKnowledgeItemMenu" xml:space="preserve">
+    <value>Neues Wissenselement</value>
+  </data>
+  <data name="KnowledgeItemTextForm_NewKnowledgeItemMenu" xml:space="preserve">
+    <value>Neues Wissenselement</value>
+  </data>
+  <data name="MainForm_NewThoughtFile_ToolbarsInstance" xml:space="preserve">
+    <value>Bild oder Datei</value>
+  </data>
+  <data name="MainForm_NewThoughtMenu" xml:space="preserve">
+    <value>Gedanke</value>
+  </data>
+  <data name="MainForm_NewThoughtText_ToolbarsInstance" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="MainForm_PrintBibliography" xml:space="preserve">
+    <value>Drucken im aktuellen Zitationsstil…</value>
+  </data>
+  <data name="MainForm_PrintBibliographyMenu" xml:space="preserve">
+    <value>Literaturliste drucken oder speichern</value>
+  </data>
+  <data name="MainForm_PrintBibliographyMenu_ToolbarInstance" xml:space="preserve">
+    <value>Literaturliste</value>
+  </data>
+  <data name="MainForm_PrintBibliographyWithOptions" xml:space="preserve">
+    <value>Drucken mit zusätzlichen Angaben…</value>
+  </data>
+  <data name="MainForm_SaveBibliography" xml:space="preserve">
+    <value>Speichern im aktuellen Zitationsstil…</value>
+  </data>
+  <data name="MainForm_SaveBibliographyWithOptions" xml:space="preserve">
+    <value>Speichern mit zusätzlichen Angaben…</value>
+  </data>
+  <data name="MainForm_SaveProject" xml:space="preserve">
+    <value>Projekt speichern</value>
+  </data>
+  <data name="MainForm_SwitchPreviewQuickHelp_Preview" xml:space="preserve">
+    <value>Vorschau anzeigen</value>
+  </data>
+  <data name="MainForm_SwitchPreviewQuickHelp_QuickHelp" xml:space="preserve">
+    <value>Schnellhilfe anzeigen</value>
+  </data>
+  <data name="MainForm_NewProjectTask_Toolbar_Instance" xml:space="preserve">
+    <value>Projektaufgabe</value>
+  </data>
+  <data name="Merge_ToolbarInstance" xml:space="preserve">
+    <value>Zusammenführen</value>
+    <comment>no ellipsis</comment>
+  </data>
+  <data name="SearchOnline_ToolbarInstance" xml:space="preserve">
+    <value>Recherchieren</value>
+  </data>
+  <data name="MainForm_FilterByPeriodical" xml:space="preserve">
+    <value>Nach Zeitschrift</value>
+  </data>
+  <data name="MainForm_FilterBySeriesTitle" xml:space="preserve">
+    <value>Nach Reihe</value>
+  </data>
+  <data name="KeywordList_CollapseAll" xml:space="preserve">
+    <value>Nur Schlagwörter anzeigen</value>
+  </data>
+  <data name="KeywordList_ExpandAll" xml:space="preserve">
+    <value>Alle Wissenselemente und Titel anzeigen</value>
+  </data>
+  <data name="ShowHideReferenceEditorFilterTabs_Hide" xml:space="preserve">
+    <value>Kategorien, Schlagwörter und Ordner als Spalte ausblenden</value>
+  </data>
+  <data name="ShowHideReferenceEditorFilterTabs_Show" xml:space="preserve">
+    <value>Kategorien, Schlagwörter und Ordner als Spalte anzeigen</value>
+  </data>
+  <data name="ShowReferenceEditorCategories" xml:space="preserve">
+    <value>Kategorien</value>
+  </data>
+  <data name="ShowReferenceEditorKeywords" xml:space="preserve">
+    <value>Schlagwörter</value>
+  </data>
+  <data name="ShowFieldEditorDialog" xml:space="preserve">
+    <value>Eingabefenster öffnen…</value>
+  </data>
+  <data name="ShowFieldEditorDialog_NoEllipsis" xml:space="preserve">
+    <value>Eingabefenster öffnen</value>
+  </data>
+  <data name="EditKeyword" xml:space="preserve">
+    <value>Schlagwort "{0}" bearbeiten</value>
+  </data>
+  <data name="ListTool_MoreItems" xml:space="preserve">
+    <value>Weitere…</value>
+  </data>
+  <data name="EditPerson" xml:space="preserve">
+    <value>Person/Institution "{0}" bearbeiten</value>
+  </data>
+  <data name="EditPublisher" xml:space="preserve">
+    <value>Verlag "{0}" bearbeiten</value>
+  </data>
+  <data name="EditSeriesTitle" xml:space="preserve">
+    <value>Reihe "{0}" bearbeiten</value>
+  </data>
+  <data name="EditPeriodical" xml:space="preserve">
+    <value>Zeitschrift/Zeitung "{0}" bearbeiten</value>
+  </data>
+  <data name="InvertCondition" xml:space="preserve">
+    <value>Bedingung invertieren</value>
+  </data>
+  <data name="RemoveCondition" xml:space="preserve">
+    <value>Bedingung entfernen</value>
+  </data>
+  <data name="DownloadWithDoi" xml:space="preserve">
+    <value>DOI Download…</value>
+  </data>
+  <data name="DownloadWithPubMedId" xml:space="preserve">
+    <value>PubMed Download…</value>
+  </data>
+  <data name="ShowPeriodicalList_Long" xml:space="preserve">
+    <value>Liste der Zeitschriften und Zeitungen öffnen</value>
+  </data>
+  <data name="ShowPersonList_Long" xml:space="preserve">
+    <value>Liste der Personen und Institutionen öffnen</value>
+  </data>
+  <data name="ShowPublisherList_Long" xml:space="preserve">
+    <value>Liste der Verlage öffnen</value>
+  </data>
+  <data name="ShowSeriesTitleList_Long" xml:space="preserve">
+    <value>Liste der Reihentitel öffnen</value>
+  </data>
+  <data name="CollapseAll" xml:space="preserve">
+    <value>Details ausblenden</value>
+  </data>
+  <data name="ExpandAll" xml:space="preserve">
+    <value>Alle Details anzeigen</value>
+  </data>
+  <data name="ApplyKeywords" xml:space="preserve">
+    <value>Schlagwörter zuweisen</value>
+  </data>
+  <data name="ApplyRemoveKeywords" xml:space="preserve">
+    <value>Schlagwörter zuweisen oder entfernen</value>
+  </data>
+  <data name="AssignRemoveCategories" xml:space="preserve">
+    <value>Kategorien zuweisen oder entfernen</value>
+  </data>
+  <data name="ReferenceGridForm_AllowUpdate_Off" xml:space="preserve">
+    <value>Bearbeitung in der Zelle ausschalten</value>
+  </data>
+  <data name="ReferenceGridForm_AllowUpdate_On" xml:space="preserve">
+    <value>Bearbeitung in der Zelle einschalten</value>
+  </data>
+  <data name="GoToCategoryReferencesMenu_FilterByCategory" xml:space="preserve">
+    <value>Alle Titel mit "{0}" als Auswahl übernehmen</value>
+  </data>
+  <data name="GoToKeywordReferencesMenu_FilterByKeyword" xml:space="preserve">
+    <value>Alle Titel mit "{0}" als Auswahl übernehmen</value>
+  </data>
+  <data name="GoToPeriodicalReferencesMenu_FilterByPeriodical" xml:space="preserve">
+    <value>Alle Titel aus "{0}" als Auswahl übernehmen</value>
+  </data>
+  <data name="GoToPersonReferencesMenu_FilterByPerson" xml:space="preserve">
+    <value>Alle Titel von "{0}" als Auswahl übernehmen</value>
+  </data>
+  <data name="GoToPublisherReferencesMenu_FilterByPublisher" xml:space="preserve">
+    <value>Alle Titel aus dem Verlag "{0}" als Auswahl übernehmen</value>
+  </data>
+  <data name="GoToSeriesTitleReferencesMenu_FilterBySeriesTitle" xml:space="preserve">
+    <value>Alle Beiträge der Reihe "{0}" als Auswahl übernehmen</value>
+  </data>
+  <data name="PrintForm_PageMargins_ToolbarInstance" xml:space="preserve">
+    <value>Seitenränder</value>
+  </data>
+  <data name="ViewGroups_ToolbarInstance" xml:space="preserve">
+    <value>Gruppieren</value>
+  </data>
+  <data name="ViewColumns_ToolbarInstance" xml:space="preserve">
+    <value>Spalten</value>
+  </data>
+  <data name="CitationPlaceholderMenu_ReferencesOnly_ToolTipText" xml:space="preserve">
+    <value>Fügt markierte Titel in Ihre Textverarbeitung ein.</value>
+  </data>
+  <data name="CitationPlaceholderMenu_ToolTipTitle" xml:space="preserve">
+    <value>Zitieren</value>
+  </data>
+  <data name="MassReferenceIdentifierDownloadDialog_ReferenceExportExcel" xml:space="preserve">
+    <value>Nach Microsoft Excel exportieren…</value>
+  </data>
+  <data name="MergeCategories" xml:space="preserve">
+    <value>Zusammenführen…</value>
+  </data>
+  <data name="MergeCategories_ToolbarInstance" xml:space="preserve">
+    <value>Zusammenführen</value>
+  </data>
+  <data name="ReferencesExportToExcel_ToolTipText" xml:space="preserve">
+    <value>Exportiert die Daten in der aktuellen Ansicht nach Microsoft Excel.</value>
+  </data>
+  <data name="ReferencesExportToExcel_ToolTipTitle" xml:space="preserve">
+    <value>Nach Microsoft Excel exportieren</value>
+  </data>
+  <data name="ShowClassification" xml:space="preserve">
+    <value>Gliederungsziffern ein/aus</value>
+  </data>
+  <data name="ViewGroups_ToolTipText" xml:space="preserve">
+    <value>Öffnet ein Fenster, in dem Sie Spalten bestimmen und anordnen können, 
+nach deren Inhalt der Datenbestand gruppiert wird.</value>
+  </data>
+  <data name="ViewGroups_ToolTipTitle" xml:space="preserve">
+    <value>Datenbestand gruppieren</value>
+  </data>
+  <data name="ViewRefresh" xml:space="preserve">
+    <value>Aktualisieren</value>
+  </data>
+  <data name="ViewRefresh_ReferenceGrid_ToolTipText" xml:space="preserve">
+    <value>Aktualisiert die Tabellenansicht mit allen Sortierungen und Gruppierungen, 
+um in der Zwischenzeit erfolgte Änderungen an den Daten zu berücksichtigen.</value>
+  </data>
+  <data name="ViewRefresh_ToolTipTitle" xml:space="preserve">
+    <value>Tabellenansicht aktualisieren</value>
+  </data>
+  <data name="HideReferenceEditorFilterTabs" xml:space="preserve">
+    <value>Spalte ausblenden</value>
+  </data>
+  <data name="RemoveCategory" xml:space="preserve">
+    <value>Kategorie "{0}" entfernen</value>
+  </data>
+  <data name="ShowKnowledgeOrganizer_ToolTipText" xml:space="preserve">
+    <value>Wissensorganisation</value>
+  </data>
+  <data name="ShowReferenceEditor_ToolTipText" xml:space="preserve">
+    <value>Literaturverwaltung</value>
+  </data>
+  <data name="ShowTaskPlanner_ToolTipText" xml:space="preserve">
+    <value>Aufgabenplanung</value>
+  </data>
+  <data name="HideReferenceEditorCategories" xml:space="preserve">
+    <value>Kategorien als Spalte ausblenden</value>
+  </data>
+  <data name="HideReferenceEditorKeywords" xml:space="preserve">
+    <value>Schlagwörter als Spalte ausblenden</value>
+  </data>
+  <data name="ShowHideReferenceEditorCategories_Hide" xml:space="preserve">
+    <value>Spalte mit Kategorien ausblenden</value>
+  </data>
+  <data name="ShowHideReferenceEditorCategories_Show" xml:space="preserve">
+    <value>Kategorien als Spalte einblenden</value>
+  </data>
+  <data name="ShowHideReferenceEditorKeywords_Hide" xml:space="preserve">
+    <value>Spalte mit Schlagwörtern ausblenden</value>
+  </data>
+  <data name="ShowHideReferenceEditorKeywords_Show" xml:space="preserve">
+    <value>Schlagwörter als Spalte einblenden</value>
+  </data>
+  <data name="ShowReferenceEditorCategories_ToolTipText" xml:space="preserve">
+    <value>Spalte mit Kategorien einblenden</value>
+  </data>
+  <data name="ShowReferenceEditorFilterTabs" xml:space="preserve">
+    <value>Spalte einblenden</value>
+  </data>
+  <data name="ShowReferenceEditorKeywords_ToolTipText" xml:space="preserve">
+    <value>Spalte mit Schlagwörtern einblenden</value>
+  </data>
+  <data name="ShowReferencesEditorFilterTab_Categories_ToolTipText" xml:space="preserve">
+    <value>Spalte mit Kategorien einblenden</value>
+  </data>
+  <data name="ShowReferencesEditorFilterTab_Keywords_ToolTipText" xml:space="preserve">
+    <value>Spalte mit Schlagwörtern einblenden</value>
+  </data>
+  <data name="ClearFilter_Long" xml:space="preserve">
+    <value>Auswahl aufheben</value>
+  </data>
+  <data name="MainForm_PrintCompilationWithOptions" xml:space="preserve">
+    <value>Mit Optionen drucken…</value>
+  </data>
+  <data name="MainForm_SaveCompilationWithOptions" xml:space="preserve">
+    <value>Mit Optionen speichern…</value>
+  </data>
+  <data name="Search_ToolTipText" xml:space="preserve">
+    <value>Öffnet einen Dialog, mit dem Sie dieses Citavi-Projekt durchsuchen können.</value>
+  </data>
+  <data name="Search_ToolTipTitle" xml:space="preserve">
+    <value>Suchen in diesem Citavi-Projekt</value>
+  </data>
+  <data name="PreviewControl_NewQuotationDirect_ToolTipText" xml:space="preserve">
+    <value>Speichern und ausgewählten Text blau hervorheben.</value>
+  </data>
+  <data name="RemoveKeyword" xml:space="preserve">
+    <value>Schlagwort "{0}" entfernen</value>
+  </data>
+  <data name="NewLocationLocalFileUri" xml:space="preserve">
+    <value>Lokale Datei hinzufügen…</value>
+  </data>
+  <data name="NewLocationLocalFileUriMenu" xml:space="preserve">
+    <value>Lokale Datei</value>
+  </data>
+  <data name="PreviewLocation" xml:space="preserve">
+    <value>In der Vorschau anzeigen</value>
+  </data>
+  <data name="SortAllReferencePublishersAlphabetically" xml:space="preserve">
+    <value>Sortierung aktualisieren</value>
+  </data>
+  <data name="GoToSourceEntityLink_WithPlaceholder" xml:space="preserve">
+    <value>Gehe zu "{0}"</value>
+  </data>
+  <data name="GoToTargetEntityLink_WithPlaceholder" xml:space="preserve">
+    <value>Gehe zu "{0}"</value>
+  </data>
+  <data name="MainForm_PreviewShowNoPreview" xml:space="preserve">
+    <value>Keine Vorschau anzeigen</value>
+  </data>
+  <data name="MainForm_CopyShortTitle" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="MainForm_PrintGroupedBibliography" xml:space="preserve">
+    <value>Gruppierte Literaturliste drucken…</value>
+  </data>
+  <data name="MainForm_PrintToFileGroupedBibliography" xml:space="preserve">
+    <value>Gruppierte Literaturliste speichern…</value>
+  </data>
+  <data name="MainForm_SendReferenceByEMail" xml:space="preserve">
+    <value>Titel per E-Mail senden</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Öffnen…</value>
+  </data>
+  <data name="FormatSubscript" xml:space="preserve">
+    <value>Tiefgestellt</value>
+  </data>
+  <data name="FormatSuperscript" xml:space="preserve">
+    <value>Hochgestellt</value>
+  </data>
+  <data name="TagFormatting" xml:space="preserve">
+    <value>Formatierung</value>
+  </data>
+  <data name="RefreshBibTeXKey" xml:space="preserve">
+    <value>BibTeX Key aktualisieren</value>
+  </data>
+  <data name="RefreshCitationKey" xml:space="preserve">
+    <value>Kurzbeleg aktualisieren</value>
+  </data>
+  <data name="DeleteGridRow" xml:space="preserve">
+    <value>Ausgewählte Einträge löschen…</value>
+  </data>
+  <data name="PreviewControl_PdfContextMenu_Quote" xml:space="preserve">
+    <value>Als Zitat aufnehmen…</value>
+  </data>
+  <data name="PreviewControl_PdfContextMenu_QuoteAbstract" xml:space="preserve">
+    <value>Als Abstract aufnehmen…</value>
+  </data>
+  <data name="PreviewControl_PdfContextMenu_QuoteTableOfContents" xml:space="preserve">
+    <value>Als Inhaltsverzeichnis aufnehmen…</value>
+  </data>
+  <data name="ReferenceSmartRepeaterQuickEditForm_ShowCover" xml:space="preserve">
+    <value>Cover anzeigen</value>
+  </data>
+  <data name="PasteText" xml:space="preserve">
+    <value>Einfügen als Text</value>
+  </data>
+  <data name="TransformerListControl_TransformerFindAuto_ToolTipText" xml:space="preserve">
+    <value>Sucht lizenzierte Datenbanken, wenn Ihr PC im Netz 
+Ihrer Firma oder Hochschule angemeldet ist.</value>
+    <comment>JHP: Wg. Prbl. mit Polnisch ausführliche Tooltips eingeführt (u. Polnisch stark gekürzt)</comment>
+  </data>
+  <data name="TransformerListControl_TransformerFindAuto_ToolTipTitle" xml:space="preserve">
+    <value>Lizenzierte Datenbanken suchen</value>
+    <comment>JHP: Wg. Prbl. mit Polnisch ausführliche Tooltips eingeführt (u. Polnisch stark gekürzt)</comment>
+  </data>
+  <data name="EditItemInWindow" xml:space="preserve">
+    <value>Im Fenster bearbeiten</value>
+  </data>
+  <data name="KnowledgeItemTextForm_FormatMenuContextMenu" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="ShowPropertyEditor" xml:space="preserve">
+    <value>Eingabefenster öffnen…</value>
+  </data>
+  <data name="MainForm_QuotationSmartRepeaterKnowledgeItemCompositionCategories" xml:space="preserve">
+    <value>Kategorien</value>
+  </data>
+  <data name="MainForm_QuotationSmartRepeaterKnowledgeItemCompositionKeywords" xml:space="preserve">
+    <value>Schlagwörter</value>
+  </data>
+  <data name="MainForm_QuotationSmartRepeaterKnowledgeItemCompositionMenu" xml:space="preserve">
+    <value>Anzeigen</value>
+  </data>
+  <data name="MainForm_QuotationSmartRepeaterKnowledgeItemCompositionModificationText" xml:space="preserve">
+    <value>Bearbeitet</value>
+  </data>
+  <data name="KnowledgeItemFileForm_GenerateCoreStatementAutomatically" xml:space="preserve">
+    <value>Kernaussage automatisch generieren</value>
+  </data>
+  <data name="KnowledgeItemTextForm_GenerateCoreStatementAutomatically" xml:space="preserve">
+    <value>Kernaussage automatisch generieren</value>
+  </data>
+  <data name="MainForm_FilterByQuotedReferencesInPublication" xml:space="preserve">
+    <value>Nach zitierten Titeln im geöffneten Dokument</value>
+  </data>
+  <data name="EditCurrentCitationStyle" xml:space="preserve">
+    <value>Zitationsstil "{0}" bearbeiten</value>
+    <comment>i18n New JHP 31.10.2012 Direct Edit of current citation style</comment>
+  </data>
+  <data name="ShowCurrentCitationStyleInWindowsExplorer" xml:space="preserve">
+    <value>Zitationsstil-Datei zu "{0}" in Windows Explorer zeigen ({1})</value>
+    <comment>i18n NEW JHP 31.10.2012 To make it easier to find citation style file on HD</comment>
+  </data>
+  <data name="MainForm_BatchAddLibraryLocation" xml:space="preserve">
+    <value>Bibliotheksstandort zuweisen…</value>
+  </data>
+  <data name="MainForm_RenameAttachment" xml:space="preserve">
+    <value>Diese Datei umbenennen…</value>
+  </data>
+  <data name="ApplyRelatedReferencesAsSelection" xml:space="preserve">
+    <value>Zugehörige Titel als Auswahl übernehmen</value>
+  </data>
+  <data name="ListOfCategories" xml:space="preserve">
+    <value>Kategorienliste</value>
+  </data>
+  <data name="ListOfLibraries" xml:space="preserve">
+    <value>Bibliotheksliste</value>
+  </data>
+  <data name="ListOfPeriodicals" xml:space="preserve">
+    <value>Zeitschriftenliste</value>
+  </data>
+  <data name="ListOfPersons" xml:space="preserve">
+    <value>Personenliste</value>
+  </data>
+  <data name="ListOfPublishers" xml:space="preserve">
+    <value>Verlagsliste</value>
+  </data>
+  <data name="ListOfSeriesTitles" xml:space="preserve">
+    <value>Reihen-Liste</value>
+  </data>
+  <data name="KeywordList_ApplyRelatedReferencesAsSelection" xml:space="preserve">
+    <value>Zugehörige Titel als Auswahl übernehmen</value>
+  </data>
+  <data name="LibraryList_ApplyRelatedReferencesAsSelection" xml:space="preserve">
+    <value>Zugehörige Titel als Auswahl übernehmen</value>
+  </data>
+  <data name="PeriodicalList_ApplyRelatedReferencesAsSelection" xml:space="preserve">
+    <value>Zugehörige Titel als Auswahl übernehmen</value>
+  </data>
+  <data name="PersonList_ApplyRelatedReferencesAsSelection" xml:space="preserve">
+    <value>Zugehörige Titel als Auswahl übernehmen</value>
+  </data>
+  <data name="PublisherList_ApplyRelatedReferencesAsSelection" xml:space="preserve">
+    <value>Zugehörige Titel als Auswahl übernehmen</value>
+  </data>
+  <data name="SeriesTitleList_ApplyRelatedReferencesAsSelection" xml:space="preserve">
+    <value>Zugehörige Titel als Auswahl übernehmen</value>
+  </data>
+  <data name="MainForm_NoReferencesFound" xml:space="preserve">
+    <value>Keine Titel gefunden.</value>
+  </data>
+  <data name="MainForm_FilterByReferencesWithMissingFiles" xml:space="preserve">
+    <value>Lokale Datei nicht auffindbar</value>
+  </data>
+  <data name="MainForm_FilterMore" xml:space="preserve">
+    <value>Weitere</value>
+  </data>
+  <data name="MainForm_ShowSearchReplaceForm" xml:space="preserve">
+    <value>Suchen und ersetzen…</value>
+  </data>
+  <data name="MainForm_PasteAndSwitchPersonNames" xml:space="preserve">
+    <value>'Vorname Nachname' als 'Nachname, Vorname' einfügen</value>
+  </data>
+  <data name="FilterByRating_PlaceholderText" xml:space="preserve">
+    <value>z.B. 0; &lt;=3; &gt;4</value>
+  </data>
+  <data name="MainForm_FilterByRating" xml:space="preserve">
+    <value>Nach Bewertung:</value>
+  </data>
+  <data name="PreviewControl_ScriptErrorsSuppressed" xml:space="preserve">
+    <value>Skriptfehler unterdrücken (unterdrückt auch Anmeldedialoge)</value>
+  </data>
+  <data name="CategoryList_ApplyRelatedReferencesAsSelection" xml:space="preserve">
+    <value>Zugehörige Titel als Auswahl übernehmen</value>
+  </data>
+  <data name="ListOfKeywords" xml:space="preserve">
+    <value>Schlagwortliste</value>
+  </data>
+  <data name="StyleEditorForm_UploadCitationStyle" xml:space="preserve">
+    <value>Zitationsstil in der Cloud verfügbar machen…</value>
+    <comment>For internal use only -- not visible to customers. Can remain untranslated</comment>
+  </data>
+  <data name="FindFullText" xml:space="preserve">
+    <value>Volltexte finden…</value>
+  </data>
+  <data name="SpecialCharsZeroWidthBreakOpportunity" xml:space="preserve">
+    <value>Sollbruchstelle ohne Trennstrich</value>
+    <comment>Unsichtbarer optionaler Wortumbruch</comment>
+  </data>
+  <data name="SpecialCharsSoftHyphen" xml:space="preserve">
+    <value>Sollbruchstelle mit Trennstrich</value>
+  </data>
+  <data name="MainForm_UploadProjectToCloud" xml:space="preserve">
+    <value>In die Cloud kopieren…</value>
+  </data>
+  <data name="StyleEditorForm_ManageDerivedCitationStyles" xml:space="preserve">
+    <value>Abgeleitete Stile verwalten…</value>
+  </data>
+  <data name="StyleEditorForm_ManageDerivedCitationStyles_Name" xml:space="preserve">
+    <value>Von {0} abgeleitete Stile verwalten…</value>
+  </data>
+  <data name="StyleEditorForm_ShowCitationStyleAnalysis" xml:space="preserve">
+    <value>Analyse des Zitationsstils anzeigen</value>
+  </data>
+  <data name="ManageDerivedCitationStyles_CloudState_Deleting_ToolTipText" xml:space="preserve">
+    <value>Dieser abgeleitete Stil in der Cloud wird beim nächsten Speichern der Änderungen in der Cloud gelöscht.</value>
+  </data>
+  <data name="ManageDerivedCitationStyles_CloudState_Editing_ToolTipText" xml:space="preserve">
+    <value>Dieser abgeleitete Stil in der Cloud wurde lokal mit Änderungen versehen, die beim nächsten Speichern in der Cloud vorgenommen werden.</value>
+  </data>
+  <data name="ManageDerivedCitationStyles_CloudState_Error_ToolTipText" xml:space="preserve">
+    <value>Dieser abgeleitete Stil konnte nicht in der Cloud gespeichert werden.</value>
+  </data>
+  <data name="ManageDerivedCitationStyles_CloudState_Existing_ToolTipText" xml:space="preserve">
+    <value>Dieser abgeleitete Stil liegt so unverändert in der Cloud vor.</value>
+  </data>
+  <data name="ManageDerivedCitationStyles_CloudState_New_ToolTipText" xml:space="preserve">
+    <value>Dieser abgeleitete Stil ist NEU und wird beim nächsten Speichern der Änderungen in der Cloud angelegt.</value>
+  </data>
+  <data name="ManageDerivedCitationStyles_CloudState_Waiting_ToolTipText" xml:space="preserve">
+    <value>Dieser abgeleitete Stil wir gerade in der Cloud GESPEICHERT.</value>
+  </data>
+  <data name="SortReferencesByDateCreatedDescending" xml:space="preserve">
+    <value>Zuletzt erfasste Titel zuerst</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="SortReferencesByDateModifiedDescending" xml:space="preserve">
+    <value>Zuletzt geänderte Titel zuerst</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="SortReferencesByRatingDescending" xml:space="preserve">
+    <value>Höchst bewertete Titel zuerst</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="MainForm_HelpSupportInformation" xml:space="preserve">
+    <value>Support-Infos zusammenstellen</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="SortReferencesYearAscending" xml:space="preserve">
+    <value>Älteste Titel am Anfang</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="SortReferencesYearDescending" xml:space="preserve">
+    <value>Neueste Titel am Anfang</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="PreviewControl_Export" xml:space="preserve">
+    <value>PDF-Annotationen exportieren…</value>
+  </data>
+  <data name="PreviewControl_Import" xml:space="preserve">
+    <value>PDF-Annotationen importieren…</value>
+  </data>
+  <data name="PreviewControl_MoreMenu" xml:space="preserve">
+    <value>Mehr</value>
+  </data>
+  <data name="PreviewControl_TaskMenu" xml:space="preserve">
+    <value>Aufgabe</value>
+  </data>
+  <data name="MainForm_CopyProject" xml:space="preserve">
+    <value>Projektkopie speichern…</value>
+  </data>
+  <data name="MainForm_NewReferenceTaskDiscuss" xml:space="preserve">
+    <value>Diskutieren</value>
+  </data>
+  <data name="PreviewControl_ContextMenu_Copy" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="PreviewControl_ContextMenu_Delete" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="PreviewControl_ContextMenu_Edit" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="PreviewControl_ContextMenu_NewQuote" xml:space="preserve">
+    <value>Als Zitat übernehmen</value>
+  </data>
+  <data name="PreviewControl_ContextMenu_NewTask" xml:space="preserve">
+    <value>Neue Titelaufgabe</value>
+  </data>
+  <data name="PreviewControl_ContextMenu_Show" xml:space="preserve">
+    <value>Anzeigen</value>
+  </data>
+  <data name="PreviewControl_ScreenshotTool" xml:space="preserve">
+    <value>Bildauswahl</value>
+  </data>
+  <data name="PreviewControl_YellowMarkerTool" xml:space="preserve">
+    <value>Gelb markieren</value>
+  </data>
+  <data name="MainForm_CustomizeReferenceQuotationsTBM" xml:space="preserve">
+    <value>Anpassen…</value>
+  </data>
+  <data name="PreviewControl_ContextMenu_NewKeywords" xml:space="preserve">
+    <value>Als Schlagwort übernehmen</value>
+  </data>
+  <data name="PreviewControl_NewKeywords" xml:space="preserve">
+    <value>Schlagwörter</value>
+  </data>
+  <data name="MainForm_ShowPreviewNumberOfFiles" xml:space="preserve">
+    <value>{0} {0:Datei|Dateien}</value>
+  </data>
+  <data name="SetAsDefaultLocation" xml:space="preserve">
+    <value>Als Hauptdokument festlegen</value>
+  </data>
+  <data name="MainForm_DbServerConnection" xml:space="preserve">
+    <value>DBServer einrichten…</value>
+  </data>
+  <data name="ImportFromDBServerProject" xml:space="preserve">
+    <value>Importieren aus einem DBServer-Projekt…</value>
+  </data>
+  <data name="ImportFromLocalCitaviProject" xml:space="preserve">
+    <value>Importieren aus einem lokalen Citavi-Projekt…</value>
+  </data>
+  <data name="Categories_ImportFromLocalCitaviProject" xml:space="preserve">
+    <value>Aus einem Citavi-Projekt…</value>
+  </data>
+  <data name="MainForm_ShowMacroEditorForm" xml:space="preserve">
+    <value>Makro-Editor…</value>
+  </data>
+  <data name="PreviewControl_NewPictureQuotation" xml:space="preserve">
+    <value>Bildzitat</value>
+  </data>
+  <data name="PreviewControl_NewPictureQuotation_ToolTipText" xml:space="preserve">
+    <value>Speichern und ausgewählten Bereich blau hervorheben.</value>
+  </data>
+  <data name="MainForm_FilterByGroup" xml:space="preserve">
+    <value>Nach Gruppe</value>
+  </data>
+  <data name="PreviewControl_ContextMenu_NewPictureQuote" xml:space="preserve">
+    <value>Als Bildzitat übernehmen</value>
+  </data>
+  <data name="PreviewControl_GoToNextAnnotation" xml:space="preserve">
+    <value>Zur nächsten Annotation</value>
+  </data>
+  <data name="PreviewControl_GoToPreviousAnnotation" xml:space="preserve">
+    <value>Zur vorherigen Annotation</value>
+  </data>
+  <data name="PreviewControl_RedMarkerTool" xml:space="preserve">
+    <value>Rot markieren</value>
+  </data>
+  <data name="ShowHideReferenceEditorGroups_Hide" xml:space="preserve">
+    <value>Spalte mit Gruppen ausblenden</value>
+  </data>
+  <data name="ShowHideReferenceEditorGroups_Show" xml:space="preserve">
+    <value>Gruppen als Spalte einblenden</value>
+  </data>
+  <data name="ShowHideReferenceEditorImportGroups_Hide" xml:space="preserve">
+    <value>Spalte mit Importen ausblenden</value>
+  </data>
+  <data name="ShowHideReferenceEditorImportGroups_Show" xml:space="preserve">
+    <value>Importe als Spalte einblenden</value>
+  </data>
+  <data name="MainForm_FilterByKnowledgeItemsInPublication" xml:space="preserve">
+    <value>Nach verwendeten Zitaten im geöffneten Dokument</value>
+  </data>
+  <data name="FilterBySelectedKnowledgeItems" xml:space="preserve">
+    <value>Markierte Wissenselemente als Auswahl übernehmen</value>
+  </data>
+  <data name="RemoveSelectedKnowledgeItemsFromFilter" xml:space="preserve">
+    <value>Markierte Wissenselemente aus der Auswahl ausschließen</value>
+  </data>
+  <data name="KnowledgeItemsFilterByType" xml:space="preserve">
+    <value>Nach Typ</value>
+  </data>
+  <data name="FilterByTypeQuotation" xml:space="preserve">
+    <value>Zitat</value>
+  </data>
+  <data name="FilterByTypeThought" xml:space="preserve">
+    <value>Gedanke</value>
+  </data>
+  <data name="MainForm_FilterByReferenceSelection" xml:space="preserve">
+    <value>Nach aktueller Auswahl in "Literaturverwaltung"</value>
+  </data>
+  <data name="NewGroup" xml:space="preserve">
+    <value>Neue Gruppe</value>
+  </data>
+  <data name="MainForm_FilterIncludeChildReferences" xml:space="preserve">
+    <value>Alle zugehörigen Beiträge in die Auswahl aufnehmen</value>
+  </data>
+  <data name="MainForm_PasteKeywords" xml:space="preserve">
+    <value>Mit Optionen einfügen…</value>
+  </data>
+  <data name="RemoveGroup" xml:space="preserve">
+    <value>Aus Gruppe "{0}" entfernen</value>
+  </data>
+  <data name="BatchApplyGroups" xml:space="preserve">
+    <value>Gruppen zuweisen…</value>
+  </data>
+  <data name="BatchRemoveGroups" xml:space="preserve">
+    <value>Gruppen entfernen…</value>
+  </data>
+  <data name="RemoveCategoryFromSelectedReferences" xml:space="preserve">
+    <value>Kategorie "{0}" {1:beim markierten Titel|bei den {1} markierten Titeln} entfernen</value>
+  </data>
+  <data name="RemoveGroupFromSelectedReferences" xml:space="preserve">
+    <value>{1:Den markierten Titel|Die {1} markierten Titel} aus der Gruppe "{0}" entfernen</value>
+  </data>
+  <data name="RemoveKeywordFromSelectedReferences" xml:space="preserve">
+    <value>Schlagwort "{0}" {1:beim markierten Titel|bei den {1} markierten Titeln} entfernen</value>
+  </data>
+  <data name="RemoveCategoryFromSelectedKnowledgeItems" xml:space="preserve">
+    <value>Kategorie "{0}" {1:beim markierten Wissenselement|bei den {1} markierten Wissenselementen} entfernen</value>
+  </data>
+  <data name="RemoveGroupFromSelectedKnowledgeItems" xml:space="preserve">
+    <value>{1:Das markierte Wissenselement|Die {1} markierten Wissenselemente} aus der Gruppe "{0}" entfernen</value>
+  </data>
+  <data name="RemoveKeywordFromSelectedKnowledgeItems" xml:space="preserve">
+    <value>Schlagwort "{0}" {1:beim markierten Wissenselement|bei den {1} markierten Wissenselementen} entfernen</value>
+  </data>
+  <data name="MainForm_FilterBySavedSearch" xml:space="preserve">
+    <value>Gespeicherte Suchen</value>
+  </data>
+  <data name="ListOfGroups" xml:space="preserve">
+    <value>Gruppen-Liste</value>
+  </data>
+  <data name="GroupList_GroupsMenu" xml:space="preserve">
+    <value>Gruppen</value>
+  </data>
+  <data name="ShowGroupList" xml:space="preserve">
+    <value>Gruppen</value>
+  </data>
+  <data name="ShowGroupList_Long" xml:space="preserve">
+    <value>Gruppen-Liste öffnen</value>
+  </data>
+  <data name="GroupList_ApplyRelatedReferencesAsSelection" xml:space="preserve">
+    <value>Zugehörige Titel als Auswahl übernehmen</value>
+  </data>
+  <data name="ApplyGroups" xml:space="preserve">
+    <value>Gruppen zuweisen</value>
+  </data>
+  <data name="MainForm_PrintCompilationByKeywordMenu" xml:space="preserve">
+    <value>Liste drucken oder speichern</value>
+  </data>
+  <data name="MainForm_PrintCompilationMenu" xml:space="preserve">
+    <value>Skript drucken oder speichern</value>
+  </data>
+  <data name="SearchForm_AddKnowledgeItemsToProjectShell" xml:space="preserve">
+    <value>Markierte Wissenselemente zur Auswahl hinzufügen</value>
+  </data>
+  <data name="SearchForm_RemoveKnowledgeItemsFromProjectShell" xml:space="preserve">
+    <value>Markierte Wissenselemente aus der Auswahl ausschließen</value>
+  </data>
+  <data name="SearchForm_SetKnowledgeItemsAsProjectShell" xml:space="preserve">
+    <value>Markierte Wissenselemente als Auswahl übernehmen</value>
+  </data>
+  <data name="PreviewControl_RedMarkerTool_ToolTipText" xml:space="preserve">
+    <value>Begriffe und kurze Passagen hervorheben und als Wissenselement speichern.</value>
+  </data>
+  <data name="PreviewControl_YellowMarkerTool_ToolTipText" xml:space="preserve">
+    <value>Textpassagen hervorheben, ohne sie als Wissenselement zu speichern.</value>
+  </data>
+  <data name="PreviewControl_NewComment" xml:space="preserve">
+    <value>Kommentare</value>
+  </data>
+  <data name="PreviewControl_NewComment_ToolTipText" xml:space="preserve">
+    <value>Speichern und durch orangefarbene Randmarkierung kennzeichnen.</value>
+  </data>
+  <data name="PreviewControl_NewQuotationIndirect" xml:space="preserve">
+    <value>Indirektes Zitat</value>
+  </data>
+  <data name="PreviewControl_NewQuotationIndirect_ToolTipText" xml:space="preserve">
+    <value>Speichern und durch violette Randmarkierung kennzeichnen.</value>
+  </data>
+  <data name="PreviewControl_NewSummary" xml:space="preserve">
+    <value>Zusammenfassung</value>
+  </data>
+  <data name="PreviewControl_NewSummary_ToolTipText" xml:space="preserve">
+    <value>Speichern und durch grüne Randmarkierung kennzeichnen.</value>
+  </data>
+  <data name="PreviewControl_ScreenshotTool_ToolTipText" xml:space="preserve">
+    <value>Bereiche im PDF auswählen, um sie farbig hervorzuheben und als Wissenselement zu speichern.</value>
+  </data>
+  <data name="PreviewControl_TaskMenu_ToolTipText" xml:space="preserve">
+    <value>Auswählen, speichern und durch türkisfarbige Randmarkierung kennzeichnen.</value>
+  </data>
+  <data name="PreviewControl_TextSelectionTool" xml:space="preserve">
+    <value>Textauswahl</value>
+  </data>
+  <data name="HelpPanel" xml:space="preserve">
+    <value>Hilfepanel</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="PreviewControl_TextSelectionTool_ToolTipText" xml:space="preserve">
+    <value>Textpassagen auswählen, um sie farbig hervorzuheben und als Wissenselement zu speichern.</value>
+  </data>
+  <data name="MainForm_QuotationSmartRepeaterKnowledgeItemCompositionGroups" xml:space="preserve">
+    <value>Gruppen</value>
+  </data>
+  <data name="MainForm_PreviewShowHideGroups_Hide" xml:space="preserve">
+    <value>Gruppen ausblenden</value>
+  </data>
+  <data name="MainForm_PreviewShowHideGroups_Show" xml:space="preserve">
+    <value>Gruppen anzeigen</value>
+  </data>
+  <data name="QuickEditForm_EditGroups_ToolTipTextFormatted" xml:space="preserve">
+    <value>Öffnet das Bearbeitungsfenster für Gruppen.</value>
+  </data>
+  <data name="QuickEditForm_EditGroups_ToolTipTitle" xml:space="preserve">
+    <value>Gruppen bearbeiten</value>
+  </data>
+  <data name="MainForm_LookupFullText_ToolbarInstance" xml:space="preserve">
+    <value>Volltexte finden</value>
+  </data>
+  <data name="MainForm_LookupFullText_ToolTipText" xml:space="preserve">
+    <value>Citavi sucht nach Volltexten und lädt diese auf Wunsch herunter.</value>
+  </data>
+  <data name="ReferenceGridForm_LookupFullText" xml:space="preserve">
+    <value>Volltexte finden…</value>
+  </data>
+  <data name="ApplyRemoveGroups" xml:space="preserve">
+    <value>Gruppen zuweisen oder entfernen</value>
+  </data>
+  <data name="EditGroup" xml:space="preserve">
+    <value>Gruppe "{0}" bearbeiten</value>
+  </data>
+  <data name="ApplyGroupsForm_EditGroup" xml:space="preserve">
+    <value>Gruppe bearbeiten</value>
+  </data>
+  <data name="ExpandTextSelection1" xml:space="preserve">
+    <value>Vor dem Speichern die aktuelle Markierung erweitern?</value>
+  </data>
+  <data name="ExpandTextSelection2" xml:space="preserve">
+    <value>STRG-Taste gedrückt halten und weiteren Text markieren.</value>
+  </data>
+  <data name="ReduceTextSelection1" xml:space="preserve">
+    <value>…oder reduzieren?</value>
+  </data>
+  <data name="ReduceTextSelection2" xml:space="preserve">
+    <value>Umschalt-Taste gedrückt halten, um markierten Text zu entfernen.</value>
+  </data>
+  <data name="ProjectPropertiesDialog_Variables" xml:space="preserve">
+    <value>Variablen</value>
+  </data>
+  <data name="ProjectPropertiesDialog_ProcessVariables" xml:space="preserve">
+    <value>Systemvariablen</value>
+  </data>
+  <data name="ProjectPropertiesDialog_SyncFolderVariables" xml:space="preserve">
+    <value>Synchronisierte Ordner</value>
+  </data>
+  <data name="PreviewControl_TextSelectionRectangleTool" xml:space="preserve">
+    <value>Rechteckige Textauswahl</value>
+  </data>
+  <data name="PreviewControl_ShowFullScreenReferenceInPrimaryMainForm" xml:space="preserve">
+    <value>Titel anzeigen</value>
+  </data>
+  <data name="PreviewControl_ShowFullScreen" xml:space="preserve">
+    <value>Als Vollbildfenster anzeigen</value>
+  </data>
+  <data name="PreviewControl_ImportPdfComments" xml:space="preserve">
+    <value>PDF-Kommentare importieren…</value>
+  </data>
+  <data name="MainForm_ShowFullScreen" xml:space="preserve">
+    <value>Als Vollbildfenster anzeigen</value>
+  </data>
+  <data name="PreviewControl_DrawAnnotations" xml:space="preserve">
+    <value>Alle Annotationen anzeigen</value>
+  </data>
+  <data name="LocationForm_ShowFullText" xml:space="preserve">
+    <value>Volltext…</value>
+  </data>
+  <data name="MainForm_ShowFullTextListForm" xml:space="preserve">
+    <value>Übersicht über die Volltext-Extraktion…</value>
+  </data>
+  <data name="MainForm_ShowBibliographyGroupingSetsForm" xml:space="preserve">
+    <value>Gruppierung erstellen/bearbeiten…</value>
+  </data>
+  <data name="MainForm_BibliographyGroupingSetsMenu" xml:space="preserve">
+    <value>Literaturverzeichnis gruppieren</value>
+  </data>
+  <data name="MainForm_BibliographyGroupingSetNone" xml:space="preserve">
+    <value>Keine Gruppierung</value>
+  </data>
+  <data name="BibliographyGroupingSetsForm_AddGrouping" xml:space="preserve">
+    <value>Abschnitt hinzufügen…</value>
+  </data>
+  <data name="BibliographyGroupingSetsForm_DeleteGroupingSet" xml:space="preserve">
+    <value>Gruppierung löschen</value>
+  </data>
+  <data name="BibliographyGroupingSetsForm_DemoteGrouping" xml:space="preserve">
+    <value>Tieferstufen</value>
+  </data>
+  <data name="BibliographyGroupingSetsForm_EditGrouping" xml:space="preserve">
+    <value>Abschnitt bearbeiten…</value>
+  </data>
+  <data name="BibliographyGroupingSetsForm_ExportGroupingSet" xml:space="preserve">
+    <value>Exportieren…</value>
+  </data>
+  <data name="BibliographyGroupingSetsForm_ImportGroupingSet" xml:space="preserve">
+    <value>Importieren…</value>
+  </data>
+  <data name="BibliographyGroupingSetsForm_MoveGroupingDown" xml:space="preserve">
+    <value>Nach unten</value>
+  </data>
+  <data name="BibliographyGroupingSetsForm_MoveGroupingUp" xml:space="preserve">
+    <value>Nach oben</value>
+  </data>
+  <data name="BibliographyGroupingSetsForm_NewGroupingSet" xml:space="preserve">
+    <value>Neue Gruppierung</value>
+  </data>
+  <data name="BibliographyGroupingSetsForm_PromoteGrouping" xml:space="preserve">
+    <value>Höherstufen</value>
+  </data>
+  <data name="BibliographyGroupingSetsForm_RenameGroupingSet" xml:space="preserve">
+    <value>Umbenennen</value>
+  </data>
+  <data name="BibliographyGroupingSetsForm_DeleteGrouping" xml:space="preserve">
+    <value>Abschnitt löschen</value>
+  </data>
+  <data name="LinkedResourceAttachingInProgress" xml:space="preserve">
+    <value>Das Attachment wird angefügt…</value>
+  </data>
+  <data name="SplashForm_startLabel" xml:space="preserve">
+    <value>Citavi wird gestartet…</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="MainForm_ShowOrganizationSettingsExportDialog" xml:space="preserve">
+    <value>Einstellungen exportieren…</value>
+  </data>
+  <data name="MainForm_ShowOrganizationSettingsImportDialog" xml:space="preserve">
+    <value>Einstellungen importieren…</value>
+  </data>
+  <data name="MainForm_ShowOrganizationSettingsAdminDialog" xml:space="preserve">
+    <value>Organisations-Einstellungen verwalten…</value>
+  </data>
+  <data name="MainForm_OrganizationSettings" xml:space="preserve">
+    <value>Einstellungen importieren / exportieren</value>
+  </data>
+  <data name="MainForm_ShareProject" xml:space="preserve">
+    <value>Freigeben…</value>
+  </data>
+  <data name="StartForm_AccountLogout" xml:space="preserve">
+    <value>Abmelden</value>
+  </data>
+  <data name="StartForm_AccountOpen" xml:space="preserve">
+    <value>Account im Web öffnen…</value>
+  </data>
+  <data name="ChatWindow_toolbarButtonSaveChatHistory" xml:space="preserve">
+    <value>Chat-Verlauf speichern</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MainForm_ShowChatWindow" xml:space="preserve">
+    <value>Chat öffnen</value>
+  </data>
+  <data name="CopyProject_ToolTipTextFormatted" xml:space="preserve">
+    <value>Speichert eine zweite Version dieses Projekts inklusive aller Attachments an einem beliebigen Ort.&lt;br/&gt;&lt;span style="color:Gray;"&gt;Klicken Sie mit gedrückter Strg-Taste, um das Citavi Manual für diese Funktion zu öffnen.&lt;/span&gt;</value>
+  </data>
+  <data name="CopyProject_ToolTipTitle" xml:space="preserve">
+    <value>Eine Kopie dieses Projekts erstellen</value>
+  </data>
+  <data name="CreateArchive_ToolTipTitle" xml:space="preserve">
+    <value>Projekt inklusive Attachments lokal archivieren</value>
+  </data>
+  <data name="CreateArhive_ToolTipTextFormatted" xml:space="preserve">
+    <value>Archiviert den aktuellen Stand dieses Projekts inklusive aller Attachments in einer lokalen ZIP-Datei.&lt;br/&gt;&lt;span style="color:Gray;"&gt;Klicken Sie mit gedrückter Strg-Taste, um das Citavi Manual für diese Funktion zu öffnen.&lt;/span&gt;</value>
+  </data>
+  <data name="CreateBackup_ToolTipTextFormatted" xml:space="preserve">
+    <value>Erstellt eine schnelle Sicherungskopie aller Projektdaten, aber &lt;span style="font-style:italic;"&gt;ohne&lt;/span&gt; Attachments.&lt;br/&gt;&lt;span style="color:Gray;"&gt;Klicken Sie mit gedrückter Strg-Taste, um das Citavi Manual für diese Funktion zu öffnen.&lt;/span&gt;</value>
+  </data>
+  <data name="CreateBackup_ToolTipTitle" xml:space="preserve">
+    <value>Schnelle Sicherung erstellen</value>
+  </data>
+  <data name="ProjectSettings_ToolTipTextFormatted" xml:space="preserve">
+    <value>Verwaltung von Attachments, Korrektur von Bearbeiterangaben, Anzeige von Statistiken und mehr.&lt;br/&gt;&lt;span style="color:Gray;"&gt;Klicken Sie mit gedrückter Strg-Taste, um das Citavi Manual für diese Funktion zu öffnen.&lt;/span&gt;</value>
+  </data>
+  <data name="ProjectSettings_ToolTipTitle" xml:space="preserve">
+    <value>Eigenschaften dieses Projekts verwalten</value>
+  </data>
+  <data name="ShareProject_ToolTipTextFormatted" xml:space="preserve">
+    <value>Zeigt die Benutzer dieses Projekts an. Wenn Sie Besitzer oder &lt;span style="font-style:italic"&gt;Manager&lt;/span&gt; des Projekts sind, können Sie weitere Benutzer einladen.&lt;br/&gt;&lt;span style="color:Gray;"&gt;Klicken Sie mit gedrückter Strg-Taste, um das Citavi Manual für diese Funktion zu öffnen.&lt;/span&gt;</value>
+  </data>
+  <data name="ShareProject_ToolTipTitle" xml:space="preserve">
+    <value>Projektbenutzer anzeigen oder verwalten</value>
+  </data>
+  <data name="MainForm_WindowShowBackgroundTaskErrors" xml:space="preserve">
+    <value>Hintergrundaufgaben-Fehler anzeigen</value>
+  </data>
+  <data name="MainForm_WindowShowBackgroundTasks" xml:space="preserve">
+    <value>Hintergrundaufgaben anzeigen</value>
+  </data>
+  <data name="MainForm_FilterByCreatedBy" xml:space="preserve">
+    <value>Erstellt von</value>
+  </data>
+  <data name="MainForm_FilterByCreatedByMe" xml:space="preserve">
+    <value>Erstellt von mir</value>
+  </data>
+  <data name="MainForm_FilterByCreatedByModifiedBy" xml:space="preserve">
+    <value>Erstellt oder geändert von</value>
+  </data>
+  <data name="MainForm_FilterByCreatedByModifiedByMe" xml:space="preserve">
+    <value>Erstellt oder geändert von mir</value>
+  </data>
+  <data name="MainForm_FilterByModifiedBy" xml:space="preserve">
+    <value>Geändert von</value>
+  </data>
+  <data name="MainForm_FilterByModifiedByMe" xml:space="preserve">
+    <value>Geändert von mir</value>
+  </data>
+  <data name="MainForm_ReferenceEditorQuotations_FilterByMore_ToolTipText" xml:space="preserve">
+    <value>Blendet Zitate und PDF-Markierungen aus, die für Sie nicht von Interesse sind.&lt;br/&gt;
+Der Filter wird auch auf &lt;i&gt;Gelbe PDF-Markierungen&lt;/i&gt; angewandt.</value>
+  </data>
+  <data name="MainForm_ReferenceEditorQuotations_FilterByMore_ToolTipTitle" xml:space="preserve">
+    <value>Zitate und PDF-Markierungen filtern</value>
+  </data>
+  <data name="MainForm_PreviewShowAffiliation" xml:space="preserve">
+    <value>Affiliation</value>
+  </data>
+  <data name="AddOns" xml:space="preserve">
+    <value>Add-ons verwalten…</value>
+  </data>
+  <data name="KnowledgeItemTextForm_SearchEditor" xml:space="preserve">
+    <value>Suchen</value>
+  </data>
+  <data name="RtfForm_SearchEditor" xml:space="preserve">
+    <value>Suchen</value>
+  </data>
+  <data name="StyleEditorForm_ComponentPartFromBackOffice" xml:space="preserve">
+    <value>Vom Citavi-Server abrufen…</value>
+  </data>
+  <data name="StartForm_OpenSampleProject" xml:space="preserve">
+    <value>Beispielprojekt öffnen…</value>
+  </data>
+  <data name="MainForm_NewLocationUncompressedPdfUri" xml:space="preserve">
+    <value>PDF unkomprimiert hochladen</value>
+  </data>
+  <data name="MainForm_NewLocationLocalFileUriMenuCloud" xml:space="preserve">
+    <value>Lokale Datei</value>
+  </data>
+  <data name="MainForm_CreateArchive" xml:space="preserve">
+    <value>Archivkopie lokal speichern…</value>
+  </data>
+  <data name="MainForm_ThisProject" xml:space="preserve">
+    <value>Dieses Projekt</value>
+  </data>
+  <data name="RecycleBinDialog_deleteRecycleBinItems" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="RecycleBinDialog_refreshButton" xml:space="preserve">
+    <value>Aktualisieren</value>
+  </data>
+  <data name="MainForm_ShowRecycleBin" xml:space="preserve">
+    <value>Papierkorb…</value>
+  </data>
+  <data name="MainForm_CreateArchiveWithoutAttachments" xml:space="preserve">
+    <value>Archivkopie lokal speichern (ohne Anhänge)…</value>
+  </data>
+  <data name="CreateArchiveWithoutAttachments_ToolTipTextFormatted" xml:space="preserve">
+    <value>Archiviert den aktuellen Stand dieses Projekts ohne Attachments in einer lokalen ZIP-Datei.&lt;br/&gt;&lt;span style="color:Gray;"&gt;Klicken Sie mit gedrückter Strg-Taste, um das Citavi Manual für diese Funktion zu öffnen.&lt;/span&gt;</value>
+    <comment>JS - review, reword?</comment>
+  </data>
+  <data name="CreateArchiveWithoutAttachments_ToolTipTitle" xml:space="preserve">
+    <value>Projekt ohne Attachments lokal archivieren</value>
+  </data>
+  <data name="StartForm_ActivateOfflineMode_Activate" xml:space="preserve">
+    <value>Offline gehen…</value>
+  </data>
+  <data name="StartForm_ActivateOfflineMode_Deactivate" xml:space="preserve">
+    <value>Online gehen…</value>
+  </data>
+  <data name="MainForm_PreviewShowHideCreationText_Hide" xml:space="preserve">
+    <value>"Erstellt" ausblenden</value>
+  </data>
+  <data name="MainForm_PreviewShowHideCreationText_Show" xml:space="preserve">
+    <value>"Erstellt" anzeigen</value>
+  </data>
+  <data name="MainForm_QuotationSmartRepeaterKnowledgeItemCompositionCreationText" xml:space="preserve">
+    <value>Erstellt</value>
+  </data>
+  <data name="MainForm_UndoDeletion" xml:space="preserve">
+    <value>Löschen rückgängig…</value>
+  </data>
+  <data name="MainForm_FilterByQuotationType" xml:space="preserve">
+    <value>Zitat-Typ</value>
+  </data>
+  <data name="MainForm_NewLocationLocalCloudProjectLink" xml:space="preserve">
+    <value>Lokale Dateiverknüpfung hinzufügen (kein Hochladen)</value>
+  </data>
+  <data name="MainForm_ConvertToCloudProjectLocalFile" xml:space="preserve">
+    <value>In lokale Dateiverknüpfung konvertieren…</value>
+  </data>
+  <data name="MainForm_ConvertToCloudProjectRemoteAttachment" xml:space="preserve">
+    <value>In Cloud-Attachment konvertieren…</value>
+  </data>
+</root>

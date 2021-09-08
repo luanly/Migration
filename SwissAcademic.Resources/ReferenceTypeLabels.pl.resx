@@ -1,0 +1,2314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ArchiveMaterial" xml:space="preserve">
+    <value>Materiał archiwalny</value>
+  </data>
+  <data name="ArchiveMaterial_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="ArchiveMaterial_Authors" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="ArchiveMaterial_Date" xml:space="preserve">
+    <value>Datowanie</value>
+  </data>
+  <data name="ArchiveMaterial_Organizations" xml:space="preserve">
+    <value>Archiwum</value>
+  </data>
+  <data name="ArchiveMaterial_Number" xml:space="preserve">
+    <value>Sygnatura</value>
+  </data>
+  <data name="ArchiveMaterial_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="ArchiveMaterial_PageRange" xml:space="preserve">
+    <value>Zakres stron</value>
+  </data>
+  <data name="ArchiveMaterial_ParentReference" xml:space="preserve">
+    <value>Opublikowano w</value>
+  </data>
+  <data name="ArchiveMaterial_PlaceOfPublication" xml:space="preserve">
+    <value>Miejsce pochodzenia</value>
+  </data>
+  <data name="ArchiveMaterial_Plural" xml:space="preserve">
+    <value>Materiały archiwalne</value>
+  </data>
+  <data name="ArchiveMaterial_Title" xml:space="preserve">
+    <value>Tytuł</value>
+  </data>
+  <data name="ArchiveMaterial_TitleSupplement" xml:space="preserve">
+    <value>Opis źródła</value>
+  </data>
+  <data name="ArchiveMaterial_Volume" xml:space="preserve">
+    <value>Numer tomu</value>
+  </data>
+  <data name="ArchiveMaterial_Year" xml:space="preserve">
+    <value>Okres</value>
+  </data>
+  <data name="AudioBook" xml:space="preserve">
+    <value>Książka mówiona</value>
+  </data>
+  <data name="AudioBook_Authors" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="AudioBook_Collaborators" xml:space="preserve">
+    <value>Lektor</value>
+  </data>
+  <data name="AudioBook_Edition" xml:space="preserve">
+    <value>Wydanie</value>
+  </data>
+  <data name="AudioBook_Isbn" xml:space="preserve">
+    <value>ISBN / EAN</value>
+  </data>
+  <data name="AudioBook_PlaceOfPublication" xml:space="preserve">
+    <value>Miejsce wydania</value>
+  </data>
+  <data name="AudioBook_Plural" xml:space="preserve">
+    <value>Książki mówione</value>
+  </data>
+  <data name="AudioBook_Publishers" xml:space="preserve">
+    <value>Wydawca</value>
+  </data>
+  <data name="AudioBook_StorageMedium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="AudioBook_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="AudioBook_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="AudioBook_TitleSupplement" xml:space="preserve">
+    <value>Uzupełnienie tytułu</value>
+  </data>
+  <data name="AudioBook_Year" xml:space="preserve">
+    <value>Rok</value>
+  </data>
+  <data name="AudioOrVideoDocument" xml:space="preserve">
+    <value>Dokument audio lub wideo</value>
+  </data>
+  <data name="AudioOrVideoDocument_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="AudioOrVideoDocument_Authors" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="AudioOrVideoDocument_Collaborators" xml:space="preserve">
+    <value>Redaktor</value>
+  </data>
+  <data name="AudioOrVideoDocument_Editors" xml:space="preserve">
+    <value>Reżyser</value>
+  </data>
+  <data name="AudioOrVideoDocument_Isbn" xml:space="preserve">
+    <value>ISBN / EAN</value>
+  </data>
+  <data name="AudioOrVideoDocument_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="AudioOrVideoDocument_PlaceOfPublication" xml:space="preserve">
+    <value>Miejsce wydania</value>
+  </data>
+  <data name="AudioOrVideoDocument_Plural" xml:space="preserve">
+    <value>Dokumenty audio lub wideo</value>
+  </data>
+  <data name="AudioOrVideoDocument_Publishers" xml:space="preserve">
+    <value>Wydawca</value>
+  </data>
+  <data name="AudioOrVideoDocument_SeriesTitle" xml:space="preserve">
+    <value>Tytuł serii</value>
+  </data>
+  <data name="AudioOrVideoDocument_StorageMedium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="AudioOrVideoDocument_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="AudioOrVideoDocument_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="AudioOrVideoDocument_TitleSupplement" xml:space="preserve">
+    <value>Uzupełnienie tytułu</value>
+  </data>
+  <data name="AudioOrVideoDocument_Year" xml:space="preserve">
+    <value>Rok</value>
+  </data>
+  <data name="RadioPlay" xml:space="preserve">
+    <value>Słuchowisko</value>
+  </data>
+  <data name="RadioPlay_Authors" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="RadioPlay_Collaborators" xml:space="preserve">
+    <value>Współtwórcy</value>
+  </data>
+  <data name="RadioPlay_Date" xml:space="preserve">
+    <value>Data emisji</value>
+  </data>
+  <data name="RadioPlay_Edition" xml:space="preserve">
+    <value>Wydanie</value>
+  </data>
+  <data name="RadioPlay_Organizations" xml:space="preserve">
+    <value>Stacja</value>
+  </data>
+  <data name="RadioPlay_Isbn" xml:space="preserve">
+    <value>ISBN / EAN</value>
+  </data>
+  <data name="RadioPlay_PlaceOfPublication" xml:space="preserve">
+    <value>Miejsce wydania</value>
+  </data>
+  <data name="RadioPlay_Plural" xml:space="preserve">
+    <value>Słuchowiska</value>
+  </data>
+  <data name="RadioPlay_Publishers" xml:space="preserve">
+    <value>Wydawca</value>
+  </data>
+  <data name="RadioPlay_SeriesTitle" xml:space="preserve">
+    <value>Tytuł serii</value>
+  </data>
+  <data name="RadioPlay_StorageMedium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="RadioPlay_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="RadioPlay_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="RadioPlay_TitleSupplement" xml:space="preserve">
+    <value>Uzupełnienie tytułu</value>
+  </data>
+  <data name="RadioPlay_Year" xml:space="preserve">
+    <value>Rok</value>
+  </data>
+  <data name="BookEdited" xml:space="preserve">
+    <value>Praca zbiorowa</value>
+  </data>
+  <data name="BookEdited_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="BookEdited_Collaborators" xml:space="preserve">
+    <value>Współtwórcy</value>
+  </data>
+  <data name="BookEdited_Edition" xml:space="preserve">
+    <value>Wydanie</value>
+  </data>
+  <data name="BookEdited_Editors" xml:space="preserve">
+    <value>Redaktorzy</value>
+  </data>
+  <data name="BookEdited_Organizations" xml:space="preserve">
+    <value>Instytucja</value>
+  </data>
+  <data name="BookEdited_Isbn" xml:space="preserve">
+    <value>ISBN</value>
+  </data>
+  <data name="BookEdited_NumberOfVolumes" xml:space="preserve">
+    <value>Liczba tomów</value>
+  </data>
+  <data name="BookEdited_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="BookEdited_PlaceOfPublication" xml:space="preserve">
+    <value>Miejsce wydania</value>
+  </data>
+  <data name="BookEdited_Plural" xml:space="preserve">
+    <value>Prace zbiorowe</value>
+  </data>
+  <data name="BookEdited_Publishers" xml:space="preserve">
+    <value>Wydawca</value>
+  </data>
+  <data name="BookEdited_SeriesTitle" xml:space="preserve">
+    <value>Tytuł serii</value>
+  </data>
+  <data name="BookEdited_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="BookEdited_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="BookEdited_TitleSupplement" xml:space="preserve">
+    <value>Uzupełnienie tytułu</value>
+  </data>
+  <data name="BookEdited_Volume" xml:space="preserve">
+    <value>Tom serii</value>
+  </data>
+  <data name="BookEdited_Year" xml:space="preserve">
+    <value>Rok</value>
+  </data>
+  <data name="CollectedWorks" xml:space="preserve">
+    <value>Dzieła zebrane</value>
+  </data>
+  <data name="CollectedWorks_Authors" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="CollectedWorks_Collaborators" xml:space="preserve">
+    <value>Współtwórcy</value>
+  </data>
+  <data name="CollectedWorks_Edition" xml:space="preserve">
+    <value>Wydanie</value>
+  </data>
+  <data name="CollectedWorks_Editors" xml:space="preserve">
+    <value>Redaktorzy</value>
+  </data>
+  <data name="CollectedWorks_Isbn" xml:space="preserve">
+    <value>ISBN</value>
+  </data>
+  <data name="CollectedWorks_NumberOfVolumes" xml:space="preserve">
+    <value>Liczba tomów</value>
+  </data>
+  <data name="CollectedWorks_PlaceOfPublication" xml:space="preserve">
+    <value>Miejsce wydania</value>
+  </data>
+  <data name="CollectedWorks_Plural" xml:space="preserve">
+    <value>Dzieła zebrane</value>
+  </data>
+  <data name="CollectedWorks_Publishers" xml:space="preserve">
+    <value>Wydawca</value>
+  </data>
+  <data name="CollectedWorks_SeriesTitle" xml:space="preserve">
+    <value>Tytuł serii</value>
+  </data>
+  <data name="CollectedWorks_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="CollectedWorks_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="CollectedWorks_TitleSupplement" xml:space="preserve">
+    <value>Uzupełnienie tytułu</value>
+  </data>
+  <data name="CollectedWorks_Volume" xml:space="preserve">
+    <value>Tom serii</value>
+  </data>
+  <data name="CollectedWorks_Year" xml:space="preserve">
+    <value>Rok</value>
+  </data>
+  <data name="ComputerProgram" xml:space="preserve">
+    <value>Program komputerowy</value>
+  </data>
+  <data name="ComputerProgram_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="ComputerProgram_Authors" xml:space="preserve">
+    <value>Programista</value>
+  </data>
+  <data name="ComputerProgram_SpecificField4" xml:space="preserve">
+    <value>Wersja</value>
+  </data>
+  <data name="ComputerProgram_Isbn" xml:space="preserve">
+    <value>ISBN / EAN</value>
+  </data>
+  <data name="ComputerProgram_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="ComputerProgram_PlaceOfPublication" xml:space="preserve">
+    <value>Miejsce wydania</value>
+  </data>
+  <data name="ComputerProgram_Plural" xml:space="preserve">
+    <value>Program komputerowy</value>
+  </data>
+  <data name="ComputerProgram_Publishers" xml:space="preserve">
+    <value>Wydawca</value>
+  </data>
+  <data name="ComputerProgram_SpecificField1" xml:space="preserve">
+    <value>Typ licencji</value>
+  </data>
+  <data name="ComputerProgram_SpecificField2" xml:space="preserve">
+    <value>Numer licencji</value>
+  </data>
+  <data name="ComputerProgram_SpecificField3" xml:space="preserve">
+    <value>System operacyjny</value>
+  </data>
+  <data name="ComputerProgram_StorageMedium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="ComputerProgram_Title" xml:space="preserve">
+    <value>Nazwa programu</value>
+  </data>
+  <data name="ComputerProgram_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="ComputerProgram_TitleSupplement" xml:space="preserve">
+    <value>Dane techniczne</value>
+  </data>
+  <data name="ComputerProgram_Year" xml:space="preserve">
+    <value>Rok</value>
+  </data>
+  <data name="ConferenceProceedings" xml:space="preserve">
+    <value>Materiał konferencyjny</value>
+  </data>
+  <data name="ConferenceProceedings_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="ConferenceProceedings_Collaborators" xml:space="preserve">
+    <value>Współtwórcy</value>
+  </data>
+  <data name="ConferenceProceedings_Edition" xml:space="preserve">
+    <value>Wydanie</value>
+  </data>
+  <data name="ConferenceProceedings_Editors" xml:space="preserve">
+    <value>Redaktorzy</value>
+  </data>
+  <data name="ConferenceProceedings_Organizations" xml:space="preserve">
+    <value>Instytucja</value>
+  </data>
+  <data name="ConferenceProceedings_Isbn" xml:space="preserve">
+    <value>ISBN</value>
+  </data>
+  <data name="ConferenceProceedings_NumberOfVolumes" xml:space="preserve">
+    <value>Liczba tomów</value>
+  </data>
+  <data name="ConferenceProceedings_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="ConferenceProceedings_PlaceOfPublication" xml:space="preserve">
+    <value>Miejsce wydania</value>
+  </data>
+  <data name="ConferenceProceedings_Plural" xml:space="preserve">
+    <value>Materiał konferencyjny</value>
+  </data>
+  <data name="ConferenceProceedings_Publishers" xml:space="preserve">
+    <value>Wydawca</value>
+  </data>
+  <data name="ConferenceProceedings_SeriesTitle" xml:space="preserve">
+    <value>Tytuł serii</value>
+  </data>
+  <data name="ConferenceProceedings_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="ConferenceProceedings_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="ConferenceProceedings_TitleSupplement" xml:space="preserve">
+    <value>Uzupełnienie tytułu</value>
+  </data>
+  <data name="ConferenceProceedings_Volume" xml:space="preserve">
+    <value>Tom serii</value>
+  </data>
+  <data name="ConferenceProceedings_Year" xml:space="preserve">
+    <value>Rok</value>
+  </data>
+  <data name="Contribution" xml:space="preserve">
+    <value>Opracowanie</value>
+  </data>
+  <data name="ContributionInLegalCommentary" xml:space="preserve">
+    <value>Opracowanie w komentarzu prawnym</value>
+  </data>
+  <data name="ContributionInLegalCommentary_Authors" xml:space="preserve">
+    <value>Redaktor</value>
+  </data>
+  <data name="ContributionInLegalCommentary_Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="ContributionInLegalCommentary_Date2" xml:space="preserve">
+    <value>Data aktualizacji</value>
+  </data>
+  <data name="ContributionInLegalCommentary_PageRange" xml:space="preserve">
+    <value>Zakres stron</value>
+  </data>
+  <data name="ContributionInLegalCommentary_ParentReference" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="ContributionInLegalCommentary_Plural" xml:space="preserve">
+    <value>Opracowania w komentarzach prawnych</value>
+  </data>
+  <data name="ContributionInLegalCommentary_Title" xml:space="preserve">
+    <value>Przepisy</value>
+  </data>
+  <data name="ContributionInLegalCommentary_Volume" xml:space="preserve">
+    <value>Uzupełnienie</value>
+  </data>
+  <data name="Contribution_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="Contribution_AsChild" xml:space="preserve">
+    <value>Opracowanie w...</value>
+  </data>
+  <data name="Contribution_Authors" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="Contribution_Collaborators" xml:space="preserve">
+    <value>Współtwórcy</value>
+  </data>
+  <data name="Contribution_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="Contribution_PageRange" xml:space="preserve">
+    <value>Zakres stron</value>
+  </data>
+  <data name="Contribution_ParentReference" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="Contribution_Plural" xml:space="preserve">
+    <value>Opracowanie</value>
+  </data>
+  <data name="Contribution_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="Contribution_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="Contribution_TitleSupplement" xml:space="preserve">
+    <value>Uzupełnienie tytułu</value>
+  </data>
+  <data name="Contribution_Volume" xml:space="preserve">
+    <value>Numer tomu</value>
+  </data>
+  <data name="CourtDecision" xml:space="preserve">
+    <value>Orzeczenie sądu</value>
+  </data>
+  <data name="CourtDecision_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="CourtDecision_Date" xml:space="preserve">
+    <value>Data wydania orzecz.</value>
+  </data>
+  <data name="CourtDecision_Organizations" xml:space="preserve">
+    <value>Sąd</value>
+  </data>
+  <data name="CourtDecision_Periodical" xml:space="preserve">
+    <value>Źródło</value>
+  </data>
+  <data name="CourtDecision_Number" xml:space="preserve">
+    <value>Numer</value>
+  </data>
+  <data name="CourtDecision_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="CourtDecision_PageRange" xml:space="preserve">
+    <value>Zakres stron</value>
+  </data>
+  <data name="CourtDecision_Plural" xml:space="preserve">
+    <value>Orzeczenia sądu</value>
+  </data>
+  <data name="CourtDecision_SpecificField1" xml:space="preserve">
+    <value>Przepisy</value>
+  </data>
+  <data name="CourtDecision_SpecificField2" xml:space="preserve">
+    <value>Numer akt</value>
+  </data>
+  <data name="CourtDecision_Title" xml:space="preserve">
+    <value>Krótki opis</value>
+  </data>
+  <data name="CourtDecision_TitleSupplement" xml:space="preserve">
+    <value>Miejsca publikacji</value>
+  </data>
+  <data name="CourtDecision_Volume" xml:space="preserve">
+    <value>Rocznik</value>
+  </data>
+  <data name="CourtDecision_Year" xml:space="preserve">
+    <value>Rok</value>
+  </data>
+  <data name="InternetDocument" xml:space="preserve">
+    <value>Dokument internetowy</value>
+  </data>
+  <data name="InternetDocument_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="InternetDocument_Authors" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="InternetDocument_Collaborators" xml:space="preserve">
+    <value>Współtwórcy</value>
+  </data>
+  <data name="InternetDocument_Date" xml:space="preserve">
+    <value>Ostatnia aktualizacja</value>
+  </data>
+  <data name="InternetDocument_Edition" xml:space="preserve">
+    <value>Wydanie</value>
+  </data>
+  <data name="InternetDocument_Editors" xml:space="preserve">
+    <value>Redaktorzy</value>
+  </data>
+  <data name="InternetDocument_Organizations" xml:space="preserve">
+    <value>Instytucja</value>
+  </data>
+  <data name="InternetDocument_Number" xml:space="preserve">
+    <value>Numer</value>
+  </data>
+  <data name="InternetDocument_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="InternetDocument_PlaceOfPublication" xml:space="preserve">
+    <value>Miejsce wydania</value>
+  </data>
+  <data name="InternetDocument_Plural" xml:space="preserve">
+    <value>Dokumenty internetowe</value>
+  </data>
+  <data name="InternetDocument_SeriesTitle" xml:space="preserve">
+    <value>Tytuł serii</value>
+  </data>
+  <data name="InternetDocument_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="InternetDocument_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="InternetDocument_TitleSupplement" xml:space="preserve">
+    <value>Uzupełnienie tytułu</value>
+  </data>
+  <data name="InternetDocument_Year" xml:space="preserve">
+    <value>Rok</value>
+  </data>
+  <data name="InterviewMaterial" xml:space="preserve">
+    <value>Wywiad</value>
+  </data>
+  <data name="InterviewMaterial_Authors" xml:space="preserve">
+    <value>Badacz</value>
+  </data>
+  <data name="InterviewMaterial_Collaborators" xml:space="preserve">
+    <value>Respondent</value>
+  </data>
+  <data name="InterviewMaterial_Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="InterviewMaterial_PlaceOfPublication" xml:space="preserve">
+    <value>Miejsce</value>
+  </data>
+  <data name="InterviewMaterial_Plural" xml:space="preserve">
+    <value>Wywiady</value>
+  </data>
+  <data name="InterviewMaterial_StorageMedium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="InterviewMaterial_Title" xml:space="preserve">
+    <value>Tytuł / Temat</value>
+  </data>
+  <data name="InterviewMaterial_TitleSupplement" xml:space="preserve">
+    <value>Uzupełnienie tytułu</value>
+  </data>
+  <data name="JournalArticle" xml:space="preserve">
+    <value>Artykuł z czasopisma</value>
+  </data>
+  <data name="JournalArticle_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="JournalArticle_Authors" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="JournalArticle_Collaborators" xml:space="preserve">
+    <value>Współtwórcy</value>
+  </data>
+  <data name="JournalArticle_Date2" xml:space="preserve">
+    <value>Online od</value>
+  </data>
+  <data name="JournalArticle_Periodical" xml:space="preserve">
+    <value>Czasopismo</value>
+  </data>
+  <data name="JournalArticle_Number" xml:space="preserve">
+    <value>Numer</value>
+  </data>
+  <data name="JournalArticle_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="JournalArticle_PageRange" xml:space="preserve">
+    <value>Zakres stron</value>
+  </data>
+  <data name="JournalArticle_Plural" xml:space="preserve">
+    <value>Artykuły z czasopism</value>
+  </data>
+  <data name="JournalArticle_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="JournalArticle_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="JournalArticle_TitleSupplement" xml:space="preserve">
+    <value>Uzupełnienie tytułu</value>
+  </data>
+  <data name="JournalArticle_Volume" xml:space="preserve">
+    <value>Rocznik</value>
+  </data>
+  <data name="JournalArticle_Year" xml:space="preserve">
+    <value>Rok</value>
+  </data>
+  <data name="Lecture" xml:space="preserve">
+    <value>Wykład</value>
+  </data>
+  <data name="Lecture_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="Lecture_Authors" xml:space="preserve">
+    <value>Wykładowca</value>
+  </data>
+  <data name="Lecture_Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Lecture_Collaborators" xml:space="preserve">
+    <value>Gospodarz</value>
+  </data>
+  <data name="Lecture_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="Lecture_PlaceOfPublication" xml:space="preserve">
+    <value>Miejsce</value>
+  </data>
+  <data name="Lecture_Plural" xml:space="preserve">
+    <value>Wykłady</value>
+  </data>
+  <data name="Lecture_Organizations" xml:space="preserve">
+    <value>Instytucja</value>
+  </data>
+  <data name="Lecture_SeriesTitle" xml:space="preserve">
+    <value>Cykl wykładów</value>
+  </data>
+  <data name="Lecture_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="Lecture_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="Lecture_TitleSupplement" xml:space="preserve">
+    <value>Uzupełnienie tytułu</value>
+  </data>
+  <data name="LegalCommentary" xml:space="preserve">
+    <value>Komentarz prawny (Glosa)</value>
+  </data>
+  <data name="LegalCommentary_Authors" xml:space="preserve">
+    <value>Twórca oryginału</value>
+  </data>
+  <data name="LegalCommentary_Edition" xml:space="preserve">
+    <value>Wydanie</value>
+  </data>
+  <data name="LegalCommentary_Editors" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="LegalCommentary_Isbn" xml:space="preserve">
+    <value>ISBN</value>
+  </data>
+  <data name="LegalCommentary_NumberOfVolumes" xml:space="preserve">
+    <value>Liczba tomów</value>
+  </data>
+  <data name="LegalCommentary_PlaceOfPublication" xml:space="preserve">
+    <value>Miejsce wydania</value>
+  </data>
+  <data name="LegalCommentary_Plural" xml:space="preserve">
+    <value>Komentarze prawne</value>
+  </data>
+  <data name="LegalCommentary_Publishers" xml:space="preserve">
+    <value>Wydawca</value>
+  </data>
+  <data name="LegalCommentary_SeriesTitle" xml:space="preserve">
+    <value>Tytuł serii</value>
+  </data>
+  <data name="LegalCommentary_SpecificField1" xml:space="preserve">
+    <value>Standardowy skrót</value>
+  </data>
+  <data name="LegalCommentary_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="LegalCommentary_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="LegalCommentary_TitleSupplement" xml:space="preserve">
+    <value>Uzupełnienie tytułu</value>
+  </data>
+  <data name="LegalCommentary_Volume" xml:space="preserve">
+    <value>Tom serii</value>
+  </data>
+  <data name="LegalCommentary_Year" xml:space="preserve">
+    <value>Rok</value>
+  </data>
+  <data name="Manuscript" xml:space="preserve">
+    <value>Rękopis</value>
+  </data>
+  <data name="Manuscript_Authors" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="Manuscript_Collaborators" xml:space="preserve">
+    <value>Współtwórcy</value>
+  </data>
+  <data name="Manuscript_Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Manuscript_PlaceOfPublication" xml:space="preserve">
+    <value>Miejsce</value>
+  </data>
+  <data name="Manuscript_Plural" xml:space="preserve">
+    <value>Rękopisy</value>
+  </data>
+  <data name="Manuscript_StorageMedium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="Manuscript_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="Manuscript_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="Manuscript_TitleSupplement" xml:space="preserve">
+    <value>Uzupełnienie tytułu</value>
+  </data>
+  <data name="Map" xml:space="preserve">
+    <value>Mapa</value>
+  </data>
+  <data name="Map_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="Map_Authors" xml:space="preserve">
+    <value>Kartograf</value>
+  </data>
+  <data name="Map_Edition" xml:space="preserve">
+    <value>Edycja / Wydanie</value>
+  </data>
+  <data name="Map_Isbn" xml:space="preserve">
+    <value>ISBN / EAN</value>
+  </data>
+  <data name="Map_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="Map_PlaceOfPublication" xml:space="preserve">
+    <value>Miejsce wydania</value>
+  </data>
+  <data name="Map_Plural" xml:space="preserve">
+    <value>Mapy</value>
+  </data>
+  <data name="Map_Publishers" xml:space="preserve">
+    <value>Wydawca</value>
+  </data>
+  <data name="Map_StorageMedium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="Map_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="Map_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="Map_TitleSupplement" xml:space="preserve">
+    <value>Uzupełnienie tytułu</value>
+  </data>
+  <data name="Map_Year" xml:space="preserve">
+    <value>Rok</value>
+  </data>
+  <data name="Book" xml:space="preserve">
+    <value>Książka</value>
+  </data>
+  <data name="Book_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="Book_Authors" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="Book_Collaborators" xml:space="preserve">
+    <value>Współtwórcy</value>
+  </data>
+  <data name="Book_Edition" xml:space="preserve">
+    <value>Wydanie</value>
+  </data>
+  <data name="Book_Organizations" xml:space="preserve">
+    <value>Instytucja</value>
+  </data>
+  <data name="Book_Isbn" xml:space="preserve">
+    <value>ISBN</value>
+  </data>
+  <data name="Book_NumberOfVolumes" xml:space="preserve">
+    <value>Liczba tomów</value>
+  </data>
+  <data name="Book_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="Book_PlaceOfPublication" xml:space="preserve">
+    <value>Miejsce wydania</value>
+  </data>
+  <data name="Book_Plural" xml:space="preserve">
+    <value>Książki</value>
+  </data>
+  <data name="Book_Publishers" xml:space="preserve">
+    <value>Wydawca</value>
+  </data>
+  <data name="Book_SeriesTitle" xml:space="preserve">
+    <value>Tytuł serii</value>
+  </data>
+  <data name="Book_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="Book_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="Book_TitleSupplement" xml:space="preserve">
+    <value>Uzupełnienie tytułu</value>
+  </data>
+  <data name="Book_Volume" xml:space="preserve">
+    <value>Tom serii</value>
+  </data>
+  <data name="Book_Year" xml:space="preserve">
+    <value>Rok</value>
+  </data>
+  <data name="Movie" xml:space="preserve">
+    <value>Film</value>
+  </data>
+  <data name="Movie_Authors" xml:space="preserve">
+    <value>Reżyser</value>
+  </data>
+  <data name="Movie_Collaborators" xml:space="preserve">
+    <value>Główne role</value>
+  </data>
+  <data name="Movie_Date" xml:space="preserve">
+    <value>Data emisji</value>
+  </data>
+  <data name="Movie_Date2" xml:space="preserve">
+    <value>Data premiery</value>
+  </data>
+  <data name="Movie_Editors" xml:space="preserve">
+    <value>Studio / Producent</value>
+  </data>
+  <data name="Movie_Organizations" xml:space="preserve">
+    <value>Stacja</value>
+  </data>
+  <data name="Movie_Isbn" xml:space="preserve">
+    <value>ISBN / EAN</value>
+  </data>
+  <data name="Movie_PlaceOfPublication" xml:space="preserve">
+    <value>Miejsce wydania</value>
+  </data>
+  <data name="Movie_Plural" xml:space="preserve">
+    <value>Filmy</value>
+  </data>
+  <data name="Movie_Publishers" xml:space="preserve">
+    <value>Wydawca</value>
+  </data>
+  <data name="Movie_SpecificField1" xml:space="preserve">
+    <value>Kraj</value>
+  </data>
+  <data name="Movie_SpecificField2" xml:space="preserve">
+    <value>Czas trwania</value>
+  </data>
+  <data name="Movie_StorageMedium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="Movie_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="Movie_Subtitle" xml:space="preserve">
+    <value>Tytuł oryginalny</value>
+  </data>
+  <data name="Movie_TitleSupplement" xml:space="preserve">
+    <value>Uzupełnienie tytułu</value>
+  </data>
+  <data name="Movie_Year" xml:space="preserve">
+    <value>Rok</value>
+  </data>
+  <data name="MusicTrack" xml:space="preserve">
+    <value>Utwór muzyczny</value>
+  </data>
+  <data name="MusicTrack_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="MusicTrack_AsChild" xml:space="preserve">
+    <value>Utwór muzyczny w...</value>
+  </data>
+  <data name="MusicTrack_Authors" xml:space="preserve">
+    <value>Kompozytor</value>
+  </data>
+  <data name="MusicTrack_Collaborators" xml:space="preserve">
+    <value>Artysta / Wykonawca</value>
+  </data>
+  <data name="MusicTrack_Editors" xml:space="preserve">
+    <value>Dyrygent</value>
+  </data>
+  <data name="MusicTrack_Organizations" xml:space="preserve">
+    <value>Orkiestra</value>
+  </data>
+  <data name="MusicTrack_Number" xml:space="preserve">
+    <value>Numer</value>
+  </data>
+  <data name="MusicTrack_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="MusicTrack_ParentReference" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="MusicTrack_Plural" xml:space="preserve">
+    <value>Utwór muzyczny</value>
+  </data>
+  <data name="MusicTrack_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="MusicTrack_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="MusicTrack_TitleSupplement" xml:space="preserve">
+    <value>Uzupełnienie tytułu</value>
+  </data>
+  <data name="NewsAgencyReport" xml:space="preserve">
+    <value>Informacja agencji prasowej</value>
+  </data>
+  <data name="NewsAgencyReport_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="NewsAgencyReport_Authors" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="NewsAgencyReport_Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="NewsAgencyReport_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="NewsAgencyReport_PlaceOfPublication" xml:space="preserve">
+    <value>Miejsce</value>
+  </data>
+  <data name="NewsAgencyReport_Plural" xml:space="preserve">
+    <value>Informacje agencji prasowej</value>
+  </data>
+  <data name="NewsAgencyReport_Publishers" xml:space="preserve">
+    <value>Agencja</value>
+  </data>
+  <data name="NewsAgencyReport_SpecificField4" xml:space="preserve">
+    <value>Ograniczenie</value>
+  </data>
+  <data name="NewsAgencyReport_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="NewsAgencyReport_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="NewsAgencyReport_TitleSupplement" xml:space="preserve">
+    <value>Uzupełnienie tytułu</value>
+  </data>
+  <data name="NewspaperArticle" xml:space="preserve">
+    <value>Artykuły z gazet</value>
+  </data>
+  <data name="NewspaperArticle_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="NewspaperArticle_Authors" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="NewspaperArticle_Collaborators" xml:space="preserve">
+    <value>Współtwórcy</value>
+  </data>
+  <data name="NewspaperArticle_Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="NewspaperArticle_Periodical" xml:space="preserve">
+    <value>Gazeta</value>
+  </data>
+  <data name="NewspaperArticle_Number" xml:space="preserve">
+    <value>Wydanie</value>
+  </data>
+  <data name="NewspaperArticle_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="NewspaperArticle_PageRange" xml:space="preserve">
+    <value>Zakres stron</value>
+  </data>
+  <data name="NewspaperArticle_Plural" xml:space="preserve">
+    <value>Artykuły z gazet</value>
+  </data>
+  <data name="NewspaperArticle_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="NewspaperArticle_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="NewspaperArticle_TitleSupplement" xml:space="preserve">
+    <value>Uzupełnienie tytułu</value>
+  </data>
+  <data name="NewspaperArticle_Volume" xml:space="preserve">
+    <value>Rocznik</value>
+  </data>
+  <data name="Patent" xml:space="preserve">
+    <value>Patent</value>
+  </data>
+  <data name="Patent_Authors" xml:space="preserve">
+    <value>Wynalazca</value>
+  </data>
+  <data name="Patent_Date" xml:space="preserve">
+    <value>Data zgłoszenia</value>
+  </data>
+  <data name="Patent_Date2" xml:space="preserve">
+    <value>Data wydania</value>
+  </data>
+  <data name="Patent_Number" xml:space="preserve">
+    <value>Numer patentu</value>
+  </data>
+  <data name="Patent_Plural" xml:space="preserve">
+    <value>Patenty</value>
+  </data>
+  <data name="Patent_SpecificField1" xml:space="preserve">
+    <value>Kraj wydania</value>
+  </data>
+  <data name="Patent_SpecificField2" xml:space="preserve">
+    <value>Wnioskodawca</value>
+  </data>
+  <data name="Patent_SpecificField3" xml:space="preserve">
+    <value>Rok złożenia wniosku</value>
+  </data>
+  <data name="Patent_SpecificField4" xml:space="preserve">
+    <value>Kraj złożenia wniosku</value>
+  </data>
+  <data name="Patent_SpecificField5" xml:space="preserve">
+    <value>Numer wniosku</value>
+  </data>
+  <data name="Patent_SpecificField6" xml:space="preserve">
+    <value>Data pierwszeństwa</value>
+  </data>
+  <data name="Patent_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="Patent_TitleSupplement" xml:space="preserve">
+    <value>Roszczenia</value>
+  </data>
+  <data name="Patent_Volume" xml:space="preserve">
+    <value>Opis IPC</value>
+  </data>
+  <data name="Patent_Year" xml:space="preserve">
+    <value>Rok opublikowania</value>
+  </data>
+  <data name="PersonalCommunication" xml:space="preserve">
+    <value>Korespondencja osobista</value>
+  </data>
+  <data name="PersonalCommunication_Authors" xml:space="preserve">
+    <value>Nadawca / Autor</value>
+  </data>
+  <data name="PersonalCommunication_Collaborators" xml:space="preserve">
+    <value>Adresat</value>
+  </data>
+  <data name="PersonalCommunication_Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="PersonalCommunication_PlaceOfPublication" xml:space="preserve">
+    <value>Miejsce</value>
+  </data>
+  <data name="PersonalCommunication_Plural" xml:space="preserve">
+    <value>Korespondencja osobista</value>
+  </data>
+  <data name="PersonalCommunication_StorageMedium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="PersonalCommunication_Title" xml:space="preserve">
+    <value>Tytuł / Temat</value>
+  </data>
+  <data name="PersonalCommunication_TitleSupplement" xml:space="preserve">
+    <value>Tryb</value>
+  </data>
+  <data name="PressRelease" xml:space="preserve">
+    <value>Komunikat prasowy</value>
+  </data>
+  <data name="PressRelease_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="PressRelease_Authors" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="PressRelease_Collaborators" xml:space="preserve">
+    <value>Osoba kontaktowa</value>
+  </data>
+  <data name="PressRelease_Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="PressRelease_Organizations" xml:space="preserve">
+    <value>Instytucja</value>
+  </data>
+  <data name="PressRelease_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="PressRelease_PlaceOfPublication" xml:space="preserve">
+    <value>Miejsce</value>
+  </data>
+  <data name="PressRelease_Plural" xml:space="preserve">
+    <value>Komunikaty prasowe</value>
+  </data>
+  <data name="PressRelease_SpecificField2" xml:space="preserve">
+    <value>Adres kontaktowy</value>
+  </data>
+  <data name="PressRelease_SpecificField4" xml:space="preserve">
+    <value>Ograniczenie</value>
+  </data>
+  <data name="PressRelease_StorageMedium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="PressRelease_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="PressRelease_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="PressRelease_TitleSupplement" xml:space="preserve">
+    <value>Uzupełnienie tytułu</value>
+  </data>
+  <data name="Broadcast" xml:space="preserve">
+    <value>Program radiowy lub telewizyjny</value>
+  </data>
+  <data name="Broadcast_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="Broadcast_Authors" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="Broadcast_Collaborators" xml:space="preserve">
+    <value>Współtwórcy</value>
+  </data>
+  <data name="Broadcast_Date" xml:space="preserve">
+    <value>Data emisji</value>
+  </data>
+  <data name="Broadcast_Organizations" xml:space="preserve">
+    <value>Stacja</value>
+  </data>
+  <data name="Broadcast_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="Broadcast_Plural" xml:space="preserve">
+    <value>Programy radiowe i telewizyjne</value>
+  </data>
+  <data name="Broadcast_SeriesTitle" xml:space="preserve">
+    <value>Tytuł serii</value>
+  </data>
+  <data name="Broadcast_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="Broadcast_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="Broadcast_TitleSupplement" xml:space="preserve">
+    <value>Uzupełnienie tytułu</value>
+  </data>
+  <data name="Broadcast_Volume" xml:space="preserve">
+    <value>Odcinek serialu</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Akta</value>
+  </data>
+  <data name="MusicAlbum" xml:space="preserve">
+    <value>Dzieło muzyczne/Album muzyczny</value>
+  </data>
+  <data name="MusicAlbum_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="MusicAlbum_Authors" xml:space="preserve">
+    <value>Kompozytor</value>
+  </data>
+  <data name="MusicAlbum_Collaborators" xml:space="preserve">
+    <value>Artysta / Wykonawca</value>
+  </data>
+  <data name="MusicAlbum_Editors" xml:space="preserve">
+    <value>Dyrygent</value>
+  </data>
+  <data name="MusicAlbum_Organizations" xml:space="preserve">
+    <value>Orkiestra</value>
+  </data>
+  <data name="MusicAlbum_Isbn" xml:space="preserve">
+    <value>ISBN / EAN</value>
+  </data>
+  <data name="MusicAlbum_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="MusicAlbum_PlaceOfPublication" xml:space="preserve">
+    <value>Miejsce wydania</value>
+  </data>
+  <data name="MusicAlbum_Plural" xml:space="preserve">
+    <value>Dzieła muzyczne/Albumy muzyczne</value>
+  </data>
+  <data name="MusicAlbum_Publishers" xml:space="preserve">
+    <value>Wydawca</value>
+  </data>
+  <data name="MusicAlbum_StorageMedium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="MusicAlbum_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="MusicAlbum_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="MusicAlbum_TitleSupplement" xml:space="preserve">
+    <value>Uzupełnienie tytułu</value>
+  </data>
+  <data name="MusicAlbum_Year" xml:space="preserve">
+    <value>Rok</value>
+  </data>
+  <data name="File_Authors" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="File_Collaborators" xml:space="preserve">
+    <value>Osoba / Temat</value>
+  </data>
+  <data name="File_Date" xml:space="preserve">
+    <value>Data / Rok</value>
+  </data>
+  <data name="File_Organizations" xml:space="preserve">
+    <value>Instytucja</value>
+  </data>
+  <data name="File_Number" xml:space="preserve">
+    <value>Numer akt</value>
+  </data>
+  <data name="File_NumberOfVolumes" xml:space="preserve">
+    <value>Objętość</value>
+  </data>
+  <data name="File_Plural" xml:space="preserve">
+    <value>Akta</value>
+  </data>
+  <data name="File_Title" xml:space="preserve">
+    <value>Tytuł / Temat</value>
+  </data>
+  <data name="File_TitleSupplement" xml:space="preserve">
+    <value>Typ akt</value>
+  </data>
+  <data name="SpecialIssue" xml:space="preserve">
+    <value>Numer specjalny</value>
+  </data>
+  <data name="SpecialIssue_Editors" xml:space="preserve">
+    <value>Redaktorzy</value>
+  </data>
+  <data name="SpecialIssue_Periodical" xml:space="preserve">
+    <value>Czasopismo</value>
+  </data>
+  <data name="SpecialIssue_Number" xml:space="preserve">
+    <value>Numer</value>
+  </data>
+  <data name="SpecialIssue_PlaceOfPublication" xml:space="preserve">
+    <value>Miejsce wydania</value>
+  </data>
+  <data name="SpecialIssue_Plural" xml:space="preserve">
+    <value>Numery specjalne</value>
+  </data>
+  <data name="SpecialIssue_Publishers" xml:space="preserve">
+    <value>Wydawca</value>
+  </data>
+  <data name="SpecialIssue_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="SpecialIssue_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="SpecialIssue_TitleSupplement" xml:space="preserve">
+    <value>Uzupełnienie tytułu</value>
+  </data>
+  <data name="SpecialIssue_Volume" xml:space="preserve">
+    <value>Rocznik</value>
+  </data>
+  <data name="SpecialIssue_Year" xml:space="preserve">
+    <value>Rok</value>
+  </data>
+  <data name="Standard" xml:space="preserve">
+    <value>Norma</value>
+  </data>
+  <data name="Standard_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="Standard_Date" xml:space="preserve">
+    <value>Data publikacji</value>
+  </data>
+  <data name="Standard_Edition" xml:space="preserve">
+    <value>Numer wersji</value>
+  </data>
+  <data name="Standard_Organizations" xml:space="preserve">
+    <value>Instytucja</value>
+  </data>
+  <data name="Standard_Number" xml:space="preserve">
+    <value>Numer</value>
+  </data>
+  <data name="Standard_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="Standard_PlaceOfPublication" xml:space="preserve">
+    <value>Miejsce wydania</value>
+  </data>
+  <data name="Standard_Plural" xml:space="preserve">
+    <value>Normy</value>
+  </data>
+  <data name="Standard_Publishers" xml:space="preserve">
+    <value>Wydawca</value>
+  </data>
+  <data name="Standard_SpecificField2" xml:space="preserve">
+    <value>Typ normy</value>
+  </data>
+  <data name="Standard_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="Standard_Volume" xml:space="preserve">
+    <value>Notacja ICS</value>
+  </data>
+  <data name="StatuteOrRegulation" xml:space="preserve">
+    <value>Ustawa lub regulacja prawna</value>
+  </data>
+  <data name="StatuteOrRegulation_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="StatuteOrRegulation_Date" xml:space="preserve">
+    <value>Data / Rok</value>
+  </data>
+  <data name="StatuteOrRegulation_Organizations" xml:space="preserve">
+    <value>Ustawodawca / Organ</value>
+  </data>
+  <data name="StatuteOrRegulation_Periodical" xml:space="preserve">
+    <value>Czasopismo</value>
+  </data>
+  <data name="StatuteOrRegulation_Number" xml:space="preserve">
+    <value>Numer</value>
+  </data>
+  <data name="StatuteOrRegulation_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="StatuteOrRegulation_PageRange" xml:space="preserve">
+    <value>Zakres stron</value>
+  </data>
+  <data name="StatuteOrRegulation_ParentReference" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="StatuteOrRegulation_Plural" xml:space="preserve">
+    <value>Ustawy lub regulacje prawne</value>
+  </data>
+  <data name="StatuteOrRegulation_SpecificField1" xml:space="preserve">
+    <value>Źródło</value>
+  </data>
+  <data name="StatuteOrRegulation_Title" xml:space="preserve">
+    <value>Tytuł / Nazwa</value>
+  </data>
+  <data name="StatuteOrRegulation_Subtitle" xml:space="preserve">
+    <value>Skrót</value>
+  </data>
+  <data name="StatuteOrRegulation_Date2" xml:space="preserve">
+    <value>Nowelizacja</value>
+  </data>
+  <data name="StatuteOrRegulation_Volume" xml:space="preserve">
+    <value>Rocznik</value>
+  </data>
+  <data name="StatuteOrRegulation_Year" xml:space="preserve">
+    <value>Rok</value>
+  </data>
+  <data name="Thesis" xml:space="preserve">
+    <value>Praca dyplomowa</value>
+  </data>
+  <data name="Thesis_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="Thesis_Authors" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="Thesis_Collaborators" xml:space="preserve">
+    <value>Promotor</value>
+  </data>
+  <data name="Thesis_Date" xml:space="preserve">
+    <value>Data / Rok</value>
+  </data>
+  <data name="Thesis_Organizations" xml:space="preserve">
+    <value>Uczelnia</value>
+  </data>
+  <data name="Thesis_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="Thesis_PlaceOfPublication" xml:space="preserve">
+    <value>Lokalizacja instytucji</value>
+  </data>
+  <data name="Thesis_Plural" xml:space="preserve">
+    <value>Prace dyplomowe</value>
+  </data>
+  <data name="Thesis_SpecificField1" xml:space="preserve">
+    <value>Wydział</value>
+  </data>
+  <data name="Thesis_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="Thesis_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="Thesis_TitleSupplement" xml:space="preserve">
+    <value>Rodzaj pracy</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Nieznany</value>
+  </data>
+  <data name="Unknown_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="Unknown_Authors" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="Unknown_Collaborators" xml:space="preserve">
+    <value>Współtwórcy</value>
+  </data>
+  <data name="Unknown_Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Unknown_Edition" xml:space="preserve">
+    <value>Wydanie</value>
+  </data>
+  <data name="Unknown_Editors" xml:space="preserve">
+    <value>Redaktorzy</value>
+  </data>
+  <data name="Unknown_Organizations" xml:space="preserve">
+    <value>Instytucja</value>
+  </data>
+  <data name="Unknown_Isbn" xml:space="preserve">
+    <value>ISBN</value>
+  </data>
+  <data name="Unknown_Periodical" xml:space="preserve">
+    <value>Czasopismo</value>
+  </data>
+  <data name="Unknown_Number" xml:space="preserve">
+    <value>Numer</value>
+  </data>
+  <data name="Unknown_NumberOfVolumes" xml:space="preserve">
+    <value>Liczba tomów</value>
+  </data>
+  <data name="Unknown_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="Unknown_PageRange" xml:space="preserve">
+    <value>Zakres stron</value>
+  </data>
+  <data name="Unknown_PlaceOfPublication" xml:space="preserve">
+    <value>Miejsce wydania</value>
+  </data>
+  <data name="Unknown_Plural" xml:space="preserve">
+    <value>Nieznany</value>
+  </data>
+  <data name="Unknown_Publishers" xml:space="preserve">
+    <value>Wydawca</value>
+  </data>
+  <data name="Unknown_SeriesTitle" xml:space="preserve">
+    <value>Tytuł serii</value>
+  </data>
+  <data name="Unknown_SpecificField1" xml:space="preserve">
+    <value>Określone pole 1</value>
+  </data>
+  <data name="Unknown_SpecificField2" xml:space="preserve">
+    <value>Określone pole 2</value>
+  </data>
+  <data name="Unknown_SpecificField3" xml:space="preserve">
+    <value>Określone pole 3</value>
+  </data>
+  <data name="Unknown_SpecificField4" xml:space="preserve">
+    <value>Określone pole 4</value>
+  </data>
+  <data name="Unknown_SpecificField5" xml:space="preserve">
+    <value>Określone pole 5</value>
+  </data>
+  <data name="Unknown_SpecificField6" xml:space="preserve">
+    <value>Określone pole 6</value>
+  </data>
+  <data name="Unknown_SpecificField7" xml:space="preserve">
+    <value>Określone pole 7</value>
+  </data>
+  <data name="Unknown_StorageMedium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="Unknown_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="Unknown_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="Unknown_TitleSupplement" xml:space="preserve">
+    <value>Uzupełnienie tytułu</value>
+  </data>
+  <data name="Unknown_Volume" xml:space="preserve">
+    <value>Tom serii</value>
+  </data>
+  <data name="Unknown_Year" xml:space="preserve">
+    <value>Rok</value>
+  </data>
+  <data name="UnpublishedWork" xml:space="preserve">
+    <value>Raport lub szara literatura</value>
+  </data>
+  <data name="UnpublishedWork_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="UnpublishedWork_Authors" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="UnpublishedWork_Collaborators" xml:space="preserve">
+    <value>Współtwórcy</value>
+  </data>
+  <data name="UnpublishedWork_Date" xml:space="preserve">
+    <value>Data / Rok</value>
+  </data>
+  <data name="UnpublishedWork_Edition" xml:space="preserve">
+    <value>Wydanie</value>
+  </data>
+  <data name="UnpublishedWork_Editors" xml:space="preserve">
+    <value>Redaktorzy</value>
+  </data>
+  <data name="UnpublishedWork_Organizations" xml:space="preserve">
+    <value>Instytucja</value>
+  </data>
+  <data name="UnpublishedWork_Number" xml:space="preserve">
+    <value>Numer</value>
+  </data>
+  <data name="UnpublishedWork_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="UnpublishedWork_PlaceOfPublication" xml:space="preserve">
+    <value>Miejsce wydania</value>
+  </data>
+  <data name="UnpublishedWork_Plural" xml:space="preserve">
+    <value>Raport lub szara literatura</value>
+  </data>
+  <data name="UnpublishedWork_SeriesTitle" xml:space="preserve">
+    <value>Tytuł serii</value>
+  </data>
+  <data name="UnpublishedWork_Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="UnpublishedWork_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="UnpublishedWork_TitleSupplement" xml:space="preserve">
+    <value>Uzupełnienie tytułu</value>
+  </data>
+  <data name="Unknown_Date2" xml:space="preserve">
+    <value>Data 2</value>
+  </data>
+  <data name="ConferenceProceedings_SpecificField1" xml:space="preserve">
+    <value>Miejsce konferencji</value>
+  </data>
+  <data name="ConferenceProceedings_SpecificField4" xml:space="preserve">
+    <value>Data konferencji</value>
+  </data>
+  <data name="ConferenceProceedings_SpecificField7" xml:space="preserve">
+    <value>Tytuł konferencji</value>
+  </data>
+  <data name="CourtDecision_SpecificField3" xml:space="preserve">
+    <value>Forma orzeczenia</value>
+  </data>
+  <data name="ArchiveMaterial_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="AudioBook_HelpText" xml:space="preserve">
+    <value>Dźwiękowe nagranie czytanego przez lektora tekstu (zwłaszcza literackiego) i utrwalonego na nośniku dźwięku.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Odczyty, które emitowane były tylko w radiu, a nie są dostępne na rynku w postaci nośników, należy opracować bibliograficznie jako typ publikacji &lt;strong&gt;audycję radiową czy telewizyjną&lt;/strong&gt;.</value>
+  </data>
+  <data name="AudioOrVideoDocument_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="BookEdited_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="Book_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="Broadcast_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="CollectedWorks_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="ComputerProgram_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="ConferenceProceedings_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="ContributionInLegalCommentary_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="Contribution_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="CourtDecision_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="File_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="InternetDocument_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="InterviewMaterial_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="JournalArticle_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="Lecture_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="LegalCommentary_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="Manuscript_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="Map_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="Movie_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="MusicAlbum_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="MusicTrack_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="NewsAgencyReport_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="NewspaperArticle_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="Patent_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="PersonalCommunication_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="PressRelease_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="RadioPlay_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="SpecialIssue_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="Standard_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="StatuteOrRegulation_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="Thesis_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="Unknown_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="UnpublishedWork_HelpText" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.
+
+Etiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.
+interdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="ArchiveMaterial_Collaborators" xml:space="preserve">
+    <value>Adresat</value>
+  </data>
+  <data name="AudioBook_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="AudioBook_Editors" xml:space="preserve">
+    <value>Reżyser</value>
+  </data>
+  <data name="AudioBook_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="AudioBook_SpecificField2" xml:space="preserve">
+    <value>Czas trwania</value>
+  </data>
+  <data name="AudioBook_SpecificField3" xml:space="preserve">
+    <value>Copyright nota</value>
+  </data>
+  <data name="AudioOrVideoDocument_SpecificField2" xml:space="preserve">
+    <value>Czas trwania</value>
+  </data>
+  <data name="AudioOrVideoDocument_SpecificField3" xml:space="preserve">
+    <value>Copyright nota</value>
+  </data>
+  <data name="AudioOrVideoDocument_Volume" xml:space="preserve">
+    <value>Odcinek serialu</value>
+  </data>
+  <data name="BookEdited_StorageMedium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="Book_StorageMedium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="Broadcast_Editors" xml:space="preserve">
+    <value>Redaktor</value>
+  </data>
+  <data name="Broadcast_Publishers" xml:space="preserve">
+    <value>Produkcja</value>
+  </data>
+  <data name="Broadcast_SpecificField2" xml:space="preserve">
+    <value>Czas trwania</value>
+  </data>
+  <data name="CollectedWorks_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="CollectedWorks_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="CourtDecision_SpecificField4" xml:space="preserve">
+    <value>ECLI</value>
+  </data>
+  <data name="File_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="File_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="InterviewMaterial_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="InterviewMaterial_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="InterviewMaterial_SpecificField2" xml:space="preserve">
+    <value>Czas trwania</value>
+  </data>
+  <data name="JournalArticle_NumberOfVolumes" xml:space="preserve">
+    <value>Numer artykułu</value>
+  </data>
+  <data name="JournalArticle_Publishers" xml:space="preserve">
+    <value>Wydawca</value>
+  </data>
+  <data name="JournalArticle_SpecificField1" xml:space="preserve">
+    <value>Baza danych</value>
+  </data>
+  <data name="Lecture_SpecificField2" xml:space="preserve">
+    <value>Czas trwania</value>
+  </data>
+  <data name="LegalCommentary_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="LegalCommentary_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="Manuscript_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="Manuscript_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="Map_Number" xml:space="preserve">
+    <value>Skala</value>
+  </data>
+  <data name="Movie_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="Movie_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="Movie_SpecificField3" xml:space="preserve">
+    <value>Nota Copyright</value>
+  </data>
+  <data name="MusicAlbum_SpecificField2" xml:space="preserve">
+    <value>Czas trwania</value>
+  </data>
+  <data name="MusicTrack_SpecificField2" xml:space="preserve">
+    <value>Czas trwania</value>
+  </data>
+  <data name="NewspaperArticle_PlaceOfPublication" xml:space="preserve">
+    <value>Miejsce</value>
+  </data>
+  <data name="Patent_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="Patent_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="Patent_SpecificField7" xml:space="preserve">
+    <value>Rodzina patentów</value>
+  </data>
+  <data name="PersonalCommunication_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="PersonalCommunication_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="RadioPlay_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="RadioPlay_Editors" xml:space="preserve">
+    <value>Reżyser</value>
+  </data>
+  <data name="RadioPlay_NumberOfVolumes" xml:space="preserve">
+    <value>Odcinek serialu</value>
+  </data>
+  <data name="RadioPlay_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="RadioPlay_SpecificField2" xml:space="preserve">
+    <value>Czas trwania</value>
+  </data>
+  <data name="RadioPlay_SpecificField3" xml:space="preserve">
+    <value>Nota Copyright</value>
+  </data>
+  <data name="SpecialIssue_AccessDate" xml:space="preserve">
+    <value>Data dostępu</value>
+  </data>
+  <data name="SpecialIssue_Isbn" xml:space="preserve">
+    <value>ISBN / EAN</value>
+  </data>
+  <data name="SpecialIssue_OnlineAddress" xml:space="preserve">
+    <value>Adres online</value>
+  </data>
+  <data name="Thesis_Number" xml:space="preserve">
+    <value>Numer dokumentu</value>
+  </data>
+  <data name="Thesis_StorageMedium" xml:space="preserve">
+    <value>Format pliku</value>
+  </data>
+  <data name="UnpublishedWork_StorageMedium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="ArchiveMaterial_SpecificField1" xml:space="preserve">
+    <value>Lokalizacja archiwum</value>
+  </data>
+  <data name="ArchiveMaterial_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="ArchiveMaterial_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="AudioBook_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="AudioBook_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="AudioOrVideoDocument_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="AudioOrVideoDocument_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="BookEdited_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="BookEdited_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="Book_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="Book_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="Broadcast_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="Broadcast_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="CollectedWorks_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="CollectedWorks_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="ComputerProgram_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="ComputerProgram_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="ConferenceProceedings_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="ConferenceProceedings_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="ContributionInLegalCommentary_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="ContributionInLegalCommentary_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="Contribution_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="Contribution_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="CourtDecision_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="CourtDecision_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="File_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="File_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="InternetDocument_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="InternetDocument_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="InterviewMaterial_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="InterviewMaterial_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="JournalArticle_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="JournalArticle_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="Lecture_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="Lecture_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="LegalCommentary_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="LegalCommentary_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="Manuscript_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="Manuscript_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="Map_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="Map_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="Movie_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="Movie_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="MusicAlbum_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="MusicAlbum_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="MusicTrack_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="MusicTrack_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="NewsAgencyReport_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="NewsAgencyReport_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="NewspaperArticle_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="NewspaperArticle_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="Patent_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="Patent_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="PersonalCommunication_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="PersonalCommunication_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="PressRelease_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="PressRelease_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="RadioPlay_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="RadioPlay_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="SpecialIssue_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="SpecialIssue_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="Standard_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="Standard_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="StatuteOrRegulation_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="StatuteOrRegulation_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="Thesis_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="Thesis_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="Unknown_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="Unknown_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="UnpublishedWork_Affiliation" xml:space="preserve">
+    <value>Afiliacja</value>
+  </data>
+  <data name="UnpublishedWork_Translators" xml:space="preserve">
+    <value>Tłumacz</value>
+  </data>
+  <data name="Broadcast_Isbn" xml:space="preserve">
+    <value>ISBN / EAN</value>
+  </data>
+  <data name="Patent_Editors" xml:space="preserve">
+    <value>Pierwotny właściciel</value>
+  </data>
+  <data name="Patent_Subtitle" xml:space="preserve">
+    <value>Typ publikacji</value>
+  </data>
+  <data name="Standard_Subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="Standard_SeriesTitle" xml:space="preserve">
+    <value>Tytuł serii</value>
+  </data>
+</root>

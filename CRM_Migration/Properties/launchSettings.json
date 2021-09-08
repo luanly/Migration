@@ -1,0 +1,17 @@
+{
+  "profiles": {
+    "CRM_Migration": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "CitaviWeb_CrmOnline": "Url=https://citavialpha.crm4.dynamics.com;Username=alphacitaviweb2crm@citavi.com; Password=\"JPZrU6C&CpYYi5_?\"",
+        "CitaviWeb_CrmOnline_EmailAddresses": "alphacitaviweb2crm@citavi.com;alphacitaviwebcrmonline@citavi.com",
+        "ClientId": "783ccbc8-f41a-4070-bc0e-8c556ceb02c6",
+        "ClientSecret": "2k-.c5QVq3Ad8_ro4M167it4m-Yj-z914A",
+        "CrmClientId": "183793e0-1dd7-4dee-8484-a55f6af80629",
+        "Issuer": "qsrulurudev.onmicrosoft.com",
+        "LogFileLocation": "Logs\\test.txt",
+        "TenantId": "qsrulurudev.onmicrosoft.com"
+      }
+    }
+  }
+}

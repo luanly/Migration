@@ -1,0 +1,18 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" linePragmas="false" #>
+  <fetch distinct="false" no-lock="true" mapping="logical">
+    <entity name="contact">
+      <attribute name="new_hashedpassword" />
+	  <attribute name="new_key" />
+      <filter type="and">
+	    <condition attribute="statuscode" operator="eq" value="1" entityname="contact" />   
+        <condition attribute="new_email" operator="eq" value="<#Write(Email);#>" entityname="<#= FetchXmlConstants.ContactLinkedEmailAliasName #>" />
+      </filter>
+      <link-entity name="<#= CrmEntityNames.LinkedEmailAccount #>" to="contactid" from="<#= CrmRelationshipLookupNames.ContactLinkedEmailAccount #>" link-type="outer" alias="<#= FetchXmlConstants.ContactLinkedEmailAliasName #>">
+        <attribute name="new_email" />
+		<attribute name="statuscode" />
+		 <filter type="and">
+		  <condition attribute="statuscode" operator="eq" value="1"/>  
+        </filter>
+      </link-entity>
+    </entity>
+  </fetch>

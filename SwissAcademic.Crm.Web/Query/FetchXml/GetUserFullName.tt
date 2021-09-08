@@ -1,0 +1,17 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" linePragmas="false" #>
+  <fetch distinct="false" no-lock="true" mapping="logical">
+    <entity name="contact">
+      <attribute name="firstname" />
+	  <attribute name="lastname" />
+	  <attribute name="new_key" />
+      <filter type="or" hint="union">
+	  <# foreach(string contactKey in ContactKeys)
+          {#>
+              
+                    <condition attribute="new_key" operator="eq" value="<#Write(contactKey);#>" entityname="contact" />
+                      <#}
+         #>
+        
+      </filter>
+    </entity>
+  </fetch>

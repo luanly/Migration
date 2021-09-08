@@ -1,0 +1,16 @@
+﻿<fetch distinct="false" useraworderby="false" no-lock="true" mapping="logical">
+	<entity name="new_citavilicense">
+		<# foreach(Enum item in EntityPropertySets.GetFullPropertySet(typeof(CitaviLicense)))
+          {#>
+                    <attribute name="<#Write(EntityNameResolver.ResolveAttributeName(CrmEntityNames.License, item.ToString()));#>" />
+                      <#}
+         #>
+		<filter type="and">
+			<condition attribute="new_verificationkey" operator="eq" value="<#Write(VerificationKey);#>" />
+			<condition attribute="statuscode" operator="eq" value="1" />
+		</filter>
+		<link-entity name="contact" to="new_enduserid" from="contactid" link-type="outer" alias="contact_citavilicense_enduser.contact">
+			<attribute name="new_key" />
+		</link-entity>
+	</entity>
+</fetch>

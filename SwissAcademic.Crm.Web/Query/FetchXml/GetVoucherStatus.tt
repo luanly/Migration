@@ -1,0 +1,10 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" linePragmas="false" #>
+<fetch distinct="false" no-lock="true" mapping="logical">
+  <entity name="new_voucher">
+    <attribute name="new_voucherstatus"/>
+    <filter type="and">
+      <condition attribute="new_vouchercode" operator="eq" value="<#Write(VoucherCode);#>" />
+	  <condition attribute="statuscode" operator="eq" value="1"/>  
+    </filter>
+  </entity>
+</fetch>

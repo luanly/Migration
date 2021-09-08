@@ -1,0 +1,13 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" linePragmas="false" #>
+<fetch distinct="false" no-lock="true" mapping="logical">
+  <entity name="account">
+	<attribute name="name" />
+	<attribute name="new_key" />
+	<attribute name="new_exclusivecountries" />
+	<attribute name="new_cleverbrigeaffiliateid" />
+    <filter type="and">
+      <condition attribute="new_exclusivecountries" operator="like" value="%<#Write(ExclusiveCountries.ToString());#>%" />
+	  <condition attribute="statuscode" operator="eq" value="1" />
+    </filter>
+  </entity>
+</fetch>

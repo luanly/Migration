@@ -1,0 +1,17 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" linePragmas="false" #>
+<fetch distinct="true" no-lock="true" mapping="logical">
+  <entity name="new_contractstats">
+   <# foreach(Enum item in EntityPropertySets.GetFullPropertySet(typeof(CampusContractStatistic)))
+          {#>
+                    <attribute name="<#Write(EntityNameResolver.ResolveAttributeName(CrmEntityNames.CampusContractStatistic, item.ToString()));#>" />
+                      <#}
+         #>
+    <filter type="and">
+		<condition attribute="new_key" operator="eq" value="<#Write(CampusContractKey);#>" entityname="<#= FetchXmlConstants.CampusContractStatisticCampusContractAliasName #>" />
+         <condition attribute="createdon" operator="ge" value="<#Write(Date);#>" />
+    </filter>
+	<link-entity name="new_campuscontract" to="new_campuscontractid" from="new_campuscontractid" link-type="outer" alias="<#= FetchXmlConstants.CampusContractStatisticCampusContractAliasName #>">
+      <attribute name="new_key" />
+    </link-entity>
+  </entity>
+</fetch>

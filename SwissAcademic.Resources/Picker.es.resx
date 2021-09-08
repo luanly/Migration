@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddAsLocalFileToTheCurrentCitaviReference" xml:space="preserve">
+    <value>Añadir como copia local al presente título de Citavi</value>
+  </data>
+  <data name="AddPDFDocumentAndSaveSelection" xml:space="preserve">
+    <value>Añadir el documento PDF y guardar el texto marcado</value>
+  </data>
+  <data name="AddPDFDocumentAsReference" xml:space="preserve">
+    <value>Añadir el documento PDF como título</value>
+  </data>
+  <data name="AddReferenceAndAddSelection" xml:space="preserve">
+    <value>Añadir el título y guardar el texto marcado</value>
+  </data>
+  <data name="AddScreenAsScreenshot" xml:space="preserve">
+    <value>Añadir la captura de pantalla como cubierta</value>
+  </data>
+  <data name="AddSelectedImage" xml:space="preserve">
+    <value>Añadir el gráfico marcado</value>
+  </data>
+  <data name="AddSelectionAsImageQuotation" xml:space="preserve">
+    <value>Añadir la imagen marcada como cita de imagen</value>
+  </data>
+  <data name="AddSelectionAsQuotation" xml:space="preserve">
+    <value>Añadir el texto marcado como cita</value>
+  </data>
+  <data name="AddTextSelection" xml:space="preserve">
+    <value>Añadir el texto marcado</value>
+  </data>
+  <data name="AddToCitaviProjectByDOI" xml:space="preserve">
+    <value>Añadir títulos al proyecto de Citavi utilizando el DOI</value>
+  </data>
+  <data name="AddToCitaviProjectByISBN" xml:space="preserve">
+    <value>Añadir títulos al proyecto de Citavi utilizando este ISBN</value>
+  </data>
+  <data name="AddWebPageAsReference" xml:space="preserve">
+    <value>Añadir la página web como título</value>
+  </data>
+  <data name="AdobePicker" xml:space="preserve">
+    <value>Citavi Picker para Adobe Acrobat/Professional</value>
+  </data>
+  <data name="AlreadyInProject_DOI" xml:space="preserve">
+    <value>En el presente proyecto ya existe un artículo con este DOI.</value>
+  </data>
+  <data name="AlreadyInProject_ISBN" xml:space="preserve">
+    <value>En el presente proyecto ya existe un libro con este ISBN.</value>
+  </data>
+  <data name="AsAbstract" xml:space="preserve">
+    <value>...como abstract</value>
+  </data>
+  <data name="AsCoverArt" xml:space="preserve">
+    <value>...como cubierta</value>
+  </data>
+  <data name="AsImageQuotation" xml:space="preserve">
+    <value>...como cita de imagen</value>
+  </data>
+  <data name="AsKeyword" xml:space="preserve">
+    <value>...como palabra clave</value>
+  </data>
+  <data name="AsQuotation" xml:space="preserve">
+    <value>…como cita</value>
+  </data>
+  <data name="AsTableOfContents" xml:space="preserve">
+    <value>...como índice</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="ChromePicker" xml:space="preserve">
+    <value>Citavi Picker para Google Chrome</value>
+  </data>
+  <data name="CitaviFoundReferencesToImportDirectly" xml:space="preserve">
+    <value>Se ha(n) encontrado {0} título(s). Citavi buscará ahora los textos completos de este/estos título(s).</value>
+  </data>
+  <data name="CitaviIsNotRunning" xml:space="preserve">
+    <value>El Picker ha determinado que Citavi no está activo. 
+Recuerde que tras iniciar Citavi
+ y abrir un proyecto debe activar de nuevo el 
+último comando utilizado en el Picker.</value>
+  </data>
+  <data name="ClickHereToImportTheReferences" xml:space="preserve">
+    <value>Haga clic aquí para importar los títulos.</value>
+  </data>
+  <data name="Copyrigth" xml:space="preserve">
+    <value>Citavi Picker {0} para {1} es un programa complementario para el software "Gestión de referencias bibliográficas y organización del conocimiento Citavi®"
+</value>
+  </data>
+  <data name="CopySelectionAndURLToClipboard" xml:space="preserve">
+    <value>Copiar en el portapapeles los datos marcados y el URL</value>
+  </data>
+  <data name="FFPicker" xml:space="preserve">
+    <value>Citavi Picker para Firefox</value>
+  </data>
+  <data name="IEPicker" xml:space="preserve">
+    <value>Citavi Picker para Internet Explorer</value>
+  </data>
+  <data name="ImageOfTheCompletePage" xml:space="preserve">
+    <value>Imagen de la página completa</value>
+  </data>
+  <data name="ImageOfTheCurrentWindow" xml:space="preserve">
+    <value>Imagen de la ventana actual</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Importar</value>
+  </data>
+  <data name="ImportTitleLabel" xml:space="preserve">
+    <value>¿Qué títulos desea importar?</value>
+  </data>
+  <data name="NoResultsWereFoundForTheseCriteria" xml:space="preserve">
+    <value>No se ha encontrado ningún resultado que coincida con sus criterios de búsqueda.</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="OptionsDialogHunterCheckbox" xml:space="preserve">
+    <value>Activar el Hunter</value>
+  </data>
+  <data name="OptionsDialogHunterInfo" xml:space="preserve">
+    <value>La función "Hunter" le permite importar rápidamente a su proyecto de Citavi los resultados de búsqueda localizados en distintas bases de datos bibliográficos (PubMed, Scholar, ArXiv.org, etc.). Además, el Picker muestra tras cada búsqueda una barra azul en la parte inferior de la página. Haciendo clic en esta barra se pueden insertar en el proyecto de Citavi que esté abierto los resultados de búsqueda mostrados.</value>
+  </data>
+  <data name="OptionsDialogHunterTitle" xml:space="preserve">
+    <value>Detectar automáticamente resultados de búsqueda en páginas web</value>
+  </data>
+  <data name="OptionsDialogISBNCheckbox" xml:space="preserve">
+    <value>Utilizar la búsqueda por ISBN y por DOI; se visualizará el icono de Citavi</value>
+  </data>
+  <data name="OptionsDialogISBNInfo" xml:space="preserve">
+    <value>Citavi inserta el icono del programa tras los números ISBN y los DOI que aparezcan en una página web. Si hace clic en el icono, Citavi buscará los datos bibliográficos y los guardará en el proyecto que esté abierto. Los catálogos en los que el programa debe buscar estos datos se seleccionan en el menú: Herramientas &gt; Opciones &gt; Búsqueda.</value>
+  </data>
+  <data name="OptionsDialogShowImportMsgboxCheckbox" xml:space="preserve">
+    <value>Activar los mensajes</value>
+  </data>
+  <data name="OptionsDialogShowImportMsgboxInfo" xml:space="preserve">
+    <value>Después de enviar datos de su buscador al proyecto de Citavi, el Picker notificará que se ha completado el traspaso de información.</value>
+  </data>
+  <data name="OptionsDialogShowImportMsgboxTitle" xml:space="preserve">
+    <value>Mostrar los mensajes</value>
+  </data>
+  <data name="ReferenceSentToCitavi" xml:space="preserve">
+    <value>El título se ha enviado a Citavi</value>
+  </data>
+  <data name="RunCitavi" xml:space="preserve">
+    <value>Iniciar Citavi</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="VersionLabel" xml:space="preserve">
+    <value>Versión:</value>
+  </data>
+  <data name="AddPdfAsLocalFile" xml:space="preserve">
+    <value>Añadir como copia local al presente título de Citavi</value>
+  </data>
+  <data name="AddPdfAsReference" xml:space="preserve">
+    <value>Añadir el documento PDF como título</value>
+  </data>
+  <data name="PdfOptionsDialogCopyPdf" xml:space="preserve">
+    <value>Copiar el documento PDF en la carpeta de adjuntos de Citavi</value>
+  </data>
+  <data name="PdfOptionsDialogInfoLabel" xml:space="preserve">
+    <value>El Picker toma de Internet los datos bibliográficos de un archivo PDF y los envía al proyecto de Citavi que esté abierto. 
+
+También puede guardar una copia del archivo PDF en su ordenador y cambiar su nombre directamente por el título breve que Citavi ha creado para el nuevo título.</value>
+  </data>
+  <data name="PdfOptionsDialogRenamePdf" xml:space="preserve">
+    <value>Cambiar el nombre del documento PDF por el título breve de Citavi</value>
+  </data>
+  <data name="Deselect_All" xml:space="preserve">
+    <value>Anular la selección</value>
+  </data>
+  <data name="Select_All" xml:space="preserve">
+    <value>Seleccionar todo</value>
+  </data>
+  <data name="EnableTrace" xml:space="preserve">
+    <value>Activar función de seguimiento</value>
+    <comment>Fehlte in anderen Sprachen</comment>
+  </data>
+  <data name="OptionsDialogISBNDOITitle" xml:space="preserve">
+    <value>Detectar automáticamente ISBN y DOI</value>
+  </data>
+  <data name="AddKindleQuotation" xml:space="preserve">
+    <value>Guardar en Citavi</value>
+  </data>
+  <data name="ShowKindleQuotation" xml:space="preserve">
+    <value>Ver en Citavi</value>
+  </data>
+  <data name="AddKindleReference" xml:space="preserve">
+    <value>Guardar en Citavi</value>
+  </data>
+  <data name="ImportKindleReference" xml:space="preserve">
+    <value>Importando el título en {0}…</value>
+  </data>
+  <data name="ShowKindleReference" xml:space="preserve">
+    <value>Ver en Citavi</value>
+  </data>
+  <data name="AddToCitaviProjectByPMID" xml:space="preserve">
+    <value>Añadir título al proyecto de Citavi utilizando este ID Pubmed</value>
+  </data>
+  <data name="AlreadyInProject_PMID" xml:space="preserve">
+    <value>En el presente proyecto ya existe un artículo con este ID Pubmed.</value>
+  </data>
+  <data name="Account_Login" xml:space="preserve">
+    <value>Iniciar sesión en la cuenta…</value>
+  </data>
+  <data name="Account_Logout" xml:space="preserve">
+    <value>Cerrar sesión</value>
+  </data>
+  <data name="Account_Profile" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="Error_Text_1" xml:space="preserve">
+    <value>Se ha enviado automáticamente una notificación a nuestro equipo de programadores, que tratará de subsanar el error lo más rápidamente posible.</value>
+  </data>
+  <data name="Error_Text_2" xml:space="preserve">
+    <value>Ayúdenos a encontrar el error.</value>
+  </data>
+  <data name="ExistsInProject" xml:space="preserve">
+    <value>Ya disponible en '{0}'.</value>
+  </data>
+  <data name="Panel_Abstract" xml:space="preserve">
+    <value>Abstract</value>
+  </data>
+  <data name="Panel_AddSelectionAsField" xml:space="preserve">
+    <value>añadir como...</value>
+  </data>
+  <data name="Panel_AddSelectionCurrentReference" xml:space="preserve">
+    <value>Selección en el título actual…</value>
+  </data>
+  <data name="Panel_AddWebPageAsReference" xml:space="preserve">
+    <value>Añadir &lt;span class='red'&gt;página web como título nuevo&lt;/span&gt;</value>
+  </data>
+  <data name="Panel_Back" xml:space="preserve">
+    <value>Atrás</value>
+  </data>
+  <data name="Panel_Button_Go" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="Panel_ChooseAnAction" xml:space="preserve">
+    <value>Seleccione lo que desea hacer a continuación:</value>
+  </data>
+  <data name="Panel_CitaviIsNotRunning" xml:space="preserve">
+    <value>El Picker ha detectado que no hay ningún proyecto de Citavi abierto.&lt;br&gt;&lt;br&gt;Inicie Citavi ahora y abra el proyecto al que desea añadir esta información.</value>
+  </data>
+  <data name="Panel_CitaviWebLogin" xml:space="preserve">
+    <value>Inicio de sesión en Citavi Web</value>
+  </data>
+  <data name="Panel_Error" xml:space="preserve">
+    <value>Se ha producido un error</value>
+  </data>
+  <data name="Panel_Help" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="Panel_Keywords" xml:space="preserve">
+    <value>Palabras clave</value>
+  </data>
+  <data name="Panel_More" xml:space="preserve">
+    <value>Más información</value>
+  </data>
+  <data name="Panel_ProjectSelection" xml:space="preserve">
+    <value>Seleccione el proyecto al que quiere importar los datos:</value>
+  </data>
+  <data name="Panel_QuickHelp" xml:space="preserve">
+    <value>Consejo</value>
+  </data>
+  <data name="Panel_Settings" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="Panel_Settings_EnableTrace_Text" xml:space="preserve">
+    <value>Active esta opción únicamente si se lo ha solicitado el servicio de asistencia técnica de Citavi.</value>
+  </data>
+  <data name="Panel_Settings_Hunter_Text" xml:space="preserve">
+    <value>El Hunter ofrece diversas opciones para importar fácilmente los resultados encontrados en catálogos de bibliotecas y en bases de datos bibliográficos.</value>
+  </data>
+  <data name="Panel_Settings_MsgBox_Text" xml:space="preserve">
+    <value>Cuando los datos se hayan transmitido correctamente del navegador a su proyecto, aparecerá el mensaje correspondiente.</value>
+  </data>
+  <data name="Panel_Settings_ReferenceIdentifier_Text" xml:space="preserve">
+    <value>Citavi buscará los datos necesarios utilizando el ISBN, el DOI, el ID PubMed, el PMCID o el ID de ArXiV. Podrá añadir los datos de los títulos a Citavi con un solo clic del ratón.</value>
+  </data>
+  <data name="Panel_Settings_ReferenceIdentifier_Title" xml:space="preserve">
+    <value>Detectar los ID automáticamente</value>
+  </data>
+  <data name="Panel_Settings_Settings_EnableTrace" xml:space="preserve">
+    <value>Activar función de seguimiento</value>
+  </data>
+  <data name="Panel_TextQuotation" xml:space="preserve">
+    <value>Cita</value>
+  </data>
+  <data name="Panel_ToC" xml:space="preserve">
+    <value>Índice</value>
+  </data>
+  <data name="Panel_Warning" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="ProjectSelection" xml:space="preserve">
+    <value>Proyecto:</value>
+  </data>
+  <data name="ReferenceDataSentToCitavi" xml:space="preserve">
+    <value>Los datos de título seleccionados se han enviado a Citavi.\nEs posible que transcurran unos segundos antes de que pueda visualizarlos en Citavi.</value>
+  </data>
+  <data name="TargetProject" xml:space="preserve">
+    <value>Proyecto de destino:</value>
+  </data>
+  <data name="TargetProject_Desktop" xml:space="preserve">
+    <value>Proyecto local activo</value>
+  </data>
+  <data name="Trace_Comment" xml:space="preserve">
+    <value>Comentario</value>
+  </data>
+  <data name="Trace_Email" xml:space="preserve">
+    <value>Dirección de correo electrónico</value>
+  </data>
+  <data name="Trace_Name" xml:space="preserve">
+    <value>Su nombre</value>
+  </data>
+  <data name="Trace_Send" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="Trace_Text_1" xml:space="preserve">
+    <value>Describa brevemente qué estaba haciendo cuando se produjo el error.</value>
+  </data>
+  <data name="Trace_Text_2" xml:space="preserve">
+    <value>Gracias&lt;br/&gt; por ayudarnos a seguir mejorando Citavi. Sus datos nos son de gran ayuda.</value>
+  </data>
+  <data name="TryDownloadPdf" xml:space="preserve">
+    <value>Buscar PDF…</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>O, como alternativa:</value>
+  </data>
+  <data name="Panel_ChooseAnAction_Hunter" xml:space="preserve">
+    <value>Seleccione los títulos que quiere importar.&lt;br/&gt;Cuando lo tenga todo listo, haga clic en Aceptar.</value>
+  </data>
+  <data name="TextSelectionClipboardSuccess" xml:space="preserve">
+    <value>Los datos se han copiado.</value>
+  </data>
+  <data name="NoProjectOpen" xml:space="preserve">
+    <value>En este momento no hay ningún proyecto de Citavi abierto.</value>
+  </data>
+  <data name="Panel_AddPdfAsLocalFile_link" xml:space="preserve">
+    <value>Añadir como copia local &lt;a id='addPdfAsLocalFileBtn'&gt;al presente título de Citavi&lt;/a&gt;</value>
+  </data>
+  <data name="Panel_AddPdfAsReference_link" xml:space="preserve">
+    <value>Añadir el documento PDF &lt;a id='webPageAsNewReferenceBtn'&gt;como título&lt;/a&gt;</value>
+  </data>
+  <data name="Panel_AddPDFDocumentAsReference" xml:space="preserve">
+    <value>Añadir &lt;span class='red'&gt;documento PDF como título&lt;/span&gt;</value>
+  </data>
+  <data name="Panel_AddTextSelection" xml:space="preserve">
+    <value>y añadir el texto marcado como...</value>
+  </data>
+  <data name="Panel_AddWebPageAsReference_link" xml:space="preserve">
+    <value>Añadir la página web &lt;a id='webPageAsNewReferenceBtn'&gt;como título&lt;/a&gt;</value>
+  </data>
+  <data name="Panel_CopySelectionAndURLToClipboard_1" xml:space="preserve">
+    <value>Texto marcado y URL</value>
+  </data>
+  <data name="Panel_CopySelectionAndURLToClipboard_2" xml:space="preserve">
+    <value>Copiar en el portapapeles</value>
+  </data>
+  <data name="Panel_Hunter_SelectAll" xml:space="preserve">
+    <value>Todos los títulos</value>
+  </data>
+  <data name="Panel_AddWebPageAsLocation" xml:space="preserve">
+    <value>Añadir al título actual de Citavi como &lt;a id='webPageAsLocation'&gt;dirección de Internet&lt;/a&gt;</value>
+  </data>
+  <data name="Panel_ImportHunterReferences" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="ImportLocalFilesNotSupported" xml:space="preserve">
+    <value>Con el Picker de Citavi no se pueden importar archivos locales.</value>
+  </data>
+  <data name="ReferenceSentToCitavi_Plural" xml:space="preserve">
+    <value>Los títulos se han enviado a Citavi</value>
+  </data>
+  <data name="Panel_Settings_ImportPdf_Text" xml:space="preserve">
+    <value>Citavi guarda en su proyecto los textos completos de los títulos encontrados.</value>
+  </data>
+  <data name="Panel_Settings_ImportPdf_Title" xml:space="preserve">
+    <value>Descargar los PDF automáticamente​</value>
+  </data>
+  <data name="ShowReference" xml:space="preserve">
+    <value>Mostrar título</value>
+  </data>
+  <data name="AlreadyInProject_AutoShowReference" xml:space="preserve">
+    <value>No volver a mostrar este mensaje. En el futuro, aparecerá directamente el título en Citavi.</value>
+  </data>
+  <data name="Panel_Settings_AlreadyInProject_AutoShowReference_Text" xml:space="preserve">
+    <value>Si en este proyecto ya existe un artículo con este DOI, el título se mostrará directamente si se hace clic en el icono del Picker.</value>
+  </data>
+  <data name="Panel_Settings_AlreadyInProject_AutoShowReference_Title" xml:space="preserve">
+    <value>Ir directamente al título</value>
+  </data>
+  <data name="BibliographyReferencesProgressText" xml:space="preserve">
+    <value>Buscando títulos citados…</value>
+  </data>
+  <data name="BibliographyReferencesTitle" xml:space="preserve">
+    <value>Otros títulos citados en este título</value>
+  </data>
+  <data name="Panel_BibliographyImportInfo_Info" xml:space="preserve">
+    <value>Si el número de títulos es muy elevado, este proceso puede requerir unos segundos.</value>
+  </data>
+  <data name="Panel_BibliographyImportInfo_Title" xml:space="preserve">
+    <value>En el título seleccionado se citan {0} títulos más</value>
+  </data>
+  <data name="Panel_BibliographyImport_ImportSelectedReference" xml:space="preserve">
+    <value>Importar solo el título seleccionado</value>
+  </data>
+  <data name="Panel_BibliographyImport_ImportSelectedReferenceAndCitedReferences" xml:space="preserve">
+    <value>Importar también todos los títulos citados</value>
+  </data>
+  <data name="Panel_BibliographyImport_ImportSelectedReferenceAndCitedReferences2" xml:space="preserve">
+    <value>Ver antes los títulos citados, para poder seleccionar los que correspondan</value>
+  </data>
+  <data name="NewsPaperHtmlToPdf" xml:space="preserve">
+    <value>generar además un PDF</value>
+  </data>
+  <data name="Panel_Settings_LookupBibliography_Text" xml:space="preserve">
+    <value>El Picker le ofrece la posibilidad de importar las fuentes citadas en un artículo de revista.</value>
+  </data>
+  <data name="Panel_Settings_LookupBibliography_Title" xml:space="preserve">
+    <value>Importar los títulos citados</value>
+  </data>
+</root>

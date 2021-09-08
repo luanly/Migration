@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Access" xml:space="preserve">
+    <value>Microsoft Office Access  (*.mdb)|*.mdb|Todos os arquivos (*.*)|*.*</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Todos os arquivos (*.*)|*.*</value>
+  </data>
+  <data name="Bibliographix" xml:space="preserve">
+    <value>Arquivos Bibliographix (*.bgx; *bx7; *bx9)|*.bgx;*bx7;*bx9|Todos os arquivos (*.*)|*.*</value>
+  </data>
+  <data name="BibTeX" xml:space="preserve">
+    <value>Arquivos BibTeX (*.bib; *.txt)|*.bib;*.txt|Todos os arquivos (*.*)|*.*</value>
+  </data>
+  <data name="Bitmap" xml:space="preserve">
+    <value>Todos os formatos Bitmap (*.bmp; *.gif; *.ico; *.jpg; *.jpeg; *.png; *.tif; *.tiff)|*.bmp; *.gif; *.ico; *.jpg; *.jpeg; *.png; *.tif; *.tiff|Todos os arquivos (*.*)|*.*</value>
+  </data>
+  <data name="BitmapSave" xml:space="preserve">
+    <value>JPEG-Format|*.jpg|Formato BMP|*.bmp|GIF-Format|*.gif|Formato PNG|*.png|Formato TIFF|*.tif</value>
+  </data>
+  <data name="Calc" xml:space="preserve">
+    <value>Arquivos Calc (*.ods)|*.ods|Todos os arquivos (*.*)|*.*</value>
+  </data>
+  <data name="CitaviCitationStyle" xml:space="preserve">
+    <value>Estilo de citação Citavi (*.ccs)|*.ccs|Todos os arquivos (*.*)|*.*</value>
+  </data>
+  <data name="Citavi" xml:space="preserve">
+    <value>Projetos Citavi|*.ctv6;*.ctvdbs6;*.ctv6archive;*.ctv6bak;*.ctv5;*.ctvdbs5;*.ctv4;*.ctt4;*.ctv3;*.ctt3|Todos os arquivos|*.*</value>
+  </data>
+  <data name="Csv" xml:space="preserve">
+    <value>Arquivos Csv (*.csv)|*.csv|Todos os arquivos (*.*)|*.*</value>
+  </data>
+  <data name="EndNote" xml:space="preserve">
+    <value>Arquivos EndNote (*.enl)|*.enl|Todos os arquivos (*.*)|*.*</value>
+  </data>
+  <data name="Excel" xml:space="preserve">
+    <value>Arquivos Excel (*.xlsx)|*.xlsx|Todos os arquivos (*.*)|*.*</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Todos os formatos de imagem (*.bmp; *.emf; *.exif; *.gif; *.ico; *.jpg; *.jpeg; *.png; *.tif; *.tiff; *.wmf)|*.bmp; *.emf; *.exif; *.gif; *.ico; *.jpg; *.jpeg; *.png; *.tif; *.tiff; *.wmf|Todos os arquivos (*.*)|*.*</value>
+  </data>
+  <data name="LiteRat" xml:space="preserve">
+    <value>Arquivos LiteRat (*.mdb)|*.mdb|Todos os arquivos (*.*)|*.*</value>
+  </data>
+  <data name="MindManager" xml:space="preserve">
+    <value>Documentos Mind Manager  (*.mmap)|*.mmap|Todos os arquivos (*.*)|*.*</value>
+  </data>
+  <data name="Ris" xml:space="preserve">
+    <value>Arquivos RIS, Arquivos de texto (*.ris; *.txt)|*.ris;*.txt|Todos os arquivos (*.*)|*.*</value>
+  </data>
+  <data name="TabularText" xml:space="preserve">
+    <value>Arquivos de texto (*.txt; *.csv)|*.txt; *csv|Todos os arquivos (*.*)|*.*</value>
+  </data>
+  <data name="Txt" xml:space="preserve">
+    <value>Arquivos de texto (*.txt)|*.txt|Todos os arquivos (*.*)|*.*</value>
+  </data>
+  <data name="Word" xml:space="preserve">
+    <value>Documentos Word  (*.doc; *.docx)|*.doc;*.docx|Todos os arquivos (*.*)|*.*</value>
+  </data>
+  <data name="WordProcessorOpen" xml:space="preserve">
+    <value>Formatos suportados (*.rtf; *.txt; *.doc; *.docx; *.odt)|*.txt;*.rtf;*.doc;*.docx;*.odt|Formato RTF (*.rtf)|*.rtf|Texto ASCII (*.txt)|*.txt|Texto Unicode (*.txt)|*.txt|Formato Word (*.doc; *.docx)|*.doc;*.docx|Texto OpenDocument (*.odt)|*.odt|Todos os arquivos (*.*)|*.*</value>
+  </data>
+  <data name="WordProcessorSave" xml:space="preserve">
+    <value>Formato RTF|*.rtf|Somente texto|*.txt|Formato Word (*.doc)|*.doc|Texto OpenDocument (*.odt)|*.odt</value>
+  </data>
+  <data name="CitaviSettings" xml:space="preserve">
+    <value>Arquivos de configuração Citavi (*.csd;*.xml)|*.csd;*.xml|Todos os arquivos|*.*</value>
+  </data>
+  <data name="MPX" xml:space="preserve">
+    <value>Arquivo MPX (*.mpx)|*.mpx|Todos os arquivos (*.*)|*.*</value>
+  </data>
+  <data name="Writer" xml:space="preserve">
+    <value>Texto OpenDocument (*.odt)|*.odt</value>
+  </data>
+  <data name="Pdf" xml:space="preserve">
+    <value>Documentos PDF (*.pdf)|*.pdf|Todos os arquivos|*.*</value>
+  </data>
+  <data name="AsposeDocumentSave" xml:space="preserve">
+    <value>Documentos Word (*.docx)|*.docx|Documento Word 97-2003 (*.doc)|*.doc|PDF (*.pdf)|*.pdf|Texto OpenDocument (*.odt)|*.odt|Formato Rich-Text (*.rtf)|*.rtf|Website (*.html)|*.html|Documento XPS (*.xps)|*.xps|Somente texto (*.txt)|*.txt</value>
+  </data>
+  <data name="SQLite" xml:space="preserve">
+    <value>Arquivos SQLite (*.sqlite)|*.sqlite|Todos os arquivos (*.*)|*.*</value>
+    <comment>überprüfen wg. fileendung</comment>
+  </data>
+  <data name="ReferenceIdentifierLookup" xml:space="preserve">
+    <value>Formatos suportados (*.rtf; *.txt; *.doc; *.docx; *.odt;*.pdf;*.csv)|*.txt;*.rtf;*.doc;*.docx;*.odt;*.pdf;*.csv|Formato RTF (*.rtf)|*.rtf|ASCII-Text (*.txt; *.csv)|*.txt; *.csv|Texto Unicode (*.txt)|*.txt|Formato Word (*.doc; *.docx)|*.doc;*.docx|Texto OpenDocument (*.odt)|*.odt|PDF (*.pdf)|*.pdf|Todos os arquivos (*.*)|*.*</value>
+  </data>
+  <data name="Cover" xml:space="preserve">
+    <value>Formatos de capa|*.bmp; *.emf; *.exif; *.gif; *.ico; *.jpg; *.jpeg; *.pdf; *.png; *.tif; *.tiff; *.wmf|Todos os arquivos|*.*</value>
+  </data>
+  <data name="TeXFilter" xml:space="preserve">
+    <value>Arquivos TeX (*.tex)|*.tex|Arquivos LyX (*.lyx)|*.lyx|Todos os arquivos (*.*)|*.*</value>
+  </data>
+  <data name="CitaviLog" xml:space="preserve">
+    <value>Log de rastreamento Citavi (*.zip)|*.zip</value>
+  </data>
+  <data name="Excel2003Save" xml:space="preserve">
+    <value>Planilha Excel 97-2003 (*.xls)|*.xls</value>
+    <comment>JHP Exporting grid to Excel only possible with XLS, NOT XLSX</comment>
+  </data>
+  <data name="Citavi5" xml:space="preserve">
+    <value>Projetos Citavi|*.ctv5;*.ctvdbs5</value>
+  </data>
+  <data name="CalcExtension" xml:space="preserve">
+    <value>.ods</value>
+  </data>
+  <data name="CitationStyleExtension" xml:space="preserve">
+    <value>.ccs</value>
+  </data>
+  <data name="CitaviCacheExtension" xml:space="preserve">
+    <value>ctc</value>
+  </data>
+  <data name="CitaviDefaultExtension" xml:space="preserve">
+    <value>.ctv6</value>
+  </data>
+  <data name="ExcelExtension" xml:space="preserve">
+    <value>.xls</value>
+  </data>
+  <data name="CitaviDBServerProject" xml:space="preserve">
+    <value>Projeto Citavi DBServer|*.ctvdbs6</value>
+  </data>
+  <data name="CitaviDBServerLicense" xml:space="preserve">
+    <value>Licenças Citavi DBServer (*.cdb6lic)|*.cdb6lic|Todos os arquivos (*.*)|*.*</value>
+  </data>
+  <data name="CitaviDBServerDatabase" xml:space="preserve">
+    <value>Bancos de dados Citavi DBServer|*.cdm6</value>
+  </data>
+  <data name="Xml" xml:space="preserve">
+    <value>Arquivos Xml (*.xml)|*.xml|Todos os arquivos (*.*)|*.*</value>
+  </data>
+  <data name="BibliographyGroupingSets_Export" xml:space="preserve">
+    <value>Agrupamentos (*.ctvbgd)|*.ctvbgd</value>
+  </data>
+  <data name="BibliographyGroupingSets_Import" xml:space="preserve">
+    <value>Agrupamentos (*.ctvbgd)|*.ctvbgd|Todos os arquivos|*.*</value>
+  </data>
+  <data name="Citavi6" xml:space="preserve">
+    <value>Projetos Citavi|*.ctv6;*.ctvdbs6</value>
+  </data>
+  <data name="SaveChatHistoryFilter" xml:space="preserve">
+    <value>Arquivos txt (*.txt)|*.txt|html Arquivos (*.html)|*.html</value>
+  </data>
+</root>

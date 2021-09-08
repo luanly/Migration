@@ -1,0 +1,2354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllReferences" xml:space="preserve">
+    <value>Toutes les références</value>
+  </data>
+  <data name="AttachmentsAdd" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="AttachmentsAddOthers" xml:space="preserve">
+    <value>Ajouter une autre pièce jointe</value>
+  </data>
+  <data name="AttachmentsDeleteFile" xml:space="preserve">
+    <value>Souhaitez-vous déposer le fichier "{0}" dans la corbeille ?</value>
+  </data>
+  <data name="AttachmentsDownload" xml:space="preserve">
+    <value>Télécharger</value>
+  </data>
+  <data name="AttachmentsLinkInternetAddress" xml:space="preserve">
+    <value>Associer une adresse Internet</value>
+  </data>
+  <data name="AttachmentsUploadLocalFile" xml:space="preserve">
+    <value>Télécharger le fichier</value>
+  </data>
+  <data name="CategoriesSearchPlaceholder" xml:space="preserve">
+    <value>Recherche de catégorie</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="ComplexTextEditWarning" xml:space="preserve">
+    <value>Si vous modifiez ce texte, la mise en forme sera perdue.</value>
+  </data>
+  <data name="CriteriaAdvanced" xml:space="preserve">
+    <value>Autre</value>
+  </data>
+  <data name="CriteriaAdvanced_HasKnowledgeItems" xml:space="preserve">
+    <value>Avec des citations, commentaires…</value>
+  </data>
+  <data name="CriteriaAdvanced_CheckedOriginalSource" xml:space="preserve">
+    <value>Avec des informations bibliographiques non vérifiées</value>
+  </data>
+  <data name="CriteriaAdvanced_Invert" xml:space="preserve">
+    <value>Inverser le filtre</value>
+  </data>
+  <data name="CriteriaApplyReferencesCriteria" xml:space="preserve">
+    <value>Appliquer le filtre de références</value>
+  </data>
+  <data name="CriteriaCategories" xml:space="preserve">
+    <value>Catégories</value>
+  </data>
+  <data name="CriteriaChangeReferenceCriteria" xml:space="preserve">
+    <value>Pour modifier les filtres, passez à Références</value>
+  </data>
+  <data name="CriteriaCurrentReferenceCriteria" xml:space="preserve">
+    <value>Filtre de références actuel</value>
+  </data>
+  <data name="CriteriaKeywords" xml:space="preserve">
+    <value>Mots clés</value>
+  </data>
+  <data name="CriteriaMarks" xml:space="preserve">
+    <value>Etiquettes</value>
+  </data>
+  <data name="CriteriaMarks_Blue" xml:space="preserve">
+    <value>Cercle</value>
+  </data>
+  <data name="CriteriaMarks_NoMarks" xml:space="preserve">
+    <value>Sans étiquette</value>
+  </data>
+  <data name="CriteriaMarks_Red" xml:space="preserve">
+    <value>Drapeau</value>
+  </data>
+  <data name="CriteriaMarks_RedAndBlue" xml:space="preserve">
+    <value>Les deux étiquettes</value>
+  </data>
+  <data name="CriteriaPeople" xml:space="preserve">
+    <value>Personnes, organisations</value>
+  </data>
+  <data name="CriteriaPeriodicals" xml:space="preserve">
+    <value>Périodiques</value>
+  </data>
+  <data name="CriteriaRating" xml:space="preserve">
+    <value>Evaluation</value>
+  </data>
+  <data name="CriteriaRating_WithoutWrittenEvaluation" xml:space="preserve">
+    <value>Sans évaluation écrite</value>
+  </data>
+  <data name="CriteriaRating_WithWrittenEvaluation" xml:space="preserve">
+    <value>Avec évaluation écrite</value>
+  </data>
+  <data name="CriteriaReferenceType" xml:space="preserve">
+    <value>Types de références</value>
+  </data>
+  <data name="CriteriaSelected" xml:space="preserve">
+    <value>Références en surbrillance</value>
+  </data>
+  <data name="CriteriaSeriesTitle" xml:space="preserve">
+    <value>Série</value>
+  </data>
+  <data name="CriteriasTitle" xml:space="preserve">
+    <value>Filtre de sélection</value>
+  </data>
+  <data name="Criterias_ApplyButton" xml:space="preserve">
+    <value>Appliquer</value>
+  </data>
+  <data name="Criterias_CancelButton" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="CriteriaTasks" xml:space="preserve">
+    <value>Tâches</value>
+  </data>
+  <data name="CriteriaThoughts" xml:space="preserve">
+    <value>Idées</value>
+  </data>
+  <data name="CriteriaYear" xml:space="preserve">
+    <value>Année de publication</value>
+  </data>
+  <data name="CriteriaYear_From" xml:space="preserve">
+    <value>De</value>
+  </data>
+  <data name="CriteriaYear_To" xml:space="preserve">
+    <value>à</value>
+  </data>
+  <data name="DbServerConnectionDialog_connectionStringInfoEditor" xml:space="preserve">
+    <value>Saisissez les informations de connexion reçues de votre administrateur système ou ouvrez le dialogue de &lt;a fref="OpenDataConnectionDialog"&gt;connexion&lt;/a&gt;.</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="DocumentSearchPlaceholder" xml:space="preserve">
+    <value>Recherche de document…</value>
+  </data>
+  <data name="EditInTextsPage" xml:space="preserve">
+    <value>Modifier dans l'éditeur de texte</value>
+  </data>
+  <data name="EditPdfSwitchToTextsPage" xml:space="preserve">
+    <value>Passer dans l'éditeur de texte et afficher l'extrait de texte associé ?</value>
+  </data>
+  <data name="FontColor" xml:space="preserve">
+    <value>Couleur de police</value>
+  </data>
+  <data name="For" xml:space="preserve">
+    <value>Pour</value>
+  </data>
+  <data name="ImageDisplayError" xml:space="preserve">
+    <value>Une erreur s'est produite lors de l'affichage de l'image</value>
+  </data>
+  <data name="InsertThought" xml:space="preserve">
+    <value>Insérer une nouvelle idée</value>
+  </data>
+  <data name="KeywordsSearchPlaceholder" xml:space="preserve">
+    <value>Recherche de mots clés</value>
+  </data>
+  <data name="KnowledgeItemComment_coreStatementLabelPlaceholder" xml:space="preserve">
+    <value>Votre opinion ou évaluation</value>
+  </data>
+  <data name="KnowledgeItemDelete" xml:space="preserve">
+    <value>Supprimer les éléments de connaissance</value>
+  </data>
+  <data name="KnowledgeItemFileForm_coreStatementLabelPlaceholder" xml:space="preserve">
+    <value>Saisissez une brève légende ou un message clé</value>
+  </data>
+  <data name="KnowledgeItemFileForm_imageDescriptionLabelPlaceholder" xml:space="preserve">
+    <value>Autres informations, p. ex. sur la source et l'auteur</value>
+  </data>
+  <data name="KnowledgeItemIndirectQuotation_coreStatementLabelPlaceholder" xml:space="preserve">
+    <value>Une interprétation particulièrement fidèle au texte, dans vos propres mots</value>
+  </data>
+  <data name="KnowledgeItemNavigationSearchPlaceholder" xml:space="preserve">
+    <value>Recherche d'éléments de connaissance</value>
+  </data>
+  <data name="KnowledgeItemQuickReference_coreStatementLabelPlaceholder" xml:space="preserve">
+    <value>Facultatif</value>
+  </data>
+  <data name="KnowledgeItemSummary_coreStatementLabelPlaceholder" xml:space="preserve">
+    <value>Une interprétation particulièrement fidèle à un chapitre ou une section, dans vos propres mots</value>
+  </data>
+  <data name="KnowledgeItem_CategoriesClickOnLabel" xml:space="preserve">
+    <value>Cliquer sur l'étiquette de champ pour gérer les catégories</value>
+  </data>
+  <data name="LastNameFirstNamePlaceholder" xml:space="preserve">
+    <value>Nom, prénom ;</value>
+  </data>
+  <data name="LibrariesSearchPlaceholder" xml:space="preserve">
+    <value>Recherche de bibliothèques</value>
+  </data>
+  <data name="LinkAddRemove" xml:space="preserve">
+    <value>Insérer le lien</value>
+  </data>
+  <data name="Load_NoKnowledgeItems" xml:space="preserve">
+    <value>Aucun élément de connaissance</value>
+  </data>
+  <data name="Load_NoLocations" xml:space="preserve">
+    <value>Pas d'emplacements</value>
+  </data>
+  <data name="Load_NoTasks" xml:space="preserve">
+    <value>Aucune tâche</value>
+  </data>
+  <data name="MoreFields" xml:space="preserve">
+    <value>Plus de champs</value>
+  </data>
+  <data name="NamePlaceholder" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="NavigationBar_ExportPrint" xml:space="preserve">
+    <value>Exportation &lt;br/&gt; impression</value>
+  </data>
+  <data name="NavigationBar_Import" xml:space="preserve">
+    <value>Importation &lt;br/&gt; recherche</value>
+  </data>
+  <data name="NavigationBar_Knowledge" xml:space="preserve">
+    <value>Connaissance</value>
+  </data>
+  <data name="NavigationBar_References" xml:space="preserve">
+    <value>Références</value>
+  </data>
+  <data name="NavigationBar_Tasks" xml:space="preserve">
+    <value>Tâches</value>
+  </data>
+  <data name="NavigationBar_Texts" xml:space="preserve">
+    <value>Textes</value>
+  </data>
+  <data name="NewKeyword" xml:space="preserve">
+    <value>Nouveau mot clé</value>
+  </data>
+  <data name="NewPeriodical" xml:space="preserve">
+    <value>Nouveau périodique</value>
+  </data>
+  <data name="NewPerson" xml:space="preserve">
+    <value>Nouvelle personne</value>
+  </data>
+  <data name="NewSeriesTitle" xml:space="preserve">
+    <value>Nouvelle série</value>
+  </data>
+  <data name="NewSubheadingDefaultText" xml:space="preserve">
+    <value>Insérer un sous-titre</value>
+  </data>
+  <data name="NewTask" xml:space="preserve">
+    <value>Nouvelle tâche</value>
+  </data>
+  <data name="PdfPreviewContext" xml:space="preserve">
+    <value>Visualiser</value>
+  </data>
+  <data name="PeopleSearchPlaceholder" xml:space="preserve">
+    <value>Recherche de personnes/organisations</value>
+  </data>
+  <data name="PeriodicalsSearchPlaceholder" xml:space="preserve">
+    <value>Recherche de périodiques</value>
+  </data>
+  <data name="PreviewControl_noFileLinked" xml:space="preserve">
+    <value>Aucun fichier associé</value>
+  </data>
+  <data name="PreviewControl_orDragFile" xml:space="preserve">
+    <value>ou faites glisser un fichier dans cette zone :</value>
+  </data>
+  <data name="ProjectPropertiesDialog_autoExportPdfAnnotationsCheckBox" xml:space="preserve">
+    <value>Exporter automatiquement les annotations de PDF</value>
+  </data>
+  <data name="PublishersSearchPlaceholder" xml:space="preserve">
+    <value>Recherche d'éditeurs</value>
+  </data>
+  <data name="Quick" xml:space="preserve">
+    <value>Insertion rapide</value>
+  </data>
+  <data name="ReferenceNavigationSearchPlaceholder" xml:space="preserve">
+    <value>Recherche de références</value>
+  </data>
+  <data name="ReferenceQuotations_moveDownButton" xml:space="preserve">
+    <value>Déplacer vers le bas</value>
+  </data>
+  <data name="ReferenceQuotations_moveUpButton" xml:space="preserve">
+    <value>Déplacer vers le haut</value>
+  </data>
+  <data name="ReferenceTypeSelectionDialog_currentReferenceTypeLabel" xml:space="preserve">
+    <value>En cours</value>
+  </data>
+  <data name="ReferenceTypeSelectionDialog_referenceTypesListLabel" xml:space="preserve">
+    <value>Les types déjà utilisés sont indiqués en &lt;span class="segoeUiSemibold"&gt;gras&lt;/span&gt;.</value>
+  </data>
+  <data name="RemoveFilterById" xml:space="preserve">
+    <value>Afficher toutes les références</value>
+  </data>
+  <data name="RemoveParagraphs" xml:space="preserve">
+    <value>Supprimer toutes les mises en forme</value>
+  </data>
+  <data name="RenameShortTitle" xml:space="preserve">
+    <value>Modifier le titre court</value>
+  </data>
+  <data name="ResetAutomaticShortTitle" xml:space="preserve">
+    <value>Réinitialiser automatiquement le titre court</value>
+  </data>
+  <data name="SaveError" xml:space="preserve">
+    <value>Une erreur s'est produite pendant l'enregistrement</value>
+  </data>
+  <data name="SaveSuccess" xml:space="preserve">
+    <value>Tous les changements ont été enregistrés</value>
+  </data>
+  <data name="Saving" xml:space="preserve">
+    <value>Enregistrement…</value>
+  </data>
+  <data name="SeeAlso" xml:space="preserve">
+    <value>Voir également :</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Sélectionner tout</value>
+  </data>
+  <data name="SelectAllEntitiesCount" xml:space="preserve">
+    <value>Sélectionner tous les {0} {1}</value>
+  </data>
+  <data name="SelectedKnowledgeItems" xml:space="preserve">
+    <value>Détails</value>
+  </data>
+  <data name="SeriesTitleSearchPlaceholder" xml:space="preserve">
+    <value>Recherche de séries</value>
+  </data>
+  <data name="Settings_ShowMarks" xml:space="preserve">
+    <value>Afficher les étiquettes</value>
+  </data>
+  <data name="ShowTextPosition" xml:space="preserve">
+    <value>Afficher la position du texte</value>
+  </data>
+  <data name="SourceCode" xml:space="preserve">
+    <value>Modifier le code source</value>
+  </data>
+  <data name="SplitterTrigger_Knowledge_Left" xml:space="preserve">
+    <value>Afficher les filtres de sélection</value>
+  </data>
+  <data name="SplitterTrigger_Knowledge_Right" xml:space="preserve">
+    <value>Afficher les détails</value>
+  </data>
+  <data name="SplitterTrigger_References_Criteria" xml:space="preserve">
+    <value>Afficher les filtres de sélection</value>
+  </data>
+  <data name="SplitterTrigger_References_Tabs" xml:space="preserve">
+    <value>Afficher les onglets</value>
+  </data>
+  <data name="StartPage" xml:space="preserve">
+    <value>Page d'accueil</value>
+  </data>
+  <data name="SupportInformationDialog_copyToClipboardButton" xml:space="preserve">
+    <value>Copier dans le Presse-papiers</value>
+  </data>
+  <data name="SupportInformationDialog_saveAsTextFIleButton" xml:space="preserve">
+    <value>Enregistrer en fichier texte…</value>
+  </data>
+  <data name="SupportInformationDialog_titleLabel" xml:space="preserve">
+    <value>Les informations suivantes nous aident à mieux répondre à vos questions d'assistance :</value>
+  </data>
+  <data name="TabContent_Abstract" xml:space="preserve">
+    <value>Abstract</value>
+  </data>
+  <data name="TabContent_Categories" xml:space="preserve">
+    <value>Catégories</value>
+  </data>
+  <data name="TabContent_Keywords" xml:space="preserve">
+    <value>Mots clés</value>
+  </data>
+  <data name="TabContent_Rating" xml:space="preserve">
+    <value>Evaluation</value>
+  </data>
+  <data name="TabContent_TableOfContents" xml:space="preserve">
+    <value>Table des matières</value>
+  </data>
+  <data name="TabMore_Locations" xml:space="preserve">
+    <value>Localisations</value>
+  </data>
+  <data name="TabMore_Tasks" xml:space="preserve">
+    <value>Tâches</value>
+  </data>
+  <data name="TabQuotation_CollapseAll" xml:space="preserve">
+    <value>Réduire tout</value>
+  </data>
+  <data name="TabQuotation_ExpandAll" xml:space="preserve">
+    <value>Développer tout</value>
+  </data>
+  <data name="TabQuotation_New" xml:space="preserve">
+    <value>Nouveau</value>
+  </data>
+  <data name="Tabs_ContentTab" xml:space="preserve">
+    <value>Contenu</value>
+  </data>
+  <data name="Tabs_ContextTab" xml:space="preserve">
+    <value>Contexte</value>
+  </data>
+  <data name="Tabs_LinksTab" xml:space="preserve">
+    <value>Liens</value>
+  </data>
+  <data name="Tabs_LocationsTab" xml:space="preserve">
+    <value>Localisations</value>
+  </data>
+  <data name="Tabs_MoreTab" xml:space="preserve">
+    <value>Plus…</value>
+  </data>
+  <data name="Tabs_NoKnowledgeItemSelected" xml:space="preserve">
+    <value>Aucun élément de connaissance sélectionné</value>
+  </data>
+  <data name="Tabs_NoReferenceSelected" xml:space="preserve">
+    <value>Aucune référence sélectionnée</value>
+  </data>
+  <data name="Tabs_QuotationTab" xml:space="preserve">
+    <value>Citations</value>
+  </data>
+  <data name="Tabs_ReferenceTab" xml:space="preserve">
+    <value>Référence</value>
+  </data>
+  <data name="Tabs_TasksTab" xml:space="preserve">
+    <value>Tâches</value>
+  </data>
+  <data name="TaskPlanner_All" xml:space="preserve">
+    <value>Tous</value>
+  </data>
+  <data name="TaskPlanner_AllTasks" xml:space="preserve">
+    <value>Toutes les tâches</value>
+  </data>
+  <data name="TaskPlanner_Done" xml:space="preserve">
+    <value>Terminé</value>
+  </data>
+  <data name="TaskPlanner_Important" xml:space="preserve">
+    <value>Important</value>
+  </data>
+  <data name="TaskPlanner_MyTasks" xml:space="preserve">
+    <value>Mes tâches</value>
+  </data>
+  <data name="TaskPlanner_Pending" xml:space="preserve">
+    <value>En cours</value>
+  </data>
+  <data name="TaskPlanner_ProjectTasks" xml:space="preserve">
+    <value>Tâches du projet</value>
+  </data>
+  <data name="TaskPlanner_ReferenceTasks" xml:space="preserve">
+    <value>Tâches de référence</value>
+  </data>
+  <data name="TaskPlanner_Sort_CreatedBy" xml:space="preserve">
+    <value>Créé par</value>
+  </data>
+  <data name="TaskPlanner_Sort_CreatedOn" xml:space="preserve">
+    <value>Créé le</value>
+  </data>
+  <data name="TaskPlanner_Sort_DueDate" xml:space="preserve">
+    <value>Echéance</value>
+  </data>
+  <data name="TaskPlanner_Sort_Importance" xml:space="preserve">
+    <value>Importance</value>
+  </data>
+  <data name="TaskPlanner_Sort_ShortTitle" xml:space="preserve">
+    <value>Titre court</value>
+  </data>
+  <data name="TaskPlanner_Sort_Type" xml:space="preserve">
+    <value>Type de tâche</value>
+  </data>
+  <data name="TaskPlanner_WithDate" xml:space="preserve">
+    <value>Avec délai</value>
+  </data>
+  <data name="TaskPlanner_WithNotes" xml:space="preserve">
+    <value>Avec notes</value>
+  </data>
+  <data name="TaskState_Overdue" xml:space="preserve">
+    <value>Délai dépassé</value>
+  </data>
+  <data name="ViewImage" xml:space="preserve">
+    <value>Ouvrir la couverture dans le nouvel onglet</value>
+  </data>
+  <data name="WithDetails" xml:space="preserve">
+    <value>Avec des détails</value>
+  </data>
+  <data name="CollapseAll" xml:space="preserve">
+    <value>Afficher uniquement les catégories principales</value>
+  </data>
+  <data name="ExpandAll" xml:space="preserve">
+    <value>Afficher toutes les catégories</value>
+  </data>
+  <data name="ExecuteForMoreThanTresholdWarning" xml:space="preserve">
+    <value>L'action va être exécutée pour les éléments marqués {0}. Confirmer ?</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Avertissement</value>
+  </data>
+  <data name="CoreStatementMissing" xml:space="preserve">
+    <value>[Pas de message clé]</value>
+  </data>
+  <data name="NameMissing" xml:space="preserve">
+    <value>[Pas de nom]</value>
+  </data>
+  <data name="CreatingAnnotation" xml:space="preserve">
+    <value>Création de l'annotation en cours…</value>
+  </data>
+  <data name="OrDragFileHere" xml:space="preserve">
+    <value>Ou faire glisser un fichier jusqu'ici</value>
+  </data>
+  <data name="DontAskAgain" xml:space="preserve">
+    <value>Ne plus demander par la suite</value>
+  </data>
+  <data name="GoToForm" xml:space="preserve">
+    <value>Modifier dans le formulaire</value>
+  </data>
+  <data name="DeleteWholeEntry" xml:space="preserve">
+    <value>Supprimer l'entrée complète</value>
+  </data>
+  <data name="DeleteWholeEntryQuestion" xml:space="preserve">
+    <value>Supprimer l'entrée complète ?</value>
+  </data>
+  <data name="OpenPdfAnnotationInTextsPage" xml:space="preserve">
+    <value>Open pdf annotation in Texts page</value>
+  </data>
+  <data name="OrderedList" xml:space="preserve">
+    <value>Décompte</value>
+  </data>
+  <data name="Thought" xml:space="preserve">
+    <value>Idée</value>
+  </data>
+  <data name="UnorderedList" xml:space="preserve">
+    <value>Puces</value>
+  </data>
+  <data name="CloudFiles" xml:space="preserve">
+    <value>Fichiers dans le Cloud</value>
+  </data>
+  <data name="InternetDocuments" xml:space="preserve">
+    <value>Adresses Internet</value>
+  </data>
+  <data name="Libraries" xml:space="preserve">
+    <value>Bibliothèques</value>
+  </data>
+  <data name="PrivateCollections" xml:space="preserve">
+    <value>Collections privées</value>
+  </data>
+  <data name="AddLibrary" xml:space="preserve">
+    <value>Ajouter une bibliothèque</value>
+  </data>
+  <data name="AddPrivateCollection" xml:space="preserve">
+    <value>Ajouter une collection privée</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Fichier</value>
+  </data>
+  <data name="NormalView" xml:space="preserve">
+    <value>Vue normale</value>
+  </data>
+  <data name="CriteriaGroups" xml:space="preserve">
+    <value>Groupes</value>
+  </data>
+  <data name="GroupsSearchPlaceholder" xml:space="preserve">
+    <value>Recherche de groupe</value>
+  </data>
+  <data name="NewGroup" xml:space="preserve">
+    <value>Nouveau groupe</value>
+  </data>
+  <data name="TabContent_Groups" xml:space="preserve">
+    <value>Groupes</value>
+  </data>
+  <data name="KeyboardShortcuts" xml:space="preserve">
+    <value>Raccourcis clavier</value>
+  </data>
+  <data name="Renaming" xml:space="preserve">
+    <value>Changement de nom en cours…</value>
+  </data>
+  <data name="EnableCEIP" xml:space="preserve">
+    <value>Activer CEIP</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Se déconnecter</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>Veuillez rafraîchir la page</value>
+  </data>
+  <data name="SessionExpired" xml:space="preserve">
+    <value>La session a expiré.</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="ChoosePhoto" xml:space="preserve">
+    <value>Charger l'image de profil</value>
+  </data>
+  <data name="DragPhotoHere" xml:space="preserve">
+    <value>Faire glisser l'image ici</value>
+  </data>
+  <data name="RemovePhoto" xml:space="preserve">
+    <value>Supprimer l'image de profil</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Temps restant : {0} secondes</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="Aborted" xml:space="preserve">
+    <value>Annulé</value>
+  </data>
+  <data name="Source" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Téléchargement</value>
+  </data>
+  <data name="UploadError" xml:space="preserve">
+    <value>Une erreur s'est produite lors du téléchargement.</value>
+  </data>
+  <data name="PleaseTryAgainLater" xml:space="preserve">
+    <value>Veuillez réessayer ultérieurement.</value>
+  </data>
+  <data name="CreatedByLabel" xml:space="preserve">
+    <value>Créé par</value>
+  </data>
+  <data name="ModifiedByLabel" xml:space="preserve">
+    <value>Modification</value>
+  </data>
+  <data name="CallNumber" xml:space="preserve">
+    <value>Cote</value>
+  </data>
+  <data name="LastViewedReference" xml:space="preserve">
+    <value>Dernière référence sélectionnée</value>
+  </data>
+  <data name="Library" xml:space="preserve">
+    <value>Bibliothèque</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Localisation</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="RSSLoadError" xml:space="preserve">
+    <value>An error has occurred</value>
+  </data>
+  <data name="SelectedReferences" xml:space="preserve">
+    <value>Références en surbrillance</value>
+  </data>
+  <data name="RemoveFilterById_KnowledgeItems" xml:space="preserve">
+    <value>Afficher tous les éléments de connaissance</value>
+  </data>
+  <data name="CreatedByOnLabel" xml:space="preserve">
+    <value>Saisi</value>
+  </data>
+  <data name="ModifiedByOnLabel" xml:space="preserve">
+    <value>Modifié</value>
+  </data>
+  <data name="ReferenceTypeLabelLabel" xml:space="preserve">
+    <value>Type de référence</value>
+  </data>
+  <data name="ComplexTextEditAnyway" xml:space="preserve">
+    <value>Modifier malgré tout</value>
+  </data>
+  <data name="ComplexTextMoreInfo" xml:space="preserve">
+    <value>Pourquoi ?</value>
+  </data>
+  <data name="ChatTyping" xml:space="preserve">
+    <value>{0} saisit un message...</value>
+  </data>
+  <data name="DeleteRefenceContributionsMessage" xml:space="preserve">
+    <value>Si vous supprimez cette référence, vous supprimez également les contributions insérées dans cette référence.</value>
+  </data>
+  <data name="DeleteRefenceContributionsMessagePlural" xml:space="preserve">
+    <value>Si vous supprimez cette référence, vous supprimez également les contributions insérées dans cette référence.</value>
+  </data>
+  <data name="Redo" xml:space="preserve">
+    <value>Répéter</value>
+  </data>
+  <data name="DownloadLocationWithAnnotations" xml:space="preserve">
+    <value>Télécharger avec les annotations</value>
+  </data>
+  <data name="DownloadLocationWithoutAnnotations" xml:space="preserve">
+    <value>Télécharger sans les annotations</value>
+  </data>
+  <data name="GoToNextAnnotation" xml:space="preserve">
+    <value>Vers la prochaine annotation</value>
+  </data>
+  <data name="GoToPreviousAnnotation" xml:space="preserve">
+    <value>Vers l'annotation précédente</value>
+  </data>
+  <data name="PDFPasswordDontSaveOnServer" xml:space="preserve">
+    <value>Ne pas enregistrer le mot de passe sur le serveur Citavi&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Avantage &lt;/b&gt;: le contenu du fichier PDF n'est visible qu'après la saisie du mot de passe&lt;br/&gt;&lt;b&gt;Inconvénient :&lt;/b&gt; la recherche de texte complet et &lt;a href="" target="_blank"&gt;d'autres fonctions&lt;/a&gt; ne sont pas disponibles pour ce PDF. Vous devez saisir le mot de passe à chaque fois pour ouvrir le fichier PDF.</value>
+  </data>
+  <data name="PDFPasswordSaveOnServer" xml:space="preserve">
+    <value>Enregistrer le mot de passe sur le serveur Citavi&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Avantage &lt;/b&gt;: la recherche de texte complet et &lt;a href="" target="_blank"&gt;d'autres fonctions&lt;/a&gt; sont disponibles pour ce PDF.&lt;br/&gt;&lt;b&gt;Inconvénient :&lt;/b&gt; le &lt;a href="" target="_blank"&gt;texte extrait du PDF&lt;/a&gt; est consultable par les autres membres du projet sans mot de passe.</value>
+  </data>
+  <data name="NavigationBar_ExportPrint_Text" xml:space="preserve">
+    <value>Exportation/impression</value>
+  </data>
+  <data name="NavigationBar_Import_Text" xml:space="preserve">
+    <value>Importation/recherche</value>
+  </data>
+  <data name="NavTooltipBackgroundProcess" xml:space="preserve">
+    <value>Processus en arrière-plan</value>
+  </data>
+  <data name="NavTooltipChat" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="NavTooltipFullTextSearch" xml:space="preserve">
+    <value>Recherche de texte complet</value>
+  </data>
+  <data name="NavTooltipHelp" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="NavTooltipIdea" xml:space="preserve">
+    <value>Idée</value>
+  </data>
+  <data name="NavTooltipProfile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="NavTooltipSettings" xml:space="preserve">
+    <value>Paramètres du projet</value>
+  </data>
+  <data name="NavTooltipUsers" xml:space="preserve">
+    <value>Utilisateur</value>
+  </data>
+  <data name="FromYear" xml:space="preserve">
+    <value>à partir de {0}</value>
+    <comment>zB: "ab 2012"</comment>
+  </data>
+  <data name="ImportMenu_ImportTexts" xml:space="preserve">
+    <value>Importer les textes</value>
+  </data>
+  <data name="ImportMenu_OnlineSearch" xml:space="preserve">
+    <value>Par la recherche en ligne</value>
+  </data>
+  <data name="ImportMenu_Other" xml:space="preserve">
+    <value>D'autres programmes de gestion de références</value>
+  </data>
+  <data name="ImportMenu_PDF" xml:space="preserve">
+    <value>Par téléchargement de fichiers PDF</value>
+  </data>
+  <data name="ImportMenu_PerISBNDoi" xml:space="preserve">
+    <value>Par DOI, ISBN, ID PubMed, PMC, arXiv</value>
+  </data>
+  <data name="ImportMenu_TextFile" xml:space="preserve">
+    <value>De fichiers texte (RIS, BibTeX, …)</value>
+  </data>
+  <data name="OnlineSearchCatalogsPanel_Found" xml:space="preserve">
+    <value>Trouvé</value>
+  </data>
+  <data name="OnlineSearchCatalogsPanel_Search" xml:space="preserve">
+    <value>Rechercher</value>
+  </data>
+  <data name="OnlineSearchCatalogsPanel_SelectFromSources" xml:space="preserve">
+    <value>Sélection issue de {0} bases de données et catalogues de bibliothèques</value>
+  </data>
+  <data name="OnlineSearchCatalogsPanel_SelectSources" xml:space="preserve">
+    <value>Sélectionner les sources de données</value>
+  </data>
+  <data name="OnlineSearchPanelTitle" xml:space="preserve">
+    <value>Rechercher des références en ligne</value>
+  </data>
+  <data name="OnlineSearchPanel_AvailablePlaceholders" xml:space="preserve">
+    <value>Caractères génériques et options de recherche disponibles pour les sources de données sélectionnées</value>
+  </data>
+  <data name="OnlineSearchPanel_AvailablePlaceholdersSearchOptions" xml:space="preserve">
+    <value>Caractères génériques et options de recherche disponibles</value>
+  </data>
+  <data name="OnlineSearchPanel_CancelAll" xml:space="preserve">
+    <value>Tout annuler</value>
+  </data>
+  <data name="OnlineSearchPanel_Cancelled" xml:space="preserve">
+    <value>Annulé</value>
+  </data>
+  <data name="OnlineSearchPanel_FurtherInfo" xml:space="preserve">
+    <value>Autres informations</value>
+  </data>
+  <data name="OnlineSearchPanel_LoadedReferences" xml:space="preserve">
+    <value>{0} références importées</value>
+  </data>
+  <data name="OnlineSearchPanel_NewSearch" xml:space="preserve">
+    <value>Relancer la recherche</value>
+  </data>
+  <data name="OnlineSearchPanel_NoFurtherInfo" xml:space="preserve">
+    <value>Aucune autre information</value>
+  </data>
+  <data name="OnlineSearchPanel_NoReferencesFound" xml:space="preserve">
+    <value>Aucune référence trouvée</value>
+  </data>
+  <data name="OnlineSearchPanel_ResultsTitle_Found" xml:space="preserve">
+    <value>Trouvé : {0} références</value>
+  </data>
+  <data name="OnlineSearchPanel_ResultsTitle_Loading" xml:space="preserve">
+    <value>Nombre de sources de données : {0}, {1} sur {2} références</value>
+  </data>
+  <data name="OnlineSearchPanel_SearchResultsDelete" xml:space="preserve">
+    <value>Supprimer tous les résultats</value>
+  </data>
+  <data name="OnlineSearchPanel_SearchResultsKeep" xml:space="preserve">
+    <value>Compléter les résultats sélectionnés</value>
+  </data>
+  <data name="OnlineSearchPanel_SelectReference" xml:space="preserve">
+    <value>Sélectionnez une référence</value>
+  </data>
+  <data name="OnlineSearchPanel_SelectSources" xml:space="preserve">
+    <value>Sélectionnez une ou plusieurs sources de données</value>
+  </data>
+  <data name="OnlineSearchPanel_Sources" xml:space="preserve">
+    <value>Sources de données</value>
+  </data>
+  <data name="OnlineSearchPanel_TakeAll" xml:space="preserve">
+    <value>Tout reprendre</value>
+  </data>
+  <data name="OnlineSearchPanel_TakeSelection" xml:space="preserve">
+    <value>Reprendre la sélection</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Rechercher</value>
+  </data>
+  <data name="TakeOverAvailableKeywords" xml:space="preserve">
+    <value>Mots clés,</value>
+  </data>
+  <data name="TakeOverAvailableLocations" xml:space="preserve">
+    <value>Localisations</value>
+  </data>
+  <data name="MissingSources" xml:space="preserve">
+    <value>Nouvelle source de données souhaitée ?</value>
+  </data>
+  <data name="SearchPerIsbnDoiCatalogs" xml:space="preserve">
+    <value>Sources de données actuelles pour la recherche par ISBN</value>
+  </data>
+  <data name="SearchPerIsbnDoiDescription" xml:space="preserve">
+    <value>&lt;div class="violet"&gt;Saisir plusieurs ID&lt;/div&gt;
+&lt;div class="clear"&gt;&lt;/div&gt;
+Vous pouvez mélanger DOI, ISBN, etc. au choix.
+Séparez les ID par des espaces ou autres.&lt;br/&gt;&lt;br/&gt;
+&lt;div class="violet"&gt;Saisir des textes complets&lt;/div&gt;
+Insérez des textes qui contiennent plusieurs DOI, ISBN, etc.
+ (p. ex. des bibliographies) avec
+Ctrl+V depuis le Presse-papiers. Citavi trouvera 
+les ID dans le texte.</value>
+  </data>
+  <data name="SearchPerIsbnDoiPlaceholder" xml:space="preserve">
+    <value>Saisir des ID ou un texte</value>
+  </data>
+  <data name="SearchPerIsbnDoiTitle" xml:space="preserve">
+    <value>Importer des références par DOI, ISBN, ID PubMed, PMC, arXiv</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>Non trouvé</value>
+  </data>
+  <data name="OnlineSearchIsbnDoiNotFound" xml:space="preserve">
+    <value>Y a-t-il une faute de frappe ? Ou s'agit-il d'une référence avec un ISBN ?
+Dans ce cas, elle est peut-être absente des sources de
+données actuelles.</value>
+  </data>
+  <data name="OnlineSearchIsbnDoiNoValidIds" xml:space="preserve">
+    <value>Aucun ID valide trouvé.</value>
+  </data>
+  <data name="OnlineSearchCatalogsPanel_SelectSourcesIsbn" xml:space="preserve">
+    <value>Ajouter des sources de données pour l'importation d'ISBN</value>
+  </data>
+  <data name="Import_FileTitle1" xml:space="preserve">
+    <value>Télécharger le fichier</value>
+  </data>
+  <data name="CitationStyleLoadError" xml:space="preserve">
+    <value>Erreur</value>
+  </data>
+  <data name="CitationStyleNotFound" xml:space="preserve">
+    <value>Style non trouvé </value>
+  </data>
+  <data name="DefaultCitationStyleName" xml:space="preserve">
+    <value>Style de base Citavi</value>
+  </data>
+  <data name="IsbnCatalogsAdd" xml:space="preserve">
+    <value>Ajouter des sources de données</value>
+  </data>
+  <data name="IsbnCatalogsChange" xml:space="preserve">
+    <value>Modifier les sources de données</value>
+  </data>
+  <data name="IsbnCatalogsDescription" xml:space="preserve">
+    <value>&lt;div class="violet"&gt;Sources de données pour la recherche par ISBN&lt;/div&gt;&lt;br/&gt;
+Sélectionnez une source de données pour la supprimer de la liste en 
+cliquant sur &lt;span class="violet"&gt;X&lt;/span&gt; ou la déplacer à l'aide
+des &lt;span class="violet"&gt;icônes de flèches&lt;/span&gt;.&lt;br/&gt;&lt;br/&gt;
+Déplacez votre principale source de données
+à la position 1. S'il s'agit du catalogue d'une
+bibliothèque dans laquelle vous empruntez des ouvrages, sélectionnez
+dans le panneau «  Importer des références par DOI, ISBN, etc. » en bas à gauche &lt;span class="violet"&gt;Inclure
+les localisations&lt;/span&gt;.</value>
+  </data>
+  <data name="IsbnCatalogsMove" xml:space="preserve">
+    <value>Modifier l'ordre de la sélection</value>
+  </data>
+  <data name="IsbnCatalogsSelected" xml:space="preserve">
+    <value>Sélection actuelle</value>
+  </data>
+  <data name="IsbnCatalogsTitle" xml:space="preserve">
+    <value>Modifier les sources de données pour la recherche par ISBN</value>
+  </data>
+  <data name="CriteriaImports" xml:space="preserve">
+    <value>Importations</value>
+  </data>
+  <data name="ImportsSearchPlaceholder" xml:space="preserve">
+    <value>Recherche d'importations</value>
+  </data>
+  <data name="Export_CopyOrMove" xml:space="preserve">
+    <value>Copier ou déplacer vers un projet Citavi</value>
+  </data>
+  <data name="Export_CopyToProject" xml:space="preserve">
+    <value>Copier dans un projet Citavi</value>
+  </data>
+  <data name="Export_DuplicateProject" xml:space="preserve">
+    <value>Dupliquer le projet</value>
+  </data>
+  <data name="Export_LocalDirectory" xml:space="preserve">
+    <value>Enregistrer localement la bibliographie</value>
+  </data>
+  <data name="Export_AllAttachments" xml:space="preserve">
+    <value>Toutes les pièces jointes du projet (PDF, graphiques …)</value>
+  </data>
+  <data name="Export_LocalPDFFiles" xml:space="preserve">
+    <value>Sauvegarder localement les pièces jointes</value>
+  </data>
+  <data name="Export_SavePrint" xml:space="preserve">
+    <value>Enregistrer et imprimer</value>
+  </data>
+  <data name="Export_SpecialFile" xml:space="preserve">
+    <value>Dans le fichier texte (RIS, BibTeX, …)</value>
+  </data>
+  <data name="ImportFiltersAdd" xml:space="preserve">
+    <value>Ajouter un filtre d'importation</value>
+  </data>
+  <data name="ImportFiltersTitle" xml:space="preserve">
+    <value>Ajouter/supprimer un filtre d'importation</value>
+  </data>
+  <data name="ImportFilters_Found" xml:space="preserve">
+    <value>Disponible en ligne : {0}</value>
+  </data>
+  <data name="ImportPDFDescription" xml:space="preserve">
+    <value>&lt;div class="violet"&gt;Autant de fichiers PDF que souhaité&lt;/div&gt;Vous pouvez importer simultanément autant de PDF d'un dossier local que vous le souhaitez</value>
+  </data>
+  <data name="ImportPDFTitle" xml:space="preserve">
+    <value>Importer des fichiers PDF</value>
+  </data>
+  <data name="ImportTextTitle" xml:space="preserve">
+    <value>Importer des références depuis des fichiers texte</value>
+  </data>
+  <data name="MissingFilters" xml:space="preserve">
+    <value>Signaler ici les filtres manquants :</value>
+  </data>
+  <data name="ExportFiltersTitle" xml:space="preserve">
+    <value>Ajouter/supprimer un filtre d'exportation</value>
+  </data>
+  <data name="Export_AddFilter" xml:space="preserve">
+    <value>Ajouter un format d'exportation</value>
+  </data>
+  <data name="Export_CurrentSelection" xml:space="preserve">
+    <value>Toutes les références de la sélection actuelle</value>
+  </data>
+  <data name="Export_Filter" xml:space="preserve">
+    <value>Format d'exportation</value>
+  </data>
+  <data name="Export_ProjectReferences" xml:space="preserve">
+    <value>Toutes les références du projet</value>
+  </data>
+  <data name="Export_References" xml:space="preserve">
+    <value>Références</value>
+  </data>
+  <data name="Export_Save" xml:space="preserve">
+    <value>Enregistrer sous...</value>
+  </data>
+  <data name="Export_SelectedReferences" xml:space="preserve">
+    <value>Toutes les références sélectionnées</value>
+  </data>
+  <data name="Export_SpecialFileDescription" xml:space="preserve">
+    <value>&lt;div class="violet"&gt;Modifier la liste&lt;/div&gt;&lt;a id="export_addFilterLink"&gt;Ajouter ou supprimer un format d'exportation&lt;/a&gt; en le sélectionnant et en cliquant sur [x].</value>
+  </data>
+  <data name="Export_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Export_CopyOrMoveTitle" xml:space="preserve">
+    <value>Copier ou déplacer la référence vers un projet Citavi</value>
+  </data>
+  <data name="Export_CopyTitle" xml:space="preserve">
+    <value>Copier la référence dans un projet Citavi</value>
+  </data>
+  <data name="Export_Copy" xml:space="preserve">
+    <value>Copier</value>
+  </data>
+  <data name="Export_Move" xml:space="preserve">
+    <value>Déplacer</value>
+  </data>
+  <data name="Export_TargetProject" xml:space="preserve">
+    <value>Projet de destination</value>
+  </data>
+  <data name="ExportOption_WithAttachments" xml:space="preserve">
+    <value>Avec les pièces jointes</value>
+  </data>
+  <data name="ExportOption_WithCategories" xml:space="preserve">
+    <value>Avec les catégories</value>
+  </data>
+  <data name="ExportOption_WithGroups" xml:space="preserve">
+    <value>Avec les groupes</value>
+  </data>
+  <data name="ExportOption_WithKeywords" xml:space="preserve">
+    <value>Avec les mots clés</value>
+  </data>
+  <data name="ExportOption_WithKnowledgeItems" xml:space="preserve">
+    <value>Avec les citations</value>
+  </data>
+  <data name="ExportOption_WithRatings" xml:space="preserve">
+    <value>Avec les évaluations</value>
+  </data>
+  <data name="Export_Change" xml:space="preserve">
+    <value>modifier</value>
+  </data>
+  <data name="Export_CitationStyle" xml:space="preserve">
+    <value>Style de citation</value>
+  </data>
+  <data name="Export_DuplicateProject_Color" xml:space="preserve">
+    <value>Couleur du projet</value>
+  </data>
+  <data name="Export_DuplicateProject_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Export_DuplicateProject_DescriptionPlaceholder" xml:space="preserve">
+    <value>Peut rester vide</value>
+  </data>
+  <data name="Export_DuplicateProject_Error" xml:space="preserve">
+    <value>Le nom contient un caractère non valable.</value>
+  </data>
+  <data name="Export_DuplicateProject_Name" xml:space="preserve">
+    <value>Nom du nouveau projet</value>
+  </data>
+  <data name="Export_Format" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="Export_Grouping" xml:space="preserve">
+    <value>Regroupement</value>
+  </data>
+  <data name="Export_GroupingDescription" xml:space="preserve">
+    <value>&lt;div class="violet"&gt;Regroupement&lt;/div&gt;Vous pouvez regrouper la bibliographie par
+catégories ; elle sera ensuite dotée
+de sous-titres correspondants
+ :&lt;div class="clear"&gt;&lt;/div&gt;&lt;span class="violet"&gt;sources imprimées - sources Internet&lt;br/&gt;sources primaires - sources secondaires&lt;br/&gt;littérature - jurisprudence&lt;/span&gt;</value>
+  </data>
+  <data name="Export_NoGrouping" xml:space="preserve">
+    <value>Sans regroupement</value>
+  </data>
+  <data name="Export_Odt" xml:space="preserve">
+    <value>Texte OpenDocument (*.odt)</value>
+  </data>
+  <data name="Export_Pdf" xml:space="preserve">
+    <value>PDF (*.pdf)</value>
+  </data>
+  <data name="Export_PDFCurrentShown" xml:space="preserve">
+    <value>Le fichier PDF actuellement affiché</value>
+  </data>
+  <data name="Export_PDFFiles" xml:space="preserve">
+    <value>Fichiers PDF</value>
+  </data>
+  <data name="Export_PDFFilesDescription" xml:space="preserve">
+    <value>&lt;div class="violet"&gt;Annotations de texte&lt;/div&gt;Les PDF peuvent être enregistrés avec ou sans les
+annotations de texte que vous avez effectuées dans Citavi
+. Les
+citations, commentaires, etc.
+associés aux annotations ne sont pas enregistrés dans le PDF.&lt;br/&gt;&lt;br/&gt;&lt;div class="violet"&gt;Informations bibliographiques sous forme de métadonnées&lt;/div&gt;Enregistrez les &lt;span class="violet"&gt;informations bibliographiques sous forme de métadonnées&lt;/span&gt; dans le fichier PDF. Avantage : lors de l'importation dans un autre
+projet Citavi, elles seront automatiquement
+reprises.</value>
+  </data>
+  <data name="Export_PDFOptions" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="Export_PDFProject" xml:space="preserve">
+    <value>Tous les PDF du projet</value>
+  </data>
+  <data name="Export_PDFReference" xml:space="preserve">
+    <value>Tous les PDF des références sélectionnées</value>
+  </data>
+  <data name="Export_PDFSaveAsMetadata" xml:space="preserve">
+    <value>Enregistrer les informations bibliographiques comme métadonnées dans le fichier PDF</value>
+  </data>
+  <data name="Export_PDFSelection" xml:space="preserve">
+    <value>Tous les PDF de la sélection actuelle</value>
+  </data>
+  <data name="Export_PDFWithAnnotations" xml:space="preserve">
+    <value>Enregistrer avec les annotations de texte</value>
+  </data>
+  <data name="Export_Word" xml:space="preserve">
+    <value>Document Word (*.docx)</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="CitationStylesPanel_SelectFromSources" xml:space="preserve">
+    <value>Sélection à partir de {0} styles de citation</value>
+  </data>
+  <data name="SeeHintInManual" xml:space="preserve">
+    <value>Voir informations dans le manuel</value>
+  </data>
+  <data name="StyleNotFound" xml:space="preserve">
+    <value>Style non trouvé ?</value>
+  </data>
+  <data name="GroupingInfo" xml:space="preserve">
+    <value>&lt;div class="violet"&gt;Informations sur les regroupements&lt;/div&gt;Sélectionnez une ligne.</value>
+  </data>
+  <data name="GroupingsTitle" xml:space="preserve">
+    <value>Regroupement de la bibliographie</value>
+  </data>
+  <data name="NoCitationStylesFound" xml:space="preserve">
+    <value>Aucun style de citation trouvé</value>
+  </data>
+  <data name="NoGrouping" xml:space="preserve">
+    <value>Sans regroupement</value>
+  </data>
+  <data name="OtherGroupingsFromServer" xml:space="preserve">
+    <value>Autres regroupements provenant du serveur Citavi</value>
+  </data>
+  <data name="Editor" xml:space="preserve">
+    <value>Editeur</value>
+  </data>
+  <data name="AssignNewTask" xml:space="preserve">
+    <value>Attribuer une nouvelle tâche</value>
+  </data>
+  <data name="RemoveFilterById_Tasks" xml:space="preserve">
+    <value>Afficher toutes les tâches</value>
+  </data>
+  <data name="AcceptSelection" xml:space="preserve">
+    <value>Réduire le nombre de résultats avec d'autres critères</value>
+  </data>
+  <data name="InvertSelection" xml:space="preserve">
+    <value>Inverser la sélection</value>
+  </data>
+  <data name="ReferenceTypesSearchPlaceholder" xml:space="preserve">
+    <value>Recherche de type de référence</value>
+  </data>
+  <data name="RemoveSelection" xml:space="preserve">
+    <value>Annuler la sélection</value>
+  </data>
+  <data name="ShowTopLevelCategories" xml:space="preserve">
+    <value>Afficher uniquement les catégories principales</value>
+  </data>
+  <data name="ChangesetDiffTooManyChanges" xml:space="preserve">
+    <value>Vous devez recharger la page pour pouvoir voir les dernières modifications dans leur ensemble.</value>
+  </data>
+  <data name="ExportReferencesStart" xml:space="preserve">
+    <value>&lt;b&gt;Exportation en cours&lt;/b&gt;&lt;br/&gt;Lorsque l'opération sera terminée, vous pourrez télécharger le fichier.</value>
+  </data>
+  <data name="ExportReferencesGroupingError" xml:space="preserve">
+    <value>Cannot export more than {0} references when grouping is set</value>
+  </data>
+  <data name="ExportReferencesToProjectEnd" xml:space="preserve">
+    <value>&lt;b&gt;Exportation terminée&lt;/b&gt;&lt;br/&gt;Le projet de destination est disponible &lt;a&gt;ici.&lt;/a&gt;</value>
+  </data>
+  <data name="ExportReferencesToProjectStart" xml:space="preserve">
+    <value>&lt;b&gt;Exportation en cours&lt;/b&gt;&lt;br/&gt;Vous serez informé à la fin de l'opération.</value>
+  </data>
+  <data name="SaveDisabled" xml:space="preserve">
+    <value>L'enregistrement est temporairement désactivé en raison d'une opération de synchronisation importante.</value>
+  </data>
+  <data name="SaveEnabled" xml:space="preserve">
+    <value>L'enregistrement est à nouveau possible.</value>
+  </data>
+  <data name="MultipleSelection" xml:space="preserve">
+    <value>Filtre de sélection multiple</value>
+  </data>
+  <data name="PersonLastNameHelpText" xml:space="preserve">
+    <value>&lt;div class="violet"&gt;Nom&lt;/div&gt;
+= nom de famille ou nom complet (non abrégé)
+d'une institution ou d'une organisation.&lt;br/&gt;
+&lt;div class="helpTextTabbed violet"&gt;Leutheuser-Schnarrenberger&lt;br/&gt;
+United Nations Organization&lt;/div&gt;
+Pour les &lt;span class="violet"&gt;institutions ou organisations&lt;/span&gt;, saisir par ailleurs dans le champ
+&lt;span class="violet"&gt;Abréviation&lt;/span&gt; la forme abrégée officielle (p. ex.
+&lt;span class="violet"&gt;UNO&lt;/span&gt;) et laisser les autres champs vides.</value>
+  </data>
+  <data name="ApplyPersonsForm_addPerson" xml:space="preserve">
+    <value>&lt;a id="managePersonsAddPerson"&gt;Cliquer ici pour saisir un nouveau nom,&lt;/a&gt;&lt;br/&gt;ou reprendre un nom dans la liste.</value>
+  </data>
+  <data name="ApplyPersonsForm_allPersonsLabel" xml:space="preserve">
+    <value>Liste de noms</value>
+  </data>
+  <data name="ApplyPersonsForm_searchPersonsPlaceholder" xml:space="preserve">
+    <value>Recherche de noms</value>
+  </data>
+  <data name="Tooltip_EditFilter" xml:space="preserve">
+    <value>Modifier le filtre</value>
+  </data>
+  <data name="Attachments" xml:space="preserve">
+    <value>Pièces jointes</value>
+  </data>
+  <data name="NoPDFAvailable" xml:space="preserve">
+    <value>Aucun fichier PDF disponible.</value>
+  </data>
+  <data name="PDFDragHere" xml:space="preserve">
+    <value>Faire glisser les fichiers PDF dans ce champ</value>
+  </data>
+  <data name="NoAttachments" xml:space="preserve">
+    <value>Aucune pièce jointe disponible</value>
+  </data>
+  <data name="PdfToolbar_Comment" xml:space="preserve">
+    <value>Commentaire</value>
+  </data>
+  <data name="PdfToolbar_DirectQuotation" xml:space="preserve">
+    <value>Citation directe</value>
+  </data>
+  <data name="PdfToolbar_IndirectQuotation" xml:space="preserve">
+    <value>Citation indirecte</value>
+  </data>
+  <data name="PdfToolbar_More" xml:space="preserve">
+    <value>Plus</value>
+  </data>
+  <data name="PdfToolbar_Summary" xml:space="preserve">
+    <value>Résumé</value>
+  </data>
+  <data name="PdfToolbar_Tasks" xml:space="preserve">
+    <value>Tâches</value>
+  </data>
+  <data name="AndMore" xml:space="preserve">
+    <value>...et plus encore</value>
+  </data>
+  <data name="DuplicateReference" xml:space="preserve">
+    <value>Dupliquer la référence</value>
+  </data>
+  <data name="Marks" xml:space="preserve">
+    <value>Drapeau...</value>
+  </data>
+  <data name="OtherTasks" xml:space="preserve">
+    <value>Autres tâches</value>
+  </data>
+  <data name="RemoveAllMarks" xml:space="preserve">
+    <value>Tout effacer</value>
+  </data>
+  <data name="RemoveFromSelectedReferences" xml:space="preserve">
+    <value>Supprimer pour les références sélectionnées</value>
+  </data>
+  <data name="SetToSelectedReferences" xml:space="preserve">
+    <value>Assigner aux références sélectionnées</value>
+  </data>
+  <data name="SavingLargeChangeset" xml:space="preserve">
+    <value>L'enregistrement est momentanément désactivé en raison d'une autre opération d'enregistrement en cours.</value>
+  </data>
+  <data name="UploadFilesDone" xml:space="preserve">
+    <value>Les fichiers ont été téléchargés.</value>
+  </data>
+  <data name="UploadFilesProgress" xml:space="preserve">
+    <value>&lt;b&gt;Fichiers en cours de téléchargement&lt;/b&gt;&lt;br/&gt;
+Vous serez prévenu dès que
+l'opération sera terminée.</value>
+  </data>
+  <data name="SearchInAllPdfs" xml:space="preserve">
+    <value>Rechercher dans tous les PDF</value>
+  </data>
+  <data name="SearchInPdfs" xml:space="preserve">
+    <value>Rechercher dans les PDF</value>
+  </data>
+  <data name="SearchQueryEnter" xml:space="preserve">
+    <value>Saisir le terme recherché</value>
+  </data>
+  <data name="CaseSensitive" xml:space="preserve">
+    <value>Respecter la casse</value>
+  </data>
+  <data name="Occurrences" xml:space="preserve">
+    <value>Résultats :</value>
+  </data>
+  <data name="WholeWordOnly" xml:space="preserve">
+    <value>Chercher uniquement des mots entiers</value>
+  </data>
+  <data name="EditPdf" xml:space="preserve">
+    <value>Modifier le PDF</value>
+  </data>
+  <data name="ImportReferencesEnd" xml:space="preserve">
+    <value>&lt;b&gt;Références importées&lt;/b&gt;&lt;br/&gt;Les références sont disponibles &lt;a id="selectImportedReferences"&gt;ici.&lt;/a&gt;</value>
+  </data>
+  <data name="ImportReferencesStart" xml:space="preserve">
+    <value>&lt;b&gt;Références en cours d'importation&lt;/b&gt;&lt;br/&gt;
+Vous serez prévenu dès que
+l'opération sera terminée.</value>
+  </data>
+  <data name="ResumeWork" xml:space="preserve">
+    <value>Reprendre là où vous aviez arrêté.&lt;a&gt;&lt;/a&gt;</value>
+  </data>
+  <data name="DeleteCategories_Smart" xml:space="preserve">
+    <value>{0:{0} catégorie|{0} catégories} dans la corbeille ?</value>
+  </data>
+  <data name="DeleteEntityLink_Smart" xml:space="preserve">
+    <value>{0:{0} lien|{0} liens} dans la corbeille ?</value>
+  </data>
+  <data name="DeleteGroups_Smart" xml:space="preserve">
+    <value>{0:{0} groupe|{0} groupes} dans la corbeille ?</value>
+  </data>
+  <data name="DeleteKeywords_Smart" xml:space="preserve">
+    <value>{0:{0} mot clé|{0} mots clés} dans la corbeille ?</value>
+  </data>
+  <data name="DeleteLibraries_Smart" xml:space="preserve">
+    <value>{0:{0} bibliothèque|{0} bibliothèques} dans la corbeille ?</value>
+  </data>
+  <data name="DeleteLocations_Smart" xml:space="preserve">
+    <value>{0:{0} localisation|{0} localisations} dans la corbeille ?</value>
+  </data>
+  <data name="DeletePeriodicals_Smart" xml:space="preserve">
+    <value>{0:{0} périodique|{0} périodiques} dans la corbeille ?</value>
+  </data>
+  <data name="DeletePersons_Smart" xml:space="preserve">
+    <value>{0:{0} personne|{0} personnes} dans la corbeille ?</value>
+  </data>
+  <data name="DeleteReference" xml:space="preserve">
+    <value>Dans la corbeille</value>
+  </data>
+  <data name="DeleteReferences_Smart" xml:space="preserve">
+    <value>{0:{0} référence|{0} références} dans la corbeille ?</value>
+  </data>
+  <data name="DeleteSeriesTitles_Smart" xml:space="preserve">
+    <value>{0:{0} série|{0} séries} dans la corbeille ?</value>
+  </data>
+  <data name="DeleteTaskItems_Smart" xml:space="preserve">
+    <value>{0:{0} tâche|{0} tâches} dans la corbeille ?</value>
+  </data>
+  <data name="NewReferenceMenu_AddReference" xml:space="preserve">
+    <value>Ajouter une référence manuellement</value>
+  </data>
+  <data name="NewReferenceMenu_Automatic" xml:space="preserve">
+    <value>automatique</value>
+  </data>
+  <data name="NewReferenceMenu_DOIISBN" xml:space="preserve">
+    <value>Par DOI, ISBN, ID PubMed, PMC, arXiv</value>
+  </data>
+  <data name="NewReferenceMenu_Manual" xml:space="preserve">
+    <value>manuel</value>
+  </data>
+  <data name="NewReferenceMenu_MoreReferenceTypes" xml:space="preserve">
+    <value>Autres types de références…</value>
+  </data>
+  <data name="NewReferenceMenu_OnlineSearch" xml:space="preserve">
+    <value>Par la recherche en ligne</value>
+  </data>
+  <data name="NewReferenceMenu_PdfUpload" xml:space="preserve">
+    <value>Par téléchargement de fichiers PDF</value>
+  </data>
+  <data name="NewReferenceMenu_SpecialFiles" xml:space="preserve">
+    <value>De fichiers texte spécifiques (RIS, BibTeX, etc.)</value>
+  </data>
+  <data name="CriteriaHistory" xml:space="preserve">
+    <value>Consulté récemment</value>
+  </data>
+  <data name="OtherContributions" xml:space="preserve">
+    <value>Contributions pour cette référence :</value>
+  </data>
+  <data name="ParentReference" xml:space="preserve">
+    <value>Référence parente :</value>
+  </data>
+  <data name="AddContribution" xml:space="preserve">
+    <value>Ajouter une contribution</value>
+  </data>
+  <data name="AttachmentsLocations" xml:space="preserve">
+    <value>Adresses Internet</value>
+  </data>
+  <data name="Checks" xml:space="preserve">
+    <value>Cercle…</value>
+  </data>
+  <data name="CriteriaExpanderCollapse" xml:space="preserve">
+    <value>Afficher uniquement le filtre principal</value>
+  </data>
+  <data name="CriteriaExpanderExpand" xml:space="preserve">
+    <value>Autres filtres de sélection</value>
+  </data>
+  <data name="CriteriaResources" xml:space="preserve">
+    <value>Pièces jointes, adresses en ligne</value>
+  </data>
+  <data name="CriteriaYear_Last10Years" xml:space="preserve">
+    <value>10 dernières années</value>
+  </data>
+  <data name="CriteriaYear_Last5Years" xml:space="preserve">
+    <value>5 dernières années</value>
+  </data>
+  <data name="CriteriaYear_LastYear" xml:space="preserve">
+    <value>Cette année et l'année dernière</value>
+  </data>
+  <data name="CriteriaYear_ThisYear" xml:space="preserve">
+    <value>Cette année</value>
+  </data>
+  <data name="CriteriaResources_WithInternetAddress" xml:space="preserve">
+    <value>Adresse en ligne, DOI, PMD ...</value>
+  </data>
+  <data name="CriteriaResources_WithOtherAttachments" xml:space="preserve">
+    <value>JPG, PNG, DOCX, PPTX ...</value>
+  </data>
+  <data name="CriteriaResources_WithoutResources" xml:space="preserve">
+    <value>Sans ressources</value>
+  </data>
+  <data name="CriteriaResources_WithPDFAttachments" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="CannotDeleteEntities_Smart" xml:space="preserve">
+    <value>{0:L'entrée ne peut pas être supprimée. Elle fait partie des informations bibliographiques.|Une ou plusieurs entrées ne peuvent être supprimées. Elles font partie des informations bibliographiques.}</value>
+  </data>
+  <data name="CategoryList" xml:space="preserve">
+    <value>Modifier les catégories</value>
+  </data>
+  <data name="DeleteEntities_Smart" xml:space="preserve">
+    <value>{0:entrée|{0} entrées} dans la corbeille ?</value>
+  </data>
+  <data name="GroupList" xml:space="preserve">
+    <value>Ouvrir la liste des groupes</value>
+  </data>
+  <data name="ImportGroupList" xml:space="preserve">
+    <value>Ouvrir la liste de mots clés</value>
+  </data>
+  <data name="KeywordList" xml:space="preserve">
+    <value>Ouvrir la liste de mots clés</value>
+  </data>
+  <data name="PeriodicalList" xml:space="preserve">
+    <value>Modifier la liste de périodiques</value>
+  </data>
+  <data name="PersonList" xml:space="preserve">
+    <value>Modifier la liste de personnes/organisations</value>
+  </data>
+  <data name="SeriesTitleList" xml:space="preserve">
+    <value>Ouvrir la liste de séries</value>
+  </data>
+  <data name="ShowAllCategories" xml:space="preserve">
+    <value>Afficher toutes les catégories</value>
+  </data>
+  <data name="ReferenceTitle_AttachmentsAndInternetAddresses" xml:space="preserve">
+    <value>Pièces jointes et adresses Internet</value>
+  </data>
+  <data name="ReferenceTitle_IntegrateEntries" xml:space="preserve">
+    <value>Autres champs</value>
+  </data>
+  <data name="ReferenceTitle_LibrariesAndCollections" xml:space="preserve">
+    <value>Bibliothèques et collections</value>
+  </data>
+  <data name="ReferenceTitle_ReferenceLinks" xml:space="preserve">
+    <value>Liens avec d'autres références</value>
+  </data>
+  <data name="SelectedReferencesHeader" xml:space="preserve">
+    <value>Références sélectionnées</value>
+  </data>
+  <data name="Affiliation_Placeholder" xml:space="preserve">
+    <value>Informations facultatives sur l'organisation, le groupe de travail, la direction de projet, l'adresse</value>
+  </data>
+  <data name="Notes_Placeholder" xml:space="preserve">
+    <value>Espace pour les notes personnelles sur cette référence</value>
+  </data>
+  <data name="PageRangeType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="PagesAbbreviation" xml:space="preserve">
+    <value>p.</value>
+    <comment>i(Seiten)</comment>
+  </data>
+  <data name="ReferenceQuotationsMenu_Categories" xml:space="preserve">
+    <value>Catégories</value>
+  </data>
+  <data name="ReferenceQuotationsMenu_Created" xml:space="preserve">
+    <value>Saisi</value>
+  </data>
+  <data name="ReferenceQuotationsMenu_Groups" xml:space="preserve">
+    <value>Groupes</value>
+  </data>
+  <data name="ReferenceQuotationsMenu_Keywords" xml:space="preserve">
+    <value>Mots clés</value>
+  </data>
+  <data name="ReferenceQuotationsMenu_Modified" xml:space="preserve">
+    <value>Modifié</value>
+  </data>
+  <data name="ReferenceQuotationsMenu_Show" xml:space="preserve">
+    <value>Afficher</value>
+  </data>
+  <data name="CommentToKnowledgeItem" xml:space="preserve">
+    <value>Commentaire sur l'élément de connaissance sélectionné</value>
+  </data>
+  <data name="DeleteKnowledgeItem" xml:space="preserve">
+    <value>Supprimer définitivement l'élément de connaissance ?</value>
+  </data>
+  <data name="QuotationType_ImageOrFile" xml:space="preserve">
+    <value>Citation d'image ou de fichier</value>
+  </data>
+  <data name="KnowledgeItemTextPlaceholder_Comment" xml:space="preserve">
+    <value>Votre opinion ou évaluation</value>
+  </data>
+  <data name="KnowledgeItemTextPlaceholder_IndirectQuotation" xml:space="preserve">
+    <value>Une interprétation particulièrement fidèle au texte, dans vos propres mots.</value>
+  </data>
+  <data name="KnowledgeItemTextPlaceholder_QuickReference" xml:space="preserve">
+    <value>Non requis</value>
+  </data>
+  <data name="KnowledgeItemTextPlaceholder_Summary" xml:space="preserve">
+    <value>Une interprétation particulièrement fidèle à un chapitre ou une section, dans vos propres mots</value>
+  </data>
+  <data name="Legend" xml:space="preserve">
+    <value>Légende</value>
+  </data>
+  <data name="ConvertQuotationIn" xml:space="preserve">
+    <value>Convertir en</value>
+  </data>
+  <data name="KnowledgeItemTextPlaceholder_DirectQuotation" xml:space="preserve">
+    <value>Citation directe du texte original</value>
+  </data>
+  <data name="KnowledgeItemFileForm_legendPlaceholder" xml:space="preserve">
+    <value>Légende ou message clé (y compris ©)</value>
+  </data>
+  <data name="ReferenceQuotation_MissingLinkMessage" xml:space="preserve">
+    <value>Veuillez sélectionner le passage
+souhaité dans le PDF et cliquer
+à nouveau sur l'icône.</value>
+  </data>
+  <data name="LibraryName_Placeholder" xml:space="preserve">
+    <value>Nom de la bibliothèque</value>
+  </data>
+  <data name="PrivateCollection" xml:space="preserve">
+    <value>Collection privée</value>
+  </data>
+  <data name="PrivateCollectionName_Placeholder" xml:space="preserve">
+    <value>Nom de la localisation</value>
+  </data>
+  <data name="Signature" xml:space="preserve">
+    <value>Cote</value>
+  </data>
+  <data name="SelectedKnowledgeItemsHeader" xml:space="preserve">
+    <value>Les éléments de connaissance sélectionnés</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Tous</value>
+  </data>
+  <data name="InvalidPdf" xml:space="preserve">
+    <value>Impossible de télécharger le PDF. Le fichier est corrompu ou ce n'est pas un fichier PDF valide. &lt;a id="invalidPdfLink"&gt;Cliquez ici&lt;/a&gt; pour ouvrir le fichier manuellement.</value>
+  </data>
+  <data name="PdfPreviewClose" xml:space="preserve">
+    <value>Fermer la visualisation</value>
+  </data>
+  <data name="ProjectProperties" xml:space="preserve">
+    <value>Propriétés du projet</value>
+  </data>
+  <data name="ProjectSettings" xml:space="preserve">
+    <value>Paramètres communs à plusieurs projets</value>
+  </data>
+  <data name="RecycleBin" xml:space="preserve">
+    <value>Corbeille</value>
+  </data>
+  <data name="ProjectNameApp" xml:space="preserve">
+    <value>Nom du projet</value>
+  </data>
+  <data name="ProjectNameChangePermission" xml:space="preserve">
+    <value>(peut être modifié uniquement par le propriétaire ou les gestionnaires)</value>
+  </data>
+  <data name="RecycleBinItemType_KnowledgeItem" xml:space="preserve">
+    <value>Eléments de connaissance</value>
+  </data>
+  <data name="RecycleBinItemType_Location" xml:space="preserve">
+    <value>Pièces jointes, adresses Internet et localisations</value>
+  </data>
+  <data name="RecycleBinItemType_Reference" xml:space="preserve">
+    <value>Références</value>
+  </data>
+  <data name="RecycleBin_DeletedBy" xml:space="preserve">
+    <value>Supprimé par</value>
+  </data>
+  <data name="RecycleBin_DeletedOn" xml:space="preserve">
+    <value>Supprimé le</value>
+  </data>
+  <data name="RecycleBin_ElementsAutomaticallyDeleted" xml:space="preserve">
+    <value>Les éléments sont automatiquement supprimés de la corbeille au bout de 60 jours.</value>
+  </data>
+  <data name="ChangeRole" xml:space="preserve">
+    <value>Modifier le rôle</value>
+  </data>
+  <data name="PanelThought_By" xml:space="preserve">
+    <value>par</value>
+  </data>
+  <data name="PanelThought_UseFile" xml:space="preserve">
+    <value>Utiliser une image ou un fichier</value>
+  </data>
+  <data name="PanelThought_PreviewLabel" xml:space="preserve">
+    <value>Visualisation graphique ou nom de fichier</value>
+  </data>
+  <data name="ThoughtUploadLocalFile" xml:space="preserve">
+    <value>Ajouter un fichier graphique ou texte</value>
+  </data>
+  <data name="Chat_EnterMessage" xml:space="preserve">
+    <value>Saisir le message ici</value>
+  </data>
+  <data name="Chat_NooneInChat" xml:space="preserve">
+    <value>Vous êtes seul dans le chat. 
+Les messages ne sont plus transmis.</value>
+  </data>
+  <data name="DeleteCategoriesInUse_Smart" xml:space="preserve">
+    <value>{0:Attention : des références ou des éléments de connaissance sont affectés à cette catégorie ou à une de ses sous-catégories. Toutes les affectations seront effacées lors de la suppression.&lt;br/&gt;
+Souhaitez-vous vraiment la supprimer définitivement ?|Des références ou des éléments de connaissance sont affectés à ces catégories ou à une de leurs sous-catégories. Toutes les affectations seront effacées lors de la suppression.&lt;br/&gt;
+Souhaitez-vous vraiment les supprimer définitivement ?}</value>
+  </data>
+  <data name="DeleteCategoriesWithSubcategories_Smart" xml:space="preserve">
+    <value>{0:La catégorie|Au moins une des catégories sélectionnées} contient des sous-catégories qui seront également supprimées.&lt;br/&gt;Les affectations de références et d'éléments de connaissance aussi seront supprimées.&lt;br/&gt;Souhaitez-vous vraiment les supprimer définitivement ?</value>
+  </data>
+  <data name="DeleteGroupsInUse_Smart" xml:space="preserve">
+    <value>{0:Attention : des références ou des éléments de connaissance sont affectés au groupe "{1}". Toutes ces affectations seront effacées lors de la suppression. Souhaitez-vous vraiment supprimer le groupe "{1}" ?|Attention : des références ou des éléments de connaissance sont affectés à au moins un des {0} groupes sélectionnés. Toutes ces affectations seront effacées lors de la suppression. Souhaitez-vous vraiment supprimer les {0} groupes sélectionnés ?}</value>
+  </data>
+  <data name="DeleteKeywordsInUse_Smart" xml:space="preserve">
+    <value>{0:Attention : des références ou des éléments de connaissance sont affectés au mot clé "{1}". Toutes ces affectations seront effacées lors de la suppression. Souhaitez-vous vraiment supprimer le mot clé "{1}" ?|Attention : des références ou des éléments de connaissance sont affectés à au moins un des {0} mots clés sélectionnés. Toutes ces affectations seront effacées lors de la suppression. Souhaitez-vous vraiment supprimer les {0} mots clés sélectionnés ?}</value>
+  </data>
+  <data name="DeleteLibrariesInUse_Smart" xml:space="preserve">
+    <value>{0:Cette bibliothèque est utilisée en tant que localisation d'une référence au moins. Cette localisation sera également supprimée. Souhaitez-vous vraiment supprimer la bibliothèque sélectionnée ?|Les {0} bibliothèques sélectionnées sont utilisées en tant que localisations d'une référence au moins. Ces localisations seront également supprimées. Souhaitez-vous vraiment supprimer les {0} bibliothèques sélectionnées ?}</value>
+  </data>
+  <data name="DeletePeriodicalsInUse_Smart" xml:space="preserve">
+    <value>{0:Le périodique "{1}" ne peut pas être supprimé, car des références lui sont affectées.|Les {0} périodiques sélectionnés ne peuvent pas être supprimés car des références sont affectées à au moins l'un d'entre eux.} Veuillez ne sélectionner que des périodiques inutilisés à supprimer.</value>
+  </data>
+  <data name="DeletePersonsInUse_Smart" xml:space="preserve">
+    <value>{0:La personne ou l'organisation "{1}" ne peut pas être supprimée, car des références ou des séries lui sont affectées.|Les {0} personnes ou organisations sélectionnées ne peuvent pas être supprimées car des références ou des séries sont affectées à au moins l'une d'entre elles.} Veuillez ne sélectionner que des personnes ou organisations inutilisées à supprimer.</value>
+  </data>
+  <data name="DeletePublishersInUse_Smart" xml:space="preserve">
+    <value>{0:L'éditeur "{1}" ne peut pas être supprimé, car des références lui sont affectées.|Les {0} éditeurs sélectionnés ne peuvent pas être supprimés car des références sont affectées à au moins l'un d'entre eux.} Veuillez ne sélectionner que des éditeurs inutilisés à supprimer.</value>
+  </data>
+  <data name="DeleteSeriesTitlesInUse_Smart" xml:space="preserve">
+    <value>{0:La série "{1}" ne peut pas être supprimée, car des références lui sont affectées.|Les {0} séries sélectionnées ne peuvent pas être supprimées car des références sont affectées à au moins l'une d'entre elles.} Veuillez ne sélectionner que des séries inutilisées à supprimer.</value>
+  </data>
+  <data name="NameSurnamePlaceholder" xml:space="preserve">
+    <value>Nom, prénom ; nom, prénom</value>
+  </data>
+  <data name="OpenProjectInAnotherTab" xml:space="preserve">
+    <value>Ouvrir le projet dans un autre onglet</value>
+  </data>
+  <data name="OpenStartPage" xml:space="preserve">
+    <value>Ouvrir l'écran d'accueil</value>
+  </data>
+  <data name="Upload_Attachment" xml:space="preserve">
+    <value>La pièce jointe va être téléchargée et traitée.</value>
+  </data>
+  <data name="Upload_Cover" xml:space="preserve">
+    <value>&lt;b&gt;La couverture va être téléchargée et traitée.&lt;/b&gt;</value>
+  </data>
+  <data name="TagsChangedTooManyEntries" xml:space="preserve">
+    <value>Impossible d'ajouter plus de 50 entrées simultanément.</value>
+  </data>
+  <data name="OtherContributionsParentReference" xml:space="preserve">
+    <value>Autres contributions dans la référence parente :</value>
+  </data>
+  <data name="HtmlCode" xml:space="preserve">
+    <value>Code HTML</value>
+  </data>
+  <data name="TakeOverAvailable" xml:space="preserve">
+    <value>Reprendre si disponible :</value>
+  </data>
+  <data name="Chat_NooneInChatBox" xml:space="preserve">
+    <value>Le chat permet l'échange de messages entre tous les membres de l'équipe de projet qui sont en ligne. &lt;br/&gt;Vous êtes actuellement le seul membre du projet en ligne, c'est pourquoi vous ne pouvez pas ouvrir le chat.</value>
+  </data>
+  <data name="PDFTextLabel" xml:space="preserve">
+    <value>Texte :</value>
+  </data>
+  <data name="SearchResult" xml:space="preserve">
+    <value>Résultat de la recherche</value>
+  </data>
+  <data name="AttachComment" xml:space="preserve">
+    <value>Joindre un commentaire</value>
+  </data>
+  <data name="CommentNew" xml:space="preserve">
+    <value>Nouveau commentaire</value>
+  </data>
+  <data name="ImportFilter" xml:space="preserve">
+    <value>Filtres d'importation</value>
+  </data>
+  <data name="SortReferences_AuthorAsc" xml:space="preserve">
+    <value>Par titres courts : de A à Z</value>
+  </data>
+  <data name="SortReferences_AuthorDesc" xml:space="preserve">
+    <value>Par titres courts : de Z à A</value>
+  </data>
+  <data name="SortReferences_CreatedDesc" xml:space="preserve">
+    <value>Dernières références saisies au début</value>
+  </data>
+  <data name="SortReferences_ModifiedDesc" xml:space="preserve">
+    <value>Dernières références modifiées au début</value>
+  </data>
+  <data name="SortReferences_RatingDesc" xml:space="preserve">
+    <value>Références les mieux évaluées au début</value>
+  </data>
+  <data name="SortReferences_YearAsc" xml:space="preserve">
+    <value>Par année : références les plus anciennes au début</value>
+  </data>
+  <data name="SortReferences_YearDesc" xml:space="preserve">
+    <value>Par année : références les plus récentes au début</value>
+  </data>
+  <data name="RichTextEditorFormatMenu_Bigger" xml:space="preserve">
+    <value>Plus grand</value>
+  </data>
+  <data name="RichTextEditorFormatMenu_Color" xml:space="preserve">
+    <value>Couleur</value>
+  </data>
+  <data name="RichTextEditorFormatMenu_Font" xml:space="preserve">
+    <value>Police</value>
+  </data>
+  <data name="RichTextEditorFormatMenu_Smaller" xml:space="preserve">
+    <value>Plus petit</value>
+  </data>
+  <data name="AllCategories" xml:space="preserve">
+    <value>Toutes les catégories</value>
+  </data>
+  <data name="DeletePermanently" xml:space="preserve">
+    <value>Supprimer définitivement</value>
+  </data>
+  <data name="RecycleBin_Restored" xml:space="preserve">
+    <value>&lt;b&gt;Eléments supprimés restaurés&lt;/b&gt;</value>
+  </data>
+  <data name="RecycleBin_Restoring" xml:space="preserve">
+    <value>&lt;b&gt;Restauration des éléments supprimés en cours&lt;/b&gt;</value>
+  </data>
+  <data name="PdfToolbar_ImageQuotation" xml:space="preserve">
+    <value>Citation d'image</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Exporter</value>
+  </data>
+  <data name="ReferencesDeleted_Smart" xml:space="preserve">
+    <value>&lt;b&gt;{0:1 référence|{0} références} déplacée(s) dans la &lt;a id='goToRecycleBin'&gt;corbeille&lt;/a&gt;.&lt;/b&gt;</value>
+  </data>
+  <data name="ReferenceLibrariesDeleted_Smart" xml:space="preserve">
+    <value>&lt;b&gt;{0:1 bibliothèque|{0} bibliothèques} déplacée(s) dans la &lt;a id='goToRecycleBin'&gt;corbeille&lt;/a&gt;.&lt;/b&gt;</value>
+  </data>
+  <data name="ReferencePrivateCollectionsDeleted_Smart" xml:space="preserve">
+    <value>&lt;b&gt;{0:1 collection privée|{0} collections privées} déplacée(s) dans la &lt;a id='goToRecycleBin'&gt;corbeille&lt;/a&gt;.&lt;/b&gt;</value>
+  </data>
+  <data name="KnowledgeItemsDeleted_Smart" xml:space="preserve">
+    <value>&lt;b&gt;{0:1 élément de connaissance|{0} éléments de connaissance} déplacé(s) dans la corbeille.&lt;a id='goToRecycleBin'&gt;&lt;/a&gt;&lt;/b&gt;</value>
+  </data>
+  <data name="AttachmentDeleted" xml:space="preserve">
+    <value>Pièce jointe déplacée dans la &lt;a id='goToRecycleBin'&gt;corbeille&lt;/a&gt;.</value>
+  </data>
+  <data name="ResortReferences" xml:space="preserve">
+    <value>Trier à nouveau les références</value>
+  </data>
+  <data name="ProjectRoleChanged" xml:space="preserve">
+    <value>Votre rôle dans ce projet a été changé en "{0}".</value>
+  </data>
+  <data name="AllChangesSaved" xml:space="preserve">
+    <value>Toutes les modifications ont été enregistrées pour la dernière fois à {0}</value>
+  </data>
+  <data name="Export_Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="DeleteReference_Attachment" xml:space="preserve">
+    <value>Pièce jointe affichée dans la corbeille</value>
+  </data>
+  <data name="DeleteReference_Reference" xml:space="preserve">
+    <value>Référence dans la corbeille</value>
+  </data>
+  <data name="IntoRecycleBin" xml:space="preserve">
+    <value>Dans la corbeille</value>
+  </data>
+  <data name="PDFSearchInfo" xml:space="preserve">
+    <value>Informations sur les stratégies de recherche différenciées &lt;a id="pdfSearchInfo"&gt;dans le manuel&lt;/a&gt;.</value>
+  </data>
+  <data name="MergeGroups_Placeholder" xml:space="preserve">
+    <value>Rechercher deuxième groupe</value>
+  </data>
+  <data name="MergeKeywords_Placeholder" xml:space="preserve">
+    <value>Rechercher deuxième mot clé</value>
+  </data>
+  <data name="MergeLibraries_Placeholder" xml:space="preserve">
+    <value>Rechercher deuxième bibliothèque</value>
+  </data>
+  <data name="MergePeriodicals_Placeholder" xml:space="preserve">
+    <value>Rechercher deuxième périodique</value>
+  </data>
+  <data name="MergePersons_Placeholder" xml:space="preserve">
+    <value>Rechercher deuxième personne ou organisation</value>
+  </data>
+  <data name="MergePublishers_Placeholder" xml:space="preserve">
+    <value>Rechercher deuxième éditeur</value>
+  </data>
+  <data name="MergeSeriesTitles_Placeholder" xml:space="preserve">
+    <value>Rechercher deuxième série</value>
+  </data>
+  <data name="DeleteAnnotationAndKnowledgeItem" xml:space="preserve">
+    <value>Supprimer l'annotation, mettre l'élément Citavi correspondant dans la corbeille</value>
+  </data>
+  <data name="DeleteOnlyAnnotation" xml:space="preserve">
+    <value>Supprimer uniquement l'annotation sélectionnée</value>
+  </data>
+  <data name="CopyEmail" xml:space="preserve">
+    <value>Copier l'adresse e-mail</value>
+  </data>
+  <data name="EmailCopied" xml:space="preserve">
+    <value>L'adresse e-mail a été copiée dans le Presse-papiers.</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>En cours d'envoi...</value>
+  </data>
+  <data name="DeleteRecycleBinItems" xml:space="preserve">
+    <value>Supprimer définitivement les éléments sélectionnés ?</value>
+  </data>
+  <data name="EntryDoesNotCorrespondToCriteriaAnyMore" xml:space="preserve">
+    <value>L'élément ne correspond plus au filtre de sélection choisi.</value>
+  </data>
+  <data name="SplitterTrigger_References_List" xml:space="preserve">
+    <value>Afficher la liste de références</value>
+  </data>
+  <data name="NewReference" xml:space="preserve">
+    <value>Nouvelle référence</value>
+  </data>
+  <data name="InsertLink_MissingText" xml:space="preserve">
+    <value>Texte manquant.</value>
+  </data>
+  <data name="InsertLink_MissingUrl" xml:space="preserve">
+    <value>URL manquante.</value>
+  </data>
+  <data name="InsertLink_Text" xml:space="preserve">
+    <value>Texte</value>
+  </data>
+  <data name="ImportFilterAddRemove" xml:space="preserve">
+    <value>Ajouter/supprimer un filtre d'importation</value>
+  </data>
+  <data name="TextFile" xml:space="preserve">
+    <value>Fichier texte</value>
+  </data>
+  <data name="StandardFilter" xml:space="preserve">
+    <value>Filtre standard (RIS, BibTeX et ENW)</value>
+  </data>
+  <data name="StandardFilterDescription" xml:space="preserve">
+    <value>&lt;html&gt;
+	&lt;head&gt;
+		&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /&gt;
+		&lt;meta http-equiv="Content-Style-Type" content="text/css" /&gt;
+		&lt;meta name="generator" content="Aspose.Words for .NET 11.11.0.0" /&gt;
+		&lt;title&gt;
+		&lt;/title&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;div&gt;
+			&lt;p style="margin:0pt 0pt 4pt; line-height:110%; widows:0; orphans:0; font-size:9pt"&gt;&lt;span style="font-family:'Segoe UI'; font-size:9pt; color:#ff0000"&gt;Filtre standard&lt;/span&gt;&lt;/p&gt;
+			&lt;p style="margin:0pt 0pt 4pt; line-height:110%; widows:0; orphans:0; font-size:9pt"&gt;&lt;span style="font-family:'Segoe UI'; font-size:9pt"&gt;Suite à une recherche dans une bibliographie spécialisée, vous avez exporté les résultats sous forme de fichier BibTeX, RIS ou EndNote Tagged. Sélectionnez ici le fichier que vous voulez importer dans votre projet Citavi. L'extension de fichier doit être RIS, BIB ou ENW. Vous pouvez importer plusieurs fichiers à la fois.&lt;/span&gt;&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="ImportReferences_NoReferences" xml:space="preserve">
+    <value>Le fichier ne contient aucune donnée à importer.</value>
+  </data>
+  <data name="KnowledgeItemDirectQuotation_coreStatementLabelPlaceholder" xml:space="preserve">
+    <value>Saisir ou laisser vide (sera alors automatiquement complété)</value>
+  </data>
+  <data name="Notifications_Empty" xml:space="preserve">
+    <value>Il n'y a actuellement aucune tâche en arrière-plan et nous n'avons pas de nouvelle notification pour vous.</value>
+  </data>
+  <data name="CoreStatementThoughtPlaceholder" xml:space="preserve">
+    <value>Saisie requise</value>
+  </data>
+  <data name="Notifications" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="ExportReferences_TooManyReferencesGrouping" xml:space="preserve">
+    <value>DE: Cannot export more than {0} references when grouping is set</value>
+  </data>
+  <data name="ReportSuccessful" xml:space="preserve">
+    <value>Le rapport a bien été envoyé.</value>
+  </data>
+  <data name="IntoRecycleBinLabel" xml:space="preserve">
+    <value>Dans la corbeille</value>
+  </data>
+  <data name="RecycleBin_Open" xml:space="preserve">
+    <value>Ouvrir la corbeille</value>
+  </data>
+  <data name="Splitter_Show" xml:space="preserve">
+    <value>afficher</value>
+  </data>
+  <data name="RemoveFilter" xml:space="preserve">
+    <value>Supprimer le filtre</value>
+  </data>
+  <data name="ClosePanel" xml:space="preserve">
+    <value>Fermer le panneau</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value/>
+  </data>
+  <data name="HideEmptyFields" xml:space="preserve">
+    <value>Masquer les champs vides</value>
+  </data>
+  <data name="Locations" xml:space="preserve">
+    <value>Localisations</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>Ressources</value>
+  </data>
+  <data name="ShowAllFields" xml:space="preserve">
+    <value>Afficher tous les champs</value>
+  </data>
+  <data name="PDFs" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="Contributions" xml:space="preserve">
+    <value>Contributions</value>
+  </data>
+  <data name="ReferenceField_AccessDate" xml:space="preserve">
+    <value>Visité récemment</value>
+  </data>
+  <data name="MergeCategories_Placeholder" xml:space="preserve">
+    <value>Rechercher deuxième catégorie</value>
+  </data>
+  <data name="RecycleBin_RefreshButton" xml:space="preserve">
+    <value>Rafraîchir la corbeille</value>
+  </data>
+  <data name="RecycleBin_Subtitle" xml:space="preserve">
+    <value>Cela peut durer jusqu’à 1 minute après la suppression avant que les données soient disponibles dans la corbeille.</value>
+  </data>
+  <data name="SelectAllEntitiesCountOfTotal" xml:space="preserve">
+    <value>{1} {0} sélectionnés sur {2}</value>
+    <comment>e.g. "42 Titel von 191 ausgewählt"</comment>
+  </data>
+  <data name="SelectAllEntitiesCountTotal" xml:space="preserve">
+    <value>Au total {0} {1}</value>
+    <comment>e.g. "Insgesamt 100 Titel"</comment>
+  </data>
+  <data name="CriteriaReferenceWithPdfs" xml:space="preserve">
+    <value>Références avec des PDF</value>
+  </data>
+  <data name="CriteriaResources_WithInternetAddress_Tooltip" xml:space="preserve">
+    <value>Références avec des adresses en ligne</value>
+  </data>
+  <data name="CriteriaResources_WithOtherAttachments_Tooltip" xml:space="preserve">
+    <value>Références avec d'autres pièces jointes</value>
+  </data>
+  <data name="CriteriaResources_WithoutResources_Tooltip" xml:space="preserve">
+    <value>Références sans pièces jointes, adresses en ligne</value>
+  </data>
+  <data name="CriteriaResources_WithPDFAttachments_Tooltip" xml:space="preserve">
+    <value>Références avec des pièces jointes PDF</value>
+  </data>
+  <data name="WithPDFsOnly" xml:space="preserve">
+    <value>avec PDF uniquement</value>
+  </data>
+  <data name="CriteriaTasksImportance" xml:space="preserve">
+    <value>Importance</value>
+  </data>
+  <data name="CriteriaTasksMyTasks" xml:space="preserve">
+    <value>Mes tâches</value>
+  </data>
+  <data name="CriteriaTasksStatus" xml:space="preserve">
+    <value>Etat</value>
+  </data>
+  <data name="CriteriaTasksTeamTasks" xml:space="preserve">
+    <value>Tâches de l'équipe</value>
+  </data>
+  <data name="CriteriaTasksType" xml:space="preserve">
+    <value>Type de tâche</value>
+  </data>
+  <data name="TaskCriteria_AssignedToMe" xml:space="preserve">
+    <value>Attribué à moi</value>
+  </data>
+  <data name="TaskCriteria_CreatedByMe" xml:space="preserve">
+    <value>Créé par moi</value>
+  </data>
+  <data name="TaskItemSort_Author" xml:space="preserve">
+    <value>Mandant</value>
+  </data>
+  <data name="TaskItemSort_CreatedOnDesc" xml:space="preserve">
+    <value>Créé récemment</value>
+  </data>
+  <data name="TaskItemSort_DoneDesc" xml:space="preserve">
+    <value>Terminé récemment</value>
+  </data>
+  <data name="TaskItemSort_DueDate" xml:space="preserve">
+    <value>Echéance</value>
+  </data>
+  <data name="TaskItemSort_Importance" xml:space="preserve">
+    <value>Importance</value>
+  </data>
+  <data name="TaskItemSort_ShortTitle" xml:space="preserve">
+    <value>Titre court</value>
+  </data>
+  <data name="TaskItemSort_State" xml:space="preserve">
+    <value>Etat</value>
+  </data>
+  <data name="TaskItemSort_Type" xml:space="preserve">
+    <value>Type de tâche</value>
+  </data>
+  <data name="TaskItem_AddProjectTask" xml:space="preserve">
+    <value>Tâche de projet</value>
+  </data>
+  <data name="TaskItem_AddReferenceTask" xml:space="preserve">
+    <value>Tâche de référence</value>
+  </data>
+  <data name="TaskItem_SearchPlaceholder" xml:space="preserve">
+    <value>Recherche de tâches</value>
+  </data>
+  <data name="TaskItem_Until" xml:space="preserve">
+    <value>Jusqu'au {0}</value>
+  </data>
+  <data name="Tasks_OnlyOpen" xml:space="preserve">
+    <value>Tâches en cours uniquement</value>
+  </data>
+  <data name="RecycleBinItemType_TaskItem" xml:space="preserve">
+    <value>Tâches</value>
+  </data>
+  <data name="TaskItem_AssignedTo" xml:space="preserve">
+    <value>Attribué à</value>
+  </data>
+  <data name="TaskItem_MoreMenuDueDate" xml:space="preserve">
+    <value>A terminer d'ici</value>
+  </data>
+  <data name="TaskItem_MoreMenuTitle" xml:space="preserve">
+    <value>Afficher</value>
+  </data>
+  <data name="DoneTasks" xml:space="preserve">
+    <value>Tâches terminées</value>
+  </data>
+  <data name="TaskItemsDeleted_Smart" xml:space="preserve">
+    <value>&lt;b&gt;{0:1 tâche|{0} tâches} déplacée(s) dans la &lt;a id='goToRecycleBin'&gt;corbeille&lt;/a&gt;.&lt;/b&gt;</value>
+  </data>
+  <data name="OnlineSearch_Duplicate" xml:space="preserve">
+    <value>Cette référence existe déjà. Cochez la case pour l'importer malgré tout.</value>
+  </data>
+  <data name="TaskItem_Others" xml:space="preserve">
+    <value>Autres tâches</value>
+  </data>
+  <data name="TaskItem_Selecteds" xml:space="preserve">
+    <value>Tâches sélectionnées</value>
+  </data>
+  <data name="NoCover" xml:space="preserve">
+    <value>Pas de couverture</value>
+  </data>
+  <data name="OnlineSearch_CatalogsListEdit" xml:space="preserve">
+    <value>Modifier la liste</value>
+  </data>
+  <data name="OnlineSearch_Year" xml:space="preserve">
+    <value>Année :</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>En cours</value>
+  </data>
+  <data name="RemoveCatalog" xml:space="preserve">
+    <value>Souhaitez-vous retirer la source de données "{0}" de la liste ?</value>
+  </data>
+  <data name="InvalidEmailDomainAndEmailAlreadyPresent" xml:space="preserve">
+    <value>Domaine d'e-mail non valable, de plus l'adresse appartient déjà à ce compte.</value>
+  </data>
+  <data name="Tooltip_PdfProtected" xml:space="preserve">
+    <value>Ce PDF est protégé contre la copie</value>
+  </data>
+  <data name="ProjectLocked_Locked" xml:space="preserve">
+    <value>Enregistrement impossible</value>
+  </data>
+  <data name="ProjectLocked_LockedDescription" xml:space="preserve">
+    <value>Un processus actuellement en cours empêche l'accès à la base de données.&lt;br/&gt;Vous pourrez continuer à travailler normalement dès que ce processus sera terminé.&lt;br/&gt;Vos modifications ne seront pas perdues.</value>
+  </data>
+  <data name="ProjectLocked_Unlocked" xml:space="preserve">
+    <value>Enregistrement de nouveau possible</value>
+  </data>
+  <data name="ProjectLocked_UnlockedDescription" xml:space="preserve">
+    <value>Vous pouvez reprendre le travail.&lt;br/&gt;Vos modifications seront automatiquement enregistrées.</value>
+  </data>
+  <data name="Tooltip_ChangeView" xml:space="preserve">
+    <value>Modifier l'affichage</value>
+  </data>
+  <data name="Tooltip_View" xml:space="preserve">
+    <value>Afficher</value>
+  </data>
+  <data name="NoCategories_AddFirst" xml:space="preserve">
+    <value>&lt;a class="noEntitiesAddFirst" data-value="category"&gt;Cliquer ici&lt;/a&gt; pour ajouter la première catégorie</value>
+  </data>
+  <data name="NoGroups_AddFirst" xml:space="preserve">
+    <value>&lt;a class="noEntitiesAddFirst" data-value="group"&gt;Cliquer ici&lt;/a&gt; pour ajouter le premier groupe</value>
+  </data>
+  <data name="NoKeywords_AddFirst" xml:space="preserve">
+    <value>&lt;a class="noEntitiesAddFirst" data-value="keyword"&gt;Cliquer ici&lt;/a&gt; pour ajouter le premier mot-clé</value>
+  </data>
+  <data name="NoLibraries_AddFirst" xml:space="preserve">
+    <value>&lt;a class="noEntitiesAddFirst" data-value="library"&gt;Cliquer ici&lt;/a&gt; pour ajouter la première bibliothèque</value>
+  </data>
+  <data name="NoPeriodicals_AddFirst" xml:space="preserve">
+    <value>&lt;a class="noEntitiesAddFirst" data-value="periodical"&gt;Cliquer ici&lt;/a&gt; pour ajouter le premier périodique</value>
+  </data>
+  <data name="NoPersons_AddFirst" xml:space="preserve">
+    <value>&lt;a class="noEntitiesAddFirst" data-value="person"&gt;Cliquer ici&lt;/a&gt; pour ajouter la première personne</value>
+  </data>
+  <data name="NoPublishers_AddFirst" xml:space="preserve">
+    <value>&lt;a class="noEntitiesAddFirst" data-value="publisher"&gt;Cliquer ici&lt;/a&gt; pour ajouter la première maison d'édition</value>
+  </data>
+  <data name="NoSeriesTitle_AddFirst" xml:space="preserve">
+    <value>&lt;a class="noEntitiesAddFirst" data-value="seriesTitle"&gt;Cliquer ici&lt;/a&gt; pour ajouter la première série</value>
+  </data>
+  <data name="BibTeXKey_AllReferences" xml:space="preserve">
+    <value>Générer de nouvelles clés BibTeX pour toutes les références qui n'en ont pas.</value>
+  </data>
+  <data name="BibTeXKey_AllReferencesDescription" xml:space="preserve">
+    <value>Génère des clés BibTeX pour toutes les références du projet dont le champ clé BibTeX est actuellement vide.</value>
+  </data>
+  <data name="BibTeXKey_AllReferencesNew" xml:space="preserve">
+    <value>Générer de nouvelles clés BibTeX pour toutes les références (les clés existantes seront remplacées)</value>
+  </data>
+  <data name="BibTeXKey_AllReferencesNewDescription" xml:space="preserve">
+    <value>Génère de nouvelles clés BibTeX pour toutes les références du projet. Les clés existantes seront remplacées.</value>
+  </data>
+  <data name="BibTeXKey_CurrentReferenceAutomatic" xml:space="preserve">
+    <value>Générer automatiquement une clé BibTeX pour la référence actuelle</value>
+  </data>
+  <data name="BibTeXKey_CurrentReferenceAutomaticDescription" xml:space="preserve">
+    <value>Génère une clé BibTeX pour la référence actuelle.</value>
+  </data>
+  <data name="BibTeXKey_CurrentReferenceManual" xml:space="preserve">
+    <value>Générer manuellement une clé BibTeX pour la référence actuelle</value>
+  </data>
+  <data name="BibTeXKey_CurrentReferenceManualDescription" xml:space="preserve">
+    <value>Vous pouvez définir vous-même une clé BibTeX.</value>
+  </data>
+  <data name="BibTeXKey_CurrentReferenceManualPlaceholder" xml:space="preserve">
+    <value>Saisir une clé BibTeX</value>
+  </data>
+  <data name="CitationKey_AllReferences" xml:space="preserve">
+    <value>Générer des clés de citation pour toutes les références qui n'en ont pas</value>
+  </data>
+  <data name="CitationKey_AllReferencesDescription" xml:space="preserve">
+    <value>Génère une clé de citation pour toutes les références du projet dont le champ clé de citation est actuellement vide.</value>
+  </data>
+  <data name="CitationKey_AllReferencesNew" xml:space="preserve">
+    <value>Générer de nouvelles clés de citation pour toutes les références (les clés existantes seront remplacées)</value>
+  </data>
+  <data name="CitationKey_AllReferencesNewDescription" xml:space="preserve">
+    <value>Génère une clé de citation pour tous les titres du projet. Les clés existantes seront alors remplacées.</value>
+  </data>
+  <data name="CitationKey_CurrentReferenceAutomatic" xml:space="preserve">
+    <value>Générer automatiquement une clé de citation pour la référence actuelle</value>
+  </data>
+  <data name="CitationKey_CurrentReferenceAutomaticDescription" xml:space="preserve">
+    <value>Génère une clé de citation pour la référence actuelle.</value>
+  </data>
+  <data name="CitationKey_CurrentReferenceManual" xml:space="preserve">
+    <value>Générer manuellement une clé de citation pour la référence actuelle</value>
+  </data>
+  <data name="CitationKey_CurrentReferenceManualDescription" xml:space="preserve">
+    <value>Vous pouvez définir vous-même une clé de citation.</value>
+  </data>
+  <data name="CitationKey_CurrentReferenceManualPlaceholder" xml:space="preserve">
+    <value>Saisir une clé de citation</value>
+  </data>
+  <data name="MissingInput" xml:space="preserve">
+    <value>Saisie nécessaire</value>
+  </data>
+  <data name="OnlineSearch_TooManyResults" xml:space="preserve">
+    <value>Trop de résultats</value>
+  </data>
+  <data name="OnlineSearch_TooManyResultsDescription" xml:space="preserve">
+    <value>La recherche saisie a généré plus de 1000 résultats. Vous pouvez affiner la recherche ou réduire le nombre de sources de données.</value>
+  </data>
+  <data name="CreateKeys_BibTeXKey_Created_All" xml:space="preserve">
+    <value>Des clés BibTeX ont été créées pour toutes les références.</value>
+  </data>
+  <data name="CreateKeys_BibTeXKey_Created_Single" xml:space="preserve">
+    <value>La clé BibTeX a été créée pour la référence actuelle.</value>
+  </data>
+  <data name="CreateKeys_BibTeXKey_Creating_All" xml:space="preserve">
+    <value>Les clés BibTeX vont être créées pour toutes les références.</value>
+  </data>
+  <data name="CreateKeys_BibTeXKey_Creating_Single" xml:space="preserve">
+    <value>La clé BibTeX va être créée pour la référence actuelle.</value>
+  </data>
+  <data name="CreateKeys_CitationKey_Created_All" xml:space="preserve">
+    <value>Les clés de citation ont été créées pour toutes les références.</value>
+  </data>
+  <data name="CreateKeys_CitationKey_Created_Single" xml:space="preserve">
+    <value>La clé de citation a été créée pour la référence actuelle.</value>
+  </data>
+  <data name="CreateKeys_CitationKey_Creating_All" xml:space="preserve">
+    <value>Les clés de citation vont être créées pour toutes les références.</value>
+  </data>
+  <data name="CreateKeys_CitationKey_Creating_Single" xml:space="preserve">
+    <value>La clé de citation va être créée pour la référence actuelle.</value>
+  </data>
+  <data name="NoSearchResults" xml:space="preserve">
+    <value>La recherche n'a pas donné de résultat.</value>
+  </data>
+  <data name="DeleteAllReferencesWarning" xml:space="preserve">
+    <value>&lt;span class="segoeUiSemibold"&gt;Attention&lt;/span&gt;&lt;br/&gt;Vous supprimez peut-être plus de références que voulu. Cela peut se produire lorsqu'un livre édité à partir duquel vous aviez saisi des contributions se trouve parmi les références sélectionnées.</value>
+  </data>
+  <data name="Beta" xml:space="preserve">
+    <value>Version bêta</value>
+  </data>
+  <data name="PageOf" xml:space="preserve">
+    <value>par</value>
+    <comment>e.g. "page 1 of 4"</comment>
+  </data>
+  <data name="ProjectMemberRemoved" xml:space="preserve">
+    <value>Vous avez été exclu(e) de ce projet. Le projet va être fermé.</value>
+  </data>
+  <data name="AllSelectedKnowledgeItems" xml:space="preserve">
+    <value>Eléments de connaissance marqués</value>
+  </data>
+  <data name="ContributionsAddNew" xml:space="preserve">
+    <value>Ajouter une autre contribution</value>
+  </data>
+  <data name="CitaviAppIconTooltip" xml:space="preserve">
+    <value>Ouvrir une autre fenêtre</value>
+  </data>
+  <data name="CreateParentReference" xml:space="preserve">
+    <value>Veuillez cliquer ici pour créer une nouvelle référence parente</value>
+  </data>
+  <data name="CurrentParentReference" xml:space="preserve">
+    <value>Référence parente actuelle</value>
+  </data>
+  <data name="ParentReferences" xml:space="preserve">
+    <value>Référence parente</value>
+  </data>
+  <data name="SearchParentReference" xml:space="preserve">
+    <value>Rechercher une référence parente</value>
+  </data>
+  <data name="SelectParentReference" xml:space="preserve">
+    <value>ou reprendre une référence parente de la liste.</value>
+  </data>
+  <data name="NewParentReference" xml:space="preserve">
+    <value>Nouvelle référence parente</value>
+  </data>
+  <data name="RemoveUserFromProjectPlaceholder" xml:space="preserve">
+    <value>Ajouter un message facultatif (160 caractères maxi.)</value>
+  </data>
+  <data name="DragNDrop_Category_Copy" xml:space="preserve">
+    <value>Ajouter une catégorie</value>
+  </data>
+  <data name="DragNDrop_Replace" xml:space="preserve">
+    <value>remplacer "{0}" par "{1}"</value>
+  </data>
+  <data name="DragNDrop_Group_Copy" xml:space="preserve">
+    <value>Ajouter un groupe</value>
+  </data>
+  <data name="DragNDrop_Keyword_Copy" xml:space="preserve">
+    <value>Ajouter un mot clé</value>
+  </data>
+  <data name="IncludeAttachments" xml:space="preserve">
+    <value>Inclure les fichiers joints</value>
+  </data>
+  <data name="Survey_DoNotShowAgain" xml:space="preserve">
+    <value>Ne plus afficher</value>
+  </data>
+  <data name="Survey_Likely" xml:space="preserve">
+    <value>fort probable</value>
+  </data>
+  <data name="Survey_NotLikely" xml:space="preserve">
+    <value>très peu probable</value>
+  </data>
+  <data name="Survey_Placeholder_Bad" xml:space="preserve">
+    <value>Oh, c'est épouvantable. Que devons-nous améliorer en premier ?</value>
+  </data>
+  <data name="Survey_Placeholder_Fair" xml:space="preserve">
+    <value>Il y a encore un potentiel d’amélioration ! Que devons-nous améliorer rapidement ?</value>
+  </data>
+  <data name="Survey_Placeholder_Good" xml:space="preserve">
+    <value>Nous nous réjouissons. Que souhaiteriez-vous que nous changions ?</value>
+  </data>
+  <data name="Survey_Placeholder_Super" xml:space="preserve">
+    <value>Super ! Pouvez-vous nous dire ce qui vous a particulièrement plu ?</value>
+  </data>
+  <data name="Survey_Subtitle" xml:space="preserve">
+    <value>Veuillez nous excuser de ce bref dérangement …</value>
+  </data>
+  <data name="Survey_Title" xml:space="preserve">
+    <value>Recommanderiez-vous Citavi Web ?</value>
+  </data>
+  <data name="SearchQuery_SyntaxError" xml:space="preserve">
+    <value>Terme de recherche non valable. Veuillez vérifier les parenthèses et les guillemets.</value>
+  </data>
+</root>

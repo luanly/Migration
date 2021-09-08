@@ -1,0 +1,1321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DbServerManager_About" xml:space="preserve">
+    <value>Über</value>
+  </data>
+  <data name="DbServerManager_AccessOn" xml:space="preserve">
+    <value>Verbunden mit</value>
+  </data>
+  <data name="DbServerManager_Actions" xml:space="preserve">
+    <value>Aktionen</value>
+  </data>
+  <data name="DbServerManager_Add" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="DbServerManager_AddProject" xml:space="preserve">
+    <value>Neues Projekt anlegen</value>
+  </data>
+  <data name="DbServerManager_AllPermissions" xml:space="preserve">
+    <value>Alle Berechtigungen</value>
+  </data>
+  <data name="DbServerManager_AllProjects" xml:space="preserve">
+    <value>Alle Projekte</value>
+  </data>
+  <data name="DbServerManager_CancelProcess" xml:space="preserve">
+    <value>Möchten Sie den Vorgang abbrechen?</value>
+  </data>
+  <data name="DbServerManager_CanCreateProjects" xml:space="preserve">
+    <value>Darf Projekte erstellen</value>
+  </data>
+  <data name="DbServerManager_ChangeAttachmentsPath" xml:space="preserve">
+    <value>Projekt-Attachment-Pfad ändern</value>
+  </data>
+  <data name="DbServerManager_ChangeProjectName" xml:space="preserve">
+    <value>Projekt umbenennen</value>
+  </data>
+  <data name="DbServerManager_CitaviUser" xml:space="preserve">
+    <value>Citavi Benutzer</value>
+  </data>
+  <data name="DbServerManager_Connections" xml:space="preserve">
+    <value>Verbindungen</value>
+  </data>
+  <data name="DbServerManager_ProjectHasRelativePathes" xml:space="preserve">
+    <value>Dieses Projekt verwendet relative Pfade. Relative Pfade werden beim Import in den DBServer nicht angepasst.
+
+Um relative Pfade anzupassen, rufen Sie nach dem Import in Citavi die Funktion "Datei &gt; Projekteigenschaften &gt; Pfade &gt; Pfade korrigieren" auf.
+
+Möchten Sie fortfahren?</value>
+  </data>
+  <data name="DbServerManager_CopyLocalProjectToSchema" xml:space="preserve">
+    <value>Lokales Projekt importieren</value>
+  </data>
+  <data name="DbServerManager_DatabaseAndProjects" xml:space="preserve">
+    <value>Datenbank und Projekte</value>
+  </data>
+  <data name="DbServerManager_DatabaseAssistent" xml:space="preserve">
+    <value>Citavi Datenbank-Assistent</value>
+  </data>
+  <data name="DbServerManager_DatabaseName" xml:space="preserve">
+    <value>Datenbankname</value>
+  </data>
+  <data name="DbServerManager_DatabaseOwner" xml:space="preserve">
+    <value>Datenbankbesitzer</value>
+  </data>
+  <data name="DbServerManager_Databases" xml:space="preserve">
+    <value>Datenbanken</value>
+  </data>
+  <data name="DbServerManager_DataConnection" xml:space="preserve">
+    <value>Serververbindung</value>
+  </data>
+  <data name="DbServerManager_DataSource" xml:space="preserve">
+    <value>Datenquellen</value>
+  </data>
+  <data name="DbServerManager_Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="DbServerManager_Exit" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="DbServerManager_Extended" xml:space="preserve">
+    <value>Erweitert…</value>
+  </data>
+  <data name="DbServerManager_File" xml:space="preserve">
+    <value>Datei</value>
+  </data>
+  <data name="DbServerManager_Finish" xml:space="preserve">
+    <value>Fertigstellen</value>
+  </data>
+  <data name="DbServerManager_Firewall" xml:space="preserve">
+    <value>Firewall</value>
+  </data>
+  <data name="DbServerManager_Help" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="DbServerManager_InputAttachmentsPath" xml:space="preserve">
+    <value>Attachment-Pfad:</value>
+  </data>
+  <data name="DbServerManager_InputProjectName" xml:space="preserve">
+    <value>Name des DBServer-Projekts:</value>
+  </data>
+  <data name="DbServerManager_InputProjectPath" xml:space="preserve">
+    <value>Lokales Projekt, das importiert werden soll:</value>
+  </data>
+  <data name="DbServerManager_InputProtectedProjectCredentials" xml:space="preserve">
+    <value>Zugangsdaten:</value>
+  </data>
+  <data name="DbServerManager_InvalidDatabase" xml:space="preserve">
+    <value>Die ausgewählte Datenbank "{0}" ist nicht kompatibel. Wählen Sie eine andere Datenbank aus.</value>
+  </data>
+  <data name="DbServerManager_InValidDatabaseInitilization" xml:space="preserve">
+    <value>Die Datenbank konnte nicht initialisiert werden. Legen Sie die Verbindung neu an.</value>
+  </data>
+  <data name="DbServerManager_Licence" xml:space="preserve">
+    <value>Lizenz</value>
+  </data>
+  <data name="DbServerManager_LicenceFullConsumed" xml:space="preserve">
+    <value>Alle Per Seat-Lizenzen sind zugewiesen.</value>
+  </data>
+  <data name="DbServerManager_LicencingDeniedForGroups" xml:space="preserve">
+    <value>Per Seat-Lizenzen können keinen Active Directory-Gruppen zugewiesen werden.</value>
+  </data>
+  <data name="DbServerManager_LicenseDatabase" xml:space="preserve">
+    <value>Lizenzen verwalten</value>
+  </data>
+  <data name="DbServerManager_Licenses" xml:space="preserve">
+    <value>Lizenzen</value>
+  </data>
+  <data name="DbServerManager_Licensing" xml:space="preserve">
+    <value>Lizenzierung</value>
+  </data>
+  <data name="DbServerManager_LoadSettings" xml:space="preserve">
+    <value>Lade Einstellungen…</value>
+  </data>
+  <data name="DbServerManager_LoggedInAs" xml:space="preserve">
+    <value>Angemeldet als {0}</value>
+  </data>
+  <data name="DbServerManager_Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="DbServerManager_Logins" xml:space="preserve">
+    <value>Logins</value>
+  </data>
+  <data name="DbServerManager_Manage" xml:space="preserve">
+    <value>Verwalten</value>
+  </data>
+  <data name="DbServerManager_Manual" xml:space="preserve">
+    <value>Handbuch</value>
+  </data>
+  <data name="DbServerManager_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DbServerManager_Next" xml:space="preserve">
+    <value>Weiter</value>
+  </data>
+  <data name="DbServerManager_OpenImportProjectFailed" xml:space="preserve">
+    <value>Das Projekt konnte nicht geladen werden. Führen Sie in Citavi eine Reparatur durch und wiederholen den Vorgang.</value>
+  </data>
+  <data name="DbServerManager_Overview" xml:space="preserve">
+    <value>Übersicht</value>
+  </data>
+  <data name="DbServerManager_Password" xml:space="preserve">
+    <value>Passwort</value>
+  </data>
+  <data name="DbServerManager_PathToAttachments" xml:space="preserve">
+    <value>Attachment-Pfad</value>
+  </data>
+  <data name="DbServerManager_Permissions" xml:space="preserve">
+    <value>Berechtigungen</value>
+  </data>
+  <data name="DbServerManager_PerSeatLicence" xml:space="preserve">
+    <value>Per Seat-Lizenz</value>
+  </data>
+  <data name="DbServerManager_Previous" xml:space="preserve">
+    <value>Zurück</value>
+  </data>
+  <data name="DbServerManager_ProjectImport_CheckProject" xml:space="preserve">
+    <value>Projekt prüfen…</value>
+  </data>
+  <data name="DbServerManager_ProjectImport_ConvertProject" xml:space="preserve">
+    <value>Projekt anpassen…</value>
+  </data>
+  <data name="DbServerManager_ProjectImport_EndImport" xml:space="preserve">
+    <value>Projektimport abschließen…</value>
+  </data>
+  <data name="DbServerManager_ProjectImport_LoadProject" xml:space="preserve">
+    <value>Projekt laden…</value>
+  </data>
+  <data name="DbServerManager_ProjectImport_StartImport" xml:space="preserve">
+    <value>Projektimport starten…</value>
+  </data>
+  <data name="DbServerManager_ProjectImport_UnprotectProject" xml:space="preserve">
+    <value>Projekt entschlüsseln…</value>
+  </data>
+  <data name="DbServerManager_ProjectName" xml:space="preserve">
+    <value>Projektname</value>
+  </data>
+  <data name="DbServerManager_Projects" xml:space="preserve">
+    <value>Projekt</value>
+  </data>
+  <data name="DbServerManager_ReduceLicenceCount" xml:space="preserve">
+    <value>Bevor Sie die Lizenz löschen können, müssen Sie {0} verwendete Lizenzen deaktivieren.</value>
+  </data>
+  <data name="DbServerManager_Refresh" xml:space="preserve">
+    <value>Aktualisieren</value>
+  </data>
+  <data name="DbServerManager_RefreshProjectData" xml:space="preserve">
+    <value>Aktualisiere Projektdaten</value>
+  </data>
+  <data name="DbServerManager_Remove" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="DbServerManager_RemoveDataSource" xml:space="preserve">
+    <value>Möchten Sie diese Datenverbindung löschen?</value>
+  </data>
+  <data name="DbServerManager_RemoveLogin" xml:space="preserve">
+    <value>Möchten Sie den Benutzer "{0}" wirklich löschen?</value>
+  </data>
+  <data name="DbServerManager_RemoveLoginWithoutDbDepending" xml:space="preserve">
+    <value>Hinweis
+Dieser Login wird auch in Nicht-Citavi-Datenbanken auf diesem SQL Server verwendet. Daher werden nur die Citavi-Berechtigungen entfernt.</value>
+  </data>
+  <data name="DbServerManager_RemoveProject" xml:space="preserve">
+    <value>Projekt löschen</value>
+  </data>
+  <data name="DbServerManager_RemoveSchema" xml:space="preserve">
+    <value>Möchten Sie das Projekt löschen?</value>
+  </data>
+  <data name="DbServerManager_Required" xml:space="preserve">
+    <value>Pflicht</value>
+  </data>
+  <data name="DbServerManager_Role" xml:space="preserve">
+    <value>Rolle</value>
+  </data>
+  <data name="DbServerManager_SaveProject" xml:space="preserve">
+    <value>Citavi-Verbindungsdatei speichern</value>
+  </data>
+  <data name="DbServerManager_SelectAdObject" xml:space="preserve">
+    <value>Wählen Sie ein Active Directory-Objekt aus.</value>
+  </data>
+  <data name="DbServerManager_SelectDatabase" xml:space="preserve">
+    <value>Wählen Sie die zu verbindende Datenbank aus.</value>
+  </data>
+  <data name="DbServerManager_SelectLoginType" xml:space="preserve">
+    <value>Wählen Sie den Zugangstyp aus.</value>
+  </data>
+  <data name="DbServerManager_SelectSqlObject" xml:space="preserve">
+    <value>Geben Sie die Zugangsdaten ein.</value>
+  </data>
+  <data name="DbServerManager_ServerName" xml:space="preserve">
+    <value>Servername</value>
+  </data>
+  <data name="DbServerManager_Tools" xml:space="preserve">
+    <value>Extras</value>
+  </data>
+  <data name="DbServerManager_Total" xml:space="preserve">
+    <value>gesamt</value>
+  </data>
+  <data name="DbServerManager_User" xml:space="preserve">
+    <value>Benutzer</value>
+  </data>
+  <data name="DbServerManager_UserFeedbackRenameAttachmentsPath" xml:space="preserve">
+    <value>Wichtige Hinweise:
+
+1) Informieren Sie alle Benutzer dieses Projekts, es zu schließen. Fahren Sie erst fort, wenn kein Benutzer mehr aktiv ist. Andernfalls kann es zu Datenverlust kommen.
+
+2) Die Dateien aus dem Ursprungsverzeichnis werden nicht automatisch in das neue Zielverzeichnis kopiert. Sie müssen die Dateien manuell mit dem Windows Explorer kopieren.
+
+Möchten Sie fortfahren?</value>
+  </data>
+  <data name="DbServerManager_UserFeedbackRenameProjectName" xml:space="preserve">
+    <value>Wichtiger Hinweis:
+
+Informieren Sie alle Benutzer dieses Projekts, es zu schließen. Fahren Sie erst fort, wenn kein Benutzer mehr aktiv ist. Andernfalls kann es zu Datenverlust kommen.
+
+Möchten Sie fortfahren?</value>
+  </data>
+  <data name="DbServerManager_UserName" xml:space="preserve">
+    <value>Benutzername</value>
+  </data>
+  <data name="DbServerManager_View" xml:space="preserve">
+    <value>Ansicht</value>
+  </data>
+  <data name="DbServerManager_Welcome" xml:space="preserve">
+    <value>Willkommen</value>
+  </data>
+  <data name="DbServerManager_Wizard_Add" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="DbServerManager_Wizard_AddEmptyProjekt" xml:space="preserve">
+    <value>Ein leeres Projekt hinzufügen</value>
+  </data>
+  <data name="DbServerManager_Wizard_AddExampleProjekt" xml:space="preserve">
+    <value>Das Beispielprojekt "Food Quality" hinzufügen</value>
+  </data>
+  <data name="DbServerManager_Wizard_Caption" xml:space="preserve">
+    <value>Bezeichnung</value>
+  </data>
+  <data name="DbServerManager_Wizard_ComputerName" xml:space="preserve">
+    <value>Computername</value>
+  </data>
+  <data name="DbServerManager_Wizard_ConfigFirewall" xml:space="preserve">
+    <value>Firewall konfigurieren</value>
+  </data>
+  <data name="DbServerManager_Wizard_CreateNewDatabase" xml:space="preserve">
+    <value>Eine neue Datenbank einrichten</value>
+  </data>
+  <data name="DbServerManager_Wizard_Database" xml:space="preserve">
+    <value>Datenbank</value>
+  </data>
+  <data name="DbServerManager_Wizard_DataConnectionHeader1" xml:space="preserve">
+    <value>Verbindung zum Microsoft SQL Server</value>
+  </data>
+  <data name="DbServerManager_Wizard_DataConnectionHeader2" xml:space="preserve">
+    <value>Instanz</value>
+  </data>
+  <data name="DbServerManager_Wizard_DataConnectionHeader3" xml:space="preserve">
+    <value>Anmeldung</value>
+  </data>
+  <data name="DbServerManager_Wizard_DataConnectionInstanceInfo" xml:space="preserve">
+    <value>Falls Sie SQL Server als benannte Instanz installiert haben, geben Sie hier den Instanznamen ein. Der von uns empfohlene Name für die Instanz lautet "CitaviServer".
+Falls Sie SQL Server als Standardinstanz eingerichtet haben, lassen Sie das Feld leer.</value>
+  </data>
+  <data name="DbServerManager_Wizard_DataConnectionRunsOtherInfo" xml:space="preserve">
+    <value>Wenn SQL Server auf einem anderen Computer läuft, stellen Sie sicher, dass dort Verbindungen zum SQL Server erlaubt sind (Firewall-Konfiguration). Falls Sie sich damit nicht auskennen, starten Sie den DBServer Manager auf dem Computer, auf dem der SQL Server läuft.</value>
+  </data>
+  <data name="DbServerManager_Wizard_DataConnectionServerRunsOnHost" xml:space="preserve">
+    <value>Der SQL Server läuft auf diesem Computer.</value>
+  </data>
+  <data name="DbServerManager_Wizard_DataConnectionServerRunsOnOther" xml:space="preserve">
+    <value>Der SQL Server läuft auf einem anderen Computer.</value>
+  </data>
+  <data name="DbServerManager_Wizard_Delete" xml:space="preserve">
+    <value>Entfernen</value>
+  </data>
+  <data name="DbServerManager_Wizard_EmptyProjectIsAvailable" xml:space="preserve">
+    <value>Es existiert bereits ein Projekt mit dem Namen "{0}" in der Datenbank.</value>
+  </data>
+  <data name="DbServerManager_Wizard_ExampleProjectIsAvailable" xml:space="preserve">
+    <value>Es existiert bereits ein Beispielprojekt in der Datenbank.</value>
+  </data>
+  <data name="DbServerManager_Wizard_InstanceName" xml:space="preserve">
+    <value>Instanzname</value>
+  </data>
+  <data name="DbServerManager_Wizard_InvalidDatabase" xml:space="preserve">
+    <value>Der gewählte Datenbankname "{0}" ist nicht kompatibel. Bitte wählen Sie einen anderen Namen aus.</value>
+  </data>
+  <data name="DbServerManager_Wizard_Licence" xml:space="preserve">
+    <value>Lizenz</value>
+  </data>
+  <data name="DbServerManager_Wizard_LicenceInfo" xml:space="preserve">
+    <value>Möchten Sie eine Lizenz für "Citavi for DBServer" installieren?</value>
+  </data>
+  <data name="DbServerManager_Wizard_LicenceIsAvailable" xml:space="preserve">
+    <value>Die Datenbank enthält bereits eine Lizenz mit der gleichen ID. Wählen Sie eine andere Lizenz aus oder löschen Sie die Lizenz aus der Auswahl.</value>
+  </data>
+  <data name="DbServerManager_Wizard_Link" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="DbServerManager_Wizard_MoreInformations" xml:space="preserve">
+    <value>Weitere Informationen</value>
+  </data>
+  <data name="DbServerManager_Wizard_Overview" xml:space="preserve">
+    <value>Zusammenfassung</value>
+  </data>
+  <data name="DbServerManager_Wizard_Password" xml:space="preserve">
+    <value>Passwort</value>
+  </data>
+  <data name="DbServerManager_Wizard_Path" xml:space="preserve">
+    <value>Pfad</value>
+  </data>
+  <data name="DbServerManager_Wizard_Port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="DbServerManager_Wizard_Process_Canceled" xml:space="preserve">
+    <value>Der Vorgang wurde abgebrochen</value>
+  </data>
+  <data name="DbServerManager_Wizard_Process_Completed" xml:space="preserve">
+    <value>Der Vorgang wurde erfolgreich abgeschlossen</value>
+  </data>
+  <data name="DbServerManager_Wizard_Process_ConnectToDatabase" xml:space="preserve">
+    <value>Mit Datenbank "{0}" verbinden…</value>
+  </data>
+  <data name="DbServerManager_Wizard_Process_ConnectToServer" xml:space="preserve">
+    <value>Mit Server "{0}" verbinden…</value>
+  </data>
+  <data name="DbServerManager_Wizard_Process_CreateDatabase" xml:space="preserve">
+    <value>Datenbank "{0}" erzeugen…</value>
+  </data>
+  <data name="DbServerManager_Wizard_Process_CreateProject" xml:space="preserve">
+    <value>Projekt "{0}" erstellen…</value>
+  </data>
+  <data name="DbServerManager_Wizard_Process_CreateUser" xml:space="preserve">
+    <value>Citavi-Benutzer anlegen…</value>
+  </data>
+  <data name="DbServerManager_Wizard_Process_Failed" xml:space="preserve">
+    <value>Fehlgeschlagen</value>
+  </data>
+  <data name="DbServerManager_Wizard_Process_LicenceDatabase" xml:space="preserve">
+    <value>Datenbank "{0}" lizensieren…</value>
+  </data>
+  <data name="DbServerManager_Wizard_Projects" xml:space="preserve">
+    <value>Projekte</value>
+  </data>
+  <data name="DbServerManager_Wizard_Select" xml:space="preserve">
+    <value>Auswählen</value>
+  </data>
+  <data name="DbServerManager_Wizard_SelectExistDatabase" xml:space="preserve">
+    <value>Eine vorhandene Datenbank auswählen</value>
+  </data>
+  <data name="DbServerManager_Wizard_SqlLogin" xml:space="preserve">
+    <value>SQL Server-Anmeldung</value>
+  </data>
+  <data name="DbServerManager_Wizard_User" xml:space="preserve">
+    <value>Benutzer</value>
+  </data>
+  <data name="DbServerManager_Wizard_UserName" xml:space="preserve">
+    <value>Benutzername</value>
+  </data>
+  <data name="DbServerManager_Wizard_WelcomeHeader" xml:space="preserve">
+    <value>Willkommen beim Citavi DBServer Manager</value>
+  </data>
+  <data name="DbServerManager_Wizard_WelcomeMessage" xml:space="preserve">
+    <value>&lt;p&gt;Bevor Sie beginnen, stellen Sie sicher, dass Sie den Microsoft SQL Server installiert haben. Weitere Informationen finden Sie im &lt;a href="https://www.citavi.com/c6prg/c6dbserver"&gt;Citavi Handbuch&lt;/a&gt;.&lt;/p&gt;</value>
+  </data>
+  <data name="DbServerManager_Wizard_WindowLogin" xml:space="preserve">
+    <value>Windows-Anmeldung</value>
+  </data>
+  <data name="DbServerManager_ProjectImport_PathToAttachments" xml:space="preserve">
+    <value>Pfad zu den Attachments des DBServer-Projekts:</value>
+  </data>
+  <data name="DbServerManager_ProjectImport_ExistProjectName" xml:space="preserve">
+    <value>Es gibt bereits ein Projekt mit diesem Namen.</value>
+  </data>
+  <data name="DbServerManager_ProjectImport_InputAttachmentsPath" xml:space="preserve">
+    <value>Geben Sie den Attachment-Pfad an.</value>
+  </data>
+  <data name="DbServerManager_ProjectImport_InputCredentialsForProtectedProject" xml:space="preserve">
+    <value>Geben Sie die Zugangsdaten für das geschützte Teamprojekt an.</value>
+  </data>
+  <data name="DbServerManager_ProjectImport_InputProjectName" xml:space="preserve">
+    <value>Geben Sie einen Namen für das DBServer-Projekt an.</value>
+  </data>
+  <data name="DbServerManager_ProjectImport_InputProjectPath" xml:space="preserve">
+    <value>Geben Sie einen Pfad zu einem lokalen Citavi-Projekt an.</value>
+  </data>
+  <data name="DbServerManager_ProjectImport_NotNetworkDrive" xml:space="preserve">
+    <value>Der Attachment-Ordner sollte auf einem Netzlaufwerk liegen, damit er für die Client-Computer sichtbar ist.
+
+Möchten Sie trotzdem fortfahren?</value>
+  </data>
+  <data name="DbServerManager_ProjectImport_NotUncPath" xml:space="preserve">
+    <value>Wir empfehlen, den Pfad zum Attachment-Ordner im UNC-Format anzugeben (\\servername\freigabe).
+
+Möchten Sie trotzdem fortfahren?</value>
+  </data>
+  <data name="DbServerManager_ProjectImport_UnvalidCharactersInName" xml:space="preserve">
+    <value>Der Projektname enthält folgende unzulässigen Zeichen:</value>
+  </data>
+  <data name="DbServerManager_ProjectImport_NotValidAttachmentDirectoryPath" xml:space="preserve">
+    <value>Der Attachment-Pfad hat kein gültiges Format.</value>
+  </data>
+  <data name="DbServerManager_ProjectImport_PathNotExist" xml:space="preserve">
+    <value>Der angegebene Attachment-Pfad wurde nicht gefunden.</value>
+  </data>
+  <data name="DbServerManager_ExpiredOn" xml:space="preserve">
+    <value>Gültig bis</value>
+  </data>
+  <data name="DbServerManager_DatabaseInvalidCharacters" xml:space="preserve">
+    <value>Der Datenbankname enthält folgende nicht zulässige Zeichen:</value>
+  </data>
+  <data name="DbServerManager_Setup_CheckIsFirewallActive" xml:space="preserve">
+    <value>Windows Firewall Aktivierung prüfen…</value>
+  </data>
+  <data name="DbServerManager_Setup_CreatedFirewallRule" xml:space="preserve">
+    <value>Regel für Microsoft SQL Server erstellt</value>
+  </data>
+  <data name="DbServerManager_Setup_CreateFirewallRule" xml:space="preserve">
+    <value>Regel für Microsoft SQL Server erstellen…</value>
+  </data>
+  <data name="DbServerManager_Setup_ExistFirewallRule" xml:space="preserve">
+    <value>Regel für Microsoft SQL Server gefunden</value>
+  </data>
+  <data name="DbServerManager_Setup_FirewallCanConfigFailed" xml:space="preserve">
+    <value>Windows Firewall-Konfiguration fehlgeschlagen</value>
+  </data>
+  <data name="DbServerManager_Setup_FirewallNotActive" xml:space="preserve">
+    <value>Windows Firewall ist deaktiviert</value>
+  </data>
+  <data name="DbServerManager_Setup_ReadFirewallConfig" xml:space="preserve">
+    <value>Windows Firewall-Konfiguration prüfen…</value>
+  </data>
+  <data name="DbServerManager_Setup_ReadFirewallRules" xml:space="preserve">
+    <value>Windows Firewall-Regeln importieren…</value>
+  </data>
+  <data name="DbServerManager_Setup_SearchSqlServerAppPath" xml:space="preserve">
+    <value>Microsoft SQL Server suchen…</value>
+  </data>
+  <data name="DbServerManager_Setup_SearchSqlServerAppPathFailed" xml:space="preserve">
+    <value>Microsoft SQL Server-Suche fehlgeschlagen</value>
+  </data>
+  <data name="DbServerManager_Setup_StartFirewallSetup" xml:space="preserve">
+    <value>Windows Firewall-Konfiguration starten…</value>
+  </data>
+  <data name="DbServerManager_Setup_StartMsSqlSetup" xml:space="preserve">
+    <value>SQL Server Express Setup starten…</value>
+  </data>
+  <data name="DbServerManager_Path" xml:space="preserve">
+    <value>Pfad</value>
+  </data>
+  <data name="DbServerManager_Setup_MsSQLInstallation" xml:space="preserve">
+    <value>Microsoft SQL Server Express Installation</value>
+  </data>
+  <data name="DbServerManager_Setup_MsWindowsFirewallConfig" xml:space="preserve">
+    <value>Windows Firewall Konfiguration</value>
+  </data>
+  <data name="DbServerManager_Setup_SqlConnectionFailed" xml:space="preserve">
+    <value>Verbindungsaufbau zum SQL Server fehlgeschlagen</value>
+  </data>
+  <data name="DbServerManager_Setup_ConnectionSqlServer" xml:space="preserve">
+    <value>Verbindung zum Microsoft SQL Server Express aufbauen…</value>
+  </data>
+  <data name="DbServerManager_Setup_CreateConnectionString" xml:space="preserve">
+    <value>Verbindungsdaten erstellen…</value>
+  </data>
+  <data name="DbServerManager_Setup_CancelSetup" xml:space="preserve">
+    <value>Möchten Sie das Setup beenden?</value>
+  </data>
+  <data name="DbServerManager_Setup_ProcessIsRunning" xml:space="preserve">
+    <value>Die Anwendung kann erst nach Abschluss des Installationsprozesses beendet werden.</value>
+  </data>
+  <data name="DbServerManager_Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="DbServerManager_Setup_AcceptSqlServerLicence" xml:space="preserve">
+    <value>Ich akzeptiere die Lizenzbestimmungen</value>
+  </data>
+  <data name="DbServerManager_Setup_CheckInputValues" xml:space="preserve">
+    <value>Überprüfen Sie die folgenden Werte und fahren Sie anschließend mit dem Setup fort</value>
+  </data>
+  <data name="DbServerManager_Setup_Config" xml:space="preserve">
+    <value>Konfigurieren</value>
+  </data>
+  <data name="DbServerManager_Setup_ConfigFirewall" xml:space="preserve">
+    <value>Windows Firewall konfigurieren</value>
+  </data>
+  <data name="DbServerManager_Setup_DecideLanguage" xml:space="preserve">
+    <value>Sprache:</value>
+  </data>
+  <data name="DbServerManager_Setup_HintToSqlServer" xml:space="preserve">
+    <value>Dieses Programm verwendet im Hintergrund das Original-Setup von Microsoft, um die Installation durchzuführen.&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Führen Sie folgende Schritte durch, um fortzufahren:&lt;/b&gt;
+&lt;ol&gt;
+&lt;li&gt;Folgen Sie der &lt;a href="http://www.citavi.com/sqlserversetupmanual6"&gt;MS SQL Server Express Installationsanleitung im Citavi Handbuch.&lt;/a&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;Geben Sie im nachfolgenden Textfeld den Pfad zur &lt;b&gt;Setup.exe&lt;/b&gt; im Ordner der entpackten Setup-Datei an.&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="DbServerManager_Setup_InputValues" xml:space="preserve">
+    <value>&lt;p&gt;Geben Sie den &lt;b&gt;Instanznamen&lt;/b&gt; für SQL Server Express an.&lt;/p&gt;
+&lt;p&gt;Wozu dient der Instanzname?&lt;br&gt;Angenommen, Sie möchten auf diesem Computer ein anderes Programm installieren, das SQL Server als Datenbank verwendet. Der Instanzname dient dann als Unterscheidung der verschiedenen SQL Server-Installationen. Beispielsweise können Sie bei Bedarf eine Deinstallation von SQL Server durchführen, die mit Sicherheit nur Citavi betrifft und kein anderes Programm.&lt;/p&gt;
+&lt;p&gt;Ausführliche Informationen finden Sie in der &lt;a href="https://technet.microsoft.com/de-de/library/ms143531%28v=sql.105%29.aspx"&gt;Microsoft-Hilfe&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Wir empfehlen &lt;b&gt;CitaviServer&lt;/b&gt; als Instanzname.&lt;/p&gt;</value>
+  </data>
+  <data name="DbServerManager_Setup_Install" xml:space="preserve">
+    <value>Installieren</value>
+  </data>
+  <data name="DbServerManager_Setup_InstallMsSql" xml:space="preserve">
+    <value>Microsoft SQL Server Express installieren</value>
+  </data>
+  <data name="DbServerManager_Setup_InstanceNameHelp" xml:space="preserve">
+    <value>Der Instanzname dient dazu, diesen SQL Server eindeutig zu identifizieren. Es wird empfohlen den Standard-Namen zu verwenden.</value>
+  </data>
+  <data name="DbServerManager_Setup_SetupFinished" xml:space="preserve">
+    <value>Das Setup wurde abgeschlossen.</value>
+  </data>
+  <data name="DbServerManager_Setup_SqlServerSetupPath" xml:space="preserve">
+    <value>Pfad zum SQL Server Express Setup</value>
+  </data>
+  <data name="DbServerManager_Setup_StartDbServerManager" xml:space="preserve">
+    <value>Citavi DBServer Manager starten</value>
+  </data>
+  <data name="DbServerManager_Setup_Welcome" xml:space="preserve">
+    <value>&lt;p&gt;Willkommen zum Setup von SQL Server Express for Citavi.&lt;/p&gt;
+
+&lt;p&gt;Dieses Setup-Programm installiert und konfiguriert &lt;b&gt;Microsoft SQL Server Express&lt;/b&gt;. Es ist &lt;b&gt;nicht geeignet&lt;/b&gt; für die Standard- oder Enterprise-Version von SQL Server.&lt;br&gt;
+Dieses Programm vereinfacht die Installation von SQL Server Express, indem es nur die nötigsten Parameter abfragt. Falls Sie ein erfahrener Datenbank-Administrator sind oder besondere Installationsanforderungen haben, empfehlen wir die Verwendung des Original-Setups von Microsoft.&lt;br&gt;
+Weitere Informationen finden Sie in unserer &lt;a href="https://www.citavi.com/c6prg/c6dbserver"&gt;Online-Hilfe&lt;/a&gt;.&lt;/p&gt;</value>
+  </data>
+  <data name="DbServerManager_ServerNotAvailable" xml:space="preserve">
+    <value>Server "{0}" nicht verfügbar</value>
+  </data>
+  <data name="DbServerManager_CurrentConnectionNotAvailable" xml:space="preserve">
+    <value>Die aktuelle Verbindung ist momentan nicht verfügbar.</value>
+  </data>
+  <data name="DbServerManager_DatabaseNotAvailable" xml:space="preserve">
+    <value>Datenbank "{0}" auf {1} nicht verfügbar</value>
+  </data>
+  <data name="DbServerManager_NoDataSourcesAvailable" xml:space="preserve">
+    <value>Keine der Datenverbindungen ist momentan verfügbar</value>
+  </data>
+  <data name="DbServerManager_Setup_LicencePathNotFound" xml:space="preserve">
+    <value>Es wurden keine gültigen Lizenzbedingungen im verwendeten Verzeichnis gefunden.</value>
+  </data>
+  <data name="DbServerManager_Setup_SetupPathNotFound" xml:space="preserve">
+    <value>Die angegebene Datei wurde nicht gefunden.</value>
+  </data>
+  <data name="DbServerManager_Setup_EmptyInstanceName" xml:space="preserve">
+    <value>Der Instanzname darf nicht leer sein.</value>
+  </data>
+  <data name="DbServerManager_Setup_FirstCharacterIsNotLetterOfInstanceName" xml:space="preserve">
+    <value>Das erste Zeichen des Instanznamens muss ein Buchstabe sein.</value>
+  </data>
+  <data name="DbServerManager_Setup_InstanceNameInvalidCharacters" xml:space="preserve">
+    <value>Der Instanzname enthält folgende nicht zulässige Zeichen:</value>
+  </data>
+  <data name="DbServerManager_Setup_Failed" xml:space="preserve">
+    <value>Fehlgeschlagen</value>
+  </data>
+  <data name="DbServerManager_Setup_Successful" xml:space="preserve">
+    <value>Erfolgreich</value>
+  </data>
+  <data name="DbServerManager_Setup_HintToFirewall" xml:space="preserve">
+    <value>Dieses Setup-Programm konfiguriert die Windows Firewall so, dass Anfragen aus &lt;b&gt;privaten und Domänen-Netzwerken&lt;/b&gt; an den Citavi-SQL Server möglich sind. Wenn Sie die Firewall-Konfiguration nicht vornehmen, funktioniert Citavi for DBServer ausschließlich auf dem lokalen Computer.&lt;br&gt;
+Falls Sie ein erfahrener Windows-Administrator sind oder besondere Anforderungen an die Firewall-Konfiguration haben, empfehlen wir die Verwendung des Windows-Dienstprogramms "Windows-Firewall mit erweiterter Sicherheit".</value>
+  </data>
+  <data name="DbServerManager_Setup_Errors" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="DbServerManager_Setup_InputValues2" xml:space="preserve">
+    <value>Geben Sie den Instanznamen an, den Sie bei der Installation von SQL Server Express verwendet haben.</value>
+  </data>
+  <data name="DbServerManager_SaveDatabase" xml:space="preserve">
+    <value>DBServer Manager-Verbindungsdatei speichern</value>
+  </data>
+  <data name="DbServerManager_OpeningDatabaseNotAvailable" xml:space="preserve">
+    <value>Die zu öffnende Datenbank ist im Moment nicht verfügbar.</value>
+  </data>
+  <data name="DbServerManager_UpdateSchemaVersion" xml:space="preserve">
+    <value>Projektschema aktualisieren</value>
+  </data>
+  <data name="DbServerManager_Database" xml:space="preserve">
+    <value>Datenbank</value>
+  </data>
+  <data name="DbServerManager_ManageLogins" xml:space="preserve">
+    <value>Benutzer verwalten</value>
+  </data>
+  <data name="DbServerManager_Setup_SqlInstallationFailed" xml:space="preserve">
+    <value>Die Installation des Microsoft SQL Server Express ist möglicherweise fehlgeschlagen (Exitcode: {0}). Bitte prüfen Sie das Log.</value>
+  </data>
+  <data name="DbServerManager_SaveLog" xml:space="preserve">
+    <value>Log speichern</value>
+  </data>
+  <data name="DbServerManager_SqlServ" xml:space="preserve">
+    <value>SQL Server Express Setup</value>
+  </data>
+  <data name="DbServerManager_WinFirewall" xml:space="preserve">
+    <value>Windows Firewall</value>
+  </data>
+  <data name="DbServerManager_Setup_LogSavingSuccsess" xml:space="preserve">
+    <value>Das Protokoll wurde erfolgreich gespeichert.</value>
+  </data>
+  <data name="DbServerManager_Setup_CreatedFirewallRuleForBrowser" xml:space="preserve">
+    <value>Regel für Microsoft SQL Browser erstellt</value>
+  </data>
+  <data name="DbServerManager_Setup_CreateFirewallRuleForBrowser" xml:space="preserve">
+    <value>Regel für Microsoft SQL Browser erstellen…</value>
+  </data>
+  <data name="DbServerManager_Setup_ExistFirewallRuleForBrowser" xml:space="preserve">
+    <value>Regel für Microsoft SQL Browser gefunden</value>
+  </data>
+  <data name="DbServerManager_Setup_SearchSqlServerBrowserAppPath" xml:space="preserve">
+    <value>Microsoft SQL Browser suchen…</value>
+  </data>
+  <data name="DbServerManager_Setup_SearchSqlServerBrowserAppPathFailed" xml:space="preserve">
+    <value>Microsoft SQL Browser-Suche fehlgeschlagen</value>
+  </data>
+  <data name="DbServerManager_AddLicenceFailed" xml:space="preserve">
+    <value>Es dürfen nur Lizenzen der Organistion "{0}" hinzugefügt werden.
+
+</value>
+  </data>
+  <data name="DbServerManager_DatabaseIsInUse" xml:space="preserve">
+    <value>Der Datenbankname wird bereits verwendet. Bitte geben Sie einen anderen ein.</value>
+  </data>
+  <data name="DbServerManager_ConfigBackup" xml:space="preserve">
+    <value>Backup konfigurieren</value>
+  </data>
+  <data name="DbServerManager_RestoreBackup" xml:space="preserve">
+    <value>Backup zurückspielen</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_EmailNotification" xml:space="preserve">
+    <value>Benachrichtigung per E-Mail</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_RemoveOlderBackupfiles" xml:space="preserve">
+    <value>Ältere Backup-Dateien löschen</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_SaveAndRun" xml:space="preserve">
+    <value>Ausführen</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_NotExistingBackupPath" xml:space="preserve">
+    <value>Der Ordner "{0}" existiert nicht. Bitte geben Sie einen existieren Ordner ein.</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_ValidGenerationCount" xml:space="preserve">
+    <value>Bitte geben Sie für die Anzahl der Versionen eine gültige Zahl die größer als 0 ist an.</value>
+  </data>
+  <data name="DbServerManager_TestEmailSubject" xml:space="preserve">
+    <value>Testnachricht vom Citavi DbServer Manager</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_EnableSSL" xml:space="preserve">
+    <value>SSL verwenden</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_Password" xml:space="preserve">
+    <value>Passwort:</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_Receiver" xml:space="preserve">
+    <value>Empfänger:</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_SmtpPort" xml:space="preserve">
+    <value>Port:</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_SmtpServer" xml:space="preserve">
+    <value>SMTP-Server:</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_UserName" xml:space="preserve">
+    <value>Benutzername/E-Mail:</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_SendTestMessage" xml:space="preserve">
+    <value>Testnachricht senden</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_TestMessageSend" xml:space="preserve">
+    <value>Die Testnachricht wurde versendet. Bitte prüfen Sie den Posteingang.</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_BackupFailedMessage" xml:space="preserve">
+    <value>Datenquelle: {0}
+Datenbank: {1}
+Datum: {2}
+
+Fehler: 
+
+{3}</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_BackupFailedSubject" xml:space="preserve">
+    <value>Citavi DbServer Backup fehlgeschlagen</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_RestoreComplete" xml:space="preserve">
+    <value>Die Daten der Datenbank "{0}" wurden erfolgreich in der neuen Datenbank "{1}" wieder hergestellt. </value>
+  </data>
+  <data name="DbServerManager_DropDatabase" xml:space="preserve">
+    <value>Datenbank löschen</value>
+  </data>
+  <data name="DbServerManager_RenameDatabase" xml:space="preserve">
+    <value>Datenbank umbenennen</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_FileCaption" xml:space="preserve">
+    <value>Sicherungsdateien</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_ScriptRuns" xml:space="preserve">
+    <value>Das Backup-Skript wird gestartet und im Hintergrund ausgeführt. Sie erhalten an dieser Stelle keine Rückmeldung dazu, werden aber per E-Mail benachrichtigt, falls Sie dies konfiguriert haben.</value>
+  </data>
+  <data name="EmailNotificationType_Always" xml:space="preserve">
+    <value>Immer</value>
+  </data>
+  <data name="EmailNotificationType_Error" xml:space="preserve">
+    <value>Bei Fehlern</value>
+  </data>
+  <data name="EmailNotificationType_None" xml:space="preserve">
+    <value>Nie</value>
+  </data>
+  <data name="DbServerManager_DropDatabaseMessage" xml:space="preserve">
+    <value>&lt;p&gt;&lt;b&gt;Vorsicht:&lt;/b&gt; Die Datenbank und damit alle darin enthaltenen Projekte werden endgültig gelöscht. Geben Sie in das nachfolgende Textfeld den &lt;b&gt;Namen der Datenbank&lt;/b&gt; ein und klicken Sie OK, um die Datenbank zu löschen.&lt;/p&gt;</value>
+  </data>
+  <data name="DbServerManager_RenameDatabaseCompleted" xml:space="preserve">
+    <value>Der Datenbankname "{0}" wurde erfolgreich in "{1}" umbenannt.</value>
+  </data>
+  <data name="DbServerManager_RenameDatabaseInformation" xml:space="preserve">
+    <value>Bitte beachten Sie, dass alle bestehenden Verbindungen zu Projekten aus dieser Datenbank geschlossen werden. Möchten Sie den Vorgang fortführen?</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_BackupSuccessMessage" xml:space="preserve">
+    <value>Datenquelle: {0}
+Datenbank: {1}
+Datum: {2}
+
+Das Backup wurde erfolgreich durchgeführt.</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_BackupSuccessSubject" xml:space="preserve">
+    <value>Citavi DbServer Backup abgeschlossen</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_LogFailed" xml:space="preserve">
+    <value>Datenquelle: {0}
+Datenbank: {1}
+Datum: {2}
+
+Die Protokollierung ist fehlgeschlagen.
+
+Fehler:
+
+{3}</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_RemoveBackupConfig" xml:space="preserve">
+    <value>Möchten Sie die Backup-Konfiguration wirklich löschen?</value>
+  </data>
+  <data name="DbServerManager_BackupOrder" xml:space="preserve">
+    <value>Backupauftrag</value>
+  </data>
+  <data name="DbServerManager_ManageBackups" xml:space="preserve">
+    <value>Backups verwalten</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_IncompleteProviderValues" xml:space="preserve">
+    <value>Bitte vervollständigen Sie folgende Angaben:</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_NotSmtpPort" xml:space="preserve">
+    <value>Bitte geben Sie einen gültigen SMTP-Port an.</value>
+  </data>
+  <data name="DbServerManager_Edit" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_BackupIncompleteMessage" xml:space="preserve">
+    <value>Datenquelle: {0}
+Datenbank: {1}
+Datum: {2}
+
+Das Backup wurde unvollständig durchgeführt.
+
+Folgende Fehler sind aufgetreten:
+
+{3}</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_BackupIncompleteSubject" xml:space="preserve">
+    <value>Citavi DbServer Backup unvollständig abgeschlossen</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_DirectoryNotFoundException" xml:space="preserve">
+    <value>Das Zielverzeichnis "{0}" wurde nicht gefunden.</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_ErrorRaised" xml:space="preserve">
+    <value>Folgende Fehler sind aufgetreten:
+
+{0}</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_RemoveOlderBackupFailed" xml:space="preserve">
+    <value>Das Löschen des Backups "{0}" ist fehlgeschlagen. (Meldung: "{1}")</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_RemoveOlderBackupsFailed" xml:space="preserve">
+    <value>Die Berechtigung zum Löschen von älteren Backups konnte wegen fehlender Berechtigung nicht durchgeführt werden.</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_WriteLogFileFailed" xml:space="preserve">
+    <value>Die Log-Datei für das Backup (Datenbank: {0}) konnte im Verzeichnis "{1}" nicht erstellt werden.</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_Inform" xml:space="preserve">
+    <value>Benachrichtigen</value>
+  </data>
+  <data name="DbServerManager_BackupConfig_RemoveFoundedConfig" xml:space="preserve">
+    <value>Möchten Sie die zugehörige Backup-Konfiguration auch löschen?</value>
+  </data>
+  <data name="DbServerManager_ServerNeedReLogin" xml:space="preserve">
+    <value>Server "{0}" benötigt erneute Anmeldung</value>
+  </data>
+  <data name="DbServerManager_PreDropDatabaseRequest" xml:space="preserve">
+    <value>Mit diesem Vorgang wird die Datenbank "{0}" einschließlich ALLEN darauf gespeicherten Projekten gelöscht.
+
+Möchten Sie den Vorgang fortführen?</value>
+  </data>
+  <data name="DbServerManager_ProjectImport_NotInputOriginalAttachmentsPath" xml:space="preserve">
+    <value>Hinweis: Geben Sie hier den Pfad zum Attachments-Ordner des &lt;b&gt;Zielprojekts&lt;/b&gt; an - &lt;b&gt;nicht&lt;/b&gt; denjenigen des Quellprojekts.</value>
+  </data>
+  <data name="DbServerManager_ProjectImport_FoundTitleWithToLongNamesAfterImport" xml:space="preserve">
+    <value>Der Importvorgang kann nicht gestartet werden. Citavi hat im im Quellprojekt Attachments gefunden, die beim Import die maximale Windows-Pfadlänge von 255 Zeichen überschreiten würden. Korrigieren Sie den Pfad zum Attachment-Ordner des Zielprojekts, um die Länge des gesamten Pfades zu reduzieren.</value>
+  </data>
+  <data name="DbServerManager_ProjectImport_SameTargetDirectoryForAttachments" xml:space="preserve">
+    <value>Der Attachments-Ordner des Zielprojekts ist identisch mit dem Attachments-Ordner des Quellprojekts. Sie müssen einen anderen Attachments-Ordner angeben.</value>
+  </data>
+  <data name="DbServerManager_ToLongPath" xml:space="preserve">
+    <value>Der angebene Pfad ist {0} Zeichen lang. Wenn die Anwender Attachments zu diesem Projekt hinzufügen, dürfen deren Dateinamen {1} Zeichen lang sein, damit die maximale Windows-Pfadlänge von 255 Zeichen nicht überschritten wird.
+Wir empfehlen, dass Sie einen Attachments-Ordner mit kürzerem Pfad festlegen, um Problemen im Citavi-Betrieb vorzubeugen.
+
+Möchten Sie den Pfad jetzt korrigieren?</value>
+  </data>
+  <data name="DbServerManager_ContinueProcess" xml:space="preserve">
+    <value>Möchten Sie den Vorgang fortführen?</value>
+  </data>
+  <data name="DbServerManager_LicenceIsUsedOnDB" xml:space="preserve">
+    <value>Auf der Datenbank "{0}" wird die Lizenz bereits verwendet.</value>
+  </data>
+  <data name="DbServerManager_ChangeSqlServerLoginMode" xml:space="preserve">
+    <value>Serverauthentifizierung ändern</value>
+  </data>
+  <data name="DbServerManager_LoginMode_ChooseLoginMode" xml:space="preserve">
+    <value>Wählen Sie die Serverauthentifizierung:</value>
+  </data>
+  <data name="DbServerManager_LoginMode_Mixed" xml:space="preserve">
+    <value>SQL Server- und Windows-Authentifizierungsmodus</value>
+  </data>
+  <data name="DbServerManager_LoginMode_UserDescription" xml:space="preserve">
+    <value>Ihre Konfigurationsänderung wird erst wirksam, nachdem Sie SQL Server neu gestartet haben.
+Verbinden Sie sich dazu auf den Servercomputer und öffnen Sie dort das Hilfsprogramm &lt;b&gt;SQL Server Konfigurations-Manager&lt;/b&gt;. Klicken Sie in der linken Spalte auf den Knoten &lt;b&gt;SQL Server Dienste&lt;/b&gt;. Klicken Sie anschliessend in der rechten Spalte mit der rechten Maustaste auf &lt;b&gt;SQL Server (Instanzname)&lt;/b&gt; und wählen Sie aus dem Kontextmenü &lt;b&gt;Neu starten&lt;/b&gt;</value>
+  </data>
+  <data name="DbServerManager_LoginMode_WindowsOnly" xml:space="preserve">
+    <value>Windows-Authentifizierungsmodus</value>
+  </data>
+  <data name="DbServerManager_RestartSqlServer" xml:space="preserve">
+    <value>Bitte starten Sie die SQL Server Dienste neu.</value>
+  </data>
+  <data name="DbServerManager_LoginMode_ChooseLoginModeForExport" xml:space="preserve">
+    <value>Welche Serverauthentifizierung soll die Verbindungsdatei verwenden?
+</value>
+  </data>
+  <data name="DbServerManager_LoginMode_SqlOnly" xml:space="preserve">
+    <value>SQL Server-Authentifizierungsmodus</value>
+  </data>
+  <data name="DbServerManager_LoginMode_UserDescriptionForExport" xml:space="preserve">
+    <value>Hinweis: In keinem Fall werden Passwörter in der Verbindungsdatei gespeichert.
+Beim SQL Server-Authentifizierungsmodus bzw. bei Impersonation werden Benutzername und Passwort des jeweiligen Anwenders abgefragt, um {0} zu öffnen.</value>
+  </data>
+  <data name="DbServerManager_TheDatabase" xml:space="preserve">
+    <value>die Datenbank</value>
+  </data>
+  <data name="DbServerManager_TheProject" xml:space="preserve">
+    <value>das Projekt</value>
+  </data>
+  <data name="DbServerManager_Wizard_Error_CreateDatabase" xml:space="preserve">
+    <value>Bei der Erstellung der Datenbank "{0}" ist ein Fehler aufgetreten.</value>
+  </data>
+  <data name="DbServerManager_Wizard_Error_Unknow" xml:space="preserve">
+    <value>Es ist ein unbekannter Fehler aufgetreten.</value>
+  </data>
+  <data name="DbServerManager_RefreshData" xml:space="preserve">
+    <value>Daten werden aktualisiert…</value>
+  </data>
+  <data name="DbServerManager_CloseAppAfterProcess" xml:space="preserve">
+    <value>Die Anwendung kann erst nach Abschluss des Vorgangs beendet werden</value>
+  </data>
+  <data name="DbServerManager_LoadDialog" xml:space="preserve">
+    <value>Dialog wird geladen…</value>
+  </data>
+  <data name="DbServerManager_RunFunction" xml:space="preserve">
+    <value>"{0}" wird ausgeführt...</value>
+  </data>
+  <data name="DbServerManager_CanManageUser" xml:space="preserve">
+    <value>Darf Benutzer verwalten</value>
+  </data>
+  <data name="DbServerManager_CancelDialogAfterProcess" xml:space="preserve">
+    <value>Das Fenster kann erst nach Abschluss des Vorganges geschlossen werden.</value>
+  </data>
+  <data name="DbServerManager_RunChanges" xml:space="preserve">
+    <value>Änderungen werden durchgeführt…</value>
+  </data>
+  <data name="DbServerManager_NoLicenceFound" xml:space="preserve">
+    <value>Es wurden keine Lizenzen gefunden</value>
+  </data>
+  <data name="DbServerManager_Domain" xml:space="preserve">
+    <value>Domäne</value>
+  </data>
+  <data name="DbServerManager_Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Chars_Space" xml:space="preserve">
+    <value>Leerzeichen</value>
+  </data>
+  <data name="DbServerManager_SysAdmin" xml:space="preserve">
+    <value>Systemadministrator</value>
+  </data>
+  <data name="DbServerManager_AdminRightsException" xml:space="preserve">
+    <value>Zum Ausführen dieser Funktion werden Administrator-Rechte auf dem lokalen Computer benötigt.</value>
+  </data>
+  <data name="DbServerManager_NotValidSqlName" xml:space="preserve">
+    <value>Der Benutzername enthält folgende unzulässigen Zeichen:</value>
+  </data>
+  <data name="DbServerManager_ChoosePermissionRole" xml:space="preserve">
+    <value>Bitte wählen Sie die Projektberechtigung aus:</value>
+  </data>
+  <data name="DbServerManager_AskUserForGroupPermissionChanging" xml:space="preserve">
+    <value>VORSICHT: Sie ändern die Berechtigungen einer Windows-Gruppe, in der Sie selbst Mitglied sind.
+
+Möchten Sie fortfahren?</value>
+  </data>
+  <data name="DbServerManager_AskUserForSelfPermissionChanging" xml:space="preserve">
+    <value>VORSICHT: Sie ändern die Berechtigungen für sich selbst.
+
+Möchten Sie fortfahren?</value>
+  </data>
+  <data name="DbServerManager_Setup_DisableSALogin" xml:space="preserve">
+    <value>SA-Login wird deaktiviert…</value>
+  </data>
+  <data name="DbServerManager_Setup_DisableSALogin_Failed" xml:space="preserve">
+    <value>SA-Login umbenennen… Fehlgeschlagen</value>
+  </data>
+  <data name="DbServerManager_Setup_DisableSALogin_Succeded" xml:space="preserve">
+    <value>SA-Login ist deaktiviert</value>
+  </data>
+  <data name="DbServerManager_Setup_RenameSALogin" xml:space="preserve">
+    <value>SA-Login wird umbenannt…</value>
+  </data>
+  <data name="DbServerManager_Setup_RenameSALogin_Failed" xml:space="preserve">
+    <value>SA-Login wird umbenannt… Fehlgeschlagen</value>
+  </data>
+  <data name="DbServerManager_Setup_RenameSALogin_Succeded" xml:space="preserve">
+    <value>SA-Login wurde umbenannt</value>
+  </data>
+  <data name="DbServerManager_BuyNewLicences" xml:space="preserve">
+    <value>Weitere Lizenzen kaufen:</value>
+  </data>
+  <data name="DbServerManager_CountConcurrentLicence" xml:space="preserve">
+    <value>Anzahl Lizenzen "concurrent"</value>
+  </data>
+  <data name="DbServerManager_CountPerSeatLicence" xml:space="preserve">
+    <value>Anzahl Lizenzen "per seat"</value>
+  </data>
+  <data name="DbServerManager_Summary" xml:space="preserve">
+    <value>Zusammenfassung</value>
+  </data>
+  <data name="DbServerManager_UsedConcurrentLicences" xml:space="preserve">
+    <value>{0}, davon {1} aktuell genutzt</value>
+  </data>
+  <data name="DbServerManager_UsedPerSeatLicences" xml:space="preserve">
+    <value>{0}, davon {1} aktuell zugewiesen</value>
+  </data>
+  <data name="DbServerManager_ShowLogViewer" xml:space="preserve">
+    <value>Protokoll anzeigen…</value>
+  </data>
+  <data name="DbServerManager_LoginMode_Impersonate" xml:space="preserve">
+    <value>Domänenname (nur bei Impersonation):</value>
+  </data>
+  <data name="DbServerManager_ConfigFullTextSearch" xml:space="preserve">
+    <value>Volltextsuche konfigurieren</value>
+  </data>
+  <data name="DbServerManager_FullTextSearchConfig_InstallationFailed" xml:space="preserve">
+    <value>Die Installation ist mit folgender Meldung fehlgeschlagen:
+
+{0}
+
+Wenden Sie sich gegebenenfalls an den Citavi Support</value>
+  </data>
+  <data name="DbServerManager_FullTextSearchConfig_CitaviFullTextInstalled" xml:space="preserve">
+    <value>Die Citavi-Volltextsuche ist installiert.
+
+</value>
+    <comment>Add one blank line after the text (Shift + Return)</comment>
+  </data>
+  <data name="DbServerManager_FullTextSearchConfig_ErrorColumn" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="DbServerManager_FullTextSearchConfig_InstallCitaviFullTextSearch" xml:space="preserve">
+    <value>Citavi-Volltextsuche installieren</value>
+  </data>
+  <data name="DbServerManager_FullTextSearchConfig_ManualLinkLabel" xml:space="preserve">
+    <value>Weitere Hinweise im Citavi-Handbuch</value>
+  </data>
+  <data name="DbServerManager_FullTextSearchConfig_NoneColumn" xml:space="preserve">
+    <value>Nicht verarbeitet</value>
+  </data>
+  <data name="DbServerManager_FullTextSearchConfig_NoneLabel" xml:space="preserve">
+    <value>Mindestens ein Projekt enthält Dateien, deren Text noch nicht für die Volltextsuche extrahiert wurde.
+Beim Öffnen der Projekte in Citavi werden die Volltexte automatisch verarbeitet.
+
+</value>
+  </data>
+  <data name="DbServerManager_FullTextSearchConfig_NotExtractableColumn" xml:space="preserve">
+    <value>Nicht extrahierbar</value>
+  </data>
+  <data name="DbServerManager_FullTextSearchConfig_ProjectColumn" xml:space="preserve">
+    <value>Projekt</value>
+  </data>
+  <data name="DbServerManager_FullTextSearchConfig_SqlServerFullTextInstalledCitaviFullTextNotInstalled" xml:space="preserve">
+    <value>Die Volltextsuche ist auf dem SQL Server installiert.
+Die Citavi-Volltextsuche kann jetzt installiert werden.
+
+</value>
+    <comment>Add one blank line after the text (Shift + Return)</comment>
+  </data>
+  <data name="DbServerManager_FullTextSearchConfig_SqlServerFullTextNotInstalled" xml:space="preserve">
+    <value>Die SQL Server-Volltextsuche ist nicht installiert.
+
+Die Citavi-Volltextsuche kann erst installiert werden, wenn die SQL Server-Volltextsuche installiert ist.
+
+</value>
+    <comment>Add one blank line after the text (Shift + Return)</comment>
+  </data>
+  <data name="DbServerManager_FullTextSearchConfig_SuccessColumn" xml:space="preserve">
+    <value>Erfolgreich</value>
+  </data>
+  <data name="DbServerManager_FullTextSearchConfig_UninstallCitaviFullTextSearch" xml:space="preserve">
+    <value>Citavi-Volltextsuche deinstallieren</value>
+  </data>
+  <data name="DbServerManager_AddAdUser_Failed" xml:space="preserve">
+    <value>Beim Hinzufügen des Benutzers "{0}" trat folgender Fehler auf: {1}</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="DbServerManager_AttachmentFolderMustBeEmpty" xml:space="preserve">
+    <value>Der Attachment-Ordner des Zielprojekts muss ein leerer Ordner sein.</value>
+  </data>
+  <data name="DbServerManager_SettingsAdmin" xml:space="preserve">
+    <value>Darf Einstellungen verwalten</value>
+  </data>
+  <data name="DbServerManager_Settings" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="DbServerManager_Save" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="DbServerManager_LicenseSettings_AllowSendMail" xml:space="preserve">
+    <value>Citavi erlauben, eine E-Mail zu verschicken, wenn keine Concurrent Lizenz mehr verfügbar ist.</value>
+  </data>
+  <data name="DbServerManager_LicenseSettings_EnterEmails" xml:space="preserve">
+    <value>Hier die E-Mail-Adressen eingeben (eine Zeile pro Adresse):</value>
+  </data>
+  <data name="DbServerManager_LicenseSettings_NoEmailAddress" xml:space="preserve">
+    <value>Bitte mindestens eine E-Mail Adresse angeben</value>
+  </data>
+  <data name="DbServerManager_LicenseCombinationNotAllowed_Text" xml:space="preserve">
+    <value>Diese Lizenzkombination ist nicht erlaubt. Bitte kontaktieren Sie</value>
+  </data>
+  <data name="DbServerManager_Wizard_ConvertingDatabase" xml:space="preserve">
+    <value>Konvertiere Datenbank</value>
+  </data>
+  <data name="DbServerManager_ConvertC5Db_Info" xml:space="preserve">
+    <value>Es wurden Citavi 5 Datenbanken gefunden. Sie können diese Datenbanken in das Citavi 6 Format konvertieren. Wählen Sie die Datenbanken aus die Sie konvertieren möchten. Die konvertierten Datenbanken können nicht mehr in Citavi 5 geöffnet werden.</value>
+  </data>
+  <data name="DbServerManager_ConvertC5Db_Title" xml:space="preserve">
+    <value>Citavi 5 Datenbanken konvertieren</value>
+  </data>
+  <data name="DbServerManager_Info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="DbServerManager_DoNotShowAgain" xml:space="preserve">
+    <value>In Zukunft nicht wieder anzeigen</value>
+  </data>
+  <data name="DbServerManager_Convert" xml:space="preserve">
+    <value>Konvertieren</value>
+  </data>
+  <data name="DbServerManager_ConvertC5Db_ConvertedInfo" xml:space="preserve">
+    <value>Konvertierung erfolgreich. Klicken um Protokoll anzuzeigen.</value>
+  </data>
+  <data name="DbServerManager_ConvertC5Db_FailedInfo" xml:space="preserve">
+    <value>Konvertierung fehlgeschlagen. Klicken um Protokoll anzuzeigen.</value>
+  </data>
+  <data name="DbServerManager_ConvertC5Db_NoRightsInfo" xml:space="preserve">
+    <value>Keine Berechtigungen um Konvertierung durchzuführen.</value>
+  </data>
+  <data name="DbServerManager_ConvertC5Db_ReadyInfo" xml:space="preserve">
+    <value>Kann konvertiert werden</value>
+  </data>
+  <data name="DbServerManager_ConvertC5Db_ConvertingInfo" xml:space="preserve">
+    <value>Konvertiere Datenbank …</value>
+  </data>
+  <data name="DbServerManager_LicenseCombinationNotAllowed_Hyperlink" xml:space="preserve">
+    <value>den Citavi Support.</value>
+  </data>
+  <data name="DbServerManager_MoreInfo" xml:space="preserve">
+    <value>(Mehr erfahren)</value>
+  </data>
+  <data name="DBServerManager_InvalidSchemaName" xml:space="preserve">
+    <value>Die Zeichenfolge "db_" ist für interne Zwecke der Datenbank reserviert. Der Projektname darf nicht mit dieser Zeichenfolge beginnen.</value>
+  </data>
+  <data name="DbServerManager_VersionMismatch" xml:space="preserve">
+    <value>Die Datenbank {0} wurde in einer neueren Version von Citavi DBServer Manager erstellt oder konvertiert.</value>
+  </data>
+  <data name="DbServerManager_Updating_Schema" xml:space="preserve">
+    <value>Schema wird aktualisiert …</value>
+  </data>
+  <data name="DbServerManager_ConvertWarning_Text_1" xml:space="preserve">
+    <value>Warnung: Aus Sicherheitsgründen empfehlen wir, vor der Konvertierung </value>
+  </data>
+  <data name="DbServerManager_ConvertWarning_Hyperlink" xml:space="preserve">
+    <value>ein Backup der Datenbank anzulegen.</value>
+  </data>
+  <data name="DbServerManager_ConvertWarning_Text_2" xml:space="preserve">
+    <value>
+
+Die Konvertierung ist zudem nur möglich, wenn Sie als einziger Benutzer mit der Datenbank verbunden sind. Bei lokalen SQL Servern weden alle anderen aktiven Verbindungen ohne Mitteilung an die Benutzer getrennt. Sollte sich die Datenbank in der Azure Cloud befinden, stellen Sie bitte sicher, dass keine anderen Benutzer mit der Datenbank arbeiten.
+		
+Möchten Sie mit der Konvertierung fortfahren?</value>
+  </data>
+  <data name="DbServerManager_MenuItemActivateTracing" xml:space="preserve">
+    <value>Fehlerdiagnose-Protokoll senden</value>
+  </data>
+  <data name="QuestionTracingActivated" xml:space="preserve">
+    <value>Citavi DBServer Manager zeichnet ab jetzt ein Fehlerprotokoll auf. Die Aufzeichnung stoppt automatisch, wenn Sie Citavi beenden. Um Sie über die Ergebnisse zu informieren, benötigen wir noch Ihre E-Mail und die Nummer des Fehlerprotokolls (Session-ID). Vielen Dank!</value>
+  </data>
+  <data name="EnterDatabaseBackupName" xml:space="preserve">
+    <value>Name der Datenbank für die Wiederherstellung:</value>
+  </data>
+  <data name="DbServerManager_DefaultAttachmentPath_Label" xml:space="preserve">
+    <value>Standardpfad für Projekt-Attachments:</value>
+  </data>
+  <data name="DbServerManager_DefaultAttachmentPath_Override" xml:space="preserve">
+    <value>Benutzer dürfen diese Vorgabe überschreiben</value>
+  </data>
+  <data name="DbServerManager_SqlServerDefaultInstance" xml:space="preserve">
+    <value>Der SQL Server ist eine Standard-Instanz</value>
+  </data>
+  <data name="DbServerManager_SqlServerNamedInstance" xml:space="preserve">
+    <value>Der SQL Server ist eine benannte Instanz</value>
+  </data>
+  <data name="ConvertToC6Message" xml:space="preserve">
+    <value>Die ausgewählte Datenbank ist für Citavi 5 konfiguriert. Wenn Sie sie mit dieser Version des DBServer Managers verwenden möchten, muss sie einmalig konvertiert werden. Danach können die zugehörigen Projekte nur noch mit Citavi 6 geöffnet werden.
+Möchten Sie die Datenbank und alle Projekte jetzt konvertieren?</value>
+  </data>
+  <data name="ConvertToC6Database_Checkbox" xml:space="preserve">
+    <value>Datenbank für Citavi 6 konvertieren</value>
+  </data>
+  <data name="DbServerManager_BackupFileDoesNotCorrespondToExpectedFormat" xml:space="preserve">
+    <value>Der Dateiname entspricht nicht dem erwarteten Format. Erwartet wird ein Name mit Datumssuffix im Format "BeliebigerName YYYY-MM-DD HH-MM-SS.bak".</value>
+  </data>
+  <data name="DbServerManager_FullTextSearchConfig_FullTextExtractionOverview" xml:space="preserve">
+    <value>Übersicht über die Volltext-Extraktion:</value>
+  </data>
+</root>

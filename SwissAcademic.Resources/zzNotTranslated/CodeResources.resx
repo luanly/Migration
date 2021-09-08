@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CitationStyleHelpContextTemplate" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1252\deff0\deflang2055{\fonttbl{\f0\fswiss\fprq2\fcharset0 Segoe UI;}{\f1\froman\fprq2\fcharset0 Times New Roman;}{\f2\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red225\green0\blue0;\red255\green136\blue17;\red0\green0\blue0;\red0\green0\blue255;\red128\green128\blue128;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\nowidctlpar\ri300\sa80\sl264\slmult1\cf1\lang1033\f0\fs18 Name of Style\cf2\f1\par
+\pard\nowidctlpar\cf3\b\f0 Distinctive Feature:\f1\par
+\cf0\b0\f0 The bibliography is sorted alphabetically. \par
+The citation appears as a full reference in the footnote.\par
+The author's last name and the year of publication are used for in-text citations.\par
+The author's last name, the year of publication, and the page numbers cited are used for in-text citations.\par
+\f1\par
+\f0 The bibliography is sorted in the order cited. \par
+Reference numbers are used for in-text citations.\par
+\f1\par
+\f0 This style does not use a bibliography. All references are cited as footnotes.\par
+The citation appears as a full reference in the first footnote, in subsequent citations, it is abbreviated. If a reference is quoted two times in a row, "ibid." is used.\par
+If the same source is cited two or more times in a row, the author name and year are replaced with "ibid."\par
+Add the appropriate punctuation at the end of a footnote by hand.\par
+\f1\par
+\f0 After you've finished your publication, convert your footnotes to endnotes in Word.\par
+\f1\par
+\f0 Journal names are abbreviated.\par
+This style shows only the start page of a page range.\par
+Names of persons are set in small caps. This is not shown in the Preview Area of the Reference Editor in Citavi.\par
+\pard\nowidctlpar\sl264\slmult1\f1\par
+\f0 To use this style, you need to import a citation key definition. Please download the citation key package from {\field{\*\fldinst{HYPERLINK "http://www.citavi.com/sub/citationkeys/NAME.zip"}}{\fldrslt{\ul\cf4 http://www.citavi.com/sub/citationkeys/NAME.zip}}}\f0\fs18  and follow the instructions given there.\par
+\pard\sl252\slmult1 Select the \b Citation Key Support\b0  checkbox in \b Tools &gt; Options &gt; General\b0 . Click \b Customize\b0  and then \b Default\b0  to set the format to \b Author\b0  (last name of the first author) and \b Title\b0  (the first word of the title, omitting the article).\par
+\pard\nowidctlpar\sl264\slmult1 Select the \b Citation Key Support\b0  checkbox in \b Tools &gt; Options &gt; General\b0 . Click \b Configure\b0  to set the format to \b Title\b0  (the first word of the title, omitting the article) or download the citation key package from {\field{\*\fldinst{HYPERLINK "www.citavi.com/citationkey-firstword"}}{\fldrslt{\ul\cf4 www.citavi.com/citationkey-firstword}}}\f0\fs18  and follow the instructions given there.\par
+\f1\par
+\f0 This style uses different formatting depending on the language of the reference. Please enter "en" (without quotation marks) on the Reference tab in the Language field for each English-language source in your project.\par
+For reviews, put the word "Review" in the title supplements field.\par
+The bibliography is sorted first by \b Custom Field 1\b0  and then alphabetically. Use \b Custom Field 1\b0  to enter the categories you want to sort by (e.g. primary sources, secondary sources). Before submitting your publication or paper, convert your document to static text and then add headings for each category manually.\par
+An encyclopedia article should be added as a \b Contribution in an Edited Book\b0  and word "Lexikon" should be entered in Custom Field 1.\par
+\cf3\b\f1\par
+\cf0\b0\f0 The journal editors request that references be cited according to APA 6th ed. guidelines. However, this citation style was based on examples found in current articles which do not conform to the APA 6th ed. standards.\f1\par
+\pard\nowidctlpar\sa80\sl264\slmult1\cf3\b\par
+\f0 Source:\cf0\b0  \line Hier die Originalquelle im \'84Stil des Stils\ldblquote  eingeben; Minimum: URL (Datum des Zugriffs)\cf5\f1\par
+\pard\nowidctlpar\sl264\slmult1\cf0\f0 Documentation available at request from the editor.\par
+\pard\sa200\sl276\slmult1\lang7\f2\fs22\par
+}</value>
+  </data>
+  <data name="LicenseKeyDialog_ClipboardParser_ExpiryDate" xml:space="preserve">
+    <value>(Freigeschaltet bis|Expiration date|Activated until|Válida hasta|Date d'expiration|Activé jusqu'au|Attivo fino a|Data waznosci|Aktywny do|Ativado até)</value>
+  </data>
+  <data name="LicenseKeyDialog_ClipboardParser_Key" xml:space="preserve">
+    <value>(Lizenzschlüssel|License key|Clave de licencia|Clé de licence|Chiave di licenza|Klucz licencji|Chave de licença)</value>
+  </data>
+  <data name="LicenseKeyDialog_ClipboardParser_Organisation" xml:space="preserve">
+    <value>(Organisation|Organization|Organización|Organizzazione|Instytucja|Organização)</value>
+  </data>
+  <data name="LicenseKeyDialog_ClipboardParser_Username" xml:space="preserve">
+    <value>(Benutzername|User name|Nombre de usuario|Nom d'utilisateur|Nome utente|Nazwa uzytkownika|Nome de usuário)</value>
+  </data>
+  <data name="MacroEditor_CodeTemplate_ComponentPartFilter" xml:space="preserve">
+    <value>using System.Linq;
+using System.Collections.Generic;
+using SwissAcademic.Citavi;
+using SwissAcademic.Citavi.Metadata;
+using SwissAcademic.Collections;
+using SwissAcademic.Drawing;
+
+namespace SwissAcademic.Citavi.Citations
+{
+	public class ComponentPartFilter
+		:
+		IComponentPartFilter
+	{
+		public IEnumerable&lt;ITextUnit&gt; GetTextUnits(ComponentPart componentPart, Template template, Citation citation, out bool handled)
+		{
+			//return handled = true if this macro generates the output (as an IEnumerable&lt;ITextUnit&gt;); the standard output will be suppressed
+			//return handled = false if you want Citavi to produce the standard output; 
+
+			handled = false;
+			return null;
+			
+			//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+			//OPTION 1: manipulate the component part's elements, i.e. add, remove or edit elements , and let Citavi do the rest by setting handled = false and returning null
+			//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+			/*
+			handled = false;
+			
+			PersonFieldElement authorsFieldElement = componentPart.GetFieldElements().FirstOrDefault(fieldElement =&gt; fieldElement.PropertyId == ReferencePropertyId.Authors) as PersonFieldElement;
+			if (authorsFieldElement == null) return null;
+			
+			authorsFieldElement.FirstGroupUseNonBreakingSpaceBetweenLastAndFirstName = true;
+			
+			int index = componentPart.Elements.IndexOf(authorsFieldElement);
+			LiteralElement label = componentPart.Elements.InsertLiteralElement(index, "Authors: ", ElementApplyCondition.NextElementHasData);
+			
+			SwissAcademic.Drawing.FontStyle fontStyle = SwissAcademic.Drawing.FontStyle.Neutral;
+			fontStyle |= SwissAcademic.Drawing.FontStyle.Italic;
+			fontStyle |= SwissAcademic.Drawing.FontStyle.Bold;
+			
+			label.FontStyle = fontStyle;
+			
+			return null;
+			*/
+			//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+			
+			//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+			//OPTION 2: generate new output, and tell Citavi to use it by setting handled = true and returning the output
+			//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+			/*
+			
+			var output = new TextUnitCollection();
+			var text = new LiteralTextUnit("hello world");
+			text.FontStyle = FontStyle.Bold;
+			output.Add(text);
+			
+			handled = true;
+			return output;
+			*/
+			//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+			
+			//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+			//OPTION 3: fetch standard output and manipulate it, then tell Citavi to use the manipulated output by setting handled = true and returning it
+			//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+			/*
+			handled = true;
+			
+			var output = componentPart.GetTextUnitsUnfiltered(); 
+			var index = 0;
+			foreach (ITextUnit textUnit in output)
+			{
+				if (textUnit.Text == ", et al.")
+				{
+					var newTextUnit = new LiteralTextUnit("et al.");
+					newTextUnit.FontStyle = textUnit.FontStyle;
+
+					textUnit.Text = ", ";
+					textUnit.FontStyle = FontStyle.Neutral;
+					output.Insert(++index, newTextUnit);
+
+					break;
+				}
+			}
+			
+			return output;
+			*/
+			//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+			
+		}
+	}
+}</value>
+  </data>
+  <data name="MacroEditor_CodeTemplate_CustomCitationComparer" xml:space="preserve">
+    <value>using System;
+using System.Linq;
+using System.Collections.Generic;
+using System.ComponentModel;
+using SwissAcademic.Citavi;
+using SwissAcademic.Citavi.Citations;
+using SwissAcademic.Citavi.Metadata;
+using SwissAcademic.Collections;
+
+namespace SwissAcademic.Citavi.Comparers
+{
+	public class CustomCitationComparer
+		:
+		ICustomCitationComparerMacro
+	{
+		public int Compare(Citation x, Citation y)
+		{
+			/*
+				This is an example of a custom sort macro that sorts all references of type 'internet document' on top of the bibliography.
+				The internet documents themselves are sorted according to a different logic than the rest of the cited documents.
+				Return values:
+				0:					x is considered the same as y sorting-wise, so we cannot tell a difference based on the algorithm below
+				&gt; 0 (positive):		x should go after y, x is greater than y
+				&lt; 0 (negative):		x should go before y, x is less than
+			*/
+
+			//First we make sure we are comparing BibliographyCitations only
+			var xBibliographyCitation = x as BibliographyCitation;
+			var yBibliographyCitation = y as BibliographyCitation;
+
+			if (xBibliographyCitation == null || yBibliographyCitation == null) return 0;
+			var xReference = xBibliographyCitation.Reference;
+			var yReference = yBibliographyCitation.Reference;
+			if (xReference == null || yReference == null) return 0;
+
+
+			//(1) 	Some comparers are predefined as static members of the CitationComparer class, see IntelliSense
+			var defaultCitationComparer = CitationComparer.AuthorYearTitleAscending;
+
+			//(2)	You can also build citation comparers based on arbitrary reference properties ("fields")
+			//(2a)	First, define a list of property sort descriptors of the reference type
+			var sortDescriptors = new List&lt;PropertySortDescriptor&lt;Reference&gt;&gt;();
+			sortDescriptors.Add(new PropertySortDescriptor&lt;Reference&gt;(ReferencePropertyDescriptor.YearResolved, ListSortDirection.Descending));
+			sortDescriptors.Add(new PropertySortDescriptor&lt;Reference&gt;(ReferencePropertyDescriptor.AuthorsOrEditorsOrOrganizations, ListSortDirection.Ascending));
+			sortDescriptors.Add(new PropertySortDescriptor&lt;Reference&gt;(ReferencePropertyDescriptor.Title, ListSortDirection.Ascending));
+			//(2b)	Then, construct a new citation comparer using the list of sort descriptors
+			var specialCitationComparer = new CitationComparer(sortDescriptors);
+
+			//(3)	Or you can define something altogether NEW
+			//e.g. first I want to see all Internet Documents, sorted by AuthorYearTitle, then all other reference types, sorted by year first, then author and title (see specialReferenceComparer above)
+
+			if (xReference.ReferenceType == ReferenceType.InternetDocument &amp;&amp; yReference.ReferenceType == ReferenceType.InternetDocument) return specialCitationComparer.Compare(x, y); //YearAuthorTitle
+			if (xReference.ReferenceType == ReferenceType.InternetDocument &amp;&amp; yReference.ReferenceType != ReferenceType.InternetDocument) return -1;
+			if (xReference.ReferenceType != ReferenceType.InternetDocument &amp;&amp; yReference.ReferenceType == ReferenceType.InternetDocument) return 1;
+
+			return defaultCitationComparer.Compare(x, y);
+		}
+	}
+}</value>
+  </data>
+  <data name="MacroEditor_CodeTemplate_CustomTemplateCondition" xml:space="preserve">
+    <value>using System;
+using System.Linq;
+using System.Collections.Generic;
+using SwissAcademic.Citavi;
+using SwissAcademic.Citavi.Metadata;
+using SwissAcademic.Collections;
+
+namespace SwissAcademic.Citavi.Citations
+{
+	public class CustomTemplateCondition
+		:
+		ITemplateConditionMacro
+	{
+		public bool IsTemplateForReference(ConditionalTemplate template, Citation citation)
+		{
+			if (citation == null) return false;
+			if (citation.Reference == null) return false;
+			
+			//add macro code here
+			return true;
+		}
+	}
+}</value>
+  </data>
+  <data name="MacroEditor_CodeTemplate_MacroExternal" xml:space="preserve">
+    <value>using System;
+using System.Linq;
+using System.ComponentModel;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+using SwissAcademic.Citavi;
+using SwissAcademic.Citavi.Metadata;
+using SwissAcademic.Citavi.Shell;
+using SwissAcademic.Collections;
+
+// Implementation of macro editor is preliminary and experimental.
+// The Citavi object model is subject to change in future version.
+
+public static class CitaviMacro
+{
+	public static void Main()
+	{
+		//Get the active project
+		Project project = Program.ActiveProjectShell.Project;
+		
+		//Get the active ("primary") MainForm
+		MainForm mainForm = Program.ActiveProjectShell.PrimaryMainForm;
+		
+		//if this macro should ALWAYS affect all titles in active project, choose:
+		//ProjectReferenceCollection references = project.References;		
+
+		//if this macro should affect just filtered rows in the active MainForm, choose:
+		List&lt;Reference&gt; references = mainForm.GetFilteredReferences();	
+
+		foreach (Reference reference in references)
+		{
+			// your code
+		}
+	}
+}</value>
+  </data>
+  <data name="MacroEditor_CodeTemplate_MacroInternal" xml:space="preserve">
+    <value>using System;
+using System.Linq;
+using System.ComponentModel;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+using SwissAcademic.Citavi;
+using SwissAcademic.Citavi.Metadata;
+using SwissAcademic.Citavi.Shell;
+using SwissAcademic.Collections;
+
+// Implementation of macro editor is preliminary and experimental.
+// The Citavi object model is subject to change in future version.
+
+public static class CitaviMacro
+{
+	public static void Main()
+	{
+	}
+}</value>
+  </data>
+</root>

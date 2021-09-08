@@ -1,0 +1,19 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" linePragmas="false" #>
+<fetch distinct="false" no-lock="true" mapping="logical" aggregate="true">
+  <entity name="new_citavilicense">
+   <attribute name='new_citavispaceinmb' alias='sum' aggregate='sum' /> 
+		<filter type="and">
+		 <condition attribute="statuscode" operator="eq" value="1"/>  
+		 <condition attribute="new_isverified" operator="eq" value="1"/>  
+		 <filter type="or">
+			 <condition attribute="new_expirydate" operator="null"/>  	
+			 <condition attribute="new_expirydate" operator="on-or-after" value="<#Write(Today);#>"/>  	
+		 </filter>
+	  </filter>
+    <link-entity name="contact" to="new_enduserid" from="contactid" link-type="inner">
+		<filter type="and">
+			<condition attribute="new_key" operator="eq" value="<#Write(ContactKey);#>"/>
+		</filter>
+	</link-entity>
+  </entity>
+</fetch>

@@ -1,0 +1,21 @@
+﻿<fetch distinct="false" no-lock="true" mapping="logical">
+  <entity name="contact">
+    <attribute name="contactid" />
+    <attribute name="new_key" />
+    <filter type="and">
+      <condition attribute="contactid" operator="eq" value="<#Write(ContactId);#>" />
+      <condition attribute="statuscode" operator="eq" value="1" entityname="contact" />   
+    </filter>
+    <link-entity name="<#= CrmEntityNames.LinkedAccount #>" to="contactid" from="<#= CrmRelationshipLookupNames.ContactLinkedAccount #>" link-type="inner" alias="<#= FetchXmlConstants.ContactLinkedAccountAliasName #>">
+    <# foreach(Enum item in EntityPropertySets.GetFullPropertySet(typeof(LinkedAccount)))
+          {#>
+                    <attribute name="<#= EntityNameResolver.ResolveAttributeName(CrmEntityNames.LinkedAccount, item.ToString())  #>" />
+                      <#}
+         #>
+      <attribute name="statuscode" />
+       <filter>
+	        <condition attribute="statuscode" operator="eq" value="1"/>  
+       </filter>                        
+    </link-entity>
+  </entity>
+</fetch>

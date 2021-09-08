@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Brackets" xml:space="preserve">
+    <value>Eckige Klammern</value>
+  </data>
+  <data name="BracketsWithEllipsis" xml:space="preserve">
+    <value>Auslassungspunkte in eckigen Klammern</value>
+  </data>
+  <data name="CharMap" xml:space="preserve">
+    <value>Windows-Zeichentabelle…</value>
+  </data>
+  <data name="ColonReplacement" xml:space="preserve">
+    <value>[Doppelpunkt]</value>
+  </data>
+  <data name="CommaReplacement" xml:space="preserve">
+    <value>[Komma]</value>
+  </data>
+  <data name="ContextMenu" xml:space="preserve">
+    <value>Sonderzeichen     </value>
+  </data>
+  <data name="ConvertTextToUnicodeCharacter" xml:space="preserve">
+    <value>Text zu Unicode-Zeichen</value>
+  </data>
+  <data name="Dash" xml:space="preserve">
+    <value>Gedankenstrich</value>
+  </data>
+  <data name="DotReplacement" xml:space="preserve">
+    <value>[Punkt]</value>
+  </data>
+  <data name="Guillemets" xml:space="preserve">
+    <value>Guillemets "nach aussen"</value>
+  </data>
+  <data name="GuillemetsGerman" xml:space="preserve">
+    <value>Guillemets "nach innen"</value>
+  </data>
+  <data name="GuillemetsSingle" xml:space="preserve">
+    <value>Einfache Guillemets "nach aussen"</value>
+  </data>
+  <data name="GuillemetsSingleGerman" xml:space="preserve">
+    <value>Einfache Guillemets "nach innen"</value>
+  </data>
+  <data name="Half" xml:space="preserve">
+    <value>Ein Halbes</value>
+  </data>
+  <data name="LowerUpperDoubleQuotationMarks" xml:space="preserve">
+    <value>Tief-/hochgestellte Anführungszeichen</value>
+  </data>
+  <data name="LowerUpperSingleQuotationMarks" xml:space="preserve">
+    <value>Einfache tief-/hochgestellte Anführungszeichen     </value>
+  </data>
+  <data name="NonBreakingHyphen" xml:space="preserve">
+    <value>Geschützter Trennstrich</value>
+  </data>
+  <data name="NonBreakingHyphenReplacement" xml:space="preserve">
+    <value>[Geschützter Trennstrich]</value>
+  </data>
+  <data name="NonBreakingSpace" xml:space="preserve">
+    <value>Geschütztes Leerzeichen</value>
+  </data>
+  <data name="NonBreakingSpaceReplacement" xml:space="preserve">
+    <value>[Geschütztes Leerzeichen]</value>
+  </data>
+  <data name="OneThird" xml:space="preserve">
+    <value>Ein Drittel</value>
+  </data>
+  <data name="Parentheses" xml:space="preserve">
+    <value>Klammern</value>
+  </data>
+  <data name="ParenthesesWithEllipsis" xml:space="preserve">
+    <value>Auslassungspunkte in Klammern</value>
+  </data>
+  <data name="OneQuarter" xml:space="preserve">
+    <value>Ein Viertel</value>
+  </data>
+  <data name="ReturnReplacement" xml:space="preserve">
+    <value>[Absatz]</value>
+  </data>
+  <data name="SemicolonReplacement" xml:space="preserve">
+    <value>[Strichpunkt]</value>
+  </data>
+  <data name="SoftReturnReplacement" xml:space="preserve">
+    <value>[Neue Zeile]</value>
+  </data>
+  <data name="SpaceReplacement" xml:space="preserve">
+    <value>[Leerzeichen]</value>
+  </data>
+  <data name="TabReplacement" xml:space="preserve">
+    <value>[Tabulator]</value>
+  </data>
+  <data name="Ellipsis" xml:space="preserve">
+    <value>Auslassungspunkte</value>
+  </data>
+  <data name="UpperQuotes" xml:space="preserve">
+    <value>Hochgestelle Anführungszeichen</value>
+  </data>
+  <data name="UpperQuotesSingle" xml:space="preserve">
+    <value>Einfache hochgestellte Anführungszeichen</value>
+  </data>
+  <data name="EmptyStringReplacement" xml:space="preserve">
+    <value>[keine]</value>
+  </data>
+  <data name="ZeroWidthBreakOpportunity" xml:space="preserve">
+    <value>Sollbruchstelle ohne Trennstrich</value>
+    <comment>Unsichtbarer optionaler Wortumbruch</comment>
+  </data>
+  <data name="SoftHyphen" xml:space="preserve">
+    <value>Sollbruchstelle mit Trennstrich</value>
+  </data>
+  <data name="NothingReplacement" xml:space="preserve">
+    <value>[Nichts]</value>
+  </data>
+</root>

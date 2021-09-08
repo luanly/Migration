@@ -1,0 +1,12 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" linePragmas="false" #>
+  <fetch distinct="false" no-lock="true" mapping="logical">
+    <entity name="<#= CrmEntityNames.Project #>">
+      <attribute name="new_key" />
+	  <attribute name="new_deletedon" />
+      <filter type="and">
+         <condition attribute="new_deletedon" operator="le" value="<#Write(DeletedOnBefore);#>" />
+		 <condition attribute="new_deletedon" operator="not-null"/>
+		 <condition attribute="statuscode" operator="eq" value="1"/>  
+      </filter>
+    </entity>
+  </fetch>

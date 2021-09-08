@@ -1,0 +1,1028 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Category_Classification" xml:space="preserve">
+    <value>Classification</value>
+  </data>
+  <data name="Category_Level" xml:space="preserve">
+    <value>Level</value>
+    <comment>test</comment>
+  </data>
+  <data name="Category_Path" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="CommonProperty_FullName" xml:space="preserve">
+    <value>Full name</value>
+  </data>
+  <data name="CommonProperty_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CommonProperty_Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="CommonProperty_NumberOfAssignedReferences" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="Periodical" xml:space="preserve">
+    <value>Periodical</value>
+  </data>
+  <data name="Periodicals" xml:space="preserve">
+    <value>Periodicals</value>
+  </data>
+  <data name="Periodical_Issn" xml:space="preserve">
+    <value>ISSN</value>
+  </data>
+  <data name="Periodical_StandardAbbreviation" xml:space="preserve">
+    <value>Abbreviation 1</value>
+  </data>
+  <data name="Periodical_UserAbbreviation1" xml:space="preserve">
+    <value>Abbreviation 2</value>
+  </data>
+  <data name="Periodical_UserAbbreviation2" xml:space="preserve">
+    <value>Abbreviation 3</value>
+  </data>
+  <data name="Keyword" xml:space="preserve">
+    <value>Keyword</value>
+  </data>
+  <data name="Keywords" xml:space="preserve">
+    <value>Keywords</value>
+  </data>
+  <data name="Libraries" xml:space="preserve">
+    <value>Libraries</value>
+  </data>
+  <data name="Library" xml:space="preserve">
+    <value>Library</value>
+  </data>
+  <data name="Library_Abbreviation" xml:space="preserve">
+    <value>Abbreviation</value>
+  </data>
+  <data name="Library_Priority" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Locations" xml:space="preserve">
+    <value>Locations</value>
+  </data>
+  <data name="Location_CallNumber" xml:space="preserve">
+    <value>Call number</value>
+  </data>
+  <data name="Location_Library" xml:space="preserve">
+    <value>Library</value>
+  </data>
+  <data name="Location_Reference" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="Reference_Abstract" xml:space="preserve">
+    <value>Abstract</value>
+  </data>
+  <data name="Reference_AccessDate" xml:space="preserve">
+    <value>Access date</value>
+  </data>
+  <data name="Reference_Additions" xml:space="preserve">
+    <value>Additions</value>
+  </data>
+  <data name="Reference_Authors" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="Reference_AuthorsOrEditorsOrOrganizations" xml:space="preserve">
+    <value>Author, editor or organization</value>
+  </data>
+  <data name="Reference_IndexInBibliography" xml:space="preserve">
+    <value>Index in bibliography</value>
+  </data>
+  <data name="Reference_BibTeXKey" xml:space="preserve">
+    <value>BibTeX key</value>
+  </data>
+  <data name="Reference_Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="Reference_Collaborators" xml:space="preserve">
+    <value>Collaborators</value>
+  </data>
+  <data name="Reference_Evaluation" xml:space="preserve">
+    <value>Evaluation</value>
+  </data>
+  <data name="Reference_CoverPath" xml:space="preserve">
+    <value>Path to cover art</value>
+  </data>
+  <data name="Reference_Label1" xml:space="preserve">
+    <value>Blue label</value>
+  </data>
+  <data name="Reference_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Reference_Date2" xml:space="preserve">
+    <value>Date 2</value>
+  </data>
+  <data name="Reference_Edition" xml:space="preserve">
+    <value>Edition</value>
+  </data>
+  <data name="Reference_EditionNumberResolved" xml:space="preserve">
+    <value>Edition number derived</value>
+  </data>
+  <data name="Reference_Editors" xml:space="preserve">
+    <value>Editors</value>
+  </data>
+  <data name="Reference_EndPage" xml:space="preserve">
+    <value>End page</value>
+  </data>
+  <data name="Reference_EndPageFormatted" xml:space="preserve">
+    <value>End page (formatted)</value>
+  </data>
+  <data name="Reference_FirstFootnoteCitationNumber" xml:space="preserve">
+    <value>First footnote number</value>
+  </data>
+  <data name="Reference_CustomField1" xml:space="preserve">
+    <value>Custom field 1</value>
+  </data>
+  <data name="Reference_CustomField2" xml:space="preserve">
+    <value>Custom field 2</value>
+  </data>
+  <data name="Reference_CustomField3" xml:space="preserve">
+    <value>Custom field 3</value>
+  </data>
+  <data name="Reference_CustomField4" xml:space="preserve">
+    <value>Custom field 4</value>
+  </data>
+  <data name="Reference_FormattedReference" xml:space="preserve">
+    <value>Formatted reference</value>
+  </data>
+  <data name="Reference_HasLabel1" xml:space="preserve">
+    <value>Has blue label</value>
+  </data>
+  <data name="Reference_HasLabel2" xml:space="preserve">
+    <value>Has red label</value>
+  </data>
+  <data name="Reference_Organizations" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="Reference_Isbn" xml:space="preserve">
+    <value>ISBN</value>
+  </data>
+  <data name="Reference_Periodical" xml:space="preserve">
+    <value>Periodical</value>
+  </data>
+  <data name="Reference_Keywords" xml:space="preserve">
+    <value>Keywords</value>
+  </data>
+  <data name="Reference_Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Reference_ModifiedBy" xml:space="preserve">
+    <value>Modified by</value>
+  </data>
+  <data name="Reference_Locations" xml:space="preserve">
+    <value>Locations</value>
+  </data>
+  <data name="Reference_None" xml:space="preserve">
+    <value>(None)</value>
+  </data>
+  <data name="Reference_Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Reference_Number" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="Reference_PageCount" xml:space="preserve">
+    <value>Page count</value>
+  </data>
+  <data name="Reference_PageCountNumeralSystem" xml:space="preserve">
+    <value>Page count numeral system</value>
+  </data>
+  <data name="Reference_NumberOfVolumes" xml:space="preserve">
+    <value>Number of volumes</value>
+  </data>
+  <data name="Reference_OnlineAddress" xml:space="preserve">
+    <value>Online address</value>
+  </data>
+  <data name="Reference_OriginalCheckedBy" xml:space="preserve">
+    <value>Original checked by/on</value>
+  </data>
+  <data name="Reference_OriginalCheckedBy_Short" xml:space="preserve">
+    <value>Original checked</value>
+  </data>
+  <data name="Reference_OriginalPublication" xml:space="preserve">
+    <value>Original publication</value>
+  </data>
+  <data name="Reference_OthersInvolved" xml:space="preserve">
+    <value>Others involved</value>
+  </data>
+  <data name="Reference_PageRangeNumberingType" xml:space="preserve">
+    <value>Page range numbering type</value>
+  </data>
+  <data name="Reference_PageRange" xml:space="preserve">
+    <value>Page range</value>
+  </data>
+  <data name="Reference_PageRangeNumeralSystem" xml:space="preserve">
+    <value>Page range numeral system</value>
+  </data>
+  <data name="Reference_ParallelTitle" xml:space="preserve">
+    <value>Parallel title</value>
+  </data>
+  <data name="Reference_ParentReference" xml:space="preserve">
+    <value>Parent reference (in:)</value>
+  </data>
+  <data name="Reference_PlaceOfPublication" xml:space="preserve">
+    <value>Place of publication</value>
+  </data>
+  <data name="Reference_Price" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="Reference_Publishers" xml:space="preserve">
+    <value>Publisher</value>
+  </data>
+  <data name="Reference_QuotationPageRange" xml:space="preserve">
+    <value>Quotation page range</value>
+  </data>
+  <data name="Reference_Quotations" xml:space="preserve">
+    <value>Quotations</value>
+  </data>
+  <data name="Reference_ReferenceType" xml:space="preserve">
+    <value>Reference type</value>
+  </data>
+  <data name="Reference_TextLinks" xml:space="preserve">
+    <value>Additional links</value>
+  </data>
+  <data name="Reference_SeriesTitle" xml:space="preserve">
+    <value>Series</value>
+  </data>
+  <data name="Reference_SeriesTitleEditors" xml:space="preserve">
+    <value>Series editors</value>
+  </data>
+  <data name="Reference_ShortTitle" xml:space="preserve">
+    <value>Short title</value>
+  </data>
+  <data name="Reference_ShortTitleUpdateType" xml:space="preserve">
+    <value>Short title update</value>
+  </data>
+  <data name="Reference_SpecificField1" xml:space="preserve">
+    <value>Specific field 1</value>
+  </data>
+  <data name="Reference_SpecificField2" xml:space="preserve">
+    <value>Specific field 2</value>
+  </data>
+  <data name="Reference_SpecificField3" xml:space="preserve">
+    <value>Specific field 3</value>
+  </data>
+  <data name="Reference_SpecificField4" xml:space="preserve">
+    <value>Specific field 4</value>
+  </data>
+  <data name="Reference_SpecificField5" xml:space="preserve">
+    <value>Specific field 5</value>
+  </data>
+  <data name="Reference_SpecificField6" xml:space="preserve">
+    <value>Specific field 6</value>
+  </data>
+  <data name="Reference_SpecificField7" xml:space="preserve">
+    <value>Specific field 7</value>
+  </data>
+  <data name="Reference_StartPage" xml:space="preserve">
+    <value>Start page</value>
+  </data>
+  <data name="Reference_StartPageFormatted" xml:space="preserve">
+    <value>Start page (formatted)</value>
+  </data>
+  <data name="Reference_StorageMedium" xml:space="preserve">
+    <value>Storage medium</value>
+  </data>
+  <data name="Reference_Label2" xml:space="preserve">
+    <value>Red label</value>
+  </data>
+  <data name="Reference_Tasks" xml:space="preserve">
+    <value>Tasks</value>
+  </data>
+  <data name="Reference_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Reference_Subtitle" xml:space="preserve">
+    <value>Subtitle</value>
+  </data>
+  <data name="Reference_TitleInOtherLanguages" xml:space="preserve">
+    <value>Title in other languages</value>
+  </data>
+  <data name="Reference_SourceOfBibliographicInformation" xml:space="preserve">
+    <value>Source of bibliographic information</value>
+  </data>
+  <data name="Reference_SourceOfBibliographicInformation_Short" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Reference_TitleSupplement" xml:space="preserve">
+    <value>Title supplement</value>
+  </data>
+  <data name="Reference_TableOfContents" xml:space="preserve">
+    <value>Table of contents</value>
+  </data>
+  <data name="Reference_CitationKey" xml:space="preserve">
+    <value>Citation key</value>
+  </data>
+  <data name="Reference_CitationKeyUpdateType" xml:space="preserve">
+    <value>Citation key update type</value>
+  </data>
+  <data name="Reference_TranslatedTitle" xml:space="preserve">
+    <value>Translated title</value>
+  </data>
+  <data name="Reference_UniformTitle" xml:space="preserve">
+    <value>Uniform title</value>
+  </data>
+  <data name="Reference_Volume" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="Reference_Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="Reference_YearResolved" xml:space="preserve">
+    <value>Year derived</value>
+  </data>
+  <data name="Person" xml:space="preserve">
+    <value>Person or organization</value>
+  </data>
+  <data name="Persons" xml:space="preserve">
+    <value>Persons and organizations</value>
+  </data>
+  <data name="Person_FirstName" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="Person_LastName" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="Person_MiddleName" xml:space="preserve">
+    <value>Middle name(s)</value>
+  </data>
+  <data name="Person_Prefix" xml:space="preserve">
+    <value>Prefix</value>
+  </data>
+  <data name="Person_Suffix" xml:space="preserve">
+    <value>Suffix</value>
+  </data>
+  <data name="Person_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Publisher" xml:space="preserve">
+    <value>Publisher</value>
+  </data>
+  <data name="Publishers" xml:space="preserve">
+    <value>Publishers</value>
+  </data>
+  <data name="ReferenceType" xml:space="preserve">
+    <value>Reference type</value>
+  </data>
+  <data name="ReferenceTypes" xml:space="preserve">
+    <value>Reference types</value>
+  </data>
+  <data name="ReferenceType_NameLocalized" xml:space="preserve">
+    <value>Name (localized)</value>
+  </data>
+  <data name="SeriesTitle" xml:space="preserve">
+    <value>Series</value>
+  </data>
+  <data name="SeriesTitles" xml:space="preserve">
+    <value>Series</value>
+  </data>
+  <data name="SeriesTitle_Editors" xml:space="preserve">
+    <value>Editor</value>
+  </data>
+  <data name="SeriesTitle_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="SeriesTitle_Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="SeriesTitle_StandardAbbreviation" xml:space="preserve">
+    <value>Abbreviation 1</value>
+  </data>
+  <data name="SeriesTitle_UserAbbreviation1" xml:space="preserve">
+    <value>Abbreviation 2</value>
+  </data>
+  <data name="SeriesTitle_UserAbbreviation2" xml:space="preserve">
+    <value>Abbreviation 3</value>
+  </data>
+  <data name="TaskItem_Name" xml:space="preserve">
+    <value>Task</value>
+  </data>
+  <data name="TaskItem_DueDate" xml:space="preserve">
+    <value>Due date</value>
+  </data>
+  <data name="TaskItem_Importance" xml:space="preserve">
+    <value>Importance</value>
+  </data>
+  <data name="TaskItem_Reference" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="TaskItem_State" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="KnowledgeItem_CoreStatement" xml:space="preserve">
+    <value>Core statement</value>
+  </data>
+  <data name="KnowledgeItem_Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="KnowledgeItem_ImageDescription" xml:space="preserve">
+    <value>Image description</value>
+  </data>
+  <data name="KnowledgeItem_ModifiedBy" xml:space="preserve">
+    <value>Modified by</value>
+  </data>
+  <data name="KnowledgeItem_Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="KnowledgeItem_KnowledgeItemType" xml:space="preserve">
+    <value>Knowledge item type</value>
+  </data>
+  <data name="Keyword_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Keyword_Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Keyword_Protected" xml:space="preserve">
+    <value>Protected</value>
+  </data>
+  <data name="Publisher_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Publisher_Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Publisher_Protected" xml:space="preserve">
+    <value>Protected</value>
+  </data>
+  <data name="Reference_ExternalLinks" xml:space="preserve">
+    <value>External links</value>
+  </data>
+  <data name="Periodical_Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Periodical_References" xml:space="preserve">
+    <value>References</value>
+  </data>
+  <data name="Keyword_References" xml:space="preserve">
+    <value>References</value>
+  </data>
+  <data name="Person_Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Person_References" xml:space="preserve">
+    <value>References</value>
+  </data>
+  <data name="Person_SeriesTitles" xml:space="preserve">
+    <value>Series</value>
+  </data>
+  <data name="Library_Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Library_Locations" xml:space="preserve">
+    <value>Locations</value>
+  </data>
+  <data name="Publisher_References" xml:space="preserve">
+    <value>References</value>
+  </data>
+  <data name="SeriesTitle_References" xml:space="preserve">
+    <value>References</value>
+  </data>
+  <data name="Reference_TitleInOtherLanguages_Short" xml:space="preserve">
+    <value>In other languages</value>
+  </data>
+  <data name="Reference_FullName" xml:space="preserve">
+    <value>Full reference</value>
+  </data>
+  <data name="KnowledgeItem_QuotationType" xml:space="preserve">
+    <value>Quotation type</value>
+  </data>
+  <data name="KnowledgeItem_CoreStatementUpdateType" xml:space="preserve">
+    <value>Core statement update type</value>
+  </data>
+  <data name="KnowledgeItem_EndPage" xml:space="preserve">
+    <value>End page</value>
+  </data>
+  <data name="KnowledgeItem_EndPageFormatted" xml:space="preserve">
+    <value>End page (formatted)</value>
+  </data>
+  <data name="KnowledgeItem_Keywords" xml:space="preserve">
+    <value>Keywords</value>
+  </data>
+  <data name="KnowledgeItem_NumberingType" xml:space="preserve">
+    <value>Numbering type</value>
+  </data>
+  <data name="KnowledgeItem_NumeralSystem" xml:space="preserve">
+    <value>Numeral system</value>
+  </data>
+  <data name="KnowledgeItem_PageRange" xml:space="preserve">
+    <value>Page range</value>
+  </data>
+  <data name="KnowledgeItem_QuotationIndex" xml:space="preserve">
+    <value>Quotation index</value>
+  </data>
+  <data name="KnowledgeItem_Reference" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="KnowledgeItem_StartPage" xml:space="preserve">
+    <value>Start page</value>
+  </data>
+  <data name="KnowledgeItem_StartPageFormatted" xml:space="preserve">
+    <value>Start page (formatted)</value>
+  </data>
+  <data name="KnowlegeItem_TextRtf" xml:space="preserve">
+    <value>Text (RTF)</value>
+  </data>
+  <data name="Location_LocationType" xml:space="preserve">
+    <value>Type of location</value>
+  </data>
+  <data name="Location_PrivateCollectionAddress" xml:space="preserve">
+    <value>Private Collection location</value>
+  </data>
+  <data name="Location_Uri" xml:space="preserve">
+    <value>URI</value>
+  </data>
+  <data name="Location_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Location_AddressUri" xml:space="preserve">
+    <value>Address URI</value>
+  </data>
+  <data name="Reference_FileLink" xml:space="preserve">
+    <value>Local file</value>
+  </data>
+  <data name="Reference_Rating" xml:space="preserve">
+    <value>Rating</value>
+  </data>
+  <data name="Reference_Doi" xml:space="preserve">
+    <value>DOI name</value>
+  </data>
+  <data name="Reference_PubMedId" xml:space="preserve">
+    <value>PubMed ID</value>
+  </data>
+  <data name="Location_MirrorsReferenceOnlineAddress" xml:space="preserve">
+    <value>Mirrors the reference's online address</value>
+  </data>
+  <data name="Reference_Cover" xml:space="preserve">
+    <value>Cover art</value>
+  </data>
+  <data name="Reference_CustomField5" xml:space="preserve">
+    <value>Custom field 5</value>
+  </data>
+  <data name="Reference_CustomField6" xml:space="preserve">
+    <value>Custom field 6</value>
+  </data>
+  <data name="Reference_CustomField7" xml:space="preserve">
+    <value>Custom field 7</value>
+  </data>
+  <data name="Reference_CustomField8" xml:space="preserve">
+    <value>Custom field 8</value>
+  </data>
+  <data name="Reference_CustomField9" xml:space="preserve">
+    <value>Custom field 9</value>
+  </data>
+  <data name="Reference_DefaultLocation" xml:space="preserve">
+    <value>Last location shown</value>
+  </data>
+  <data name="Location_SkipPreviewEntryPage" xml:space="preserve">
+    <value>Always preview this location immediately</value>
+  </data>
+  <data name="EntityLink" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="EntityLinks" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="EntityLink_Source" xml:space="preserve">
+    <value>Link from</value>
+  </data>
+  <data name="EntityLink_SourceData" xml:space="preserve">
+    <value>Pages</value>
+  </data>
+  <data name="EntityLink_Notes" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="EntityLink_Target" xml:space="preserve">
+    <value>Link to</value>
+  </data>
+  <data name="EntityLink_TargetData" xml:space="preserve">
+    <value>Page/chapter</value>
+  </data>
+  <data name="KnowledgeItems" xml:space="preserve">
+    <value>Knowledge items</value>
+  </data>
+  <data name="Quotations" xml:space="preserve">
+    <value>Quotations, summaries, comments</value>
+  </data>
+  <data name="References" xml:space="preserve">
+    <value>References</value>
+  </data>
+  <data name="Thoughts" xml:space="preserve">
+    <value>Thoughts</value>
+  </data>
+  <data name="TaskItem_Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="TaskItem" xml:space="preserve">
+    <value>Task</value>
+  </data>
+  <data name="KnowledgeItem" xml:space="preserve">
+    <value>Knowledge item</value>
+  </data>
+  <data name="KnowledgeItem_Address" xml:space="preserve">
+    <value>File location</value>
+    <comment>For a file quotation or thought</comment>
+  </data>
+  <data name="Category_References" xml:space="preserve">
+    <value>References</value>
+  </data>
+  <data name="Reference_ChildReferences" xml:space="preserve">
+    <value>Child references</value>
+  </data>
+  <data name="Keyword_KnowledgeItems" xml:space="preserve">
+    <value>Knowledge items</value>
+  </data>
+  <data name="Reference_AuthorsOrEditors" xml:space="preserve">
+    <value>Author or editor</value>
+  </data>
+  <data name="Reference_SubitleTagged" xml:space="preserve">
+    <value>Subtitle (with formatting tags)</value>
+  </data>
+  <data name="Reference_TitleSupplementTagged" xml:space="preserve">
+    <value>Title supplement (with formatting tags)</value>
+  </data>
+  <data name="Reference_TitleTagged" xml:space="preserve">
+    <value>Title (with formatting tags)</value>
+  </data>
+  <data name="Role_Accounts" xml:space="preserve">
+    <value>Accounts</value>
+  </data>
+  <data name="Role_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Role_Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Role_Permissions" xml:space="preserve">
+    <value>Permissions</value>
+  </data>
+  <data name="Account_EMail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Account_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Account_Role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="TaskItems" xml:space="preserve">
+    <value>Tasks</value>
+  </data>
+  <data name="Reference_AbstractRtf" xml:space="preserve">
+    <value>Abstract</value>
+  </data>
+  <data name="Reference_EvaluationRtf" xml:space="preserve">
+    <value>Evaluation</value>
+  </data>
+  <data name="Reference_TableOfContentsRtf" xml:space="preserve">
+    <value>Table of Contents</value>
+  </data>
+  <data name="KnowledgeItem_File_CoreStatement" xml:space="preserve">
+    <value>Caption</value>
+  </data>
+  <data name="CommonProperty_CreatedBy" xml:space="preserve">
+    <value>Created by</value>
+    <comment>JS - review</comment>
+  </data>
+  <data name="CommonProperty_CreatedBy_Short" xml:space="preserve">
+    <value>Created by</value>
+  </data>
+  <data name="CommonProperty_CreatedBySid" xml:space="preserve">
+    <value>Created by Windows SID</value>
+  </data>
+  <data name="CommonProperty_CreatedByCitaviUserId" xml:space="preserve">
+    <value>Created by Citavi user ID</value>
+  </data>
+  <data name="CommonProperty_CreatedOn" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="CommonProperty_ModifiedBy" xml:space="preserve">
+    <value>Modified by</value>
+  </data>
+  <data name="CommonProperty_ModifiedBy_Short" xml:space="preserve">
+    <value>Modified by</value>
+  </data>
+  <data name="CommonProperty_ModifiedByCitaviUserId" xml:space="preserve">
+    <value>Modified by Citavi user ID</value>
+  </data>
+  <data name="CommonProperty_ModifiedOn" xml:space="preserve">
+    <value>Modified</value>
+  </data>
+  <data name="CommonProperty_Id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Thought" xml:space="preserve">
+    <value>Thought</value>
+  </data>
+  <data name="EntityLink_RelationType" xml:space="preserve">
+    <value>Type of link</value>
+  </data>
+  <data name="Person_Abbreviation" xml:space="preserve">
+    <value>Abbreviation</value>
+  </data>
+  <data name="Person_Sex" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Reference_AbstractHtml" xml:space="preserve">
+    <value>Abstract</value>
+  </data>
+  <data name="Reference_AbstractSourceTextFormat" xml:space="preserve">
+    <value>Abstract format</value>
+  </data>
+  <data name="Reference_EvaluationHtml" xml:space="preserve">
+    <value>Evaluation</value>
+  </data>
+  <data name="Reference_EvaluationSourceTextFormat" xml:space="preserve">
+    <value>Evaluation format</value>
+  </data>
+  <data name="Reference_TableOfContentsHtml" xml:space="preserve">
+    <value>Table of contents</value>
+  </data>
+  <data name="Reference_TableOfContentsSourceTextFormat" xml:space="preserve">
+    <value>Table of contents format</value>
+  </data>
+  <data name="KnowledgeItem_SourceTextFormat" xml:space="preserve">
+    <value>Text format</value>
+  </data>
+  <data name="KnowledgeItem_TextHtml" xml:space="preserve">
+    <value>Text (HTML)</value>
+  </data>
+  <data name="KnowledgeItem_TextIsComplex" xml:space="preserve">
+    <value>Complex text formatting</value>
+  </data>
+  <data name="Reference_AbstractIsComplex" xml:space="preserve">
+    <value>Abstract has complex text formatting</value>
+  </data>
+  <data name="Reference_EvaluationIsComplex" xml:space="preserve">
+    <value>Evaluation has complex text formatting</value>
+  </data>
+  <data name="Reference_TableOfContentsIsComplex" xml:space="preserve">
+    <value>Table of contents has complex text formatting</value>
+  </data>
+  <data name="TaskItem_CreatedBy" xml:space="preserve">
+    <value>Created by</value>
+  </data>
+  <data name="TaskItem_CreatedOn" xml:space="preserve">
+    <value>Created on</value>
+  </data>
+  <data name="TaskItem_ModifiedBy" xml:space="preserve">
+    <value>Modified by</value>
+  </data>
+  <data name="TaskItem_ModifiedOn" xml:space="preserve">
+    <value>Modified on</value>
+  </data>
+  <data name="Person_LastNameForSorting" xml:space="preserve">
+    <value>Sort by</value>
+  </data>
+  <data name="Location_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="KnowledgeItem_Relevance" xml:space="preserve">
+    <value>Relevance</value>
+  </data>
+  <data name="Annotation" xml:space="preserve">
+    <value>PDF annotation</value>
+  </data>
+  <data name="Annotations" xml:space="preserve">
+    <value>PDF annotations</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="Group_KnowledgeItems" xml:space="preserve">
+    <value>Knowledge items</value>
+  </data>
+  <data name="Group_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Group_Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Group_References" xml:space="preserve">
+    <value>References</value>
+  </data>
+  <data name="KnowledgeItem_Groups" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="Reference_Groups" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="CommonProperty_CreatedOn_Short" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="CommonProperty_ModifiedOn_Short" xml:space="preserve">
+    <value>Modified</value>
+  </data>
+  <data name="ImportGroup" xml:space="preserve">
+    <value>Import group</value>
+  </data>
+  <data name="ImportGroups" xml:space="preserve">
+    <value>Import groups</value>
+  </data>
+  <data name="ImportGroup_ImportGroupType" xml:space="preserve">
+    <value>Import group type</value>
+  </data>
+  <data name="ImportGroup_Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="ImportGroup_References" xml:space="preserve">
+    <value>References</value>
+  </data>
+  <data name="TaskItem_HasPdfTaskItemLink" xml:space="preserve">
+    <value>Linked with PDF</value>
+  </data>
+  <data name="Group_DisplayType" xml:space="preserve">
+    <value>Show in</value>
+  </data>
+  <data name="Location_FullText" xml:space="preserve">
+    <value>Full text</value>
+  </data>
+  <data name="ProjectTaskItems" xml:space="preserve">
+    <value>Project tasks</value>
+  </data>
+  <data name="ReferenceTaskItems" xml:space="preserve">
+    <value>Reference tasks</value>
+  </data>
+  <data name="TaskItem_AssignedOn" xml:space="preserve">
+    <value>Assigned on</value>
+    <comment>JS - review</comment>
+  </data>
+  <data name="TaskItem_AssignedTo" xml:space="preserve">
+    <value>Assigned to</value>
+    <comment>JS - review</comment>
+  </data>
+  <data name="TaskItem_AssignedOnTo" xml:space="preserve">
+    <value>Assigned to/on</value>
+  </data>
+  <data name="Reference_Affiliation" xml:space="preserve">
+    <value>Affiliation</value>
+  </data>
+  <data name="Reference_Translators" xml:space="preserve">
+    <value>Translator</value>
+  </data>
+  <data name="Reference_ArxivId" xml:space="preserve">
+    <value>arXiv ID</value>
+  </data>
+  <data name="Reference_PmcId" xml:space="preserve">
+    <value>PMCID</value>
+  </data>
+  <data name="Periodical_Eissn" xml:space="preserve">
+    <value>eISSN</value>
+  </data>
+  <data name="CommonProperty_CreatedByCitaviUserName" xml:space="preserve">
+    <value>Created by Citavi user</value>
+  </data>
+  <data name="CommonProperty_CreatedByWindowsUserName" xml:space="preserve">
+    <value>Created by Windows user</value>
+  </data>
+  <data name="CommonProperty_ModifiedByCitaviUserName" xml:space="preserve">
+    <value>Modified by Citavi user</value>
+  </data>
+  <data name="CommonProperty_ModifiedBySid" xml:space="preserve">
+    <value>Modified by  Windows SID</value>
+  </data>
+  <data name="CommonProperty_ModifiedByWindowsUserName" xml:space="preserve">
+    <value>Modified by Windows user</value>
+  </data>
+  <data name="Reference_Eisbn" xml:space="preserve">
+    <value>EISBN</value>
+  </data>
+  <data name="Reference_Prefix" xml:space="preserve">
+    <value>Prefix</value>
+  </data>
+  <data name="Reference_Suffix" xml:space="preserve">
+    <value>Suffix</value>
+  </data>
+</root>

@@ -1,0 +1,2449 @@
+2021-08-30 12:03:33.613 +07:00 [ERR] 
+----------------------------
+longtestctv01@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T04:55:23
+	request-id: 11f744b0-e387-42ca-8cda-59ad72f6fea4
+	client-request-id: 11f744b0-e387-42ca-8cda-59ad72f6fea4
+ClientRequestId: 11f744b0-e387-42ca-8cda-59ad72f6fea4
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T04:55:31
+	request-id: d5c3b158-cb74-4955-abc6-d09d9935387a
+	client-request-id: d5c3b158-cb74-4955-abc6-d09d9935387a
+ClientRequestId: d5c3b158-cb74-4955-abc6-d09d9935387a
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+78614537-2752-44cc-9b64-0683f6fd6095.noemail@citavi.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:00:50
+	request-id: 1baa77f7-8f08-49ae-9c98-62044cdbf817
+	client-request-id: 1baa77f7-8f08-49ae-9c98-62044cdbf817
+ClientRequestId: 1baa77f7-8f08-49ae-9c98-62044cdbf817
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+77ed50e3-c825-4f2a-8da0-29c668aad6eb.noemail@citavi2.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:00:50
+	request-id: 0e260f74-5742-4042-9e3f-314ca63affb2
+	client-request-id: 0e260f74-5742-4042-9e3f-314ca63affb2
+ClientRequestId: 0e260f74-5742-4042-9e3f-314ca63affb2
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+785d2fc2-5ec5-482e-9871-33c1b0f2ca42.noemail@citavi2.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:00:50
+	request-id: 5e9da786-f4a5-47a4-8b90-348368ddde5d
+	client-request-id: 5e9da786-f4a5-47a4-8b90-348368ddde5d
+ClientRequestId: 5e9da786-f4a5-47a4-8b90-348368ddde5d
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+7ff53457-b319-49d4-80bd-27fae0288137.noemail@citavi2.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:00:50
+	request-id: f53b11c3-57cf-4879-9d1f-b0ba62a1021b
+	client-request-id: f53b11c3-57cf-4879-9d1f-b0ba62a1021b
+ClientRequestId: f53b11c3-57cf-4879-9d1f-b0ba62a1021b
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+819e0dc5-9cc9-4480-855e-bb0e2691a9ea.noemail@citavi.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:00:51
+	request-id: 27de3452-1e2c-4e1a-bd31-5891e8ebd252
+	client-request-id: 27de3452-1e2c-4e1a-bd31-5891e8ebd252
+ClientRequestId: 27de3452-1e2c-4e1a-bd31-5891e8ebd252
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+7ade8a6b-1558-45bd-b2c6-f77b51aa3d8c.noemail@citavi2.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:00:51
+	request-id: 8f3fb527-9422-482b-b5dc-0aac65845737
+	client-request-id: 8f3fb527-9422-482b-b5dc-0aac65845737
+ClientRequestId: 8f3fb527-9422-482b-b5dc-0aac65845737
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+81baa1f8-8531-49d3-ba1d-2447ac1414bb.noemail@citavi.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:00:51
+	request-id: a51b6956-0bfc-409e-9324-92e8f2f22343
+	client-request-id: a51b6956-0bfc-409e-9324-92e8f2f22343
+ClientRequestId: a51b6956-0bfc-409e-9324-92e8f2f22343
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+7eb314d2-4bd8-4f9a-8622-11800d50c2ff.noemail@citavi2.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:00:51
+	request-id: f1c5ecff-684d-4b95-97fd-2bd94d2ec0b2
+	client-request-id: f1c5ecff-684d-4b95-97fd-2bd94d2ec0b2
+ClientRequestId: f1c5ecff-684d-4b95-97fd-2bd94d2ec0b2
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+7f5d5e58-2eed-4de3-a2aa-2c24422262b1.noemail@citavi2.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:00:52
+	request-id: 7af40d82-6f88-48c8-a452-4f51315ede0d
+	client-request-id: 7af40d82-6f88-48c8-a452-4f51315ede0d
+ClientRequestId: 7af40d82-6f88-48c8-a452-4f51315ede0d
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+7fe13b5f-b284-4ecc-851d-73956eab28e3.noemail@citavi2.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:00:52
+	request-id: 47bf91bc-f90b-440e-809c-358130712958
+	client-request-id: 47bf91bc-f90b-440e-809c-358130712958
+ClientRequestId: 47bf91bc-f90b-440e-809c-358130712958
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+807d5746-ba99-49c2-9906-1ee271dbd0f1.noemail@citavi.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:00:52
+	request-id: 742fabec-542b-4eb9-bdda-0cae7ee310d2
+	client-request-id: 742fabec-542b-4eb9-bdda-0cae7ee310d2
+ClientRequestId: 742fabec-542b-4eb9-bdda-0cae7ee310d2
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+80caf414-83a0-4696-99c1-1f1a76c67c23.noemail@citavi2.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:00:53
+	request-id: dc86618e-46bc-40b6-81c3-9d875bdd2fac
+	client-request-id: dc86618e-46bc-40b6-81c3-9d875bdd2fac
+ClientRequestId: dc86618e-46bc-40b6-81c3-9d875bdd2fac
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+813ce83d-9fb4-4e28-ad55-347442ad00dc.noemail@citavi.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:00:53
+	request-id: 4f038f38-6662-48c8-98ab-d108dfe05cb3
+	client-request-id: 4f038f38-6662-48c8-98ab-d108dfe05cb3
+ClientRequestId: 4f038f38-6662-48c8-98ab-d108dfe05cb3
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+fef29038-6ea6-4576-afac-48b6b1452801.noemail@citavi2.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:04:45
+	request-id: 6075cd79-16b6-4e97-ae36-7b43a121dc0e
+	client-request-id: 6075cd79-16b6-4e97-ae36-7b43a121dc0e
+ClientRequestId: 6075cd79-16b6-4e97-ae36-7b43a121dc0e
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+mario.eder@sbg.ac.at
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:04:45
+	request-id: fed97cd3-c90e-4b97-a688-96250e922fdd
+	client-request-id: fed97cd3-c90e-4b97-a688-96250e922fdd
+ClientRequestId: fed97cd3-c90e-4b97-a688-96250e922fdd
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+mtzhao@hust.edu.cn
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:04:45
+	request-id: 3e53ed36-c472-4714-8c3d-77c70b26933a
+	client-request-id: 3e53ed36-c472-4714-8c3d-77c70b26933a
+ClientRequestId: 3e53ed36-c472-4714-8c3d-77c70b26933a
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+mo.muehlbauer@hotmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:04:45
+	request-id: b7f9943b-5dbd-48f5-b374-ffe81676fd3e
+	client-request-id: b7f9943b-5dbd-48f5-b374-ffe81676fd3e
+ClientRequestId: b7f9943b-5dbd-48f5-b374-ffe81676fd3e
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+nagib@gmx.at
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:04:45
+	request-id: 600dbfbd-7e54-4019-a0b7-e8c023641a3f
+	client-request-id: 600dbfbd-7e54-4019-a0b7-e8c023641a3f
+ClientRequestId: 600dbfbd-7e54-4019-a0b7-e8c023641a3f
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+mtz.boudchicha@gmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:04:45
+	request-id: 94394f07-9af5-400c-89b5-9ee3f9e02074
+	client-request-id: 94394f07-9af5-400c-89b5-9ee3f9e02074
+ClientRequestId: 94394f07-9af5-400c-89b5-9ee3f9e02074
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+petra.neussl@campus02.at
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:04:46
+	request-id: 1ce823b0-06f6-487a-9bc8-e6207415b72a
+	client-request-id: 1ce823b0-06f6-487a-9bc8-e6207415b72a
+ClientRequestId: 1ce823b0-06f6-487a-9bc8-e6207415b72a
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+mirko.lugano+test35@gmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:04:46
+	request-id: ad73b56a-d0c9-4152-925c-0fdaaec23565
+	client-request-id: ad73b56a-d0c9-4152-925c-0fdaaec23565
+ClientRequestId: ad73b56a-d0c9-4152-925c-0fdaaec23565
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+moacinom@gmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:04:45
+	request-id: a35b072e-10e4-4c73-8342-839926a551dc
+	client-request-id: a35b072e-10e4-4c73-8342-839926a551dc
+ClientRequestId: a35b072e-10e4-4c73-8342-839926a551dc
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+pfmeurer+rabatt@gmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:04:46
+	request-id: db4ab018-ef62-4b6e-970d-c07d1166d494
+	client-request-id: db4ab018-ef62-4b6e-970d-c07d1166d494
+ClientRequestId: db4ab018-ef62-4b6e-970d-c07d1166d494
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+helpertest18@gmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:04:46
+	request-id: 684bd76d-bc06-4633-926c-5770b7f2b20f
+	client-request-id: 684bd76d-bc06-4633-926c-5770b7f2b20f
+ClientRequestId: 684bd76d-bc06-4633-926c-5770b7f2b20f
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+pfmeurer+20160913@gmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:04:46
+	request-id: 2ab67890-5697-4854-bed6-6a4da1bc8e84
+	client-request-id: 2ab67890-5697-4854-bed6-6a4da1bc8e84
+ClientRequestId: 2ab67890-5697-4854-bed6-6a4da1bc8e84
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+r_martens@posteo.de
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:04:46
+	request-id: 714d9e96-04dd-4714-a0e7-1d23904d7bef
+	client-request-id: 714d9e96-04dd-4714-a0e7-1d23904d7bef
+ClientRequestId: 714d9e96-04dd-4714-a0e7-1d23904d7bef
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+roman.krawielicki@uni-tuebingen.de
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:04:46
+	request-id: 3243c6c3-96b4-41bb-8d4b-159e84af3902
+	client-request-id: 3243c6c3-96b4-41bb-8d4b-159e84af3902
+ClientRequestId: 3243c6c3-96b4-41bb-8d4b-159e84af3902
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+schuermann.uwe@uni-muenster.de
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:04:46
+	request-id: beccb007-727e-4eab-8a62-9c0bdb8f8638
+	client-request-id: beccb007-727e-4eab-8a62-9c0bdb8f8638
+ClientRequestId: beccb007-727e-4eab-8a62-9c0bdb8f8638
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+Sailer.Sabrina@web.de
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:04:46
+	request-id: 7aa79f42-55a2-42ed-a916-46aadabcbdcd
+	client-request-id: 7aa79f42-55a2-42ed-a916-46aadabcbdcd
+ClientRequestId: 7aa79f42-55a2-42ed-a916-46aadabcbdcd
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+schultz.jenniferl@gmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:04:46
+	request-id: d9b01fd2-cae2-42ef-9f0f-acc08d176db8
+	client-request-id: d9b01fd2-cae2-42ef-9f0f-acc08d176db8
+ClientRequestId: d9b01fd2-cae2-42ef-9f0f-acc08d176db8
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+----------------------------
+norbert.paul@ruhr-universitaet-bochum.de
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T05:04:46
+	request-id: d2c05747-fff9-41a5-8b2c-1104aa157096
+	client-request-id: d2c05747-fff9-41a5-8b2c-1104aa157096
+ClientRequestId: d2c05747-fff9-41a5-8b2c-1104aa157096
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 91
+2021-08-30 14:34:17.704 +07:00 [ERR] 
+----------------------------
+138_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:35:18
+	request-id: 0b82b5ed-6d12-43c7-84d4-1edc055d9977
+	client-request-id: 0b82b5ed-6d12-43c7-84d4-1edc055d9977
+ClientRequestId: 0b82b5ed-6d12-43c7-84d4-1edc055d9977
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+168fu_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:35:25
+	request-id: 56b688d9-90a4-4f7e-aa0a-478db8ef12bc
+	client-request-id: 56b688d9-90a4-4f7e-aa0a-478db8ef12bc
+ClientRequestId: 56b688d9-90a4-4f7e-aa0a-478db8ef12bc
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+131_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:35:29
+	request-id: ee285d75-4b90-4d77-bc85-c7df0c122e8c
+	client-request-id: ee285d75-4b90-4d77-bc85-c7df0c122e8c
+ClientRequestId: ee285d75-4b90-4d77-bc85-c7df0c122e8c
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+2021-08-30 14:34:31.720 +07:00 [ERR] 
+----------------------------
+138_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:35:18
+	request-id: 0b82b5ed-6d12-43c7-84d4-1edc055d9977
+	client-request-id: 0b82b5ed-6d12-43c7-84d4-1edc055d9977
+ClientRequestId: 0b82b5ed-6d12-43c7-84d4-1edc055d9977
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+168fu_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:35:25
+	request-id: 56b688d9-90a4-4f7e-aa0a-478db8ef12bc
+	client-request-id: 56b688d9-90a4-4f7e-aa0a-478db8ef12bc
+ClientRequestId: 56b688d9-90a4-4f7e-aa0a-478db8ef12bc
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+131_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:35:29
+	request-id: ee285d75-4b90-4d77-bc85-c7df0c122e8c
+	client-request-id: ee285d75-4b90-4d77-bc85-c7df0c122e8c
+ClientRequestId: ee285d75-4b90-4d77-bc85-c7df0c122e8c
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+138_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:35:46
+	request-id: ca596200-7de5-4c56-b411-0b54b3f9500d
+	client-request-id: ca596200-7de5-4c56-b411-0b54b3f9500d
+ClientRequestId: ca596200-7de5-4c56-b411-0b54b3f9500d
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+168fu_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:35:47
+	request-id: ede5748f-5fe5-4744-932c-9dd7d5ea1d34
+	client-request-id: ede5748f-5fe5-4744-932c-9dd7d5ea1d34
+ClientRequestId: ede5748f-5fe5-4744-932c-9dd7d5ea1d34
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+131_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:35:48
+	request-id: da946ce3-700f-4207-9637-b4ce27140b8c
+	client-request-id: da946ce3-700f-4207-9637-b4ce27140b8c
+ClientRequestId: da946ce3-700f-4207-9637-b4ce27140b8c
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+2021-08-30 14:35:00.193 +07:00 [ERR] 
+----------------------------
+168fu_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:36:15
+	request-id: 615d8f6b-8599-4be6-8567-90754145e455
+	client-request-id: 615d8f6b-8599-4be6-8567-90754145e455
+ClientRequestId: 615d8f6b-8599-4be6-8567-90754145e455
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+131_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:36:16
+	request-id: 48dff678-3d1a-4f5b-8b93-bfc74c0d7ac0
+	client-request-id: 48dff678-3d1a-4f5b-8b93-bfc74c0d7ac0
+ClientRequestId: 48dff678-3d1a-4f5b-8b93-bfc74c0d7ac0
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+138_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:36:16
+	request-id: a861f5b3-ec6d-415b-8664-96cbfbdf5313
+	client-request-id: a861f5b3-ec6d-415b-8664-96cbfbdf5313
+ClientRequestId: a861f5b3-ec6d-415b-8664-96cbfbdf5313
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+2021-08-30 14:35:28.468 +07:00 [ERR] 
+----------------------------
+131_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:36:44
+	request-id: ba2aeea5-d140-4e34-974a-bd06bd6bda5e
+	client-request-id: ba2aeea5-d140-4e34-974a-bd06bd6bda5e
+ClientRequestId: ba2aeea5-d140-4e34-974a-bd06bd6bda5e
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+168fu_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:36:44
+	request-id: d3529948-c631-46d4-bc2d-068b81bc3164
+	client-request-id: d3529948-c631-46d4-bc2d-068b81bc3164
+ClientRequestId: d3529948-c631-46d4-bc2d-068b81bc3164
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+138_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:36:45
+	request-id: 0b396c70-8459-43e2-9b67-0105bfb2de1b
+	client-request-id: 0b396c70-8459-43e2-9b67-0105bfb2de1b
+ClientRequestId: 0b396c70-8459-43e2-9b67-0105bfb2de1b
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+2021-08-30 14:35:32.266 +07:00 [ERR] 
+----------------------------
+131_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:36:44
+	request-id: ba2aeea5-d140-4e34-974a-bd06bd6bda5e
+	client-request-id: ba2aeea5-d140-4e34-974a-bd06bd6bda5e
+ClientRequestId: ba2aeea5-d140-4e34-974a-bd06bd6bda5e
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+168fu_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:36:44
+	request-id: d3529948-c631-46d4-bc2d-068b81bc3164
+	client-request-id: d3529948-c631-46d4-bc2d-068b81bc3164
+ClientRequestId: d3529948-c631-46d4-bc2d-068b81bc3164
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+138_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:36:45
+	request-id: 0b396c70-8459-43e2-9b67-0105bfb2de1b
+	client-request-id: 0b396c70-8459-43e2-9b67-0105bfb2de1b
+ClientRequestId: 0b396c70-8459-43e2-9b67-0105bfb2de1b
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+138_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:36:48
+	request-id: 4589bfea-ef02-4af7-a330-a95b60bf46ba
+	client-request-id: 4589bfea-ef02-4af7-a330-a95b60bf46ba
+ClientRequestId: 4589bfea-ef02-4af7-a330-a95b60bf46ba
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+168fu_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:36:48
+	request-id: 82147abd-edcc-4925-96c5-7a59a3d81525
+	client-request-id: 82147abd-edcc-4925-96c5-7a59a3d81525
+ClientRequestId: 82147abd-edcc-4925-96c5-7a59a3d81525
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+131_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:36:48
+	request-id: 5a0dbbca-99f4-4a49-a2fa-ddd62e28faef
+	client-request-id: 5a0dbbca-99f4-4a49-a2fa-ddd62e28faef
+ClientRequestId: 5a0dbbca-99f4-4a49-a2fa-ddd62e28faef
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+2021-08-30 14:36:04.363 +07:00 [ERR] 
+----------------------------
+138_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:37:19
+	request-id: f184aec4-dcc0-4b00-9d14-84bd17fe2044
+	client-request-id: f184aec4-dcc0-4b00-9d14-84bd17fe2044
+ClientRequestId: f184aec4-dcc0-4b00-9d14-84bd17fe2044
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+168fu_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:37:20
+	request-id: 1bc342f5-9da8-426c-b425-78e5a7d4d636
+	client-request-id: 1bc342f5-9da8-426c-b425-78e5a7d4d636
+ClientRequestId: 1bc342f5-9da8-426c-b425-78e5a7d4d636
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+131_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:37:20
+	request-id: 1237e7a2-644b-4b2a-b3b4-a0c8ae2f472b
+	client-request-id: 1237e7a2-644b-4b2a-b3b4-a0c8ae2f472b
+ClientRequestId: 1237e7a2-644b-4b2a-b3b4-a0c8ae2f472b
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+2021-08-30 14:36:09.319 +07:00 [ERR] 
+----------------------------
+138_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:37:19
+	request-id: f184aec4-dcc0-4b00-9d14-84bd17fe2044
+	client-request-id: f184aec4-dcc0-4b00-9d14-84bd17fe2044
+ClientRequestId: f184aec4-dcc0-4b00-9d14-84bd17fe2044
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+168fu_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:37:20
+	request-id: 1bc342f5-9da8-426c-b425-78e5a7d4d636
+	client-request-id: 1bc342f5-9da8-426c-b425-78e5a7d4d636
+ClientRequestId: 1bc342f5-9da8-426c-b425-78e5a7d4d636
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+131_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:37:20
+	request-id: 1237e7a2-644b-4b2a-b3b4-a0c8ae2f472b
+	client-request-id: 1237e7a2-644b-4b2a-b3b4-a0c8ae2f472b
+ClientRequestId: 1237e7a2-644b-4b2a-b3b4-a0c8ae2f472b
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+138_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:37:24
+	request-id: b8ade726-2cea-4efe-9ed9-9a63ba9586ed
+	client-request-id: b8ade726-2cea-4efe-9ed9-9a63ba9586ed
+ClientRequestId: b8ade726-2cea-4efe-9ed9-9a63ba9586ed
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+168fu_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:37:25
+	request-id: 721e9599-bb6a-47b8-89e1-79553d0fab0e
+	client-request-id: 721e9599-bb6a-47b8-89e1-79553d0fab0e
+ClientRequestId: 721e9599-bb6a-47b8-89e1-79553d0fab0e
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+131_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:37:25
+	request-id: 2f847d67-8e85-4cd9-b04e-6fc04e3101b4
+	client-request-id: 2f847d67-8e85-4cd9-b04e-6fc04e3101b4
+ClientRequestId: 2f847d67-8e85-4cd9-b04e-6fc04e3101b4
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+2021-08-30 14:36:13.512 +07:00 [ERR] 
+----------------------------
+138_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:37:19
+	request-id: f184aec4-dcc0-4b00-9d14-84bd17fe2044
+	client-request-id: f184aec4-dcc0-4b00-9d14-84bd17fe2044
+ClientRequestId: f184aec4-dcc0-4b00-9d14-84bd17fe2044
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+168fu_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:37:20
+	request-id: 1bc342f5-9da8-426c-b425-78e5a7d4d636
+	client-request-id: 1bc342f5-9da8-426c-b425-78e5a7d4d636
+ClientRequestId: 1bc342f5-9da8-426c-b425-78e5a7d4d636
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+131_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:37:20
+	request-id: 1237e7a2-644b-4b2a-b3b4-a0c8ae2f472b
+	client-request-id: 1237e7a2-644b-4b2a-b3b4-a0c8ae2f472b
+ClientRequestId: 1237e7a2-644b-4b2a-b3b4-a0c8ae2f472b
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+138_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:37:24
+	request-id: b8ade726-2cea-4efe-9ed9-9a63ba9586ed
+	client-request-id: b8ade726-2cea-4efe-9ed9-9a63ba9586ed
+ClientRequestId: b8ade726-2cea-4efe-9ed9-9a63ba9586ed
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+168fu_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:37:25
+	request-id: 721e9599-bb6a-47b8-89e1-79553d0fab0e
+	client-request-id: 721e9599-bb6a-47b8-89e1-79553d0fab0e
+ClientRequestId: 721e9599-bb6a-47b8-89e1-79553d0fab0e
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+131_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:37:25
+	request-id: 2f847d67-8e85-4cd9-b04e-6fc04e3101b4
+	client-request-id: 2f847d67-8e85-4cd9-b04e-6fc04e3101b4
+ClientRequestId: 2f847d67-8e85-4cd9-b04e-6fc04e3101b4
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+138_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:37:28
+	request-id: cf843d4b-c8f4-44d3-b755-834fde64dcd1
+	client-request-id: cf843d4b-c8f4-44d3-b755-834fde64dcd1
+ClientRequestId: cf843d4b-c8f4-44d3-b755-834fde64dcd1
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+168fu_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:37:29
+	request-id: 676292a1-d2f2-4f8c-ad42-ef686d1d3172
+	client-request-id: 676292a1-d2f2-4f8c-ad42-ef686d1d3172
+ClientRequestId: 676292a1-d2f2-4f8c-ad42-ef686d1d3172
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+----------------------------
+131_zxc@yopmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T07:37:30
+	request-id: 2ba3bc10-5849-4082-b6e7-618292f25c5e
+	client-request-id: 2ba3bc10-5849-4082-b6e7-618292f25c5e
+ClientRequestId: 2ba3bc10-5849-4082-b6e7-618292f25c5e
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 95
+2021-08-30 15:33:20.661 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:34:37
+	request-id: 4c5da680-0991-4e2e-aa90-0208f4108f80
+	client-request-id: 4c5da680-0991-4e2e-aa90-0208f4108f80
+ClientRequestId: 4c5da680-0991-4e2e-aa90-0208f4108f80
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:45:00.827 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:46:17
+	request-id: fc4a2fb6-a2f6-4951-893f-5d581a3b496f
+	client-request-id: fc4a2fb6-a2f6-4951-893f-5d581a3b496f
+ClientRequestId: fc4a2fb6-a2f6-4951-893f-5d581a3b496f
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:45:11.489 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:46:17
+	request-id: fc4a2fb6-a2f6-4951-893f-5d581a3b496f
+	client-request-id: fc4a2fb6-a2f6-4951-893f-5d581a3b496f
+ClientRequestId: fc4a2fb6-a2f6-4951-893f-5d581a3b496f
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:46:28
+	request-id: 312fd95a-8196-471f-895b-275c903c5933
+	client-request-id: 312fd95a-8196-471f-895b-275c903c5933
+ClientRequestId: 312fd95a-8196-471f-895b-275c903c5933
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:45:29.119 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:46:17
+	request-id: fc4a2fb6-a2f6-4951-893f-5d581a3b496f
+	client-request-id: fc4a2fb6-a2f6-4951-893f-5d581a3b496f
+ClientRequestId: fc4a2fb6-a2f6-4951-893f-5d581a3b496f
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:46:28
+	request-id: 312fd95a-8196-471f-895b-275c903c5933
+	client-request-id: 312fd95a-8196-471f-895b-275c903c5933
+ClientRequestId: 312fd95a-8196-471f-895b-275c903c5933
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:46:45
+	request-id: 507b25b0-ac1b-4541-b6a7-168db948aaf9
+	client-request-id: 507b25b0-ac1b-4541-b6a7-168db948aaf9
+ClientRequestId: 507b25b0-ac1b-4541-b6a7-168db948aaf9
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:46:46.748 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:48:03
+	request-id: 931fc6a3-30b9-4bbc-8c2f-70908b7b03e5
+	client-request-id: 931fc6a3-30b9-4bbc-8c2f-70908b7b03e5
+ClientRequestId: 931fc6a3-30b9-4bbc-8c2f-70908b7b03e5
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:47:38.216 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:48:03
+	request-id: 931fc6a3-30b9-4bbc-8c2f-70908b7b03e5
+	client-request-id: 931fc6a3-30b9-4bbc-8c2f-70908b7b03e5
+ClientRequestId: 931fc6a3-30b9-4bbc-8c2f-70908b7b03e5
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:48:54
+	request-id: a55cecef-68c5-47a6-9896-513a4fbc0c3c
+	client-request-id: a55cecef-68c5-47a6-9896-513a4fbc0c3c
+ClientRequestId: a55cecef-68c5-47a6-9896-513a4fbc0c3c
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:48:22.259 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:48:03
+	request-id: 931fc6a3-30b9-4bbc-8c2f-70908b7b03e5
+	client-request-id: 931fc6a3-30b9-4bbc-8c2f-70908b7b03e5
+ClientRequestId: 931fc6a3-30b9-4bbc-8c2f-70908b7b03e5
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:48:54
+	request-id: a55cecef-68c5-47a6-9896-513a4fbc0c3c
+	client-request-id: a55cecef-68c5-47a6-9896-513a4fbc0c3c
+ClientRequestId: a55cecef-68c5-47a6-9896-513a4fbc0c3c
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:49:38
+	request-id: d8ed7bca-22c8-43ff-99ab-6779dc10650b
+	client-request-id: d8ed7bca-22c8-43ff-99ab-6779dc10650b
+ClientRequestId: d8ed7bca-22c8-43ff-99ab-6779dc10650b
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:48:40.716 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:48:03
+	request-id: 931fc6a3-30b9-4bbc-8c2f-70908b7b03e5
+	client-request-id: 931fc6a3-30b9-4bbc-8c2f-70908b7b03e5
+ClientRequestId: 931fc6a3-30b9-4bbc-8c2f-70908b7b03e5
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:48:54
+	request-id: a55cecef-68c5-47a6-9896-513a4fbc0c3c
+	client-request-id: a55cecef-68c5-47a6-9896-513a4fbc0c3c
+ClientRequestId: a55cecef-68c5-47a6-9896-513a4fbc0c3c
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:49:38
+	request-id: d8ed7bca-22c8-43ff-99ab-6779dc10650b
+	client-request-id: d8ed7bca-22c8-43ff-99ab-6779dc10650b
+ClientRequestId: d8ed7bca-22c8-43ff-99ab-6779dc10650b
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:48:55.760 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:48:03
+	request-id: 931fc6a3-30b9-4bbc-8c2f-70908b7b03e5
+	client-request-id: 931fc6a3-30b9-4bbc-8c2f-70908b7b03e5
+ClientRequestId: 931fc6a3-30b9-4bbc-8c2f-70908b7b03e5
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:48:54
+	request-id: a55cecef-68c5-47a6-9896-513a4fbc0c3c
+	client-request-id: a55cecef-68c5-47a6-9896-513a4fbc0c3c
+ClientRequestId: a55cecef-68c5-47a6-9896-513a4fbc0c3c
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:49:38
+	request-id: d8ed7bca-22c8-43ff-99ab-6779dc10650b
+	client-request-id: d8ed7bca-22c8-43ff-99ab-6779dc10650b
+ClientRequestId: d8ed7bca-22c8-43ff-99ab-6779dc10650b
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:50:12
+	request-id: cee143c7-1d2c-4c7e-9e0b-c119ebb1986e
+	client-request-id: cee143c7-1d2c-4c7e-9e0b-c119ebb1986e
+ClientRequestId: cee143c7-1d2c-4c7e-9e0b-c119ebb1986e
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:50:32.022 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:48:03
+	request-id: 931fc6a3-30b9-4bbc-8c2f-70908b7b03e5
+	client-request-id: 931fc6a3-30b9-4bbc-8c2f-70908b7b03e5
+ClientRequestId: 931fc6a3-30b9-4bbc-8c2f-70908b7b03e5
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:48:54
+	request-id: a55cecef-68c5-47a6-9896-513a4fbc0c3c
+	client-request-id: a55cecef-68c5-47a6-9896-513a4fbc0c3c
+ClientRequestId: a55cecef-68c5-47a6-9896-513a4fbc0c3c
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:49:38
+	request-id: d8ed7bca-22c8-43ff-99ab-6779dc10650b
+	client-request-id: d8ed7bca-22c8-43ff-99ab-6779dc10650b
+ClientRequestId: d8ed7bca-22c8-43ff-99ab-6779dc10650b
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:50:12
+	request-id: cee143c7-1d2c-4c7e-9e0b-c119ebb1986e
+	client-request-id: cee143c7-1d2c-4c7e-9e0b-c119ebb1986e
+ClientRequestId: cee143c7-1d2c-4c7e-9e0b-c119ebb1986e
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:51:48
+	request-id: 476cf3bc-635e-4198-86ba-cba150ed49eb
+	client-request-id: 476cf3bc-635e-4198-86ba-cba150ed49eb
+ClientRequestId: 476cf3bc-635e-4198-86ba-cba150ed49eb
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:50:37.393 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:48:03
+	request-id: 931fc6a3-30b9-4bbc-8c2f-70908b7b03e5
+	client-request-id: 931fc6a3-30b9-4bbc-8c2f-70908b7b03e5
+ClientRequestId: 931fc6a3-30b9-4bbc-8c2f-70908b7b03e5
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:48:54
+	request-id: a55cecef-68c5-47a6-9896-513a4fbc0c3c
+	client-request-id: a55cecef-68c5-47a6-9896-513a4fbc0c3c
+ClientRequestId: a55cecef-68c5-47a6-9896-513a4fbc0c3c
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:49:38
+	request-id: d8ed7bca-22c8-43ff-99ab-6779dc10650b
+	client-request-id: d8ed7bca-22c8-43ff-99ab-6779dc10650b
+ClientRequestId: d8ed7bca-22c8-43ff-99ab-6779dc10650b
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:50:12
+	request-id: cee143c7-1d2c-4c7e-9e0b-c119ebb1986e
+	client-request-id: cee143c7-1d2c-4c7e-9e0b-c119ebb1986e
+ClientRequestId: cee143c7-1d2c-4c7e-9e0b-c119ebb1986e
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:51:48
+	request-id: 476cf3bc-635e-4198-86ba-cba150ed49eb
+	client-request-id: 476cf3bc-635e-4198-86ba-cba150ed49eb
+ClientRequestId: 476cf3bc-635e-4198-86ba-cba150ed49eb
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:51:53
+	request-id: f4bfb397-8471-4dff-a212-ad2d3f380f81
+	client-request-id: f4bfb397-8471-4dff-a212-ad2d3f380f81
+ClientRequestId: f4bfb397-8471-4dff-a212-ad2d3f380f81
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:51:25.007 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:48:03
+	request-id: 931fc6a3-30b9-4bbc-8c2f-70908b7b03e5
+	client-request-id: 931fc6a3-30b9-4bbc-8c2f-70908b7b03e5
+ClientRequestId: 931fc6a3-30b9-4bbc-8c2f-70908b7b03e5
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:48:54
+	request-id: a55cecef-68c5-47a6-9896-513a4fbc0c3c
+	client-request-id: a55cecef-68c5-47a6-9896-513a4fbc0c3c
+ClientRequestId: a55cecef-68c5-47a6-9896-513a4fbc0c3c
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:49:38
+	request-id: d8ed7bca-22c8-43ff-99ab-6779dc10650b
+	client-request-id: d8ed7bca-22c8-43ff-99ab-6779dc10650b
+ClientRequestId: d8ed7bca-22c8-43ff-99ab-6779dc10650b
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:50:12
+	request-id: cee143c7-1d2c-4c7e-9e0b-c119ebb1986e
+	client-request-id: cee143c7-1d2c-4c7e-9e0b-c119ebb1986e
+ClientRequestId: cee143c7-1d2c-4c7e-9e0b-c119ebb1986e
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:51:48
+	request-id: 476cf3bc-635e-4198-86ba-cba150ed49eb
+	client-request-id: 476cf3bc-635e-4198-86ba-cba150ed49eb
+ClientRequestId: 476cf3bc-635e-4198-86ba-cba150ed49eb
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:51:53
+	request-id: f4bfb397-8471-4dff-a212-ad2d3f380f81
+	client-request-id: f4bfb397-8471-4dff-a212-ad2d3f380f81
+ClientRequestId: f4bfb397-8471-4dff-a212-ad2d3f380f81
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:53:48.526 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:55:04
+	request-id: ab97aa2c-1f63-4048-ad7b-89e413bf383a
+	client-request-id: ab97aa2c-1f63-4048-ad7b-89e413bf383a
+ClientRequestId: ab97aa2c-1f63-4048-ad7b-89e413bf383a
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:55:44.540 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:57:00
+	request-id: 1e02ce86-b476-4483-a7b4-0977fae2a650
+	client-request-id: 1e02ce86-b476-4483-a7b4-0977fae2a650
+ClientRequestId: 1e02ce86-b476-4483-a7b4-0977fae2a650
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:56:10.132 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:57:26
+	request-id: d34e4eb3-9a23-4af6-ab32-54b7eebcfce3
+	client-request-id: d34e4eb3-9a23-4af6-ab32-54b7eebcfce3
+ClientRequestId: d34e4eb3-9a23-4af6-ab32-54b7eebcfce3
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:56:28.930 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:57:45
+	request-id: 77c21aca-a06d-47c6-9e1e-9f80725c8b34
+	client-request-id: 77c21aca-a06d-47c6-9e1e-9f80725c8b34
+ClientRequestId: 77c21aca-a06d-47c6-9e1e-9f80725c8b34
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:56:43.319 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:57:59
+	request-id: 0cf3cf41-afa8-4148-bf04-27e526841b0b
+	client-request-id: 0cf3cf41-afa8-4148-bf04-27e526841b0b
+ClientRequestId: 0cf3cf41-afa8-4148-bf04-27e526841b0b
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:57:02.196 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:58:18
+	request-id: 7263881d-49c7-4610-9b22-74eedc7170bb
+	client-request-id: 7263881d-49c7-4610-9b22-74eedc7170bb
+ClientRequestId: 7263881d-49c7-4610-9b22-74eedc7170bb
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:57:18.464 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:58:35
+	request-id: b7316d07-ad4e-4e3f-a336-6fa84ea0536e
+	client-request-id: b7316d07-ad4e-4e3f-a336-6fa84ea0536e
+ClientRequestId: b7316d07-ad4e-4e3f-a336-6fa84ea0536e
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:57:33.423 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:58:50
+	request-id: fa3dd22d-4f97-42e8-a963-0d4ff519c385
+	client-request-id: fa3dd22d-4f97-42e8-a963-0d4ff519c385
+ClientRequestId: fa3dd22d-4f97-42e8-a963-0d4ff519c385
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:57:51.630 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:59:08
+	request-id: 0d51dc9b-eb94-49ac-8cc6-32ae7c1a84b8
+	client-request-id: 0d51dc9b-eb94-49ac-8cc6-32ae7c1a84b8
+ClientRequestId: 0d51dc9b-eb94-49ac-8cc6-32ae7c1a84b8
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:58:07.625 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:59:24
+	request-id: 09aaa3ce-e8bf-48fb-a805-7dce3c35cc88
+	client-request-id: 09aaa3ce-e8bf-48fb-a805-7dce3c35cc88
+ClientRequestId: 09aaa3ce-e8bf-48fb-a805-7dce3c35cc88
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:58:23.006 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T08:59:39
+	request-id: e678922b-c4bf-4155-83d0-536a8caf166e
+	client-request-id: e678922b-c4bf-4155-83d0-536a8caf166e
+ClientRequestId: e678922b-c4bf-4155-83d0-536a8caf166e
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:58:47.197 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T09:00:03
+	request-id: 755b6bbd-7398-4b5d-9de2-0a2ce12aff73
+	client-request-id: 755b6bbd-7398-4b5d-9de2-0a2ce12aff73
+ClientRequestId: 755b6bbd-7398-4b5d-9de2-0a2ce12aff73
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:58:56.615 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T09:00:13
+	request-id: 21eeee29-5b8a-4504-bde2-bc6e8fd440f3
+	client-request-id: 21eeee29-5b8a-4504-bde2-bc6e8fd440f3
+ClientRequestId: 21eeee29-5b8a-4504-bde2-bc6e8fd440f3
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:59:06.295 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T09:00:22
+	request-id: 7560a4a2-84b8-4ab4-95fb-6064645fb5d6
+	client-request-id: 7560a4a2-84b8-4ab4-95fb-6064645fb5d6
+ClientRequestId: 7560a4a2-84b8-4ab4-95fb-6064645fb5d6
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:59:17.175 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T09:00:33
+	request-id: e063c8d6-ceeb-4831-a648-433c87c5e6da
+	client-request-id: e063c8d6-ceeb-4831-a648-433c87c5e6da
+ClientRequestId: e063c8d6-ceeb-4831-a648-433c87c5e6da
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:59:24.284 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T09:00:33
+	request-id: e063c8d6-ceeb-4831-a648-433c87c5e6da
+	client-request-id: e063c8d6-ceeb-4831-a648-433c87c5e6da
+ClientRequestId: e063c8d6-ceeb-4831-a648-433c87c5e6da
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T09:00:40
+	request-id: b7cb13fd-cda9-463e-8604-993f6a01040e
+	client-request-id: b7cb13fd-cda9-463e-8604-993f6a01040e
+ClientRequestId: b7cb13fd-cda9-463e-8604-993f6a01040e
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:59:28.442 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T09:00:45
+	request-id: 3300b80a-4465-4149-b2e6-c9a8cac286d0
+	client-request-id: 3300b80a-4465-4149-b2e6-c9a8cac286d0
+ClientRequestId: 3300b80a-4465-4149-b2e6-c9a8cac286d0
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:59:43.719 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T09:01:00
+	request-id: fdacf628-cb73-4abb-b21d-fc232a0e367c
+	client-request-id: fdacf628-cb73-4abb-b21d-fc232a0e367c
+ClientRequestId: fdacf628-cb73-4abb-b21d-fc232a0e367c
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 15:59:52.657 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T09:01:09
+	request-id: 78c49493-d809-40ec-9e37-a9f713fb597c
+	client-request-id: 78c49493-d809-40ec-9e37-a9f713fb597c
+ClientRequestId: 78c49493-d809-40ec-9e37-a9f713fb597c
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 16:00:01.975 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T09:01:18
+	request-id: 93d55d92-9874-4836-8049-758f34363491
+	client-request-id: 93d55d92-9874-4836-8049-758f34363491
+ClientRequestId: 93d55d92-9874-4836-8049-758f34363491
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 16:00:10.958 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T09:01:27
+	request-id: 94ddc787-dfd1-461b-baa9-4b1b45931713
+	client-request-id: 94ddc787-dfd1-461b-baa9-4b1b45931713
+ClientRequestId: 94ddc787-dfd1-461b-baa9-4b1b45931713
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 16:00:19.475 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T09:01:36
+	request-id: 40002778-71e3-498b-a870-6af9d6dd3032
+	client-request-id: 40002778-71e3-498b-a870-6af9d6dd3032
+ClientRequestId: 40002778-71e3-498b-a870-6af9d6dd3032
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 16:00:28.163 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T09:01:44
+	request-id: 2bc49878-4d1e-4b6e-91e2-7a2fd42c20e9
+	client-request-id: 2bc49878-4d1e-4b6e-91e2-7a2fd42c20e9
+ClientRequestId: 2bc49878-4d1e-4b6e-91e2-7a2fd42c20e9
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 16:04:56.001 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T09:06:12
+	request-id: fff2df35-94ad-41a2-a7a2-c6b96252a3b6
+	client-request-id: fff2df35-94ad-41a2-a7a2-c6b96252a3b6
+ClientRequestId: fff2df35-94ad-41a2-a7a2-c6b96252a3b6
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 16:05:24.005 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T09:06:40
+	request-id: b1101a2d-2908-4bae-a000-40cfaff2fb95
+	client-request-id: b1101a2d-2908-4bae-a000-40cfaff2fb95
+ClientRequestId: b1101a2d-2908-4bae-a000-40cfaff2fb95
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 16:29:00.442 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T09:30:16
+	request-id: 8aea10e9-738a-4b4b-9430-b718248c3221
+	client-request-id: 8aea10e9-738a-4b4b-9430-b718248c3221
+ClientRequestId: 8aea10e9-738a-4b4b-9430-b718248c3221
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 16:29:13.055 +07:00 [ERR] 
+----------------------------
+yacesip118@nowdigit.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Another object with the same value for property userPrincipalName already exists.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T09:30:29
+	request-id: af212175-5741-4713-ab00-aaf6b8f6e764
+	client-request-id: af212175-5741-4713-ab00-aaf6b8f6e764
+ClientRequestId: af212175-5741-4713-ab00-aaf6b8f6e764
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 17:49:01.812 +07:00 [ERR] 
+----------------------------
+petrone.michele@gmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T10:50:18
+	request-id: 917e6f27-0596-4ba4-8aa5-5a3685e9d426
+	client-request-id: 917e6f27-0596-4ba4-8aa5-5a3685e9d426
+ClientRequestId: 917e6f27-0596-4ba4-8aa5-5a3685e9d426
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 17:49:28.218 +07:00 [ERR] 
+----------------------------
+petrone.michele@gmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T10:50:18
+	request-id: 917e6f27-0596-4ba4-8aa5-5a3685e9d426
+	client-request-id: 917e6f27-0596-4ba4-8aa5-5a3685e9d426
+ClientRequestId: 917e6f27-0596-4ba4-8aa5-5a3685e9d426
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+----------------------------
+petrone.michele@gmail.com
+----------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: Count of cacheOperations is over the limit.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T10:50:44
+	request-id: 979f21a1-ceb6-49f5-89f9-2e84c8a060e7
+	client-request-id: 979f21a1-ceb6-49f5-89f9-2e84c8a060e7
+ClientRequestId: 979f21a1-ceb6-49f5-89f9-2e84c8a060e7
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94
+2021-08-30 17:51:23.748 +07:00 [ERR] 
+----------------------------
+petrone.michele@gmail.com
+----------------------------
+Status Code: Forbidden
+Microsoft.Graph.ServiceException: Code: Authorization_RequestDenied
+Message: Insufficient privileges to complete the operation.
+Inner error:
+	AdditionalData:
+	date: 2021-08-30T10:52:40
+	request-id: ce4a029e-77bb-4f0a-a663-ef70888f2e78
+	client-request-id: ce4a029e-77bb-4f0a-a663-ef70888f2e78
+ClientRequestId: ce4a029e-77bb-4f0a-a663-ef70888f2e78
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.UserRequest.UpdateAsync(User userToUpdate, CancellationToken cancellationToken)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 94

@@ -1,0 +1,20 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" linePragmas="false" #>
+<fetch distinct="true" no-lock="true" mapping="logical">
+  <entity name="new_citavilicense">
+	<attribute name="new_key" />
+	<attribute name="new_citavilicenseid" />
+    <attribute name="new_expirydate" />
+    <attribute name="new_ordercategory" />
+    <attribute name="new_orderdate" />
+    <filter type="and">
+		<condition attribute="new_ordercategory" operator="eq" value="6" />
+        <condition attribute="new_expirydate" operator="null" />
+    </filter>
+   <link-entity name="contact" to="new_enduserid" from="contactid" link-type="outer" alias="<#= FetchXmlConstants.ContactLicenseEndUserAliasName #>">
+      <attribute name="new_key" />
+    </link-entity>
+	<link-entity name="contact" to="new_contactid" from="contactid" link-type="outer" alias="<#= FetchXmlConstants.ContactLicenseOwnerAliasName #>">
+      <attribute name="new_key" />
+    </link-entity>
+  </entity>
+</fetch>

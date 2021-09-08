@@ -1,0 +1,36 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" linePragmas="false" #>
+  <fetch distinct="false" no-lock="true" mapping="logical">
+    <entity name="contact">
+      <attribute name="new_key" />
+      <filter type="and">
+          <condition attribute="contactid" operator="eq" value="<#Write(ContactId);#>" />
+    	  <condition attribute="statuscode" operator="eq" value="1" entityname="contact" />   
+      </filter>
+
+        <link-entity name="<#= CrmEntityNames.ProjectRole #>" to="contactid" from="<#= CrmRelationshipLookupNames.ContactProjectRole #>" link-type="outer" alias="<#= FetchXmlConstants.ContactProjectRoleAliasName #>">
+                 <# foreach(Enum item in EntityPropertySets.GetFullPropertySet(typeof(ProjectRole)))
+          {#>
+                    <attribute name="<#= EntityNameResolver.ResolveAttributeName(CrmEntityNames.ProjectRole, item.ToString())  #>" />
+                      <#}
+         #>
+			<filter type="and">
+				<condition attribute="statuscode" operator="eq" value="1"/>  
+			</filter>
+			<link-entity name="<#= CrmEntityNames.Project #>" to="<#= CrmRelationshipLookupNames.ProjectProjectRole #>" from="new_projectid" link-type="outer" alias="<#= FetchXmlConstants.ProjectProjectRoleAliasName #>">
+			
+			
+			<# foreach(Enum item in EntityPropertySets.GetFullPropertySet(typeof(ProjectEntry)))
+          {#>
+                    <attribute name="<#= EntityNameResolver.ResolveAttributeName(CrmEntityNames.Project, item.ToString())  #>" />
+                      <#}
+         #>
+
+			<filter type="and">
+				<condition attribute="statuscode" operator="eq" value="1"/>  
+			</filter>
+			</link-entity>
+
+        </link-entity>
+
+    </entity>
+  </fetch>

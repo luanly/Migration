@@ -1,0 +1,16 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" linePragmas="false" #>
+<fetch distinct='false' mapping='logical' aggregate='true' no-lock="true">
+  <entity name="new_iprange">
+	<attribute name="new_key" alias='count' aggregate='count'/>
+    <filter type="and">
+      <condition attribute="new_start" operator="le" value="<#Write(IP.ToString());#>" />
+      <condition attribute="new_end" operator="ge" value="<#Write(IP.ToString());#>" />
+	  <condition attribute="statuscode" operator="eq" value="1"/>  
+    </filter>
+    <link-entity name="account" to="new_accountid" from="accountid" link-type="inner" alias="accountiprange.account">
+      <filter type="and">
+          <condition attribute="new_key" operator="eq" value="<#Write(AccountKey);#>" />
+        </filter>
+    </link-entity>
+  </entity>
+</fetch>

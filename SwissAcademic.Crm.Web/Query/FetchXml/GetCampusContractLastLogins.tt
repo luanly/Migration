@@ -1,0 +1,17 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" linePragmas="false" #>
+<fetch distinct="true" no-lock="true" mapping="logical">
+  <entity name="new_citavilicense">
+    <attribute name="new_key" />
+    <filter type="and">
+	  <condition attribute="new_key" operator="eq" value="<#Write(CampusContractKey);#>" entityname="<#= FetchXmlConstants.LicenseCampusContractAliasName #>" />
+	  <condition attribute="<#Write(LastLoginField);#>" operator="ge" value="<#Write(LastLogin);#>"  entityname="<#= FetchXmlConstants.ContactLicenseEndUserAliasName #>" />
+    </filter>
+    <link-entity name="contact" to="new_enduserid" from="contactid" link-type="outer" alias="<#= FetchXmlConstants.ContactLicenseEndUserAliasName #>">
+	  <attribute name="<#Write(LastLoginField);#>" />
+      <attribute name="new_key" />
+    </link-entity>
+	<link-entity name="new_campuscontract" to="new_campuscontractid" from="new_campuscontractid" link-type="outer" alias="<#= FetchXmlConstants.LicenseCampusContractAliasName #>">
+      <attribute name="new_key" />
+    </link-entity>
+  </entity>
+</fetch>

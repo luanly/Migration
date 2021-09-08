@@ -1,0 +1,16 @@
+﻿<fetch distinct="false" no-lock="true" mapping="logical">
+  <entity name="new_iprange">
+    <# foreach(Enum item in EntityPropertySets.GetFullPropertySet(typeof(IPRange)))
+          {#>
+                    <attribute name="<#Write(EntityNameResolver.ResolveAttributeName(CrmEntityNames.IPRange, item.ToString()));#>" />
+                      <#}
+         #>
+                        <filter type="and">
+                          <condition attribute="statuscode" operator="eq" value="1"/>
+                        </filter>
+    <link-entity name="account" to="new_accountid" from="accountid" link-type="inner" alias="account_iprange.account">
+      <attribute name="name" /> 
+      <attribute name="new_key" />
+    </link-entity>
+  </entity>
+</fetch>

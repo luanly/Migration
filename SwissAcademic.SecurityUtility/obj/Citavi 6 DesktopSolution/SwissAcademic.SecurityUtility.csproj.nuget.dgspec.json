@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.SecurityUtility\\SwissAcademic.SecurityUtility.csproj": {}
+  },
+  "projects": {
+    "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.SecurityUtility\\SwissAcademic.SecurityUtility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.SecurityUtility\\SwissAcademic.SecurityUtility.csproj",
+        "projectName": "SwissAcademic.SecurityUtility",
+        "projectPath": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.SecurityUtility\\SwissAcademic.SecurityUtility.csproj",
+        "packagesPath": "C:\\Users\\longnguyen\\.nuget\\packages\\",
+        "outputPath": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.SecurityUtility\\obj\\Citavi 6 DesktopSolution\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\QSR\\Citavi\\Citavi\\.nuget\\NuGet.Config",
+          "C:\\Users\\longnguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://citavi.pkgs.visualstudio.com/_packaging/NugetFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605",
+            "NU1701"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SecurityCodeScan": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.5.3, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "System.Security.Cryptography.ProtectedData": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Security.Cryptography.Xml": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

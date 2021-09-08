@@ -1,0 +1,95 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<Configurations>Debug;Release;Web Debug;Web Release</Configurations>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	</PropertyGroup>
+
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Web Debug|AnyCPU'">
+		<DefineConstants>DEBUG;TRACE;Web</DefineConstants>
+		<WarningsAsErrors>NU1605;CS4014;NU1701</WarningsAsErrors>
+		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Web Release|AnyCPU'">
+		<DefineConstants>TRACE;Web</DefineConstants>
+		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+		<WarningsAsErrors>NU1605;CS4014;NU1701</WarningsAsErrors>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+		<WarningsAsErrors />
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+		<WarningsAsErrors />
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Update="packages.config">
+			<SubType>Designer</SubType>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="System\Web\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="3.7.0" />
+		<PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.3.1">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.9" />
+		<PackageReference Include="Microsoft.Win32.Registry" Version="4.7.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+		<PackageReference Include="SecurityCodeScan" Version="3.5.3">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="sqlite" Version="3.13.0" />
+		<PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+		<PackageReference Include="System.Data.SQLite" Version="1.0.113.6" />
+		<PackageReference Include="System.Data.SQLite.Core" Version="1.0.113.6" />
+		<PackageReference Include="System.DirectoryServices.AccountManagement" Version="4.7.0" />
+		<PackageReference Include="System.Drawing.Common" Version="4.7.0" />
+		<PackageReference Include="System.IO.FileSystem.AccessControl" Version="4.7.0" />
+		<PackageReference Include="System.Runtime.Caching" Version="4.7.0" />
+		<PackageReference Include="System.Runtime.Loader" Version="4.3.0" />
+		<PackageReference Include="System.ValueTuple" Version="4.5.0" />
+		<PackageReference Include="Trinet.Core.IO.Ntfs" Version="4.1.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\SwissAcademic.AI\SwissAcademic.AI.csproj" />
+		<ProjectReference Include="..\SwissAcademic.Constants\SwissAcademic.Constants.csproj" />
+		<ProjectReference Include="..\SwissAcademic.Resources\SwissAcademic.Resources.csproj" />
+		<ProjectReference Include="..\SwissAcademic.SecurityUtility\SwissAcademic.SecurityUtility.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="SmartFormat">
+	    <HintPath>..\Dlls\SmartFormat.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="Properties\Resources.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Resources.resx</DependentUpon>
+		</Compile>
+		<Compile Update="System.Data.SqlClient\SasSqlConnection.cs" />
+		<Compile Update="System.Data.SQLite\SasSQLiteConnection.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Update="Properties\Resources.resx">
+			<Generator>PublicResXFileCodeGenerator</Generator>
+			<LastGenOutput>Resources.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
+
+</Project>

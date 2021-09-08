@@ -1,0 +1,15 @@
+﻿<fetch distinct="false" useraworderby="false" no-lock="true" mapping="logical">
+	<entity name="contact">
+		<attribute name="merged" />
+		<attribute name="masterid" />
+		<# foreach(Enum item in EntityPropertySets.GetFullPropertySet(typeof(Contact)))
+          {#>
+                    <attribute name="<#Write(EntityNameResolver.ResolveAttributeName(CrmEntityNames.Contact, item.ToString()));#>" />
+                      <#}
+         #>
+		<filter type="and">
+			<condition attribute="merged" operator="eq" value="1" />
+			<condition attribute="new_key" operator="eq" value="<#Write(Value);#>" />
+		</filter>
+	</entity>
+</fetch>

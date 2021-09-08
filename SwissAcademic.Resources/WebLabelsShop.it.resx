@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action" xml:space="preserve">
+    <value>Attività</value>
+  </data>
+  <data name="ActionPrice" xml:space="preserve">
+    <value>Prezzo di lancio, valido solo il</value>
+  </data>
+  <data name="ActionPriceDescriptionHtml" xml:space="preserve">
+    <value>Il prezzo è valido solo per
+&lt;ul&gt;
+&lt;li&gt;utenti che fanno di Citavi un uso esclusivamente privato,&lt;/li&gt;
+&lt;li&gt;studenti e dottorandi&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="AddLicenses" xml:space="preserve">
+    <value>Aggiungi licenze</value>
+  </data>
+  <data name="AddLicensesDescription" xml:space="preserve">
+    <value>Gli importi indicati corrispondono ai prezzi finali e tengono conto di eventuali sconti per grandi quantitativi. L'IVA può essere indicata eventualmente sulla fattura.</value>
+  </data>
+  <data name="AddLicensesHomeDescription" xml:space="preserve">
+    <value>L'importo indicato corrisponde al prezzo finale. L'IVA può essere indicata eventualmente sulla fattura.</value>
+  </data>
+  <data name="AddToCart" xml:space="preserve">
+    <value>Aggiungi al carrello</value>
+  </data>
+  <data name="AddUpgrade" xml:space="preserve">
+    <value>Aggiungi upgrade</value>
+  </data>
+  <data name="Benefit" xml:space="preserve">
+    <value>Benefit</value>
+  </data>
+  <data name="Buy" xml:space="preserve">
+    <value>Acquista</value>
+  </data>
+  <data name="CartUpdated" xml:space="preserve">
+    <value>Il tuo carrello è stato aggiornato.</value>
+  </data>
+  <data name="CitaviForCommercialUse" xml:space="preserve">
+    <value>Citavi per clienti aziendali</value>
+  </data>
+  <data name="CitaviForHighSchools" xml:space="preserve">
+    <value>Citavi per università, enti, organizzazioni non profit…</value>
+  </data>
+  <data name="CitaviForStudents" xml:space="preserve">
+    <value>Citavi per studenti e utenti privati</value>
+  </data>
+  <data name="ClickToOpen" xml:space="preserve">
+    <value>Apri con un clic</value>
+  </data>
+  <data name="CommercialClients" xml:space="preserve">
+    <value>Clienti aziendali</value>
+  </data>
+  <data name="CompareProducts" xml:space="preserve">
+    <value>Confronta prodotti</value>
+  </data>
+  <data name="DiscountedPrices" xml:space="preserve">
+    <value>Prezzi scontati</value>
+  </data>
+  <data name="DiscountedPricesDescriptionHtml" xml:space="preserve">
+    <value>I prezzi sono validi solo per 
+&lt;ul&gt;
+&lt;li&gt;università e istituti universitari,&lt;/li&gt;
+&lt;li&gt;scuole,&lt;/li&gt;
+&lt;li&gt;enti,&lt;/li&gt;
+&lt;li&gt;organizzazioni non profit,&lt;/li&gt;
+&lt;li&gt;associazioni senza scopo di lucro riconosciute.&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="GoToCashRegister" xml:space="preserve">
+    <value>Vai alla cassa</value>
+  </data>
+  <data name="HighSchoolsAuthoritiesEtc" xml:space="preserve">
+    <value>Università, enti, ecc.</value>
+  </data>
+  <data name="InYourPossession" xml:space="preserve">
+    <value>Già acquistato</value>
+  </data>
+  <data name="Offers" xml:space="preserve">
+    <value>Offerte</value>
+  </data>
+  <data name="Present" xml:space="preserve">
+    <value>Regala</value>
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>Prodotti</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Quantità</value>
+  </data>
+  <data name="ShowDiscountLevels" xml:space="preserve">
+    <value>Scaglioni di sconto</value>
+  </data>
+  <data name="SpecialDiscountPrice" xml:space="preserve">
+    <value>Prezzo scontato</value>
+  </data>
+  <data name="SpecialOffers" xml:space="preserve">
+    <value>Offerte speciali</value>
+  </data>
+  <data name="SpecialPrice" xml:space="preserve">
+    <value>Prezzo scontato</value>
+  </data>
+  <data name="SpecialPriceDescriptionHtml" xml:space="preserve">
+    <value>Il prezzo scontato è valido solo per
+&lt;ul&gt;
+&lt;li&gt;utenti che fanno di Citavi un uso esclusivamente privato,&lt;/li&gt;
+&lt;li&gt;studenti e dottorandi&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="Upgrade" xml:space="preserve">
+    <value>Upgrade</value>
+  </data>
+  <data name="UpgradeOffers" xml:space="preserve">
+    <value>Offerte upgrade</value>
+  </data>
+  <data name="Voucher" xml:space="preserve">
+    <value>Buono omaggio</value>
+  </data>
+  <data name="VoucherDescriptionHtml" xml:space="preserve">
+    <value>I buoni omaggio possono essere destinati solo a
+&lt;ul&gt;
+&lt;li&gt;utenti che fanno di Citavi un uso esclusivamente privato,&lt;/li&gt;
+&lt;li&gt;studenti e dottorandi&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="YouCanAddOtherProducts" xml:space="preserve">
+    <value>Puoi ancora aggiungere altri prodotti.</value>
+  </data>
+  <data name="YourCart" xml:space="preserve">
+    <value>Il tuo carrello</value>
+  </data>
+  <data name="YouSave" xml:space="preserve">
+    <value>Risparmi</value>
+  </data>
+  <data name="Licenses" xml:space="preserve">
+    <value>Licenze:</value>
+  </data>
+  <data name="UnitPriceDiscount" xml:space="preserve">
+    <value>Prezzo unitario {0} (IVA inclusa):</value>
+    <comment>{0} ist Einzelpreis Währung</comment>
+  </data>
+  <data name="RequestOffer" xml:space="preserve">
+    <value>Stampa offerta</value>
+  </data>
+  <data name="UnitPrice" xml:space="preserve">
+    <value>Prezzo unitario (IVA inclusa):</value>
+  </data>
+  <data name="WithDiscount" xml:space="preserve">
+    <value>con il {0}% di sconto</value>
+    <comment>{0} ist das Rabatt-prozent (dynamisch berechnet)</comment>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Prezzo</value>
+  </data>
+  <data name="Product" xml:space="preserve">
+    <value>Prodotto</value>
+  </data>
+  <data name="RemovedFromCart" xml:space="preserve">
+    <value>Il prodotto è stato rimosso dal carrello.</value>
+  </data>
+  <data name="Licenses_Smart" xml:space="preserve">
+    <value>{0:licenza|licenze}</value>
+  </data>
+  <data name="PriceCalculationDisclaimer" xml:space="preserve">
+    <value>L'ammontare dell'IVA dipende dalle normative che regolano lo scambio internazionale di merci. Viene indicata sulla fattura e in casi specifici può non essere dovuta.</value>
+  </data>
+  <data name="Tax" xml:space="preserve">
+    <value>IVA {0}%:</value>
+    <comment>{0} ist die Währung</comment>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Totale</value>
+  </data>
+  <data name="TotalWithoutTax" xml:space="preserve">
+    <value>Prezzo netto (IVA inclusa):</value>
+  </data>
+  <data name="CurrentlyInYourPossession" xml:space="preserve">
+    <value>Nel carrello</value>
+  </data>
+  <data name="SpecialPriceForCampusLicense" xml:space="preserve">
+    <value>Prezzo scontato per utenti di una licenza Campus</value>
+  </data>
+  <data name="SpecialPriceForCampusLicenseDescriptionHtml" xml:space="preserve">
+    <value>Affinché tu possa continuare a lavorare con Citavi una volta conclusa l'università o quando scade la licenza Campus, ti offriamo una licenza illimitata per Citavi 6 per Windows con il 50% di sconto. Puoi usufruire di questo sconto speciale una sola volta; per futuri acquisti di licenze si applicano gli sconti previsti per gli upgrade.
+    La licenza può essere utilizzata su tutti i dispositivi personali, ma non può essere ceduta ad altri. Inoltre può essere utilizzata solo privatamente o nell'ambito degli studi universitari o di una tesi di dottorato, ma non nell'ambito di attività professionali presso aziende, università, enti, organizzazioni, ecc.; in questi casi è necessario acquistare una licenza per &lt;a class="goToCriteria" id="l_0"&gt;clienti aziendali&lt;/a&gt; o &lt;a class="goToCriteria" id="l_1"&gt;università, enti, ecc.&lt;/a&gt;</value>
+  </data>
+  <data name="BuyVoucherDescriptionHtml" xml:space="preserve">
+    <value>Prima di acquistare un buono omaggio per studenti, verifica che il destinatario non possa &lt;a href='//www.citavi.com/students#license' target='_blank'&gt;utilizzare Citavi gratuitamente grazie a una licenza Campus&lt;/a&gt;.</value>
+  </data>
+  <data name="Netto" xml:space="preserve">
+    <value>Prezzo netto</value>
+  </data>
+  <data name="AddProducts" xml:space="preserve">
+    <value>Aggiungi altri prodotti</value>
+  </data>
+  <data name="TotalPriceWithVat" xml:space="preserve">
+    <value>Prezzo totale</value>
+  </data>
+  <data name="Vat" xml:space="preserve">
+    <value>IVA</value>
+  </data>
+  <data name="CartQuantityIsOverLimit" xml:space="preserve">
+    <value>Vuoi acquistare più di {0} licenze? Inviaci un'e-mail a questo indirizzo: &lt;a href="mailto:sales@citavi.com"&gt;sales@citavi.com&lt;/a&gt;</value>
+  </data>
+  <data name="LoginToMyShop" xml:space="preserve">
+    <value>Hai già una licenza Citavi?&lt;br/&gt;Allora &lt;a href="/my-shop#/products/upgrade"&gt;effettua il login&lt;/a&gt; oppure &lt;a id="registerHere"&gt;crea un account&lt;/a&gt; per ottenere upgrade a prezzi scontati&lt;br/&gt; o usufruire di sconti su grandi quantitativi.</value>
+  </data>
+  <data name="NoUpgradesAvailable" xml:space="preserve">
+    <value>Nel tuo account non ci sono licenze che danno diritto a un upgrade.</value>
+  </data>
+  <data name="UpgradeHtml1" xml:space="preserve">
+    <value>In passato hai acquistato delle licenze per le quali adesso vuoi un upgrade?&lt;br/&gt;Puoi farlo nel tuo account Citavi.</value>
+  </data>
+  <data name="UpgradeHtml2" xml:space="preserve">
+    <value>Hai già un account Citavi?</value>
+  </data>
+  <data name="UpgradeHtml3" xml:space="preserve">
+    <value>Effettua il login qui.</value>
+  </data>
+  <data name="UpgradeHtml4" xml:space="preserve">
+    <value>Non hai ancora un account Citavi?</value>
+  </data>
+  <data name="UpgradeHtml5" xml:space="preserve">
+    <value>&lt;a id="registerHere"&gt;Registrati qui&lt;/a&gt; con l'indirizzo e-mail che hai utilizzato per l'ultimo ordine.</value>
+  </data>
+  <data name="CartIsEmpty" xml:space="preserve">
+    <value>Il carrello è vuoto. Per mettere una licenza nel carrello clicca su "Aggiungi al carrello".</value>
+  </data>
+  <data name="PriceNetto" xml:space="preserve">
+    <value>Prezzo unitario (IVA inclusa):</value>
+    <comment>{0} ist nettopreis Währung</comment>
+  </data>
+  <data name="EligibleLicenses" xml:space="preserve">
+    <value>Licenze per l'upgrade</value>
+  </data>
+  <data name="CitaviAccountContinueWithoutLogin" xml:space="preserve">
+    <value>Procedi senza effettuare il login</value>
+  </data>
+  <data name="CitaviAccountLogin" xml:space="preserve">
+    <value>Vai al login</value>
+  </data>
+  <data name="CitaviAccountPresent" xml:space="preserve">
+    <value>Hai già un account Citavi?</value>
+  </data>
+  <data name="CitaviAccountPresentNo" xml:space="preserve">
+    <value>Non hai ancora un account? &lt;br/&gt; Allora procedi senza effettuare il login.</value>
+  </data>
+  <data name="CitaviAccountPresentYes" xml:space="preserve">
+    <value>Allora registrati!&lt;br/&gt;&lt;br/&gt;In questo modo potrai approfittare di &lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;sconti quantità su prenotazioni&lt;/li&gt;&lt;li&gt;sconti sugli upgrade e&lt;/li&gt;&lt;li&gt;offerte speciali&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="Editions" xml:space="preserve">
+    <value>Edizioni</value>
+  </data>
+  <data name="AcademicPricingLabel" xml:space="preserve">
+    <value>Academic Pricing per università, enti e organizzazioni no profit</value>
+  </data>
+  <data name="BusinessPricingLabel" xml:space="preserve">
+    <value>Business Pricing per aziende</value>
+  </data>
+  <data name="HomePricingLabel" xml:space="preserve">
+    <value>Home pricing per studenti e utenti privati</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Quantità</value>
+  </data>
+  <data name="MonthsLabel" xml:space="preserve">
+    <value>Mesi</value>
+  </data>
+  <data name="Unlimited" xml:space="preserve">
+    <value>Illimitato</value>
+  </data>
+  <data name="Validity" xml:space="preserve">
+    <value>Periodo di validità</value>
+  </data>
+  <data name="IntegrateSubscription" xml:space="preserve">
+    <value>Integra abbonamento {0}</value>
+  </data>
+  <data name="NewSubscription" xml:space="preserve">
+    <value>Nuovo abbonamento</value>
+  </data>
+  <data name="PartialBillInfo" xml:space="preserve">
+    <value>Le nuove licenze saranno aggiunte a un abbonamento esistente. Al momento del rinnovo riceverai così una sola fattura per tutti i prodotti inclusi nell'abbonamento.&lt;br/&gt;&lt;br/&gt;Per quest'ordine il prezzo annuale sopra indicato verrà ricalcolato fino alla prossima scadenza dell'abbonamento.</value>
+  </data>
+  <data name="PartialBillLabel" xml:space="preserve">
+    <value>Fattura relativa al periodo fino al {0}</value>
+  </data>
+  <data name="RenewalDate" xml:space="preserve">
+    <value>Data di rinnovo</value>
+  </data>
+  <data name="SelectSubscription" xml:space="preserve">
+    <value>Seleziona abbonamento</value>
+  </data>
+  <data name="SelectSubscriptionText1" xml:space="preserve">
+    <value>Prodotti con la stessa data di rinnovo saranno inclusi in uno stesso abbonamento.&lt;br/&gt;&lt;br/&gt;Scegli l'abbonamento che verrà integrato con i prodotti selezionati oppure attiva un altro abbonamento.</value>
+  </data>
+  <data name="SelectSubscriptionText2" xml:space="preserve">
+    <value>Il prezzo sarà eventualmente ricalcolato solo fino alla data di rinnovo successiva.&lt;br/&gt;&lt;br/&gt;Al momento del rinnovo pagherai il prezzo intero per l'anno seguente.</value>
+  </data>
+  <data name="StartNewSubscription" xml:space="preserve">
+    <value>Attiva nuovo abbonamento</value>
+  </data>
+  <data name="SubscriptionsCountLabel" xml:space="preserve">
+    <value>Licenze in abbonamento (valide fino al {0})</value>
+  </data>
+  <data name="AddMaintenance" xml:space="preserve">
+    <value>Aggiungi Maintenance (pagamento annuale)</value>
+  </data>
+  <data name="MaintenanceInfo" xml:space="preserve">
+    <value>Le licenze selezionate hanno una validità illimitata per la versione del programma acquistata, ma non per le versioni successive.&lt;br/&gt;&lt;br/&gt;&lt;span class="segoeUiSemibold"&gt;Con un contratto Maintenance ottieni le versioni successive del programma (upgrade) subito dopo la pubblicazione.&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;Se non lo acquisti ora, potrai ordinare gli upgrade anche in un secondo momento a metà prezzo.</value>
+  </data>
+  <data name="CannotBuy" xml:space="preserve">
+    <value>Hai nel carrello un prodotto per integrare un abbonamento esistente. Non è possibile combinarlo nello stesso ordine con un prodotto in acquisto. Concludi prima l'ordine corrente oppure rimuovi il prodotto abbonamento dal carrello, se desideri aggiungere questo prodotto.</value>
+  </data>
+  <data name="CartHasCommercialProducts" xml:space="preserve">
+    <value>Hai già nel carrello un prodotto in acquisto. Per motivi di gestione dell'ordine puoi ordinare contemporaneamente solo prodotti abbonamento con un nuovo abbonamento. Se desideri invece integrare un abbonamento esistente fai un secondo ordine.</value>
+  </data>
+  <data name="Cart_CompleteOrder" xml:space="preserve">
+    <value>Concludi ordine</value>
+  </data>
+  <data name="Cart_IntegrateSubscriptionDescription" xml:space="preserve">
+    <value>L'abbonamento è valido fino al {0}.&lt;br/&gt;Il prezzo sarà ricalcolato fino a questa data.</value>
+  </data>
+  <data name="Cart_SubscriptionPayment" xml:space="preserve">
+    <value>Sarà utilizzato il metodo di pagamento che hai indicato nell'ultimo ordine effettuato per questo abbonamento. Puoi visualizzarlo &lt;a id="subscriptionPaymentMethod"&gt;qui&lt;/a&gt; ed eventualmente modificarlo.</value>
+  </data>
+  <data name="IntegrationOfSubscription" xml:space="preserve">
+    <value>Integrazione abbonamento</value>
+  </data>
+  <data name="Order_OpenAccount" xml:space="preserve">
+    <value>Apri account</value>
+  </data>
+  <data name="Order_Text" xml:space="preserve">
+    <value>Riceverai dal nostro provider e-commerce Cleverbridge due email:&lt;br/&gt;&lt;ul&gt;&lt;li&gt;un'email con la fattura &lt;/li&gt;&lt;li&gt;un'email con il riepilogo aggiornato dell'abbonamento&lt;/li&gt;&lt;/ul&gt;&lt;br/&gt;&lt;br/&gt;Puoi consultare il tuo ordine nel tuo account.</value>
+  </data>
+  <data name="Order_Title" xml:space="preserve">
+    <value>Grazie per il tuo ordine!</value>
+  </data>
+  <data name="SelectAllowedSubscription" xml:space="preserve">
+    <value>Hai già nel carrello un prodotto per il periodo di validità selezionato. In quest'ordine puoi quindi aggiungere solo prodotti con lo stesso periodo di validità. Se desideri aggiungere un altro abbonamento, effettua un secondo ordine.</value>
+  </data>
+</root>

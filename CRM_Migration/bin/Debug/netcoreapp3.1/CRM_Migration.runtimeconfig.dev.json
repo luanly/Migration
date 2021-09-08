@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\luanly\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\luanly\\.nuget\\packages"
+    ]
+  }
+}

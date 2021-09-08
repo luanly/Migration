@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "FtWVwTqrXYNczJrqqpoLRq4ddL96RLoCrilbqCNZgEv0TbnDexeugYJrjeQkM0YG0vQfZ3auT+3PIqdk+6lvkQ==",
+  "success": true,
+  "projectFilePath": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.Resources\\SwissAcademic.Resources.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\longnguyen\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\longnguyen\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\longnguyen\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

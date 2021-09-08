@@ -1,0 +1,1421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountClosed" xml:space="preserve">
+    <value>To konto zostało zamknięte</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>kliknij tutaj.</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Kod weryfikacyjny</value>
+  </data>
+  <data name="Collaborator" xml:space="preserve">
+    <value>Pracownik</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Potwierdź</value>
+  </data>
+  <data name="ConfirmEmailAddress" xml:space="preserve">
+    <value>Potwierdź adres mailowy</value>
+  </data>
+  <data name="CreateNewAccount" xml:space="preserve">
+    <value>Dokończ rejestrację swojego konta Citavi</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Adres mailowy</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Imię</value>
+  </data>
+  <data name="FirstNames" xml:space="preserve">
+    <value>Imię</value>
+  </data>
+  <data name="HighSchoolSearchPlaceholder" xml:space="preserve">
+    <value>Wprowadź lokalizację lub część swojej nazwy</value>
+  </data>
+  <data name="IAm" xml:space="preserve">
+    <value>Nie mam jeszcze konta Citavi i jestem:</value>
+  </data>
+  <data name="IfYouHaveNoVoucher" xml:space="preserve">
+    <value>Jeśli nie masz kodu vouchera,</value>
+  </data>
+  <data name="InvalidUsernameOrPassword" xml:space="preserve">
+    <value>Niepoprawny adres e-mailowy lub hasło.</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Nazwisko</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Zaloguj</value>
+  </data>
+  <data name="MobileAuthentication" xml:space="preserve">
+    <value>Uwierzytelnianie mobilne</value>
+  </data>
+  <data name="MobileAuthenticationLabel" xml:space="preserve">
+    <value>Wprowadź kod, który został przesłany na twoje urządzenie mobilne.</value>
+  </data>
+  <data name="MyEmailAddress" xml:space="preserve">
+    <value>Mój adres e-mail</value>
+  </data>
+  <data name="MyHighSchool" xml:space="preserve">
+    <value>Mój uniwersytet lub instytucja</value>
+  </data>
+  <data name="MyHighSchoolEmailAddress" xml:space="preserve">
+    <value>Mój adres e-mail z uczelni</value>
+  </data>
+  <data name="MyVoucherCode" xml:space="preserve">
+    <value>Mój kod vouchera</value>
+  </data>
+  <data name="NewHere" xml:space="preserve">
+    <value>Nie masz konta?</value>
+  </data>
+  <data name="NoLicenseWithFreeMail" xml:space="preserve">
+    <value>Nie ma możliwości otrzymania licencji grupowej używając darmowych usług pocztowych (np. gmail.com)</value>
+  </data>
+  <data name="NothingFound" xml:space="preserve">
+    <value>Nie znaleziono</value>
+  </data>
+  <data name="OrLoginWith" xml:space="preserve">
+    <value>lub z</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Hasło</value>
+  </data>
+  <data name="PasswordForgotten" xml:space="preserve">
+    <value>Zapomniałeś hasła?</value>
+  </data>
+  <data name="PasswordHasNoNumbers" xml:space="preserve">
+    <value>Hasło musi zawierać co najmniej jedną cyfrę</value>
+  </data>
+  <data name="PasswordMismatch" xml:space="preserve">
+    <value>Hasło nie pasuje</value>
+  </data>
+  <data name="PasswordMustHaveUppercaseLowercase" xml:space="preserve">
+    <value>Hasło musi zawierać wielki i miałe litery</value>
+  </data>
+  <data name="PasswordRequirementsLabel" xml:space="preserve">
+    <value>Hasło musi mieć co najmniej 8 znaków, zawierać cyfry oraz małe i duże litery</value>
+  </data>
+  <data name="PasswordTooShort" xml:space="preserve">
+    <value>Minimalna długość hasła to 8 znaków</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Zarejestruj</value>
+  </data>
+  <data name="RegistrationSuccessful" xml:space="preserve">
+    <value>Rejestracja zakończona pomyślnie</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Nie wylogowuj mnie.&lt;br/&gt;&lt;a id="moreInfo"&gt;Info&lt;/a&gt;</value>
+  </data>
+  <data name="RepeatPassword" xml:space="preserve">
+    <value>Wpisz ponownie hasło</value>
+  </data>
+  <data name="RequestVoucherMessage" xml:space="preserve">
+    <value>Możesz pobrać swoją licencję bez kodu kwitowego, jeśli Twój komputer &lt;a href="//www.citavi.com/computeriniprange" target="_blank"&gt;znajduje się w sieci Twojej uczelni lub instytucji&lt;/a&gt;.</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Resetuj hasło</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Dalej</value>
+  </data>
+  <data name="Student" xml:space="preserve">
+    <value>Student</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Tytuły</value>
+  </data>
+  <data name="UniList" xml:space="preserve">
+    <value>Przejdź do listy uniwersytetów z licencją grupową Citavi</value>
+  </data>
+  <data name="UnknownEmailAddress" xml:space="preserve">
+    <value>Nieznany adres e-mail</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Nazwa użytkownika</value>
+  </data>
+  <data name="VerificationCancelled" xml:space="preserve">
+    <value>Weryfikację anulowano</value>
+  </data>
+  <data name="VoucherCode" xml:space="preserve">
+    <value>Kod vouchera</value>
+  </data>
+  <data name="InvalidEmailDomain" xml:space="preserve">
+    <value>Niepoprawna domena adresu e-mail</value>
+  </data>
+  <data name="NotInIPRange" xml:space="preserve">
+    <value>Możesz pobrać swoją licencję tylko wtedy, gdy Twój komputer &lt;a href="//www.citavi.com/computeriniprange" target="_blank"&gt;znajduje się w sieci Twojej uczelni lub instytucji&lt;/a&gt;.</value>
+  </data>
+  <data name="VerifyOnlyEmail" xml:space="preserve">
+    <value>Zweryfikuj adres e-mail</value>
+  </data>
+  <data name="VoucherAlreadyUsed" xml:space="preserve">
+    <value>Ten kod vouchera został już wymieniony</value>
+  </data>
+  <data name="HidePassword" xml:space="preserve">
+    <value>Ukryj hasło</value>
+  </data>
+  <data name="LoginWith" xml:space="preserve">
+    <value>Zaloguj przez</value>
+  </data>
+  <data name="PasswordStrength" xml:space="preserve">
+    <value>Siła hasła</value>
+  </data>
+  <data name="PasswordTooLong" xml:space="preserve">
+    <value>Maksymalna długość hasła to 72 znaków</value>
+  </data>
+  <data name="ShowPassword" xml:space="preserve">
+    <value>Pokaż hasło</value>
+  </data>
+  <data name="VeryStrong" xml:space="preserve">
+    <value>Bardzo silne</value>
+  </data>
+  <data name="ConfirmPasswordReset" xml:space="preserve">
+    <value>&lt;p&gt;Wprowadź swoje hasło tutaj.&lt;/p&gt;&lt;br/&gt;&lt;p&gt;Musi ono mieć co najmniej 8 znaków i zawierać oraz cyfry oraz małe i wielkie litery.&lt;/p&gt;</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Zakończ</value>
+  </data>
+  <data name="ProvideEmailAddress" xml:space="preserve">
+    <value>Aby zresetować hasło, wpisz swój adres email dla konta Citavi:</value>
+  </data>
+  <data name="CancelPageMessage" xml:space="preserve">
+    <value>&lt;p&gt;Zanim utworzyłeś konto u tego dostawcy, anulowałeś operację.&lt;/p&gt;&lt;p&gt;Czy chcesz spróbować kolejny raz – bezpośrednio w Citavi przy użyciu adresu e-mail i hasła? Czy też u innego dostawcy?&lt;/p&gt;</value>
+  </data>
+  <data name="ConfirmCancel" xml:space="preserve">
+    <value>Potwierdź anulowanie</value>
+  </data>
+  <data name="TryAgain" xml:space="preserve">
+    <value>Spróbuj ponownie</value>
+  </data>
+  <data name="NoLicenseAvailable" xml:space="preserve">
+    <value>Nie jesteś uprawniony do darmowej licencji Citavi, ponieważ twoja instytucja nie posiada licencji grupowej.</value>
+  </data>
+  <data name="CreateYourAccountWith" xml:space="preserve">
+    <value>Utwóz swoje konto z</value>
+  </data>
+  <data name="FreeEmailWithNoLicense" xml:space="preserve">
+    <value>{0} nie jest uniwersytetem lub instytucją z licencją grupową.</value>
+    <comment>{0} ist die hochschule dass der nutzer ausgewählt hat</comment>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Dalej</value>
+  </data>
+  <data name="OrRegisterAnEmailAddress" xml:space="preserve">
+    <value>Lub zarejestruj z twoim adresem e-mail</value>
+  </data>
+  <data name="RegisterNow" xml:space="preserve">
+    <value>Zarejestruj się teraz</value>
+  </data>
+  <data name="InvalidVoucherCode" xml:space="preserve">
+    <value>Niepoprawny kod vouchera</value>
+  </data>
+  <data name="PasswordTooWeak" xml:space="preserve">
+    <value>Hasło jest za słabe</value>
+  </data>
+  <data name="MissingInput" xml:space="preserve">
+    <value>Niezbędne wpisanie</value>
+  </data>
+  <data name="DataDisclaimer" xml:space="preserve">
+    <value>Twoje osobiste informacje będą użyte jedynie dla konta Citavi</value>
+  </data>
+  <data name="Impressum" xml:space="preserve">
+    <value>Nota prawna</value>
+  </data>
+  <data name="PasswordForEmail" xml:space="preserve">
+    <value>Hasło dla {0}</value>
+    <comment>{0} ist die email-adresse dass der nutzer eingegeben hat</comment>
+  </data>
+  <data name="TermsOfUsageAgreement" xml:space="preserve">
+    <value>Zgadzam się z &lt;a href="//www.citavi.com/eula" target="_blank"&gt;Warunkami użytkowania&lt;/a&gt;</value>
+  </data>
+  <data name="CheckYourEmail" xml:space="preserve">
+    <value>Sprawdź swoją skrzynkę odbiorcżą. &lt;br/&gt; Właśnie wysłaliśmy e-mail do</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="EmailConfirmationMessage" xml:space="preserve">
+    <value>Kliknij w link weryfikujący w wiadomości, którą ci wysłaliśmy, aby kontynuować.</value>
+  </data>
+  <data name="EmailNotFound" xml:space="preserve">
+    <value>Brak wiadomości potwierdzającej? Nawet w folderze spam?</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Błąd</value>
+  </data>
+  <data name="GoToAccountPage" xml:space="preserve">
+    <value>Przejdź do strony konta z twoim kluczem (kluczami) licencji</value>
+  </data>
+  <data name="WeSendItAgain" xml:space="preserve">
+    <value>Wyślemy ci nową wiadomość.</value>
+  </data>
+  <data name="WrongEmailEntered" xml:space="preserve">
+    <value>Zły adres e-mail?</value>
+  </data>
+  <data name="EmailAlreadyPresent" xml:space="preserve">
+    <value>Ten adres e-mail jest już zarejestrowany</value>
+  </data>
+  <data name="LogoutLabel" xml:space="preserve">
+    <value>Wylogowałeś sie pomyślnie.&lt;br/&gt;Jeśli pracujesz na komputerze publicznym,&lt;br/&gt;zamknij wszystkie okna przeglądarki.</value>
+  </data>
+  <data name="VoucherNotFound" xml:space="preserve">
+    <value>Nie ma takiego kodu vouchera.</value>
+  </data>
+  <data name="VoucherIsNotActive" xml:space="preserve">
+    <value>Ten kod vouchera jest nieaktywny.</value>
+  </data>
+  <data name="AccountSuccessfullyVerified" xml:space="preserve">
+    <value>Strona logowania powinna pojawić się wkrótce.&lt;br/&gt;Jeśli się nie pojawi, &lt;a href="/account"&gt;kliknij tutaj&lt;/a&gt;.</value>
+  </data>
+  <data name="CannotResetPassword" xml:space="preserve">
+    <value>Hasło nie może być zresetowane.</value>
+  </data>
+  <data name="CouldNotVerifyAccount" xml:space="preserve">
+    <value>Konto nie może być zweryfikowane.</value>
+  </data>
+  <data name="EmailSuccessfullyResent" xml:space="preserve">
+    <value>Powtórna wysyłka e-maila</value>
+  </data>
+  <data name="TooManyAttempts" xml:space="preserve">
+    <value>Twoje konto zostało tymczasowo zablokowane ponieważ osiągnąłeś maksymalnę liczbę prób.</value>
+  </data>
+  <data name="CheckYourEmailRegistration" xml:space="preserve">
+    <value>Aby mieć pewnośc, że to ty wysłałeś zapytanie, wysłaliśmy wiadomość do</value>
+  </data>
+  <data name="MissingTermsOfUsage" xml:space="preserve">
+    <value>Wyraź zgodę na warunki użytkowania.</value>
+  </data>
+  <data name="PasswordResetConfirmationMessage" xml:space="preserve">
+    <value>Kliknij w link w wiadomości, którą ci wysłaliśmy. Następnie możesz wybrać nowe hasło.</value>
+  </data>
+  <data name="StillNoAccount" xml:space="preserve">
+    <value>Nie masz konta Citavi?</value>
+  </data>
+  <data name="WrongPassword" xml:space="preserve">
+    <value>Hasło jest nieprawidłowe.</value>
+  </data>
+  <data name="PageNotFound" xml:space="preserve">
+    <value>Żądana strona nie została znaleziona.</value>
+  </data>
+  <data name="AccountNotVerified" xml:space="preserve">
+    <value>Twoje konto nie zostało jeszcze potwierdzone.</value>
+  </data>
+  <data name="PasswordAlreadyEntered" xml:space="preserve">
+    <value>Hasło jest już w użyciu</value>
+  </data>
+  <data name="AccountPresent" xml:space="preserve">
+    <value>Konto z tym adresem e-mail już istnieje</value>
+  </data>
+  <data name="ToLogin" xml:space="preserve">
+    <value>Aby zalogować się</value>
+  </data>
+  <data name="SessionExpired" xml:space="preserve">
+    <value>Sesja wygasła.&lt;br/&gt;Zaloguj się ponownie.</value>
+  </data>
+  <data name="PasswordRequirementsLabelLong" xml:space="preserve">
+    <value>Hasło musi mieć co najmniej 8 znaków, zawierać cyfry oraz małe i duże litery</value>
+  </data>
+  <data name="LinkExpired" xml:space="preserve">
+    <value>Link potwierdzający jest już nieważny</value>
+  </data>
+  <data name="LinkExpiredText" xml:space="preserve">
+    <value>&lt;p&gt;Ze względów bezpieczeństwa link został dezaktywowany po 72 godzinach.&lt;/p&gt;&lt;div class="clear6"&gt;&lt;/div&gt;&lt;p class="noMargin"&gt;Poproś o nowy link.&lt;br/&gt;Link zostanie przesłany e-mailem.&lt;/p&gt;</value>
+  </data>
+  <data name="Error404" xml:space="preserve">
+    <value>Błąd 404</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Anuluj</value>
+  </data>
+  <data name="ResendEmail" xml:space="preserve">
+    <value>Kliknij &lt;a id="resendEmail"&gt;tutaj&lt;/a&gt; a wyślemy ci nową wiadomość.</value>
+  </data>
+  <data name="CheckYourEmailRegistrationResent" xml:space="preserve">
+    <value>Aby mieć pewność, że to Ty wysłałeś zapytanie e-mailem, wysłaliśmy &lt;b&gt;nowy&lt;/b&gt; e-mail do</value>
+  </data>
+  <data name="CheckYourEmailResent" xml:space="preserve">
+    <value>Sprawdź swoją skrzynkę odbiorcżą. &lt;br/&gt; Właśnie wysłaliśmy &lt;b&gt;nowy&lt;/b&gt; e-mail do </value>
+  </data>
+  <data name="AccountSuccessfullyVerifiedEmailAdded" xml:space="preserve">
+    <value>Teraz możesz tym adresem e-mail &lt;br/&gt;{0}&lt;br/&gt;się zalogować.</value>
+    <comment>{0} ist der benutzers email-adresse</comment>
+  </data>
+  <data name="CampusLicense" xml:space="preserve">
+    <value>Licencja grupowa</value>
+  </data>
+  <data name="AcademicLicense" xml:space="preserve">
+    <value>Licencja dla edukacji, administracji oraz organizacji non-profit</value>
+  </data>
+  <data name="Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="AccountsMergedSuccessfully" xml:space="preserve">
+    <value>Twoje konto zostało połączone pomyślnie</value>
+  </data>
+  <data name="ActivateCitavi" xml:space="preserve">
+    <value>Wprowadź twoje dane licencyjne:&lt;br/&gt;&lt;br/&gt;
+&lt;ol&gt;
+&lt;li&gt;jeśli jeszcze tego nie zrobiłeś, zainstaluj Citavi Free. Plik instalacyjny jest tutaj: &lt;a href="https://www.citavi.com/download" target="_blank"&gt;www.citavi.com/download&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Skopiuj daje licencyjne do schowka. &lt;a id="copyToClipboardLink"&gt;Kliknij tutaj.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Uruchom Citavi.&lt;/li&gt;
+&lt;li&gt;Kliknij w okienku startowym na dane licencyjne.&lt;/li&gt;
+&lt;li&gt;Kliknij na „Wprowadź dane licencyjne”.&lt;/li&gt;
+&lt;li&gt;Potwierdź umowę licencyjną i kliknij na „OK.”.&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="AddEmailAddress" xml:space="preserve">
+    <value>Dodaj adrs e-mail</value>
+  </data>
+  <data name="AddPassword" xml:space="preserve">
+    <value>Dodaj hasło</value>
+  </data>
+  <data name="AddressAddition" xml:space="preserve">
+    <value>Dodawanie adresu</value>
+  </data>
+  <data name="AssignedButNotYetConfirmed" xml:space="preserve">
+    <value>Przydzielono, ale jeszcze nie potwierdzono</value>
+  </data>
+  <data name="BusinessLicense" xml:space="preserve">
+    <value>Licencja dla użytku komercyjnego</value>
+  </data>
+  <data name="BuyHomeLicense" xml:space="preserve">
+    <value>Licencja dla użytku osobistego i studentów</value>
+  </data>
+  <data name="CampusLicenseInfo" xml:space="preserve">
+    <value>Informacje o twojej licencji grupowej</value>
+  </data>
+  <data name="CannotAddEmailAddress" xml:space="preserve">
+    <value>Aby zalogować się tym adresem e-mail potrzebujesz hasła. &lt;br/&gt; Nie wpisałeś jeszcze hasła.</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Zmień hasło</value>
+  </data>
+  <data name="ChooseNewPassword" xml:space="preserve">
+    <value>Wybierz nowe hasło tutaj</value>
+  </data>
+  <data name="CitaviFree" xml:space="preserve">
+    <value>Z Citavi Free możesz pracować na projektach do 100 tytułów i przeglądać większe projekty bez limitu czasowego.&lt;br/&gt;&lt;br/&gt; Aby edytować projekty z więcej niż 100 tytułami &lt;ul class='tabbed'&gt;&lt;li&gt;możesz &lt;a id='campus'&gt;uzyskać licencję&lt;/a&gt; jeśli twoja uczelnia lub instytucja posiada licencję grupową (zazwyczaj taka licencja będzie darmowa dla ciebie),&lt;/li&gt;&lt;li&gt; &lt;a target='_blank' href='/shop'&gt;kupić licencję w naszym sklepie internetowym&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;&lt;a id='voucher'&gt; wymienić kupon podarunkowy.&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br/&gt; Użytkownicy Citavi Free nie mogą korzystać z naszej usługi pomocy mailowej, ale mogą zadawać pytania na &lt;a href='http://www.citavi.com/forum' target='_blank'&gt;Citavi Forum&lt;/a&gt;.</value>
+  </data>
+  <data name="ClaimCampusLicense" xml:space="preserve">
+    <value>Zdobądź swoją licencję grupową</value>
+  </data>
+  <data name="CodeDoesNotExists" xml:space="preserve">
+    <value>Kod, który wprowadziłeś nie istnieje</value>
+  </data>
+  <data name="CodeExpired" xml:space="preserve">
+    <value>Kod wygasa po 24 godzinach i nie jest już dłużej ważny.</value>
+  </data>
+  <data name="ConcurrentUser" xml:space="preserve">
+    <value>Uzytkownik równoległy</value>
+  </data>
+  <data name="ConcurrentUserLicense" xml:space="preserve">
+    <value>Licencja dla Uzytkownika Równoległego</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Kraj</value>
+  </data>
+  <data name="County" xml:space="preserve">
+    <value>Województwo</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>Aktualne hasło</value>
+  </data>
+  <data name="DeleteOrMergeAccounts" xml:space="preserve">
+    <value>Czy chcesz usunąć lub połączyć inne konto?</value>
+  </data>
+  <data name="Deselect" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="DiscountHomeLicense" xml:space="preserve">
+    <value>Jesteś uprawniony do 50% zniżki na zakup licencji Home.</value>
+  </data>
+  <data name="DontUseEmail" xml:space="preserve">
+    <value>Nie chesz używać nowego adresu? Kliknij tutaj:</value>
+  </data>
+  <data name="DownloadLicenseData" xml:space="preserve">
+    <value>Pobierz plik licencji</value>
+  </data>
+  <data name="AssignLicense" xml:space="preserve">
+    <value>&lt;a id="editUserData"&gt;Udziel licencji użytkownikowi&lt;/a&gt;</value>
+  </data>
+  <data name="EmailAddresses" xml:space="preserve">
+    <value>Adresy e-mail</value>
+  </data>
+  <data name="EmailAddressInUse" xml:space="preserve">
+    <value>Ten adres jest przypisany do twojej licencji grupowej. Wyślemy odnowienie licencji i inne ważne powiadomienia na ten adres e-mail.</value>
+  </data>
+  <data name="EmailAlreadyConfirmed" xml:space="preserve">
+    <value>Ten adres e-mail jest już potwierdzony</value>
+  </data>
+  <data name="EmailDoesNotExist" xml:space="preserve">
+    <value>Podany adres e-mail nie istnieje.</value>
+  </data>
+  <data name="EmailIsSameAsContact" xml:space="preserve">
+    <value>Ten adres już należy do obecnego konta.</value>
+  </data>
+  <data name="EmailSent" xml:space="preserve">
+    <value>Wysłaliśmy wiadomość na twój nowy adres mailowy. &lt;br/&gt;Kliknij link potwierdzający w wiadomości. &lt;br/&gt; Następnie możesz sie zalogować używając nowego adresu e-mail.</value>
+  </data>
+  <data name="ExternalProviders" xml:space="preserve">
+    <value>Zaloguj się przez:</value>
+  </data>
+  <data name="ExternalProviderText" xml:space="preserve">
+    <value>Możesz użyć swojego konta od dostawcy zewnętrznego, aby zalogować się do Citavi.&lt;br/&gt; Można wybrać jednego lub więcej dostawców.&lt;br/&gt; Po wyborze zostaniesz przekierowany do strony odpowiedniego dostawcy.</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Faks</value>
+  </data>
+  <data name="FillOnlyIfBillingAddressIsDifferent" xml:space="preserve">
+    <value>Niezbędne tylko jeśli adres rozliczeniowy jest inny niż adres użytkownika.</value>
+  </data>
+  <data name="Firm" xml:space="preserve">
+    <value>Instytucja</value>
+  </data>
+  <data name="For" xml:space="preserve">
+    <value>dla</value>
+  </data>
+  <data name="Here" xml:space="preserve">
+    <value>tutaj</value>
+  </data>
+  <data name="IfYouForgotYourPassword" xml:space="preserve">
+    <value>Jeśli zapomniałeś hasła, możesz tutaj wybrać nowe.</value>
+  </data>
+  <data name="ImageSizeTooLarge" xml:space="preserve">
+    <value>Rozmiar obrazka musi być mniejszy niż 5 MB.</value>
+  </data>
+  <data name="InvalidImageFile" xml:space="preserve">
+    <value>Wybrany plik nie jest poprawnym plikiem graficznym</value>
+  </data>
+  <data name="License" xml:space="preserve">
+    <value>Zakup licencji</value>
+  </data>
+  <data name="LicenseAssigned" xml:space="preserve">
+    <value>&lt;div class='segoeUiSemibold'&gt;Licencja udzielona.&lt;/div&gt;&lt;div class='clear'&gt;&lt;/div&gt;Powiadomienie zostało wysłane.</value>
+  </data>
+  <data name="LicenseAssignedMessage" xml:space="preserve">
+    <value>&lt;b&gt;Licencja przypisana.&lt;/b&gt;&lt;br/&gt;Wiadomość z powiadomienie została wysłana.</value>
+  </data>
+  <data name="LicenseAssignedTo" xml:space="preserve">
+    <value>Licencji należy udzielić:</value>
+  </data>
+  <data name="LicenseCount" xml:space="preserve">
+    <value>Liczba licencji</value>
+  </data>
+  <data name="LicenseData" xml:space="preserve">
+    <value>Licencja</value>
+  </data>
+  <data name="LicenseDataHtml" xml:space="preserve">
+    <value>&lt;p&gt;Posiadasz licencję na {0}.&lt;/p&gt;&lt;p&gt;Dzięki tej licencją możesz zainstalować Citavi na wszystkich swoich urządzeniach prywatnych i zapisać tyle tytułów ile chcesz w każdym projekcie.&lt;/p&gt;&lt;p&gt;Aby odblokować licencję, skopiuj klucz licencji do Schowka i uruchom Citavi. W Oknie Powitalnym kliknij &lt;b&gt;Licencja &gt; Wpisz klucz licencji&lt;/b&gt;.&lt;/p&gt;</value>
+    <comment>{0} ist der name der citavi produkt</comment>
+  </data>
+  <data name="LicenseForStudyPrivateUsage" xml:space="preserve">
+    <value>Licencja dla użytku osobistego i studentów</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Ładowanie...</value>
+  </data>
+  <data name="LoginData" xml:space="preserve">
+    <value>Dane logowania</value>
+  </data>
+  <data name="MergeAccountsCode" xml:space="preserve">
+    <value>Wiadomość z kodem bezpieczeństwa została wysłana na podany adres mailowy. Wpisz kod bezpieczeństwa tu:</value>
+  </data>
+  <data name="MergeAccountsSource" xml:space="preserve">
+    <value>Wpisz adres mailowy dla konta, które chcesz połączyć z obecnym kontem:</value>
+  </data>
+  <data name="MoreEmailAddresses" xml:space="preserve">
+    <value>Dodatkowe adresy e-mail</value>
+  </data>
+  <data name="NameAddress" xml:space="preserve">
+    <value>Nazwa i adres</value>
+  </data>
+  <data name="NewAddress" xml:space="preserve">
+    <value>Nowy adres</value>
+  </data>
+  <data name="NewEmailAddress" xml:space="preserve">
+    <value>Nowy adres e-mail</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Nowe hasło</value>
+  </data>
+  <data name="NoLicenseSelected" xml:space="preserve">
+    <value>Nie wybrano licencji</value>
+  </data>
+  <data name="NotificationsSentToThisEmail" xml:space="preserve">
+    <value>Powiadomienia wysłano na ten adres e-mail:</value>
+  </data>
+  <data name="NotYetAssigned" xml:space="preserve">
+    <value>Jeszcze nie udzielono</value>
+  </data>
+  <data name="NotYetAvailable" xml:space="preserve">
+    <value>(jeszcze nie dostępne)</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>Zamów</value>
+  </data>
+  <data name="PasswordRequirements" xml:space="preserve">
+    <value>Hasło musi mieć co najmniej 8 znaków, zawierać cyfry oraz małe i duże litery</value>
+  </data>
+  <data name="PasswordRequirementsFailed" xml:space="preserve">
+    <value>Hasło nie spełnia warunków</value>
+  </data>
+  <data name="PerSeatLicense" xml:space="preserve">
+    <value>Licencja na stanowisko</value>
+  </data>
+  <data name="Place" xml:space="preserve">
+    <value>Miejsce</value>
+  </data>
+  <data name="PleaseCheckEmail" xml:space="preserve">
+    <value>Sprawdź swoją skrzynkę odbiorczą</value>
+  </data>
+  <data name="PostalCode" xml:space="preserve">
+    <value>Kod pocztowy</value>
+  </data>
+  <data name="Projects" xml:space="preserve">
+    <value>Projekty</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>Odśwież stronę</value>
+  </data>
+  <data name="RemoveAddress" xml:space="preserve">
+    <value>Usuń adres</value>
+  </data>
+  <data name="RemoveAnyway" xml:space="preserve">
+    <value>Usunąć mimo wszystko?</value>
+  </data>
+  <data name="RemoveProvider" xml:space="preserve">
+    <value>Usuń dostawcę</value>
+  </data>
+  <data name="Repeat" xml:space="preserve">
+    <value>Potwierdź:</value>
+  </data>
+  <data name="Saving" xml:space="preserve">
+    <value>Zapisywanie…</value>
+  </data>
+  <data name="SetPassword" xml:space="preserve">
+    <value>Wybierz hasło</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Ustawienia</value>
+  </data>
+  <data name="StreetNumber" xml:space="preserve">
+    <value>Ulica</value>
+  </data>
+  <data name="Telephone" xml:space="preserve">
+    <value>Numer telefonu</value>
+  </data>
+  <data name="TermsOfUsageAndDataProtection" xml:space="preserve">
+    <value>Warunki użytkowania i informacje o prywatności</value>
+  </data>
+  <data name="ToActivateCitavi" xml:space="preserve">
+    <value>W celu odblokowania {0}, </value>
+    <comment>{0} ist Citavi produktname zB "Citavi for Windows"</comment>
+  </data>
+  <data name="Unlimited" xml:space="preserve">
+    <value>Nieograniczona</value>
+  </data>
+  <data name="Until" xml:space="preserve">
+    <value>Do</value>
+  </data>
+  <data name="UserData" xml:space="preserve">
+    <value>Dane o użytkowniku</value>
+  </data>
+  <data name="UserHasProductAlready" xml:space="preserve">
+    <value>Ten użytkownik posiada już licencję</value>
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>Nie ma konta Citavi powiązanego z tym adresem e-mail.</value>
+  </data>
+  <data name="ValidityDate" xml:space="preserve">
+    <value>Okres</value>
+  </data>
+  <data name="VerificationKeyNotFound" xml:space="preserve">
+    <value>Kod jest nieprawidłowy.</value>
+  </data>
+  <data name="WeSentAnEmailTo" xml:space="preserve">
+    <value>Wysłaliśmy e-mail do:</value>
+  </data>
+  <data name="Working" xml:space="preserve">
+    <value>Pracuje...</value>
+  </data>
+  <data name="YouCanAddMultipleEmails" xml:space="preserve">
+    <value>Możesz użyć poniższych adresów e-mail do zalogowania się:</value>
+  </data>
+  <data name="YouCanUsePassword" xml:space="preserve">
+    <value>Hasło dodane.</value>
+  </data>
+  <data name="YouHave2Accounts" xml:space="preserve">
+    <value>Połącz dwa konta</value>
+  </data>
+  <data name="YouHaveNoLicenses" xml:space="preserve">
+    <value>Używasz Citavi Free. Citavi Free nie potrzebuje żadnej licencji.</value>
+  </data>
+  <data name="YouHaveNoPassword" xml:space="preserve">
+    <value>Obecnie nie posiadasz hasła Citavi. Potrzebujesz tylko hasła Citavi jeśli chesz sie zalogować używając swojego adresu e-mail.</value>
+  </data>
+  <data name="PleaseComplete" xml:space="preserve">
+    <value>Dokończ</value>
+  </data>
+  <data name="YourHighSchoolEmailAddress" xml:space="preserve">
+    <value>Twój adres mailowy z uczelni</value>
+  </data>
+  <data name="ClaimLicenseThrough" xml:space="preserve">
+    <value>Zdobądź licencję poprzez:</value>
+  </data>
+  <data name="LicenseAdded" xml:space="preserve">
+    <value>Tu jest twój klucz licencji. Mamy nadzieję na przyjemną pracę z Citavi!</value>
+  </data>
+  <data name="LicenseEmailSent" xml:space="preserve">
+    <value>Wysłaliśmy wiadomość na twój nowy adres mailowy. &lt;br/&gt;Kliknij link potwierdzający w wiadomości. &lt;br/&gt;Następnie otrzymasz swoją licencję Citavi.</value>
+  </data>
+  <data name="AskQuestion" xml:space="preserve">
+    <value>Zadaj pytanie…</value>
+  </data>
+  <data name="DownloadCitaviForWindows" xml:space="preserve">
+    <value>Pobierz Citavi for Windows</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Pomoc</value>
+  </data>
+  <data name="Upgrade" xml:space="preserve">
+    <value>Aktualizacja</value>
+  </data>
+  <data name="BuyUpgrade" xml:space="preserve">
+    <value>Kup aktualizację</value>
+  </data>
+  <data name="NewVersionAvailable" xml:space="preserve">
+    <value>Nowa wersja dostępna</value>
+  </data>
+  <data name="NewVersionInfo" xml:space="preserve">
+    <value>Informacje o nowych funkcjach</value>
+  </data>
+  <data name="NewLicense" xml:space="preserve">
+    <value>Nowa licencja</value>
+  </data>
+  <data name="HighSchool" xml:space="preserve">
+    <value>Uczelnia</value>
+  </data>
+  <data name="HighSchoolNotFound" xml:space="preserve">
+    <value>Brakuje na liście Twojej uczelni? W takim razie nie oferuje ona systemu autoryzacji użytkownika &lt;a href="https://www.citavi.com/shibboleth" target="_blank"&gt;Shibboleth&lt;/a&gt;.</value>
+  </data>
+  <data name="LoginNow" xml:space="preserve">
+    <value>Zaloguj się teraz</value>
+  </data>
+  <data name="PleaseChooseYourSchool" xml:space="preserve">
+    <value>Wybierz swoją uczelnię</value>
+  </data>
+  <data name="MyHighSchool_Shibboleth" xml:space="preserve">
+    <value>Moja uczelnia</value>
+  </data>
+  <data name="AddHighSchoolAccount" xml:space="preserve">
+    <value>Dodaj konto uniwersyteckie</value>
+  </data>
+  <data name="AddMoreHighSchoolAccounts" xml:space="preserve">
+    <value>Dodaj inne konto uniwersyteckie</value>
+  </data>
+  <data name="RequestNewLink" xml:space="preserve">
+    <value>Poproś o nowy link</value>
+  </data>
+  <data name="NoMatch" xml:space="preserve">
+    <value>Brak wyników. Sprawdź pisownię lub wporwadź trzy lub cztery pierwsze litery nazwy twojej uczelni.</value>
+  </data>
+  <data name="IncompatibleBrowser" xml:space="preserve">
+    <value>Twoja przeglądarka nie jest zgodna z Citavi Web.&lt;br/&gt; Użyj innej przeglądarki.</value>
+  </data>
+  <data name="DeleteAccount" xml:space="preserve">
+    <value>Usuń konto</value>
+  </data>
+  <data name="ManageAccount" xml:space="preserve">
+    <value>Zarządzaj kontem</value>
+  </data>
+  <data name="MergeTwoAccounts" xml:space="preserve">
+    <value>Połącz dwa konta</value>
+  </data>
+  <data name="PleaseConfirmEmail" xml:space="preserve">
+    <value>Potwierdź swój adres mailowy.</value>
+  </data>
+  <data name="AccountDeleted" xml:space="preserve">
+    <value>Twoje konto Citavi zostanie teraz usunięte.&lt;br/&gt;&lt;div id="deleteMsg"&gt;To może zająć kilka minut. Możesz zamknąć tę kartę.&lt;/div&gt;</value>
+  </data>
+  <data name="DeleteAccountDescriptionHtml" xml:space="preserve">
+    <value>&lt;ol&gt;
+&lt;li&gt;Twoje dane dotyczące licencji i dane osobowe zostaną usunięte.&lt;/li&gt;
+&lt;li&gt;Twoje projekty w chmurze i wszystkie powiązane z nimi pliki (PDF itp.) zostaną &lt;b&gt;teraz nieodwracalnie usunięte&lt;/b&gt;. Jeżeli chcesz wykonać kopię zapasową danych zapisanych w chmurze Citavi, &lt;b&gt;przed&lt;/b&gt; usunięciem konta utwórz kopie lokalne projektów w chmurze. &lt;a href="https://www.citavi.com/converting-cloud-projects" target="_blank"&gt;Jak to wykonać?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Utracisz dostęp do projektów w chmurze, które dzielili z Tobą inni.&lt;/li&gt;
+&lt;li&gt;Inni utracą dostęp do projektów w chmurze, które były z nimi dzielone. 
+&lt;li&gt;Wszystkie pliki utworzone lokalnie za pomocą Citavi pozostaną zachowane: Twoje projekty lokalne, nawet utworzone style cytowania, dokumenty Word utworzone za pomocą dodatku Citavi do programu Word.
+&lt;/li&gt;
+&lt;li&gt;Gdy tylko wylogujesz się ze swojej lokalnej instalacji Citavi (od wersji Citavi 6), jednak najpóźniej po upływie 365 dni, Twoje lokalne projekty będzie można edytować tylko wtedy, gdy będą zawierać poniżej 100 tytułów. Większe projekty będzie można otworzyć tylko do odczytu.&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="DeleteAccountInfo" xml:space="preserve">
+    <value>Przeczytaj to najpierw.</value>
+  </data>
+  <data name="IKnowWhatHappens" xml:space="preserve">
+    <value>Rozumiem</value>
+  </data>
+  <data name="MergeAccountsHere" xml:space="preserve">
+    <value>Połącz dwa konta tutaj.</value>
+  </data>
+  <data name="MultipleCitaviAccounts" xml:space="preserve">
+    <value>Masz więcej niż jedno konto Citavi?</value>
+  </data>
+  <data name="ThenYouCanDeleteAccount" xml:space="preserve">
+    <value>Następnie możesz usunąć swoje konto Citavi.</value>
+  </data>
+  <data name="WantToDeleteCitaviAccount" xml:space="preserve">
+    <value>Czy chcesz usunąć swoje konto Citavi?</value>
+  </data>
+  <data name="WhatHappens" xml:space="preserve">
+    <value>Co się stanie jeśli usuniesz swoje konto Citavi?</value>
+  </data>
+  <data name="VoucherCashIn" xml:space="preserve">
+    <value>Wymień voucher</value>
+  </data>
+  <data name="LoginAgain" xml:space="preserve">
+    <value>Zaloguj się ponownie</value>
+  </data>
+  <data name="LicenseAssigned_1" xml:space="preserve">
+    <value>Licencja przypisana do {0}</value>
+  </data>
+  <data name="PleaseRepeatPassword" xml:space="preserve">
+    <value>Potwierdź hasło</value>
+  </data>
+  <data name="YourHighSchool" xml:space="preserve">
+    <value>Twoja uczelnia lub instytucja</value>
+  </data>
+  <data name="KeyAccountHtml" xml:space="preserve">
+    <value>Twoje konto kluczowe zapewnia niezawodny przebieg udzielania licencji Citavi. Dlatego Twój profil możesz edytować tylko we współpracy z nami (Swiss Academic Software).&lt;br/&gt;&lt;br/&gt;Sam możesz zmienić tylko hasło i zdjęcie. Wyślij nam wiadomość na adres &lt;a href='mailto:account@citavi.com'&gt;account@citavi.com&lt;/a&gt;, jeśli chciałbyś zmienić np. adres lub przenieść konto na swoją koleżankę lub kolegę.</value>
+  </data>
+  <data name="KeyAccountInfo" xml:space="preserve">
+    <value>Informacje o twoim głównym koncie</value>
+  </data>
+  <data name="AdministratorAccountHtml" xml:space="preserve">
+    <value>Konto administracyjne jest niezbędne do dystrybuowania licencji Citavi w instytucji. Z tego powodu nie możesz usunąć tego konta, ale możesz zcedować konto na kolegę. Jeśli chciałbyś to zrobić, napisz do nas &lt;a href="mailto: account@citavi.com"&gt;account@citavi.com&lt;/a&gt;</value>
+  </data>
+  <data name="AdministratorAccountInfo" xml:space="preserve">
+    <value>Informacje o twoim koncie Administratora</value>
+  </data>
+  <data name="RegisterFree" xml:space="preserve">
+    <value>Zarejestruj się tu za darmo.</value>
+  </data>
+  <data name="RememberMeInfoHtml" xml:space="preserve">
+    <value>&lt;div class="infotitle"&gt;Jeśli &lt;i&gt;Nie wylogowuj mnie&lt;/i&gt; &lt;span class="error"&gt;jest włączone&lt;/span&gt;, &lt;/div&gt;adres e-mail i hasło są szyfrowane i zapisywane przezprzeglądarkę w pliku cookie. Plik cookie jest automatycznie usuwany po 30 dniach. Po tym okresie, trzeba będzie zalogować się ponownie.&lt;br/&gt;Działa to wtedy jeśli nie wylogujesz się z Citavi lub usuniesz historię przeglądarki.&lt;br/&gt;&lt;br/&gt;&lt;div class="infotitle"&gt;Jeśli &lt;i&gt;Nie wylogowuj mnie&lt;/i&gt; &lt;span class="error"&gt; jest wyłączona&lt;/span&gt;,&lt;/div&gt; trzeba tylko zamknąć swoją przeglądarkę (nie tylko okno), a zostaniesz wylogowany.&lt;br/&gt;
+To jest szczególnie ważne gdy pracujesz na komputerze publicznym.</value>
+  </data>
+  <data name="LicenseIsAssignedTo" xml:space="preserve">
+    <value>Licencja przypisana do:</value>
+  </data>
+  <data name="LicenseNotVerified" xml:space="preserve">
+    <value>Licencja nie jest jeszcze zweryfikowana.</value>
+  </data>
+  <data name="LicenseSuccessfullyVerified" xml:space="preserve">
+    <value>Adres e-mail został pomyśłnie zweryfikowany.&lt;br/&gt;Zamknij to okno.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="LicenseVerificationError" xml:space="preserve">
+    <value>Wystąpił błąd podczas weryfikacji licencji.</value>
+  </data>
+  <data name="RecipientNotified" xml:space="preserve">
+    <value>Odbiorca zostanie powiadomiony e-mailem automatycznie. Jeśli nie ma on jeszcze konta, zostanie poproszony, żeby je utworzył. Będzie mógł wtedy pobrać dane licencyjne. 
+&lt;br/&gt;&lt;br/&gt;
+Dane użytkownika zostaną potem wyświetlone również na tym koncie.</value>
+  </data>
+  <data name="VerifyLicense" xml:space="preserve">
+    <value>Weryfikuj licencję</value>
+  </data>
+  <data name="WithdrawLicenseHtml" xml:space="preserve">
+    <value>Dowiedz się więcej o usunięciu tej licencji &lt;a id="withdrawLicense_manual"&gt;w podręczniku&lt;/a&gt;</value>
+  </data>
+  <data name="ConfirmMembership" xml:space="preserve">
+    <value>Potwierdź, że jesteś członkiem instytucji</value>
+  </data>
+  <data name="EmailPresentNoPassword" xml:space="preserve">
+    <value>Wpisany adres e-mail odpowiada zewnętrznemu usługodawcy.&lt;br/&gt;
+Wybierz odpowiedniego dostawcę zewnętrznego.</value>
+  </data>
+  <data name="ConfirmDeleteLicense" xml:space="preserve">
+    <value>Jesteś pewien, że chesz usunąc tę licencję?</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="ConfirmMembershipEmailDomains" xml:space="preserve">
+    <value>&lt;a id="confirmThroughEmailDomains"&gt;Uzupełnij adres e-mail jedną z poniższych domen: &lt;br/&gt; {0}&lt;/a&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="ConfirmMembershipEmail" xml:space="preserve">
+    <value>&lt;a id="confirmThroughEmail"&gt;Poproś o wysłanie e-maila do {0}.&lt;/a&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="ConfirmMembershipUpperHtml" xml:space="preserve">
+    <value>Licencja grupowa została odnowiona przez twoją instytucję &lt;span class="italic"&gt;{0}&lt;/span&gt; do {1}. Potwierdź, że wciąż jesteś członkiem instytucji.</value>
+  </data>
+  <data name="ConfirmMembershipIP" xml:space="preserve">
+    <value>&lt;a id="confirmThroughIP"&gt;Zaloguj się do swojego konta Citavi ponownie, gdy komputer znajdzie się w zasięgu IP twojej uczelni.&lt;/a&gt;</value>
+  </data>
+  <data name="ConfirmMembershipVoucher" xml:space="preserve">
+    <value>&lt;a id="confirmThroughVoucher"&gt;Wprowadź nowy kod vouchera, który otrzymałeś z twojej uczelni.&lt;/a&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>Lub:</value>
+  </data>
+  <data name="ConfirmMembershipShibboleth" xml:space="preserve">
+    <value>&lt;a id="confirmThroughShibboleth"&gt;Zaloguj się ponownie na swoje konto Citavi.&lt;/a&gt;</value>
+  </data>
+  <data name="ConfirmMembershipEmailSent" xml:space="preserve">
+    <value>Sprawdź swoją skrzynkę odbiorczą. Właśnie wysłaliśmy e-mail do {0}. Brak wiadomości? &lt;a id="resendConfirmEmail"&gt;Wyślemy ci nową!&lt;/a&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="ConfirmMembershipLowerHtml" xml:space="preserve">
+    <value>&lt;div class="segoeUiSemibold"&gt;Opcja 1: Kup osobista licencję ze zniżką &lt;/div&gt;                    
+                    &lt;div class="tabbed"&gt;
+                        Jeśli nie jesteś już członkiem uczelni lub instytucji możesz &lt;a id="linkSpecialOffers"&gt;kupić niewygasającą, indywidualną licencję z 50% zniżką.&lt;/a&gt;
+                    &lt;/div&gt;
+                    &lt;br/&gt;
+                    &lt;div class="segoeUiSemibold"&gt;Opcja 2: Usuń licencję grupową&lt;/div&gt;
+                    &lt;div class="tabbed"&gt;
+                        Jeśli nie jesteś już członkiem uczelni lub instytucji i nie chcesz kupować licencji możesz &lt;a id="deleteCampusLicense"&gt;usunąć licencję grupową ze swojego konta.&lt;/a&gt;
+                    &lt;/div&gt;</value>
+  </data>
+  <data name="ConfirmMembershipMiddleHtml" xml:space="preserve">
+    <value>Oto jak:&lt;br/&gt;{0}</value>
+  </data>
+  <data name="ConfirmMembershipTitle" xml:space="preserve">
+    <value>Potwierdź, że należysz do instytucji.</value>
+  </data>
+  <data name="ResendMembershipVerificationEmail" xml:space="preserve">
+    <value>Kliknij &lt;a id="resendMembershipVerificationEmail"&gt;tutaj&lt;/a&gt; a wyślemy ci nową wiadomość.</value>
+  </data>
+  <data name="BillingAddress" xml:space="preserve">
+    <value>Adres rozliczeniowy</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="PleaseCheckEmailMembershipVerification" xml:space="preserve">
+    <value>Wysłaliśmy e-mail do {0}. Kliknij link potwierdzający w wiadomości.</value>
+  </data>
+  <data name="UseHere" xml:space="preserve">
+    <value>Użyj tutaj</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="EmailAlreadyPresentGoToLogin" xml:space="preserve">
+    <value>Już jest konto powiązane z tym adresem e-mail. &lt;br/&gt;Możesz &lt;a id="gotoLogin"&gt;zalogować się tym adresem e-mail&lt;/a&gt;.</value>
+  </data>
+  <data name="AccountSuccessfullyVerifiedTitle" xml:space="preserve">
+    <value>Witamy na twoim koncie Citavi!</value>
+  </data>
+  <data name="VoucherForLicense" xml:space="preserve">
+    <value>Kod kuponu upominkowego dla licencji Citavi</value>
+  </data>
+  <data name="VoucherForLicenseDescription" xml:space="preserve">
+    <value>Wpisz kod vouchera, aby uzyskać spersonalizowaną licencję Citavi. Nowy klucz licencji pojawi się na twoim koncie Citavi.</value>
+  </data>
+  <data name="DownloadVoucherBlock" xml:space="preserve">
+    <value>Pobierz vouchery</value>
+  </data>
+  <data name="NumberOfVouchers" xml:space="preserve">
+    <value>Liczba wszystkich voucherów</value>
+  </data>
+  <data name="VoucherBlock" xml:space="preserve">
+    <value>Vouchery</value>
+  </data>
+  <data name="VoucherBlockCampus" xml:space="preserve">
+    <value>Vouchery licencji grupowej</value>
+  </data>
+  <data name="EmailAddressConfirmation" xml:space="preserve">
+    <value>Potwierdzenie adresu e-mail</value>
+  </data>
+  <data name="FalseInput" xml:space="preserve">
+    <value>Niepoprawny wpis</value>
+  </data>
+  <data name="VerificationCode" xml:space="preserve">
+    <value>Kod weryfikacyjny</value>
+  </data>
+  <data name="Send_1" xml:space="preserve">
+    <value>Wyślij</value>
+  </data>
+  <data name="LoginWithAnotherMethod" xml:space="preserve">
+    <value>Wybierz inny sposób, aby utworzyć konto.</value>
+  </data>
+  <data name="NoProblem" xml:space="preserve">
+    <value>Nie ma problemu.</value>
+  </data>
+  <data name="Why" xml:space="preserve">
+    <value>Dlaczego?</value>
+  </data>
+  <data name="ExternalProvidersError" xml:space="preserve">
+    <value>Istnieje już konto z tym adresem e-mail. Możesz połączyć je z aktualnym kontem.</value>
+  </data>
+  <data name="ExternalProvidersMergeAccounts" xml:space="preserve">
+    <value>Chcesz &lt;a id="openMergeAccountsPanel"&gt;połączyć dwa konta&lt;/a&gt;? Dowiedz się więcej w &lt;a href="//www.citavi.com/merge-accounts" target="_blank"&gt;podręczniku&lt;/a&gt;).</value>
+  </data>
+  <data name="OrInIPRange" xml:space="preserve">
+    <value>Możesz pobrać swoją licencję również wtedy, gdy Twój komputer &lt;a href="//www.citavi.com/computeriniprange" target="_blank"&gt;znajduje się w sieci Twojej uczelni lub instytucji&lt;/a&gt;.</value>
+  </data>
+  <data name="SearchBeginsAfter3Letters" xml:space="preserve">
+    <value>Wyszukiwanie rozpoczyna się po wprowadzeniu trzech liter.</value>
+  </data>
+  <data name="NewAccountFromExternalProviderButEmailAlreadyExists" xml:space="preserve">
+    <value>Zaloguj się nazwą użytkownika/hasłem, a następnie dodaj to konto Shibboleth.</value>
+  </data>
+  <data name="BuyLicense" xml:space="preserve">
+    <value>Kup licencję</value>
+  </data>
+  <data name="ClaimCampusLicensePreviousVersions" xml:space="preserve">
+    <value>Wywołanie licencji na poprzednia wersję Citavi</value>
+  </data>
+  <data name="ClaimCampusLicensePreviousVersionsError" xml:space="preserve">
+    <value>Masz już licencję na tę wersję Citavi.</value>
+  </data>
+  <data name="NoCampusContractLicenseFound" xml:space="preserve">
+    <value>Nie masz licencji grupowej.</value>
+  </data>
+  <data name="InvoiceNumber" xml:space="preserve">
+    <value>Numer faktury</value>
+  </data>
+  <data name="ConfirmProjectInvitationResult_Button" xml:space="preserve">
+    <value>Otwórz projekt</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="ConfirmProjectInvitationResult_Error" xml:space="preserve">
+    <value>Wystąpił błąd podczas potwierdzania zaproszenia. Prosimy skontaktować się z Pomocą Citavi.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="ConfirmProjectInvitationResult_OK" xml:space="preserve">
+    <value>Pomyślnie&lt;span class="segoeUiSemibold"&gt;{0}&lt;/span&gt; potwierdziłeś zaproszenie do projektu Citavi. &lt;br/&gt;&lt;br/&gt;W ten sposób uzyskujesz dostęp do projektu&lt;span class="segoeUiSemibold"&gt;{0}&lt;/span&gt;. &lt;br/&gt;&lt;ol&gt;&lt;li&gt;Uruchom Citavi 6 for Windows. &lt;/li&gt;&lt;li&gt;Kliknij ikonę w prawym górnym rogu ekranu startowego, aby zalogować się za pomocą swojego adresu e-mail. &lt;/li&gt;&lt;li&gt;Kliknij w dolnej części ekranu startowego na &lt;span class="segoeUiSemibold"&gt;Otwórz projekt&lt;/span&gt;&lt;/li&gt;&lt;li&gt;.Projekt&lt;span class="segoeUiSemibold"&gt;{0}&lt;/span&gt; znajdziesz w zakładce &lt;span class="segoeUiSemibold"&gt;Chmura&lt;/span&gt;.&lt;/li&gt;&lt;/ol&gt;&lt;br/&gt;Możesz teraz zamknąć tę stronę.&lt;br/&gt;&lt;br/&gt;Jeśli nie zainstalowałeś jeszcze Citavi, możesz go pobrać &lt;a href="//www.citavi.com/download" target="_blank"&gt;tutaj&lt;/a&gt;.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="ConfirmProjectInvitationResult_ProjectInvitationNotFound" xml:space="preserve">
+    <value>&lt;span class="segoeUiSemibold"&gt;Niestety, próba się nie powiodła. &lt;/span&gt;&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;                                                                   
+&lt;span class="segoeUiSemibold"&gt;Czy przyjąłeś już zaproszenie? &lt;/span&gt;&lt;br/&gt;
+Jeśli TAK: Uruchom Citavi. Kliknij przycisk Otwórz projekt. Projekt pojawia się na karcie Chmura. 
+&lt;br/&gt;&lt;br/&gt;
+&lt;span class="segoeUiSemibold"&gt;Jeśli NIE: &lt;/span&gt;&lt;br/&gt;
+Poproś nadawcę o ponowne przysłanie zaproszenia e-mailem. 
+&lt;br/&gt;&lt;br/&gt;
+&lt;span class="segoeUiSemibold"&gt;&lt;/span&gt;&lt;br/&gt;
+</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="ConfirmProjectInvitationResult_UserIsNotVerified" xml:space="preserve">
+    <value>Przyjąłeś zaproszenie do projektu Citavi. &lt;br/&gt; Zweryfikuj teraz swoje konto Citavi. W swojej skrzynce odbiorczej znajdziesz odpowiedni e-mail.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>edytuj</value>
+  </data>
+  <data name="RecipientUnknownNotified" xml:space="preserve">
+    <value>Odbiorca został automatycznie powiadomiony e-mailem. Nie ma on jednak jeszcze swojego konta. 
+&lt;br/&gt;&lt;br/&gt;
+Ten e-mail &lt;a id="resendAssignLicenseEmail"&gt;możesz wysłać jeszcze raz&lt;/a&gt;. 
+&lt;br/&gt;&lt;br/&gt;
+Możesz również podać inny adres e-mail, aby udzielić licencji nowemu odbiorcy. Wtedy ten pierwotny odbiorca nie otrzyma licencji.</value>
+  </data>
+  <data name="UserHasNoAccountYet" xml:space="preserve">
+    <value>Użytkownik nie utworzył jeszcze swojego konta.</value>
+  </data>
+  <data name="ConfirmProjectRestoredResult_OK" xml:space="preserve">
+    <value>Projekt "{0}" został przywrócony pomyślnie.</value>
+  </data>
+  <data name="EmailConfirmedMobile" xml:space="preserve">
+    <value>Zarejestrowałeś się pomyślnie. Teraz możesz się zalogować do aplikacji Citavi Mobile App przy użyciu swojej nazwy użytkownika i hasła.</value>
+  </data>
+  <data name="EmailConfirmedUsernamePassword" xml:space="preserve">
+    <value>Zarejestrowałeś się pomyślnie. Teraz możesz się zalogować do Citavi przy użyciu swojej nazwy użytkownika i hasła.</value>
+  </data>
+  <data name="ExternalClientDesktop" xml:space="preserve">
+    <value>Zarejestrowałeś się pomyślnie. Teraz możesz się zalogować do Citavi przy użyciu swojej nazwy użytkownika i hasła.</value>
+  </data>
+  <data name="ExternalClientMobile" xml:space="preserve">
+    <value>Zarejestrowałeś się pomyślnie. Teraz możesz się zalogować do aplikacji Citavi Mobile App przy użyciu swojej nazwy użytkownika i hasła.</value>
+  </data>
+  <data name="ActivateCitavi6" xml:space="preserve">
+    <value>Aby korzystać z licencji Citavi for Windows: 
+&lt;ol&gt;&lt;li&gt;zainstaluj program, jeżeli nie znajduje się on jeszcze na twoim komputerze. Plik instalacyjny dostępny jest na stronie: &lt;a href="https://www.citavi.com/download" target="_blank"&gt;www.citavi.com/download&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Uruchom Citavi i zaloguj się na swoje konto.&lt;/li&gt;&lt;li&gt;Citavi automatycznie pobierze licencję z naszych serwerów, nie trzeba robić nic więcej.&lt;/li&gt;&lt;/ol&gt;</value>
+  </data>
+  <data name="ActivateCitaviOldVersion" xml:space="preserve">
+    <value>Jest to licencja na starszą wersję Citavi. Zalecamy korzystanie z &lt;a href="https://www.citavi.com" target="_blank"&gt;Citavi 6&lt;/a&gt;.</value>
+  </data>
+  <data name="LoginWithMobile" xml:space="preserve">
+    <value>Zaloguj się przez</value>
+  </data>
+  <data name="OrLoginWithMobile" xml:space="preserve">
+    <value>albo podając</value>
+  </data>
+  <data name="RevokeLicense" xml:space="preserve">
+    <value>Odebrać licencję</value>
+  </data>
+  <data name="RevokeLicenseConfirm" xml:space="preserve">
+    <value>Odbierasz licencję &lt;b&gt;{0}&lt;/b&gt; na &lt;b&gt;{1}&lt;/b&gt;. Kontynuować?</value>
+    <comment>{0} is the email or the name of the user whose license will be revoked, {1} the product name (eg Citavi 6 for Windows - Business)</comment>
+  </data>
+  <data name="RevokeLicenseDescription" xml:space="preserve">
+    <value>Aby udzielić licencji innemu użytkownikowi: 
+&lt;ol&gt;&lt;li&gt;Odbierz licencję aktualnemu użytkownikowi. Okno to zostanie wtedy automatycznie zamknięte. &lt;/li&gt;&lt;li&gt;Następnie kliknij w prawej części ekranu na Udziel licencji użytkownikowi.&lt;/li&gt;</value>
+  </data>
+  <data name="EmailPresentMerge" xml:space="preserve">
+    <value>Jest już konto z tym adresem mailowym. Możesz je &lt;a id="mergeEmailAccount"&gt;połączyć z aktualnym kontem&lt;/a&gt;.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="RecoverDeletedProject_Error" xml:space="preserve">
+    <value>Albo wprowadziłeś błędny adres strony, albo projekt został skasowany przed ponad dziesięcioma dniami. Po tym okresie projekt nie może być niestety odtworzony, ponieważ wszystkie dane projektu zostały ostatecznie usunięte z naszego systemu.</value>
+  </data>
+  <data name="AlreadyHaveCitaviAccount" xml:space="preserve">
+    <value>Mam już konto Citavi:</value>
+  </data>
+  <data name="GoToLogin" xml:space="preserve">
+    <value>Idź do logowania.</value>
+  </data>
+  <data name="CreatedOn" xml:space="preserve">
+    <value>Utworzone w:</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="LicenseFilter_Assigned" xml:space="preserve">
+    <value>Przydzielony</value>
+  </data>
+  <data name="LicenseFilter_AssignedToMe" xml:space="preserve">
+    <value>Przydzielony do mnie</value>
+  </data>
+  <data name="LicenseFilter_CitaviForDBServer" xml:space="preserve">
+    <value>Citavi for DBServer</value>
+  </data>
+  <data name="LicenseFilter_CitaviForWindows" xml:space="preserve">
+    <value>Citavi for Windows</value>
+  </data>
+  <data name="LicenseFilter_Unused" xml:space="preserve">
+    <value>Nieużywany</value>
+  </data>
+  <data name="ExternalClientDesktopShibboleth" xml:space="preserve">
+    <value>Rejestracja się udała i możesz się teraz zalogować w Citavi pod "Moja uczelnia", używając Twoich uczelnianych danych dostępu.</value>
+  </data>
+  <data name="ExternalClientMobileShibboleth" xml:space="preserve">
+    <value>Rejestracja się udała i możesz się teraz zalogować w Citavi Mobile App pod "Moja uczelnia", używając twoich uczelnianych danych dostępu.</value>
+  </data>
+  <data name="SiteLicense" xml:space="preserve">
+    <value>Licencja lokalna</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="IAm_Logged" xml:space="preserve">
+    <value>Jestem:</value>
+    <comment>either "I am a student" or "I am a coworker"</comment>
+  </data>
+  <data name="MyOrganizationEmailAddress" xml:space="preserve">
+    <value>Mój służbowy adres e-mail</value>
+  </data>
+  <data name="DBServerChecklist" xml:space="preserve">
+    <value>Poszczególne kroki konfiguracji: &lt;a target="_blank" href="https://www.citavi.com/dbserver_checklist"&gt;www.citavi.com/dbserver_checklist&lt;/a&gt;</value>
+  </data>
+  <data name="RegistrationUpdateEmailDescription" xml:space="preserve">
+    <value>Jesteś zalogowany do Citavi przez swoją uczelnię (Shibboleth), jednakże podany przez Ciebie wcześniej adres e-mail jest niepoprawny.</value>
+  </data>
+  <data name="RegistrationUpdateEmailTitle" xml:space="preserve">
+    <value>Podaj prawidłowy adres e-mail:</value>
+  </data>
+  <data name="Shibboleth_Redirect" xml:space="preserve">
+    <value>Za kilka sekund zostaniesz automatycznie przeniesiony na stronę swojej uczelni.&lt;br/&gt;&lt;br/&gt;Zaloguj się przy użyciu nazwy użytkownika i hasła przypisanych do twojego konta uczelnianego.</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>(informacja)</value>
+  </data>
+  <data name="MergeAccounts" xml:space="preserve">
+    <value>Połącz konta</value>
+  </data>
+  <data name="BetaLoginInfo" xml:space="preserve">
+    <value>W wersji beta zalogowanie się za pomocą zewnętrznych dostawców nie jest możliwe.&lt;br/&gt;&lt;br/&gt;Zaloguj się za pomocą adresu e-mail i hasła.</value>
+  </data>
+  <data name="AutomaticRestartAfterMerge" xml:space="preserve">
+    <value>Po zakończeniu tej procedury konto Citavi automatycznie uruchomi się ponownie.</value>
+  </data>
+  <data name="PrivacyPolicy" xml:space="preserve">
+    <value>Polityka prywatności</value>
+  </data>
+  <data name="LoadFailedProject" xml:space="preserve">
+    <value>Projekt nie może być w tej chwili załadowany. Proszę spróbować później.</value>
+  </data>
+  <data name="License_Assigned" xml:space="preserve">
+    <value>Udziel</value>
+  </data>
+  <data name="License_Deactivate" xml:space="preserve">
+    <value>Wyłącz tę licencję z następnego przedłużenia</value>
+  </data>
+  <data name="License_NotAssigned" xml:space="preserve">
+    <value>Nie udzielaj</value>
+  </data>
+  <data name="License_ValidityPeriodUntil" xml:space="preserve">
+    <value>Ważna do</value>
+  </data>
+  <data name="Subscription" xml:space="preserve">
+    <value>Subskrybcja</value>
+  </data>
+  <data name="Subscriptions" xml:space="preserve">
+    <value>Subskrybcje</value>
+  </data>
+  <data name="Subscription_AddLicenses" xml:space="preserve">
+    <value>Dodaj licencje</value>
+  </data>
+  <data name="Subscription_CurrentValidityEnd" xml:space="preserve">
+    <value>Koniec bieżącej licencji</value>
+  </data>
+  <data name="Subscription_CurrentValidityEndOn" xml:space="preserve">
+    <value>Koniec bieżącej licencji</value>
+  </data>
+  <data name="Subscription_CurrentValidityPeriod" xml:space="preserve">
+    <value>Bieżący termin</value>
+  </data>
+  <data name="Subscription_Description" xml:space="preserve">
+    <value>Subskrybcja łączy w sobie licencje i inne produkty, które mają tę samą datę odnowienia. Oznacza to, że przy odnowieniu umowy otrzymasz jedną fakturę za wszystkie pozycje razem.</value>
+  </data>
+  <data name="Subscription_Licenses" xml:space="preserve">
+    <value>Licencje</value>
+  </data>
+  <data name="Subscription_NextValidityPeriod" xml:space="preserve">
+    <value>Następny okres</value>
+  </data>
+  <data name="Subscription_ValidityPeriod" xml:space="preserve">
+    <value>Okres</value>
+  </data>
+  <data name="Subscription_DueAmountOn" xml:space="preserve">
+    <value>Kwota obciążenia na dzień</value>
+  </data>
+  <data name="Subscription_EndSubscription" xml:space="preserve">
+    <value>Cofnij całą subskrybcję</value>
+  </data>
+  <data name="Subscription_LicenseSubscriptionEnded" xml:space="preserve">
+    <value>Subskrypcja, która zawiera tę licencję, została anulowana. Licencja jest nadal dostępna do końca bieżącego okresu.</value>
+  </data>
+  <data name="Subscription_ConfirmEndSubscription" xml:space="preserve">
+    <value>Licencje w tej subskrypcji są nadal dostępne do końca bieżącego okresu subskrypcji. Po zakończeniu bieżącego okresu subskrybcja z licencjami nie zostanie przedłużona.</value>
+  </data>
+  <data name="Subscription_SubscriptionEnded" xml:space="preserve">
+    <value>Subskrybcja została anulowana. Licencja jest nadal dostępna do końca bieżącego okresu.</value>
+  </data>
+  <data name="Subscription_NextRenewalOn" xml:space="preserve">
+    <value>Następne przedłużenie w dniu</value>
+  </data>
+  <data name="Subscription_RemoveLicenses" xml:space="preserve">
+    <value>Zrezygnuj z wybranych licencji</value>
+  </data>
+  <data name="Subscription_RemoveLicensesDescriptionHtml" xml:space="preserve">
+    <value>Postępuj zgodnie z następującą instrukcją:&lt;br/&gt;&lt;br/&gt;
+            &lt;ol&gt;
+                &lt;li&gt;Zamknij ten panel. Zobaczysz listę licencji zawartych w wybranej subskrypcji.&lt;/li&gt;
+                &lt;li&gt;W środkowym okienku wybierz licencję, którą chcesz usunąć z subskrypcji.&lt;/li&gt;
+                &lt;li&gt;Następnie kliknij na "{0}" w prawym dolnym rogu.&lt;/li&gt;                
+            &lt;/ol&gt;
+            &lt;br/&gt;            
+            Do końca obecnego okresu obowiązywania wyłączone licencje pozostają dostępne do użytku. W przypadku odnowienia subskrypcji, licencje te nie są uwzględniane.</value>
+  </data>
+  <data name="License_EditUser" xml:space="preserve">
+    <value>Zmień użytkownika</value>
+  </data>
+  <data name="License_Deactivated" xml:space="preserve">
+    <value>Ta licencja jest wyłączona z następnego odnowienia subskrypcji. Jest ona dostępna tylko do końca bieżącego okresu subskrypcji.</value>
+  </data>
+  <data name="License_Deactivate_Description" xml:space="preserve">
+    <value>Wyłączona licencja pozostanie dostępna do końca bieżącego okresu. Jeśli jednak subskrypcja zostanie przedłużona, licencja ta nie będzie załączona.</value>
+  </data>
+  <data name="License_Deactivate_Title" xml:space="preserve">
+    <value>Wyłącz tę licencję z następnego przedłużenia</value>
+  </data>
+  <data name="License_User" xml:space="preserve">
+    <value>Użytkownik</value>
+  </data>
+  <data name="License_Activate" xml:space="preserve">
+    <value>Dołącz licencję do następnego odnowienia subskrypcji.</value>
+  </data>
+  <data name="License_CloudSpace" xml:space="preserve">
+    <value>Przestrzeń dyskowa</value>
+  </data>
+  <data name="License_CloudspaceActivate" xml:space="preserve">
+    <value>Dołącz przestrzeń dyskową do następnego odnowienia subskrypcji.</value>
+  </data>
+  <data name="License_CloudSpaceAssignedTo" xml:space="preserve">
+    <value>Udziel przestrzeni dyskowej</value>
+  </data>
+  <data name="License_CloudspaceDeactivate" xml:space="preserve">
+    <value>Wyłącz tę przestrzeń dyskową z następnego przedłużenia</value>
+  </data>
+  <data name="License_CloudspaceDeactivated" xml:space="preserve">
+    <value>Ta przestrzeń dyskowa jest wyłączona z następnego odnowienia subskrypcji. Jest ona dostępna tylko do końca bieżącego okresu subskrypcji.</value>
+  </data>
+  <data name="License_ExcludeCloudspaceFromRenewal" xml:space="preserve">
+    <value>Wyłącz tę przestrzeń dyskową z następnego przedłużenia</value>
+  </data>
+  <data name="License_SpaceAvailable" xml:space="preserve">
+    <value>Dostępny</value>
+  </data>
+  <data name="License_UsedSpace" xml:space="preserve">
+    <value>Zużycie</value>
+  </data>
+  <data name="AssignCloudSpace" xml:space="preserve">
+    <value>&lt;a id="editUserData"&gt;Udziel przestrzeni dyskowej użytkownikowi&lt;/a&gt;</value>
+  </data>
+  <data name="License_ChangeUserNotAllowed_Description" xml:space="preserve">
+    <value>Aby móc zmienić użytkownika przestrzeni dyskowej, aktualny użytkownik musi całkowicie zwolnić swoją przestrzeń dyskową. Aby to zrobić, musi on usunąć tyle swoich projektów, ile to konieczne, aż do momentu, gdy wykorzysta tylko 1 GB darmowej przestrzeni.</value>
+  </data>
+  <data name="License_ChangeUserNotAllowed_Title" xml:space="preserve">
+    <value>Zmiana użytkownika nie jest możliwa</value>
+  </data>
+  <data name="LoginNotAllowed" xml:space="preserve">
+    <value>Logowanie na tym koncie Citavi jest obecnie zablokowane. 
+Jeśli jesteś właścicielem tego konta, zwróć się do suportu Citavi: 
+&lt;a href="https://www.citavi.com/service"&gt;https://www.citavi.com/service&lt;/a&gt;.</value>
+  </data>
+  <data name="InvalidEmailDomainAndEmailAlreadyPresent" xml:space="preserve">
+    <value>Nieprawidłowa domena e-mail, a adres już należy do tego konta</value>
+  </data>
+  <data name="Licenses_ChooseFilter" xml:space="preserve">
+    <value>Aby wyświetlić licencje, wybierz wpis w lewej kolumnie</value>
+  </data>
+  <data name="AssignLicenseTitle" xml:space="preserve">
+    <value>Udzielenie licencji</value>
+  </data>
+  <data name="ChangePasswordWarning" xml:space="preserve">
+    <value>&lt;span class="segoeUiSemibold"&gt;UWAGA&lt;/span&gt;: Jeśli zmienisz hasło, zostaniesz wylogowany ze wszystkich aktywnych sesji.&lt;br/&gt;Zamknij wszystkie sesje (np. Citavi Desktop Client for Windows) przed zakończeniem procesu.</value>
+  </data>
+  <data name="ResetPasswordWarning" xml:space="preserve">
+    <value>&lt;span class="segoeUiSemibold"&gt;UWAGA&lt;/span&gt;: Jeśli wpisujesz nowe hasło, zostaniesz wylogowany ze wszystkich aktywnych sesji&lt;br/&gt;Zamknij wszystkie sesje (np. Citavi Desktop Client for Windows) przed zakończeniem procesu.</value>
+  </data>
+  <data name="SetAsPrimaryAddress" xml:space="preserve">
+    <value>Ustaw jako adres główny</value>
+  </data>
+  <data name="AccountIsKeyContact" xml:space="preserve">
+    <value>Wprowadzony adres e-mail jest podany u nas jako osoba kontaktowa. Jeśli chcesz skonsolidować swoje konta lub przenieść je do współpracownika, napisz do &lt;a href="mailto:account@citavi.com"&gt;account@citavi.com&lt;/a&gt;.</value>
+  </data>
+  <data name="ConfirmProjectInvitationResult_OK_CWeb" xml:space="preserve">
+    <value>Pomyślnie potwierdziłeś zaproszenie do projektu Citavi &lt;span class="segoeUiSemibold"&gt;{0}&lt;/span&gt;. &lt;br/&gt;&lt;br/&gt; W ten sposób uzyskujesz dostęp do projektu  &lt;span class="segoeUiSemibold"&gt;{0}&lt;/span&gt;:&lt;br/&gt;&lt;ol&gt;&lt;li&gt;Uruchom Citavi 6 for Windows&lt;/li&gt;&lt;li&gt;Kliknij ikonę w prawym górnym rogu ekranu startowego, aby zalogować się za pomocą swojego adresu e-mail&lt;/li&gt;&lt;li&gt; Kliknij w dolnej części ekranu startowego na &lt;span class="segoeUiSemibold"&gt;Otwórz projekt&lt;/span&gt;.&lt;/li&gt;&lt;li&gt;Projekt &lt;span class="segoeUiSemibold"&gt;{0}&lt;/span&gt; znajdziesz w zakładce Chmura.&lt;/li&gt;&lt;/ol&gt;&lt;br/&gt;Jeśli nie zainstalowałeś jeszcze Citavi 6, możesz go pobrać &lt;a href="//www.citavi.com/download" target="_blank"&gt;tutaj&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;&lt;div class="grayLabel"&gt;&lt;b&gt;NOWOŚĆ:&lt;/b&gt;: 30 listopada 2020 r. rozpoczęliśmy testy beta Citavi Web. Teraz możesz edytować swoje projekty w chmurze również w przeglądarce.&lt;br/&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a id="readHereBeta"&gt;Przeczytaj najważniejsze fakty o Citavi Web Beta tutaj&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="/projects/{1}"&gt;Zaloguj się do Citavi Web Beta tutaj&lt;/a&gt;. Projekt chmury otworzy się automatycznie&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;br/&gt;. Możesz teraz zamknąć tę stronę.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="ConfirmProjectInvitationResult_OK_CWeb_Prod" xml:space="preserve">
+    <value>Pomyślnie potwierdziłeś zaproszenie do projektu Citavi &lt;span class="segoeUiSemibold"&gt;{0}&lt;/span&gt;. &lt;br/&gt;&lt;br/&gt; W ten sposób uzyskujesz dostęp do projektu  &lt;span class="segoeUiSemibold"&gt;{0}&lt;/span&gt;:&lt;br/&gt;&lt;ol&gt;&lt;li&gt;Uruchom Citavi 6 for Windows&lt;/li&gt;&lt;li&gt;Kliknij ikonę w prawym górnym rogu ekranu startowego, aby zalogować się za pomocą swojego adresu e-mail&lt;/li&gt;&lt;li&gt; Kliknij w dolnej części ekranu startowego na &lt;span class="segoeUiSemibold"&gt;Otwórz projekt&lt;/span&gt;.&lt;/li&gt;&lt;li&gt;Projekt &lt;span class="segoeUiSemibold"&gt;{0}&lt;/span&gt; znajdziesz w zakładce Chmura.&lt;/li&gt;&lt;/ol&gt;&lt;br/&gt;Jeśli nie zainstalowałeś jeszcze Citavi 6, możesz go pobrać &lt;a href="//www.citavi.com/download" target="_blank"&gt;tutaj&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;&lt;div class="grayLabel"&gt;&lt;b&gt;NOWOŚĆ:&lt;/b&gt;: 30 listopada 2020 r. rozpoczęliśmy testy beta Citavi Web. Teraz możesz edytować swoje projekty w chmurze również w przeglądarce.&lt;br/&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.citavi.com/manual-cweb"&gt;Przeczytaj najważniejsze fakty o Citavi Web Beta tutaj&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="/projects/{1}"&gt;Zaloguj się do Citavi Web Beta tutaj&lt;/a&gt;. Projekt chmury otworzy się automatycznie&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;br/&gt;. Możesz teraz zamknąć tę stronę.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="PasswordEqualsUsername" xml:space="preserve">
+    <value>Hasło nie może być takie samo jak nazwa użytkownika</value>
+  </data>
+  <data name="DesktopLoginSuccess" xml:space="preserve">
+    <value>&lt;ol&gt;&lt;li&gt;W oknie dialogowym Citavi for Windows wybierz żądaną opcję logowania i kliknij Dalej.&lt;/li&gt;&lt;li&gt;Po zakończeniu procesu logowania Citavi for Windows możesz zamknąć tę kartę przeglądarki.&lt;/li&gt;&lt;/ol&gt;</value>
+  </data>
+</root>

@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AskQuestion" xml:space="preserve">
+    <value>Posez une question…</value>
+  </data>
+  <data name="Blue" xml:space="preserve">
+    <value>Bleu</value>
+  </data>
+  <data name="Brown" xml:space="preserve">
+    <value>Violet</value>
+  </data>
+  <data name="CitaviWebsite" xml:space="preserve">
+    <value>Site web Citavi</value>
+  </data>
+  <data name="CurrentProjects" xml:space="preserve">
+    <value>Projets</value>
+  </data>
+  <data name="CurrentProjectsAZ" xml:space="preserve">
+    <value>Projets de A à Z</value>
+  </data>
+  <data name="DataProtection" xml:space="preserve">
+    <value>Politique de confidentialité</value>
+  </data>
+  <data name="DownloadCitaviForWindows" xml:space="preserve">
+    <value>Télécharger Citavi for Windows</value>
+  </data>
+  <data name="Gray" xml:space="preserve">
+    <value>Gris</value>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>Vert</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="LastUsedProjects" xml:space="preserve">
+    <value>Projets récents</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Chargement…</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Se déconnecter</value>
+  </data>
+  <data name="MergeAccounts" xml:space="preserve">
+    <value>Fusionner les comptes</value>
+  </data>
+  <data name="MissingInput" xml:space="preserve">
+    <value>Entrée manquante</value>
+  </data>
+  <data name="NavigationBar_Projects" xml:space="preserve">
+    <value>Projets</value>
+  </data>
+  <data name="NavigationBar_Settings" xml:space="preserve">
+    <value>Add-in et paramètres</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>Actualités</value>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Rouge</value>
+  </data>
+  <data name="RSSFeeds" xml:space="preserve">
+    <value>Flux RSS</value>
+  </data>
+  <data name="Saving" xml:space="preserve">
+    <value>Enregistrement…</value>
+  </data>
+  <data name="TermsOfUsage" xml:space="preserve">
+    <value>Conditions d'utilisation</value>
+  </data>
+  <data name="AskQuestionHere" xml:space="preserve">
+    <value>Posez une question ici…</value>
+  </data>
+  <data name="FeedRSS" xml:space="preserve">
+    <value>Flux RSS</value>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>Manuel</value>
+  </data>
+  <data name="SplitterTrigger_Projects_Left" xml:space="preserve">
+    <value>Sélection</value>
+  </data>
+  <data name="DeleteProjectConfirmation" xml:space="preserve">
+    <value>Voulez-vous vraiment supprimer le projet {0}, y compris toutes les pièces jointes ?</value>
+  </data>
+  <data name="ProjectManager" xml:space="preserve">
+    <value>Organisateur du projet</value>
+  </data>
+  <data name="ProjectOwner" xml:space="preserve">
+    <value>Propriétaire</value>
+  </data>
+  <data name="ShareProject" xml:space="preserve">
+    <value>Membres de l’équipe et validation</value>
+  </data>
+  <data name="CitaviNewsArchive" xml:space="preserve">
+    <value>Archives des nouvelles Citavi</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Temps restant : {0} secondes</value>
+    <comment>{0} ist das Wert in Sekunden (live aktualisiert via javascript)</comment>
+  </data>
+  <data name="ImportInWhichProject" xml:space="preserve">
+    <value>Dans quel projet souhaitez-vous importer les références ?</value>
+  </data>
+  <data name="RSSSettings" xml:space="preserve">
+    <value>Paramètres RSS</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Suivant</value>
+  </data>
+  <data name="OpenProject" xml:space="preserve">
+    <value>Créer</value>
+  </data>
+  <data name="ShareProjectLabel" xml:space="preserve">
+    <value>Partager un projet</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="InvalidUrl" xml:space="preserve">
+    <value>URL non valable</value>
+  </data>
+  <data name="RSSFeedAlreadyPresent" xml:space="preserve">
+    <value>L'URL du flux RSS trouvée existe déjà.</value>
+  </data>
+  <data name="RSSFeedUrl" xml:space="preserve">
+    <value>S’abonner au flux :</value>
+  </data>
+  <data name="RSSHiddenNewsVisibleAgain" xml:space="preserve">
+    <value>Les messages masqués ont bien été marqués comme non lus.</value>
+  </data>
+  <data name="RSSShowHiddenNews" xml:space="preserve">
+    <value>Afficher les messages RSS masqués</value>
+  </data>
+  <data name="RSSSubscribedFeeds" xml:space="preserve">
+    <value>Mes flux :</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Langue</value>
+  </data>
+  <data name="FeedsAreLoadedOverHttps" xml:space="preserve">
+    <value>Le flux sera chargé via https://</value>
+  </data>
+  <data name="RSSFeedLoadError" xml:space="preserve">
+    <value>Certains flux n'ont pas pu être chargés.</value>
+  </data>
+  <data name="Why" xml:space="preserve">
+    <value>Pourquoi ?</value>
+  </data>
+  <data name="WhyNot" xml:space="preserve">
+    <value>Pourquoi pas ?</value>
+  </data>
+  <data name="ResetReadNews" xml:space="preserve">
+    <value>Afficher les messages RSS masqués</value>
+  </data>
+  <data name="Tooltip_Import" xml:space="preserve">
+    <value>Importer</value>
+  </data>
+  <data name="Tooltip_MarkAsRead" xml:space="preserve">
+    <value>Masquer</value>
+  </data>
+  <data name="RSSFeedUrlPlaceholder" xml:space="preserve">
+    <value>Saisir l’URL du flux</value>
+  </data>
+  <data name="ImportReferencesEnd" xml:space="preserve">
+    <value>&lt;b&gt;La référence a été importée.&lt;/b&gt;&lt;br /&gt;Veuillez cliquer &lt;a&gt;ici&lt;/a&gt; pour l'afficher.</value>
+  </data>
+  <data name="ImportReferencesStart" xml:space="preserve">
+    <value>La référence est en cours d’importation. Vous serez prévenu(e) dès que l’opération sera terminée.</value>
+  </data>
+  <data name="DeleteFeed" xml:space="preserve">
+    <value>Ce flux et tous les
+messages qu’il a envoyés
+seront supprimés définitivement.
+Voulez-vous supprimer maintenant ?</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>Autre</value>
+  </data>
+  <data name="Others_FirstPublicationYear" xml:space="preserve">
+    <value>Pour la citation, l’année de la première publication sera prise en compte en priorité</value>
+  </data>
+  <data name="Others_FirstPublicationYear_Description" xml:space="preserve">
+    <value>au lieu de la date de publication actuelle d’une référence, v.</value>
+  </data>
+  <data name="RSSError" xml:space="preserve">
+    <value>Erreur</value>
+  </data>
+  <data name="HttpsUrlRequired" xml:space="preserve">
+    <value>L’URL doit commencer par « https:// ».</value>
+  </data>
+  <data name="ProjectCouldNotBeCreated" xml:space="preserve">
+    <value>Le projet n'a pas pu être créé. Veuillez réessayer.</value>
+  </data>
+  <data name="ProjectIsBeingCreated" xml:space="preserve">
+    <value>&lt;b&gt;Le projet va être créé.&lt;/b&gt;</value>
+  </data>
+  <data name="ProjectSuccessfullyCreated" xml:space="preserve">
+    <value>&lt;b&gt;Le projet a été créé.&lt;/b&gt;&lt;br/&gt;Veuillez cliquer &lt;a&gt;ici&lt;/a&gt;pour l'ouvrir.</value>
+  </data>
+  <data name="DeleteProjectConfirmationProjectName" xml:space="preserve">
+    <value>Pour confirmer, veuillez saisir le nom du projet :</value>
+  </data>
+  <data name="ProjectNameIsWrong" xml:space="preserve">
+    <value>Saisie incorrecte.</value>
+  </data>
+  <data name="AddIns" xml:space="preserve">
+    <value>Add-In pour Microsoft Word et Google Docs</value>
+  </data>
+  <data name="AddInsDescription" xml:space="preserve">
+    <value>Les Add-In sont utiles au moment de saisir des citations, car ils créent automatiquement la bibliographie.</value>
+  </data>
+  <data name="AddInsInstallationInstructions" xml:space="preserve">
+    <value>Consulter le manuel pour les remarques concernant l'installation des Add-In.</value>
+  </data>
+  <data name="InstallPicker" xml:space="preserve">
+    <value>Installer Picker</value>
+  </data>
+  <data name="MoreInfoInManual" xml:space="preserve">
+    <value>Consulter le manuel en ligne pour obtenir de plus amples informations.</value>
+  </data>
+  <data name="Picker" xml:space="preserve">
+    <value>Citavi Picker pour navigateur</value>
+  </data>
+  <data name="PickerDescription" xml:space="preserve">
+    <value>Le Picker vous permet d'importer des références et des citations depuis l'Internet.</value>
+  </data>
+  <data name="ShowNoMore" xml:space="preserve">
+    <value>Ne plus afficher</value>
+  </data>
+  <data name="AddIns_Criteria" xml:space="preserve">
+    <value>Add-in</value>
+  </data>
+  <data name="AddIns_Picker_Description" xml:space="preserve">
+    <value>Citavi Picker pour {0} vous permet de transférer des contenus venant d'Internet dans vos projets Citavi.</value>
+  </data>
+  <data name="AddIns_Picker_Install" xml:space="preserve">
+    <value>Installer Picker</value>
+  </data>
+  <data name="AddIns_WordAssistant" xml:space="preserve">
+    <value>Assistant Word</value>
+  </data>
+  <data name="AddIns_WordAssistant_Description" xml:space="preserve">
+    <value>Avec l'assistant Word de Citavi, vous insérez les références et les citations dans votre document Word. L'assistant Word crée automatiquement la bibliographie.</value>
+  </data>
+  <data name="AddIns_WordAssistant_Install" xml:space="preserve">
+    <value>Installer l'assistant Word</value>
+  </data>
+  <data name="MoreInfo" xml:space="preserve">
+    <value>En savoir plus</value>
+  </data>
+  <data name="IsDesktopDefinition" xml:space="preserve">
+    <value>Citavi utilise les paramètres que vous avez défini dans votre version de bureau.</value>
+  </data>
+  <data name="Import_Others" xml:space="preserve">
+    <value>D'autres programmes de gestion de références</value>
+  </data>
+</root>

@@ -1,0 +1,3090 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Alignment_Center" xml:space="preserve">
+    <value>Centrato</value>
+  </data>
+  <data name="Alignment_Justify" xml:space="preserve">
+    <value>Giustificato</value>
+  </data>
+  <data name="Alignment_Left" xml:space="preserve">
+    <value>Allineato a sinistra</value>
+  </data>
+  <data name="Alignment_Right" xml:space="preserve">
+    <value>Allineato a destra</value>
+  </data>
+  <data name="AppendIdentifyingLetterTo_Auto" xml:space="preserve">
+    <value>Automatico</value>
+  </data>
+  <data name="AppendIdentifyingLetterTo_CitationKey" xml:space="preserve">
+    <value>Riferimento breve</value>
+  </data>
+  <data name="AppendIdentifyingLetterTo_Year" xml:space="preserve">
+    <value>Anno</value>
+  </data>
+  <data name="AutoFirstLetterCapitalization_Always" xml:space="preserve">
+    <value>Dopo ogni inizio di frase</value>
+  </data>
+  <data name="AutoFirstLetterCapitalization_None" xml:space="preserve">
+    <value>Mai</value>
+  </data>
+  <data name="AutoFirstLetterCapitalization_StartTextInFootnotesForAllElements" xml:space="preserve">
+    <value>All'inizio di note a piè di pagina</value>
+  </data>
+  <data name="AutoFirstLetterCapitalization_StartTextInFootnotesForLiteralElements" xml:space="preserve">
+    <value>All'inizio di note a piè di pagina, solo nel caso di testi statici ("ibid.")</value>
+  </data>
+  <data name="BackupFolderPathDialogContext_DirectoryDoesNotExist" xml:space="preserve">
+    <value>La cartella "{0}" in cui si vogliono salvare le copie di backup non è più esistente o valida. Creare una cartella valida per le copie di backup di Citavi.</value>
+  </data>
+  <data name="BackupFolderPathDialogContext_NoWritePermission" xml:space="preserve">
+    <value>Nessun permesso di scrittura per la cartella "{0}" in cui si vogliono salvare le copie di backup. Creare una cartella valida per le copie di backup di Citavi.</value>
+  </data>
+  <data name="BackupFolderPathDialogContext_PathIsEmpty" xml:space="preserve">
+    <value>Stabilire in quale cartella Citavi salverà in futuro le copie di backup. Prestare attenzione al testo di supporto a sinistra.</value>
+  </data>
+  <data name="BackupFolderPathDialogContext_UserSettingsManagement" xml:space="preserve">
+    <value>Stabilire in quale cartella Citavi deve salvare le copie di backup. Prestare attenzione anche al testo di supporto a destra.</value>
+  </data>
+  <data name="ColorScheme_Brown" xml:space="preserve">
+    <value>Marrone</value>
+  </data>
+  <data name="ColorScheme_Blue" xml:space="preserve">
+    <value>Blu</value>
+  </data>
+  <data name="ColorScheme_Grey" xml:space="preserve">
+    <value>Grigio</value>
+  </data>
+  <data name="ColorScheme_Red" xml:space="preserve">
+    <value>Rosso</value>
+  </data>
+  <data name="ColorScheme_Green" xml:space="preserve">
+    <value>Verde</value>
+  </data>
+  <data name="ColorScheme_Yellow" xml:space="preserve">
+    <value>Arancione</value>
+  </data>
+  <data name="CompareType_DateTime" xml:space="preserve">
+    <value>Secondo la data contenuta nel campo</value>
+  </data>
+  <data name="CompareType_Number" xml:space="preserve">
+    <value>Secondo la cifra contenuta nel campo</value>
+  </data>
+  <data name="CompareType_Text" xml:space="preserve">
+    <value>Alfabetico</value>
+  </data>
+  <data name="ConcentrationArea_All" xml:space="preserve">
+    <value>Tutte le discipline</value>
+  </data>
+  <data name="ConcentrationArea_AppliedSciencesAndEngineering" xml:space="preserve">
+    <value>Scienze e Tecnologie applicate</value>
+  </data>
+  <data name="ConcentrationArea_ArtMusicAndTheatre" xml:space="preserve">
+    <value>Discipline delle Arti, della Musica e del Teatro</value>
+  </data>
+  <data name="ConcentrationArea_EarthSciences" xml:space="preserve">
+    <value>Scienze della terra</value>
+  </data>
+  <data name="ConcentrationArea_Economics" xml:space="preserve">
+    <value>Scienze economiche</value>
+  </data>
+  <data name="ConcentrationArea_EducationAndPsychology" xml:space="preserve">
+    <value>Pedagogia e Psicologia</value>
+  </data>
+  <data name="ConcentrationArea_General" xml:space="preserve">
+    <value>Generale</value>
+  </data>
+  <data name="ConcentrationArea_History" xml:space="preserve">
+    <value>Storia</value>
+  </data>
+  <data name="ConcentrationArea_LanguageAndLiteratureSciences" xml:space="preserve">
+    <value>Lingue e Letterature straniere</value>
+  </data>
+  <data name="ConcentrationArea_Law" xml:space="preserve">
+    <value>Diritto</value>
+  </data>
+  <data name="ConcentrationArea_MathematicsAndComputerScience" xml:space="preserve">
+    <value>Matematica e Informatica</value>
+  </data>
+  <data name="ConcentrationArea_MedicinePharmacyAndNursing" xml:space="preserve">
+    <value>Medicina, Farmacia e Scienze delle Professioni Sanitarie</value>
+  </data>
+  <data name="ConcentrationArea_NaturalSciences" xml:space="preserve">
+    <value>Scienze naturali</value>
+  </data>
+  <data name="ConcentrationArea_Philosophy" xml:space="preserve">
+    <value>Filosofia</value>
+  </data>
+  <data name="ConcentrationArea_SociologyAndPoliticalScience" xml:space="preserve">
+    <value>Scienze Sociali e Politiche</value>
+  </data>
+  <data name="ConcentrationArea_SportsScience" xml:space="preserve">
+    <value>Scienze dello sport</value>
+  </data>
+  <data name="ConcentrationArea_Theology" xml:space="preserve">
+    <value>Scienze delle Religioni</value>
+  </data>
+  <data name="ConcentrationArea_VeterinaryMedicine" xml:space="preserve">
+    <value>Medicina Veterinaria</value>
+  </data>
+  <data name="DateOfPublicationType_AllYears" xml:space="preserve">
+    <value>Tutti gli anni</value>
+  </data>
+  <data name="DatePublishedPosition_AuthorTitlePlaceYear" xml:space="preserve">
+    <value>La data di pubblicazione compare dopo il titolo</value>
+  </data>
+  <data name="DatePublishedPosition_AuthorYearTitlePlace" xml:space="preserve">
+    <value>La data di pubblicazione compare prima del titolo</value>
+  </data>
+  <data name="DatePublishedPosition_Unspecified" xml:space="preserve">
+    <value>Nessuna indicazione</value>
+  </data>
+  <data name="ElementApplyCondition_Always" xml:space="preserve">
+    <value>sempre</value>
+    <comment>likely corpses / JHP: NO they are needed</comment>
+  </data>
+  <data name="ElementApplyCondition_AnyElementInComponentHasData" xml:space="preserve">
+    <value>un elemento in questa componente contiene</value>
+    <comment>likely corpses / JHP: NO they are needed</comment>
+  </data>
+  <data name="ElementApplyCondition_NextElementHasData" xml:space="preserve">
+    <value>l'elemento seguente contiene dati</value>
+    <comment>likely corpses / JHP: NO they are needed</comment>
+  </data>
+  <data name="ElementApplyCondition_PreviousAndNextElementsHaveData" xml:space="preserve">
+    <value>l'elemento precedente e quello seguente contengono dati</value>
+    <comment>likely corpses / JHP: NO they are needed</comment>
+  </data>
+  <data name="ElementApplyCondition_PreviousElementHasData" xml:space="preserve">
+    <value>l'elemento precedente contiene dati</value>
+    <comment>likely corpses / JHP: NO they are needed</comment>
+  </data>
+  <data name="FavoriteListSortType_ConcentrationArea" xml:space="preserve">
+    <value>Dopo ogni disciplina</value>
+  </data>
+  <data name="FavoriteListSortType_Language" xml:space="preserve">
+    <value>Dopo ogni lingua</value>
+  </data>
+  <data name="FavoriteListSortType_Layout" xml:space="preserve">
+    <value>Dopo il layout</value>
+  </data>
+  <data name="FinalCharacter_FullStop" xml:space="preserve">
+    <value>. (Punto)</value>
+  </data>
+  <data name="FinalCharacter_None" xml:space="preserve">
+    <value>Senza segno di interpunzione</value>
+  </data>
+  <data name="FinalCharacter_Semicolon" xml:space="preserve">
+    <value>; (punto e virgola)</value>
+  </data>
+  <data name="FirstNameAbbreviation_Abbreviated" xml:space="preserve">
+    <value>Abbreviato: Miller, J.</value>
+  </data>
+  <data name="FirstNameAbbreviation_NotAbbreviated" xml:space="preserve">
+    <value>Non abbreviato: Miller, Joe</value>
+  </data>
+  <data name="FirstNameAbbreviation_Unspecified" xml:space="preserve">
+    <value>Nessuna indicazione</value>
+  </data>
+  <data name="FirstNameFormatInfo_AbbreviationString" xml:space="preserve">
+    <value>Sigla</value>
+  </data>
+  <data name="FirstNameFormatInfo_FontStyle" xml:space="preserve">
+    <value>Stile del carattere</value>
+  </data>
+  <data name="FirstNameFormatInfo_IsAbbreviated" xml:space="preserve">
+    <value>Abbreviare</value>
+  </data>
+  <data name="FontStyle_AllCaps" xml:space="preserve">
+    <value>Lettere maiuscole</value>
+  </data>
+  <data name="FontStyle_Bold" xml:space="preserve">
+    <value>Grassetto</value>
+  </data>
+  <data name="FontStyle_DoubleUnderline" xml:space="preserve">
+    <value>Doppia sottolineatura</value>
+  </data>
+  <data name="FontStyle_Italic" xml:space="preserve">
+    <value>Corsivo</value>
+  </data>
+  <data name="FontStyle_Neutral" xml:space="preserve">
+    <value>Neutro</value>
+  </data>
+  <data name="FontStyle_SameAsNext" xml:space="preserve">
+    <value>Identico al prossimo stile</value>
+  </data>
+  <data name="FontStyle_SameAsPrevious" xml:space="preserve">
+    <value>Identico allo stile precedente</value>
+  </data>
+  <data name="FontStyle_SmallCaps" xml:space="preserve">
+    <value>Maiuscoletto</value>
+  </data>
+  <data name="FontStyle_StrikeThrough" xml:space="preserve">
+    <value>Barrato</value>
+  </data>
+  <data name="FontStyle_Subscript" xml:space="preserve">
+    <value>Pedice</value>
+  </data>
+  <data name="FontStyle_Superscript" xml:space="preserve">
+    <value>Apice</value>
+  </data>
+  <data name="FontStyle_Underline" xml:space="preserve">
+    <value>Sottolineato</value>
+  </data>
+  <data name="ImportFieldType_Abstract" xml:space="preserve">
+    <value>Abstract</value>
+  </data>
+  <data name="ImportFieldType_AbstractRtf" xml:space="preserve">
+    <value>Abstract (RTF)</value>
+  </data>
+  <data name="ImportFieldType_AccessDate" xml:space="preserve">
+    <value>Data di consultazione</value>
+  </data>
+  <data name="ImportFieldType_Additions" xml:space="preserve">
+    <value>Contributi</value>
+  </data>
+  <data name="ImportFieldType_PrivateCollectionItemCallNumber" xml:space="preserve">
+    <value>Collezione privata: Segnatura</value>
+  </data>
+  <data name="ImportFieldType_PrivateCollectionItemLocation" xml:space="preserve">
+    <value>Collezione privata: Archivio</value>
+  </data>
+  <data name="ImportFieldType_PrivateCollectionItemNotes" xml:space="preserve">
+    <value>Collezione privata: Annotazioni</value>
+  </data>
+  <data name="ImportFieldType_AuthorsFirstName" xml:space="preserve">
+    <value>{0}: Nome</value>
+  </data>
+  <data name="ImportFieldType_AuthorsFullName" xml:space="preserve">
+    <value>{0}: Nome</value>
+  </data>
+  <data name="ImportFieldType_AuthorsLastName" xml:space="preserve">
+    <value>{0}: Cognome</value>
+  </data>
+  <data name="ImportFieldType_AuthorsMiddleName" xml:space="preserve">
+    <value>{0}: Secondo nome</value>
+  </data>
+  <data name="ImportFieldType_AuthorsNotes" xml:space="preserve">
+    <value>{0}: Annotazioni</value>
+  </data>
+  <data name="ImportFieldType_AuthorsPrefix" xml:space="preserve">
+    <value>{0}: Prefisso</value>
+  </data>
+  <data name="ImportFieldType_AuthorsSuffix" xml:space="preserve">
+    <value>{0}: Suffisso</value>
+  </data>
+  <data name="ImportFieldType_AuthorsTitle" xml:space="preserve">
+    <value>{0}: Titolo</value>
+  </data>
+  <data name="ImportFieldType_BibTeXKey" xml:space="preserve">
+    <value>chiave BibTeX</value>
+  </data>
+  <data name="ImportFieldType_Categories" xml:space="preserve">
+    <value>Categorie</value>
+  </data>
+  <data name="ImportFieldType_CollaboratorsFirstName" xml:space="preserve">
+    <value>{0}: Nome</value>
+  </data>
+  <data name="ImportFieldType_CollaboratorsFullName" xml:space="preserve">
+    <value>{0}: Nome</value>
+  </data>
+  <data name="ImportFieldType_CollaboratorsLastName" xml:space="preserve">
+    <value>{0}: Cognome</value>
+  </data>
+  <data name="ImportFieldType_CollaboratorsMiddleName" xml:space="preserve">
+    <value>{0}: Secondo nome</value>
+  </data>
+  <data name="ImportFieldType_CollaboratorsNotes" xml:space="preserve">
+    <value>{0}: Annotazioni</value>
+  </data>
+  <data name="ImportFieldType_CollaboratorsPrefix" xml:space="preserve">
+    <value>{0}: Prefisso</value>
+  </data>
+  <data name="ImportFieldType_CollaboratorsSuffix" xml:space="preserve">
+    <value>{0}: Suffisso</value>
+  </data>
+  <data name="ImportFieldType_CollaboratorsTitle" xml:space="preserve">
+    <value>{0}: Titolo</value>
+  </data>
+  <data name="ImportFieldType_Evaluation" xml:space="preserve">
+    <value>Valutazione</value>
+  </data>
+  <data name="ImportFieldType_CoverFilePath" xml:space="preserve">
+    <value>Cover (File)</value>
+  </data>
+  <data name="ImportFieldType_CreatedBy" xml:space="preserve">
+    <value>Creato da/in data</value>
+  </data>
+  <data name="ImportFieldType_EditorsFirstName" xml:space="preserve">
+    <value>{0}: Nome</value>
+  </data>
+  <data name="ImportFieldType_EditorsFullName" xml:space="preserve">
+    <value>{0}: Nome</value>
+  </data>
+  <data name="ImportFieldType_EditorsLastName" xml:space="preserve">
+    <value>{0}: Cognome</value>
+  </data>
+  <data name="ImportFieldType_EditorsMiddleName" xml:space="preserve">
+    <value>{0}: Secondo nome</value>
+  </data>
+  <data name="ImportFieldType_EditorsNotes" xml:space="preserve">
+    <value>{0}: Annotazioni</value>
+  </data>
+  <data name="ImportFieldType_EditorsPrefix" xml:space="preserve">
+    <value>{0}: Prefisso</value>
+  </data>
+  <data name="ImportFieldType_EditorsSuffix" xml:space="preserve">
+    <value>{0}: Suffisso</value>
+  </data>
+  <data name="ImportFieldType_EditorsTitle" xml:space="preserve">
+    <value>{0}: Titolo</value>
+  </data>
+  <data name="ImportFieldType_EndPage" xml:space="preserve">
+    <value>Pagina fino a</value>
+  </data>
+  <data name="ImportFieldType_FileLink" xml:space="preserve">
+    <value>File locale</value>
+  </data>
+  <data name="ImportFieldType_CustomField1" xml:space="preserve">
+    <value>Campo libero 1</value>
+  </data>
+  <data name="ImportFieldType_CustomField2" xml:space="preserve">
+    <value>Campo libero 2</value>
+  </data>
+  <data name="ImportFieldType_CustomField3" xml:space="preserve">
+    <value>Campo libero 3</value>
+  </data>
+  <data name="ImportFieldType_CustomField4" xml:space="preserve">
+    <value>Campo libero 4</value>
+  </data>
+  <data name="ImportFieldType_ImportID" xml:space="preserve">
+    <value>Import-ID</value>
+  </data>
+  <data name="ImportFieldType_InternetLink" xml:space="preserve">
+    <value>Indirizzo Web</value>
+  </data>
+  <data name="ImportFieldType_IntranetLink" xml:space="preserve">
+    <value>Indirizzo in Intranet</value>
+  </data>
+  <data name="ImportFieldType_PeriodicalIssn" xml:space="preserve">
+    <value>{0}: ISSN</value>
+  </data>
+  <data name="ImportFieldType_PeriodicalName" xml:space="preserve">
+    <value>{0}: Nome</value>
+  </data>
+  <data name="ImportFieldType_PeriodicalNotes" xml:space="preserve">
+    <value>{0}: Annotazioni</value>
+  </data>
+  <data name="ImportFieldType_PeriodicalStandardAbbreviation" xml:space="preserve">
+    <value>{0}: Abbreviazione 1</value>
+  </data>
+  <data name="ImportFieldType_PeriodicalUserAbbreviation1" xml:space="preserve">
+    <value>{0}: Abbreviazione 2</value>
+  </data>
+  <data name="ImportFieldType_PeriodicalUserAbbreviation2" xml:space="preserve">
+    <value>{0}: Abbreviazione 3</value>
+  </data>
+  <data name="ImportFieldType_Keywords" xml:space="preserve">
+    <value>Parole chiave</value>
+  </data>
+  <data name="ImportFieldType_Language" xml:space="preserve">
+    <value>Lingua</value>
+  </data>
+  <data name="ImportFieldType_LocationCallNumber" xml:space="preserve">
+    <value>Collocazione: Segnatura</value>
+  </data>
+  <data name="ImportFieldType_LocationLibrary" xml:space="preserve">
+    <value>Collocazione: Biblioteca</value>
+  </data>
+  <data name="ImportFieldType_LocationNotes" xml:space="preserve">
+    <value>Collocazione: Nota</value>
+  </data>
+  <data name="ImportFieldType_None" xml:space="preserve">
+    <value>Non importare</value>
+  </data>
+  <data name="ImportFieldType_Notes" xml:space="preserve">
+    <value>Annotazioni</value>
+  </data>
+  <data name="ImportFieldType_PageCount" xml:space="preserve">
+    <value>Numero pagine</value>
+  </data>
+  <data name="ImportFieldType_OriginalPublication" xml:space="preserve">
+    <value>Prima pubblicazione</value>
+  </data>
+  <data name="ImportFieldType_OthersInvolvedFirstName" xml:space="preserve">
+    <value>Ulteriori collaboratori: Nome</value>
+  </data>
+  <data name="ImportFieldType_OthersInvolvedFullName" xml:space="preserve">
+    <value>Ulteriori collaboratori: Nome</value>
+  </data>
+  <data name="ImportFieldType_OthersInvolvedLastName" xml:space="preserve">
+    <value>Ulteriori collaboratori: Cognome</value>
+  </data>
+  <data name="ImportFieldType_OthersInvolvedMiddleName" xml:space="preserve">
+    <value>Ulteriori collaboratori: Secondo nome</value>
+  </data>
+  <data name="ImportFieldType_OthersInvolvedNotes" xml:space="preserve">
+    <value>Ulteriori collaboratori: Annotazioni</value>
+  </data>
+  <data name="ImportFieldType_OthersInvolvedPrefix" xml:space="preserve">
+    <value>Ulteriori collaboratori: Prefisso</value>
+  </data>
+  <data name="ImportFieldType_OthersInvolvedSuffix" xml:space="preserve">
+    <value>Ulteriori collaboratori: Suffisso</value>
+  </data>
+  <data name="ImportFieldType_OthersInvolvedTitle" xml:space="preserve">
+    <value>Ulteriori collaboratori: Titolo</value>
+  </data>
+  <data name="ImportFieldType_ParallelTitle" xml:space="preserve">
+    <value>Titolo parallelo</value>
+  </data>
+  <data name="ImportFieldType_ParentReferenceEditorsFullName" xml:space="preserve">
+    <value>Opera collettiva: Curatore</value>
+  </data>
+  <data name="ImportFieldType_ParentReferenceID" xml:space="preserve">
+    <value>Contenuto in (Import-Id)</value>
+  </data>
+  <data name="ImportFieldType_ParentReferenceIsbn" xml:space="preserve">
+    <value>Opera collettiva: ISBN</value>
+  </data>
+  <data name="ImportFieldType_ParentReferencePlaceOfPublication" xml:space="preserve">
+    <value>Opera collettiva: Luogo di pubblicazione</value>
+  </data>
+  <data name="ImportFieldType_ParentReferencePublishers" xml:space="preserve">
+    <value>Opera collettiva: Casa editrice</value>
+  </data>
+  <data name="ImportFieldType_ParentReferenceSeriesTitle" xml:space="preserve">
+    <value>Opera collettiva: Titolo della collana</value>
+  </data>
+  <data name="ImportFieldType_ParentReferenceTitle" xml:space="preserve">
+    <value>Opera collettiva: Titolo</value>
+  </data>
+  <data name="ImportFieldType_ParentReferenceYear" xml:space="preserve">
+    <value>Opera collettiva: Anno</value>
+  </data>
+  <data name="ImportFieldType_Price" xml:space="preserve">
+    <value>Prezzo</value>
+  </data>
+  <data name="ImportFieldType_QuotationCoreStatement" xml:space="preserve">
+    <value>Citazione: messaggio centrale</value>
+  </data>
+  <data name="ImportFieldType_QuotationCategory" xml:space="preserve">
+    <value>Citazione: Categoria</value>
+  </data>
+  <data name="ImportFieldType_QuotationPageRange" xml:space="preserve">
+    <value>Citazione: Pagine</value>
+  </data>
+  <data name="ImportFieldType_QuotationText" xml:space="preserve">
+    <value>Citazione: Testo</value>
+  </data>
+  <data name="ImportFieldType_QuotationTextRtf" xml:space="preserve">
+    <value>Citazione: Testo (Rtf)</value>
+  </data>
+  <data name="ImportFieldType_ReferenceType" xml:space="preserve">
+    <value>Tipo di documento</value>
+  </data>
+  <data name="ImportFieldType_TextLinks" xml:space="preserve">
+    <value>Ulteriori rinvii</value>
+  </data>
+  <data name="ImportFieldType_ReviewingReferenceID" xml:space="preserve">
+    <value>Recensione: Recensito in (Import-Id)</value>
+    <comment>TODO EntityLinks</comment>
+  </data>
+  <data name="ImportFieldType_SetLabel1" xml:space="preserve">
+    <value>Marcatura blu</value>
+  </data>
+  <data name="ImportFieldType_SetLabel2" xml:space="preserve">
+    <value>Marcatura rossa</value>
+  </data>
+  <data name="ImportFieldType_ShortTitle" xml:space="preserve">
+    <value>Titolo breve</value>
+  </data>
+  <data name="ImportFieldType_StartPage" xml:space="preserve">
+    <value>Pagina da</value>
+  </data>
+  <data name="ImportFieldType_TaskDueDate" xml:space="preserve">
+    <value>Compito: Data</value>
+  </data>
+  <data name="ImportFieldType_TaskImportance" xml:space="preserve">
+    <value>Compito: Importanza</value>
+  </data>
+  <data name="ImportFieldType_TaskNotes" xml:space="preserve">
+    <value>Compito: Annotazioni</value>
+  </data>
+  <data name="ImportFieldType_TaskState" xml:space="preserve">
+    <value>Compito: Status</value>
+  </data>
+  <data name="ImportFieldType_TaskType" xml:space="preserve">
+    <value>Compito: Tipo</value>
+  </data>
+  <data name="ImportFieldType_TitleInOtherLanguages" xml:space="preserve">
+    <value>Titolo in altre lingue</value>
+  </data>
+  <data name="ImportFieldType_SourceOfBibliographicInformation" xml:space="preserve">
+    <value>Fonte</value>
+  </data>
+  <data name="ImportFieldType_TableOfContents" xml:space="preserve">
+    <value>Indice</value>
+  </data>
+  <data name="ImportFieldType_TableOfContentsRtf" xml:space="preserve">
+    <value>Indice (RTF)</value>
+  </data>
+  <data name="ImportFieldType_CitationKey" xml:space="preserve">
+    <value>Riferimento breve</value>
+  </data>
+  <data name="ImportFieldType_TranslatedTitle" xml:space="preserve">
+    <value>Traduzione del titolo</value>
+  </data>
+  <data name="ImportFieldType_UniformTitle" xml:space="preserve">
+    <value>Titolo normalizzato</value>
+  </data>
+  <data name="ImportReferenceType_ArchiveMaterial" xml:space="preserve">
+    <value>Documento d'archivio</value>
+  </data>
+  <data name="ImportReferenceType_AudioBook" xml:space="preserve">
+    <value>Audiolibro</value>
+  </data>
+  <data name="ImportReferenceType_AudioOrVideoDocument" xml:space="preserve">
+    <value>Materiale audio o video</value>
+  </data>
+  <data name="ImportReferenceType_RadioPlay" xml:space="preserve">
+    <value>Radiodramma</value>
+  </data>
+  <data name="ImportReferenceType_BookEdited" xml:space="preserve">
+    <value>Libro (Raccolta)</value>
+  </data>
+  <data name="ImportReferenceType_CollectedWorks" xml:space="preserve">
+    <value>Opere di un autore</value>
+  </data>
+  <data name="ImportReferenceType_ComputerProgram" xml:space="preserve">
+    <value>Software</value>
+  </data>
+  <data name="ImportReferenceType_ConferenceProceedings" xml:space="preserve">
+    <value>Atti del convegno</value>
+  </data>
+  <data name="ImportReferenceType_ContributionInBookEdited" xml:space="preserve">
+    <value>Contributo nella raccolta</value>
+  </data>
+  <data name="ImportReferenceType_ContributionInCollectedWorks" xml:space="preserve">
+    <value>Contributo in opere di un autore</value>
+  </data>
+  <data name="ImportReferenceType_ContributionInConferenceProceedings" xml:space="preserve">
+    <value>Contributo negli Atti del convegno</value>
+  </data>
+  <data name="ImportReferenceType_ContributionInLegalCommentary" xml:space="preserve">
+    <value>Contributo in Commento alla legge</value>
+  </data>
+  <data name="ImportReferenceType_CourtDecision" xml:space="preserve">
+    <value>Sentenza</value>
+  </data>
+  <data name="ImportReferenceType_InternetDocument" xml:space="preserve">
+    <value>Documento Internet</value>
+  </data>
+  <data name="ImportReferenceType_InterviewMaterial" xml:space="preserve">
+    <value>Materiale da intervista</value>
+  </data>
+  <data name="ImportReferenceType_JournalArticle" xml:space="preserve">
+    <value>Articolo pubblicato su rivista</value>
+  </data>
+  <data name="ImportReferenceType_Lecture" xml:space="preserve">
+    <value>Conferenza</value>
+  </data>
+  <data name="ImportReferenceType_LegalCommentary" xml:space="preserve">
+    <value>Commento alla legge</value>
+  </data>
+  <data name="ImportReferenceType_Manuscript" xml:space="preserve">
+    <value>Manoscritto</value>
+  </data>
+  <data name="ImportReferenceType_Map" xml:space="preserve">
+    <value>Carta geografica</value>
+  </data>
+  <data name="ImportReferenceType_Book" xml:space="preserve">
+    <value>Libro (Monografia)</value>
+  </data>
+  <data name="ImportReferenceType_Movie" xml:space="preserve">
+    <value>Lungometraggio</value>
+  </data>
+  <data name="ImportReferenceType_MusicTrack" xml:space="preserve">
+    <value>Titolo musicale in</value>
+  </data>
+  <data name="ImportReferenceType_NewsAgencyReport" xml:space="preserve">
+    <value>Comunicato d'agenzia</value>
+  </data>
+  <data name="ImportReferenceType_NewspaperArticle" xml:space="preserve">
+    <value>Articolo di giornale</value>
+  </data>
+  <data name="ImportReferenceType_Patent" xml:space="preserve">
+    <value>Brevetto</value>
+  </data>
+  <data name="ImportReferenceType_PersonalCommunication" xml:space="preserve">
+    <value>Comunicazione personale</value>
+  </data>
+  <data name="ImportReferenceType_PressRelease" xml:space="preserve">
+    <value>Comunicato stampa</value>
+  </data>
+  <data name="ImportReferenceType_Broadcast" xml:space="preserve">
+    <value>Trasmissione radiofonica o televisiva</value>
+  </data>
+  <data name="ImportReferenceType_File" xml:space="preserve">
+    <value>Atti</value>
+  </data>
+  <data name="ImportReferenceType_MusicAlbum" xml:space="preserve">
+    <value>Opera musicale / Album musicale</value>
+  </data>
+  <data name="ImportReferenceType_SpecialIssue" xml:space="preserve">
+    <value>Edizione speciale, Supplemento</value>
+  </data>
+  <data name="ImportReferenceType_Standard" xml:space="preserve">
+    <value>Norma</value>
+  </data>
+  <data name="ImportReferenceType_StatuteOrRegulation" xml:space="preserve">
+    <value>Legge / Decreto</value>
+  </data>
+  <data name="ImportReferenceType_Thesis" xml:space="preserve">
+    <value>Tesi</value>
+  </data>
+  <data name="ImportReferenceType_Unknown" xml:space="preserve">
+    <value>Tipo di documento non chiaro</value>
+  </data>
+  <data name="ImportReferenceType_UnpublishedWork" xml:space="preserve">
+    <value>Letteratura grigia / Relazione / Rapporto</value>
+  </data>
+  <data name="IndentationType_FirstLine" xml:space="preserve">
+    <value>Prima riga</value>
+  </data>
+  <data name="IndentationType_Hanging" xml:space="preserve">
+    <value>Rientro sporgente</value>
+  </data>
+  <data name="IndentationType_None" xml:space="preserve">
+    <value>(senza)</value>
+  </data>
+  <data name="InformationProviderType_None" xml:space="preserve">
+    <value>Tutti i provider</value>
+  </data>
+  <data name="InformationProviderType_CSA" xml:space="preserve">
+    <value>CSA</value>
+  </data>
+  <data name="InformationProviderType_DIMDI" xml:space="preserve">
+    <value>DIMDI</value>
+  </data>
+  <data name="InformationProviderType_EBSCO" xml:space="preserve">
+    <value>EBSCO</value>
+  </data>
+  <data name="InformationProviderType_Gale" xml:space="preserve">
+    <value>Gale</value>
+  </data>
+  <data name="InformationProviderType_Library" xml:space="preserve">
+    <value>Library</value>
+  </data>
+  <data name="InformationProviderType_OCLC" xml:space="preserve">
+    <value>OCLC</value>
+  </data>
+  <data name="InformationProviderType_OvidSP" xml:space="preserve">
+    <value>OvidSP</value>
+  </data>
+  <data name="InformationProviderType_ProQuest" xml:space="preserve">
+    <value>ProQuest</value>
+  </data>
+  <data name="InformationProviderType_SilverPlatter" xml:space="preserve">
+    <value>SilverPlatter</value>
+  </data>
+  <data name="InformationProviderType_ThomsonReuters" xml:space="preserve">
+    <value>Clarivate</value>
+  </data>
+  <data name="PeriodicalNameUsage_Name" xml:space="preserve">
+    <value>Nome completo</value>
+  </data>
+  <data name="PeriodicalNameUsage_StandardAbbreviation" xml:space="preserve">
+    <value>Abbreviazione 1</value>
+  </data>
+  <data name="PeriodicalNameUsage_UserAbbreviation1" xml:space="preserve">
+    <value>Abbreviazione 2</value>
+  </data>
+  <data name="PeriodicalNameUsage_UserAbbreviation2" xml:space="preserve">
+    <value>Abbreviazione 3</value>
+  </data>
+  <data name="KnowledgeKeywordEditorRowType_AllEntries" xml:space="preserve">
+    <value>(Tutti)</value>
+  </data>
+  <data name="KnowledgeKeywordEditorRowType_EntriesWithNoKeyword" xml:space="preserve">
+    <value>(Non indicizzato)</value>
+  </data>
+  <data name="LineSpacingType_Double" xml:space="preserve">
+    <value>Doppia</value>
+  </data>
+  <data name="LineSpacingType_Minimum" xml:space="preserve">
+    <value>Minima</value>
+  </data>
+  <data name="LineSpacingType_Multiple" xml:space="preserve">
+    <value>Multipla</value>
+  </data>
+  <data name="LineSpacingType_One" xml:space="preserve">
+    <value>Singola</value>
+  </data>
+  <data name="LineSpacingType_OneAndHalf" xml:space="preserve">
+    <value>1,5 righe</value>
+  </data>
+  <data name="LineSpacingType_Precise" xml:space="preserve">
+    <value>Esatta</value>
+  </data>
+  <data name="LOBExceptionType_OnlineOrderNotPossibleNoInternetConnection" xml:space="preserve">
+    <value>L'ordine non può essere effettuato; il computer non è connesso a internet.</value>
+  </data>
+  <data name="LOBExceptionType_OnlineOrderNotPossibleNoIsbn" xml:space="preserve">
+    <value>L'ordine non può essere effettuato; il titolo non possiede ISBN.</value>
+  </data>
+  <data name="LOBExceptionType_OnlineOrderNotPossibleNotAvailable" xml:space="preserve">
+    <value>L'ordine non può essere effettuato; l'ISBN è sconosciuto alla libreria online.</value>
+  </data>
+  <data name="LOBExceptionType_ReferenceInfoNotPossibleNoInternetConnection" xml:space="preserve">
+    <value>Le informazioni riguardanti il titolo non possono essere mostrate; il computer non è connesso a internet.</value>
+  </data>
+  <data name="LOBExceptionType_ReferenceInfoNotPossibleNoIsbn" xml:space="preserve">
+    <value>Le informazioni riguardanti il titolo non possono essere mostrate; il titolo non possiede ISBN.</value>
+  </data>
+  <data name="LOBExceptionType_ReferenceInfoNotPossibleNotAvailable" xml:space="preserve">
+    <value>Impossibile visualizzare le informazioni riguardanti il titolo in quanto il codice ISBN non è presente nello shop online.</value>
+  </data>
+  <data name="MainFormWorkspace_Knowledge" xml:space="preserve">
+    <value>Sapere</value>
+  </data>
+  <data name="MainFormWorkspace_References" xml:space="preserve">
+    <value>Titoli</value>
+  </data>
+  <data name="MainFormWorkspace_Tasks" xml:space="preserve">
+    <value>Compiti</value>
+  </data>
+  <data name="OpenUrlMetaTagType_Atitle" xml:space="preserve">
+    <value>Titolo del contributo</value>
+  </data>
+  <data name="OpenUrlMetaTagType_Aufirst" xml:space="preserve">
+    <value>Autore: Nome</value>
+  </data>
+  <data name="OpenUrlMetaTagType_Aulast" xml:space="preserve">
+    <value>Autore: Cognome</value>
+  </data>
+  <data name="OpenUrlMetaTagType_Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="OpenUrlMetaTagType_Epage" xml:space="preserve">
+    <value>Pagina fino a</value>
+  </data>
+  <data name="OpenUrlMetaTagType_Genre" xml:space="preserve">
+    <value>Tipo di documento</value>
+  </data>
+  <data name="OpenUrlMetaTagType_Isbn" xml:space="preserve">
+    <value>ISBN</value>
+  </data>
+  <data name="OpenUrlMetaTagType_Issn" xml:space="preserve">
+    <value>Rivista: ISSN</value>
+  </data>
+  <data name="OpenUrlMetaTagType_Issue" xml:space="preserve">
+    <value>Numero</value>
+  </data>
+  <data name="OpenUrlMetaTagType_jtitle" xml:space="preserve">
+    <value>Rivista: Nome</value>
+  </data>
+  <data name="OpenUrlMetaTagType_Pages" xml:space="preserve">
+    <value>Pagine</value>
+  </data>
+  <data name="OpenUrlMetaTagType_Spage" xml:space="preserve">
+    <value>Pagina da</value>
+  </data>
+  <data name="OpenUrlMetaTagType_Stitle" xml:space="preserve">
+    <value>Rivista: Abbreviazione 1</value>
+  </data>
+  <data name="OpenUrlMetaTagType_Title" xml:space="preserve">
+    <value>Titolo</value>
+  </data>
+  <data name="OpenUrlMetaTagType_Volume" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="MiddleNameFormatInfo_AbbreviationString" xml:space="preserve">
+    <value>Sigla</value>
+  </data>
+  <data name="MiddleNameFormatInfo_IsAbbreviated" xml:space="preserve">
+    <value>Abbreviare</value>
+  </data>
+  <data name="MiddleNameFormatInfo_MiddleNameUsage" xml:space="preserve">
+    <value>Uso</value>
+  </data>
+  <data name="MiddleNameFormatInfo_Separator" xml:space="preserve">
+    <value>Carattere separatore tra secondi nomi</value>
+  </data>
+  <data name="MiddleNameUsage_All" xml:space="preserve">
+    <value>Tutti i secondi nomi</value>
+  </data>
+  <data name="MiddleNameUsage_FirstOnly" xml:space="preserve">
+    <value>Solo il primo secondo nome</value>
+  </data>
+  <data name="MiddleNameUsage_None" xml:space="preserve">
+    <value>Nessun secondo nome</value>
+  </data>
+  <data name="NameFormat_Abbreviated" xml:space="preserve">
+    <value>Abbreviato ("J. M.")</value>
+  </data>
+  <data name="NameFormat_AbbreviatedCompact" xml:space="preserve">
+    <value>Abbreviato in forma compatta ("J. M.")</value>
+  </data>
+  <data name="NameFormat_AbbreviatedNoPeriod" xml:space="preserve">
+    <value>Abbreviato senza punti ("J M")</value>
+  </data>
+  <data name="NameFormat_Compact" xml:space="preserve">
+    <value>Forma compatta ("JM")</value>
+  </data>
+  <data name="NameFormat_Full" xml:space="preserve">
+    <value>Scritto per esteso ("John Mike")</value>
+  </data>
+  <data name="NumeralSystem_Arabic" xml:space="preserve">
+    <value>Numero arabo</value>
+  </data>
+  <data name="NumeralSystem_RomanLowerCase" xml:space="preserve">
+    <value>Numero romano (minuscolo)</value>
+  </data>
+  <data name="NumeralSystem_RomanUpperCase" xml:space="preserve">
+    <value>Numero romano (maiuscolo)</value>
+  </data>
+  <data name="NumberingType_Column" xml:space="preserve">
+    <value>Colonne</value>
+  </data>
+  <data name="NumberingType_Other" xml:space="preserve">
+    <value>Altro</value>
+  </data>
+  <data name="NumberingType_Page" xml:space="preserve">
+    <value>Pagine</value>
+  </data>
+  <data name="NumberingType_Paragraph" xml:space="preserve">
+    <value>Paragrafi</value>
+  </data>
+  <data name="NumberingType_Margin" xml:space="preserve">
+    <value>Numeri a margine</value>
+  </data>
+  <data name="PersonNameOrder_FirstNameLastName" xml:space="preserve">
+    <value>Nome Cognome ("John Mike Doe")</value>
+  </data>
+  <data name="PersonNameOrder_LastNameFirstName" xml:space="preserve">
+    <value>Cognome, Nome ("Doe, John Mike")</value>
+  </data>
+  <data name="PersonNameOrder_LastNameFirstNameCompact" xml:space="preserve">
+    <value>Cognome Nome ("Doe John Mike")</value>
+  </data>
+  <data name="PersonNameOrder_LastNameOnly" xml:space="preserve">
+    <value>Solo Cognome ("Doe")</value>
+  </data>
+  <data name="PersonNameSequence_FirstnameLastname" xml:space="preserve">
+    <value>Nome Cognome</value>
+  </data>
+  <data name="PersonNameSequence_LastnameFirstnameWithComma" xml:space="preserve">
+    <value>Cognome, Nome</value>
+  </data>
+  <data name="PersonNameSequence_LastnameFirstnameWithoutComma" xml:space="preserve">
+    <value>Cognome Nome</value>
+  </data>
+  <data name="PersonNameSequence_None" xml:space="preserve">
+    <value>Sconosciuto</value>
+  </data>
+  <data name="LaTeXEditor_None" xml:space="preserve">
+    <value>Elaborazione testo personale</value>
+  </data>
+  <data name="LaTeXEditor_None2" xml:space="preserve">
+    <value>Elaborazione testo</value>
+  </data>
+  <data name="PublicationAssistantDoubleClickAction_Copy" xml:space="preserve">
+    <value>Copia</value>
+  </data>
+  <data name="PublicationAssistantDoubleClickAction_None" xml:space="preserve">
+    <value>Nessuna attività</value>
+  </data>
+  <data name="PublicationAssistantDoubleClickAction_Insert" xml:space="preserve">
+    <value>Inserisci in {0}</value>
+  </data>
+  <data name="PublicationAssistantDoubleClickAction_InsertAsFootnote" xml:space="preserve">
+    <value>Inserisci come nota a piè di pagina-{0}</value>
+  </data>
+  <data name="PublicationAssistantDoubleClickAction_Show" xml:space="preserve">
+    <value>Mostrare il titolo</value>
+  </data>
+  <data name="PublicationAssistantKnowledgeItemDoubleClickAction_Show" xml:space="preserve">
+    <value>Modifica elemento di conoscenza</value>
+  </data>
+  <data name="ReferenceListFormatInfoSortOption_CitationStyle" xml:space="preserve">
+    <value>Come indicato dallo stile di citazione</value>
+    <comment>TODO: Can it be deleted? (Enum renamed to ReferenceCompositionSortOption)</comment>
+  </data>
+  <data name="ReferenceListFormatInfoSortOption_Custom" xml:space="preserve">
+    <value>Ordinato come nel progetto corrente</value>
+    <comment>TODO: Can it be deleted? (Enum renamed to ReferenceCompositionSortOption)</comment>
+  </data>
+  <data name="ReferenceListFormatInfoSortOption_Custom_Grid" xml:space="preserve">
+    <value>Ordinato come nella tabella del progetto corrente</value>
+    <comment>TODO: Can it be deleted? (Enum renamed to ReferenceCompositionSortOption)</comment>
+  </data>
+  <data name="RuleSetType_Bibliography" xml:space="preserve">
+    <value>Indice bibliografico</value>
+  </data>
+  <data name="RuleSetType_Footnote" xml:space="preserve">
+    <value>Nota a piè di pagina</value>
+  </data>
+  <data name="RuleSetType_InTextCitation" xml:space="preserve">
+    <value>Rimando nel testo</value>
+  </data>
+  <data name="SearchAttributeType_AnyField" xml:space="preserve">
+    <value>Tutti i campi</value>
+  </data>
+  <data name="SearchAttributeType_Author" xml:space="preserve">
+    <value>Autore</value>
+  </data>
+  <data name="SearchAttributeType_ConferenceName" xml:space="preserve">
+    <value>Conferenza</value>
+  </data>
+  <data name="SearchAttributeType_Date" xml:space="preserve">
+    <value>Data dell'evento</value>
+  </data>
+  <data name="SearchAttributeType_DateOfPublication" xml:space="preserve">
+    <value>Anno</value>
+  </data>
+  <data name="SearchAttributeType_Organizations" xml:space="preserve">
+    <value>Organizzazione</value>
+  </data>
+  <data name="SearchAttributeType_ISBN" xml:space="preserve">
+    <value>ISBN</value>
+  </data>
+  <data name="SearchAttributeType_ISSN" xml:space="preserve">
+    <value>ISSN</value>
+  </data>
+  <data name="SearchAttributeType_PersonalName" xml:space="preserve">
+    <value>Nomi propri</value>
+  </data>
+  <data name="SearchAttributeType_PlacePublication" xml:space="preserve">
+    <value>Luogo</value>
+  </data>
+  <data name="SearchAttributeType_Publisher" xml:space="preserve">
+    <value>Casa editrice</value>
+  </data>
+  <data name="SearchAttributeType_SubjectHeading" xml:space="preserve">
+    <value>Parole chiave</value>
+  </data>
+  <data name="SearchAttributeType_Title" xml:space="preserve">
+    <value>Titolo</value>
+  </data>
+  <data name="SearchAttributeType_TitleSeries" xml:space="preserve">
+    <value>Rivista/Collana</value>
+  </data>
+  <data name="SearchInContext_PeriodicalList" xml:space="preserve">
+    <value>Nella lista delle riviste e dei periodici.</value>
+  </data>
+  <data name="SearchInContext_KeywordList" xml:space="preserve">
+    <value>Nella lista delle parole chiave</value>
+  </data>
+  <data name="SearchInContext_LibraryList" xml:space="preserve">
+    <value>Nella lista delle biblioteche</value>
+  </data>
+  <data name="SearchInContext_MainFormKnowledgeReferencesCurrentCategoryAndBelow" xml:space="preserve">
+    <value>Nella categoria selezionata (con sottocategorie)</value>
+  </data>
+  <data name="SearchInContext_MainFormKnowledgeReferencesCurrentList" xml:space="preserve">
+    <value>Nella categoria selezionata (senza sottocategorie)</value>
+  </data>
+  <data name="SearchInContext_MainFormKnowledgeKnowledgeItemsCurrentCategoryAndBelow" xml:space="preserve">
+    <value>Nella categoria selezionata (con sottocategorie)</value>
+  </data>
+  <data name="SearchInContext_MainFormKnowledgeKnowledgeItemsCurrentList" xml:space="preserve">
+    <value>Nella categoria selezionata (senza sottocategorie)</value>
+  </data>
+  <data name="SearchInContext_MainFormTasks" xml:space="preserve">
+    <value>Nella pianificazione dei compiti</value>
+  </data>
+  <data name="SearchInContext_PersonList" xml:space="preserve">
+    <value>Nella lista delle persone e delle istituzioni</value>
+  </data>
+  <data name="SearchInContext_Project" xml:space="preserve">
+    <value>Nell'intero progetto</value>
+  </data>
+  <data name="SearchInContext_ProjectShell" xml:space="preserve">
+    <value>Nella selezione corrente</value>
+  </data>
+  <data name="SearchInContext_PublisherList" xml:space="preserve">
+    <value>Nella lista delle case editrici</value>
+  </data>
+  <data name="SearchInContext_SeriesTitleList" xml:space="preserve">
+    <value>Nella lista delle collane</value>
+  </data>
+  <data name="SearchResultGroupType_Categories" xml:space="preserve">
+    <value>Categorie</value>
+  </data>
+  <data name="SearchResultGroupType_Periodicals" xml:space="preserve">
+    <value>Riviste, Giornali</value>
+  </data>
+  <data name="SearchResultGroupType_Keywords" xml:space="preserve">
+    <value>Parole chiave</value>
+  </data>
+  <data name="SearchResultGroupType_Libraries" xml:space="preserve">
+    <value>Biblioteche</value>
+  </data>
+  <data name="SearchResultGroupType_Locations" xml:space="preserve">
+    <value>Collocazioni</value>
+  </data>
+  <data name="SearchResultGroupType_Persons" xml:space="preserve">
+    <value>Persone, Istituzioni</value>
+  </data>
+  <data name="SearchResultGroupType_Publishers" xml:space="preserve">
+    <value>Case editrici</value>
+  </data>
+  <data name="SearchResultGroupType_References" xml:space="preserve">
+    <value>Titolo</value>
+  </data>
+  <data name="SearchResultGroupType_SeriesTitles" xml:space="preserve">
+    <value>Collane</value>
+  </data>
+  <data name="SearchResultGroupType_TaskItems" xml:space="preserve">
+    <value>Compiti</value>
+  </data>
+  <data name="SearchResultGroupType_KnowledgeItems" xml:space="preserve">
+    <value>Elementi di conoscenza</value>
+  </data>
+  <data name="UpdateType_Automatic" xml:space="preserve">
+    <value>Automatico</value>
+  </data>
+  <data name="UpdateType_Manual" xml:space="preserve">
+    <value>Autodefinito</value>
+  </data>
+  <data name="SimpleFontStyleCaps_AllCaps" xml:space="preserve">
+    <value>Caratteri maiuscoli</value>
+    <comment>where am I? "UPPERCASE"?</comment>
+  </data>
+  <data name="SimpleFontStyleCaps_None" xml:space="preserve">
+    <value>Nessun carattere maiuscolo o maiuscoletto</value>
+    <comment>where am I? "lowercase"?</comment>
+  </data>
+  <data name="SimpleFontStyleCaps_SmallCaps" xml:space="preserve">
+    <value>Maiuscoletto</value>
+  </data>
+  <data name="SimpleFontStyleFormatting_Bold" xml:space="preserve">
+    <value>Grassetto</value>
+  </data>
+  <data name="SimpleFontStyleFormatting_Italic" xml:space="preserve">
+    <value>Corsivo</value>
+  </data>
+  <data name="SimpleFontStyleFormatting_None" xml:space="preserve">
+    <value>Nessuna evidenziazione</value>
+  </data>
+  <data name="SimpleFontStyleFormatting_Underlined" xml:space="preserve">
+    <value>Sottolineato</value>
+  </data>
+  <data name="SimpleFontStyleFormatting_Unspecified" xml:space="preserve">
+    <value>Nessuna indicazione</value>
+  </data>
+  <data name="SimpleFontStyleScript_None" xml:space="preserve">
+    <value>Nessun apice o pedice</value>
+  </data>
+  <data name="SimpleFontStyleScript_Subscript" xml:space="preserve">
+    <value>Pedice</value>
+  </data>
+  <data name="SimpleFontStyleScript_Superscript" xml:space="preserve">
+    <value>Apice</value>
+  </data>
+  <data name="TaskImportance_High" xml:space="preserve">
+    <value>Alta</value>
+  </data>
+  <data name="TaskImportance_Low" xml:space="preserve">
+    <value>Bassa</value>
+  </data>
+  <data name="TaskImportance_Middle" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="TaskState_Advanced" xml:space="preserve">
+    <value>Avanzato</value>
+  </data>
+  <data name="TaskState_Done" xml:space="preserve">
+    <value>Concluso</value>
+  </data>
+  <data name="TaskState_NotStarted" xml:space="preserve">
+    <value>Non iniziato</value>
+  </data>
+  <data name="TaskState_Started" xml:space="preserve">
+    <value>Iniziato</value>
+  </data>
+  <data name="KnownTaskName_GoThroughBibliography" xml:space="preserve">
+    <value>Analizza la bibliografia</value>
+  </data>
+  <data name="KnownTaskName_Return" xml:space="preserve">
+    <value>Restituisci</value>
+  </data>
+  <data name="KnownTaskName_BuyOrOrder" xml:space="preserve">
+    <value>Acquista/Ordina</value>
+  </data>
+  <data name="KnownTaskName_Photocopy" xml:space="preserve">
+    <value>Copia/Scansiona</value>
+  </data>
+  <data name="KnownTaskName_ExcerptQuotations" xml:space="preserve">
+    <value>Annota citazioni, ecc.</value>
+  </data>
+  <data name="KnownTaskName_EnterLocations" xml:space="preserve">
+    <value>Riporta le collocazioni</value>
+  </data>
+  <data name="KnownTaskName_Other" xml:space="preserve">
+    <value>Altro</value>
+  </data>
+  <data name="KnownTaskName_ExamineAndAssess" xml:space="preserve">
+    <value>Verifica</value>
+  </data>
+  <data name="KnownTaskName_Read" xml:space="preserve">
+    <value>Leggi</value>
+  </data>
+  <data name="KnownTaskName_Recall" xml:space="preserve">
+    <value>Richiedere</value>
+  </data>
+  <data name="KnownTaskName_Borrow" xml:space="preserve">
+    <value>Prendi in prestito</value>
+  </data>
+  <data name="KnownTaskName_VerifyBibliographicInformation" xml:space="preserve">
+    <value>Verifica i dati bibliografici</value>
+  </data>
+  <data name="KnownTaskName_WriteOrEditAbstract" xml:space="preserve">
+    <value>Scrivi/correggi un abstract</value>
+  </data>
+  <data name="TemplateUseCaseEditState_Completed" xml:space="preserve">
+    <value>Concluso</value>
+  </data>
+  <data name="TemplateUseCaseEditState_NeedsReview" xml:space="preserve">
+    <value>Pronto per il controllo</value>
+  </data>
+  <data name="TemplateUseCaseEditState_None" xml:space="preserve">
+    <value>Indeterminato</value>
+  </data>
+  <data name="TemplateUseCaseEditState_NotNeeded" xml:space="preserve">
+    <value>Non necessario</value>
+  </data>
+  <data name="TemplateUseCaseEditState_UnderConstruction" xml:space="preserve">
+    <value>In elaborazione</value>
+  </data>
+  <data name="KnowledgeItemType_File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="KnowledgeItemType_Text" xml:space="preserve">
+    <value>Testo</value>
+  </data>
+  <data name="SourceOfBibliographicInformationPreset_BooksellerCatalog" xml:space="preserve">
+    <value>Catalogo librario</value>
+  </data>
+  <data name="SourceOfBibliographicInformationPreset_InformationProvider" xml:space="preserve">
+    <value>Fornitore di informazioni specialistiche</value>
+  </data>
+  <data name="SourceOfBibliographicInformationPreset_LibraryCatalog" xml:space="preserve">
+    <value>Catalogo della biblioteca</value>
+  </data>
+  <data name="SourceOfBibliographicInformationPreset_OriginalSource" xml:space="preserve">
+    <value>Controllato in base all'originale</value>
+  </data>
+  <data name="SourceOfBibliographicInformationPreset_PublisherBrochure" xml:space="preserve">
+    <value>Opuscolo della casa editrice</value>
+  </data>
+  <data name="UserDataFolderState_CannotCreateDefaultFolder" xml:space="preserve">
+    <value>L'avvio di Citavi è stato interrotto perché è necessario un ulteriore input. Dopo aver confermato, il processo di avvio riprenderà. 
+
+Citavi non è in grado di creare la cartella di default per i file utente nella cartella "Documenti". 
+
+Si consiglia di scegliere una directory diversa oppure di interrompere il processo di avvio di Citavi e correggere i permessi di accesso sulla cartella "Documenti".</value>
+  </data>
+  <data name="UserDataFolderState_ExistsButCannotWrite" xml:space="preserve">
+    <value>L'avvio di Citavi è stato interrotto perché è necessario un ulteriore input. Dopo aver confermato, il processo di avvio riprenderà. 
+
+La cartella dei file utente è protetta da scrittura oppure i permessi di Windows di cui si dispone non consentono di scrivere al suo interno. Per poter procedere, Citavi deve disporre del diritto di scrittura su questa cartella. 
+
+Si consiglia di scegliere una cartella diversa per i file utente oppure di interrompere il processo di avvio di Citavi e correggere i permessi di scrittura sulla cartella.</value>
+  </data>
+  <data name="UserDataFolderState_InstallationSpecificUserDataFolderDoesNotExist" xml:space="preserve">
+    <value>L'avvio di Citavi è stato interrotto perché è necessario un ulteriore input. Dopo aver confermato, il processo di avvio riprenderà. 
+
+Citavi non è in grado di trovare la cartella scelta per i file utente. Probabilmente essa si trova su un'unità di rete non collegata. 
+
+Si consiglia di scegliere come cartella per i file utente una cartella già esistente oppure di interrompere il processo di avvio di Citavi e inserire la cartella cercata nella barra degli indirizzi di Windows Explorer.</value>
+  </data>
+  <data name="UserDataFolderState_UnknownInstallation" xml:space="preserve">
+    <value>L'avvio di Citavi è stato interrotto perché è necessario un'ulteriore input. Dopo aver confermato, il processo di avvio riprenderà. 
+
+Citavi è avviato per la prima volta da un percorso nuovo. Ciò può dipendere da vari motivi: 
+
+- la cartella programmi Citavi utilizzata finora è stata spostata. 
+- l'utente lavora con diverse istallazioni Citavi sullo stesso computer. 
+
+Stabilire in quale cartella devono essere salvati i file utente per questa configurazione.</value>
+  </data>
+  <data name="UserDataFolderState_UnknownState" xml:space="preserve">
+    <value>L'avvio di Citavi è stato interrotto perché è necessario un ulteriore input. Dopo aver confermato, il processo di avvio riprenderà.
+
+Per motivi sconosciuti, Citavi non è in grado di trovare la cartella scelta per i file utente. 
+
+Si consiglia di scegliere come cartella per i file utente una cartella già esistente.</value>
+  </data>
+  <data name="VirtualSearchFieldType_Abbreviation" xml:space="preserve">
+    <value>Abbreviazione biblioteca</value>
+  </data>
+  <data name="VirtualSearchFieldType_Abstract" xml:space="preserve">
+    <value>Abstract</value>
+  </data>
+  <data name="VirtualSearchFieldType_AccessDate" xml:space="preserve">
+    <value>Data di consultazione</value>
+  </data>
+  <data name="VirtualSearchFieldType_Additions" xml:space="preserve">
+    <value>Contributi</value>
+  </data>
+  <data name="VirtualSearchFieldType_Authors" xml:space="preserve">
+    <value>Autore</value>
+  </data>
+  <data name="VirtualSearchFieldType_AuthorsOrEditorsOrOrganizations" xml:space="preserve">
+    <value>Autore, Curatore o Istituzione</value>
+  </data>
+  <data name="VirtualSearchFieldType_BibTeXKey" xml:space="preserve">
+    <value>chiave BibTeX</value>
+  </data>
+  <data name="VirtualSearchFieldType_CallNumber" xml:space="preserve">
+    <value>Segnatura</value>
+  </data>
+  <data name="VirtualSearchFieldType_CoreStatement" xml:space="preserve">
+    <value>Messaggio centrale</value>
+  </data>
+  <data name="VirtualSearchFieldType_Categories" xml:space="preserve">
+    <value>Categorie</value>
+  </data>
+  <data name="VirtualSearchFieldType_Collaborators" xml:space="preserve">
+    <value>Collaboratori</value>
+  </data>
+  <data name="VirtualSearchFieldType_Evaluation" xml:space="preserve">
+    <value>Valutazione</value>
+  </data>
+  <data name="VirtualSearchFieldType_Cover" xml:space="preserve">
+    <value>Copertina</value>
+  </data>
+  <data name="VirtualSearchFieldType_Cover_Description" xml:space="preserve">
+    <value>Titolo - Cover</value>
+  </data>
+  <data name="VirtualSearchFieldType_CreatedBy" xml:space="preserve">
+    <value>Creato da</value>
+  </data>
+  <data name="VirtualSearchFieldType_CreatedOrModifiedBy" xml:space="preserve">
+    <value>Creato o modificato da</value>
+  </data>
+  <data name="VirtualSearchFieldType_HasLabel1" xml:space="preserve">
+    <value>Marcatura blu</value>
+  </data>
+  <data name="VirtualSearchFieldType_HasLabel1_Description" xml:space="preserve">
+    <value>Titolo - Marcatura blu</value>
+  </data>
+  <data name="VirtualSearchFieldType_Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="VirtualSearchFieldType_Date2" xml:space="preserve">
+    <value>Data 2</value>
+  </data>
+  <data name="VirtualSearchFieldType_DateFields" xml:space="preserve">
+    <value>Data di pubblicazione</value>
+  </data>
+  <data name="VirtualSearchFieldType_ImageDescription" xml:space="preserve">
+    <value>Descrizione immagine</value>
+  </data>
+  <data name="VirtualSearchFieldType_DueDate" xml:space="preserve">
+    <value>Scadenza in data</value>
+  </data>
+  <data name="VirtualSearchFieldType_Edition" xml:space="preserve">
+    <value>Edizione</value>
+  </data>
+  <data name="VirtualSearchFieldType_Editors" xml:space="preserve">
+    <value>Curatore</value>
+  </data>
+  <data name="VirtualSearchFieldType_FileLink" xml:space="preserve">
+    <value>File locale</value>
+  </data>
+  <data name="VirtualSearchFieldType_Location" xml:space="preserve">
+    <value>Archivio</value>
+  </data>
+  <data name="VirtualSearchFieldType_FirstName" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="VirtualSearchFieldType_CustomField1" xml:space="preserve">
+    <value>Campo libero 1</value>
+  </data>
+  <data name="VirtualSearchFieldType_CustomField2" xml:space="preserve">
+    <value>Campo libero 2</value>
+  </data>
+  <data name="VirtualSearchFieldType_CustomField3" xml:space="preserve">
+    <value>Campo libero 3</value>
+  </data>
+  <data name="VirtualSearchFieldType_CustomField4" xml:space="preserve">
+    <value>Campo libero 4</value>
+  </data>
+  <data name="VirtualSearchFieldType_Full" xml:space="preserve">
+    <value>Tutti i campi</value>
+  </data>
+  <data name="VirtualSearchFieldType_Importance" xml:space="preserve">
+    <value>Importanza</value>
+  </data>
+  <data name="VirtualSearchFieldType_Organizations" xml:space="preserve">
+    <value>Istituzione</value>
+  </data>
+  <data name="VirtualSearchFieldType_Isbn" xml:space="preserve">
+    <value>ISBN</value>
+  </data>
+  <data name="VirtualSearchFieldType_Periodical" xml:space="preserve">
+    <value>Rivista/Giornale</value>
+  </data>
+  <data name="VirtualSearchFieldType_Keywords" xml:space="preserve">
+    <value>Parole chiave (tutte)</value>
+  </data>
+  <data name="VirtualSearchFieldType_KnowledgeFields" xml:space="preserve">
+    <value>Campi sapere</value>
+  </data>
+  <data name="VirtualSearchFieldType_Language" xml:space="preserve">
+    <value>Lingua</value>
+  </data>
+  <data name="VirtualSearchFieldType_ModifiedBy" xml:space="preserve">
+    <value>Modificato da</value>
+  </data>
+  <data name="VirtualSearchFieldType_LastName" xml:space="preserve">
+    <value>Cognome</value>
+  </data>
+  <data name="VirtualSearchFieldType_Library" xml:space="preserve">
+    <value>Biblioteca</value>
+  </data>
+  <data name="VirtualSearchFieldType_Locations" xml:space="preserve">
+    <value>Collocazioni</value>
+  </data>
+  <data name="VirtualSearchFieldType_MiddleName" xml:space="preserve">
+    <value>Secondo nome</value>
+  </data>
+  <data name="VirtualSearchFieldType_ProjectTasks" xml:space="preserve">
+    <value>Compiti di progetto</value>
+  </data>
+  <data name="VirtualSearchFieldType_Notes" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="VirtualSearchFieldType_Number" xml:space="preserve">
+    <value>Numero</value>
+  </data>
+  <data name="VirtualSearchFieldType_PageCount" xml:space="preserve">
+    <value>Numero pagine</value>
+  </data>
+  <data name="VirtualSearchFieldType_PageCountNumeralSystem" xml:space="preserve">
+    <value>Numerazione [numero pagine]</value>
+  </data>
+  <data name="VirtualSearchFieldType_NumberOfVolumes" xml:space="preserve">
+    <value>Numero dei volumi</value>
+  </data>
+  <data name="VirtualSearchFieldType_OnlineAddress" xml:space="preserve">
+    <value>Indirizzo online</value>
+  </data>
+  <data name="VirtualSearchFieldType_OriginalCheckedBy" xml:space="preserve">
+    <value>Verificato su originale da/ in data</value>
+  </data>
+  <data name="VirtualSearchFieldType_OriginalPublication" xml:space="preserve">
+    <value>Prima pubblicazione</value>
+  </data>
+  <data name="VirtualSearchFieldType_OthersInvolved" xml:space="preserve">
+    <value>Ulteriori collaboratori</value>
+  </data>
+  <data name="VirtualSearchFieldType_PageRangeNumberingType" xml:space="preserve">
+    <value>Tipo di numerazione [Pagine da-a]</value>
+  </data>
+  <data name="VirtualSearchFieldType_PageRange" xml:space="preserve">
+    <value>Pagine da–a</value>
+  </data>
+  <data name="VirtualSearchFieldType_PageRangeNumeralSystem" xml:space="preserve">
+    <value>Numerazione [Pagine da-a]</value>
+  </data>
+  <data name="VirtualSearchFieldType_ParallelTitle" xml:space="preserve">
+    <value>Titolo parallelo</value>
+  </data>
+  <data name="VirtualSearchFieldType_ParentReference" xml:space="preserve">
+    <value>Opera collettiva</value>
+  </data>
+  <data name="VirtualSearchFieldType_PersonFields" xml:space="preserve">
+    <value>Campi persone</value>
+  </data>
+  <data name="VirtualSearchFieldType_PlaceOfPublication" xml:space="preserve">
+    <value>Luogo di pubblicazione</value>
+  </data>
+  <data name="VirtualSearchFieldType_Prefix" xml:space="preserve">
+    <value>Prefisso</value>
+  </data>
+  <data name="VirtualSearchFieldType_Price" xml:space="preserve">
+    <value>Prezzo</value>
+  </data>
+  <data name="VirtualSearchFieldType_Publishers" xml:space="preserve">
+    <value>Casa editrice</value>
+  </data>
+  <data name="VirtualSearchFieldType_Quotations" xml:space="preserve">
+    <value>Citazioni</value>
+  </data>
+  <data name="VirtualSearchFieldType_ReferenceType" xml:space="preserve">
+    <value>Tipo di documento</value>
+  </data>
+  <data name="VirtualSearchFieldType_TextLinks" xml:space="preserve">
+    <value>Ulteriori rinvii</value>
+  </data>
+  <data name="VirtualSearchFieldType_SeriesTitle" xml:space="preserve">
+    <value>Collana</value>
+  </data>
+  <data name="VirtualSearchFieldType_ShortTitle" xml:space="preserve">
+    <value>Titolo breve</value>
+  </data>
+  <data name="VirtualSearchFieldType_UpdateType" xml:space="preserve">
+    <value>Ricerca titolo breve / del messaggio centrale</value>
+  </data>
+  <data name="VirtualSearchFieldType_SpecificField1" xml:space="preserve">
+    <value>Testo specifico 1</value>
+  </data>
+  <data name="VirtualSearchFieldType_SpecificField2" xml:space="preserve">
+    <value>Testo specifico 2</value>
+  </data>
+  <data name="VirtualSearchFieldType_SpecificField3" xml:space="preserve">
+    <value>Testo specifico 3</value>
+  </data>
+  <data name="VirtualSearchFieldType_SpecificField4" xml:space="preserve">
+    <value>Testo specifico 4</value>
+  </data>
+  <data name="VirtualSearchFieldType_SpecificField5" xml:space="preserve">
+    <value>Testo specifico 5</value>
+  </data>
+  <data name="VirtualSearchFieldType_SpecificField6" xml:space="preserve">
+    <value>Testo specifico 6</value>
+  </data>
+  <data name="VirtualSearchFieldType_SpecificField7" xml:space="preserve">
+    <value>Testo specifico 7</value>
+  </data>
+  <data name="VirtualSearchFieldType_StandardAbbreviation" xml:space="preserve">
+    <value>Abbreviazione 1 (Collane; Riviste e periodici)</value>
+  </data>
+  <data name="VirtualSearchFieldType_State" xml:space="preserve">
+    <value>Stato di avanzamento</value>
+  </data>
+  <data name="VirtualSearchFieldType_StorageMedium" xml:space="preserve">
+    <value>Supporto dati</value>
+  </data>
+  <data name="VirtualSearchFieldType_HasLabel2" xml:space="preserve">
+    <value>Marcatura rossa</value>
+  </data>
+  <data name="VirtualSearchFieldType_HasLabel2_Description" xml:space="preserve">
+    <value>Titolo - Marcatura rossa</value>
+  </data>
+  <data name="VirtualSearchFieldType_Suffix" xml:space="preserve">
+    <value>Suffisso:</value>
+  </data>
+  <data name="VirtualSearchFieldType_TaskFields" xml:space="preserve">
+    <value>Campi compiti</value>
+  </data>
+  <data name="VirtualSearchFieldType_Tasks" xml:space="preserve">
+    <value>Compiti</value>
+  </data>
+  <data name="VirtualSearchFieldType_TaskType" xml:space="preserve">
+    <value>Tipo compito</value>
+  </data>
+  <data name="VirtualSearchFieldType_Text" xml:space="preserve">
+    <value>Testo elemento di conoscenza</value>
+  </data>
+  <data name="VirtualSearchFieldType_KnowledgeItemType" xml:space="preserve">
+    <value>Formato dell'elemento di conoscenza</value>
+  </data>
+  <data name="VirtualSearchFieldType_Thoughts" xml:space="preserve">
+    <value>Idee</value>
+  </data>
+  <data name="VirtualSearchFieldType_KnowledgeItems" xml:space="preserve">
+    <value>Elementi di conoscenza</value>
+  </data>
+  <data name="VirtualSearchFieldType_Title" xml:space="preserve">
+    <value>Titolo</value>
+  </data>
+  <data name="VirtualSearchFieldType_Subtitle" xml:space="preserve">
+    <value>Sottotitolo</value>
+  </data>
+  <data name="VirtualSearchFieldType_TitleFields" xml:space="preserve">
+    <value>Campi titolo</value>
+  </data>
+  <data name="VirtualSearchFieldType_TitleInOtherLanguages" xml:space="preserve">
+    <value>Titolo in altre lingue</value>
+  </data>
+  <data name="VirtualSearchFieldType_SourceOfBibliographicInformation" xml:space="preserve">
+    <value>Fonte dei dati bibliografici</value>
+  </data>
+  <data name="VirtualSearchFieldType_TitleSupplement" xml:space="preserve">
+    <value>Informazioni aggiuntive al titolo</value>
+  </data>
+  <data name="VirtualSearchFieldType_TableOfContents" xml:space="preserve">
+    <value>Indice</value>
+  </data>
+  <data name="VirtualSearchFieldType_CitationKey" xml:space="preserve">
+    <value>Riferimento breve</value>
+  </data>
+  <data name="VirtualSearchFieldType_TranslatedTitle" xml:space="preserve">
+    <value>Traduzione del titolo</value>
+  </data>
+  <data name="VirtualSearchFieldType_UniformTitle" xml:space="preserve">
+    <value>Titolo normalizzato</value>
+  </data>
+  <data name="VirtualSearchFieldType_UserAbbreviation1" xml:space="preserve">
+    <value>Abbreviazione 2 (Collane; Riviste e periodici)</value>
+  </data>
+  <data name="VirtualSearchFieldType_UserAbbreviation2" xml:space="preserve">
+    <value>Abbreviazione 3 (Collane; Riviste e periodici)</value>
+  </data>
+  <data name="VirtualSearchFieldType_Volume" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="VirtualSearchFieldType_Year" xml:space="preserve">
+    <value>Anno</value>
+  </data>
+  <data name="Z3950ExceptionType_ConnectionInitRejected" xml:space="preserve">
+    <value>Login non riuscito.</value>
+    <comment>Enum heisst Z3950ExceptionType</comment>
+  </data>
+  <data name="Z3950ExceptionType_ConnectionTimeout" xml:space="preserve">
+    <value>Il limite temporale è stato superato.</value>
+  </data>
+  <data name="Z3950ExceptionType_ConnectionUnavailable" xml:space="preserve">
+    <value>La banca dati non è attualmente accessibile.</value>
+  </data>
+  <data name="ImportReferenceType_ContributionInSpecialIssue" xml:space="preserve">
+    <value>Contributo in edizione speciale, Supplemento</value>
+  </data>
+  <data name="SearchInContext_MainFormKnowledgeReferencesWithNoCategories" xml:space="preserve">
+    <value>In titoli non categorizzati</value>
+  </data>
+  <data name="SearchInContext_MainFormKnowledgeAllKnowledgeItems" xml:space="preserve">
+    <value>In tutti gli elementi di conoscenza</value>
+  </data>
+  <data name="SearchInContext_MainFormKnowledgeKnowledgeItemsWithNoCategories" xml:space="preserve">
+    <value>In elementi di conoscenza non categorizzati</value>
+  </data>
+  <data name="QuotationType_Comment" xml:space="preserve">
+    <value>Commento</value>
+  </data>
+  <data name="QuotationType_DirectQuotation" xml:space="preserve">
+    <value>Citazione letterale</value>
+  </data>
+  <data name="QuotationType_IndirectQuotation" xml:space="preserve">
+    <value>Citazione indiretta</value>
+  </data>
+  <data name="QuotationType_None" xml:space="preserve">
+    <value>Nessuno</value>
+  </data>
+  <data name="QuotationType_Summary" xml:space="preserve">
+    <value>Riassunto</value>
+  </data>
+  <data name="MainFormWorkspace_KnowledgeOrganizer" xml:space="preserve">
+    <value>Organizzazione del sapere</value>
+  </data>
+  <data name="MainFormWorkspace_ReferenceEditor" xml:space="preserve">
+    <value>Gestione dei titoli</value>
+  </data>
+  <data name="MainFormWorkspace_TaskPlanner" xml:space="preserve">
+    <value>Programmazione dei compiti</value>
+  </data>
+  <data name="CitationSystem_FootnoteCitation" xml:space="preserve">
+    <value>Nella nota a piè di pagina: autore anno</value>
+  </data>
+  <data name="CitationSystem_FootnoteFullCitation" xml:space="preserve">
+    <value>Nella nota a piè di pagina: riferimento completo</value>
+  </data>
+  <data name="CitationSystem_InTextCitation" xml:space="preserve">
+    <value>Nel testo: autore anno</value>
+  </data>
+  <data name="CitationSystem_InTextCitationKey" xml:space="preserve">
+    <value>Nel testo: riferimento breve</value>
+  </data>
+  <data name="CitationSystem_InTextReferenceNumber" xml:space="preserve">
+    <value>Nel testo: numero</value>
+  </data>
+  <data name="CitationSystem_None" xml:space="preserve">
+    <value>Tutti i metodi di citazione</value>
+  </data>
+  <data name="CitationSystem_Other" xml:space="preserve">
+    <value>Altro</value>
+  </data>
+  <data name="AttachmentAction_Copy" xml:space="preserve">
+    <value>Copia</value>
+  </data>
+  <data name="AttachmentAction_Link" xml:space="preserve">
+    <value>Collegare</value>
+  </data>
+  <data name="AttachmentAction_Move" xml:space="preserve">
+    <value>Sposta</value>
+  </data>
+  <data name="ImportFieldType_CustomField5" xml:space="preserve">
+    <value>Campo libero 5</value>
+  </data>
+  <data name="ImportFieldType_CustomField6" xml:space="preserve">
+    <value>Campo libero 6</value>
+  </data>
+  <data name="ImportFieldType_CustomField7" xml:space="preserve">
+    <value>Campo libero 7</value>
+  </data>
+  <data name="ImportFieldType_CustomField8" xml:space="preserve">
+    <value>Campo libero 8</value>
+  </data>
+  <data name="ImportFieldType_CustomField9" xml:space="preserve">
+    <value>Campo libero 9</value>
+  </data>
+  <data name="ImportFieldType_ParentReferenceVolume" xml:space="preserve">
+    <value>Opera collettiva: volume</value>
+  </data>
+  <data name="TaskPlannerQuickFilter_AllTaskItems" xml:space="preserve">
+    <value>Tutti i compiti</value>
+  </data>
+  <data name="TaskPlannerQuickFilter_CurrentTaskItems" xml:space="preserve">
+    <value>Compiti attuali</value>
+  </data>
+  <data name="TaskPlannerQuickFilter_Custom" xml:space="preserve">
+    <value>Compiti speciali</value>
+    <comment>TEMP C3P3</comment>
+  </data>
+  <data name="TaskPlannerQuickFilter_ImportantTaskItems" xml:space="preserve">
+    <value>Compiti importanti</value>
+  </data>
+  <data name="TaskPlannerQuickFilter_ProjectTasks" xml:space="preserve">
+    <value>Compiti di progetto</value>
+  </data>
+  <data name="SearchAttributeType_Abstract" xml:space="preserve">
+    <value>Abstract</value>
+  </data>
+  <data name="SearchAttributeType_BDIIndexSubject" xml:space="preserve">
+    <value>Parole chiave BDI</value>
+  </data>
+  <data name="SearchAttributeType_BlissClassification" xml:space="preserve">
+    <value>Classificazione Bliss</value>
+  </data>
+  <data name="SearchAttributeType_BodyOfText" xml:space="preserve">
+    <value>Full-text</value>
+  </data>
+  <data name="SearchAttributeType_CodeGeographicArea" xml:space="preserve">
+    <value>Ubicazione geografica (Codice)</value>
+  </data>
+  <data name="SearchAttributeType_CodeInstitution" xml:space="preserve">
+    <value>Istituzione (Codice)</value>
+  </data>
+  <data name="SearchAttributeType_CodeLanguage" xml:space="preserve">
+    <value>Lingua (Codice)</value>
+  </data>
+  <data name="SearchAttributeType_CorporateName" xml:space="preserve">
+    <value>Ente</value>
+  </data>
+  <data name="SearchAttributeType_DateOfAcquisition" xml:space="preserve">
+    <value>Data del rilevamento</value>
+  </data>
+  <data name="SearchAttributeType_DeweyClassification" xml:space="preserve">
+    <value>Classificazione Decimale Dewey</value>
+  </data>
+  <data name="SearchAttributeType_Editor" xml:space="preserve">
+    <value>Curatore</value>
+  </data>
+  <data name="SearchAttributeType_INSPECSubject" xml:space="preserve">
+    <value>Parole chiave INSPEC</value>
+  </data>
+  <data name="SearchAttributeType_LCSubjectHeading" xml:space="preserve">
+    <value>Parole chiave LC</value>
+  </data>
+  <data name="SearchAttributeType_LocalClassification" xml:space="preserve">
+    <value>Sistematica locale</value>
+  </data>
+  <data name="SearchAttributeType_MaterialType" xml:space="preserve">
+    <value>Tipo di documento</value>
+  </data>
+  <data name="SearchAttributeType_MESHSubject" xml:space="preserve">
+    <value>Parole chiave MeSH</value>
+  </data>
+  <data name="SearchAttributeType_Note" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="SearchAttributeType_PASubject" xml:space="preserve">
+    <value>Parole chiave PA</value>
+  </data>
+  <data name="SearchAttributeType_RVMSubjectHeading" xml:space="preserve">
+    <value>Parole chiave RVM</value>
+  </data>
+  <data name="SearchAttributeType_SubjectPRECIS" xml:space="preserve">
+    <value>Parole chiave PRECIS</value>
+  </data>
+  <data name="SearchAttributeType_SubjectRameau" xml:space="preserve">
+    <value>Parole chiave RAMEAU</value>
+  </data>
+  <data name="SearchAttributeType_SubjectRSWK" xml:space="preserve">
+    <value>Parole chiave RSWK</value>
+  </data>
+  <data name="SearchAttributeType_TitleAbbreviated" xml:space="preserve">
+    <value>Titolo abbreviato</value>
+  </data>
+  <data name="SearchAttributeType_TitleParallel" xml:space="preserve">
+    <value>Titolo parallelo</value>
+  </data>
+  <data name="SearchAttributeType_TitleUniform" xml:space="preserve">
+    <value>Titolo normalizzato</value>
+  </data>
+  <data name="SearchAttributeType_UDCClassification" xml:space="preserve">
+    <value>Classificazione UDC</value>
+  </data>
+  <data name="ImportField_CreatedBy" xml:space="preserve">
+    <value>Creato da/in data</value>
+  </data>
+  <data name="CitationSystem_FootnoteCitationKey" xml:space="preserve">
+    <value>Nella nota a piè di pagina: riferimento breve</value>
+  </data>
+  <data name="ImportFieldType_PubMedId" xml:space="preserve">
+    <value>PubMed-ID</value>
+  </data>
+  <data name="ReferenceCompositionSortOption_CitationStyle" xml:space="preserve">
+    <value>Come indicato dallo stile di citazione</value>
+  </data>
+  <data name="ReferenceCompositionSortOption_Custom" xml:space="preserve">
+    <value>Ordinato come nel progetto corrente</value>
+  </data>
+  <data name="ReferenceCompositionSortOption_Custom_Grid" xml:space="preserve">
+    <value>Ordinato come nella tabella del progetto corrente</value>
+  </data>
+  <data name="VirtualSearchFieldType_YearResolved" xml:space="preserve">
+    <value>Ricerca anno</value>
+  </data>
+  <data name="VirtualSearchFieldType_CreatedOn" xml:space="preserve">
+    <value>Creato in data</value>
+  </data>
+  <data name="VirtualSearchFieldType_CreatedOrModifiedOn" xml:space="preserve">
+    <value>Creato o modificato in data</value>
+  </data>
+  <data name="VirtualSearchFieldType_ModifiedOn" xml:space="preserve">
+    <value>Modificato in data</value>
+  </data>
+  <data name="VirtualSearchFieldType_CustomField5" xml:space="preserve">
+    <value>Campo libero 5</value>
+  </data>
+  <data name="VirtualSearchFieldType_CustomField6" xml:space="preserve">
+    <value>Campo libero 6</value>
+  </data>
+  <data name="VirtualSearchFieldType_CustomField7" xml:space="preserve">
+    <value>Campo libero 7</value>
+  </data>
+  <data name="VirtualSearchFieldType_CustomField8" xml:space="preserve">
+    <value>Campo libero 8</value>
+  </data>
+  <data name="VirtualSearchFieldType_CustomField9" xml:space="preserve">
+    <value>Campo libero 9</value>
+  </data>
+  <data name="KnowledgeItemType_Subheading" xml:space="preserve">
+    <value>Titolo intermedio</value>
+  </data>
+  <data name="ImportFieldType_ModifiedBy" xml:space="preserve">
+    <value>Modificato da/in data</value>
+  </data>
+  <data name="ImportFieldType_ParentReferenceCreatedBy" xml:space="preserve">
+    <value>Opera collettiva: Acquisita da/in data</value>
+  </data>
+  <data name="ImportFieldType_ParentReferenceModifiedBy" xml:space="preserve">
+    <value>Opera collettiva: Modificata da/in data:</value>
+  </data>
+  <data name="VirtualSearchFieldType_QuotationType" xml:space="preserve">
+    <value>Tipo di Citazione</value>
+  </data>
+  <data name="VirtualSearchFieldType_ElectronicLocations" xml:space="preserve">
+    <value>Posizioni (elettroniche)</value>
+  </data>
+  <data name="VirtualSearchFieldType_LibraryLocations" xml:space="preserve">
+    <value>Posizioni (Biblioteca)</value>
+  </data>
+  <data name="VirtualSearchFieldType_PrivateCollectionLocations" xml:space="preserve">
+    <value>Posizioni (Collezione privata)</value>
+  </data>
+  <data name="VirtualSearchFieldType_KnowledgeItemsFile" xml:space="preserve">
+    <value>Elementi di conoscenza (immagine o file)</value>
+  </data>
+  <data name="VirtualSearchFieldType_KnowledgeItemsText" xml:space="preserve">
+    <value>Elementi di conoscenza (Testo)</value>
+  </data>
+  <data name="VirtualSearchFieldType_LocalAndLanLocations" xml:space="preserve">
+    <value>Posizioni (Computer personale e rete)</value>
+  </data>
+  <data name="VirtualSearchFieldType_QuotationsFile" xml:space="preserve">
+    <value>Citazioni (Immagine o File)</value>
+  </data>
+  <data name="VirtualSearchFieldType_QuotationsText" xml:space="preserve">
+    <value>Citazioni (Testo)</value>
+  </data>
+  <data name="VirtualSearchFieldType_ReferenceTasks" xml:space="preserve">
+    <value>Compiti titolo</value>
+  </data>
+  <data name="VirtualSearchFieldType_ThoughtsFile" xml:space="preserve">
+    <value>Idee (Immagine o File)</value>
+  </data>
+  <data name="VirtualSearchFieldType_ThoughtsText" xml:space="preserve">
+    <value>Idee (Testo)</value>
+  </data>
+  <data name="VirtualSearchFieldType_WebLocations" xml:space="preserve">
+    <value>Posizioni (Web)</value>
+  </data>
+  <data name="VirtualSearchFieldType_Doi" xml:space="preserve">
+    <value>DOI</value>
+  </data>
+  <data name="KnowledgeItemCompositionReferenceHandling_FullFormatAuto" xml:space="preserve">
+    <value>Con indice bibliografico</value>
+  </data>
+  <data name="KnowledgeItemCompositionReferenceHandling_InsertPlaceholderAsFootnote" xml:space="preserve">
+    <value>Con segnaposto nelle note a piè di pagina</value>
+  </data>
+  <data name="KnowledgeItemCompositionReferenceHandling_InsertPlaceholderAuto" xml:space="preserve">
+    <value>Con segnaposto</value>
+  </data>
+  <data name="KnowledgeItemCompositionReferenceHandling_InsertPlaceholderInText" xml:space="preserve">
+    <value>Con segnaposto nel testo</value>
+  </data>
+  <data name="KnowledgeItemCompositionReferenceHandling_InsertShortTitle" xml:space="preserve">
+    <value>Con titolo breve</value>
+  </data>
+  <data name="KnowledgeItemCompositionReferenceHandling_OmitReference" xml:space="preserve">
+    <value>Comprova per il titolo non necessaria</value>
+  </data>
+  <data name="KnowledgeItemCompositionReferenceHandling_ReferencePlaceholder" xml:space="preserve">
+    <value>Solo segnaposto per il titolo (senza il testo dell'elemento)</value>
+  </data>
+  <data name="KnowledgeItemCompositionReferenceHandling_FullFormatWithFootnotes" xml:space="preserve">
+    <value>Con indice bibliografico, riferimenti nelle note a piè di pagina</value>
+  </data>
+  <data name="KnowledgeItemCompositionReferenceHandling_FullFormatWithInTextCitations" xml:space="preserve">
+    <value>Con indice bibliografico, riferimenti nel testo</value>
+  </data>
+  <data name="AppendIdentifyingLetterTo_Both" xml:space="preserve">
+    <value>Riferimento breve e anno</value>
+  </data>
+  <data name="ListSortDirection_Ascending" xml:space="preserve">
+    <value>Ascendente</value>
+  </data>
+  <data name="ListSortDirection_Descending" xml:space="preserve">
+    <value>Discendente</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_All" xml:space="preserve">
+    <value>Tutti i titoli</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_Category" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_CitedReferences" xml:space="preserve">
+    <value>Titoli citati</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_CopiedReferences" xml:space="preserve">
+    <value>Titoli copiati</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_DuplicateReferences" xml:space="preserve">
+    <value>Doppione</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_Keyword" xml:space="preserve">
+    <value>Parola chiave</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_Label1" xml:space="preserve">
+    <value>Marcatura blu</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_Label2" xml:space="preserve">
+    <value>Marcatura rossa</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_LastImport" xml:space="preserve">
+    <value>Ultimo Import</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_Library" xml:space="preserve">
+    <value>Biblioteca</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_LookupLocationsReferences" xml:space="preserve">
+    <value>Titolo dalla ricerca collocazione</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_MovedReferences" xml:space="preserve">
+    <value>Titolo spostato</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_Other" xml:space="preserve">
+    <value>Altro filtro</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_Periodical" xml:space="preserve">
+    <value>Rivista/Giornale</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_Person" xml:space="preserve">
+    <value>Persona</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_Publisher" xml:space="preserve">
+    <value>Casa editrice</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_ReferencesWithNoCategory" xml:space="preserve">
+    <value>Titolo senza categoria</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_ReferencesWithNoGroup" xml:space="preserve">
+    <value>Titoli senza gruppo</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_ReferencesWithNoKeyword" xml:space="preserve">
+    <value>Titolo senza parola chiave</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_ReferenceType" xml:space="preserve">
+    <value>Tipo di documento</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_SelectedReferences" xml:space="preserve">
+    <value>Titoli selezionati</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_SeriesTitle" xml:space="preserve">
+    <value>Collana</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_ExcludeReferences" xml:space="preserve">
+    <value>{0} Titolo escluso</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_ExcludeReferences_Singular" xml:space="preserve">
+    <value>1 Titolo escluso</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_Year" xml:space="preserve">
+    <value>Anno: {0}</value>
+  </data>
+  <data name="KnowledgeItemFilterTypeInternal_All" xml:space="preserve">
+    <value>Tutti gli elementi di conoscenza</value>
+  </data>
+  <data name="KnowledgeItemFilterTypeInternal_Category" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="KnowledgeItemFilterTypeInternal_ExcludeKnowledgeItems" xml:space="preserve">
+    <value>{0} elementi di conoscenza esclusi</value>
+  </data>
+  <data name="KnowledgeItemFilterTypeInternal_ExcludeKnowledgeItems_Singular" xml:space="preserve">
+    <value>1 elemento di conoscenza escluso</value>
+  </data>
+  <data name="KnowledgeItemFilterTypeInternal_Keyword" xml:space="preserve">
+    <value>Parola chiave</value>
+  </data>
+  <data name="KnowledgeItemFilterTypeInternal_KnowledgeItemsWithNoCategory" xml:space="preserve">
+    <value>Elementi di conoscenza senza categoria</value>
+  </data>
+  <data name="KnowledgeItemFilterTypeInternal_KnowledgeItemsWithNoKeyword" xml:space="preserve">
+    <value>Elementi di conoscenza senza parola chiave</value>
+  </data>
+  <data name="KnowledgeItemFilterTypeInternal_KnowledgeItemsWithNoGroup" xml:space="preserve">
+    <value>Elementi di conoscenza senza gruppo</value>
+  </data>
+  <data name="KnowledgeItemFilterTypeInternal_KnowledgeItemType" xml:space="preserve">
+    <value>Tipo elemento di conoscenza</value>
+  </data>
+  <data name="KnowledgeItemFilterTypeInternal_Other" xml:space="preserve">
+    <value>Altro filtro</value>
+  </data>
+  <data name="KnowledgeItemFilterTypeInternal_Periodical" xml:space="preserve">
+    <value>Rivista/Giornale</value>
+  </data>
+  <data name="KnowledgeItemFilterTypeInternal_Person" xml:space="preserve">
+    <value>Persona</value>
+  </data>
+  <data name="KnowledgeItemFilterTypeInternal_QuotationType" xml:space="preserve">
+    <value>Tipo citazione</value>
+  </data>
+  <data name="KnowledgeItemFilterTypeInternal_SelectedKnowledgeItems" xml:space="preserve">
+    <value>Elementi di conoscenza selezionati</value>
+  </data>
+  <data name="ImportFieldType_LocationElectronic" xml:space="preserve">
+    <value>Posizioni (elettroniche)</value>
+    <comment> (für den Export von URL's - BibTeX)</comment>
+  </data>
+  <data name="SearchAttributeType_LCCallNumber" xml:space="preserve">
+    <value>LCCN</value>
+  </data>
+  <data name="VirtualSearchFieldType_Rating" xml:space="preserve">
+    <value>Valutazione (n. stelle)</value>
+  </data>
+  <data name="PasswordStrength_Strong" xml:space="preserve">
+    <value>Sicurezza password: alta</value>
+  </data>
+  <data name="PasswordStrength_Weak" xml:space="preserve">
+    <value>Sicurezza password: debole</value>
+  </data>
+  <data name="PasswordStrength_Medium" xml:space="preserve">
+    <value>Sicurezza password: media</value>
+  </data>
+  <data name="PasswordStrength_None" xml:space="preserve">
+    <value>Sicurezza password: nessuna</value>
+  </data>
+  <data name="BuiltInRole_Author" xml:space="preserve">
+    <value>Autore</value>
+  </data>
+  <data name="BuiltInRole_ProjectLeader" xml:space="preserve">
+    <value>Project manager</value>
+  </data>
+  <data name="BuiltInRole_Reader" xml:space="preserve">
+    <value>Lettore</value>
+  </data>
+  <data name="RolePermissionType_ChangePermissions" xml:space="preserve">
+    <value>Accesso completo</value>
+  </data>
+  <data name="RolePermissionType_ModifyAllEntities" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="RolePermissionType_ReadAllEntities" xml:space="preserve">
+    <value>Leggi</value>
+  </data>
+  <data name="ModificationInfoMeasurementUnit_Day" xml:space="preserve">
+    <value>Giorno</value>
+  </data>
+  <data name="ModificationInfoMeasurementUnit_Days" xml:space="preserve">
+    <value>Giorni</value>
+  </data>
+  <data name="ModificationInfoMeasurementUnit_Hour" xml:space="preserve">
+    <value>Ora</value>
+  </data>
+  <data name="ModificationInfoMeasurementUnit_Hours" xml:space="preserve">
+    <value>Ore</value>
+  </data>
+  <data name="ModificationInfoMeasurementUnit_Minute" xml:space="preserve">
+    <value>Minuto</value>
+  </data>
+  <data name="ModificationInfoMeasurementUnit_Minutes" xml:space="preserve">
+    <value>Minuti</value>
+  </data>
+  <data name="ModificationInfoMeasurementUnit_Month" xml:space="preserve">
+    <value>Mese</value>
+  </data>
+  <data name="ModificationInfoMeasurementUnit_Months" xml:space="preserve">
+    <value>Mesi</value>
+  </data>
+  <data name="ModificationInfoMeasurementUnit_Week" xml:space="preserve">
+    <value>Settimana</value>
+  </data>
+  <data name="ModificationInfoMeasurementUnit_Weeks" xml:space="preserve">
+    <value>Settimane</value>
+  </data>
+  <data name="VirtualSearchFieldType_KnowledgeItemsModifiedBy" xml:space="preserve">
+    <value>Elemento di conoscenza modificato da</value>
+  </data>
+  <data name="VirtualSearchFieldType_KnowledgeItemsModifiedOn" xml:space="preserve">
+    <value>Elemento di conoscenza modificato in data</value>
+  </data>
+  <data name="VirtualSearchFieldType_ReferencesModifiedBy" xml:space="preserve">
+    <value>Titolo modificato da</value>
+  </data>
+  <data name="VirtualSearchFieldType_ReferencesModifiedOn" xml:space="preserve">
+    <value>Titolo modificato in data</value>
+  </data>
+  <data name="VirtualSearchFieldType_TaskItemsModifiedBy" xml:space="preserve">
+    <value>Compiti modificati da</value>
+  </data>
+  <data name="VirtualSearchFieldType_TaskItemsModifiedOn" xml:space="preserve">
+    <value>Compiti modificati in data</value>
+  </data>
+  <data name="ImportFieldType_PrivateCollection" xml:space="preserve">
+    <value>Posizioni (Collezione privata)</value>
+  </data>
+  <data name="OptimizeForSlowDatabaseAccess_Always" xml:space="preserve">
+    <value>Sempre</value>
+  </data>
+  <data name="OptimizeForSlowDatabaseAccess_Auto" xml:space="preserve">
+    <value>Automatico</value>
+  </data>
+  <data name="OptimizeForSlowDatabaseAccess_Never" xml:space="preserve">
+    <value>Mai</value>
+  </data>
+  <data name="GdPictureStatus_Aborted" xml:space="preserve">
+    <value>Interrotto</value>
+  </data>
+  <data name="GdPictureStatus_AccessDenied" xml:space="preserve">
+    <value>Accesso negato</value>
+  </data>
+  <data name="GdPictureStatus_AllOther" xml:space="preserve">
+    <value>Errore ({0})</value>
+  </data>
+  <data name="GdPictureStatus_EncryptionSchemeNotSupported" xml:space="preserve">
+    <value>Il criptaggio non viene supportato</value>
+  </data>
+  <data name="GdPictureStatus_FileNotFound" xml:space="preserve">
+    <value>Impossibile trovare file</value>
+  </data>
+  <data name="GdPictureStatus_OutOfMemory" xml:space="preserve">
+    <value>Memoria esaurita</value>
+  </data>
+  <data name="GdPictureStatus_PdfRasterizerBadPassword" xml:space="preserve">
+    <value>Password PDF errata</value>
+  </data>
+  <data name="GdPictureStatus_PdfRasterizerCanNotBeDecrypted" xml:space="preserve">
+    <value>Impossibile decodificare il file PDF</value>
+  </data>
+  <data name="GdPictureStatus_PdfRasterizerCanNotOpenFile" xml:space="preserve">
+    <value>Impossibile aprire il file PDF</value>
+  </data>
+  <data name="GdPictureStatus_PdfRasterizerPasswordNeeded" xml:space="preserve">
+    <value>File PDF protetto da password</value>
+  </data>
+  <data name="GdPictureStatus_UnknownImageFormat" xml:space="preserve">
+    <value>Formato immagine sconosciuto</value>
+  </data>
+  <data name="GdPictureStatus_UnsupportedImageFormat" xml:space="preserve">
+    <value>Il formato immagine non viene supportato</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_CategoryAndSubcategories" xml:space="preserve">
+    <value>Categoria (com sottocategorie)</value>
+  </data>
+  <data name="CitationStyleSortOption_AuthorYearTitle" xml:space="preserve">
+    <value>Autore, Anno, Titolo</value>
+  </data>
+  <data name="CitationStyleSortOption_Custom" xml:space="preserve">
+    <value>Personalizzato</value>
+  </data>
+  <data name="CitationStyleSortOption_IndexInBibliography" xml:space="preserve">
+    <value>Ordine di successione nell'indice bibliografico</value>
+  </data>
+  <data name="CitationStyleSortOption_OrderOfAppearance" xml:space="preserve">
+    <value>Ordine di successione della citazione</value>
+  </data>
+  <data name="NumeralSystem_LetterLowerCase" xml:space="preserve">
+    <value>Carattere minuscolo</value>
+  </data>
+  <data name="NumeralSystem_LetterUpperCase" xml:space="preserve">
+    <value>Carattere maiuscolo</value>
+  </data>
+  <data name="NumeralSystem_None" xml:space="preserve">
+    <value>Nessuno</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_ReferencesInPublication" xml:space="preserve">
+    <value>Titoli citati</value>
+  </data>
+  <data name="SearchResultGroupType_EntityLinks" xml:space="preserve">
+    <value>Rinvii reciproci</value>
+  </data>
+  <data name="VirtualSearchFieldType_EntityLinksAsSource" xml:space="preserve">
+    <value>Rinvii di</value>
+  </data>
+  <data name="VirtualSearchFieldType_EntityLinksAsTarget" xml:space="preserve">
+    <value>Rinvii a</value>
+  </data>
+  <data name="EntityLinkRelationType_Negative" xml:space="preserve">
+    <value>Negativo</value>
+  </data>
+  <data name="EntityLinkRelationType_Neutral" xml:space="preserve">
+    <value>Neutro</value>
+  </data>
+  <data name="EntityLinkRelationType_Positive" xml:space="preserve">
+    <value>Positivo</value>
+  </data>
+  <data name="EntityLinkRelationType_SomewhatNegative" xml:space="preserve">
+    <value>Parzialmente negativo</value>
+  </data>
+  <data name="EntityLinkRelationType_SomewhatPositive" xml:space="preserve">
+    <value>Parzialmente positivo</value>
+  </data>
+  <data name="Sex_Unknown" xml:space="preserve">
+    <value>Sconosciuto</value>
+  </data>
+  <data name="Sex_Female" xml:space="preserve">
+    <value>Femminile</value>
+  </data>
+  <data name="Sex_Male" xml:space="preserve">
+    <value>Maschile</value>
+  </data>
+  <data name="Sex_Neutral" xml:space="preserve">
+    <value>Neutro</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_Rating" xml:space="preserve">
+    <value>Valutazione: {0}</value>
+  </data>
+  <data name="PlaceholderEntryOption_Option1" xml:space="preserve">
+    <value>Opzione 1</value>
+    <comment>i18n (auch Deutsch prüfen)</comment>
+  </data>
+  <data name="PlaceholderEntryOption_Option2" xml:space="preserve">
+    <value>Opzione 2</value>
+    <comment>i18n (auch Deutsch prüfen)</comment>
+  </data>
+  <data name="PlaceholderEntryOption_Option3" xml:space="preserve">
+    <value>Opzione 3</value>
+    <comment>i18n (auch Deutsch prüfen)</comment>
+  </data>
+  <data name="PlaceholderEntryOption_None" xml:space="preserve">
+    <value>Nessuno</value>
+  </data>
+  <data name="LaTeXEditor_TeXMaker" xml:space="preserve">
+    <value>TeXMaker</value>
+  </data>
+  <data name="LaTeXEditor_TeXnicCenter" xml:space="preserve">
+    <value>TeXnicCenter</value>
+  </data>
+  <data name="LaTeXEditor_TeXworks" xml:space="preserve">
+    <value>TeXworks</value>
+  </data>
+  <data name="LaTeXEditor_WinEdt" xml:space="preserve">
+    <value>WinEdt</value>
+  </data>
+  <data name="LaTeXEditor_WinShell" xml:space="preserve">
+    <value>WinShell</value>
+  </data>
+  <data name="LaTeXEditor_WinTeX" xml:space="preserve">
+    <value>WinTeX</value>
+  </data>
+  <data name="LaTeXEditor_LEd" xml:space="preserve">
+    <value>LEd (LaTeXEditor)</value>
+  </data>
+  <data name="LaTeXEditor_LibreWriter" xml:space="preserve">
+    <value>LibreOffice Writer</value>
+  </data>
+  <data name="LaTeXEditor_LyX" xml:space="preserve">
+    <value>LyX</value>
+  </data>
+  <data name="OrganizationNameOrder_AbbreviationName" xml:space="preserve">
+    <value>Abbreviazione nome per esteso ("UN [United Nations]")</value>
+  </data>
+  <data name="OrganizationNameOrder_AbbreviationOnly" xml:space="preserve">
+    <value>Solo abbreviazione ("UN")</value>
+  </data>
+  <data name="OrganizationNameOrder_NameAbbreviation" xml:space="preserve">
+    <value>Nome per esteso abbreviazione ("United Nations [UN]")</value>
+  </data>
+  <data name="OrganizationNameOrder_NameOnly" xml:space="preserve">
+    <value>Solo nome per esteso ("United Nations")</value>
+  </data>
+  <data name="SearchAttributeType_LocationCallNumber" xml:space="preserve">
+    <value>Segnatura</value>
+  </data>
+  <data name="AttachmentAction_CopyAndRename" xml:space="preserve">
+    <value>Copia, rinomina con titolo breve</value>
+  </data>
+  <data name="AttachmentAction_MoveAndRename" xml:space="preserve">
+    <value>Sposta, rinomina con titolo breve</value>
+  </data>
+  <data name="VirtualSearchFieldType_PersonAbbreviation" xml:space="preserve">
+    <value>Abbreviazione (Persone e Istituzioni)</value>
+  </data>
+  <data name="VirtualSearchFieldType_PersonSex" xml:space="preserve">
+    <value>Genere (Persone e Istituzioni)</value>
+  </data>
+  <data name="ImportFieldType_PageRangeNumberingType" xml:space="preserve">
+    <value>Tipo di ambito:</value>
+    <comment>added JHP: also Seiten, Randnummern, Paragraphen, Spalten, Andere</comment>
+  </data>
+  <data name="ImportFieldMappingTag_Abstract" xml:space="preserve">
+    <value>Abstract|Riepilogo</value>
+    <comment>Add all terms in your language which end users could use as a column heading for "Abstract". Separate them with Pipes (|). Ignore spaces and dots (" ", ".")</comment>
+  </data>
+  <data name="ImportFieldMappingTag_Authors" xml:space="preserve">
+    <value>autore|autori</value>
+    <comment>Add all terms in your language which end users could use as a column heading for "Authors". Separate them with Pipes (|). Ignore spaces and dots (" ", ".")</comment>
+  </data>
+  <data name="ImportFieldMappingTag_Editors" xml:space="preserve">
+    <value>editore|edit|ed</value>
+    <comment>Add all terms in your language which end users could use as a column heading for "Editors". Separate them with Pipes (|). Ignore spaces and dots (" ", ".")</comment>
+  </data>
+  <data name="ImportFieldMappingTag_FilePath" xml:space="preserve">
+    <value>destinazione|file|destinazione file</value>
+    <comment>Add all terms in your language which end users could use as a column heading for "Filepath". Separate them with Pipes (|). Ignore spaces and dots (" ", ".")</comment>
+  </data>
+  <data name="ImportFieldMappingTag_Keywords" xml:space="preserve">
+    <value>parola chiave|parole chiave</value>
+    <comment>Add all terms in your language which end users could use as a column heading for "Keywords". Separate them with Pipes (|). Ignore spaces and dots (" ", ".")</comment>
+  </data>
+  <data name="ImportFieldMappingTag_Notes" xml:space="preserve">
+    <value>annotazione|annotazioni</value>
+    <comment>Add all terms in your language which end users could use as a column heading for "Notes". Separate them with Pipes (|). Ignore spaces and dots (" ", ".")</comment>
+  </data>
+  <data name="ImportFieldMappingTag_Number" xml:space="preserve">
+    <value>numero</value>
+    <comment>Add all terms in your language which end users could use as a column heading for "Number". Separate them with Pipes (|). Ignore spaces and dots (" ", ".")</comment>
+  </data>
+  <data name="ImportFieldMappingTag_OnlineAddress" xml:space="preserve">
+    <value>online|indirizzo online|www|internet</value>
+    <comment>Add all terms in your language which end users could use as a column heading for "Online address". Separate them with Pipes (|). Ignore spaces and dots (" ", ".")</comment>
+  </data>
+  <data name="ImportFieldMappingTag_Pages" xml:space="preserve">
+    <value>pagina|pagine</value>
+    <comment>Add all terms in your language which end users could use as a column heading for "Pages". Separate them with Pipes (|). Ignore spaces and dots (" ", ".")</comment>
+  </data>
+  <data name="ImportFieldMappingTag_Periodical" xml:space="preserve">
+    <value>rivista</value>
+    <comment>Add all terms in your language which end users could use as a column heading for "Periodical". Separate them with Pipes (|). Ignore spaces and dots (" ", ".")</comment>
+  </data>
+  <data name="ImportFieldMappingTag_PlaceOfPublication" xml:space="preserve">
+    <value>Luogo di pubblicazione|Luogo</value>
+    <comment>Add all terms in your language which end users could use as a column heading for "Place of publication". Separate them with Pipes (|). Ignore spaces and dots (" ", ".")</comment>
+  </data>
+  <data name="ImportFieldMappingTag_Publisher" xml:space="preserve">
+    <value>casa editrice|case editrici</value>
+    <comment>Add all terms in your language which end users could use as a column heading for "Publisher". Separate them with Pipes (|). Ignore spaces and dots (" ", ".")</comment>
+  </data>
+  <data name="ImportFieldMappingTag_Title" xml:space="preserve">
+    <value>titolo</value>
+    <comment>Add all terms in your language which end users could use as a column heading for "Title". Separate them with Pipes (|). Ignore spaces and dots (" ", ".")</comment>
+  </data>
+  <data name="ImportFieldMappingTag_Volume" xml:space="preserve">
+    <value>volume|numero</value>
+    <comment>Add all terms in your language which end users could use as a column heading for "Volume". Separate them with Pipes (|). Ignore spaces and dots (" ", ".")</comment>
+  </data>
+  <data name="ImportFieldMappingTag_Year" xml:space="preserve">
+    <value>anno</value>
+    <comment>Add all terms in your language which end users could use as a column heading for "Year". Separate them with Pipes (|). Ignore spaces and dots (" ", ".")</comment>
+  </data>
+  <data name="NumeralSystem_Omit" xml:space="preserve">
+    <value>[Nascondi]</value>
+  </data>
+  <data name="ShowMainIndexNumbersInMultipleCitation_Always" xml:space="preserve">
+    <value>Sempre, p.es. [1a, 1b] e [1a, 1b, 2a-2c]</value>
+  </data>
+  <data name="ShowMainIndexNumbersInMultipleCitation_AlwaysButOncePerRange" xml:space="preserve">
+    <value>Sempre, ma solo una volta per ambito, p.es. [1a, 1b] e [1a, 1b, 2a-c]</value>
+  </data>
+  <data name="ShowMainIndexNumbersInMultipleCitation_Once" xml:space="preserve">
+    <value>Una volta, p.es.  [1a, b] e [1a, b, 2a-c]</value>
+  </data>
+  <data name="ShowMainIndexNumbersInMultipleCitation_OnceOnlyWhenAllReferencesAreOfSingleMainIndex" xml:space="preserve">
+    <value>Una volta, se tutti i riferimenti hanno lo stesso indice principale, p.es. [1a, b] ma [1a, 1b, 2a-c]</value>
+  </data>
+  <data name="StyleFinderShortCitationSystem_AuthorYear" xml:space="preserve">
+    <value>Autore anno, p. es. (Smith 2008)</value>
+  </data>
+  <data name="StyleFinderShortCitationSystem_CitationKey" xml:space="preserve">
+    <value>Riferimento breve, p.es. [Smi08]</value>
+  </data>
+  <data name="StyleFinderShortCitationSystem_Indifferent" xml:space="preserve">
+    <value>Indifferente</value>
+  </data>
+  <data name="StyleFinderShortCitationSystem_ReferenceNumbers" xml:space="preserve">
+    <value>Numeri, p.es. [14]</value>
+  </data>
+  <data name="StyleFinderFullReferenceAuthorsFirstNameFormat_Abbreviated" xml:space="preserve">
+    <value>Abbreviato: J. M.</value>
+  </data>
+  <data name="StyleFinderFullReferenceAuthorsFirstNameFormat_AbbreviatedCompact" xml:space="preserve">
+    <value>Abbreviato con punto, compatto: J.M.</value>
+  </data>
+  <data name="StyleFinderFullReferenceAuthorsFirstNameFormat_AbbreviatedNoPeriod" xml:space="preserve">
+    <value>Abbreviato senza punto: J M</value>
+  </data>
+  <data name="StyleFinderFullReferenceAuthorsFirstNameFormat_Compact" xml:space="preserve">
+    <value>Abbreviato senza punto, compatto: JM</value>
+  </data>
+  <data name="StyleFinderFullReferenceAuthorsFirstNameFormat_Full" xml:space="preserve">
+    <value>Scritto per esteso: Jane Marie</value>
+  </data>
+  <data name="StyleFinderFullReferenceAuthorsFirstNameFormat_Indifferent" xml:space="preserve">
+    <value>Indifferente</value>
+  </data>
+  <data name="StyleFinderFullReferenceAuthorsLastNameFontStyle_Bold" xml:space="preserve">
+    <value>Grassetto</value>
+  </data>
+  <data name="StyleFinderFullReferenceAuthorsLastNameFontStyle_Indifferent" xml:space="preserve">
+    <value>Indifferente</value>
+  </data>
+  <data name="StyleFinderFullReferenceAuthorsLastNameFontStyle_Italics" xml:space="preserve">
+    <value>Corsivo</value>
+  </data>
+  <data name="StyleFinderFullReferenceAuthorsLastNameFontStyle_Neutral" xml:space="preserve">
+    <value>Senza ulteriore formattazione del testo</value>
+  </data>
+  <data name="StyleFinderFullReferenceAuthorsLastNameFontStyle_SmallCaps" xml:space="preserve">
+    <value>In maiuscoletto</value>
+  </data>
+  <data name="StyleFinderFullReferenceAuthorsNameOrder_FirstNameLastName" xml:space="preserve">
+    <value>Nome Cognome</value>
+  </data>
+  <data name="StyleFinderFullReferenceAuthorsNameOrder_Indifferent" xml:space="preserve">
+    <value>Indifferente</value>
+  </data>
+  <data name="StyleFinderFullReferenceAuthorsNameOrder_LastNameFirstName" xml:space="preserve">
+    <value>Cognome Nome</value>
+  </data>
+  <data name="StyleFinderFullReferenceAuthorsNameOrder_LastNameOnly" xml:space="preserve">
+    <value>Solo Cognome</value>
+  </data>
+  <data name="StyleFinderFullReferenceAuthorsSeparator_Comma" xml:space="preserve">
+    <value>Virgola</value>
+  </data>
+  <data name="StyleFinderFullReferenceAuthorsSeparator_Indifferent" xml:space="preserve">
+    <value>Indifferente</value>
+  </data>
+  <data name="StyleFinderFullReferenceAuthorsSeparator_Other" xml:space="preserve">
+    <value>Altro</value>
+  </data>
+  <data name="StyleFinderFullReferenceAuthorsSeparator_Semicolon" xml:space="preserve">
+    <value>Punto e virgola</value>
+  </data>
+  <data name="StyleFinderFullReferenceAuthorsSeparator_Slash" xml:space="preserve">
+    <value>Trattino</value>
+  </data>
+  <data name="StyleFinderFullReferenceBookTitleFormat_Indifferent" xml:space="preserve">
+    <value>Indifferente</value>
+  </data>
+  <data name="StyleFinderFullReferenceBookTitleFormat_Italics" xml:space="preserve">
+    <value>Corsivo</value>
+  </data>
+  <data name="StyleFinderFullReferenceBookTitleFormat_ItalicsInQuotationMarks" xml:space="preserve">
+    <value>Corsivo e virgolettato</value>
+  </data>
+  <data name="StyleFinderFullReferenceBookTitleFormat_Neutral" xml:space="preserve">
+    <value>Neutro</value>
+  </data>
+  <data name="StyleFinderFullReferenceBookTitleFormat_NeutralInQuotationMarks" xml:space="preserve">
+    <value>Neutro e virgolettato</value>
+  </data>
+  <data name="StyleFinderFullReferenceBookUsesEdition_Indifferent" xml:space="preserve">
+    <value>Indifferente</value>
+  </data>
+  <data name="StyleFinderFullReferenceBookUsesEdition_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="StyleFinderFullReferenceBookUsesEdition_Yes" xml:space="preserve">
+    <value>Sì</value>
+  </data>
+  <data name="StyleFinderFullReferenceBookUsesEdition_YesAsSuperscript" xml:space="preserve">
+    <value>Sì, in apice accanto all'anno di pubblicazione</value>
+  </data>
+  <data name="StyleFinderFullReferenceBookUsesPublisher_Indifferent" xml:space="preserve">
+    <value>Indifferente</value>
+  </data>
+  <data name="StyleFinderFullReferenceBookUsesPublisher_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="StyleFinderFullReferenceBookUsesPublisher_Yes" xml:space="preserve">
+    <value>Sì</value>
+  </data>
+  <data name="StyleFinderFullReferenceJournalArticleJournalNameFormat_AbbreviatedName" xml:space="preserve">
+    <value>Nome abbreviato</value>
+  </data>
+  <data name="StyleFinderFullReferenceJournalArticleJournalNameFormat_AbbreviatedNameItalics" xml:space="preserve">
+    <value>Nome abbreviato, corsivo</value>
+  </data>
+  <data name="StyleFinderFullReferenceJournalArticleJournalNameFormat_FullName" xml:space="preserve">
+    <value>Nome per esteso</value>
+  </data>
+  <data name="StyleFinderFullReferenceJournalArticleJournalNameFormat_FullNameItalics" xml:space="preserve">
+    <value>Nome per esteso, corsivo</value>
+  </data>
+  <data name="StyleFinderFullReferenceJournalArticleJournalNameFormat_Indifferent" xml:space="preserve">
+    <value>Indifferente</value>
+  </data>
+  <data name="StyleFinderFullReferenceJournalArticleTitleFormat_Indifferent" xml:space="preserve">
+    <value>Indifferente</value>
+  </data>
+  <data name="StyleFinderFullReferenceJournalArticleTitleFormat_Italics" xml:space="preserve">
+    <value>Corsivo</value>
+  </data>
+  <data name="StyleFinderFullReferenceJournalArticleTitleFormat_ItalicsInQuotationMarks" xml:space="preserve">
+    <value>Corsivo e virgolettato</value>
+  </data>
+  <data name="StyleFinderFullReferenceJournalArticleTitleFormat_Neutral" xml:space="preserve">
+    <value>Neutro</value>
+  </data>
+  <data name="StyleFinderFullReferenceJournalArticleTitleFormat_NeutralInQuotationMarks" xml:space="preserve">
+    <value>Neutro e virgolettato</value>
+  </data>
+  <data name="StyleFinderOrderOfReferenceNumbers_Indifferent" xml:space="preserve">
+    <value>Indifferente</value>
+  </data>
+  <data name="StyleFinderOrderOfReferenceNumbers_OrderOfBibliography" xml:space="preserve">
+    <value>Nell'ordine dell'indice bibliografico selezionato</value>
+  </data>
+  <data name="StyleFinderOrderOfReferenceNumbers_OrderOfCitation" xml:space="preserve">
+    <value>In ordine cronologico in base all'ordine della citazione</value>
+  </data>
+  <data name="StyleFinderRepeatingConsecutiveFootnoteCitation_Full" xml:space="preserve">
+    <value>Completo</value>
+  </data>
+  <data name="StyleFinderRepeatingConsecutiveFootnoteCitation_Ibidem" xml:space="preserve">
+    <value>Senza ripetizione dei dati bibliografici, sostituiti p.es. con "ibidem" e simili</value>
+  </data>
+  <data name="StyleFinderRepeatingConsecutiveFootnoteCitation_Indifferent" xml:space="preserve">
+    <value>Indifferente</value>
+  </data>
+  <data name="StyleFinderRepeatingConsecutiveFootnoteCitation_Short" xml:space="preserve">
+    <value>Abbreviato, p.es. autore, parola chiave del titolo, pagina della citazione</value>
+  </data>
+  <data name="StyleFinderRepeatingNonConsecutiveFootnoteCitation_FirstFootnoteIOndex" xml:space="preserve">
+    <value>Rimando alla prima nota a piè di pagina, p.es. autore, (v. nota a piè di pagina 12), pagina della citazione</value>
+  </data>
+  <data name="StyleFinderRepeatingNonConsecutiveFootnoteCitation_Full" xml:space="preserve">
+    <value>Completo</value>
+  </data>
+  <data name="StyleFinderRepeatingNonConsecutiveFootnoteCitation_Indifferent" xml:space="preserve">
+    <value>Indifferente</value>
+  </data>
+  <data name="StyleFinderRepeatingNonConsecutiveFootnoteCitation_Short" xml:space="preserve">
+    <value>Abbreviato, p.es. autore, parola chiave del titolo, pagina della citazione</value>
+  </data>
+  <data name="StyleFinderShortReferenceType_AuthorYear" xml:space="preserve">
+    <value>Autore anno, p.es. (Smith 2008)</value>
+  </data>
+  <data name="StyleFinderShortReferenceType_CitationKey" xml:space="preserve">
+    <value>Riferimento breve, p.es. [Smi08]</value>
+  </data>
+  <data name="StyleFinderShortReferenceType_Indifferent" xml:space="preserve">
+    <value>Indifferente</value>
+  </data>
+  <data name="StyleFinderShortReferenceType_ReferenceNumbers" xml:space="preserve">
+    <value>Numeri di riferimento, p. es. [14]</value>
+  </data>
+  <data name="StyleFinderPlaceOfReferences_Indifferent" xml:space="preserve">
+    <value>Indifferente</value>
+  </data>
+  <data name="StyleFinderPlaceOfReferences_InTextAndBibliography" xml:space="preserve">
+    <value>Nel testo e nell'indice bibliografico</value>
+  </data>
+  <data name="StyleFinderPlaceOfReferences_InFootnotesAndBibliography" xml:space="preserve">
+    <value>Nelle note a piè di pagina e nell'indice bibliografico</value>
+  </data>
+  <data name="StyleFinderPlaceOfReferences_OnlyInFootnotes" xml:space="preserve">
+    <value>Solo nelle note a piè di pagina</value>
+  </data>
+  <data name="LaTeXEditor_TeXstudio" xml:space="preserve">
+    <value>TeXstudio</value>
+  </data>
+  <data name="QuotationType_Highlight" xml:space="preserve">
+    <value>Evidenziazione</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="KnownTaskName_Discuss" xml:space="preserve">
+    <value>Discuti</value>
+  </data>
+  <data name="QuotationType_QuickReference" xml:space="preserve">
+    <value>Marcatura rossa</value>
+  </data>
+  <data name="ProjectDbPermission_None" xml:space="preserve">
+    <value>Nessuno</value>
+  </data>
+  <data name="ProjectDbPermission_Read" xml:space="preserve">
+    <value>Solo leggere</value>
+  </data>
+  <data name="ProjectDbPermission_Unknown" xml:space="preserve">
+    <value>Sconosciuto</value>
+  </data>
+  <data name="ProjectDbPermission_Write" xml:space="preserve">
+    <value>Leggi / Scrivi</value>
+  </data>
+  <data name="SchemaRole_Author" xml:space="preserve">
+    <value>Autore</value>
+  </data>
+  <data name="SchemaRole_None" xml:space="preserve">
+    <value>Nessun accesso</value>
+  </data>
+  <data name="SchemaRole_Reader" xml:space="preserve">
+    <value>Lettore</value>
+  </data>
+  <data name="DbServerLicenseType_Concurrent" xml:space="preserve">
+    <value>Coincidente</value>
+  </data>
+  <data name="DbServerLicenseType_Free" xml:space="preserve">
+    <value>Gratuito</value>
+  </data>
+  <data name="DbServerLicenseType_PerSeat" xml:space="preserve">
+    <value>Per postazione</value>
+  </data>
+  <data name="SchemaRole_Manager" xml:space="preserve">
+    <value>Project manager</value>
+  </data>
+  <data name="PdfExportSelection_ActiveReferencePdfs" xml:space="preserve">
+    <value>Dai {0} file PDF del titolo attivo</value>
+  </data>
+  <data name="PdfExportSelection_AllReferencesPdfs" xml:space="preserve">
+    <value>Per tutti i {0} file PDF di questo progetto</value>
+  </data>
+  <data name="PdfExportSelection_FilteredReferencesPdfs" xml:space="preserve">
+    <value>Per i {0} file PDF dei titoli selezionati</value>
+  </data>
+  <data name="PdfExportSelection_PreviewPdf" xml:space="preserve">
+    <value>Per il file PDF visualizzato</value>
+  </data>
+  <data name="PdfExportSelection_SelectedReferencesPdfs" xml:space="preserve">
+    <value>Per i {0} file PDF dei titoli evidenziati</value>
+  </data>
+  <data name="BibliographyRepeatedPersonsOmissionHandling_None" xml:space="preserve">
+    <value>Keine Wiederholungsausgabe oder Auslassung</value>
+  </data>
+  <data name="BibliographyRepeatedPersonsOmissionHandling_Standard" xml:space="preserve">
+    <value>Come indicato sopra </value>
+  </data>
+  <data name="BibliographyRepeatedPersonsOmissionHandling_Special" xml:space="preserve">
+    <value>Spezielle Wiederholungsausgabe oder Auslassung…</value>
+  </data>
+  <data name="VirtualSearchFieldType_KnowledgeItemCategories" xml:space="preserve">
+    <value>Categorie (negli elementi di conoscenza)</value>
+  </data>
+  <data name="VirtualSearchFieldType_KnowledgeItemKeywords" xml:space="preserve">
+    <value>Parole chiave (negli elementi di conoscenza)</value>
+  </data>
+  <data name="VirtualSearchFieldType_ReferenceCategories" xml:space="preserve">
+    <value>Categorie (nei titoli)</value>
+  </data>
+  <data name="VirtualSearchFieldType_ReferenceKeywords" xml:space="preserve">
+    <value>Parole chiave (nei titoli)</value>
+  </data>
+  <data name="KnowledgeItemFilterTypeInternal_SeriesTitle" xml:space="preserve">
+    <value>Collana</value>
+  </data>
+  <data name="KnowledgeItemFilterTypeInternal_KnowledgeItemsInPublication" xml:space="preserve">
+    <value>Elementi di conoscenza citati</value>
+  </data>
+  <data name="KnowledgeItemFilterTypeInternal_Quotations" xml:space="preserve">
+    <value>Citazioni</value>
+  </data>
+  <data name="KnowledgeItemFilterTypeInternal_Thoughts" xml:space="preserve">
+    <value>Idee</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_ChildReferences" xml:space="preserve">
+    <value>Contributi correlati</value>
+  </data>
+  <data name="VirtualSearchFieldType_Groups" xml:space="preserve">
+    <value>Gruppi (tutti)</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_Group" xml:space="preserve">
+    <value>Gruppo</value>
+  </data>
+  <data name="KnowledgeItemFilterTypeInternal_Group" xml:space="preserve">
+    <value>Gruppi</value>
+  </data>
+  <data name="VirtualSearchFieldType_KnowledgeItemGroups" xml:space="preserve">
+    <value>Gruppi (negli elementi di conoscenza)</value>
+  </data>
+  <data name="VirtualSearchFieldType_ReferenceGroups" xml:space="preserve">
+    <value>Gruppi (nei titoli)</value>
+  </data>
+  <data name="KnowledgeItemFilterTypeInternal_SavedSearch" xml:space="preserve">
+    <value>Ricerca salvata</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_ImportGroup" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="ReferenceFilterTypeInternal_SavedSearch" xml:space="preserve">
+    <value>Ricerca salvata</value>
+  </data>
+  <data name="ImportGroupType_LookupFullTextWithAttachment" xml:space="preserve">
+    <value>Nuovi full-text trovati</value>
+  </data>
+  <data name="ImportGroupType_LookupFullTextWithUrl" xml:space="preserve">
+    <value>Titoli con nuovi URL</value>
+  </data>
+  <data name="ImportGroupType_OnlineSearch" xml:space="preserve">
+    <value>Ricerca</value>
+  </data>
+  <data name="ImportGroupType_Picker" xml:space="preserve">
+    <value>Import Picker</value>
+  </data>
+  <data name="SearchResultGroupType_Groups" xml:space="preserve">
+    <value>Gruppi</value>
+  </data>
+  <data name="ImportGroupType_FileImport" xml:space="preserve">
+    <value>Import file</value>
+  </data>
+  <data name="AdobeAcrobatFileImport" xml:space="preserve">
+    <value>Importazione file PDF</value>
+  </data>
+  <data name="ImportGroupType_AdobeAcrobatFileImport" xml:space="preserve">
+    <value>Importazione file PDF</value>
+  </data>
+  <data name="AutoRenamePropertyId_AuthorOrEditorOrOrganization" xml:space="preserve">
+    <value>Autore</value>
+    <comment>i18N</comment>
+  </data>
+  <data name="AutoRenamePropertyId_None" xml:space="preserve">
+    <value/>
+    <comment>I18N</comment>
+  </data>
+  <data name="AutoRenamePropertyId_ShortTitle" xml:space="preserve">
+    <value>Titolo breve</value>
+    <comment>I18N</comment>
+  </data>
+  <data name="AutoRenamePropertyId_SubTitle" xml:space="preserve">
+    <value>Sottotitolo</value>
+    <comment>I18N</comment>
+  </data>
+  <data name="AutoRenamePropertyId_Title" xml:space="preserve">
+    <value>Titolo</value>
+    <comment>I18N</comment>
+  </data>
+  <data name="AutoRenamePropertyId_Year" xml:space="preserve">
+    <value>Anno</value>
+    <comment>I18N</comment>
+  </data>
+  <data name="FileNameSeparator_Comma" xml:space="preserve">
+    <value>Virgola</value>
+    <comment>i18N</comment>
+  </data>
+  <data name="FileNameSeparator_Dash" xml:space="preserve">
+    <value>Trattino</value>
+    <comment>i18N</comment>
+  </data>
+  <data name="FileNameSeparator_None" xml:space="preserve">
+    <value/>
+    <comment>i18N</comment>
+  </data>
+  <data name="FileNameSeparator_Period" xml:space="preserve">
+    <value>Punto</value>
+    <comment>i18N</comment>
+  </data>
+  <data name="FileNameSeparator_UnderLine" xml:space="preserve">
+    <value>Trattino basso</value>
+    <comment>i18N</comment>
+  </data>
+  <data name="AutoRenamePropertyId_CustomField1" xml:space="preserve">
+    <value>Campo libero 1</value>
+  </data>
+  <data name="AutoRenamePropertyId_CustomField2" xml:space="preserve">
+    <value>Campo libero 2</value>
+  </data>
+  <data name="AutoRenamePropertyId_CustomField3" xml:space="preserve">
+    <value>Campo libero 3</value>
+  </data>
+  <data name="AutoRenamePropertyId_CustomField4" xml:space="preserve">
+    <value>Campo libero 4</value>
+  </data>
+  <data name="AutoRenamePropertyId_CustomField5" xml:space="preserve">
+    <value>Campo libero 5</value>
+  </data>
+  <data name="AutoRenamePropertyId_CustomField6" xml:space="preserve">
+    <value>Campo libero 6</value>
+  </data>
+  <data name="AutoRenamePropertyId_CustomField7" xml:space="preserve">
+    <value>Campo libero 7</value>
+  </data>
+  <data name="AutoRenamePropertyId_CustomField8" xml:space="preserve">
+    <value>Campo libero 8</value>
+  </data>
+  <data name="AutoRenamePropertyId_CustomField9" xml:space="preserve">
+    <value>Campo libero 9</value>
+  </data>
+  <data name="NumeralSystem_Default" xml:space="preserve">
+    <value>Nessuna numerazione (come inserito)</value>
+  </data>
+  <data name="VirtualSearchFieldType_ReferencesCreatedBy" xml:space="preserve">
+    <value>Titolo acquisito da</value>
+  </data>
+  <data name="VirtualSearchFieldType_ReferencesCreatedOn" xml:space="preserve">
+    <value>Titolo acquisito in data</value>
+  </data>
+  <data name="VirtualSearchFieldType_ReferencesCreatedOrModifiedBy" xml:space="preserve">
+    <value>Titolo acquisito o modificato da</value>
+  </data>
+  <data name="VirtualSearchFieldType_ReferencesCreatedOrModifiedOn" xml:space="preserve">
+    <value>Titolo acquisito o modificato in data</value>
+  </data>
+  <data name="VirtualSearchFieldType_FullText" xml:space="preserve">
+    <value>Full-text</value>
+  </data>
+  <data name="SearchResultGroupType_Locations_FullText" xml:space="preserve">
+    <value>Full-text, collocazioni</value>
+  </data>
+  <data name="FullTextExtractionResult_CannotOpenPdf" xml:space="preserve">
+    <value>Non è stato possibile aprire il file PDF. Il file potrebbe essere danneggiato.</value>
+  </data>
+  <data name="FullTextExtractionResult_ErrorWhenConvertingUriToFileInfo" xml:space="preserve">
+    <value>Non è stato possibile convertire la collocazione in un percorso file.</value>
+  </data>
+  <data name="FullTextExtractionResult_ErrorWhileExtractingIFilterText" xml:space="preserve">
+    <value>Si è verificato un errore durante l'estrazione del testo dal file.</value>
+  </data>
+  <data name="FullTextExtractionResult_ErrorWhileExtractingPdfText" xml:space="preserve">
+    <value>Si è verificato un errore durante l'estrazione del testo dal file PDF.</value>
+  </data>
+  <data name="FullTextExtractionResult_FileFormatNotExtractable" xml:space="preserve">
+    <value>La ricerca full-text di Citavi non supporta il formato del file.</value>
+  </data>
+  <data name="FullTextExtractionResult_FileNotFound" xml:space="preserve">
+    <value>Impossibile trovare il file.</value>
+  </data>
+  <data name="FullTextExtractionResult_Manual" xml:space="preserve">
+    <value>Il full-text è stato personalizzato manualmente.</value>
+  </data>
+  <data name="FullTextExtractionResult_NoLocalFile" xml:space="preserve">
+    <value>La collocazione non è un file locale (allegato o file collegato).</value>
+  </data>
+  <data name="FullTextExtractionResult_None" xml:space="preserve">
+    <value>La collocazione non è stata elaborata.</value>
+  </data>
+  <data name="FullTextExtractionResult_PdfIsPasswordProtected" xml:space="preserve">
+    <value>Il file PDF è protetto da password. Non è stato possibile estrarre il testo.</value>
+  </data>
+  <data name="FullTextExtractionResult_Success" xml:space="preserve">
+    <value>Full-text estratto correttamente.</value>
+  </data>
+  <data name="FullTextExtractionResult_UnexpectedError" xml:space="preserve">
+    <value>Si è verificato un errore imprevisto durante l'elaborazione del file.</value>
+  </data>
+  <data name="FullTextExtractionResult_UnexpectedErrorWhileProcessingPdf" xml:space="preserve">
+    <value>Si è verificato un errore imprevisto durante l'elaborazione del file PDF.</value>
+  </data>
+  <data name="LinkedResourceType_AbsoluteFileUri" xml:space="preserve">
+    <value>File collegato</value>
+  </data>
+  <data name="LinkedResourceType_AttachmentFile" xml:space="preserve">
+    <value>Allegato Citavi (locale)</value>
+  </data>
+  <data name="LinkedResourceType_Empty" xml:space="preserve">
+    <value>(Spazio)</value>
+  </data>
+  <data name="LinkedResourceType_NotAnUri" xml:space="preserve">
+    <value>(Non valido)</value>
+  </data>
+  <data name="LinkedResourceType_RelativeFileUri" xml:space="preserve">
+    <value>File collegato (relativo)</value>
+  </data>
+  <data name="LinkedResourceType_RemoteUri" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="FullTextExtractionStatus_Error" xml:space="preserve">
+    <value>Errore</value>
+  </data>
+  <data name="FullTextExtractionStatus_NotProcessed" xml:space="preserve">
+    <value>Non elaborato</value>
+  </data>
+  <data name="FullTextExtractionStatus_Success" xml:space="preserve">
+    <value>Riuscita</value>
+  </data>
+  <data name="FullTextExtractionStatus_NotExtractable" xml:space="preserve">
+    <value>Non estraibile</value>
+  </data>
+  <data name="FullTextExtractionResult_CannotOpenEPub" xml:space="preserve">
+    <value>Impossibile aprire il file ePub. Il file potrebbe essere danneggiato.</value>
+  </data>
+  <data name="FullTextExtractionResult_EPubIsDrmProtected" xml:space="preserve">
+    <value>Il file ePub è protetto da DRM. Impossibile estrarre il testo.</value>
+  </data>
+  <data name="FullTextExtractionResult_ErrorWhileExtractingEPubText" xml:space="preserve">
+    <value>Si è verificato un errore durante l'estrazione del testo dal file ePub.</value>
+  </data>
+  <data name="FullTextExtractionResult_UnexpectedErrorWhileProcessingEPub" xml:space="preserve">
+    <value>Si è verificato un errore imprevisto durante l'elaborazione del file ePub.</value>
+  </data>
+  <data name="TaskStatus_Canceled" xml:space="preserve">
+    <value>Interrotto</value>
+  </data>
+  <data name="TaskStatus_Created" xml:space="preserve">
+    <value>Creato</value>
+  </data>
+  <data name="TaskStatus_Faulted" xml:space="preserve">
+    <value>Non riuscito</value>
+  </data>
+  <data name="TaskStatus_RanToCompletion" xml:space="preserve">
+    <value>Concluso</value>
+  </data>
+  <data name="TaskStatus_Running" xml:space="preserve">
+    <value>Elaborazione in corso</value>
+  </data>
+  <data name="TaskStatus_WaitingForActivation" xml:space="preserve">
+    <value>In attesa di attivazione</value>
+  </data>
+  <data name="TaskStatus_WaitingForChildrenToComplete" xml:space="preserve">
+    <value>In attesa di processi secondari</value>
+  </data>
+  <data name="TaskStatus_WaitingToRun" xml:space="preserve">
+    <value>In attesa di elaborazione</value>
+  </data>
+  <data name="LinkedResourceType_AttachmentAttaching" xml:space="preserve">
+    <value>Allegato Citavi (elaborazione in corso)</value>
+  </data>
+  <data name="LinkedResourceType_AttachmentRemote" xml:space="preserve">
+    <value>Allegato Citavi (nel cloud)</value>
+  </data>
+  <data name="LinkedResourceType_AttachmentWaitingForServerTransaction" xml:space="preserve">
+    <value>Allegato Citavi (elaborazione in corso)</value>
+  </data>
+  <data name="LinkedResourceType_Error" xml:space="preserve">
+    <value>Errore</value>
+  </data>
+  <data name="LinkedResourceType_RemoteAttachmentUri" xml:space="preserve">
+    <value>URL Citavi</value>
+  </data>
+  <data name="KnowledgeItemFilterTypeInternal_CategoryAndSubcategories" xml:space="preserve">
+    <value>Categoria (e sottocategorie)</value>
+  </data>
+  <data name="UngroupedReferencesPosition_Bottom" xml:space="preserve">
+    <value>Alla fine</value>
+  </data>
+  <data name="UngroupedReferencesPosition_Top" xml:space="preserve">
+    <value>All'inizio</value>
+  </data>
+  <data name="TaskPlannerQuickFilter_MyTasks" xml:space="preserve">
+    <value>I miei compiti</value>
+  </data>
+  <data name="VirtualSearchFieldType_TaskItemsAssignedTo" xml:space="preserve">
+    <value>Assegnato a</value>
+  </data>
+  <data name="VirtualSearchFieldType_TaskItemsAssignedOn" xml:space="preserve">
+    <value>Assegnato il</value>
+  </data>
+  <data name="ProjectRoleType_Author" xml:space="preserve">
+    <value>Autore</value>
+  </data>
+  <data name="ProjectRoleType_Manager" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="ProjectRoleType_Owner" xml:space="preserve">
+    <value>Proprietario</value>
+  </data>
+  <data name="ProjectRoleType_Reader" xml:space="preserve">
+    <value>Lettore</value>
+  </data>
+  <data name="ProjectType_DesktopCloud" xml:space="preserve">
+    <value>Progetto Cloud</value>
+  </data>
+  <data name="ProjectType_DesktopSQLite" xml:space="preserve">
+    <value>Progetto locale</value>
+  </data>
+  <data name="ProjectType_DesktopSqlServer" xml:space="preserve">
+    <value>Progetto DBServer</value>
+  </data>
+  <data name="FullTextExtractionStatus_CloudProcessing" xml:space="preserve">
+    <value>Modifica in corso nel Cloud</value>
+  </data>
+  <data name="VirtualSearchFieldType_Affiliation" xml:space="preserve">
+    <value>Affiliazione</value>
+    <comment>Do not translate</comment>
+  </data>
+  <data name="VirtualSearchFieldType_ArxivId" xml:space="preserve">
+    <value>ID arXiv</value>
+    <comment>Do not translate</comment>
+  </data>
+  <data name="VirtualSearchFieldType_PmcId" xml:space="preserve">
+    <value>PMCID</value>
+    <comment>Do not translate</comment>
+  </data>
+  <data name="VirtualSearchFieldType_ReferenceIdentifiers" xml:space="preserve">
+    <value>Numero di identificazione</value>
+  </data>
+  <data name="VirtualSearchFieldType_Translators" xml:space="preserve">
+    <value>Traduttore</value>
+  </data>
+  <data name="VirtualSearchFieldType_ReferenceIdentifiers_Description" xml:space="preserve">
+    <value>Titolo - Numeri di identificazione (ISBN, DOI, PubMed-, PMC-, ID arXiv) 
+
+Questo campo cerca solo in base alla presenza * o all'assenza ! di dati. Termini di ricerca diversi non vengono trovati.</value>
+  </data>
+  <data name="ImportFieldType_Affiliation" xml:space="preserve">
+    <value>Affiliazione</value>
+  </data>
+  <data name="ImportFieldType_ArxivId" xml:space="preserve">
+    <value>ID arXiv</value>
+  </data>
+  <data name="ImportFieldType_PeriodicalEIssn" xml:space="preserve">
+    <value>{0}: eISSN</value>
+  </data>
+  <data name="ImportFieldType_PmcId" xml:space="preserve">
+    <value>PMCID</value>
+  </data>
+  <data name="Pagination_Annually" xml:space="preserve">
+    <value>Per anno</value>
+  </data>
+  <data name="Pagination_InFascicles" xml:space="preserve">
+    <value>Per fascicolo</value>
+  </data>
+  <data name="Pagination_Unknown" xml:space="preserve">
+    <value>Sconosciuto</value>
+  </data>
+  <data name="DbServerLicenseType_ConcurrentReader" xml:space="preserve">
+    <value>Concurrent Reader</value>
+  </data>
+  <data name="DataCenter_GermanyCentral" xml:space="preserve">
+    <value>Germany Central</value>
+    <comment>Don't translate - datacenter name has to remain as is</comment>
+  </data>
+  <data name="DataCenter_WestEurope" xml:space="preserve">
+    <value>West Europe</value>
+    <comment>Don't translate - datacenter name has to remain as is</comment>
+  </data>
+</root>

@@ -1,0 +1,34 @@
+2021-09-06 16:17:05.202 +07:00 [ERR] [
+  {
+    "Email": "000322b4-e436-4c70-a3f0-3889bdcda8ef.noemail@citavi.com",
+    "Verified": true,
+    "Status": false,
+    "LinkedEmailAccounts": [
+      "000322b4-bdcda8ef.noemail@citavi.com"
+    ],
+    "LinkedAccounts": null,
+    "Key": null,
+    "FirstName": "Haley",
+    "LastName": "Cruz",
+    "Language": "en",
+    "ErrorMessage": "System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 101",
+    "AzureObjectId": "660ef072-aeaa-48ce-aa9a-bc5f671aea17"
+  }
+]
+2021-09-06 16:19:51.850 +07:00 [ERR] [
+  {
+    "Email": "000322b4-e436-4c70-a3f0-3889bdcda8ef.noemail@citavi.com",
+    "Verified": true,
+    "Status": false,
+    "LinkedEmailAccounts": [
+      "000322b4-bdcda8ef.noemail@citavi.com"
+    ],
+    "LinkedAccounts": null,
+    "Key": null,
+    "FirstName": "Haley",
+    "LastName": "Cruz",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Another object with the same value for property userPrincipalName already exists.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-06T09:21:13\r\n\trequest-id: db3c7c2b-8ee7-446f-a3f4-c007509ce4aa\r\n\tclient-request-id: db3c7c2b-8ee7-446f-a3f4-c007509ce4aa\r\nClientRequestId: db3c7c2b-8ee7-446f-a3f4-c007509ce4aa\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 93",
+    "AzureObjectId": null
+  }
+]

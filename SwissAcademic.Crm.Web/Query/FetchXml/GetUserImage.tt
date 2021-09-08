@@ -1,0 +1,9 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" linePragmas="false" #>
+  <fetch distinct="false" no-lock="true" mapping="logical">
+    <entity name="contact">
+      <attribute name="entityimage" />
+      <filter type="and">
+        <condition attribute="new_key" operator="eq" value="<#Write(ContactKey);#>" entityname="contact" />
+      </filter>
+    </entity>
+  </fetch>

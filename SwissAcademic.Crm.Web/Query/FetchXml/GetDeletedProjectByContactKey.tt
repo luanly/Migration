@@ -1,0 +1,22 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" linePragmas="false" #>
+  <fetch distinct="false" no-lock="true" mapping="logical">
+    <entity name="<#= CrmEntityNames.ProjectRole #>">
+      <attribute name="new_key" />
+      <attribute name="new_projectroletype" />
+      <filter type="and">
+        <condition attribute="new_key" operator="eq" value="<#Write(ContactKey);#>" entityname="contact_projectrole.contact" />
+		<condition attribute="new_deletedon" operator="not-null" entityname="project_projectrole.new_project" />
+		<condition attribute="statuscode" operator="eq" value="1"/>  
+        <condition attribute="new_projectroletype" operator="eq" value="30"/>  
+      </filter>
+      <link-entity name="<#= CrmEntityNames.Project #>" to="<#= CrmRelationshipLookupNames.ProjectProjectRole #>" from="new_projectid" link-type="inner" alias="project_projectrole.new_project">
+        <attribute name="new_key" />
+		<attribute name="new_name" />
+		<attribute name="new_deletedon" />
+      </link-entity>
+      <link-entity name="contact" to="<#= CrmRelationshipLookupNames.ContactProjectRole #>" from="contactid" link-type="inner" alias="contact_projectrole.contact">
+        <attribute name="new_key" />
+        <attribute name="contactid" />
+      </link-entity>
+    </entity>
+  </fetch>

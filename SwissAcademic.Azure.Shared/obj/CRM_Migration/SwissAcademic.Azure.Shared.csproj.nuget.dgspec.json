@@ -1,0 +1,543 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.Azure.Shared\\SwissAcademic.Azure.Shared.csproj": {}
+  },
+  "projects": {
+    "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.AI\\SwissAcademic.AI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.AI\\SwissAcademic.AI.csproj",
+        "projectName": "SwissAcademic.AI",
+        "projectPath": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.AI\\SwissAcademic.AI.csproj",
+        "packagesPath": "C:\\Users\\longnguyen\\.nuget\\packages\\",
+        "outputPath": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.AI\\obj\\CRM_Migration\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\longnguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://citavi.pkgs.visualstudio.com/_packaging/NugetFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605",
+            "NU1701"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.Azure.Shared\\SwissAcademic.Azure.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.Azure.Shared\\SwissAcademic.Azure.Shared.csproj",
+        "projectName": "SwissAcademic.Azure.Shared",
+        "projectPath": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.Azure.Shared\\SwissAcademic.Azure.Shared.csproj",
+        "packagesPath": "C:\\Users\\longnguyen\\.nuget\\packages\\",
+        "outputPath": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.Azure.Shared\\obj\\CRM_Migration\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\longnguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://citavi.pkgs.visualstudio.com/_packaging/NugetFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.AI\\SwissAcademic.AI.csproj": {
+                "projectPath": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.AI\\SwissAcademic.AI.csproj"
+              },
+              "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.Constants\\SwissAcademic.Constants.csproj": {
+                "projectPath": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.Constants\\SwissAcademic.Constants.csproj"
+              },
+              "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.Resources\\SwissAcademic.Resources.csproj": {
+                "projectPath": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.Resources\\SwissAcademic.Resources.csproj"
+              },
+              "D:\\QSR\\Citavi\\Citavi\\SwissAcademic\\SwissAcademic.csproj": {
+                "projectPath": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic\\SwissAcademic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605",
+            "NU1701"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.Azure.Cosmos.Table": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
+            "Microsoft.Azure.Storage.Blob": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "Microsoft.Azure.Storage.Queue": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "SecurityCodeScan": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.5.3, )"
+            },
+            "System.Net.NameResolution": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.Constants\\SwissAcademic.Constants.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.Constants\\SwissAcademic.Constants.csproj",
+        "projectName": "SwissAcademic.Constants",
+        "projectPath": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.Constants\\SwissAcademic.Constants.csproj",
+        "packagesPath": "C:\\Users\\longnguyen\\.nuget\\packages\\",
+        "outputPath": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.Constants\\obj\\CRM_Migration\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\longnguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://citavi.pkgs.visualstudio.com/_packaging/NugetFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1701"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SecurityCodeScan": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.5.3, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.Resources\\SwissAcademic.Resources.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.Resources\\SwissAcademic.Resources.csproj",
+        "projectName": "SwissAcademic.Resources",
+        "projectPath": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.Resources\\SwissAcademic.Resources.csproj",
+        "packagesPath": "C:\\Users\\longnguyen\\.nuget\\packages\\",
+        "outputPath": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.Resources\\obj\\CRM_Migration\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\longnguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://citavi.pkgs.visualstudio.com/_packaging/NugetFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605",
+            "NU1701"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.SecurityUtility\\SwissAcademic.SecurityUtility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.SecurityUtility\\SwissAcademic.SecurityUtility.csproj",
+        "projectName": "SwissAcademic.SecurityUtility",
+        "projectPath": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.SecurityUtility\\SwissAcademic.SecurityUtility.csproj",
+        "packagesPath": "C:\\Users\\longnguyen\\.nuget\\packages\\",
+        "outputPath": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.SecurityUtility\\obj\\CRM_Migration\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\longnguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://citavi.pkgs.visualstudio.com/_packaging/NugetFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605",
+            "NU1701"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SecurityCodeScan": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.5.3, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "System.Security.Cryptography.ProtectedData": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Security.Cryptography.Xml": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\QSR\\Citavi\\Citavi\\SwissAcademic\\SwissAcademic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic\\SwissAcademic.csproj",
+        "projectName": "SwissAcademic",
+        "projectPath": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic\\SwissAcademic.csproj",
+        "packagesPath": "C:\\Users\\longnguyen\\.nuget\\packages\\",
+        "outputPath": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic\\obj\\CRM_Migration\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\longnguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://citavi.pkgs.visualstudio.com/_packaging/NugetFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.AI\\SwissAcademic.AI.csproj": {
+                "projectPath": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.AI\\SwissAcademic.AI.csproj"
+              },
+              "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.Constants\\SwissAcademic.Constants.csproj": {
+                "projectPath": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.Constants\\SwissAcademic.Constants.csproj"
+              },
+              "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.Resources\\SwissAcademic.Resources.csproj": {
+                "projectPath": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.Resources\\SwissAcademic.Resources.csproj"
+              },
+              "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.SecurityUtility\\SwissAcademic.SecurityUtility.csproj": {
+                "projectPath": "D:\\QSR\\Citavi\\Citavi\\SwissAcademic.SecurityUtility\\SwissAcademic.SecurityUtility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605",
+            "NU1701"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "SecurityCodeScan": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.5.3, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.113.6, )"
+            },
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.113.6, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "System.DirectoryServices.AccountManagement": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.IO.FileSystem.AccessControl": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Runtime.Caching": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Runtime.Loader": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Trinet.Core.IO.Ntfs": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "sqlite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

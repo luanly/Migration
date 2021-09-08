@@ -1,0 +1,68 @@
+2021-08-23 23:53:49.004 +07:00 [ERR] ERROR
+2021-08-23 23:54:17.344 +07:00 [ERR] ERROR
+2021-08-23 23:54:37.229 +07:00 [ERR] ERROR
+2021-08-23 23:56:11.012 +07:00 [ERR] ERROR
+----------------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: A conflicting object with one or more of the specified property values is present in the directory.
+Inner error:
+	AdditionalData:
+	date: 2021-08-23T16:57:12
+	request-id: 45bd5209-f952-4550-a4d6-e7475515087c
+	client-request-id: 45bd5209-f952-4550-a4d6-e7475515087c
+ClientRequestId: 45bd5209-f952-4550-a4d6-e7475515087c
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 70
+   at CRM_Migration.MainWindow.<>c__DisplayClass4_0.<<btnMigrate_Click>b__0>d.MoveNext() in C:\QSR_Identity\CRM_Migration\CRM_Migration\MainWindow.xaml.cs:line 110
+----------------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: A conflicting object with one or more of the specified property values is present in the directory.
+Inner error:
+	AdditionalData:
+	date: 2021-08-23T16:57:12
+	request-id: 632653dc-5b47-49d9-9493-977ba6686291
+	client-request-id: 632653dc-5b47-49d9-9493-977ba6686291
+ClientRequestId: 632653dc-5b47-49d9-9493-977ba6686291
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 70
+   at CRM_Migration.MainWindow.<>c__DisplayClass4_0.<<btnMigrate_Click>b__0>d.MoveNext() in C:\QSR_Identity\CRM_Migration\CRM_Migration\MainWindow.xaml.cs:line 110
+----------------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: A conflicting object with one or more of the specified property values is present in the directory.
+Inner error:
+	AdditionalData:
+	date: 2021-08-23T16:57:12
+	request-id: c8db2220-4c97-42df-9a85-4d1d03d97b97
+	client-request-id: c8db2220-4c97-42df-9a85-4d1d03d97b97
+ClientRequestId: c8db2220-4c97-42df-9a85-4d1d03d97b97
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 70
+   at CRM_Migration.MainWindow.<>c__DisplayClass4_0.<<btnMigrate_Click>b__0>d.MoveNext() in C:\QSR_Identity\CRM_Migration\CRM_Migration\MainWindow.xaml.cs:line 110
+----------------------------------
+Status Code: BadRequest
+Microsoft.Graph.ServiceException: Code: Request_BadRequest
+Message: A conflicting object with one or more of the specified property values is present in the directory.
+Inner error:
+	AdditionalData:
+	date: 2021-08-23T16:57:12
+	request-id: 6f4862cf-c254-45aa-bad8-98383cd452ea
+	client-request-id: 6f4862cf-c254-45aa-bad8-98383cd452ea
+ClientRequestId: 6f4862cf-c254-45aa-bad8-98383cd452ea
+
+   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)
+   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\QSR_Identity\CRM_Migration\CRM_Migration\Services\AzureB2CService.cs:line 70
+   at CRM_Migration.MainWindow.<>c__DisplayClass4_0.<<btnMigrate_Click>b__0>d.MoveNext() in C:\QSR_Identity\CRM_Migration\CRM_Migration\MainWindow.xaml.cs:line 110

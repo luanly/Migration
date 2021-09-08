@@ -1,0 +1,30 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" linePragmas="false" #>
+  <fetch distinct="false" no-lock="true" mapping="logical">
+    <entity name="contact">
+      <attribute name="new_key" />
+      <attribute name="contactid" />
+      <attribute name="emailaddress1" />
+      <attribute name="new_iskeycontact" />
+      <attribute name="new_isverified" />
+      <attribute name="statuscode" />
+      <filter type="and">
+        <condition attribute="emailaddress1" operator="eq" value="<#Write(Email);#>" entityname="contact" />
+        <condition attribute="new_isverified" operator="eq" value="0" entityname="contact" />
+        <condition attribute="statuscode" operator="eq" value="1" />
+      </filter>
+      <filter type='and'>
+        <condition entityname='<#= CrmEntityNames.LinkedEmailAccount #>'
+          attribute='new_linkedemailaccountid'
+          operator='null'/>
+      </filter>
+	  <filter type='and'>
+        <condition entityname='<#= CrmEntityNames.LinkedAccount #>'
+          attribute='new_linkedaccountid'
+          operator='null'/>
+      </filter>
+     <link-entity name="<#= CrmEntityNames.LinkedEmailAccount #>" to="contactid" from="<#= CrmRelationshipLookupNames.ContactLinkedEmailAccount #>" link-type="outer">
+     </link-entity>
+	 <link-entity name="<#= CrmEntityNames.LinkedAccount #>" to="contactid" from="<#= CrmRelationshipLookupNames.ContactLinkedAccount #>" link-type="outer">
+     </link-entity>
+    </entity>
+  </fetch>

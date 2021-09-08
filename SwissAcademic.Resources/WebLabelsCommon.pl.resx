@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>Wprowadzony adres URL jest nieprawidłowy lub nie posiadasz uprawnień do otwierania tego projektu.&lt;br/&gt;&lt;br/&gt;&lt;a href="javascript:;" id="manualLogoutLink"&gt;Zaloguj się przy użyciu innego konta&lt;/a&gt;</value>
+  </data>
+  <data name="ActivateLoggingButton" xml:space="preserve">
+    <value>Prześlij dziennik diagnozowania błędów</value>
+  </data>
+  <data name="ActivateLoggingDescription" xml:space="preserve">
+    <value>Jeżeli klikniesz pole &lt;span class="segoeUiSemibold"&gt;Wyślij protokół diagnostyczny błędów&lt;/span&gt;, otworzy się formularz internetowy.&lt;br/&gt;Wykonaj następujące kroki:&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Wprowadź swój adres e-mail w formularzu.&lt;/li&gt;&lt;li&gt;Kliknij „Wyślij teraz”, aby wysłać formularz.&lt;/li&gt;&lt;li&gt;Zamknij przeglądarkę i kontynuuj pracę w Citavi.&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="AddAttachment" xml:space="preserve">
+    <value>Dodaj pliki</value>
+  </data>
+  <data name="AnErrorHasOccurred" xml:space="preserve">
+    <value>Wystąpił błąd.</value>
+  </data>
+  <data name="AnErrorHasOccurred_1" xml:space="preserve">
+    <value>Twój uniwersytet nie wysłał ID</value>
+  </data>
+  <data name="AskCitaviTeam" xml:space="preserve">
+    <value>Zadaj pytanie do działu wsparcia klienta</value>
+  </data>
+  <data name="AskQuestionHere" xml:space="preserve">
+    <value>Wprowadź termin do wyszukania</value>
+  </data>
+  <data name="Attachment" xml:space="preserve">
+    <value>Załącznik</value>
+  </data>
+  <data name="AttachmentAlreadyPresent" xml:space="preserve">
+    <value>Plik już istnieje.</value>
+  </data>
+  <data name="AttachmentTooLarge" xml:space="preserve">
+    <value>Plik przekracza maksymalny rozmiar 5 MB</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Wstecz</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Anuluj</value>
+  </data>
+  <data name="ChoosePhoto" xml:space="preserve">
+    <value>Załaduj obrazek profilowy</value>
+  </data>
+  <data name="CitaviWebRestarts" xml:space="preserve">
+    <value>Citavi Web zostanie teraz przeładowane.</value>
+  </data>
+  <data name="CitaviWebsite" xml:space="preserve">
+    <value>Strona Citavi</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Zamknij edytor wzorów</value>
+  </data>
+  <data name="CloseHelpPanel" xml:space="preserve">
+    <value>Zamknij Panel pomocy</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Komentarz</value>
+  </data>
+  <data name="ConsoleWarning" xml:space="preserve">
+    <value>Ta funkcja przeglądarki jest przeznaczona tylko dla deweloperów. Jeśli ktoś ci powiedział, aby skopiować coś tutaj lub aby włączyć funkcję Citavi i mieć dostęp do danych kogoś innego, to jest to oszustwo, które ma na celu przejęcie konta Citavi.</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Kontynuuj</value>
+  </data>
+  <data name="CookiesDisabled" xml:space="preserve">
+    <value>Ciasteczka muszą być włączone, aby móc korzystać z Citavi Web.</value>
+  </data>
+  <data name="CostCitaviAccount" xml:space="preserve">
+    <value>Czy muszę płacić za konto?</value>
+  </data>
+  <data name="CreateAccountAnyEmail" xml:space="preserve">
+    <value>Czy mogę utworzyć konto z jakimkolwiek adresem e-mail?</value>
+  </data>
+  <data name="DataProtection" xml:space="preserve">
+    <value>Informacje o prywatności</value>
+  </data>
+  <data name="Definition" xml:space="preserve">
+    <value>Pozdrowienie</value>
+  </data>
+  <data name="DescribeError" xml:space="preserve">
+    <value>Zespół Citavi zostanie poinformowany automatycznie.</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Szczegóły</value>
+  </data>
+  <data name="DragPhotoHere" xml:space="preserve">
+    <value>Przeciągnij orazek tutaj</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Adres mailowy</value>
+  </data>
+  <data name="EmailAddressIsNotVerified" xml:space="preserve">
+    <value>Ten adres e-mail nie został potwierdzony. Kliknij link potwierdzający w mailu, który ci wysłaliśmy. 
+Nie ma e-maila? Nawet w folderze Spam? &lt;a id="resendVerificationEmailLink"&gt;Wyślemy ci nową wiadomość&lt;/a&gt;!</value>
+  </data>
+  <data name="EmailAddressIsNotVerifiedPasswordReset" xml:space="preserve">
+    <value>Ten adres e-mail jest zarejestrowany, ale wciąż potrzebuje potwierdzenia.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="EmailSentLogin" xml:space="preserve">
+    <value>E-mail wysłano</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="EmailShort" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="ExternalProviderAlreadyPresent" xml:space="preserve">
+    <value>Zewnętrzny dostawca nie może być dodany. &lt;a id='externalProviderFailed'&gt;Dlaczego nie?&lt;/a&gt;</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Wyślij nam swoją opinię</value>
+  </data>
+  <data name="HashNotFound" xml:space="preserve">
+    <value>Żądana strona nie została znaleziona.</value>
+  </data>
+  <data name="HelpUsFindError" xml:space="preserve">
+    <value>Pomóż nam znaleźć błąd!</value>
+  </data>
+  <data name="HowCanWeHelp" xml:space="preserve">
+    <value>Pomoc</value>
+  </data>
+  <data name="HowCanWeHelp_1" xml:space="preserve">
+    <value>Jak możemy pomóc?</value>
+  </data>
+  <data name="HowToGetHelp" xml:space="preserve">
+    <value>Gdzie mogę dostać wsparcie?</value>
+  </data>
+  <data name="HowToRedeemVoucher" xml:space="preserve">
+    <value>Jak mogę wymienić wiele kodów vouchera?</value>
+  </data>
+  <data name="InvalidEmailAddress" xml:space="preserve">
+    <value>Ten adres poczty elektronicznej jest nieprawidłowy.</value>
+  </data>
+  <data name="InvalidUrl" xml:space="preserve">
+    <value>URL dostawcy jest niepoprawny.</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Ładowanie...</value>
+  </data>
+  <data name="LoggingActivated" xml:space="preserve">
+    <value>Protokołowanie zostało dezaktywowane. &lt;a href="/"&gt;Kliknij tutaj, aby powrócić do strony głównej.&lt;/a&gt;</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Wyloguj</value>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>Podręcznik</value>
+  </data>
+  <data name="Max3" xml:space="preserve">
+    <value>(maksymalnie trzy)</value>
+  </data>
+  <data name="MergeAccounts" xml:space="preserve">
+    <value>Połącz konta</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Wiadomość</value>
+  </data>
+  <data name="Mr" xml:space="preserve">
+    <value>Pan</value>
+  </data>
+  <data name="Mrs" xml:space="preserve">
+    <value>Pani</value>
+  </data>
+  <data name="MyUniversityMeans" xml:space="preserve">
+    <value>Co to znaczy "mój uniwersytet"?</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nazwa</value>
+  </data>
+  <data name="NoConfirmationEmailReceived" xml:space="preserve">
+    <value>Gdzie jest mój e-mail potwierdzający?</value>
+  </data>
+  <data name="NoJavascript" xml:space="preserve">
+    <value>Javascript musi być włączone w twojej przeglądarce, aby móc uruchomić Citavi Web.</value>
+  </data>
+  <data name="NoSearchQuery" xml:space="preserve">
+    <value>Nie wprowadzono żadnego terminu do wyszukania</value>
+  </data>
+  <data name="NotAllowed" xml:space="preserve">
+    <value>Nie dozwolono.</value>
+  </data>
+  <data name="NotNow" xml:space="preserve">
+    <value>Nie teraz</value>
+  </data>
+  <data name="PageAlreadyOpenHtml" xml:space="preserve">
+    <value>{0} jest już otwarty w innej karcie lub przeglądarc. Możesz &lt;br/&gt;&lt;div class='tabbed segoeUiSemibold'&gt;zamknąć kartę&lt;/div&gt;&lt;div class='clear'&gt;&lt;/div&gt;lub&lt;div class='clear'&gt;&lt;/div&gt;&lt;div class='tabbed segoeUiSemibold'&gt;&lt;a&gt;kontynuować pracę tamże.&lt;/a&gt;&lt;/div&gt;</value>
+    <comment>{0} ist der name der Citavi Umgebung (dynamisch aufgelöst)</comment>
+  </data>
+  <data name="PageNoLongerAvailable" xml:space="preserve">
+    <value>Ten link potwierdzający jest już nieważny. Otrzymałeś nowy e-mail albo kliknąłeś już raz w ten link.&lt;br/&gt;&lt;br/&gt;
+Możesz zamknąć to okno lub &lt;a href="/account"&gt;wejść na stronę logowania&lt;/a&gt;.</value>
+  </data>
+  <data name="PageNotFound" xml:space="preserve">
+    <value>Error 404 &lt;br/&gt;Żądana strona nie została znaleziona.</value>
+  </data>
+  <data name="PraiseCriticSuggest" xml:space="preserve">
+    <value>Podziel się swoją opinią!</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="ProjectDeleted" xml:space="preserve">
+    <value>Projekt został usunięty</value>
+  </data>
+  <data name="ProtocolEnd" xml:space="preserve">
+    <value>Zatrzymaj dziennik aktywności.</value>
+  </data>
+  <data name="ProtocolEndDescription" xml:space="preserve">
+    <value>Dołącz opis kroków prowadzących do błędu lub dodaj inne pomocne obserwacje. Odpowiemy najszybciej jak to możliwe.
+</value>
+  </data>
+  <data name="ProtocolEnded" xml:space="preserve">
+    <value>Dziennik aktywności został zatrzymany.</value>
+  </data>
+  <data name="ProtocolSend" xml:space="preserve">
+    <value>Wyślij i zatrzymaj dziennik aktywności</value>
+  </data>
+  <data name="ProtocolSendThanx" xml:space="preserve">
+    <value>Dziękujemy za pomoc w usprawnianiu Citavi!&lt;br/&gt;Jesteśmy wdzięczni za pomoc.</value>
+  </data>
+  <data name="ProtocolStart" xml:space="preserve">
+    <value>Uruchom dziennik aktywności</value>
+  </data>
+  <data name="ProtocolStartDescriptionHtml" xml:space="preserve">
+    <value>Dziennik aktywności pomaga nam znaleźć źródło błędów, które były dla nas do tej pory nieznane
+. Dziennik zapisuje działania, które miały miejsce przed wystąpieniem błędu i pokazuje kolejność zdarzeń. Dziennik aktywności jest dołączony do twojego ID konta Citavi, które jest nam potrzebne w razie pytań. Hasło oraz inne prywatne informacje nie są przekazywane.</value>
+  </data>
+  <data name="ProtocolStarted" xml:space="preserve">
+    <value>Dziennik aktywności został uruchomiony.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="ProtocolStartHead" xml:space="preserve">
+    <value>Czy zespół pomocy Citavi poprosił cię o przesłanie dziennika aktywności?&lt;br/&gt; Jesteś zatem w odpowiednim miejscu!</value>
+  </data>
+  <data name="ProvideLicenseToPcs" xml:space="preserve">
+    <value>Jak mogę zainstalować licencję na kilku komputerach?</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Pytanie</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="RemovePhoto" xml:space="preserve">
+    <value>Usuń obrazek profilowy</value>
+  </data>
+  <data name="SearchManual" xml:space="preserve">
+    <value>Szukaj w podręczniku</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Wyślij wiadomość</value>
+  </data>
+  <data name="Send_1" xml:space="preserve">
+    <value>Wyślij</value>
+  </data>
+  <data name="ShibbolethError" xml:space="preserve">
+    <value>Logowanie Shibboleth zakończyło się sukcesem, ale sprawdzenie autoryzacji w celu pobrania licencji nie powiodło się. Proszę sprawdzić następujący artykuł FAQ: &lt;a href="https://www.citavi.com/shibboleth-error"&gt;https://www.citavi.com/shibboleth-error&lt;/a&gt;.</value>
+  </data>
+  <data name="StartPage" xml:space="preserve">
+    <value>Strona główna</value>
+  </data>
+  <data name="SupportRequestSuccessful" xml:space="preserve">
+    <value>Dziękujemy za przesłanie zapytania. Odpowiemy w ciągu dwóch dni roboczych.</value>
+  </data>
+  <data name="TelemetryInitializationFailed" xml:space="preserve">
+    <value>Strona nie może zostać zainicjowana. Może to być spowodowane przejściowymi problemami z naszym serwerem. Spróbuj ponownie za 10 minut.</value>
+  </data>
+  <data name="TelemetryScope" xml:space="preserve">
+    <value>Zakres dziennika aktywności</value>
+  </data>
+  <data name="TelemetryScope_CEIP" xml:space="preserve">
+    <value>Wyślij tylko anonimowe, statystyczne informacje</value>
+  </data>
+  <data name="TelemetryScope_None" xml:space="preserve">
+    <value>Nie wysyłaj żadnych informacji</value>
+  </data>
+  <data name="TelemetryScope_Trace" xml:space="preserve">
+    <value>Wyślij szczegółowe i potencjalnie prywatne dane osobowe</value>
+  </data>
+  <data name="TermsOfUsage" xml:space="preserve">
+    <value>Warunki korzystania</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Dziękujemy za twoje wsparcie!</value>
+  </data>
+  <data name="ThankYouMessage" xml:space="preserve">
+    <value>Naprawimy problem najszybciej jak to możliwe</value>
+  </data>
+  <data name="UseHere" xml:space="preserve">
+    <value>Użyj tutaj</value>
+  </data>
+  <data name="ValidUntilMeans" xml:space="preserve">
+    <value>Co to znaczy " aktywne do"?</value>
+  </data>
+  <data name="WhatIsVoucher" xml:space="preserve">
+    <value>Czym jest kod vouchera licencji?</value>
+  </data>
+  <data name="WhereIsMyLicense" xml:space="preserve">
+    <value>Gdzie mogę znaleźć moją licencję?</value>
+  </data>
+  <data name="WhichData" xml:space="preserve">
+    <value>Jakie informacje są udostępnianie przez Citavi, Facebook, Google, Microsoft?</value>
+  </data>
+  <data name="WhoContactPurchase" xml:space="preserve">
+    <value>Z kim mogę się kontaktować w sprawie zakupu?</value>
+  </data>
+  <data name="WhyLicenseDataNotAccepted" xml:space="preserve">
+    <value>Dlaczego Citavi nie akceptuje mojego klucza licencji?</value>
+  </data>
+  <data name="Working" xml:space="preserve">
+    <value>Pracuje...</value>
+  </data>
+  <data name="YouCanHelpUs" xml:space="preserve">
+    <value>Oto jak możesz nam pomóc:</value>
+  </data>
+  <data name="YourCitaviAccount" xml:space="preserve">
+    <value>Twoje konto Citavi</value>
+  </data>
+  <data name="YourCitaviShop" xml:space="preserve">
+    <value>Twój sklep Citavi</value>
+  </data>
+  <data name="YourCitaviStartpage" xml:space="preserve">
+    <value>Twoja strona startowa Citavi</value>
+  </data>
+  <data name="YourCitaviTeam" xml:space="preserve">
+    <value>Twój zespół Citavi</value>
+  </data>
+  <data name="YourName" xml:space="preserve">
+    <value>Twoje nazwisko</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Zarejestruj</value>
+  </data>
+  <data name="ChangeRole_AuthorDescription" xml:space="preserve">
+    <value>Autorzy mogą zmienić dane o projekcie</value>
+  </data>
+  <data name="ChangeRole_Cancel" xml:space="preserve">
+    <value>Anuluj</value>
+  </data>
+  <data name="ChangeRole_ManagerDescription" xml:space="preserve">
+    <value>Menedżerowie mogą zmienić dane o projekcie i zespół projektowy</value>
+  </data>
+  <data name="ChangeRole_ReaderDescription" xml:space="preserve">
+    <value>Czytelnicy nie mogą zmienić danych o projekcie</value>
+  </data>
+  <data name="ChangeRole_SelectedPersons" xml:space="preserve">
+    <value>Zmień dla {0} wybranych członków zespołu role w projekcie:</value>
+  </data>
+  <data name="ChangeRole_Title" xml:space="preserve">
+    <value>Zmień rolę w projekcie</value>
+  </data>
+  <data name="ProjectRoleType_Author" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="ProjectRoleType_Manager" xml:space="preserve">
+    <value>Menedżer</value>
+  </data>
+  <data name="ProjectRoleType_Owner" xml:space="preserve">
+    <value>Właściciel</value>
+  </data>
+  <data name="ProjectRoleType_Reader" xml:space="preserve">
+    <value>Czytelnik</value>
+  </data>
+  <data name="TeamMembers" xml:space="preserve">
+    <value>Członkowie zespołu</value>
+  </data>
+  <data name="TeamMembersTableHeader_Confirmed" xml:space="preserve">
+    <value>Potwierdzono</value>
+  </data>
+  <data name="TeamMembersTableHeader_FullName" xml:space="preserve">
+    <value>Nazwa</value>
+  </data>
+  <data name="TeamMembersTableHeader_Role" xml:space="preserve">
+    <value>Rola</value>
+  </data>
+  <data name="TeamMembers_Add" xml:space="preserve">
+    <value>Dodaj członków</value>
+  </data>
+  <data name="TeamMembers_ChangeRole" xml:space="preserve">
+    <value>Zmień rolę</value>
+  </data>
+  <data name="TeamMembers_ConfirmRemove" xml:space="preserve">
+    <value>Czy chcesz usunąć z projektu {0} wybranych członków zespołu?</value>
+  </data>
+  <data name="TeamMembers_EmailError" xml:space="preserve">
+    <value>Jeden lub kilka wprowadzonych adresów e-mail jest nieważnych.</value>
+  </data>
+  <data name="TeamMembers_EmailFieldDescription" xml:space="preserve">
+    <value>Wprowadź adresy e-mail, aby zaprosić więcej członków</value>
+  </data>
+  <data name="TeamMembers_InvitationSent" xml:space="preserve">
+    <value>Zaproszenie zostało wysłane.</value>
+  </data>
+  <data name="TeamMembers_Invite" xml:space="preserve">
+    <value>Zaproś</value>
+  </data>
+  <data name="TeamMembers_Remove" xml:space="preserve">
+    <value>Usuń</value>
+  </data>
+  <data name="TeamMembers_ResendInvitation" xml:space="preserve">
+    <value>Zaproś ponownie</value>
+  </data>
+  <data name="TeamMembers_Title" xml:space="preserve">
+    <value>Członkowie zespołu i udostępnienie</value>
+  </data>
+  <data name="PasswordRequirementLowercase" xml:space="preserve">
+    <value>Małe litery</value>
+  </data>
+  <data name="PasswordRequirementMinimum" xml:space="preserve">
+    <value>Co najmniej 8 znaków</value>
+  </data>
+  <data name="PasswordRequirementNumbers" xml:space="preserve">
+    <value>Cyfry</value>
+  </data>
+  <data name="PasswordRequirementUppercase" xml:space="preserve">
+    <value>Wielkie litery</value>
+  </data>
+  <data name="LoadFailed" xml:space="preserve">
+    <value>Ustawienie na Twoim komputerze uniemożliwia załadowanie konta Citavi.</value>
+  </data>
+  <data name="ProjectUnauthorized" xml:space="preserve">
+    <value>Nie jesteś upoważniony do zmiany właściwości tego projektu.</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="ProjectRoleAuthorDescription" xml:space="preserve">
+    <value>Autorzy mogą zmienić dane projektu</value>
+  </data>
+  <data name="ProjectRoleManagerDescription" xml:space="preserve">
+    <value>Menedżerowie mogą zmienić dane projektu i zespół projektowy</value>
+  </data>
+  <data name="ProjectRoleReaderDescription" xml:space="preserve">
+    <value>Czytelnicy nie mogą zmienić danych projektu</value>
+  </data>
+  <data name="Unconfirmed" xml:space="preserve">
+    <value>Niepotwierdzony</value>
+  </data>
+  <data name="TeamMembers_InvitationResent" xml:space="preserve">
+    <value>Zaproszenie zostało wysłane ponownie.</value>
+  </data>
+  <data name="LoadFailedButton" xml:space="preserve">
+    <value>Wskazówki dotyczące rozwiązywania problemów</value>
+  </data>
+  <data name="CreateDemoProject" xml:space="preserve">
+    <value>Otwórz projekt testowy z danymi demo</value>
+  </data>
+  <data name="DeleteProject" xml:space="preserve">
+    <value>Usuń projekt</value>
+  </data>
+  <data name="NewProject" xml:space="preserve">
+    <value>Utwórz nowy projekt</value>
+  </data>
+  <data name="NewProjectName" xml:space="preserve">
+    <value>Nazwa nowego projektu</value>
+  </data>
+  <data name="ProjectColor" xml:space="preserve">
+    <value>Kolor projektu</value>
+  </data>
+  <data name="ProjectDeletedConfirmation" xml:space="preserve">
+    <value>&lt;b&gt;Projekt został usunięty.&lt;/b&gt;&lt;br/&gt; W ciągu 10 dni można go przywrócić. Otrzymasz powiadomienie e-mail.</value>
+  </data>
+  <data name="ProjectDescription" xml:space="preserve">
+    <value>Opis</value>
+  </data>
+  <data name="ProjectDescriptionPlaceholder" xml:space="preserve">
+    <value>Pozycja może zostać wolna</value>
+  </data>
+  <data name="ProjectName" xml:space="preserve">
+    <value>Nazwa</value>
+  </data>
+  <data name="ProjectNameError" xml:space="preserve">
+    <value>Nazwa zawiera niedopuszczalne znaki.</value>
+  </data>
+  <data name="ProjectProperties" xml:space="preserve">
+    <value>Właściwości projektu</value>
+  </data>
+  <data name="ProjectProperties_Title" xml:space="preserve">
+    <value>Właściwości projektu</value>
+  </data>
+  <data name="InviteProjectMembersMessage" xml:space="preserve">
+    <value>Dodaj opcjonalne krótkie powiadomienie (maks. 160 znaków)</value>
+    <comment>i18n</comment>
+  </data>
+  <data name="TeamMembers_DeleteSmart" xml:space="preserve">
+    <value>Czy chcesz usunąć z projektu {0:wybranego członka zespołu|{0} wybranych członków zespołu}?</value>
+  </data>
+  <data name="ProjectRole_RemoveMember" xml:space="preserve">
+    <value>Usuń członka</value>
+  </data>
+  <data name="SystemInformation" xml:space="preserve">
+    <value>Informacje o systemie</value>
+  </data>
+  <data name="SystemInformation_Browser" xml:space="preserve">
+    <value>Przeglądarka</value>
+  </data>
+  <data name="SystemInformation_Copy" xml:space="preserve">
+    <value>Kopiuj</value>
+  </data>
+  <data name="SystemInformation_OS" xml:space="preserve">
+    <value>System operacyjny</value>
+  </data>
+  <data name="SystemInformation_Screen" xml:space="preserve">
+    <value>Ekran</value>
+  </data>
+  <data name="SystemInformation_Device" xml:space="preserve">
+    <value>Urządzenie</value>
+  </data>
+  <data name="SystemInformation_Zoom" xml:space="preserve">
+    <value>Powiększenie</value>
+  </data>
+  <data name="CopiedToClipboard" xml:space="preserve">
+    <value>Skopiowano do Schowka</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Informacja</value>
+  </data>
+  <data name="PageMustReload" xml:space="preserve">
+    <value>Strona zostanie wczytana ponownie.</value>
+  </data>
+  <data name="ReportError" xml:space="preserve">
+    <value>Raportuj zmiany dotyczące tego błędu.</value>
+  </data>
+  <data name="Tooltip_Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="Tooltip_AddCover" xml:space="preserve">
+    <value>Dodaj okładkę</value>
+  </data>
+  <data name="Tooltip_AddKnowledgeItem" xml:space="preserve">
+    <value>Dodaj element wiedzy</value>
+  </data>
+  <data name="Tooltip_AddReference" xml:space="preserve">
+    <value>Importuj lub dodaj ręcznie tytuł</value>
+  </data>
+  <data name="Tooltip_AlphabeticalSortedProjects" xml:space="preserve">
+    <value>Sortuj alfabetycznie</value>
+  </data>
+  <data name="Tooltip_ApplyCriteria" xml:space="preserve">
+    <value>Ustaw kolejne warunki lub usuń zaznaczenie</value>
+  </data>
+  <data name="Tooltip_ChatMembers" xml:space="preserve">
+    <value>Członkowie zespołu i udostępnienie</value>
+  </data>
+  <data name="Tooltip_CloseChat" xml:space="preserve">
+    <value>Zamknij okno czatu</value>
+  </data>
+  <data name="Tooltip_Contribution" xml:space="preserve">
+    <value>Pokaż lub dodaj opracowania</value>
+  </data>
+  <data name="Tooltip_DeleteAnnotations" xml:space="preserve">
+    <value>Usuń zaznaczenie</value>
+  </data>
+  <data name="Tooltip_DownloadChat" xml:space="preserve">
+    <value>Pobierz historię czatu</value>
+  </data>
+  <data name="Tooltip_Edit" xml:space="preserve">
+    <value>Edytuj</value>
+  </data>
+  <data name="Tooltip_EditKnowledgeItem" xml:space="preserve">
+    <value>Edytuj element wiedzy</value>
+  </data>
+  <data name="Tooltip_EnterPageNumber" xml:space="preserve">
+    <value>Podaj wybrane numery stron</value>
+  </data>
+  <data name="Tooltip_EntityInfo" xml:space="preserve">
+    <value>Data wprowadzenia ustawień i zmian</value>
+  </data>
+  <data name="Tooltip_FitPage" xml:space="preserve">
+    <value>Pokaż całą stronę</value>
+  </data>
+  <data name="Tooltip_FitWidth" xml:space="preserve">
+    <value>Dopasuj do szerokości</value>
+  </data>
+  <data name="Tooltip_Flag" xml:space="preserve">
+    <value>Dodaj/usuń flagę</value>
+  </data>
+  <data name="Tooltip_Font" xml:space="preserve">
+    <value>Czcionka</value>
+  </data>
+  <data name="Tooltip_Help" xml:space="preserve">
+    <value>Pomoc</value>
+  </data>
+  <data name="Tooltip_HideCover" xml:space="preserve">
+    <value>Ukryj okładkę</value>
+  </data>
+  <data name="Tooltip_HideSearchInPdf" xml:space="preserve">
+    <value>Ukryj pasek wyszukiwania</value>
+  </data>
+  <data name="Tooltip_JumpToAnnotation" xml:space="preserve">
+    <value>Skocz do miejsca w PDF</value>
+  </data>
+  <data name="Tooltip_JumpToNextAnnotation" xml:space="preserve">
+    <value>Następne zaznaczenie</value>
+  </data>
+  <data name="Tooltip_JumpToPreviousAnnotation" xml:space="preserve">
+    <value>Poprzednie zaznaczenie</value>
+  </data>
+  <data name="Tooltip_LastUsedProjects" xml:space="preserve">
+    <value>Ostatnio używane projekty</value>
+  </data>
+  <data name="Tooltip_LinkAnnotation" xml:space="preserve">
+    <value>Zalinkuj zaznaczony tekst</value>
+  </data>
+  <data name="Tooltip_Mark" xml:space="preserve">
+    <value>Dodaj/usuń kółko</value>
+  </data>
+  <data name="Tooltip_More" xml:space="preserve">
+    <value>Więcej funkcji</value>
+  </data>
+  <data name="Tooltip_MoreKnowledgeItemSelecteds" xml:space="preserve">
+    <value>Do kosza - i inne polecenia</value>
+  </data>
+  <data name="Tooltip_MoreKnowledgeItemsNavigation" xml:space="preserve">
+    <value>Edytuj - i inne polecenia</value>
+  </data>
+  <data name="Tooltip_MoveKnowledgeItemDown" xml:space="preserve">
+    <value>Przesuń w dół</value>
+  </data>
+  <data name="Tooltip_MoveKnowledgeItemUp" xml:space="preserve">
+    <value>Przesuń w górę</value>
+  </data>
+  <data name="Tooltip_NextOccurrence" xml:space="preserve">
+    <value>Następny wynik</value>
+  </data>
+  <data name="Tooltip_NextPage" xml:space="preserve">
+    <value>Pokaż następną stronę</value>
+  </data>
+  <data name="Tooltip_Pan" xml:space="preserve">
+    <value>Przesuń stronę</value>
+  </data>
+  <data name="Tooltip_Paperclip" xml:space="preserve">
+    <value>Wyświetl załączone pliki PDF</value>
+  </data>
+  <data name="Tooltip_Paragraph" xml:space="preserve">
+    <value>Ustawienia akapitu</value>
+  </data>
+  <data name="Tooltip_ParentReference" xml:space="preserve">
+    <value>Pokaż tytuł nadrzędny i inne opracowania</value>
+  </data>
+  <data name="Tooltip_PreviousOccurrence" xml:space="preserve">
+    <value>Poprzedni wynik</value>
+  </data>
+  <data name="Tooltip_PreviousPage" xml:space="preserve">
+    <value>Pokaż poprzednią stronę</value>
+  </data>
+  <data name="Tooltip_RecycleBin" xml:space="preserve">
+    <value>Do kosza</value>
+  </data>
+  <data name="Tooltip_RedHighlight" xml:space="preserve">
+    <value>Zaznacz na czerwono i zapisz jako element wiedzy</value>
+  </data>
+  <data name="Tooltip_Redo" xml:space="preserve">
+    <value>Spróbuj ponownie</value>
+  </data>
+  <data name="Tooltip_ReloadList" xml:space="preserve">
+    <value>Wczytaj listę ponownie</value>
+  </data>
+  <data name="Tooltip_SaveChanges" xml:space="preserve">
+    <value>Zapisz zmiany</value>
+  </data>
+  <data name="Tooltip_Search" xml:space="preserve">
+    <value>Wyszukiwanie</value>
+  </data>
+  <data name="Tooltip_SearchInPdf" xml:space="preserve">
+    <value>Pokaż lub ukryj pasek wyszukiwania</value>
+  </data>
+  <data name="Tooltip_SearchOptions" xml:space="preserve">
+    <value>Opcje wyszukiwania</value>
+  </data>
+  <data name="Tooltip_Send" xml:space="preserve">
+    <value>Wyślij</value>
+  </data>
+  <data name="Tooltip_ShowBookmarks" xml:space="preserve">
+    <value>Pokaż zakładki</value>
+  </data>
+  <data name="Tooltip_ShowCover" xml:space="preserve">
+    <value>Pokaż okładkę</value>
+  </data>
+  <data name="Tooltip_ShowEditCategories" xml:space="preserve">
+    <value>Pokaż lub edytuj kategorie</value>
+  </data>
+  <data name="Tooltip_ShowEditGroups" xml:space="preserve">
+    <value>Pokaż lub edytuj grupy</value>
+  </data>
+  <data name="Tooltip_ShowEditKeywords" xml:space="preserve">
+    <value>Pokaż lub edytuj słowa kluczowe</value>
+  </data>
+  <data name="Tooltip_TextSelect" xml:space="preserve">
+    <value>Zaznacz tekst</value>
+  </data>
+  <data name="Tooltip_Undo" xml:space="preserve">
+    <value>Cofnij</value>
+  </data>
+  <data name="Tooltip_YellowHighlight" xml:space="preserve">
+    <value>Wyróżnij</value>
+  </data>
+  <data name="Tooltip_ZoomIn" xml:space="preserve">
+    <value>Powiększ</value>
+  </data>
+  <data name="Tooltip_ZoomOut" xml:space="preserve">
+    <value>Pomniejsz</value>
+  </data>
+  <data name="Offline_AutoRetry" xml:space="preserve">
+    <value>Citavi automatycznie próbuje przywrócić połączenie.</value>
+  </data>
+  <data name="Offline_Internet" xml:space="preserve">
+    <value>Połączenie z Internetem</value>
+  </data>
+  <data name="Offline_NewAttempt" xml:space="preserve">
+    <value>Ponów</value>
+  </data>
+  <data name="Offline_NoInternet" xml:space="preserve">
+    <value>Brak połączenia z Internetem</value>
+  </data>
+  <data name="Offline_Restored" xml:space="preserve">
+    <value>Połączenie z Internetem zostało przywrócone.</value>
+  </data>
+  <data name="ProjectPropertiesChangePermissionsLabel" xml:space="preserve">
+    <value>Właściwości projektu mogą być edytowane wyłącznie przez właściciela lub menedżera.</value>
+  </data>
+  <data name="ContactSupport_AddKeywords" xml:space="preserve">
+    <value>Dodaj słowa kluczowe do tytułu</value>
+  </data>
+  <data name="ContactSupport_AddLabels" xml:space="preserve">
+    <value>Zaznacz tytuł</value>
+  </data>
+  <data name="ContactSupport_AndOrSelections" xml:space="preserve">
+    <value>Wybór i/lub</value>
+  </data>
+  <data name="ContactSupport_AnnotatingPdfs" xml:space="preserve">
+    <value>Edytuj pliki PDF</value>
+  </data>
+  <data name="ContactSupport_BookThroughISBN" xml:space="preserve">
+    <value>Dodaj książkę z ISBN</value>
+  </data>
+  <data name="ContactSupport_Create" xml:space="preserve">
+    <value>Stwórz</value>
+  </data>
+  <data name="ContactSupport_EvaluateReference" xml:space="preserve">
+    <value>Oceń tytuł</value>
+  </data>
+  <data name="ContactSupport_GoogleDocs" xml:space="preserve">
+    <value>Korzystaj z Citavi w Google Docs</value>
+  </data>
+  <data name="ContactSupport_GroupsVsCategories" xml:space="preserve">
+    <value>Grupy vs. kategorie</value>
+  </data>
+  <data name="ContactSupport_InteractiveTours" xml:space="preserve">
+    <value>Interaktywne wycieczki</value>
+  </data>
+  <data name="ContactSupport_Latex" xml:space="preserve">
+    <value>Korzystaj z Citavi w LaTeX</value>
+  </data>
+  <data name="ContactSupport_Manage" xml:space="preserve">
+    <value>Zarządzaj</value>
+  </data>
+  <data name="ContactSupport_ManageLists" xml:space="preserve">
+    <value>Zarządzaj listami</value>
+  </data>
+  <data name="ContactSupport_Order" xml:space="preserve">
+    <value>Sortuj</value>
+  </data>
+  <data name="ContactSupport_Picker" xml:space="preserve">
+    <value>Korzystaj z Pickera</value>
+  </data>
+  <data name="ContactSupport_RecycleBin" xml:space="preserve">
+    <value>Użyj kosza</value>
+  </data>
+  <data name="ContactSupport_ReferenceTypes" xml:space="preserve">
+    <value>Czym są typy publikacji?</value>
+  </data>
+  <data name="ContactSupport_RssFeeds" xml:space="preserve">
+    <value>Użyj kanałów RSS</value>
+  </data>
+  <data name="ContactSupport_SearchInPdfs" xml:space="preserve">
+    <value>Szukaj w plikach PDF</value>
+  </data>
+  <data name="ContactSupport_SearchReferences" xml:space="preserve">
+    <value>Filtruj w projekcie</value>
+  </data>
+  <data name="ContactSupport_Teamwork" xml:space="preserve">
+    <value>Pracuj w zespole</value>
+  </data>
+  <data name="ContactSupport_Videos" xml:space="preserve">
+    <value>Pliki wideo</value>
+  </data>
+  <data name="ContactSupport_Word" xml:space="preserve">
+    <value>Korzystaj z Citavi w MS Word</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>nie,pon,wt,śr,czw,pt,so</value>
+  </data>
+  <data name="Months" xml:space="preserve">
+    <value>styczeń,luty,marzec,kwiecień,maj,czerwiec,lipiec,sierpień,październik,listopad,grudzień</value>
+  </data>
+  <data name="Offline_Reconnecting" xml:space="preserve">
+    <value>Ponawiam próbę...</value>
+  </data>
+  <data name="DeleteAll" xml:space="preserve">
+    <value>Skasuj wszystkie powiadomienia</value>
+  </data>
+  <data name="HideAll" xml:space="preserve">
+    <value>Ukryj wszystkie powiadomienia</value>
+  </data>
+  <data name="LeaveProject" xml:space="preserve">
+    <value>Opuść projekt</value>
+  </data>
+  <data name="LeaveProjectConfirm" xml:space="preserve">
+    <value>Czy naprawdę chcesz &lt;span id="projectLeaveLabel" class="segoeUiSemibold"&gt;{0}&lt;/span&gt; opuścić projekt?&lt;br/&gt;&lt;br/&gt;Właściciel projektu nie otrzyma żadnego automatycznego powiadomienia.</value>
+  </data>
+  <data name="CitationKeyType_ShortForm" xml:space="preserve">
+    <value>Pieczątka</value>
+  </data>
+  <data name="CitationKeyType_ShortTitle" xml:space="preserve">
+    <value>Tytuł</value>
+  </data>
+  <data name="HideColumn" xml:space="preserve">
+    <value>Ukryj kolumnę</value>
+  </data>
+  <data name="ShowColumn" xml:space="preserve">
+    <value>Pokaż kolumnę</value>
+  </data>
+  <data name="JavascriptModelInitializationFailed" xml:space="preserve">
+    <value>Nie można było zainicjować modelu Javascript.</value>
+  </data>
+  <data name="JavascriptModelInitializationError" xml:space="preserve">
+    <value>&lt;span class="font18"&gt;Nie można się zalogować&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;span class="font15"&gt; Ustawienia na Twoim komputerze uniemożliwiają załadowanie formularza logowania. (&lt;a href="https://www.citavi.com/javascript-model-not-initialized"&gt;Szczegóły&lt;/a&gt;)&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;span class="font12"&gt;Wewnętrzny komunikat o błędzie: Nie można zainicjować modelu Javascript&lt;/span&gt;</value>
+  </data>
+  <data name="QuestionTooLong" xml:space="preserve">
+    <value>Szczegóły mogą zawierać maks. 100 znaków</value>
+  </data>
+  <data name="FileUpload_CanUploadOnlyOneFile" xml:space="preserve">
+    <value>Można przesłać tylko pojedynczy plik.</value>
+  </data>
+  <data name="FileUpload_DangerousFileFormat" xml:space="preserve">
+    <value>Format pliku "{0}" jest niedozwolony</value>
+  </data>
+  <data name="FileUpload_FileTooLarge" xml:space="preserve">
+    <value>Plik {0} jest za duży. Plik nie może być większy niż {1} MB.</value>
+  </data>
+  <data name="FileUpload_WrongFileFormat" xml:space="preserve">
+    <value>Format pliku "{0}" jest niedozwolony. Zaakceptowane formaty to: {1}</value>
+  </data>
+  <data name="FileUpload_WrongFileFormat_Image" xml:space="preserve">
+    <value>Format pliku "{0}" jest niedozwolony. Akceptowane są tylko pliki grafiki.</value>
+  </data>
+  <data name="FileUpload_WrongFileFormat_Zip" xml:space="preserve">
+    <value>Format pliku"{0}" jest niedozwolony. &lt;br/&gt;Akceptowane są tylko pliki ZIP.</value>
+  </data>
+  <data name="ImportProgram" xml:space="preserve">
+    <value>Programy</value>
+  </data>
+  <data name="ImportTitle" xml:space="preserve">
+    <value>Importuj tytuły z innych programów do zarządzania biografią</value>
+  </data>
+  <data name="OrDragInThisField" xml:space="preserve">
+    <value>…upuść plik tutaj</value>
+  </data>
+  <data name="OtherProgramsManual" xml:space="preserve">
+    <value>Dalsze programy p. podręcznik</value>
+  </data>
+  <data name="ReadSavedFile" xml:space="preserve">
+    <value>Importuj zapisany plik</value>
+  </data>
+  <data name="CitaviSpaceFull" xml:space="preserve">
+    <value>przestrzeń Citavi pełna</value>
+  </data>
+  <data name="CitaviSpaceFullDescription" xml:space="preserve">
+    <value>Wyczerpałeś aktualną przestrzeń Citavi Space, więc nie możesz już zapisywać załączników w projektach w chmurze/.&lt;br/&gt;&lt;br/&gt;Możesz usunąć załączniki, które nie są już potrzebne do uwolnienia przestrzeni Citavi.&lt;br/&gt;&lt;br/&gt;Możesz &lt;a class="box_link" id="citaviSpaceLink"&gt;tutaj &lt;/a&gt; subskrybować dodatkową przestrzeń Citavi.</value>
+  </data>
+  <data name="ImportFile_WrongContent" xml:space="preserve">
+    <value>Treść wybranego pliku nie odpowiada wymaganiom. &lt;a href="//www.citavi.com/cw/rm-import" target="_blank"&gt;Dlaczego nie?&lt;/a&gt;</value>
+  </data>
+  <data name="MaxChars" xml:space="preserve">
+    <value>maksimum {0} znaki / znaków</value>
+  </data>
+</root>

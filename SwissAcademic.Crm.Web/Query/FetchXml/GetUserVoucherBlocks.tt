@@ -1,0 +1,69 @@
+﻿<fetch distinct="true" no-lock="true" mapping="logical">
+  <entity name="new_voucherblock">
+    <attribute name="createdon" />
+    <# foreach(Enum item in EntityPropertySets.GetFullPropertySet(typeof(VoucherBlock)))
+          {#>
+              
+                    <attribute name="<#= EntityNameResolver.ResolveAttributeName(CrmEntityNames.VoucherBlock, item.ToString())  #>" />
+                      <#}
+         #>
+
+    <filter type="and">
+        <condition attribute="contactid" operator="eq" value="<#Write(ContactId);#>" entityname="<#= FetchXmlConstants.ContactVoucherBlockAliasName #>" />
+        <condition attribute="new_tempdeact" operator="eq" value="0" entityname="new_voucherblock" />
+        <condition attribute="new_showinlicensemanagement" operator="eq" value="1" entityname="new_voucherblock" />
+          <condition attribute="statuscode" operator="eq" value="1"/>
+        </filter>
+      <link-entity name="new_citaviproduct" to="new_citaviproductid" from="new_citaviproductid" link-type="outer" alias="citaviproduct_voucherblock.new_citaviproduct">
+        <attribute name="new_key" />
+        <attribute name="new_citaviproductcode" />
+        <attribute name="new_citaviproductname" />
+        <attribute name="statuscode" />
+        <attribute name="new_citaviproductid" />
+      </link-entity>
+      <link-entity name="new_pricing" to="new_pricingid" from="new_pricingid" link-type="outer" alias="<#= FetchXmlConstants.PricingVoucherBlockAliasName #>">
+      <attribute name="new_key" />
+      <attribute name="new_pricingcode" />
+    </link-entity>
+                        
+    <link-entity name="contact" to="new_contactid" from="contactid" link-type="outer" alias="<#= FetchXmlConstants.ContactVoucherBlockAliasName #>">
+      <attribute name="new_key" />
+	    <attribute name="fullname" />
+    </link-entity>
+                        
+    <link-entity name="new_licensetyp" to="new_licensetypid" from="new_licensetypid" link-type="outer" alias="<#= FetchXmlConstants.LicenseTypeVoucherBlockAliasName #>">
+      <attribute name="new_key" />
+      <attribute name="new_licensecode" />
+    </link-entity>
+    <link-entity name="account" to="new_accountid" from="accountid" link-type="outer" alias="account_voucherblock.account">
+        <attribute name="accountid" />
+        <attribute name="new_key" />
+        <attribute name="name" />
+        <link-entity name="new_campuscontract" to="accountid" from="new_accountid" link-type="outer" alias="account_campuscontract.new_campuscontract">
+          <attribute name="new_key" />
+          <attribute name="new_contractduration" />
+          <attribute name="new_contracttype" />
+          <attribute name="new_contractnumber" />
+          <attribute name="new_infowebsite" />
+          <attribute name="new_voucherorderurl" />
+          <attribute name="new_orderurl" />
+          <attribute name="statuscode" />
+          <attribute name="new_campuscontractid" />
+          <filter type="and">
+              <condition attribute="new_newcontractavailable" operator="eq" value="0"/>
+              <condition attribute="statuscode" operator="eq" value="1" />
+          </filter>
+					<link-entity name="new_campuscontract_n_citaviproduct" to="new_campuscontractid" from="new_campuscontractid" link-type="outer" alias="new_campuscontract_n_citaviproduct.new_citaviproduct">
+						<attribute name="new_citaviproductid" />
+					</link-entity>
+        </link-entity>
+        <link-entity name="new_emaildomainorcampusname" to="accountid" from="new_accountid" link-type="outer" alias="account_emaildomainorcampusname.new_emaildomainorcampusname">
+          <attribute name="new_key" />
+          <attribute name="new_email_domain_or_campus_name" />
+          <attribute name="new_organizationnameforordermails" />
+          <attribute name="statuscode" />
+          <attribute name="new_emaildomainorcampusnameid" />
+        </link-entity>
+      </link-entity>
+  </entity>
+</fetch>

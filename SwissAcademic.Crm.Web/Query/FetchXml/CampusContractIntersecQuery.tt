@@ -1,0 +1,12 @@
+﻿<fetch distinct="false" no-lock="true" mapping="logical">
+    <entity name="new_campuscontract">
+	    <filter type="and">
+			<condition attribute="new_contractreceived" operator="eq" value="1" />
+			<condition attribute="statuscode" operator="eq" value="1" />
+        </filter>
+	    <attribute name="new_campuscontractid" />
+		<link-entity name="<#Write(RelationshipName);#>" to="new_campuscontractid" from="new_campuscontractid" intersect="true" alias="intersec">
+			 <all-attributes/>  
+		</link-entity>                  
+    </entity>
+  </fetch>

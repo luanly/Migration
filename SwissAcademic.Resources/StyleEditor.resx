@@ -1,0 +1,2267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CitationKeyFieldElementPropertyEditorControl_useTitleIfCitationKeyIsMissingCheckBox" xml:space="preserve">
+    <value>Use title if "Citation key" field is empty</value>
+  </data>
+  <data name="CitationStylePropertyEditorControl_requiredCheckBox" xml:space="preserve">
+    <value>This field must not be empty</value>
+  </data>
+  <data name="ComponentPartEditorControl_infoLabel" xml:space="preserve">
+    <value>Drag elements here to create a component.</value>
+  </data>
+  <data name="ComponentPartEditorForm_acceptButton" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="ComponentPartPropertyEditorControl2_editButton" xml:space="preserve">
+    <value>Edit component…</value>
+  </data>
+  <data name="ComponentPartPropertyEditorControl2_punctuationAfterLabel" xml:space="preserve">
+    <value>Punctuation after:</value>
+  </data>
+  <data name="ComponentPartPropertyEditorControl2_punctuationBeforeLabel" xml:space="preserve">
+    <value>Punctuation before:</value>
+  </data>
+  <data name="ComponentPartPropertyEditorControl_activateComponentPartFilterCheckBox" xml:space="preserve">
+    <value>Filter output of this component part via program code</value>
+  </data>
+  <data name="ComponentPartPropertyEditorControl_addEditFilterButton" xml:space="preserve">
+    <value>Filter…</value>
+  </data>
+  <data name="ComponentPartPropertyEditorControl_addEditFilterButton_Add" xml:space="preserve">
+    <value>Add filter…</value>
+  </data>
+  <data name="ComponentPartPropertyEditorControl_addEditFilterButton_Edit" xml:space="preserve">
+    <value>Edit filter…</value>
+  </data>
+  <data name="ComponentPartPropertyEditorControl_allFieldsRequiredCheckBox" xml:space="preserve">
+    <value>Show only if all fields contain data</value>
+  </data>
+  <data name="ComponentPartPropertyEditorControl_deleteFilterButton" xml:space="preserve">
+    <value>Delete filter</value>
+  </data>
+  <data name="ComponentPartPropertyEditorControl_filterNameLabel" xml:space="preserve">
+    <value>Filter name:</value>
+  </data>
+  <data name="ComponentPartPropertyEditorControl_filterNotesLabel" xml:space="preserve">
+    <value>Notes:</value>
+  </data>
+  <data name="ComponentPartPropertyEditorControl_nameLabel" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="ComponentPartPropertyEditorControl_namePreviewLabel" xml:space="preserve">
+    <value>Preview:</value>
+  </data>
+  <data name="ComponentPartPropertyEditorControl_notesLabel" xml:space="preserve">
+    <value>Notes:</value>
+    <comment>CHECK gab es nur im EN: Note:</comment>
+  </data>
+  <data name="ComponentPartPropertyEditorControl_punctuationAfterLabel" xml:space="preserve">
+    <value>Punctuation after:</value>
+  </data>
+  <data name="ComponentPartPropertyEditorControl_punctuationBeforeLabel" xml:space="preserve">
+    <value>Punctuation before:</value>
+  </data>
+  <data name="CustomTemplateConditionPropertyEditorControl_nameLabel" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="CustomTemplateConditionPropertyEditorControl_notesLabel" xml:space="preserve">
+    <value>Notes:</value>
+  </data>
+  <data name="DateTimeFieldElementPropertyEditorControl_formatLabel" xml:space="preserve">
+    <value>Format:</value>
+  </data>
+  <data name="DateTimeFieldElementPropertyEditorControl_inPrintReplacementFontStyleGroupBox" xml:space="preserve">
+    <value>Style for: [In press] placeholder</value>
+  </data>
+  <data name="DateTimeFieldElementPropertyEditorControl_inPrintReplacementLabel" xml:space="preserve">
+    <value>by:</value>
+  </data>
+  <data name="DateTimeFieldElementPropertyEditorControl_previewLabel" xml:space="preserve">
+    <value>(Example: )</value>
+  </data>
+  <data name="DateTimeFieldElementPropertyEditorControl_replaceInPrintPlaceholderCheckBox" xml:space="preserve">
+    <value>Replace [In press] placeholder</value>
+  </data>
+  <data name="DateTimeFieldElementPropertyEditorControl_useFormatCheckBox" xml:space="preserve">
+    <value>If recognized as a date, format as follows</value>
+  </data>
+  <data name="ElectronicAddressFieldElementPropertyEditorControl_exampleFullLabel" xml:space="preserve">
+    <value>http://www.nytimes.com/pages/technology/index.html</value>
+  </data>
+  <data name="ElectronicAddressFieldElementPropertyEditorControl_examplePathSuppressedLabel" xml:space="preserve">
+    <value>www.nytimes.com</value>
+  </data>
+  <data name="ElectronicAddressFieldElementPropertyEditorControl_exampleProtocolSuppressedLabel" xml:space="preserve">
+    <value>www.nytimes.com/pages/technology/index.html</value>
+  </data>
+  <data name="ElectronicAddressFieldElementPropertyEditorControl_exampleWWWSuppressedLabel" xml:space="preserve">
+    <value>nytimes.com</value>
+  </data>
+  <data name="ElectronicAddressFieldElementPropertyEditorControl_makePathWrappableCheckBox" xml:space="preserve">
+    <value>Allow for line breaks in long URLs</value>
+  </data>
+  <data name="ElectronicAddressFieldElementPropertyEditorControl_suppressPathCheckBox" xml:space="preserve">
+    <value>Only show domain</value>
+  </data>
+  <data name="ElectronicAddressFieldElementPropertyEditorControl_suppressProtocolCheckBox" xml:space="preserve">
+    <value>Do not include protocol</value>
+  </data>
+  <data name="ElectronicAddressFieldElementPropertyEditorControl_suppressWWWCheckBox" xml:space="preserve">
+    <value>Do not include "www"</value>
+  </data>
+  <data name="FontStyleEditorControl_allCapsCheckBox" xml:space="preserve">
+    <value>All caps</value>
+  </data>
+  <data name="FontStyleEditorControl_boldCheckBox" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="FontStyleEditorControl_Caption" xml:space="preserve">
+    <value>Style:</value>
+  </data>
+  <data name="FontStyleEditorControl_defineStyleRadioButton" xml:space="preserve">
+    <value>Format:</value>
+  </data>
+  <data name="FontStyleEditorControl_doubleUnderlineCheckBox" xml:space="preserve">
+    <value>Double underline</value>
+  </data>
+  <data name="FontStyleEditorControl_italicCheckBox" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="FontStyleEditorControl_neutralCheckBox" xml:space="preserve">
+    <value>Plain</value>
+    <comment>NEW JHP</comment>
+  </data>
+  <data name="FontStyleEditorControl_punctuationAfterFontStyleGroupBox" xml:space="preserve">
+    <value>Style for: Punctuation after</value>
+  </data>
+  <data name="FontStyleEditorControl_punctuationBeforeFontStyleGroupBox" xml:space="preserve">
+    <value>Style for: Punctuation before</value>
+  </data>
+  <data name="FontStyleEditorControl_sameAsNextRadioButton" xml:space="preserve">
+    <value>Same as next style</value>
+  </data>
+  <data name="FontStyleEditorControl_sameAsPreviousRadioButton" xml:space="preserve">
+    <value>Same as previous style</value>
+  </data>
+  <data name="FontStyleEditorControl_smallCapsCheckBox" xml:space="preserve">
+    <value>Small caps</value>
+  </data>
+  <data name="FontStyleEditorControl_strikeThroughCheckBox" xml:space="preserve">
+    <value>Strikethrough</value>
+  </data>
+  <data name="FontStyleEditorControl_subscriptCheckBox" xml:space="preserve">
+    <value>Subscript</value>
+  </data>
+  <data name="FontStyleEditorControl_superscriptCheckBox" xml:space="preserve">
+    <value>Superscript</value>
+  </data>
+  <data name="FontStyleEditorControl_underlineCheckBox" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="IndexInBibliographyFieldElementPropertyEditorControl_mainIndexGroupBox" xml:space="preserve">
+    <value>Format main index numbers like this:</value>
+  </data>
+  <data name="IndexInBibliographyFieldElementPropertyEditorControl_mainIndexStyleLabel" xml:space="preserve">
+    <value>Style:</value>
+  </data>
+  <data name="IndexInBibliographyFieldElementPropertyEditorControl_mainIndexTextAfterLabel" xml:space="preserve">
+    <value>Text after:</value>
+  </data>
+  <data name="IndexInBibliographyFieldElementPropertyEditorControl_mainIndexTextBeforeLabel" xml:space="preserve">
+    <value>Text before:</value>
+  </data>
+  <data name="IndexInBibliographyFieldElementPropertyEditorControl_subIndexGroupBox" xml:space="preserve">
+    <value>Format sub-index numbers like this:</value>
+  </data>
+  <data name="IndexInBibliographyFieldElementPropertyEditorControl_subIndexStyleLabel" xml:space="preserve">
+    <value>Style:</value>
+  </data>
+  <data name="IndexInBibliographyFieldElementPropertyEditorControl_subIndexTextAfterLabel" xml:space="preserve">
+    <value>Text after:</value>
+  </data>
+  <data name="IndexInBibliographyFieldElementPropertyEditorControl_subIndexTextBeforeLabel" xml:space="preserve">
+    <value>Text before:</value>
+  </data>
+  <data name="IndexInBibliographyFieldElementPropertyEditorControl_textBetweenIndexPartsGroupBox" xml:space="preserve">
+    <value>Text between main and sub-index numbers</value>
+  </data>
+  <data name="IndexInBibliographyFieldElementPropertyEditorControl_textBetweenIndexPartsLabel" xml:space="preserve">
+    <value>Text:</value>
+  </data>
+  <data name="LiteralElementPropertyEditorControl_applyAlwaysCheckBox" xml:space="preserve">
+    <value>Always apply</value>
+  </data>
+  <data name="LiteralElementPropertyEditorControl_applyOnlyIfCheckBox" xml:space="preserve">
+    <value>Apply when</value>
+  </data>
+  <data name="LiteralElementPropertyEditorControl_textLabel" xml:space="preserve">
+    <value>Text:</value>
+  </data>
+  <data name="LocationsFieldElementPropertyEditorControl_includeElectronicLocationsCheckBox" xml:space="preserve">
+    <value>Electronic locations (files and URLs)</value>
+  </data>
+  <data name="LocationsFieldElementPropertyEditorControl_includeLabel" xml:space="preserve">
+    <value>Include:</value>
+  </data>
+  <data name="LocationsFieldElementPropertyEditorControl_includeLibraryLocationsCheckBox" xml:space="preserve">
+    <value>Library locations</value>
+  </data>
+  <data name="LocationsFieldElementPropertyEditorControl_includePrivateCollectionLocationsCheckBox" xml:space="preserve">
+    <value>Private Collection locations</value>
+  </data>
+  <data name="NumericFieldElementPropertyEditorControl_defaultNumericAbbreviationLabel" xml:space="preserve">
+    <value>Regular ordinals:</value>
+  </data>
+  <data name="NumericFieldElementPropertyEditorControl_numericGroupBox" xml:space="preserve">
+    <value>If interpretable as a number:</value>
+  </data>
+  <data name="NumericFieldElementPropertyEditorControl_pluralPrefixFontStyleGroupBox" xml:space="preserve">
+    <value>Style for: Plural prefix</value>
+  </data>
+  <data name="NumericFieldElementPropertyEditorControl_pluralPrefixLabel" xml:space="preserve">
+    <value>Plural prefix:</value>
+  </data>
+  <data name="NumericFieldElementPropertyEditorControl_pluralSuffixFontStyleGroupBox" xml:space="preserve">
+    <value>Style for: Plural suffix</value>
+  </data>
+  <data name="NumericFieldElementPropertyEditorControl_pluralSuffixLabel" xml:space="preserve">
+    <value>Plural Suffix:</value>
+  </data>
+  <data name="NumericFieldElementPropertyEditorControl_singularPrefixFontStyleGroupBox" xml:space="preserve">
+    <value>Style for: Singular prefix</value>
+  </data>
+  <data name="NumericFieldElementPropertyEditorControl_singularPrefixLabel" xml:space="preserve">
+    <value>Singular Prefix:</value>
+  </data>
+  <data name="NumericFieldElementPropertyEditorControl_singularSuffixFontStyleGroupBox" xml:space="preserve">
+    <value>Style for: Singular suffix</value>
+  </data>
+  <data name="NumericFieldElementPropertyEditorControl_singularSuffixLabel" xml:space="preserve">
+    <value>Singular Suffix:</value>
+  </data>
+  <data name="NumericFieldElementPropertyEditorControl_specialNumericAbbreviationsFontStyleGroupBox" xml:space="preserve">
+    <value>Style for: Irregular ordinals</value>
+  </data>
+  <data name="NumericFieldElementPropertyEditorControl_specialNumericAbbreviationsLabel" xml:space="preserve">
+    <value>Irregular ordinals:</value>
+  </data>
+  <data name="NumericFieldElementPropertyEditorControl_textGroupBox" xml:space="preserve">
+    <value>If text, i.e. not interpretable as a number:</value>
+  </data>
+  <data name="NumericFieldElementPropertyEditorControl_textPrefixFontStyleGroupBox" xml:space="preserve">
+    <value>Style for: Text prefix</value>
+  </data>
+  <data name="NumericFieldElementPropertyEditorControl_textPrefixLabel" xml:space="preserve">
+    <value>Prefix:</value>
+  </data>
+  <data name="NumericFieldElementPropertyEditorControl_textSuffixFontStyleGroupBox" xml:space="preserve">
+    <value>Style for: Text suffix</value>
+  </data>
+  <data name="NumericFieldElementPropertyEditorControl_textSuffixLabel" xml:space="preserve">
+    <value>Suffix</value>
+  </data>
+  <data name="NumericFieldElementPropertyEditorControl_useNumericAbbreviationsCheckBox" xml:space="preserve">
+    <value>Use ordinals</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_columnNumberingType" xml:space="preserve">
+    <value>Columns</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_columnRangeFormattingMultiGroupBox" xml:space="preserve">
+    <value>Standard column formatting</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_columnRangeFormattingOneGroupBox" xml:space="preserve">
+    <value>Use different formatting if the range is exactly 1 column</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_columnRangeFormattingTwoGroupBox" xml:space="preserve">
+    <value>Use different formatting if the range is exactly 2 columns</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_endLabel" xml:space="preserve">
+    <value>End of range:</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_fontStyleLabel" xml:space="preserve">
+    <value>Font name:</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_marginNumberingType" xml:space="preserve">
+    <value>Margin nos.</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_marginRangeFormattingMultiGroupBox" xml:space="preserve">
+    <value>Standard marginal note formatting</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_marginRangeFormattingOneGroupBox" xml:space="preserve">
+    <value>Use different formatting if the range is exactly 1 marginal note</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_marginRangeFormattingTwoGroupBox" xml:space="preserve">
+    <value>Use different formatting if the range is exactly 2 marginal notes</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_numberingStyleLabel" xml:space="preserve">
+    <value>Numbering style:</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_numeralSystemLabel" xml:space="preserve">
+    <value>Numeral system:</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_numeralSystemOption_Arabic" xml:space="preserve">
+    <value>Arabic (e.g 153)</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_numeralSystemOption_Default" xml:space="preserve">
+    <value>None (as entered)</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_numeralSystemOption_RomanLowerCase" xml:space="preserve">
+    <value>Lowercase Roman (z.B. xxi)</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_numeralSystemOption_RomanUpperCase" xml:space="preserve">
+    <value>Uppercase Roman (e.g. XXI)</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_otherNumberingType" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_otherRangeFormattingMultiGroupBox" xml:space="preserve">
+    <value>Standard formatting</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_otherRangeFormattingOneGroupBox" xml:space="preserve">
+    <value>Use different formatting if the range is exactly 1</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_otherRangeFormattingTwoGroupBox" xml:space="preserve">
+    <value>Use different formatting if the range is exactly 2</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_pageNumberingType" xml:space="preserve">
+    <value>Page numbers</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_pageRangeFormattingMultiGroupBox" xml:space="preserve">
+    <value>Standard page range formatting</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_pageRangeFormattingOneGroupBox" xml:space="preserve">
+    <value>Use different formatting if the range is exactly 1 page</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_pageRangeFormattingTwoGroupBox" xml:space="preserve">
+    <value>Use different formatting if the range is exactly 2 pages</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_paragraphNumberingType" xml:space="preserve">
+    <value>Sections</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_paragraphRangeFormattingMultiGroupBox" xml:space="preserve">
+    <value>Standard paragraph formatting</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_paragraphRangeFormattingOneGroupBox" xml:space="preserve">
+    <value>Use different formatting if the range is exactly 1 paragraph</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_paragraphRangeFormattingTwoGroupBox" xml:space="preserve">
+    <value>Use different formatting if the range is exactly 2 paragraphs</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_prefixLabel" xml:space="preserve">
+    <value>Prefix:</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_requiredCheckBox" xml:space="preserve">
+    <value>This field must not be empty</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_separatorLabel" xml:space="preserve">
+    <value>Separator:</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_startLabel" xml:space="preserve">
+    <value>Start of range:</value>
+  </data>
+  <data name="PageRangeFieldElementPropertyEditorControl_suffixLabel" xml:space="preserve">
+    <value>Suffix</value>
+  </data>
+  <data name="PageRangeNumberingTypeFormCaption_Column" xml:space="preserve">
+    <value>Column nos.</value>
+  </data>
+  <data name="PeriodicalFieldElementPropertyEditorControl_fallbackCheckBox" xml:space="preserve">
+    <value>Fall back to next available name</value>
+  </data>
+  <data name="PeriodicalFieldElementPropertyEditorControl_periodicalNameUsageLabel" xml:space="preserve">
+    <value>Use name or abbreviation:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_abbreviateCheckBox" xml:space="preserve">
+    <value>Abbreviate list</value>
+    <comment>JHP OBSOLETE</comment>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_abbreviateGroupBoxCheckBox" xml:space="preserve">
+    <value>Abbreviate list (e.g. using et. al)</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_abbreviateIfMoreThanPersonsLabel" xml:space="preserve">
+    <value>If more than:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_abbreviateNamePrefixesCheckBox" xml:space="preserve">
+    <value>Abbreviate name prefixes as follows (long and short forms separated by '|')</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_abbreviateUpToPersonLabel" xml:space="preserve">
+    <value>Abbreviate after:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_abbreviationLabel" xml:space="preserve">
+    <value>Text of abbreviation:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_abbreviationsLabel" xml:space="preserve">
+    <value>Abbreviation:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_addLastPersonIfAbbreviatedCheckBox" xml:space="preserve">
+    <value>Conclude with last person after abbreviation text</value>
+    <comment>NEU JHP</comment>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_differentLastPersonSeparatorIfExactlyTwoPersonsGroupBox" xml:space="preserve">
+    <value>Different separator if exactly 2 persons</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_fillWithDerselbeDieselbeAbbreviatedLabel" xml:space="preserve">
+    <value>Use "ders.", "dies." etc…</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_fillWithDerselbeDieselbeLabel" xml:space="preserve">
+    <value>Use "derselbe", "dieselbe", etc…</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_fillWithIdemEademAbbreviatedLabel" xml:space="preserve">
+    <value>Use '"id.", "ead.", etc…</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_fillWithIdemEademLabel" xml:space="preserve">
+    <value>Use "idem", "eadem", etc…</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_firstGroupFirstNameFormatLabel" xml:space="preserve">
+    <value>First name format:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_firstGroupGroupBox" xml:space="preserve">
+    <value>Format names of persons like this:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_firstGroupLastPersonSeparatorLabel" xml:space="preserve">
+    <value>Text before last person:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_firstGroupLenghOptionSet_All" xml:space="preserve">
+    <value>All persons</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_firstGroupLenghOptionSet_Range" xml:space="preserve">
+    <value>Persons 1 through</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_firstGroupLengthLabel" xml:space="preserve">
+    <value>Persons 1 through:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_firstGroupMiddleNameFormatLabel" xml:space="preserve">
+    <value>Middle name format:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_firstGroupMiddleNameUsageLabel" xml:space="preserve">
+    <value>Include middle names:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_firstGroupPersonNameOrderLabel" xml:space="preserve">
+    <value>Sequence:</value>
+    <comment>JS: sort order?</comment>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_firstGroupPersonSeparatorLabel" xml:space="preserve">
+    <value>Text between persons:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_firstGroupToSecondGroupSeparatorLabel" xml:space="preserve">
+    <value>Text before first person:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_groupPrefixGroupBoxCheckBox" xml:space="preserve">
+    <value>Group prefix output:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_groupPrefixLabel" xml:space="preserve">
+    <value>Group prefix:</value>
+    <comment>OBSOLETE will be replaced by groupSuffixGroupBoxCheckBox</comment>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_groupPrefixPluralLabel" xml:space="preserve">
+    <value>Plural:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_groupPrefixSingularLabel" xml:space="preserve">
+    <value>Singular:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_groupSuffixGroupBoxCheckBox" xml:space="preserve">
+    <value>Group suffix output:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_groupSuffixLabel" xml:space="preserve">
+    <value>Group suffix:</value>
+    <comment>OBSOLETE will be replaced by groupSuffixGroupBoxCheckBox</comment>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_groupSuffixPluralLabel" xml:space="preserve">
+    <value>Plural:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_groupSuffixSingularLabel" xml:space="preserve">
+    <value>Singular:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_ignoreLastPersonSeparatorIfAbbreviatedCheckBox" xml:space="preserve">
+    <value>If abbreviated, always use "Text between persons"</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_lastPersonFirstNameFormatLabel" xml:space="preserve">
+    <value>Format of first name:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_lastPersonGroupBoxCheckBox" xml:space="preserve">
+    <value>Format last person's name differently (if there are at least 2 persons)</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_lastPersonLastNameFontStyleLabel" xml:space="preserve">
+    <value>Style for first and middle names:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_lastPersonMiddleNameFormatLabel" xml:space="preserve">
+    <value>Format of middle name:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_lastPersonMiddleNameUsageLabel" xml:space="preserve">
+    <value>Include middle names:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_lastPersonPersonNameOrderLabel" xml:space="preserve">
+    <value>Sequence:</value>
+    <comment>JS: sort order?</comment>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_lastPersonSeparatorIfExactlyTwoPersonsLabel" xml:space="preserve">
+    <value>Separator:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_morePersonNameOptionsButton" xml:space="preserve">
+    <value>More name options…</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_namePrefixAbbreviationsLabel" xml:space="preserve">
+    <value>List of abbreviations:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_namePrefixesFontStyleLabel" xml:space="preserve">
+    <value>Style for name prefixes:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_namePrefixesLabel" xml:space="preserve">
+    <value>Name prefixes:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_nameSuffixesFontStyleLabel" xml:space="preserve">
+    <value>Style for name suffixes:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_nameSuffixesLabel" xml:space="preserve">
+    <value>Name suffixes:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_nameSuffixesSeparatorLabel" xml:space="preserve">
+    <value>Name suffix separator:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_organizationAbbreviationFontStyleLabel" xml:space="preserve">
+    <value>Style for abbreviation:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_organizationNameFontStyleLabel" xml:space="preserve">
+    <value>Style for name:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_organizationNameFormatGroupBoxCheckBox" xml:space="preserve">
+    <value>Format names of organizations like this:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_organizationNameOrderLabel" xml:space="preserve">
+    <value>Sequence:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_organizationTextAfterAbbreviationLabel" xml:space="preserve">
+    <value>Text after abbreviation:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_organizationTextAfterNameLabel" xml:space="preserve">
+    <value>Text after name:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_organizationTextBeforeAbbreviationLabel" xml:space="preserve">
+    <value>Text before abbreviation:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_organizationTextBeforeNameLabel" xml:space="preserve">
+    <value>Text before name:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_secondGroupFirstNameFormatLabel" xml:space="preserve">
+    <value>First name format:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_secondGroupGroupBoxCheckBox" xml:space="preserve">
+    <value>Format additional persons' names like this</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_secondGroupLastPersonSeparatorLabel" xml:space="preserve">
+    <value>Text before last person:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_secondGroupMiddleNameFormatLabel" xml:space="preserve">
+    <value>Middle name format:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_secondGroupMiddleNameUsageLabel" xml:space="preserve">
+    <value>Include middle names:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_secondGroupPersonNameOrderLabel" xml:space="preserve">
+    <value>Sequence:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_secondGroupPersonSeparatorLabel" xml:space="preserve">
+    <value>Text between two persons:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionBehaviorGroupBoxCheckBox" xml:space="preserve">
+    <value>Special output for repetition of persons (e.g. idem, eadem, etc.) in consecutive citations</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionGenderCaptionLabel" xml:space="preserve">
+    <value>If the person or group is …</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionInBibliographyPersonsOmissionHandlingLabel" xml:space="preserve">
+    <value>In bibliography at the beginning of two subsequent entries:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputCaptionLabel" xml:space="preserve">
+    <value>… then show:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputForSingleFemaleLabel" xml:space="preserve">
+    <value>… a single woman:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputForSingleMaleLabel" xml:space="preserve">
+    <value>… a single man:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputForSingleNeuterLabel" xml:space="preserve">
+    <value>… a single neuter:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputForTeamOfFemalesAndNeutersLabel" xml:space="preserve">
+    <value>… women and neuters:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputForTeamOfFemalesOnlyLabel" xml:space="preserve">
+    <value>… multiple women:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputForTeamOfMalesAndFemalesLabel" xml:space="preserve">
+    <value>… women and men:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputForTeamOfMalesAndNeutersLabel" xml:space="preserve">
+    <value>… men and neuters:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputForTeamOfMalesFemalesAndNeutersLabel" xml:space="preserve">
+    <value>… women, men and neuters:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputForTeamOfMalesOnlyLabel" xml:space="preserve">
+    <value>… multiple men:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputForTeamOfNeutersOnlyLabel" xml:space="preserve">
+    <value>… multiple neuters:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputSuppressedAcrossFootnotesCheckBox" xml:space="preserve">
+    <value>No output across footnotes</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputSuppressedAcrossFootnotesIfPreviousCitationNotSolitairCheckBox" xml:space="preserve">
+    <value>No output across footnotes if previous footnote contains more than one citation</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputSuppressedAcrossFootnotesIfSeparatedByMoreThanOneIndexNoCheckBox" xml:space="preserve">
+    <value>No output across footnotes if footnote distance is larger than one footnote</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputSuppressedForFirstCitationAfterMultipleCitationCheckBox" xml:space="preserve">
+    <value>No output for first citation immediately after multiple citations</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputSuppressedForFirstCitationInsideMultipleCitationCheckBox" xml:space="preserve">
+    <value>No output for first citation inside multiple citations</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputSuppressedInIbidemIdemSequenceCheckBox" xml:space="preserve">
+    <value>No output in case of a sequence of 'ibidem' and 'idem' (same page of same reference)</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputSuppressedInsideMultipleCitationCheckBox" xml:space="preserve">
+    <value>No output inside multiple citations</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_suppressNameSuffixesGroupBoxCheckBox" xml:space="preserve">
+    <value>Suppress name suffixes</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_useDifferentLastPersonSeparatorIfExactlyTwoPersonsCheckBox" xml:space="preserve">
+    <value>Use different separator, if number of persons is exactly 2</value>
+  </data>
+  <data name="PlaceOfPublicationFieldElementPropertyEditorControl_abbreviateGroupBoxCheckBox" xml:space="preserve">
+    <value>Abbreviate list (e.g. using et. al)</value>
+  </data>
+  <data name="PlaceOfPublicationFieldElementPropertyEditorControl_abbreviateIfMoreThanPlacesLabel" xml:space="preserve">
+    <value>If more than:</value>
+  </data>
+  <data name="PlaceOfPublicationFieldElementPropertyEditorControl_abbreviateUpToPlaceLabel" xml:space="preserve">
+    <value>Abbreviate after:</value>
+  </data>
+  <data name="PlaceOfPublicationFieldElementPropertyEditorControl_abbreviationLabel" xml:space="preserve">
+    <value>Abbreviation:</value>
+  </data>
+  <data name="PlaceOfPublicationFieldElementPropertyEditorControl_firstGroupGroupBox" xml:space="preserve">
+    <value>Format places of publication like this:</value>
+  </data>
+  <data name="PlaceOfPublicationFieldElementPropertyEditorControl_placeOfPublicationFontStyleLabel" xml:space="preserve">
+    <value>Style:</value>
+  </data>
+  <data name="PlaceOfPublicationFieldElementPropertyEditorControl_separatorLabel" xml:space="preserve">
+    <value>Separator:</value>
+  </data>
+  <data name="PreviewPropertyEditorControl_filterReferencesGroupBox" xml:space="preserve">
+    <value>Preview references</value>
+  </data>
+  <data name="PreviewPropertyEditorControl_previewAllReferencesRadioButton" xml:space="preserve">
+    <value>All references</value>
+  </data>
+  <data name="PreviewPropertyEditorControl_previewFilteredReferencesRadioButton" xml:space="preserve">
+    <value>Only references of the current use case</value>
+  </data>
+  <data name="PreviewPropertyEditorControl_previewMax100ReferencesLabel" xml:space="preserve">
+    <value>The preview shows a maximum of 100 references.</value>
+  </data>
+  <data name="SeriesTitleFieldElementPropertyEditorControl_fallbackCheckBox" xml:space="preserve">
+    <value>Fall back to next available name</value>
+  </data>
+  <data name="SeriesTitleFieldElementPropertyEditorControl_seriesTitleNameUsageLabel" xml:space="preserve">
+    <value>Use name or abbreviation:</value>
+  </data>
+  <data name="StylePropertyEditorControl_notesLabel" xml:space="preserve">
+    <value>Note:</value>
+    <comment>CHECK gab es nur im EN: Note:</comment>
+  </data>
+  <data name="StylePropertyEditorControl_settingsButton" xml:space="preserve">
+    <value>Citation style properties…</value>
+  </data>
+  <data name="TemplatePropertyEditorControl_alwaysUseThisForAmbiguityResolvingCheckBox" xml:space="preserve">
+    <value>Also check all citations of this reference type and ruleset for ambiguity based on the output of this template.</value>
+  </data>
+  <data name="TemplatePropertyEditorControl_conditionButton" xml:space="preserve">
+    <value>Condition…</value>
+  </data>
+  <data name="TemplatePropertyEditorControl_nameLabel" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="TemplatePropertyEditorControl_neverUseThisForAmbiguityResolvingCheckBox" xml:space="preserve">
+    <value>Never check any citations with output based on this template for ambiguity.</value>
+  </data>
+  <data name="TemplatePropertyEditorControl_notesLabel" xml:space="preserve">
+    <value>Notes:</value>
+  </data>
+  <data name="UnnamedCustomTemplateCondition" xml:space="preserve">
+    <value>Unnamed custom template condition</value>
+  </data>
+  <data name="FirstFootCitationNumbFieldElePropEditorControl_considerParentReferenceCheckBox" xml:space="preserve">
+    <value>Use first footnote number of parent or child references</value>
+  </data>
+  <data name="StyleEditorForm" xml:space="preserve">
+    <value>Citavi Citation Style Editor</value>
+  </data>
+  <data name="NewCitationStyle" xml:space="preserve">
+    <value>New citation style</value>
+  </data>
+  <data name="CitationStyleReplacements_Many" xml:space="preserve">
+    <value>{0} additional replacements are defined.</value>
+  </data>
+  <data name="CitationStyleReplacements_None" xml:space="preserve">
+    <value>No additional replacements are defined.</value>
+  </data>
+  <data name="CitationStyleReplacements_One" xml:space="preserve">
+    <value>One additional replacement is defined.</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_addFirstNamesCheckBox" xml:space="preserve">
+    <value>Add first names or initials of authors or editors</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_addLetterAfterYearCheckBox" xml:space="preserve">
+    <value>Append a unique letter</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_addPersonsUntilCitationIsUniqueCheckBox" xml:space="preserve">
+    <value>Add authors or editors until the citation is unique</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_ambiguityInformationLabel" xml:space="preserve">
+    <value>Resolve ambiguous references by applying the following options:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_ambiguityResolvingAddFirstNamesFirstNameFormatLabel" xml:space="preserve">
+    <value>Format of first names:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_ambiguityResolvingAddFirstNamesFontStyleLabel" xml:space="preserve">
+    <value>Style for first and middle names:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_ambiguityResolvingAddFirstNamesMiddleNameFormatLabel" xml:space="preserve">
+    <value>Format of middle names:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_ambiguityResolvingAddFirstNamesMiddleNameUsageLabel" xml:space="preserve">
+    <value>Include middle names:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_ambiguityResolvingAddFirstNamesPersonNameOrderLabel" xml:space="preserve">
+    <value>Sequence:</value>
+    <comment>JS: sort order?</comment>
+  </data>
+  <data name="CitationStyleSettingsDialog_ambiguousReferencesNavigationButton" xml:space="preserve">
+    <value>Ambiguous references</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_ambiguousReferencesTitleLabel" xml:space="preserve">
+    <value>Ambiguous References</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_appendIdentifyingLetterToLabel" xml:space="preserve">
+    <value>Append to field:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_autoFirstLetterCapitalizationLabel" xml:space="preserve">
+    <value>Capitalize the first letter automatically:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_autoIncludeParentReferencesCheckBox" xml:space="preserve">
+    <value>Automatically include parent references in the bibliography</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_autoIncludeParentReferencesOnlyIfQuotingMultipleChildrenCheckBox" xml:space="preserve">
+    <value>Only if more than one child reference is cited</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_bibliographyCustomizeSortButton" xml:space="preserve">
+    <value>Customize…</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_bibliographyCustomizeSortMacroButton" xml:space="preserve">
+    <value>Program…</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_bibliographyGeneralTitleLabel" xml:space="preserve">
+    <value>General Settings</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_bibliographyHeadingLabel" xml:space="preserve">
+    <value>Text:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_bibliographyNavigationButton" xml:space="preserve">
+    <value>Bibliography</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_bibliographyReferenceNumbersTabMultipleCitationsTitleLabel" xml:space="preserve">
+    <value>Grouped references</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_bibliographyReferenceNumbersTabReferenceNumbersLabel" xml:space="preserve">
+    <value>Reference numbers</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_bibliographyTabListFormatTitleLabel" xml:space="preserve">
+    <value>Bullets and numbering</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_bibliographyTabSortTitleLabel" xml:space="preserve">
+    <value>Sorting</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_cancelledButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_citationClassNumberReferencesNavigationButton" xml:space="preserve">
+    <value>Reference number citations</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_citationClassTextReferencesNavigationButton" xml:space="preserve">
+    <value>Text citations</value>
+    <comment>(aka Harvard System or footnotes)</comment>
+  </data>
+  <data name="CitationStyleSettingsDialog_citationStyleIdLabel" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_citationSystemLabel" xml:space="preserve">
+    <value>Citation system:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_classificationNavigationButton" xml:space="preserve">
+    <value>Classification</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_compositeCitationSeparatingTextGroupBox" xml:space="preserve">
+    <value>Separate sub-index numbers with:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_compositeCitationSortingGroupBox" xml:space="preserve">
+    <value>Sorting of sub-index numbers:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_concentrationAreaHelpLabel" xml:space="preserve">
+    <value>Type each subject area on its own line.</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_concentrationAreaLabel" xml:space="preserve">
+    <value>Subject areas:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_contentVersionLabel" xml:space="preserve">
+    <value>Version:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_cultureLabel" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_customizeListFormatButton" xml:space="preserve">
+    <value>Customize…</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_ellipsisDotByEllipsisCheckBox" xml:space="preserve">
+    <value>…. &gt; … — Ellipsis and period with ellipsis</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_emptyBracketsCheckBox" xml:space="preserve">
+    <value>Remove empty brackets</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_emptyParenthesesCheckBox" xml:space="preserve">
+    <value>Remove empty parentheses</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_exlamationMarkDotByExclamationMarkCheckBox" xml:space="preserve">
+    <value>!. &gt; ! — Exclamation point and period with exclamation point</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_filePathLabel" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_finalCharacterLabel" xml:space="preserve">
+    <value>Final character:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_footnotesMultipleEntryConsecutiveAuthorsGroupBox" xml:space="preserve">
+    <value>Consecutive citations by same author</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_footnotesMultipleEntryConsecutiveAuthorsOmitNameCheckBox" xml:space="preserve">
+    <value>Suppress author (e.g. Doe 2006, 2007)</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_footnotesMultipleEntryConsecutiveAuthorsSeparatorLabel" xml:space="preserve">
+    <value>Separate with:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_footnotesMultipleEntryCustomizeSortButton" xml:space="preserve">
+    <value>Customize…</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_footnotesMultipleEntrySeparatorLabel" xml:space="preserve">
+    <value>Separate multiple citations with:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_footnotesMultipleEntrySortGroupBox" xml:space="preserve">
+    <value>Sorting</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_footnotesMultipleEntryTitleLabel" xml:space="preserve">
+    <value>In footnotes</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_footnotesUseSameReferenceAsPreviousConditionsForMultipleCitationsCheckBox" xml:space="preserve">
+    <value>Apply conditions for consecutive citations to multiple citations</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_formatSubIndexAsFollowsGroupBox" xml:space="preserve">
+    <value>Format sub-index numbers like this:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_groupIndexInBibliographyCheckBox" xml:space="preserve">
+    <value>Group consecutive numbers</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_groupIndexInBibliographyMinConsecutiveNumbersLabel" xml:space="preserve">
+    <value>When at least:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_groupIndexInBibliographySeparatorLabel" xml:space="preserve">
+    <value>Separate with:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_hangingIndentationLabel" xml:space="preserve">
+    <value>Hanging indent:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_helpTextNavigationButton" xml:space="preserve">
+    <value>Help text</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_indexInBibliographySettingsButton" xml:space="preserve">
+    <value>Index number options…</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_indexNumberDefinitionInTextLabel" xml:space="preserve">
+    <value>The format of in-text citations is defined by the templates in the rule set for in-text citations for each reference type. There you can change the reference number format and define whether parentheses or brackets should be used.</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_insertBibliographyHeadingCheckBox" xml:space="preserve">
+    <value>Insert heading before bibliography</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_internalNameLabel" xml:space="preserve">
+    <value>Internal name</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_inTextCitationsMultipleEntryConsecutiveAuthorsGroupBox" xml:space="preserve">
+    <value>Consecutive citations by same author</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_inTextCitationsMultipleEntryConsecutiveAuthorsOmitNameCheckBox" xml:space="preserve">
+    <value>Suppress author (e.g. Doe 2006, 2007)</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_inTextCitationsMultipleEntryConsecutiveAuthorsSeparatorLabel" xml:space="preserve">
+    <value>Separate with:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_inTextCitationsMultipleEntryCustomizeSortButton" xml:space="preserve">
+    <value>Customize…</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_inTextCitationsMultipleEntrySeparatorLabel" xml:space="preserve">
+    <value>Separate multiple citations with:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_inTextCitationsMultipleEntrySortGroupBox" xml:space="preserve">
+    <value>Sorting</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_inTextCitationsMultipleEntryTitleLabel" xml:space="preserve">
+    <value>In-text</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_inTextCitationsUseSameReferenceAsPreviousConditionsForMultipleCitationsCheckBox" xml:space="preserve">
+    <value>Apply conditions for consecutive citations to multiple citations</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_inTextMultipleCitationsMainIndexSeparatorLabel" xml:space="preserve">
+    <value>Separate main index numbers with: </value>
+  </data>
+  <data name="CitationStyleSettingsDialog_inTextMultipleCitationsSubIndexSeparatorLabel" xml:space="preserve">
+    <value>Separate sub-index numbers with:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_lastSavedWithCitaviVersionLabel" xml:space="preserve">
+    <value>Last saved with Citavi version:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_listFormatNoneRadioButton" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_listFormatOrderedListRadioButton" xml:space="preserve">
+    <value>Numbering</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_listFormatUnorderedListRadioButton" xml:space="preserve">
+    <value>Bullets</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_mainIndexFillMinimumLengthWithLabel" xml:space="preserve">
+    <value>Fill With</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_mainIndexLeadingTextLabel" xml:space="preserve">
+    <value>Text before main index numbers:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_mainIndexMinimumLengthLabel" xml:space="preserve">
+    <value>Minimum length</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_mainIndexNumberFontStyleLabel" xml:space="preserve">
+    <value>Main index number style:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_mainIndexNumbersInMultipleCitationsLabel" xml:space="preserve">
+    <value>Main Index Numbers</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_mainIndexSegregatingTextLabel" xml:space="preserve">
+    <value>Separator:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_mainIndexTrailingTextLabel" xml:space="preserve">
+    <value>Text after main index numbers:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_manyDotsByDotCheckBox" xml:space="preserve">
+    <value>.. &gt; . — Two periods with a single period</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_manySpacesBySpaceCheckBox" xml:space="preserve">
+    <value>Multiple spaces with a single space</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_mergeReferencesFromMultipleCitationsInCompositeCitationCheckBox" xml:space="preserve">
+    <value>Use one index number for each multiple citation in the text.</value>
+    <comment>Review: Titel aus Mehrfach-Nachweisen im Text auch im Literaturverzeichnis unter einer Haupt-Referenznummer zusammenfassen</comment>
+  </data>
+  <data name="CitationStyleSettingsDialog_mergeReferencesFromMultipleCitationsInCompositeCitationLabel" xml:space="preserve">
+    <value>References can be distinguished from each other using sub-index numbers.</value>
+    <comment>Review: Die Titel können durch Unter-Referenznummern unterschieden werden</comment>
+  </data>
+  <data name="CitationStyleSettingsDialog_multipleEntrySeparatorReplacesFinalCharacterCheckBox" xml:space="preserve">
+    <value>Use separator as final character of composite bibliography citation</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_multipleReferencesIndexNumbersMiscellaneousLabel" xml:space="preserve">
+    <value>Additional Settings</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_multipleReferencesNavigationButton" xml:space="preserve">
+    <value>Multiple references</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_optionMergeAllReferencesFromMultipleCitationsCheckBox" xml:space="preserve">
+    <value>All reference in multiple citations</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_optionMergeAllReferencesFromMultipleCitationsLabel" xml:space="preserve">
+    <value>The first mention in the text determines the numbering type for additional citations and sub-citations.</value>
+    <comment>Review: Die Erstnennung im Text bestimmt Haupt- und Unter-Referenznummer für weitere Nennungen</comment>
+  </data>
+  <data name="CitationStyleSettingsDialog_optionMergeNonRecurringReferencesFromMultipleCitationsCheckBox" xml:space="preserve">
+    <value>Only those references that appear only once in a multiple citation</value>
+    <comment>Review: nur jene Titel, die nur ein Mal innerhalb eines Mehrfach-Nachweises vorkommen</comment>
+  </data>
+  <data name="CitationStyleSettingsDialog_optionMergeNonRecurringReferencesFromMultipleCitationsLabel" xml:space="preserve">
+    <value>If the reference is cited again it will be assigned its own number</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_questionMarkDotByQuestionMarkCheckBox" xml:space="preserve">
+    <value>?. &gt; ? — Question mark and period with question mark</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_quotationAffixesNavigationButton" xml:space="preserve">
+    <value>Quotation affixes</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_rangifyIndexNumbersDisclaimerLabel" xml:space="preserve">
+    <value>* Grouping is not possible if a citation contains additional fields or if the citation contains a prefix or suffix.</value>
+    <comment>Review: * Eine Bereichsangabe ist nicht möglich, wenn ein einzelner Nachweis weitere Felder enthält oder am Platzhalter mit Präfix/Suffix versehen ist.</comment>
+  </data>
+  <data name="CitationStyleSettingsDialog_rangifyMainIndexNumbersInMultipleCitationCheckBox" xml:space="preserve">
+    <value>Group consecutive main index numberswhen possible*</value>
+    <comment>Review: Aufeinanderfolgende Haupt-Referenznummern wenn möglich als Bereiche angeben*</comment>
+  </data>
+  <data name="CitationStyleSettingsDialog_rangifyMainIndexNumbersMinConsecutiveNumbersLabel" xml:space="preserve">
+    <value>When at least: </value>
+    <comment>Review: Ab Anzahl Nummern:</comment>
+  </data>
+  <data name="CitationStyleSettingsDialog_rangifyMainIndexNunbersRangeCharactersLabel" xml:space="preserve">
+    <value>Separate with: </value>
+    <comment>Review: Zeichen für "von ... bis":</comment>
+  </data>
+  <data name="CitationStyleSettingsDialog_rangifySubIndexNumbersInMultipleCitationCheckBox" xml:space="preserve">
+    <value>Group consecutive sub-index numbers when possible*</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_rangifySubIndexNumbersMinConsecutiveNumbersLabel" xml:space="preserve">
+    <value>When at least:</value>
+    <comment>Review: Ab Anzahl Nummern:</comment>
+  </data>
+  <data name="CitationStyleSettingsDialog_rangifySubIndexNunbersRangeCharactersLabel" xml:space="preserve">
+    <value>Separate with:</value>
+    <comment>Review: Zeichen für "von ... bis":</comment>
+  </data>
+  <data name="CitationStyleSettingsDialog_replacementsButton" xml:space="preserve">
+    <value>More…</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_replacementsNavigationButton" xml:space="preserve">
+    <value>Replacements</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_schemaVersionLabel" xml:space="preserve">
+    <value>Schema version:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_showAdditionalOptionsForAmbiguityResolving" xml:space="preserve">
+    <value>Show additional options for each template</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_showInExplorerLabel" xml:space="preserve">
+    <value>Open folder in Windows Explorer</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_showMainIndexNumbersOptionsLabel" xml:space="preserve">
+    <value>Main reference number name:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_showTemplateOptionAlwaysUseThisForAmbiguityResolvingCheckBox" xml:space="preserve">
+    <value>Show the following additional option with each template for "Footnote" and "In-Text" citations:</value>
+    <comment>OBSOLETE</comment>
+  </data>
+  <data name="CitationStyleSettingsDialog_SortOptions_APA" xml:space="preserve">
+    <value>American Psychological Association (APA)</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_SortOptions_AuthorYearAscendingTitle" xml:space="preserve">
+    <value>Author, year (ascending), title</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_SortOptions_Custom" xml:space="preserve">
+    <value>Field selection</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_SortOptions_CustomMacro" xml:space="preserve">
+    <value>Special sorting</value>
+    <comment>was: Custom (but we wanted a clearer distinction between Custom and Programmed)</comment>
+  </data>
+  <data name="CitationStyleSettingsDialog_SortOptions_IndexInBibliography" xml:space="preserve">
+    <value>In the order of the bibliography</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_SortOptions_OrderOfAppearance" xml:space="preserve">
+    <value>In the order cited</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_spacingAfterLabel" xml:space="preserve">
+    <value>Space after:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_standardPrefixInTextTitleLabel" xml:space="preserve">
+    <value>Standard prefix for citation type:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_standardSuffixInTextTitleLabel" xml:space="preserve">
+    <value>Standard suffix for citation type:</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_subIndexLeadingTextLabel" xml:space="preserve">
+    <value>Text before :</value>
+    <comment>Review: Text vor der Unter-Referenznummer:</comment>
+  </data>
+  <data name="CitationStyleSettingsDialog_subIndexNumbersInMultipleCitationsLabel" xml:space="preserve">
+    <value>Sub-Index Numbers</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_subIndexNumeralTypeLabel" xml:space="preserve">
+    <value>Sub-Index Number Type:</value>
+    <comment>Review: Art der Unter-Referenznummer:</comment>
+  </data>
+  <data name="CitationStyleSettingsDialog_subIndexRepeatMainIndexCheckBox" xml:space="preserve">
+    <value>Repeat citation</value>
+    <comment>Review: Haupt-Referenznummer wiederholen</comment>
+  </data>
+  <data name="CitationStyleSettingsDialog_subIndexTextAfterRepeatedMainIndexLabel" xml:space="preserve">
+    <value>Text after:</value>
+    <comment>Review: Text nach Haupt-Referenznummer:</comment>
+  </data>
+  <data name="CitationStyleSettingsDialog_subIndexTrailingTextLabel" xml:space="preserve">
+    <value>Text after:</value>
+    <comment>Review: Text nach der Unter-Referenznummer:</comment>
+  </data>
+  <data name="CitationStyleSettingsDialog_suppressBibliographyCheckBox" xml:space="preserve">
+    <value>Create bibliography</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_suppressSubIndexNumbersOnFullRangeCheckBox" xml:space="preserve">
+    <value>Suppress sub-index numbers if multiple in-text citation contains all references from a composite bibliography citation</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_technicalInformationNavigationButton" xml:space="preserve">
+    <value>Technical Information</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_threeDotsByEllipsisCheckBox" xml:space="preserve">
+    <value>... &gt; … — Three periods with ellipsis</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_titleInformationLabelAuthorYearKey" xml:space="preserve">
+    <value>Examples: (Doe, 1999), (Doe, John), [DOE99], ¹ Doe, John: Introduction to Reference Management, Oxford 1999</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_titleInformationLabelReferenceNumbers" xml:space="preserve">
+    <value>Examples: [1], [2-4; 5a], /01/</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_titleLabelAuthorYearKey" xml:space="preserve">
+    <value>In-text or footnote citations containing text</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_titleLabelReferenceNumbers" xml:space="preserve">
+    <value>In-text citations containing reference numbers</value>
+  </data>
+  <data name="CitationStyleUploadDialog_abbreviationsLabel" xml:space="preserve">
+    <value>Abbreviations:</value>
+  </data>
+  <data name="CitationStyleUploadDialog_basedOnStyleNameLabel" xml:space="preserve">
+    <value>Based on:</value>
+  </data>
+  <data name="CitationStyleUploadDialog_builtInCheckBox" xml:space="preserve">
+    <value>Citavi built-in style</value>
+  </data>
+  <data name="CitationStyleUploadDialog_citationStyleIdLabel" xml:space="preserve">
+    <value>Id:</value>
+  </data>
+  <data name="CitationStyleUploadDialog_contentVersionLabel" xml:space="preserve">
+    <value>Content version:</value>
+  </data>
+  <data name="CitationStyleUploadDialog_contentVersionOnlineDescriptionLabel" xml:space="preserve">
+    <value>will be incremented by 1 upon each upload</value>
+  </data>
+  <data name="CitationStyleUploadDialog_createdByOnLabel" xml:space="preserve">
+    <value>Created:</value>
+  </data>
+  <data name="CitationStyleUploadDialog_deleteButton" xml:space="preserve">
+    <value>Remove and archive style online</value>
+  </data>
+  <data name="CitationStyleUploadDialog_fileLabel" xml:space="preserve">
+    <value>Local style</value>
+  </data>
+  <data name="CitationStyleUploadDialog_fileOnlineLabel" xml:space="preserve">
+    <value>Online style</value>
+  </data>
+  <data name="CitationStyleUploadDialog_internalNameLabel" xml:space="preserve">
+    <value>Internal name:</value>
+  </data>
+  <data name="CitationStyleUploadDialog_keywordsLabel" xml:space="preserve">
+    <value>Keywords:</value>
+  </data>
+  <data name="CitationStyleUploadDialog_lastSavedWithCitaviVersionLabel" xml:space="preserve">
+    <value>Last saved with Citavi version:</value>
+  </data>
+  <data name="CitationStyleUploadDialog_modifiedByOnLabel" xml:space="preserve">
+    <value>Modified:</value>
+  </data>
+  <data name="CitationStyleUploadDialog_savedSchemaVersionLabel" xml:space="preserve">
+    <value>Last saved as schema version:</value>
+  </data>
+  <data name="CitationStyleUploadDialog_titleLabel" xml:space="preserve">
+    <value>Upload of Citation Style</value>
+  </data>
+  <data name="CitationStyleUploadDialog_uploadButton" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="CitationStyleUploadDialog_uptodateSchemaVersionLabel" xml:space="preserve">
+    <value>Current schema version</value>
+  </data>
+  <data name="CitationStyleWaitDialog_titleLabel" xml:space="preserve">
+    <value>Loading citation styles…</value>
+  </data>
+  <data name="StyleEditorControl_previewPanel_Caption" xml:space="preserve">
+    <value>Preview: {0}</value>
+  </data>
+  <data name="StyleEditorControl_stateEditorLabel" xml:space="preserve">
+    <value>Edit state:</value>
+  </data>
+  <data name="StyleEditorControl_Toolbox_GroupGeneralComponents" xml:space="preserve">
+    <value>General components</value>
+  </data>
+  <data name="StyleEditorControl_Toolbox_GroupSpecificComponents" xml:space="preserve">
+    <value>Reference type–specific components</value>
+  </data>
+  <data name="StyleEditorForm_conditionButton" xml:space="preserve">
+    <value>Condition…</value>
+  </data>
+  <data name="StyleEditorPropertyPanelTextCitationStyle" xml:space="preserve">
+    <value>Citation style properties</value>
+  </data>
+  <data name="StyleEditorPropertyPanelTextComponentPart" xml:space="preserve">
+    <value>Component properties:  {0}</value>
+  </data>
+  <data name="StyleEditorPropertyPanelTextComponentPartGeneral" xml:space="preserve">
+    <value>Properties of the component</value>
+  </data>
+  <data name="StyleEditorPropertyPanelTextFieldElement" xml:space="preserve">
+    <value>Properties of the field: {0}</value>
+  </data>
+  <data name="StyleEditorPropertyPanelTextLiteralElement" xml:space="preserve">
+    <value>Properties of the text element: {0}</value>
+  </data>
+  <data name="StyleEditorPropertyPanelTextPreviewWordProcessor" xml:space="preserve">
+    <value>Preview properties</value>
+  </data>
+  <data name="StyleEditorPropertyPanelTextTemplate" xml:space="preserve">
+    <value>Template properties:  {0}</value>
+  </data>
+  <data name="AdditionalTemplatesWillBeDeleted" xml:space="preserve">
+    <value>The additional templates that you have created for this use case will be deleted.
+Do you want to continue?</value>
+  </data>
+  <data name="BuiltInConditionTemplateInvalidOrder" xml:space="preserve">
+    <value>The use case "{0}" contains the following error in the {1} rule set:
+
+The conditions in the template
+
+{4} (position {5} from the top)
+
+are broader than the conditions in the template
+
+{2} (position {3} from the top)
+
+The template further down in the sequence will therefore never be applied. How do you want to proceed?</value>
+  </data>
+  <data name="BuiltInConditionTemplateInvalidOrder_AutoCorrect" xml:space="preserve">
+    <value>Let Citavi correct the error automatically</value>
+  </data>
+  <data name="BuiltInConditionTemplateInvalidOrder_Ignore" xml:space="preserve">
+    <value>Ignore this and similar errors when saving</value>
+  </data>
+  <data name="BuiltInConditionTemplateInvalidOrder_ManualCorrect" xml:space="preserve">
+    <value>Cancel save and correct sequence manually</value>
+  </data>
+  <data name="BuiltInTemplateConditionFieldEmpty" xml:space="preserve">
+    <value>"{0}" is empty</value>
+  </data>
+  <data name="BuiltInTemplateConditionFieldEqualsParentField" xml:space="preserve">
+    <value>{0} = {1} of the parent reference</value>
+  </data>
+  <data name="BuiltInTemplateConditionFieldNotEmpty" xml:space="preserve">
+    <value>"{0}" contains data</value>
+    <comment>NEW JHP for PhraseExpresss conditions</comment>
+  </data>
+  <data name="BuiltInTemplateConditionNone" xml:space="preserve">
+    <value>(no conditions)</value>
+  </data>
+  <data name="BuiltInTemplateConditionParentFieldEmpty" xml:space="preserve">
+    <value>"{0}" in the parent reference is empty </value>
+  </data>
+  <data name="BuiltInTemplateConditionTwoFieldsEqual" xml:space="preserve">
+    <value>{0} = {1}</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_mainTabControl_AmbiguousReferences" xml:space="preserve">
+    <value>Ambiguous citations</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_mainTabControl_Bibliography" xml:space="preserve">
+    <value>Bibliography</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_mainTabControl_Classification" xml:space="preserve">
+    <value>Classification</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_mainTabControl_HelpText" xml:space="preserve">
+    <value>Quick Help text</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_mainTabControl_MultipleReferences" xml:space="preserve">
+    <value>Multiple citations</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_mainTabControl_Replacements" xml:space="preserve">
+    <value>Replacements</value>
+  </data>
+  <data name="CitationStyleUploadSaveAsFileFirstPrompt" xml:space="preserve">
+    <value>Before uploading, the citation style must be saved.
+Would you like to save the style now?</value>
+    <comment>For internal use</comment>
+  </data>
+  <data name="CitationStyleUploadSaveFileFirstPrompt" xml:space="preserve">
+    <value>Before uploading, changes must be saved.
+Would you like to save the style now?</value>
+    <comment>For internal use</comment>
+  </data>
+  <data name="ComponentPartCannotBeEditedSinceParentReferenceTypeIsMissing" xml:space="preserve">
+    <value>This component cannot be edited here because it expects a parent reference type (for example, "Contribution" in an "Edited book"). The current reference type "{0}", however, does not have a parent reference type.</value>
+  </data>
+  <data name="ComponentPartEditorControl_propertyPanel_Caption" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="ComponentPartEditorControl_referenceTypePanel_Caption" xml:space="preserve">
+    <value>Reference types</value>
+  </data>
+  <data name="ComponentPartEditorControl_toolboxPanel_Caption" xml:space="preserve">
+    <value>Elements</value>
+  </data>
+  <data name="ComponentPartEditorControl_Toolbox_GroupGeneralElements" xml:space="preserve">
+    <value>General elements</value>
+  </data>
+  <data name="ComponentPartEditorControl_Toolbox_GroupSpecificElements" xml:space="preserve">
+    <value>Reference type–specific elements</value>
+  </data>
+  <data name="ComponentPartEditorControl_Toolbox_GroupTextElements" xml:space="preserve">
+    <value>Text elements</value>
+  </data>
+  <data name="ComponentPartEditorControl_Toolbox_ItemTextElement" xml:space="preserve">
+    <value>Text element</value>
+  </data>
+  <data name="ComponentPartFilter_Delete" xml:space="preserve">
+    <value>Do you want to delete the filter code?
+Deleting the code will deactivate the filter permanently, unless you save the program code to a separate file first. To do so, click Cancel and select Edit filter. Then click File &gt; Save as.</value>
+  </data>
+  <data name="ComponentPartPropertyEditor_PunctuationAfterFontStyle" xml:space="preserve">
+    <value>Style for: Punctuation after</value>
+  </data>
+  <data name="ComponentPartPropertyEditor_PunctuationBeforeFontStyle" xml:space="preserve">
+    <value>Style for: Punctuation before</value>
+  </data>
+  <data name="ComponentPartToolboxCaption" xml:space="preserve">
+    <value>Components for: {0}</value>
+  </data>
+  <data name="ComponentsWillBeDeleted" xml:space="preserve">
+    <value>The components defined in the current template will be removed.
+Do you want to continue?</value>
+  </data>
+  <data name="DeleteStyleEditorComponent" xml:space="preserve">
+    <value>Do you really want to permanently delete the selected component?
+
+Hint: To remove a component from a template, select the component and on the Edit menu, click Remove.
+To permanently delete a component, select it in the list of components 
+and on the Edit menu, click Delete.</value>
+  </data>
+  <data name="DeleteStyleEditorComponent_InUse" xml:space="preserve">
+    <value>This component is in use by the following templates:
+
+{0}
+
+Do you want to delete it anyway?</value>
+  </data>
+  <data name="DeleteTemplateWarning" xml:space="preserve">
+    <value>Are you sure you want to delete the template?
+{0}</value>
+  </data>
+  <data name="InvalidCitationStyleBasedOnSelection" xml:space="preserve">
+    <value>Selection not valid: This would cause a circular reference.</value>
+  </data>
+  <data name="StyleEditor_BuildingPreview" xml:space="preserve">
+    <value>Generating preview…</value>
+  </data>
+  <data name="StyleEditor_NothingToPreview" xml:space="preserve">
+    <value>[No references to preview]</value>
+  </data>
+  <data name="TemplatePanelInheritsFromLabel" xml:space="preserve">
+    <value>Inherited from: {0}</value>
+  </data>
+  <data name="TemplatePanelPlaceholderText" xml:space="preserve">
+    <value>(Drag components here to create a template.)</value>
+  </data>
+  <data name="ConditionalTemplateName_NoConditions" xml:space="preserve">
+    <value>(Conditional template - no conditions defined)</value>
+  </data>
+  <data name="FallbackTemplateName" xml:space="preserve">
+    <value>(Default template)</value>
+  </data>
+  <data name="RuleSetEditorText_Inherited" xml:space="preserve">
+    <value>Rule set: {0}  |  &lt;a fref="UseCaseEditInheritFrom_{1}_{2}"&gt;Inherited from: {3}&lt;/a&gt;</value>
+  </data>
+  <data name="RuleSetEditorText_NotInherited" xml:space="preserve">
+    <value>Rule set: {0}  |  &lt;a fref="UseCaseEditInheritFrom_{1}_{2}"&gt;Not inherited&lt;/a&gt;</value>
+  </data>
+  <data name="CitationStyleSettingsDialog" xml:space="preserve">
+    <value>Citation Style Properties</value>
+  </data>
+  <data name="CompilationTestErrorsFoundInComponentPart" xml:space="preserve">
+    <value>Component part: {0}</value>
+  </data>
+  <data name="CompilationTestErrorsFoundInCustomSorting" xml:space="preserve">
+    <value>Sorting: {0}</value>
+  </data>
+  <data name="CompilationTestErrorsFoundInTemplateCondition" xml:space="preserve">
+    <value>Template condition: {0}</value>
+  </data>
+  <data name="CompilationTestErrorsFoundTemplate" xml:space="preserve">
+    <value>This citation style contains compilation errors in the following scripts:
+
+{0}</value>
+  </data>
+  <data name="CompilationTestNoErrorsFound" xml:space="preserve">
+    <value>This citation style contains no scripts with compilation errors.</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputSuppressedWithFormatOption1CheckBox" xml:space="preserve">
+    <value>Option 1</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputSuppressedWithFormatOption2CheckBox" xml:space="preserve">
+    <value>Option 2</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputSuppressedWithFormatOption3CheckBox" xml:space="preserve">
+    <value>Option 3</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputSuppressedWithFormatOptionsLabel" xml:space="preserve">
+    <value>Suppress repetition output when the following combination of format options is used:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputUseIndividualFontStylesCheckBox" xml:space="preserve">
+    <value>Individual font style settings</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_SortOptions_AuthorYearDescendingTitle" xml:space="preserve">
+    <value>Author, year (descending), title</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_SortOptions_FirstAuthorYearAscendingTitle" xml:space="preserve">
+    <value>First author, year (ascending), title</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_SortOptions_FirstAuthorYearDescendingTitle" xml:space="preserve">
+    <value>First author, year (descending), title</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_abbreviationsLabel" xml:space="preserve">
+    <value>Abbreviations</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_basedOnStyleNameLabel" xml:space="preserve">
+    <value>Based on</value>
+    <comment>JS: Inherit from?</comment>
+  </data>
+  <data name="CitationStyleSettingsDialog_builtInCheckBox" xml:space="preserve">
+    <value>Citavi system citation style</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_citationStyleMasterIdLabel" xml:space="preserve">
+    <value>Master ID</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_createdByOnLabel" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_currentCitaviVersionLabel" xml:space="preserve">
+    <value>Current Citavi version</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_derivedCheckBox" xml:space="preserve">
+    <value>Derived citation style</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_fileLabel" xml:space="preserve">
+    <value>Local citation style file</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_keywordsLabel" xml:space="preserve">
+    <value>Keywords</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_modifiedByOnLabel" xml:space="preserve">
+    <value>Modified</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_uptodateSchemaVersionLabel" xml:space="preserve">
+    <value>Citavi's most recent schema version</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionInBibliographyExitLookForRepetitionIfFailedOnceCheckBox" xml:space="preserve">
+    <value>Stop output after first not repeated individual person</value>
+    <comment>JS: reword</comment>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionInBibliographyLookForRepetitionOfIndividualPersonsCheckBox" xml:space="preserve">
+    <value>Repeated output for each repeated individual person</value>
+    <comment>JS: reword</comment>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionInBibliographyPersonsOmissionHandlingExamplesLabel" xml:space="preserve">
+    <value>Examples:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputSuppressGroupPrefixCheckBox" xml:space="preserve">
+    <value>Suppress group prefix</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputSuppressGroupSuffixCheckBox" xml:space="preserve">
+    <value>Suppress group suffix</value>
+  </data>
+  <data name="ComponentPartPropertyEditorControl_idLabel" xml:space="preserve">
+    <value>Id:</value>
+  </data>
+  <data name="TemplateConditionDialog_DuplicateTemplateWithIdenticalCondition_Plural" xml:space="preserve">
+    <value>A template with these conditions already exists.</value>
+  </data>
+  <data name="TemplateConditionDialog_DuplicateTemplateWithIdenticalCondition_Singular" xml:space="preserve">
+    <value>A template with this condition already exists.</value>
+  </data>
+  <data name="CitationStyleUploadDialog_citationStyleSettingsButton" xml:space="preserve">
+    <value>Citation style properties…</value>
+  </data>
+  <data name="CitationStyleUploadDialog_currentCitaviVersionLabel" xml:space="preserve">
+    <value>Current Citavi version</value>
+  </data>
+  <data name="CitationStyleUploadDialog_waitStatusLabel" xml:space="preserve">
+    <value>Working…</value>
+  </data>
+  <data name="StyleEditorControl_previewPanel_EmptyCaption" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="Preview_SelectedTemplateContainsNoComponentPartsMessage" xml:space="preserve">
+    <value>[Drag components to the template to see formatted references in the preview.]</value>
+  </data>
+  <data name="Preview_SelectTemplateMessage" xml:space="preserve">
+    <value>[Select a template on the left-hand side to see formatted references in the preview.]</value>
+  </data>
+  <data name="PreviewPropertyEditorControl_filterTemplatesGroupBox" xml:space="preserve">
+    <value>Preview templates</value>
+  </data>
+  <data name="PreviewPropertyEditorControl_highlightActiveComponentPartCheckBox" xml:space="preserve">
+    <value>Highlight active component</value>
+  </data>
+  <data name="PreviewPropertyEditorControl_previewActiveTemplateOnlyRadioButton" xml:space="preserve">
+    <value>Only active template (ignoring conditions and citation style options)</value>
+  </data>
+  <data name="PreviewPropertyEditorControl_previewRuleSetRadioButton" xml:space="preserve">
+    <value>Complete ruleset</value>
+  </data>
+  <data name="PreviewPropertyEditorControl_simulateRepetitionWithDifferentQuotationPageRangeCheckBox" xml:space="preserve">
+    <value>Simulate repetitions with different quotation page ranges</value>
+  </data>
+  <data name="PreviewPropertyEditorControl_simulateRepetitionWithIdenticalQuotationPageRangeCheckBox" xml:space="preserve">
+    <value>Simulate repetitions with identical quotation page ranges</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_mainGridColumnAbbreviations" xml:space="preserve">
+    <value>Abbreviations</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_mainGridColumnBasedOnStyleName" xml:space="preserve">
+    <value>Based on style</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_mainGridColumnConcentrationAreas" xml:space="preserve">
+    <value>Realms</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_mainGridColumnFileName" xml:space="preserve">
+    <value>Filename</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_mainGridColumnHelpContext" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_mainGridColumnId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_mainGridColumnKeywords" xml:space="preserve">
+    <value>Keywords</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_mainGridColumnMasterId" xml:space="preserve">
+    <value>Master-ID</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_mainGridColumnName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_mainGridColumnVersion" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_toolAdd" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_toolCopy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_toolCut" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_toolDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_toolExport" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_toolImport" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_toolPaste" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_closeButton" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_saveButton" xml:space="preserve">
+    <value>Save changes to Cloud</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_waitStatusLabel" xml:space="preserve">
+    <value>Working…</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_descriptionLabel" xml:space="preserve">
+    <value>The following citation styles are based on the master citation style: {0}</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_titleLabel" xml:space="preserve">
+    <value>Manage Derived Citationstyles</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_messageCloseDespiteUnsavedChanges" xml:space="preserve">
+    <value>You have made changes but not saved them to the cloud yet.
+These changes will be lost.
+
+Close anyway?</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_messageRefreshDespiteUnsavedChanges" xml:space="preserve">
+    <value>You have made changes but not saved them to the cloud yet.
+These changes will be lost.
+
+Refresh anyway?</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_toolRefresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_messageDifferentMasterForAllStylesContinue" xml:space="preserve">
+    <value>The derived citation styles you are about to import originally belong to a different master citation style.
+
+Other master citation style: '{0}'
+Current master citation style: '{1}'
+
+When changes are saved to the Cloud, the imported derived citation styles will be removed from the former and added to the current master citation style.
+
+Would you like to continue anyway?</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_messageDifferentMasterForSingleStyleContinue" xml:space="preserve">
+    <value>The derived citation style you are about to import originally belongs to a different master citation style.
+
+Other master citation style: '{0}'
+Current master citation style: '{1}'
+
+When changes are saved to the Cloud, the imported derived citation style will be removed from the former and added to the current master citation style.
+
+Do you agree?</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_messageAlwaysApplyThisOption" xml:space="preserve">
+    <value>Always apply this in case of conflict</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_messageCitationStyleDerivedInfoExistsOverwrite" xml:space="preserve">
+    <value>The derived citation style '{0}' already exists (identical ID). 
+
+Overwrite?</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_messageImportFinished" xml:space="preserve">
+    <value>Import finished
+
+{0} derived citation styles added
+{1} derived citation styles updated
+</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_messageOnlineMasterNotPresentOrUpdated" xml:space="preserve">
+    <value>The online version of the master citation style '{0}' is not up-to-date. 
+
+Please upload the master citation style first!</value>
+  </data>
+  <data name="ManageDerivedCitationStylesDialog_messageExportFinished" xml:space="preserve">
+    <value>Export finished
+
+{0} derived citation styles exported
+</value>
+  </data>
+  <data name="DesktopCitationStyleManager_messageCitationStyleDisabled" xml:space="preserve">
+    <value>The citation style file was moved to the "Disabled styles" subfolder:
+{0}
+
+The error message is:
+{1}
+
+To resolve this error, please send the citation style to support@citavi.com along with the error message and your support code. You can find the support code in Citavi on the Help menu under License.</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_namePrefixesGroupBox" xml:space="preserve">
+    <value>Format name prefixes like this</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_SortOptions_FirstAuthorYearTitle" xml:space="preserve">
+    <value>First author, year, title</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_sortMacroFromCitaviServerButton" xml:space="preserve">
+    <value>Retrieve from the Citavi server…</value>
+  </data>
+  <data name="BuiltInCitationStyleEditWarning" xml:space="preserve">
+    <value>The citation style you want to open is a style provided by Swiss Academic Software.
+
+You cannot edit this style, but you can create a copy to work on.
+
+Do you want to continue?</value>
+  </data>
+  <data name="BuiltInCitationStyleEditWarningInternal" xml:space="preserve">
+    <value>You want to edit the citation style '{0}'. This is a built-in style that all Citavi users can download from the Internet.
+
+When you are finished editing the style, please do not forget to upload the file to the Citavi Cloud again in order to make changes available to all users.</value>
+    <comment>Internal warning -- not visible to customers. Please do not translate.</comment>
+  </data>
+  <data name="BuiltInCitationStyleOverwriteWarning" xml:space="preserve">
+    <value>The citation style you want to replace is a citation style included with Citavi. Technically we cannot prevent you from overwriting it.
+However, we strongly advise you against doing so because your work may be lost when a future Citavi update is installed.
+
+Are you sure that you want to continue anyway?</value>
+  </data>
+  <data name="CitationStyleChangesCouldNotBeSaved" xml:space="preserve">
+    <value>The changes to the citation style could not be saved. Try again?</value>
+  </data>
+  <data name="CitationStyleSavingRemovesC3CompatibilitiyWarning" xml:space="preserve">
+    <value>The style "{0}" is a Citavi 3 citation style. If you save changes with the same file name, the compatibility with Citavi 3 will be lost and you will no longer be able to use the style in Citavi 3.
+
+If you would like to keep the original style and save your changes in a copy of the style, please click "Cancel". Then, click "File" &gt; "Save as".</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="SaveChanges" xml:space="preserve">
+    <value>Do you want to save changes?</value>
+  </data>
+  <data name="TemplateConditionDialog_addNewCustomTemplateConditionLinkLabel" xml:space="preserve">
+    <value>Program a custom condition…</value>
+  </data>
+  <data name="TemplateConditionDialog_backOfficeCustomTemplateConditionLinkLabel" xml:space="preserve">
+    <value>Retrieve from the Citavi server...</value>
+    <comment>JS - Review: retrieve? download? what's being done here?</comment>
+  </data>
+  <data name="TemplateConditionDialog_ConditionNamePrefix_Citavi" xml:space="preserve">
+    <value>Citavi</value>
+  </data>
+  <data name="TemplateConditionDialog_ConditionNamePrefix_User" xml:space="preserve">
+    <value>Programmed</value>
+    <comment>JS - Review</comment>
+  </data>
+  <data name="TemplateConditionDialog_contextConditionsGroupHeader" xml:space="preserve">
+    <value>Conditions based on cross references inside the publication</value>
+  </data>
+  <data name="TemplateConditionDialog_customConditionButton" xml:space="preserve">
+    <value>Program a custom condition…</value>
+  </data>
+  <data name="TemplateConditionDialog_customConditionsGroupHeader" xml:space="preserve">
+    <value>Programmed custom conditions available in current citation style</value>
+  </data>
+  <data name="TemplateConditionDialog_dataConditionsGroupHeader" xml:space="preserve">
+    <value>Conditions based on reference data</value>
+  </data>
+  <data name="TemplateConditionDialog_deleteCustomTemplateConditionLinkLabel" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="TemplateConditionDialog_editCustomTemplateConditionLinkLabel" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="TemplateConditionDialog_ListIsEmptyLabel" xml:space="preserve">
+    <value>List contains no items</value>
+  </data>
+  <data name="TemplateConditionDialog_placeholderConditionsGroupHeader" xml:space="preserve">
+    <value>Conditions based on citation options</value>
+    <comment>JHP: Was: Conditions based on switches inside the placeholder [placeholder mit switches gibt es nicht mehr], neu in C6 DE: Optionen des Nachweises in der Publikation</comment>
+  </data>
+  <data name="TemplateConditionDialog_selectedConditionsLabel" xml:space="preserve">
+    <value>All of the following conditions need to be fulfilled for this template to be applied:</value>
+  </data>
+  <data name="TemplateConditionDialog_titleLabel" xml:space="preserve">
+    <value>Under which conditions should this template be applied?</value>
+  </data>
+  <data name="DeleteCustomTemplateCondition" xml:space="preserve">
+    <value>Do you really want to delete the custom condition "{0}" from the citation style?</value>
+  </data>
+  <data name="DeleteCustomTemplateCondition_UsedInTemplates" xml:space="preserve">
+    <value>This condition is in use by the following templates:</value>
+  </data>
+  <data name="EditTemplateConditionFromServerWarning" xml:space="preserve">
+    <value>This customized template condition is linked to the Citavi server and is automatically updated when modifications are made by the Citavi team. 
+If you make changes to it, the template condition will no longer be linked to the server or automatically updated.</value>
+    <comment>JS - review</comment>
+  </data>
+  <data name="ReplacementListDialog_Column_ReplaceBy" xml:space="preserve">
+    <value>With this</value>
+  </data>
+  <data name="ReplacementListDialog_Column_SearchFor" xml:space="preserve">
+    <value>Replace this</value>
+  </data>
+  <data name="ReplacementListDialog_showAllCheckBox" xml:space="preserve">
+    <value>Show default replacements</value>
+  </data>
+  <data name="ReplacementListDialog_showWhitespaceCharacterNamesCheckBox" xml:space="preserve">
+    <value>Show non-printable characters</value>
+  </data>
+  <data name="TemplateUseCase_ReferenceType_Standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="TemplateUseCase_ReferenceType_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="UnorderedListDialog_bulletRadioButton" xml:space="preserve">
+    <value> • (bullet)</value>
+  </data>
+  <data name="UnorderedListDialog_customRadioButton" xml:space="preserve">
+    <value>Custom: </value>
+  </data>
+  <data name="UnorderedListDialog_dashRadioButton" xml:space="preserve">
+    <value> – (en dash)</value>
+    <comment>- where's em dash?</comment>
+  </data>
+  <data name="UnorderedListDialog_divisRadioButton" xml:space="preserve">
+    <value>- (hyphen)</value>
+  </data>
+  <data name="UnorderedListDialog_segregatingTextLabel" xml:space="preserve">
+    <value>Space characters:</value>
+  </data>
+  <data name="BackOfficeCitationStyleElementsDialog_applyButton" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="BackOfficeCitationStyleElementsDialog_FormText_ComponentPart" xml:space="preserve">
+    <value>Components from the Citavi server</value>
+    <comment>JS - review</comment>
+  </data>
+  <data name="BackOfficeCitationStyleElementsDialog_FormText_CustomMacroCitationComparer" xml:space="preserve">
+    <value>Customized sortings from the Citavi server</value>
+    <comment>JS - review</comment>
+  </data>
+  <data name="BackOfficeCitationStyleElementsDialog_FormText_CustomTemplateCondition" xml:space="preserve">
+    <value>Customized template conditions from the Citavi server</value>
+    <comment>JS - review</comment>
+  </data>
+  <data name="BackofficeCitationStyleElementsDialog_cultureLabel" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="CitationStyleAnalysisDialog_FormText" xml:space="preserve">
+    <value>Citation Style Analysis</value>
+  </data>
+  <data name="CitationStyleAnalysisDialog_titleLabel" xml:space="preserve">
+    <value>Citation style analysis</value>
+  </data>
+  <data name="NumberingStyle_AbbreviateLastPage" xml:space="preserve">
+    <value>Abbreviate end page (e.g. 153–9)</value>
+  </data>
+  <data name="NumberingStyle_AbbreviateLastPageKeepingTwoDigits" xml:space="preserve">
+    <value>Abbreviate end page to at least 2 digits (e.g. 153–59)</value>
+  </data>
+  <data name="NumberingStyle_AbbreviateLastPageKeepingTwoDigits_DynamicExample" xml:space="preserve">
+    <value>Abbreviate end page to at least 2 digits (e.g. {0})</value>
+  </data>
+  <data name="NumberingStyle_AbbreviateLastPage_DynamicExample" xml:space="preserve">
+    <value>Abbreviate end page (e.g. {0})</value>
+  </data>
+  <data name="NumberingStyle_ChicagoManualOfStyle" xml:space="preserve">
+    <value>Chicago Manual of Style (e.g. 3–10; 100–117; 107–8; 121–25; 1421–1500)</value>
+  </data>
+  <data name="NumberingStyle_ChicagoManualOfStyle_DynamicExample" xml:space="preserve">
+    <value>Chicago Manual of Style (e.g. {0})</value>
+  </data>
+  <data name="NumberingStyle_FullRange" xml:space="preserve">
+    <value>Start and end pages (e.g. 153–159)</value>
+  </data>
+  <data name="NumberingStyle_FullRange_DynamicExample" xml:space="preserve">
+    <value>Start and end pages (e.g. {0})</value>
+  </data>
+  <data name="NumberingStyle_StartPageOnly" xml:space="preserve">
+    <value>Start page only (e.g. 153)</value>
+  </data>
+  <data name="NumberingStyle_StartPageOnly_DynamicExample" xml:space="preserve">
+    <value>Start page only (e.g. {0})</value>
+  </data>
+  <data name="BackOfficeCitationStyleElementsDialog_Title_ComponentPart" xml:space="preserve">
+    <value>Download components</value>
+  </data>
+  <data name="BackOfficeCitationStyleElementsDialog_Title_CustomMacroCitationComparer" xml:space="preserve">
+    <value>Download sortings</value>
+  </data>
+  <data name="BackOfficeCitationStyleElementsDialog_Title_CustomTemplateCondition" xml:space="preserve">
+    <value>Download template conditions</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_AuthorsEqualEditors" xml:space="preserve">
+    <value>Authors of reference are the same as its editors (or its parent's editors)</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_AuthorsEqualParentAuthors" xml:space="preserve">
+    <value>Authors of reference are the same as its parent's authors</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_AuthorsOrEditorsOrOrganizationsEqualPublishers" xml:space="preserve">
+    <value>"Author, editor, or organization" is the same as the publisher</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_ConsecutiveCitationBySameAuthor" xml:space="preserve">
+    <value>Consecutive citations (same author)</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_ConsecutiveCitationBySameAuthorEditor" xml:space="preserve">
+    <value>Consecutive citations (same {0})</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_ConsecutiveCitationBySameEditor" xml:space="preserve">
+    <value>Consecutive citations (same editor)</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_CustomField1NotEmpty" xml:space="preserve">
+    <value>"Custom field 1" contains data</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_CustomField2NotEmpty" xml:space="preserve">
+    <value>"Custom field 2" contains data</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_CustomField3NotEmpty" xml:space="preserve">
+    <value>"Custom field 3" contains data</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_CustomField4NotEmpty" xml:space="preserve">
+    <value>"Custom field 4" contains data</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_CustomField5NotEmpty" xml:space="preserve">
+    <value>"Custom field 5" contains data</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_CustomField6NotEmpty" xml:space="preserve">
+    <value>"Custom field 6" contains data</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_CustomField7NotEmpty" xml:space="preserve">
+    <value>"Custom field 7" contains data</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_CustomField8NotEmpty" xml:space="preserve">
+    <value>"Custom field 8" contains data</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_CustomField9NotEmpty" xml:space="preserve">
+    <value>"Custom field 9" contains data</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_EditionIsNumeric" xml:space="preserve">
+    <value>"{0}" is a numeric field</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_HasParentCitation" xml:space="preserve">
+    <value>Parent reference is also cited</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_HasSiblingCitation" xml:space="preserve">
+    <value>Additional child references in the same parent reference are also cited</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_InBibliographyContributionCitedBeforeParentReference" xml:space="preserve">
+    <value>Child reference was already cited in bibliography</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_InBibliographyParentReferenceCitedBeforeContribution" xml:space="preserve">
+    <value>Parent reference was already cited in bibliography</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_InBibliographyParentReferenceOrSiblingContributionCitedBeforeContribution" xml:space="preserve">
+    <value>Parent reference or another child reference was already cited in bibliography</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_InBibliographySiblingContributionCitedBeforeContribution" xml:space="preserve">
+    <value>An additional child reference was already cited in bibliography</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_InPrint" xml:space="preserve">
+    <value>Publication is in press</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_InPrintWithDOI" xml:space="preserve">
+    <value>Publication is in press, with DOI name</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_InPrintWithoutDOI" xml:space="preserve">
+    <value>Publication is in press, without DOI name</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_OneAuthorAndOneEditor" xml:space="preserve">
+    <value>Exactly one {0} and exactly one {1}</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_OriginalPublicationContainsData" xml:space="preserve">
+    <value>"Original publication" contains data</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_PlaceholderCitationEmptyQuotationPageRange" xml:space="preserve">
+    <value>Citation has no quotaton page range</value>
+    <comment>Neu C6: Nachweis ohne Zitatseiten</comment>
+  </data>
+  <data name="BuiltInTemplateConditionId_PlaceholderCitationFormatNoPar" xml:space="preserve">
+    <value>Citation has the option "No parentheses"</value>
+    <comment>Neu C6: Nachweis mit Option "Keine Klammern"</comment>
+  </data>
+  <data name="BuiltInTemplateConditionId_PlaceholderCitationFormatOption1" xml:space="preserve">
+    <value>Citation has option "1"</value>
+    <comment>Neu C6: Nachweis mit "Option 1"</comment>
+  </data>
+  <data name="BuiltInTemplateConditionId_PlaceholderCitationFormatOption2" xml:space="preserve">
+    <value>Citation has option "2"</value>
+    <comment>Neu C6: Nachweis mit "Option 2"</comment>
+  </data>
+  <data name="BuiltInTemplateConditionId_PlaceholderCitationFormatOption3" xml:space="preserve">
+    <value>Citation has option "3"</value>
+    <comment>Neu C6: Nachweis mit "Option 3"</comment>
+  </data>
+  <data name="BuiltInTemplateConditionId_PlaceholderCitationQuotationTypeComment" xml:space="preserve">
+    <value>Citation is for a comment</value>
+    <comment>Neu C6: Nachweis bei Kommentar</comment>
+  </data>
+  <data name="BuiltInTemplateConditionId_PlaceholderCitationQuotationTypeDirect" xml:space="preserve">
+    <value>Citation is for a direct quotation</value>
+    <comment>Neu C6: Nachweis bei direktem Zitat</comment>
+  </data>
+  <data name="BuiltInTemplateConditionId_PlaceholderCitationQuotationTypeIndirect" xml:space="preserve">
+    <value>Citation is for an indirect quotation</value>
+    <comment>Neu C6: Nachweis bei indirektem Zitat</comment>
+  </data>
+  <data name="BuiltInTemplateConditionId_PlaceholderCitationQuotationTypeNone" xml:space="preserve">
+    <value>Citation is for a reference only, not a knowledge item</value>
+    <comment>Neu C6: Nachweis bei Titel, nicht Wissenselement</comment>
+  </data>
+  <data name="BuiltInTemplateConditionId_PlaceholderCitationQuotationTypeNotDirect" xml:space="preserve">
+    <value>Citation is not for a direct quotation</value>
+    <comment>Neu C6: Nachweis nicht bei direktem Zitat</comment>
+  </data>
+  <data name="BuiltInTemplateConditionId_PlaceholderCitationQuotationTypeSummary" xml:space="preserve">
+    <value>Citation is for a summary</value>
+    <comment>Neu C6: Nachweis bei Zusammenfassung</comment>
+  </data>
+  <data name="BuiltInTemplateConditionId_ReferenceLanguageIsEnglish" xml:space="preserve">
+    <value>Reference language is English</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_ReferenceLanguageIsFrench" xml:space="preserve">
+    <value>Reference language is French</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_ReferenceLanguageIsGerman" xml:space="preserve">
+    <value>Reference language is German</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_ReferenceLanguageIsItalian" xml:space="preserve">
+    <value>Reference language is Italian</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_ReferenceLanguageIsPolish" xml:space="preserve">
+    <value>Reference language is Polish</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_ReferenceLanguageIsPortuguese" xml:space="preserve">
+    <value>Reference language is Portuguese</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_ReferenceLanguageIsSpanish" xml:space="preserve">
+    <value>Reference language is Spanish</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_RepeatingFootnote" xml:space="preserve">
+    <value>Reference was cited in a previous footnote</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_RepeatingFootnoteNonConsecutive" xml:space="preserve">
+    <value>Reference was cited in a previous footnote (but not in the preceding footnote)</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_RepeatingFootnoteParentOrOtherContribution" xml:space="preserve">
+    <value>Parent reference or other contribution therein was cited in a previous footnote</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_RepeatingFootnoteParentReference" xml:space="preserve">
+    <value>Parent reference was cited in a previous footnote</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_RepeatingInTextCitation" xml:space="preserve">
+    <value>Reference was cited in a previous in-text citation</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_RepeatingInTextCitationParentOrOtherContribution" xml:space="preserve">
+    <value>Parent reference or other contribution therein was cited in a previous in-text citation</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_RepeatingInTextCitationParentReference" xml:space="preserve">
+    <value>Parent reference was cited in a previous in-text citation</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_SameAuthorsAsPrevious" xml:space="preserve">
+    <value>Consecutive citation (same author)</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_SameAuthorsOrEditorsOrOrganizationsAsPrevious" xml:space="preserve">
+    <value>Consecutive citation (same author/editor/organization)</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_SameEditorsAsPrevious" xml:space="preserve">
+    <value>Consecutive citation (same editor)</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_SameReferenceAndSamePageAsPrevious" xml:space="preserve">
+    <value>Consecutive citation (same page of same reference)</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_SameReferenceAsPrevious" xml:space="preserve">
+    <value>Consecutive citation (same reference)</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_SpecificField1NotEmpty" xml:space="preserve">
+    <value>"{0}" contains data</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_CurrentReferenceIsNotPartOfMultipleCitation" xml:space="preserve">
+    <value>Reference ist NOT part of a multiple citation</value>
+    <comment>JS - do we need current? Should it be "selected" instead?</comment>
+  </data>
+  <data name="BuiltInTemplateConditionId_CurrentReferenceIsPartOfMultipleCitationAtFirstPlace" xml:space="preserve">
+    <value>Reference is part of a multiple citation, at beginning</value>
+    <comment>JS - review in context</comment>
+  </data>
+  <data name="BuiltInTemplateConditionId_CurrentReferenceIsPartOfMultipleCitationAtLastPlace" xml:space="preserve">
+    <value>Reference is part of a multiple citation, at end</value>
+    <comment>JS - review in context</comment>
+  </data>
+  <data name="BuiltInTemplateConditionId_CurrentReferenceIsPartOfMultipleCitationAtSecondPlaceOrFollowing" xml:space="preserve">
+    <value>Reference is part of a multiple citation, in second or later position</value>
+    <comment>JS - review in context</comment>
+  </data>
+  <data name="BuiltInTemplateConditionId_InFootnotePreviousAndCurrentAreInConsecutiveFootnotes" xml:space="preserve">
+    <value>Previous reference is in previous footnote</value>
+    <comment>JS - do we need "unmittelbar"?</comment>
+  </data>
+  <data name="BuiltInTemplateConditionId_InFootnotePreviousIsInFootnoteOfItsOwn" xml:space="preserve">
+    <value>Previous reference is in a footnote by itself</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_InFootnotePreviousIsInOtherFootnoteOnlySeparatedByReferenceFreeFootnotes" xml:space="preserve">
+    <value>Previous reference is in a previous footnote (but other footnotes without references may appear between these footnotes)</value>
+    <comment>JS - review</comment>
+  </data>
+  <data name="BuiltInTemplateConditionId_InFootnotePreviousIsInSameFootnote" xml:space="preserve">
+    <value>Previous reference is in the same footnote</value>
+    <comment>JS - review</comment>
+  </data>
+  <data name="BuiltInTemplateConditionId_PreviousReferenceIsNotPartOfMultipleCitation" xml:space="preserve">
+    <value>Previous reference is NOT part of a multiple citation</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_PreviousReferenceIsPartOfMultipleCitationAtFirstPlace" xml:space="preserve">
+    <value>Previous reference is part of a multiple citation, at beginning</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_PreviousReferenceIsPartOfMultipleCitationAtLastPlace" xml:space="preserve">
+    <value>Previous reference is part of a multiple citation, at end</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_PreviousReferenceIsPartOfMultipleCitationAtSecondPlaceOrFollowing" xml:space="preserve">
+    <value>Previous reference is part of a multiple citation, in second or later position</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_PreviousReferenceIsPartOfSameMultipleCitationAsCurrent" xml:space="preserve">
+    <value>Previous reference is in the same multiple citation as the current reference.</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_SamePageInPublicationAsPrevious" xml:space="preserve">
+    <value>Same page in publication as previous</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_SameParagraphInPublicationAsPrevious" xml:space="preserve">
+    <value>Same paragraph in publication as previous</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_OtherWorksBySameAuthorsOrEditorsOrOrganizationsAlsoCited" xml:space="preserve">
+    <value>Other works by the same authors, editors or organizations are also cited</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_OtherWorksBySameAuthorsOrEditorsOrOrganizationsAndSameYearAlsoCited" xml:space="preserve">
+    <value>Other works by the same authors, editors or organizations from the same year are also cited</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_organizationTextAfterAbbreviationApplyConditionLabel" xml:space="preserve">
+    <value>Apply text after abbrev. when:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_organizationTextAfterNameApplyConditionLabel" xml:space="preserve">
+    <value>Apply text after name when:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_organizationTextBeforeAbbreviationApplyConditionLabel" xml:space="preserve">
+    <value>Apply text before abbrev. when:</value>
+  </data>
+  <data name="PersonFieldElementPropertyEditorControl_organizationTextBeforeNameApplyConditionLabel" xml:space="preserve">
+    <value>Apply text before name when:</value>
+  </data>
+  <data name="TextBeforeAfterApplyCondition_AllAttributesHaveData_AbbreviationAndName" xml:space="preserve">
+    <value>Both Abbreviation and Name contain data</value>
+  </data>
+  <data name="TextBeforeAfterApplyCondition_AllAttributesHaveData_NameAndAbbbreviation" xml:space="preserve">
+    <value>Both Name and Abbreviation contain data</value>
+  </data>
+  <data name="TextBeforeAfterApplyCondition_AttributeHasData_Abbreviation" xml:space="preserve">
+    <value>Abbreviation contains data</value>
+  </data>
+  <data name="TextBeforeAfterApplyCondition_AttributeHasData_Name" xml:space="preserve">
+    <value>Name contains data</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_CurrentReferenceIsNotPartOfCaption" xml:space="preserve">
+    <value>Reference is not part of an image or table caption</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_CurrentReferenceIsPartOfCaption" xml:space="preserve">
+    <value>Reference is part of an image or table caption</value>
+  </data>
+  <data name="CitationStyleSettingsDialog_autoDotAfterReferencesAtEndOfFootnotesCheckBox" xml:space="preserve">
+    <value>Insert period if reference is at end of footnote</value>
+    <comment>JHP to JS, pls. i8n: Automatische Ausgabe eines Punktes bei Nachweisen am Ende von Fußnoten</comment>
+  </data>
+  <data name="BuiltInTemplateConditionId_PeriodicalPaginationIsAnnually" xml:space="preserve">
+    <value>Pagination by volume</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_PeriodicalPaginationIsInFascicles" xml:space="preserve">
+    <value>Pagination by issue</value>
+  </data>
+  <data name="LiteralElementPropertyEditorControl_textPreviewLabel" xml:space="preserve">
+    <value>Preview:</value>
+  </data>
+  <data name="ImportantHint_AbstractEvaluationTOCNotInWAI" xml:space="preserve">
+    <value>&lt;span style="font-weight:bold;"&gt;Important:&lt;/span&gt; The fields "Abstract", "Table of contents", and "Evaluation" can contain large amounts of text, which would slow down the Word Add-In a great deal. For this reason, they can only be used in a project bibliography ("File" &gt; "Print or save project bibliography"). &lt;a href="https://www.citavi.com/c6prg/special_components"&gt;Learn more&lt;/a&gt;.&lt;br/&gt;</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_PlaceholderCitationFormatPersonOnly" xml:space="preserve">
+    <value>Citation has option "Person only"</value>
+  </data>
+  <data name="BuiltInTemplateConditionId_PlaceholderCitationFormatYearOnly" xml:space="preserve">
+    <value>Citation has format option "Year only"</value>
+  </data>
+</root>

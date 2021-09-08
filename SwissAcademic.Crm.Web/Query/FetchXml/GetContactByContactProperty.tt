@@ -1,0 +1,14 @@
+﻿<fetch distinct="false" useraworderby="false" no-lock="true" mapping="logical">
+	<entity name="contact">
+
+		<# foreach(Enum item in EntityPropertySets.GetFullPropertySet(typeof(Contact)))
+          {#>
+                    <attribute name="<#Write(EntityNameResolver.ResolveAttributeName(CrmEntityNames.Contact, item.ToString()));#>" />
+                      <#}
+         #>
+		<filter type="and">
+			<condition attribute="statuscode" operator="eq" value="1" />
+			<condition attribute="<#Write(Attribute);#>" operator="eq" value="<#Write(Value);#>" />
+		</filter>
+	</entity>
+</fetch>
