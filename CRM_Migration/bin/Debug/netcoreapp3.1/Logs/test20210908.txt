@@ -1055,3 +1055,1545 @@
     "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Another object with the same value for property userPrincipalName already exists.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T02:36:46\r\n\trequest-id: 3109c34a-5161-437f-b5e5-8bbcb9045cf9\r\n\tclient-request-id: 3109c34a-5161-437f-b5e5-8bbcb9045cf9\r\nClientRequestId: 3109c34a-5161-437f-b5e5-8bbcb9045cf9\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUser(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 101"
   }
 ]
+2021-09-08 15:42:59.946 +07:00 [ERR] [
+  {
+    "Linked": null,
+    "Provider": "facebook.com",
+    "Email": "107908306762932",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "107908306762932",
+      "IdentityProviderId": "facebook.com"
+    },
+    "Key": null,
+    "FirstName": null,
+    "LastName": null,
+    "Language": "en",
+    "ErrorMessage": "CRM_Migration.Utils.ContactNotFoundException: No Contact found\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 110\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": "facebook.com",
+    "Email": "107908306762932",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "107908306762932",
+      "IdentityProviderId": "facebook.com"
+    },
+    "Key": null,
+    "FirstName": null,
+    "LastName": null,
+    "Language": "en",
+    "ErrorMessage": "CRM_Migration.Utils.ContactNotFoundException: No Contact found\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 110\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "hoang@yopmail.com",
+    "Provider": null,
+    "Email": "hoang@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2f35e5c5f320e2099ba0f",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T08:44:22\r\n\trequest-id: 324e24ba-bde5-47c2-bab5-97fc24e6ed94\r\n\tclient-request-id: 324e24ba-bde5-47c2-bab5-97fc24e6ed94\r\nClientRequestId: 324e24ba-bde5-47c2-bab5-97fc24e6ed94\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "sfsf@yopmail.com",
+    "Provider": null,
+    "Email": "sfsf@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2ef20ef72150c69a6ac7e",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T08:44:22\r\n\trequest-id: aa00b00e-6a52-46fc-ba07-da13a77ab7ff\r\n\tclient-request-id: aa00b00e-6a52-46fc-ba07-da13a77ab7ff\r\nClientRequestId: aa00b00e-6a52-46fc-ba07-da13a77ab7ff\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": null,
+    "Email": "sbxq26@yopmail.com",
+    "IsVerified": true,
+    "LinkedEmailAccount": "sbxq26@yopmail.com",
+    "LinkedAccount": null,
+    "Key": "g2v5bx1tty8ouiantzbwol2n6v07rgjsss4hace",
+    "FirstName": "sbxq26",
+    "LastName": "Lagman",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Another object with the same value for property userPrincipalName already exists.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T08:44:22\r\n\trequest-id: 49957c73-e477-455c-a1e2-377624da26f7\r\n\tclient-request-id: 49957c73-e477-455c-a1e2-377624da26f7\r\nClientRequestId: 49957c73-e477-455c-a1e2-377624da26f7\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": null,
+    "Email": "schaefferfabian97@gmail.com",
+    "IsVerified": true,
+    "LinkedEmailAccount": "schaefferfabian97@gmail.com",
+    "LinkedAccount": null,
+    "Key": "vp0l58uoo45eisp3y0ap4q5v7t46h4k2hy9oc19qs",
+    "FirstName": "Fabian",
+    "LastName": "Schäffer",
+    "Language": "de",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Another object with the same value for property userPrincipalName already exists.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T08:44:22\r\n\trequest-id: 74ff4298-f289-42fb-b04a-9b99ab8b35af\r\n\tclient-request-id: 74ff4298-f289-42fb-b04a-9b99ab8b35af\r\nClientRequestId: 74ff4298-f289-42fb-b04a-9b99ab8b35af\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "nguyenvanhoang@yopmail.com",
+    "Provider": null,
+    "Email": "nguyenvanhoang@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2e08c5c5f320e2099aa8d",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T08:44:22\r\n\trequest-id: abed97df-6b8b-4a37-8bba-f450ca0153af\r\n\tclient-request-id: abed97df-6b8b-4a37-8bba-f450ca0153af\r\nClientRequestId: abed97df-6b8b-4a37-8bba-f450ca0153af\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "hoangvannguyen@kms-technology.com",
+    "Provider": null,
+    "Email": "hoangvannguyen@kms-technology.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2df7e5c5f320e2099a9c5",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T08:44:22\r\n\trequest-id: 80dfde7e-7b2c-4b6f-8299-8b807e558cf4\r\n\tclient-request-id: 80dfde7e-7b2c-4b6f-8299-8b807e558cf4\r\nClientRequestId: 80dfde7e-7b2c-4b6f-8299-8b807e558cf4\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "uluru.dev@qsrinternational.com",
+    "Provider": null,
+    "Email": "uluru.dev@qsrinternational.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5a94a818457ecb679c5e294d",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T08:44:22\r\n\trequest-id: 484772aa-c0e4-421b-869a-c1a8fd8287c4\r\n\tclient-request-id: 484772aa-c0e4-421b-869a-c1a8fd8287c4\r\nClientRequestId: 484772aa-c0e4-421b-869a-c1a8fd8287c4\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": "google.com",
+    "Email": "petrone.michele@gmail.com",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "104821645516004035718",
+      "IdentityProviderId": "google.com"
+    },
+    "Key": "whtvjt2h5xp2f1662jlu82lfxcpo0za2j1w1l76ur32o620ae",
+    "FirstName": "Michele",
+    "LastName": "Petrone",
+    "Language": "it",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: A conflicting object with one or more of the specified property values is present in the directory.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T08:44:22\r\n\trequest-id: 920bc438-64cf-4601-8aad-4ce3d480ce62\r\n\tclient-request-id: 920bc438-64cf-4601-8aad-4ce3d480ce62\r\nClientRequestId: 920bc438-64cf-4601-8aad-4ce3d480ce62\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": null,
+    "Email": "sbxq25@yopmail.com",
+    "IsVerified": true,
+    "LinkedEmailAccount": "sbxq25@yopmail.com",
+    "LinkedAccount": null,
+    "Key": "nsw4o3p1jpdgpr97eh262vg15e13ecjrmsedsac1bi40dmly",
+    "FirstName": "sbxq25",
+    "LastName": "Lagman",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Another object with the same value for property userPrincipalName already exists.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T08:44:22\r\n\trequest-id: 359f4de8-159b-4b32-b5cd-7b00e6deb788\r\n\tclient-request-id: 359f4de8-159b-4b32-b5cd-7b00e6deb788\r\nClientRequestId: 359f4de8-159b-4b32-b5cd-7b00e6deb788\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": null,
+    "Email": "138_zxc@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": "138_zxc@yopmail.com",
+    "LinkedAccount": null,
+    "Key": "ykumx0aca9vwjahvgpodxy6kugp04y9qg3o38g9t",
+    "FirstName": "138",
+    "LastName": "zxc",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Another object with the same value for property userPrincipalName already exists.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T08:44:23\r\n\trequest-id: 983765c8-53d7-4631-917c-ecf1d0323cfe\r\n\tclient-request-id: 983765c8-53d7-4631-917c-ecf1d0323cfe\r\nClientRequestId: 983765c8-53d7-4631-917c-ecf1d0323cfe\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": "google.com",
+    "Email": "shollands1@sheffield.ac.uk",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "116339668985305467363",
+      "IdentityProviderId": "google.com"
+    },
+    "Key": "ilbxma4ibtiuvy5xyt8se37e1aj5yhiqpt1pi",
+    "FirstName": "Samuel",
+    "LastName": "Hollands",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: A conflicting object with one or more of the specified property values is present in the directory.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T08:44:23\r\n\trequest-id: f64e10bf-c827-47a9-b51e-1817549a883f\r\n\tclient-request-id: f64e10bf-c827-47a9-b51e-1817549a883f\r\nClientRequestId: f64e10bf-c827-47a9-b51e-1817549a883f\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": null,
+    "Email": "sbxsf02@yopmail.com",
+    "IsVerified": true,
+    "LinkedEmailAccount": "sbxsf02@yopmail.com",
+    "LinkedAccount": null,
+    "Key": "chnf2of6h8pyvarm473tgkpxm42srdct8hc4046c",
+    "FirstName": "sbxsf02",
+    "LastName": "Lagman",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Another object with the same value for property userPrincipalName already exists.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T08:44:22\r\n\trequest-id: c2d62a3f-d135-4975-a5a6-6e678c435995\r\n\tclient-request-id: c2d62a3f-d135-4975-a5a6-6e678c435995\r\nClientRequestId: c2d62a3f-d135-4975-a5a6-6e678c435995\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": "https://aai-demo-idp.switch.ch/idp/shibboleth",
+    "Email": "mirko.lugano+test46@gmail.com",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "9bZfNA9lyifVmHMFx7OcqCiYkGY=",
+      "IdentityProviderId": "https://aai-demo-idp.switch.ch/idp/shibboleth"
+    },
+    "Key": "mx1t5nd1iqkquco4cf2jekosasgdyj7uo0rk3zkom0alpha",
+    "FirstName": "m",
+    "LastName": "l",
+    "Language": "de",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: A conflicting object with one or more of the specified property values is present in the directory.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T08:44:22\r\n\trequest-id: 902f1d7b-95ed-4ef4-9663-a9b2b619536f\r\n\tclient-request-id: 902f1d7b-95ed-4ef4-9663-a9b2b619536f\r\nClientRequestId: 902f1d7b-95ed-4ef4-9663-a9b2b619536f\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": null,
+    "Email": "sbxindia01@yopmail.com",
+    "IsVerified": true,
+    "LinkedEmailAccount": "sbxindia01@yopmail.com",
+    "LinkedAccount": null,
+    "Key": "pwtp5itlks0wdrfbjmlqzts3axuuhqyftill3ci1",
+    "FirstName": "sbxindia01",
+    "LastName": "Lagman",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Another object with the same value for property userPrincipalName already exists.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T08:44:22\r\n\trequest-id: c392ebdd-8ad9-4714-b235-c1fe5da14151\r\n\tclient-request-id: c392ebdd-8ad9-4714-b235-c1fe5da14151\r\nClientRequestId: c392ebdd-8ad9-4714-b235-c1fe5da14151\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": "https://aai-demo-idp.switch.ch/idp/shibboleth",
+    "Email": "pfmeurer+shibboleth1@gmail.com",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "9bZfNA9lyifVmHMFx7OcqCiYkGY=",
+      "IdentityProviderId": "https://aai-demo-idp.switch.ch/idp/shibboleth"
+    },
+    "Key": "alphab2bs1x57xnvu2wh8l122dfmo3frsyg3eqb4lrsd8iz",
+    "FirstName": "Peter",
+    "LastName": "Meurer",
+    "Language": "de",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: A conflicting object with one or more of the specified property values is present in the directory.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T08:44:23\r\n\trequest-id: d4e674b6-5bec-4cf6-b0f6-32b32248efce\r\n\tclient-request-id: d4e674b6-5bec-4cf6-b0f6-32b32248efce\r\nClientRequestId: d4e674b6-5bec-4cf6-b0f6-32b32248efce\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": null,
+    "Email": "138_zxc@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": "138_zxc@yopmail.com",
+    "LinkedAccount": null,
+    "Key": "m0hrkiiacv15x020wk2j2j1s2ce3624ke3utqg4fp4umbtjuf",
+    "FirstName": "138",
+    "LastName": "zxc",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Another object with the same value for property userPrincipalName already exists.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T08:44:23\r\n\trequest-id: 002706ed-ba29-4a01-845f-ef3759509574\r\n\tclient-request-id: 002706ed-ba29-4a01-845f-ef3759509574\r\nClientRequestId: 002706ed-ba29-4a01-845f-ef3759509574\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  }
+]
+2021-09-08 16:04:42.641 +07:00 [ERR] [
+  {
+    "Linked": null,
+    "Provider": "facebook.com",
+    "Email": "107908306762932",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "107908306762932",
+      "IdentityProviderId": "facebook.com"
+    },
+    "Key": null,
+    "FirstName": null,
+    "LastName": null,
+    "Language": "en",
+    "ErrorMessage": "CRM_Migration.Utils.ContactNotFoundException: No Contact found\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 110\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": "facebook.com",
+    "Email": "107908306762932",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "107908306762932",
+      "IdentityProviderId": "facebook.com"
+    },
+    "Key": null,
+    "FirstName": null,
+    "LastName": null,
+    "Language": "en",
+    "ErrorMessage": "CRM_Migration.Utils.ContactNotFoundException: No Contact found\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 110\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "uluru.dev@qsrinternational.com",
+    "Provider": null,
+    "Email": "uluru.dev@qsrinternational.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5a94a818457ecb679c5e294d",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T09:05:56\r\n\trequest-id: af6e9b80-f98c-4d5f-b886-3a23c8e51f90\r\n\tclient-request-id: af6e9b80-f98c-4d5f-b886-3a23c8e51f90\r\nClientRequestId: af6e9b80-f98c-4d5f-b886-3a23c8e51f90\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "hoangvannguyen@kms-technology.com",
+    "Provider": null,
+    "Email": "hoangvannguyen@kms-technology.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2df7e5c5f320e2099a9c5",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T09:05:56\r\n\trequest-id: c223301d-c9b3-4005-b911-ee19cff325b1\r\n\tclient-request-id: c223301d-c9b3-4005-b911-ee19cff325b1\r\nClientRequestId: c223301d-c9b3-4005-b911-ee19cff325b1\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "nguyenvanhoang@yopmail.com",
+    "Provider": null,
+    "Email": "nguyenvanhoang@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2e08c5c5f320e2099aa8d",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T09:05:56\r\n\trequest-id: 3dd06358-4f0e-40da-8f6d-54c66f19e947\r\n\tclient-request-id: 3dd06358-4f0e-40da-8f6d-54c66f19e947\r\nClientRequestId: 3dd06358-4f0e-40da-8f6d-54c66f19e947\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "sfsf@yopmail.com",
+    "Provider": null,
+    "Email": "sfsf@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2ef20ef72150c69a6ac7e",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T09:05:56\r\n\trequest-id: c89e3a3e-91b8-4e14-a574-fd82c399c94b\r\n\tclient-request-id: c89e3a3e-91b8-4e14-a574-fd82c399c94b\r\nClientRequestId: c89e3a3e-91b8-4e14-a574-fd82c399c94b\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "hoang@yopmail.com",
+    "Provider": null,
+    "Email": "hoang@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2f35e5c5f320e2099ba0f",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T09:05:56\r\n\trequest-id: 9ba0b8cf-813c-4766-84d8-d5c130a3a8e2\r\n\tclient-request-id: 9ba0b8cf-813c-4766-84d8-d5c130a3a8e2\r\nClientRequestId: 9ba0b8cf-813c-4766-84d8-d5c130a3a8e2\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": null,
+    "Email": "138_zxc@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": "138_zxc@yopmail.com",
+    "LinkedAccount": null,
+    "Key": "ykumx0aca9vwjahvgpodxy6kugp04y9qg3o38g9t",
+    "FirstName": "138",
+    "LastName": "zxc",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Another object with the same value for property userPrincipalName already exists.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T09:05:56\r\n\trequest-id: 910ca59d-b57b-418b-b6b7-647089b1f36f\r\n\tclient-request-id: 910ca59d-b57b-418b-b6b7-647089b1f36f\r\nClientRequestId: 910ca59d-b57b-418b-b6b7-647089b1f36f\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": "https://aai-demo-idp.switch.ch/idp/shibboleth",
+    "Email": "pfmeurer+shibboleth1@gmail.com",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "9bZfNA9lyifVmHMFx7OcqCiYkGY=",
+      "IdentityProviderId": "https://aai-demo-idp.switch.ch/idp/shibboleth"
+    },
+    "Key": "alphab2bs1x57xnvu2wh8l122dfmo3frsyg3eqb4lrsd8iz",
+    "FirstName": "Peter",
+    "LastName": "Meurer",
+    "Language": "de",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: A conflicting object with one or more of the specified property values is present in the directory.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T09:05:56\r\n\trequest-id: 9e876ac0-94de-4c8d-b0b1-c23c4218a8d2\r\n\tclient-request-id: 9e876ac0-94de-4c8d-b0b1-c23c4218a8d2\r\nClientRequestId: 9e876ac0-94de-4c8d-b0b1-c23c4218a8d2\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  }
+]
+2021-09-08 16:38:33.200 +07:00 [ERR] [
+  {
+    "Linked": null,
+    "Provider": "facebook.com",
+    "Email": "107908306762932",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "107908306762932",
+      "IdentityProviderId": "facebook.com"
+    },
+    "Key": null,
+    "FirstName": null,
+    "LastName": null,
+    "Language": "en",
+    "ErrorMessage": "CRM_Migration.Utils.ContactNotFoundException: No Contact found\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 110\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": "facebook.com",
+    "Email": "107908306762932",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "107908306762932",
+      "IdentityProviderId": "facebook.com"
+    },
+    "Key": null,
+    "FirstName": null,
+    "LastName": null,
+    "Language": "en",
+    "ErrorMessage": "CRM_Migration.Utils.ContactNotFoundException: No Contact found\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 110\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "hoang@yopmail.com",
+    "Provider": null,
+    "Email": "hoang@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2f35e5c5f320e2099ba0f",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T09:39:54\r\n\trequest-id: a154abd8-8d10-40e2-b062-eafd9b20e96f\r\n\tclient-request-id: a154abd8-8d10-40e2-b062-eafd9b20e96f\r\nClientRequestId: a154abd8-8d10-40e2-b062-eafd9b20e96f\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "sfsf@yopmail.com",
+    "Provider": null,
+    "Email": "sfsf@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2ef20ef72150c69a6ac7e",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T09:39:54\r\n\trequest-id: 647eccd7-11a1-4692-bb48-e352cee16022\r\n\tclient-request-id: 647eccd7-11a1-4692-bb48-e352cee16022\r\nClientRequestId: 647eccd7-11a1-4692-bb48-e352cee16022\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "uluru.dev@qsrinternational.com",
+    "Provider": null,
+    "Email": "uluru.dev@qsrinternational.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5a94a818457ecb679c5e294d",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T09:39:54\r\n\trequest-id: 5e19f90b-c0cd-4f0f-8312-9071a2701f1d\r\n\tclient-request-id: 5e19f90b-c0cd-4f0f-8312-9071a2701f1d\r\nClientRequestId: 5e19f90b-c0cd-4f0f-8312-9071a2701f1d\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "hoangvannguyen@kms-technology.com",
+    "Provider": null,
+    "Email": "hoangvannguyen@kms-technology.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2df7e5c5f320e2099a9c5",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T09:39:54\r\n\trequest-id: a60e778e-f8a2-40f5-ad56-dd997bcf4f65\r\n\tclient-request-id: a60e778e-f8a2-40f5-ad56-dd997bcf4f65\r\nClientRequestId: a60e778e-f8a2-40f5-ad56-dd997bcf4f65\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "nguyenvanhoang@yopmail.com",
+    "Provider": null,
+    "Email": "nguyenvanhoang@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2e08c5c5f320e2099aa8d",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T09:39:55\r\n\trequest-id: 0503f508-1bba-4a43-8afa-fdb0e330abbe\r\n\tclient-request-id: 0503f508-1bba-4a43-8afa-fdb0e330abbe\r\nClientRequestId: 0503f508-1bba-4a43-8afa-fdb0e330abbe\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": "https://aai-demo-idp.switch.ch/idp/shibboleth",
+    "Email": "mirko.lugano+test46@gmail.com",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "9bZfNA9lyifVmHMFx7OcqCiYkGY=",
+      "IdentityProviderId": "https://aai-demo-idp.switch.ch/idp/shibboleth"
+    },
+    "Key": "mx1t5nd1iqkquco4cf2jekosasgdyj7uo0rk3zkom0alpha",
+    "FirstName": "m",
+    "LastName": "l",
+    "Language": "de",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: A conflicting object with one or more of the specified property values is present in the directory.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T09:39:55\r\n\trequest-id: feeccfad-212e-4d46-a72b-b6ab6066e3eb\r\n\tclient-request-id: feeccfad-212e-4d46-a72b-b6ab6066e3eb\r\nClientRequestId: feeccfad-212e-4d46-a72b-b6ab6066e3eb\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": null,
+    "Email": "138_zxc@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": "138_zxc@yopmail.com",
+    "LinkedAccount": null,
+    "Key": "m0hrkiiacv15x020wk2j2j1s2ce3624ke3utqg4fp4umbtjuf",
+    "FirstName": "138",
+    "LastName": "zxc",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Another object with the same value for property userPrincipalName already exists.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T09:39:55\r\n\trequest-id: eaabc554-ee94-4229-a6b7-14d1bc0b20bc\r\n\tclient-request-id: eaabc554-ee94-4229-a6b7-14d1bc0b20bc\r\nClientRequestId: eaabc554-ee94-4229-a6b7-14d1bc0b20bc\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  }
+]
+2021-09-08 17:01:04.126 +07:00 [ERR] [
+  {
+    "Linked": null,
+    "Provider": "facebook.com",
+    "Email": "107908306762932",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "107908306762932",
+      "IdentityProviderId": "facebook.com"
+    },
+    "Key": null,
+    "FirstName": null,
+    "LastName": null,
+    "Language": "en",
+    "ErrorMessage": "CRM_Migration.Utils.ContactNotFoundException: No Contact found\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 110\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": "facebook.com",
+    "Email": "107908306762932",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "107908306762932",
+      "IdentityProviderId": "facebook.com"
+    },
+    "Key": null,
+    "FirstName": null,
+    "LastName": null,
+    "Language": "en",
+    "ErrorMessage": "CRM_Migration.Utils.ContactNotFoundException: No Contact found\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 110\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "sfsf@yopmail.com",
+    "Provider": null,
+    "Email": "sfsf@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2ef20ef72150c69a6ac7e",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:02:11\r\n\trequest-id: 4b39f556-1d06-4570-88cd-32ac20065846\r\n\tclient-request-id: 4b39f556-1d06-4570-88cd-32ac20065846\r\nClientRequestId: 4b39f556-1d06-4570-88cd-32ac20065846\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "uluru.dev@qsrinternational.com",
+    "Provider": null,
+    "Email": "uluru.dev@qsrinternational.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5a94a818457ecb679c5e294d",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:02:11\r\n\trequest-id: cc0501af-7e93-4424-8131-e3812f5e698e\r\n\tclient-request-id: cc0501af-7e93-4424-8131-e3812f5e698e\r\nClientRequestId: cc0501af-7e93-4424-8131-e3812f5e698e\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "nguyenvanhoang@yopmail.com",
+    "Provider": null,
+    "Email": "nguyenvanhoang@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2e08c5c5f320e2099aa8d",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:02:11\r\n\trequest-id: 9faac59b-4d9c-48ab-aabc-7465563dbd10\r\n\tclient-request-id: 9faac59b-4d9c-48ab-aabc-7465563dbd10\r\nClientRequestId: 9faac59b-4d9c-48ab-aabc-7465563dbd10\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "hoangvannguyen@kms-technology.com",
+    "Provider": null,
+    "Email": "hoangvannguyen@kms-technology.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2df7e5c5f320e2099a9c5",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:02:11\r\n\trequest-id: 81fb1d93-b229-4d76-b9dd-f2554219bdae\r\n\tclient-request-id: 81fb1d93-b229-4d76-b9dd-f2554219bdae\r\nClientRequestId: 81fb1d93-b229-4d76-b9dd-f2554219bdae\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "hoang@yopmail.com",
+    "Provider": null,
+    "Email": "hoang@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2f35e5c5f320e2099ba0f",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:02:11\r\n\trequest-id: 064b7010-0eef-4c65-bd3d-389a8d11bb4c\r\n\tclient-request-id: 064b7010-0eef-4c65-bd3d-389a8d11bb4c\r\nClientRequestId: 064b7010-0eef-4c65-bd3d-389a8d11bb4c\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": null,
+    "Email": "138_zxc@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": "138_zxc@yopmail.com",
+    "LinkedAccount": null,
+    "Key": "m0hrkiiacv15x020wk2j2j1s2ce3624ke3utqg4fp4umbtjuf",
+    "FirstName": "138",
+    "LastName": "zxc",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Another object with the same value for property userPrincipalName already exists.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:02:12\r\n\trequest-id: ff9ca2aa-43cc-4241-9c00-f09c0ac532c8\r\n\tclient-request-id: ff9ca2aa-43cc-4241-9c00-f09c0ac532c8\r\nClientRequestId: ff9ca2aa-43cc-4241-9c00-f09c0ac532c8\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": "https://aai-demo-idp.switch.ch/idp/shibboleth",
+    "Email": "pfmeurer+shibboleth1@gmail.com",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "9bZfNA9lyifVmHMFx7OcqCiYkGY=",
+      "IdentityProviderId": "https://aai-demo-idp.switch.ch/idp/shibboleth"
+    },
+    "Key": "alphab2bs1x57xnvu2wh8l122dfmo3frsyg3eqb4lrsd8iz",
+    "FirstName": "Peter",
+    "LastName": "Meurer",
+    "Language": "de",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: A conflicting object with one or more of the specified property values is present in the directory.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:02:12\r\n\trequest-id: daba92ce-b780-4567-b538-660222878bdc\r\n\tclient-request-id: daba92ce-b780-4567-b538-660222878bdc\r\nClientRequestId: daba92ce-b780-4567-b538-660222878bdc\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  }
+]
+2021-09-08 17:05:53.124 +07:00 [ERR] [
+  {
+    "Linked": null,
+    "Provider": "facebook.com",
+    "Email": "107908306762932",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "107908306762932",
+      "IdentityProviderId": "facebook.com"
+    },
+    "Key": null,
+    "FirstName": null,
+    "LastName": null,
+    "Language": "en",
+    "ErrorMessage": "CRM_Migration.Utils.ContactNotFoundException: No Contact found\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 110\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": "facebook.com",
+    "Email": "107908306762932",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "107908306762932",
+      "IdentityProviderId": "facebook.com"
+    },
+    "Key": null,
+    "FirstName": null,
+    "LastName": null,
+    "Language": "en",
+    "ErrorMessage": "CRM_Migration.Utils.ContactNotFoundException: No Contact found\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 110\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": null,
+    "Email": "138_zxc@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": "138_zxc@yopmail.com",
+    "LinkedAccount": null,
+    "Key": "m0hrkiiacv15x020wk2j2j1s2ce3624ke3utqg4fp4umbtjuf",
+    "FirstName": "138",
+    "LastName": "zxc",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Another object with the same value for property userPrincipalName already exists.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:07:11\r\n\trequest-id: 0d7fffb4-4cf1-4617-b182-c4b78a41bebf\r\n\tclient-request-id: 0d7fffb4-4cf1-4617-b182-c4b78a41bebf\r\nClientRequestId: 0d7fffb4-4cf1-4617-b182-c4b78a41bebf\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": "https://aai-demo-idp.switch.ch/idp/shibboleth",
+    "Email": "pfmeurer+shibboleth1@gmail.com",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "9bZfNA9lyifVmHMFx7OcqCiYkGY=",
+      "IdentityProviderId": "https://aai-demo-idp.switch.ch/idp/shibboleth"
+    },
+    "Key": "alphab2bs1x57xnvu2wh8l122dfmo3frsyg3eqb4lrsd8iz",
+    "FirstName": "Peter",
+    "LastName": "Meurer",
+    "Language": "de",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: A conflicting object with one or more of the specified property values is present in the directory.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:07:11\r\n\trequest-id: 3a658b1a-626e-47a5-8b48-1d2e53e7fd99\r\n\tclient-request-id: 3a658b1a-626e-47a5-8b48-1d2e53e7fd99\r\nClientRequestId: 3a658b1a-626e-47a5-8b48-1d2e53e7fd99\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  }
+]
+2021-09-08 17:15:45.456 +07:00 [ERR] [
+  {
+    "Linked": null,
+    "Provider": "facebook.com",
+    "Email": "107908306762932",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "107908306762932",
+      "IdentityProviderId": "facebook.com"
+    },
+    "Key": null,
+    "FirstName": null,
+    "LastName": null,
+    "Language": "en",
+    "ErrorMessage": "CRM_Migration.Utils.ContactNotFoundException: No Contact found\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 110\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": "facebook.com",
+    "Email": "107908306762932",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "107908306762932",
+      "IdentityProviderId": "facebook.com"
+    },
+    "Key": null,
+    "FirstName": null,
+    "LastName": null,
+    "Language": "en",
+    "ErrorMessage": "CRM_Migration.Utils.ContactNotFoundException: No Contact found\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 110\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "hoangvannguyen@kms-technology.com",
+    "Provider": null,
+    "Email": "hoangvannguyen@kms-technology.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2df7e5c5f320e2099a9c5",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:17:07\r\n\trequest-id: e23010aa-34f2-4d16-be47-30bee62268af\r\n\tclient-request-id: e23010aa-34f2-4d16-be47-30bee62268af\r\nClientRequestId: e23010aa-34f2-4d16-be47-30bee62268af\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "uluru.dev@qsrinternational.com",
+    "Provider": null,
+    "Email": "uluru.dev@qsrinternational.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5a94a818457ecb679c5e294d",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:17:07\r\n\trequest-id: ef7d5798-c46e-47b4-a956-046c42f10ab8\r\n\tclient-request-id: ef7d5798-c46e-47b4-a956-046c42f10ab8\r\nClientRequestId: ef7d5798-c46e-47b4-a956-046c42f10ab8\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "nguyenvanhoang@yopmail.com",
+    "Provider": null,
+    "Email": "nguyenvanhoang@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2e08c5c5f320e2099aa8d",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:17:07\r\n\trequest-id: 772cd225-86dd-4f3c-bb8e-99dd6a023348\r\n\tclient-request-id: 772cd225-86dd-4f3c-bb8e-99dd6a023348\r\nClientRequestId: 772cd225-86dd-4f3c-bb8e-99dd6a023348\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "sfsf@yopmail.com",
+    "Provider": null,
+    "Email": "sfsf@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2ef20ef72150c69a6ac7e",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:17:07\r\n\trequest-id: aa5b8ff8-5ee9-4e52-a393-52369359cdd2\r\n\tclient-request-id: aa5b8ff8-5ee9-4e52-a393-52369359cdd2\r\nClientRequestId: aa5b8ff8-5ee9-4e52-a393-52369359cdd2\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": "https://aai-demo-idp.switch.ch/idp/shibboleth",
+    "Email": "mirko.lugano+test46@gmail.com",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "9bZfNA9lyifVmHMFx7OcqCiYkGY=",
+      "IdentityProviderId": "https://aai-demo-idp.switch.ch/idp/shibboleth"
+    },
+    "Key": "mx1t5nd1iqkquco4cf2jekosasgdyj7uo0rk3zkom0alpha",
+    "FirstName": "m",
+    "LastName": "l",
+    "Language": "de",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: A conflicting object with one or more of the specified property values is present in the directory.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:17:07\r\n\trequest-id: 24f0ae1e-3a7b-460d-bece-f682b5ce1872\r\n\tclient-request-id: 24f0ae1e-3a7b-460d-bece-f682b5ce1872\r\nClientRequestId: 24f0ae1e-3a7b-460d-bece-f682b5ce1872\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "hoang@yopmail.com",
+    "Provider": null,
+    "Email": "hoang@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2f35e5c5f320e2099ba0f",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:17:07\r\n\trequest-id: 4aaf763f-8d2c-49c5-a329-c8608efd7f45\r\n\tclient-request-id: 4aaf763f-8d2c-49c5-a329-c8608efd7f45\r\nClientRequestId: 4aaf763f-8d2c-49c5-a329-c8608efd7f45\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": null,
+    "Email": "138_zxc@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": "138_zxc@yopmail.com",
+    "LinkedAccount": null,
+    "Key": "m0hrkiiacv15x020wk2j2j1s2ce3624ke3utqg4fp4umbtjuf",
+    "FirstName": "138",
+    "LastName": "zxc",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Another object with the same value for property userPrincipalName already exists.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:17:07\r\n\trequest-id: ae955b12-3076-4b21-a3ce-124cb172dcd5\r\n\tclient-request-id: ae955b12-3076-4b21-a3ce-124cb172dcd5\r\nClientRequestId: ae955b12-3076-4b21-a3ce-124cb172dcd5\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  }
+]
+2021-09-08 17:19:25.889 +07:00 [ERR] [
+  {
+    "Linked": null,
+    "Provider": "facebook.com",
+    "Email": "107908306762932",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "107908306762932",
+      "IdentityProviderId": "facebook.com"
+    },
+    "Key": null,
+    "FirstName": null,
+    "LastName": null,
+    "Language": "en",
+    "ErrorMessage": "CRM_Migration.Utils.ContactNotFoundException: No Contact found\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 110\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": "facebook.com",
+    "Email": "107908306762932",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "107908306762932",
+      "IdentityProviderId": "facebook.com"
+    },
+    "Key": null,
+    "FirstName": null,
+    "LastName": null,
+    "Language": "en",
+    "ErrorMessage": "CRM_Migration.Utils.ContactNotFoundException: No Contact found\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 110\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "hoang@yopmail.com",
+    "Provider": null,
+    "Email": "hoang@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2f35e5c5f320e2099ba0f",
+    "FirstName": "AAAAAAAZZ",
+    "LastName": "ZZZZZ",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:20:47\r\n\trequest-id: ba49f653-8c6c-4abf-b0a3-aa7fb29288a5\r\n\tclient-request-id: ba49f653-8c6c-4abf-b0a3-aa7fb29288a5\r\nClientRequestId: ba49f653-8c6c-4abf-b0a3-aa7fb29288a5\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "uluru.dev@qsrinternational.com",
+    "Provider": null,
+    "Email": "uluru.dev@qsrinternational.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5a94a818457ecb679c5e294d",
+    "FirstName": "AAAAAAAZZ",
+    "LastName": "ZZZZZ",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:20:47\r\n\trequest-id: 7c4ca6bb-6778-4fda-b248-919037fc0131\r\n\tclient-request-id: 7c4ca6bb-6778-4fda-b248-919037fc0131\r\nClientRequestId: 7c4ca6bb-6778-4fda-b248-919037fc0131\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "hoangvannguyen@kms-technology.com",
+    "Provider": null,
+    "Email": "hoangvannguyen@kms-technology.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2df7e5c5f320e2099a9c5",
+    "FirstName": "AAAAAAAZZ",
+    "LastName": "ZZZZZ",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:20:47\r\n\trequest-id: e4031ec5-428f-40f9-91a5-1bb5d498162d\r\n\tclient-request-id: e4031ec5-428f-40f9-91a5-1bb5d498162d\r\nClientRequestId: e4031ec5-428f-40f9-91a5-1bb5d498162d\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": null,
+    "Email": "138_zxc@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": "138_zxc@yopmail.com",
+    "LinkedAccount": null,
+    "Key": "ykumx0aca9vwjahvgpodxy6kugp04y9qg3o38g9t",
+    "FirstName": "138",
+    "LastName": "zxc",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Another object with the same value for property userPrincipalName already exists.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:20:47\r\n\trequest-id: 41f9517e-c35c-4b60-b208-bafe8576ab24\r\n\tclient-request-id: 41f9517e-c35c-4b60-b208-bafe8576ab24\r\nClientRequestId: 41f9517e-c35c-4b60-b208-bafe8576ab24\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "nguyenvanhoang@yopmail.com",
+    "Provider": null,
+    "Email": "nguyenvanhoang@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2e08c5c5f320e2099aa8d",
+    "FirstName": "AAAAAAAZZ",
+    "LastName": "ZZZZZ",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:20:47\r\n\trequest-id: e372c722-e9fe-4b87-b0d3-ab6347a78faa\r\n\tclient-request-id: e372c722-e9fe-4b87-b0d3-ab6347a78faa\r\nClientRequestId: e372c722-e9fe-4b87-b0d3-ab6347a78faa\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": "https://aai-demo-idp.switch.ch/idp/shibboleth",
+    "Email": "mirko.lugano+test46@gmail.com",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "9bZfNA9lyifVmHMFx7OcqCiYkGY=",
+      "IdentityProviderId": "https://aai-demo-idp.switch.ch/idp/shibboleth"
+    },
+    "Key": "mx1t5nd1iqkquco4cf2jekosasgdyj7uo0rk3zkom0alpha",
+    "FirstName": "m",
+    "LastName": "l",
+    "Language": "de",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: A conflicting object with one or more of the specified property values is present in the directory.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:20:47\r\n\trequest-id: 63168144-768a-4bd1-8c18-b1fc61bead10\r\n\tclient-request-id: 63168144-768a-4bd1-8c18-b1fc61bead10\r\nClientRequestId: 63168144-768a-4bd1-8c18-b1fc61bead10\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "sfsf@yopmail.com",
+    "Provider": null,
+    "Email": "sfsf@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2ef20ef72150c69a6ac7e",
+    "FirstName": "AAAAAAAZZ",
+    "LastName": "ZZZZZ",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:20:48\r\n\trequest-id: 66ff9de6-5a37-4a38-8ebd-e7f576b4bfea\r\n\tclient-request-id: 66ff9de6-5a37-4a38-8ebd-e7f576b4bfea\r\nClientRequestId: 66ff9de6-5a37-4a38-8ebd-e7f576b4bfea\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  }
+]
+2021-09-08 17:32:28.709 +07:00 [ERR] [
+  {
+    "Linked": null,
+    "Provider": "facebook.com",
+    "Email": "107908306762932",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "107908306762932",
+      "IdentityProviderId": "facebook.com"
+    },
+    "Key": null,
+    "FirstName": null,
+    "LastName": null,
+    "Language": "en",
+    "ErrorMessage": "CRM_Migration.Utils.ContactNotFoundException: No Contact found\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 110\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": "facebook.com",
+    "Email": "107908306762932",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "107908306762932",
+      "IdentityProviderId": "facebook.com"
+    },
+    "Key": null,
+    "FirstName": null,
+    "LastName": null,
+    "Language": "en",
+    "ErrorMessage": "CRM_Migration.Utils.ContactNotFoundException: No Contact found\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 110\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "sfsf@yopmail.com",
+    "Provider": null,
+    "Email": "sfsf@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2ef20ef72150c69a6ac7e",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:33:49\r\n\trequest-id: cf082d30-8faa-4c4e-b02c-113a368943d3\r\n\tclient-request-id: cf082d30-8faa-4c4e-b02c-113a368943d3\r\nClientRequestId: cf082d30-8faa-4c4e-b02c-113a368943d3\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "uluru.dev@qsrinternational.com",
+    "Provider": null,
+    "Email": "uluru.dev@qsrinternational.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5a94a818457ecb679c5e294d",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:33:49\r\n\trequest-id: 7ebff9c8-e1fe-4be0-8294-3ca562f59ee6\r\n\tclient-request-id: 7ebff9c8-e1fe-4be0-8294-3ca562f59ee6\r\nClientRequestId: 7ebff9c8-e1fe-4be0-8294-3ca562f59ee6\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "nguyenvanhoang@yopmail.com",
+    "Provider": null,
+    "Email": "nguyenvanhoang@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2e08c5c5f320e2099aa8d",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:33:49\r\n\trequest-id: 99e7c976-ff3a-4c2e-96ad-8817f319e7c3\r\n\tclient-request-id: 99e7c976-ff3a-4c2e-96ad-8817f319e7c3\r\nClientRequestId: 99e7c976-ff3a-4c2e-96ad-8817f319e7c3\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "hoang@yopmail.com",
+    "Provider": null,
+    "Email": "hoang@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2f35e5c5f320e2099ba0f",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:33:49\r\n\trequest-id: 755b3c2a-3182-44b5-a82e-32a572677b1d\r\n\tclient-request-id: 755b3c2a-3182-44b5-a82e-32a572677b1d\r\nClientRequestId: 755b3c2a-3182-44b5-a82e-32a572677b1d\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "hoangvannguyen@kms-technology.com",
+    "Provider": null,
+    "Email": "hoangvannguyen@kms-technology.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2df7e5c5f320e2099a9c5",
+    "FirstName": "",
+    "LastName": "",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Invalid value specified for property 'givenName' of resource 'User'.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:33:49\r\n\trequest-id: 26972242-996a-4ab3-b948-17629ecd05f0\r\n\tclient-request-id: 26972242-996a-4ab3-b948-17629ecd05f0\r\nClientRequestId: 26972242-996a-4ab3-b948-17629ecd05f0\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": null,
+    "Email": "138_zxc@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": "138_zxc@yopmail.com",
+    "LinkedAccount": null,
+    "Key": "ykumx0aca9vwjahvgpodxy6kugp04y9qg3o38g9t",
+    "FirstName": "138",
+    "LastName": "zxc",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Another object with the same value for property userPrincipalName already exists.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:33:50\r\n\trequest-id: c69dc67c-573f-4406-a6e4-76dd6ec55088\r\n\tclient-request-id: c69dc67c-573f-4406-a6e4-76dd6ec55088\r\nClientRequestId: c69dc67c-573f-4406-a6e4-76dd6ec55088\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": "https://aai-demo-idp.switch.ch/idp/shibboleth",
+    "Email": "pfmeurer+shibboleth1@gmail.com",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "9bZfNA9lyifVmHMFx7OcqCiYkGY=",
+      "IdentityProviderId": "https://aai-demo-idp.switch.ch/idp/shibboleth"
+    },
+    "Key": "alphab2bs1x57xnvu2wh8l122dfmo3frsyg3eqb4lrsd8iz",
+    "FirstName": "Peter",
+    "LastName": "Meurer",
+    "Language": "de",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: A conflicting object with one or more of the specified property values is present in the directory.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T10:33:50\r\n\trequest-id: 4458c9a8-79d2-4cf8-a2b1-1f0c4c54442d\r\n\tclient-request-id: 4458c9a8-79d2-4cf8-a2b1-1f0c4c54442d\r\nClientRequestId: 4458c9a8-79d2-4cf8-a2b1-1f0c4c54442d\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  }
+]
+2021-09-08 18:15:56.801 +07:00 [ERR] [
+  {
+    "Linked": "sfsf@yopmail.com",
+    "Provider": null,
+    "Email": "sfsf@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2ef20ef72150c69a6ac7e",
+    "FirstName": "AAAAXAX",
+    "LastName": "AAAAXAX",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:17:20\r\n\trequest-id: 43814ea5-70da-47b0-bb8f-91dfd5de0317\r\n\tclient-request-id: 43814ea5-70da-47b0-bb8f-91dfd5de0317\r\nClientRequestId: 43814ea5-70da-47b0-bb8f-91dfd5de0317\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "hoang@yopmail.com",
+    "Provider": null,
+    "Email": "hoang@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2f35e5c5f320e2099ba0f",
+    "FirstName": "AAAAXAX",
+    "LastName": "AAAAXAX",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:17:20\r\n\trequest-id: 56770fd8-5abb-440e-9437-76fc2857e43c\r\n\tclient-request-id: 56770fd8-5abb-440e-9437-76fc2857e43c\r\nClientRequestId: 56770fd8-5abb-440e-9437-76fc2857e43c\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "nguyenvanhoang@yopmail.com",
+    "Provider": null,
+    "Email": "nguyenvanhoang@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2e08c5c5f320e2099aa8d",
+    "FirstName": "AAAAXAX",
+    "LastName": "AAAAXAX",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:17:20\r\n\trequest-id: 9c5f0028-4d58-4e2e-a0bd-e72c95fe973f\r\n\tclient-request-id: 9c5f0028-4d58-4e2e-a0bd-e72c95fe973f\r\nClientRequestId: 9c5f0028-4d58-4e2e-a0bd-e72c95fe973f\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "uluru.dev@qsrinternational.com",
+    "Provider": null,
+    "Email": "uluru.dev@qsrinternational.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5a94a818457ecb679c5e294d",
+    "FirstName": "AAAAXAX",
+    "LastName": "AAAAXAX",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:17:20\r\n\trequest-id: 3e45f86e-7c5a-477a-a30b-09ff0375cb80\r\n\tclient-request-id: 3e45f86e-7c5a-477a-a30b-09ff0375cb80\r\nClientRequestId: 3e45f86e-7c5a-477a-a30b-09ff0375cb80\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "hoangvannguyen@kms-technology.com",
+    "Provider": null,
+    "Email": "hoangvannguyen@kms-technology.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2df7e5c5f320e2099a9c5",
+    "FirstName": "AAAAXAX",
+    "LastName": "AAAAXAX",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:17:20\r\n\trequest-id: 2ac34be9-9e7f-4e5f-84ba-4ba2c5fd44eb\r\n\tclient-request-id: 2ac34be9-9e7f-4e5f-84ba-4ba2c5fd44eb\r\nClientRequestId: 2ac34be9-9e7f-4e5f-84ba-4ba2c5fd44eb\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  }
+]
+2021-09-08 18:16:26.185 +07:00 [ERR] [
+  {
+    "Linked": "sfsf@yopmail.com",
+    "Provider": null,
+    "Email": "sfsf@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2ef20ef72150c69a6ac7e",
+    "FirstName": "AAAAXAX",
+    "LastName": "AAAAXAX",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:17:40\r\n\trequest-id: 6a3655ef-1daf-4924-a5d1-234158a5370b\r\n\tclient-request-id: 6a3655ef-1daf-4924-a5d1-234158a5370b\r\nClientRequestId: 6a3655ef-1daf-4924-a5d1-234158a5370b\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "hoang@yopmail.com",
+    "Provider": null,
+    "Email": "hoang@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2f35e5c5f320e2099ba0f",
+    "FirstName": "AAAAXAX",
+    "LastName": "AAAAXAX",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:17:41\r\n\trequest-id: e51584eb-50e3-476b-9ff9-d0db0d469aa5\r\n\tclient-request-id: e51584eb-50e3-476b-9ff9-d0db0d469aa5\r\nClientRequestId: e51584eb-50e3-476b-9ff9-d0db0d469aa5\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "nguyenvanhoang@yopmail.com",
+    "Provider": null,
+    "Email": "nguyenvanhoang@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2e08c5c5f320e2099aa8d",
+    "FirstName": "AAAAXAX",
+    "LastName": "AAAAXAX",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:17:39\r\n\trequest-id: 78177c82-6fca-4cc0-8d55-1b39720e598d\r\n\tclient-request-id: 78177c82-6fca-4cc0-8d55-1b39720e598d\r\nClientRequestId: 78177c82-6fca-4cc0-8d55-1b39720e598d\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "uluru.dev@qsrinternational.com",
+    "Provider": null,
+    "Email": "uluru.dev@qsrinternational.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5a94a818457ecb679c5e294d",
+    "FirstName": "AAAAXAX",
+    "LastName": "AAAAXAX",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:17:39\r\n\trequest-id: 76fdd3a1-1bc2-4f8c-82c5-34bfb8e03f78\r\n\tclient-request-id: 76fdd3a1-1bc2-4f8c-82c5-34bfb8e03f78\r\nClientRequestId: 76fdd3a1-1bc2-4f8c-82c5-34bfb8e03f78\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "hoangvannguyen@kms-technology.com",
+    "Provider": null,
+    "Email": "hoangvannguyen@kms-technology.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2df7e5c5f320e2099a9c5",
+    "FirstName": "AAAAXAX",
+    "LastName": "AAAAXAX",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:17:38\r\n\trequest-id: 62d141e0-dcbf-41cf-accc-2d05a8b9a653\r\n\tclient-request-id: 62d141e0-dcbf-41cf-accc-2d05a8b9a653\r\nClientRequestId: 62d141e0-dcbf-41cf-accc-2d05a8b9a653\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "sfsf@yopmail.com",
+    "Provider": null,
+    "Email": "sfsf@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2ef20ef72150c69a6ac7e",
+    "FirstName": "AAAAXAX",
+    "LastName": "AAAAXAX",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:17:40\r\n\trequest-id: 6a3655ef-1daf-4924-a5d1-234158a5370b\r\n\tclient-request-id: 6a3655ef-1daf-4924-a5d1-234158a5370b\r\nClientRequestId: 6a3655ef-1daf-4924-a5d1-234158a5370b\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "nguyenvanhoang@yopmail.com",
+    "Provider": null,
+    "Email": "nguyenvanhoang@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2e08c5c5f320e2099aa8d",
+    "FirstName": "AAAAXAX",
+    "LastName": "AAAAXAX",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:17:39\r\n\trequest-id: 78177c82-6fca-4cc0-8d55-1b39720e598d\r\n\tclient-request-id: 78177c82-6fca-4cc0-8d55-1b39720e598d\r\nClientRequestId: 78177c82-6fca-4cc0-8d55-1b39720e598d\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "uluru.dev@qsrinternational.com",
+    "Provider": null,
+    "Email": "uluru.dev@qsrinternational.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5a94a818457ecb679c5e294d",
+    "FirstName": "AAAAXAX",
+    "LastName": "AAAAXAX",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:17:39\r\n\trequest-id: 76fdd3a1-1bc2-4f8c-82c5-34bfb8e03f78\r\n\tclient-request-id: 76fdd3a1-1bc2-4f8c-82c5-34bfb8e03f78\r\nClientRequestId: 76fdd3a1-1bc2-4f8c-82c5-34bfb8e03f78\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "hoangvannguyen@kms-technology.com",
+    "Provider": null,
+    "Email": "hoangvannguyen@kms-technology.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2df7e5c5f320e2099a9c5",
+    "FirstName": "AAAAXAX",
+    "LastName": "AAAAXAX",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:17:38\r\n\trequest-id: 62d141e0-dcbf-41cf-accc-2d05a8b9a653\r\n\tclient-request-id: 62d141e0-dcbf-41cf-accc-2d05a8b9a653\r\nClientRequestId: 62d141e0-dcbf-41cf-accc-2d05a8b9a653\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "hoang@yopmail.com",
+    "Provider": null,
+    "Email": "hoang@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2f35e5c5f320e2099ba0f",
+    "FirstName": "AAAAXAX",
+    "LastName": "AAAAXAX",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:17:41\r\n\trequest-id: e51584eb-50e3-476b-9ff9-d0db0d469aa5\r\n\tclient-request-id: e51584eb-50e3-476b-9ff9-d0db0d469aa5\r\nClientRequestId: e51584eb-50e3-476b-9ff9-d0db0d469aa5\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  }
+]
+2021-09-08 18:18:07.425 +07:00 [ERR] [
+  {
+    "Linked": "nguyenvanhoang@yopmail.com",
+    "Provider": null,
+    "Email": "nguyenvanhoang@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2e08c5c5f320e2099aa8d",
+    "FirstName": "AAAAXAX",
+    "LastName": "AAAAXAX",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:19:30\r\n\trequest-id: f248cc17-85cc-4e7c-8723-6cd74d7b7a64\r\n\tclient-request-id: f248cc17-85cc-4e7c-8723-6cd74d7b7a64\r\nClientRequestId: f248cc17-85cc-4e7c-8723-6cd74d7b7a64\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "hoangvannguyen@kms-technology.com",
+    "Provider": null,
+    "Email": "hoangvannguyen@kms-technology.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2df7e5c5f320e2099a9c5",
+    "FirstName": "AAAAXAX",
+    "LastName": "AAAAXAX",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:19:30\r\n\trequest-id: dae27cac-7ae8-4211-9758-8574292b663f\r\n\tclient-request-id: dae27cac-7ae8-4211-9758-8574292b663f\r\nClientRequestId: dae27cac-7ae8-4211-9758-8574292b663f\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "sfsf@yopmail.com",
+    "Provider": null,
+    "Email": "sfsf@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2ef20ef72150c69a6ac7e",
+    "FirstName": "AAAAXAX",
+    "LastName": "AAAAXAX",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:19:30\r\n\trequest-id: 6f790404-81ba-414b-ba1a-8129aee3ad19\r\n\tclient-request-id: 6f790404-81ba-414b-ba1a-8129aee3ad19\r\nClientRequestId: 6f790404-81ba-414b-ba1a-8129aee3ad19\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "hoang@yopmail.com",
+    "Provider": null,
+    "Email": "hoang@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2f35e5c5f320e2099ba0f",
+    "FirstName": "AAAAXAX",
+    "LastName": "AAAAXAX",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:19:31\r\n\trequest-id: 44b335e6-d24d-434b-9bce-366e04a2a028\r\n\tclient-request-id: 44b335e6-d24d-434b-9bce-366e04a2a028\r\nClientRequestId: 44b335e6-d24d-434b-9bce-366e04a2a028\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "uluru.dev@qsrinternational.com",
+    "Provider": null,
+    "Email": "uluru.dev@qsrinternational.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5a94a818457ecb679c5e294d",
+    "FirstName": "AAAAXAX",
+    "LastName": "AAAAXAX",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:19:31\r\n\trequest-id: e4f89cef-61e0-4f33-9a7b-7f6864cd1d72\r\n\tclient-request-id: e4f89cef-61e0-4f33-9a7b-7f6864cd1d72\r\nClientRequestId: e4f89cef-61e0-4f33-9a7b-7f6864cd1d72\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  }
+]
+2021-09-08 18:22:12.429 +07:00 [ERR] [
+  {
+    "Linked": null,
+    "Provider": "facebook.com",
+    "Email": "107908306762932",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "107908306762932",
+      "IdentityProviderId": "facebook.com"
+    },
+    "Key": null,
+    "FirstName": null,
+    "LastName": null,
+    "Language": "en",
+    "ErrorMessage": "CRM_Migration.Utils.ContactNotFoundException: No Contact found\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 110\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": "facebook.com",
+    "Email": "107908306762932",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "107908306762932",
+      "IdentityProviderId": "facebook.com"
+    },
+    "Key": null,
+    "FirstName": null,
+    "LastName": null,
+    "Language": "en",
+    "ErrorMessage": "CRM_Migration.Utils.ContactNotFoundException: No Contact found\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 110\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "uluru.dev@qsrinternational.com",
+    "Provider": null,
+    "Email": "uluru.dev@qsrinternational.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5a94a818457ecb679c5e294d",
+    "FirstName": "AAAAXAX",
+    "LastName": "AAAAXAX",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:23:32\r\n\trequest-id: 5b6d6458-ea22-4afa-9d14-fa97fb93eb3c\r\n\tclient-request-id: 5b6d6458-ea22-4afa-9d14-fa97fb93eb3c\r\nClientRequestId: 5b6d6458-ea22-4afa-9d14-fa97fb93eb3c\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "nguyenvanhoang@yopmail.com",
+    "Provider": null,
+    "Email": "nguyenvanhoang@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2e08c5c5f320e2099aa8d",
+    "FirstName": "AAAAXAX",
+    "LastName": "AAAAXAX",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:23:32\r\n\trequest-id: 0a0bbcc2-4341-45f6-ae76-aa40c5e12da2\r\n\tclient-request-id: 0a0bbcc2-4341-45f6-ae76-aa40c5e12da2\r\nClientRequestId: 0a0bbcc2-4341-45f6-ae76-aa40c5e12da2\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "hoang@yopmail.com",
+    "Provider": null,
+    "Email": "hoang@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2f35e5c5f320e2099ba0f",
+    "FirstName": "AAAAXAX",
+    "LastName": "AAAAXAX",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:23:32\r\n\trequest-id: 22fedb33-90c3-43f2-942e-99776795b266\r\n\tclient-request-id: 22fedb33-90c3-43f2-942e-99776795b266\r\nClientRequestId: 22fedb33-90c3-43f2-942e-99776795b266\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "sfsf@yopmail.com",
+    "Provider": null,
+    "Email": "sfsf@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2ef20ef72150c69a6ac7e",
+    "FirstName": "AAAAXAX",
+    "LastName": "AAAAXAX",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:23:32\r\n\trequest-id: 89c85179-18d9-4542-9134-d572e9385088\r\n\tclient-request-id: 89c85179-18d9-4542-9134-d572e9385088\r\nClientRequestId: 89c85179-18d9-4542-9134-d572e9385088\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": "hoangvannguyen@kms-technology.com",
+    "Provider": null,
+    "Email": "hoangvannguyen@kms-technology.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": null,
+    "Key": "auth0|5ae2df7e5c5f320e2099a9c5",
+    "FirstName": "AAAAXAX",
+    "LastName": "AAAAXAX",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Property accountEnabled value is required but is empty or missing.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:23:32\r\n\trequest-id: f5455802-9009-498d-a26b-3ce5e57409d5\r\n\tclient-request-id: f5455802-9009-498d-a26b-3ce5e57409d5\r\nClientRequestId: f5455802-9009-498d-a26b-3ce5e57409d5\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": null,
+    "Email": "138_zxc@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": "138_zxc@yopmail.com",
+    "LinkedAccount": null,
+    "Key": "m0hrkiiacv15x020wk2j2j1s2ce3624ke3utqg4fp4umbtjuf",
+    "FirstName": "138",
+    "LastName": "zxc",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Another object with the same value for property userPrincipalName already exists.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:23:33\r\n\trequest-id: 2c060900-e20d-47f0-8d4c-d6c1c99b3b44\r\n\tclient-request-id: 2c060900-e20d-47f0-8d4c-d6c1c99b3b44\r\nClientRequestId: 2c060900-e20d-47f0-8d4c-d6c1c99b3b44\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": "https://aai-demo-idp.switch.ch/idp/shibboleth",
+    "Email": "mirko.lugano+test46@gmail.com",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "9bZfNA9lyifVmHMFx7OcqCiYkGY=",
+      "IdentityProviderId": "https://aai-demo-idp.switch.ch/idp/shibboleth"
+    },
+    "Key": "mx1t5nd1iqkquco4cf2jekosasgdyj7uo0rk3zkom0alpha",
+    "FirstName": "m",
+    "LastName": "l",
+    "Language": "de",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: A conflicting object with one or more of the specified property values is present in the directory.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:23:33\r\n\trequest-id: 6c949d8e-7974-4378-954d-ee7041415aed\r\n\tclient-request-id: 6c949d8e-7974-4378-954d-ee7041415aed\r\nClientRequestId: 6c949d8e-7974-4378-954d-ee7041415aed\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  }
+]
+2021-09-08 18:41:24.467 +07:00 [ERR] [
+  {
+    "Linked": null,
+    "Provider": "facebook.com",
+    "Email": "107908306762932",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "107908306762932",
+      "IdentityProviderId": "facebook.com"
+    },
+    "Key": null,
+    "FirstName": null,
+    "LastName": null,
+    "Language": "en",
+    "ErrorMessage": "CRM_Migration.Utils.ContactNotFoundException: No Contact found\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 110\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": "facebook.com",
+    "Email": "107908306762932",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "107908306762932",
+      "IdentityProviderId": "facebook.com"
+    },
+    "Key": null,
+    "FirstName": null,
+    "LastName": null,
+    "Language": "en",
+    "ErrorMessage": "CRM_Migration.Utils.ContactNotFoundException: No Contact found\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 110\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": "https://aai-demo-idp.switch.ch/idp/shibboleth",
+    "Email": "pfmeurer+shibboleth1@gmail.com",
+    "IsVerified": true,
+    "LinkedEmailAccount": null,
+    "LinkedAccount": {
+      "NameIdentifier": "9bZfNA9lyifVmHMFx7OcqCiYkGY=",
+      "IdentityProviderId": "https://aai-demo-idp.switch.ch/idp/shibboleth"
+    },
+    "Key": "alphab2bs1x57xnvu2wh8l122dfmo3frsyg3eqb4lrsd8iz",
+    "FirstName": "Peter",
+    "LastName": "Meurer",
+    "Language": "de",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: A conflicting object with one or more of the specified property values is present in the directory.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:42:47\r\n\trequest-id: 92d08c74-1803-4dc9-b959-4cbc27a2d5be\r\n\tclient-request-id: 92d08c74-1803-4dc9-b959-4cbc27a2d5be\r\nClientRequestId: 92d08c74-1803-4dc9-b959-4cbc27a2d5be\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  },
+  {
+    "Linked": null,
+    "Provider": null,
+    "Email": "138_zxc@yopmail.com",
+    "IsVerified": false,
+    "LinkedEmailAccount": "138_zxc@yopmail.com",
+    "LinkedAccount": null,
+    "Key": "m0hrkiiacv15x020wk2j2j1s2ce3624ke3utqg4fp4umbtjuf",
+    "FirstName": "138",
+    "LastName": "zxc",
+    "Language": "en",
+    "ErrorMessage": "Status Code: BadRequest\r\nMicrosoft.Graph.ServiceException: Code: Request_BadRequest\r\nMessage: Another object with the same value for property userPrincipalName already exists.\r\nInner error:\r\n\tAdditionalData:\r\n\tdate: 2021-09-08T11:42:47\r\n\trequest-id: adf2bd40-e91a-41f5-9d44-36f1f340042d\r\n\tclient-request-id: adf2bd40-e91a-41f5-9d44-36f1f340042d\r\nClientRequestId: adf2bd40-e91a-41f5-9d44-36f1f340042d\r\n\r\n   at Microsoft.Graph.HttpProvider.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at Microsoft.Graph.BaseRequest.SendRequestAsync(Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at Microsoft.Graph.BaseRequest.SendAsync[T](Object serializableObject, CancellationToken cancellationToken, HttpCompletionOption completionOption)\r\n   at CRM_Migration.Services.AzureB2CService.MigrateUserToB2C(CRMUser user) in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 113\r\n   at CRM_Migration.Services.AzureB2CService.<>c__DisplayClass5_0.<<MigrateUser_2>b__0>d.MoveNext() in C:\\Users\\luanly\\Downloads\\CRM_Migration\\CRM_Migration\\Services\\AzureB2CService.cs:line 92"
+  }
+]

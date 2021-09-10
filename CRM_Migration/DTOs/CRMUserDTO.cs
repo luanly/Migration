@@ -1,13 +1,9 @@
 ﻿using CRM_Migration.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CRM_Migration.ViewModels
+namespace CRM_Migration.DTOs
 {
-    public class CRMUserViewModel
+    public class CRMUserDTO
     {
-        public string Linked { get; set; }
         public string Provider { get; set; }
         public string Email { get; set; }
         public bool IsVerified { get; set; }

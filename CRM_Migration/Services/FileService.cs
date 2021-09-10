@@ -1,6 +1,6 @@
 ﻿using CRM_Migration.Models;
 using CRM_Migration.Utils;
-using CRM_Migration.ViewModels;
+using CRM_Migration.DTOs;
 using OfficeOpenXml;
 using System;
 using System.Collections.Generic;
@@ -10,11 +10,51 @@ using System.Windows;
 
 namespace CRM_Migration.Services
 {
-    public static class ExcelService
+    public static class FileService
     {
-        public static IEnumerable<CRMUserViewModel> ReadExcelFile(string filePath)
+        public static List<CRMUserDTO> GetAccountsFromCSV(string filePath)
         {
-            var users = new List<CRMUserViewModel>();
+            var lines = File.ReadAllLines(filePath);
+            var results = new List<CRMUserDTO>();
+
+            foreach (var line in lines[1..^0])
+            {
+                var columns = line.Split(",");
+
+                var linked = columns[0];
+                var email = columns[2];
+                var key = columns[3];
+                var firstName = columns[4] == "" ? null : columns[4];
+                var lastName = columns[5] == "" ? null : columns[5];
+                var language = columns[6];
+
+                if (string.IsNullOrEmpty(linked))
+                {
+                    continue;
+                }
+
+                else
+                {
+                    results.Add(new CRMUserDTO
+                    {
+                        //Maximum length for GivenName and SurName for Azure user is 64
+                        FirstName = firstName?.Length > 64 ? firstName.Substring(0, 63) : firstName,
+                        LastName = lastName?.Length > 64 ? lastName.Substring(0, 63) : lastName,
+
+                        Key = key,
+                        LinkedEmailAccount = linked,
+                        Email = string.IsNullOrEmpty(email) ? linked : email,
+                        Language = string.IsNullOrEmpty(language) ? "en" : language
+                    });
+                }
+            }
+
+            return results;
+        }
+
+        public static IEnumerable<CRMUserDTO> GetAccountsFromExcel(string filePath)
+        {
+            var users = new List<CRMUserDTO>();
             try
             {
                 FileInfo file = new FileInfo(filePath);
@@ -31,6 +71,7 @@ namespace CRM_Migration.Services
                     var lastName = sheet.Cells[r, 9].Value?.ToString();
                     var provider = StringUtil.GetProvider(sheet.Cells[r, 11].Value?.ToString());
                     var language = StringUtil.GetLanguage(sheet.Cells[r, 10].Value?.ToString());
+                    var key = sheet.Cells[r, 7].Value?.ToString();
 
                     if (string.IsNullOrEmpty(linked))
                     {
@@ -39,19 +80,17 @@ namespace CRM_Migration.Services
 
                     else
                     {
-                        users.Add(new CRMUserViewModel
+                        users.Add(new CRMUserDTO
                         {
-                            //Linked = linked,
-
                             LinkedEmailAccount = StringUtil.IsValidEmail(linked) ? linked : null,
-                            LinkedAccount = !StringUtil.IsValidEmail(linked) ? new LinkedAccount { 
+                            LinkedAccount = !StringUtil.IsValidEmail(linked) ? new LinkedAccount
+                            {
                                 IdentityProviderId = provider,
                                 NameIdentifier = linked
                             } : null,
                             Provider = provider,
                             Email = !string.IsNullOrEmpty(contactEmail) ? contactEmail : linked,
-                            IsVerified = sheet.Cells[r, 5].Value?.ToString() == "Yes" || sheet.Cells[r, 5].Value?.ToString() == "Active",
-                            Key = sheet.Cells[r, 7].Value?.ToString(),
+                            Key = key,
 
                             //Maximum length for GivenName and SurName for Azure user is 64
                             FirstName = firstName?.Length > 64 ? firstName.Substring(0, 63) : firstName,
@@ -71,7 +110,8 @@ namespace CRM_Migration.Services
                 return null;
             }
         }
-        public static void WriteExcelFile(string filePath, IList<CRMUserViewModel> records)
+
+        public static void WriteExcelFile(string filePath, IList<CRMUserDTO> records)
         {
             var package = new ExcelPackage();
             var sheet = package.Workbook.Worksheets.Add("Unsuccessful contacts");
@@ -92,7 +132,6 @@ namespace CRM_Migration.Services
 
             foreach (var r in records)
             {
-                sheet.Cells[recordIndex, 1].Value = r.Linked;
                 sheet.Cells[recordIndex, 2].Value = r.Email;
                 sheet.Cells[recordIndex, 3].Value = r.Key;
                 sheet.Cells[recordIndex, 4].Value = r.FirstName;

@@ -1,4 +1,4 @@
-﻿using CRM_Migration.ViewModels;
+﻿using CRM_Migration.DTOs;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,7 +19,7 @@ namespace CRM_Migration.Models
         public string Language { get; set; }
         public string ErrorMessage { get; set; }
         public string AzureObjectId { get; set; }
-        public CRMUserViewModel Select { get; internal set; }
+        public CRMUserDTO Select { get; internal set; }
     }
     public class LinkedAccount
     {

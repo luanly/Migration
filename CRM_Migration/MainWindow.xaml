@@ -5,31 +5,34 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CRM_Migration"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="812" Width="862">
     <Grid>
         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.2*"/>
             <ColumnDefinition />
             <ColumnDefinition />
-            <ColumnDefinition Width="0.5*"/>
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="0.2*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition />
-            <RowDefinition />
-            <RowDefinition />
-            <RowDefinition />
-            <RowDefinition />
-            <RowDefinition />
-            <RowDefinition />
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="0.4*"/>
         </Grid.RowDefinitions>
-        <Button Name="btn_Open" Grid.Column="1" Grid.Row="1" Content="Open" Click="btnOpenFile_Click" />
-        <TextBlock x:Name="txt_Msg" Grid.Column="1" Grid.Row="2" VerticalAlignment="Top"/>
-        <TextBlock x:Name="txt_Msg2" Grid.Column="1" Grid.Row="2" VerticalAlignment="Bottom"/>
-        <Button IsEnabled="False" Name="btn_Migrate" Grid.Column="1" Grid.Row="3" Content="Migrate" Click="btnMigrate_Click" />
-        <TextBox x:Name="txtB_Log" Grid.Column="3" Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="4" TextWrapping="Wrap" AcceptsReturn="True" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" />
+        <Button Name="btn_Open" Command="{Binding OpenCommand}" Grid.Column="1" Grid.Row="1" Content="Open" Margin="10, 0, 10, 10"/>
+        <Button IsEnabled="{Binding HasUsers}" Command="{Binding MigrateCommand}" Name="btn_Migrate" Grid.Column="2" Grid.Row="1" Content="Migrate" Margin="10, 0, 10, 10"/>
+        <TextBlock x:Name="txt_Files" Text="Files " Grid.Column="1" Grid.Row="0" VerticalAlignment="Top" Margin="10,10,89,0"/>
+        <TextBox x:Name="txtB_FilePaths" IsEnabled="False" Text="{Binding OpenedFiles}" Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="5" VerticalAlignment="Top" Margin="44,10,10,0" />
+        <TextBlock x:Name="txt_TotalLbl" Text="Total " Grid.Column="3" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0, 0, 50, 10"/>
+        <TextBlock x:Name="txt_Total" Text="{Binding TotalUsers}" Grid.Column="3" Grid.Row="1" VerticalAlignment="Bottom" Grid.ColumnSpan="1" HorizontalAlignment="Right" Margin="0, 0, 0, 10"/>
+        <DataGrid x:Name="dg_Users" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="3" Grid.RowSpan="1" ItemsSource="{Binding Users}" Margin="0, 15, 0, 0"/>
+        <TextBlock x:Name="txt_TotalErrorLbl" Text="Total Error" Grid.Column="3" Grid.Row="3" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0, 0, 50, 10"/>
+        <TextBlock x:Name="txt_TotalError" Text="{Binding TotalErrorUsers}" Grid.Column="3" Grid.Row="3" VerticalAlignment="Bottom" Grid.ColumnSpan="1" HorizontalAlignment="Right" Margin="0, 0, 0, 10"/>
+        <DataGrid x:Name="dg_ErrorUsers" Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="3" Grid.RowSpan="1" ItemsSource="{Binding ErrorUsers}" Margin="0, 15, 0, 0"/>
+        <TextBox x:Name="txtB_Log" Visibility="Hidden" Grid.Column="3" Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="4" TextWrapping="Wrap" AcceptsReturn="True" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" />
         <TextBlock x:Name="txt_Progress" Grid.Row="5" Grid.Column="3" Grid.ColumnSpan="3" VerticalAlignment="Center"/>
     </Grid>
 </Window>
